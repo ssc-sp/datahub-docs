@@ -1,8 +1,9 @@
-  - [Getting Started Guide](/1---Getting-Started-Guide.md)
-  - [Sign in Instructions](/2---Sign-in-Instructions.md)
-  - [Feature Request Form for SSC DataHub PoC](/3---Feature-Request-Form-for-SSC-DataHub-PoC.md)
-  - [Datahub Data Project](/Datahub-Data-Project.md)
-  - [Management of Project Resources](/Management-of-Project-Resources.md)
+  - Getting Started
+    - [Getting Started Guide](/1---Getting-Started-Guide.md)
+    - [Sign in Instructions](/2---Sign-in-Instructions.md)
+    - [Feature Request Form for SSC DataHub PoC](/3---Feature-Request-Form-for-SSC-DataHub-PoC.md)
+    - [Datahub Data Project](/Datahub-Data-Project.md)
+    - [Management of Project Resources](/Management-of-Project-Resources.md)
   - Architecture Overview
     - [Microservice_Architecture](/Architecture/Microservice_Architecture.md)
     - [Cloud Team Requirement for Running DataHub Terraform](/Cloud-Team-Requirement-for-Running-DataHub-Terraform.md)
@@ -44,7 +45,6 @@
     - [Resourcing Resource Runs](/Resourcing/Resourcing-Resource-Runs.md)
     - [Resourcing Servicing Components](/Resourcing/Resourcing-Servicing-Components.md)
     - [Resourcing Terraform Structures](/Resourcing/Resourcing-Terraform-Structures.md)
-    - [Resourcing_Overview_Sidebar](/Resourcing/Resourcing_Overview_Sidebar.md)
   - [SQL Server Resources](/SQL-Server-Resources.md)
   - [Postgresql Resources](/Postgresql-Resources.md)
   - [User Identity Management (Unclassified scenario)](/User-Identity-Management-(Unclassified-scenario).md)
