@@ -19,6 +19,7 @@
     - [Contributing Overview](/Contributing/Contributing-Overview.md)
     - [Contributing Pull Request](/Contributing/Contributing-Pull-Request.md)
     - [Datahub Artifacts Naming Standards](/Datahub-Artifacts-Naming-Standards.md)
+    - [Authoring new documents](/Contributing/Authoring-Documentation.md)
   - Working with Storage
     - [Datahub AzureStorage](/Datahub-AzureStorage.md)
     - [Use AzCopy to Interact with Azure Storage Account](/Use-AzCopy-to-Interact-with-Azure-Storage-Account.md)
