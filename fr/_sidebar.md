@@ -1,7 +1,54 @@
-# Table of Contents
+[_metadata_: remarks]:- "Automatically translated with DeepL. From: /_sidebar.md"
 
-<!-- Datahub convention is to organize the link label as the folder name -->
+[_(draft documentation, please review)_](/_sidebar.md)
 
-1. [Le Home](Home)
-1. [Le Resourcing Overview](Resourcing-Overview)
-1. [Le Contributing Overview](Contributing-Overview)
+  - Pour commencer
+    - [Guide de démarrage](/fr/1-Guide-de-démarrage.md)
+    - [Instructions d'inscription](/fr/2-Instructions-de-connexion.md)
+    - [Formulaire de demande de fonctionnalité pour le SSC DataHub PoC](/fr/3-Formulaire-de-demande-de-fonctionnalités-pour-le-SSC-DataHub-PoC.md)
+    - [Projet de données Datahub](/fr/Projet-de-données-Datahub.md)
+    - [Gestion des ressources du projet](/fr/Gestion-des-ressources-du-projet.md)
+  - Aperçu de l'architecture
+    - [Microservice_Architecture](/fr/Architecture/Architecture-microservice.md)
+    - [Exigence de l'équipe Cloud pour exécuter DataHub Terraform](/fr/Exigence-de-l'équipe-Cloud-pour-exécuter-DataHub-Terraform.md)
+    - [Options de configuration](/fr/Options-de-configuration.md)
+  - Databricks
+    - [Analyse des données (Databricks)](/fr/Analytique-des-données-Databricks.md)
+    - [FAQ sur les projets d'analyse de données (PROJET)](/fr/FAQ-sur-les-projets-d'analyse-de-données-PROJET.md)
+    - [Guide de l'utilisateur du traitement des données à l'aide de Databricks](/fr/Guide-de-l'utilisateur-du-traitement-des-données-à-l'aide-de-Databricks.md)
+    - [Accès sécurisé Databricks utilisant ADSF Passthrough](/fr/Accès-sécurisé-Databricks-utilisant-ADSF-Passthrough.md)
+    - [Didacticiels sur Databricks et Spark SQL](/fr/Didacticiels-sur-Databricks-et-Spark-SQL.md)
+    - [Ressources Databricks](/fr/Ressources-Databricks.md)
+    - [Accédez à votre compte de stockage dans Databricks](/fr/Accédez-à-votre-compte-de-stockage-dans-Databricks.md)
+  - Aperçu des contributions
+    - [Aperçu des contributions](/fr/Contributing/Aperçu-des-contributions.md)
+    - [Contribution à une demande de retrait](/fr/Contributing/Contribution-à-la-demande-de-tirage.md)
+    - [Normes de nommage des artefacts de Datahub](/fr/Normes-de-nommage-des-artefacts-de-Datahub.md)
+    - [Création de nouveaux documents](/fr/Contributing/Création-de-la-documentation.md)
+  - Travailler avec le stockage
+    - [Datahub AzureStorage](/fr/Datahub-AzureStorage.md)
+    - [Utiliser AzCopy pour interagir avec le compte de stockage Azure](/fr/Utiliser-AzCopy-pour-interagir-avec-le-compte-de-stockage-Azure.md)
+  - Métadonnées
+    - [Métadonnées Datahub](/fr/Métadonnées-Datahub.md)
+    - [DataHub Opendata Publishing API](/fr/DataHub-Opendata-Publishing-API.md)
+  - Embarquement
+    - [Projet de données d'embarquement](/fr/Projet-de-données-d'embarquement.md)
+    - [Projets de données d'embarquement](/fr/Projets-de-données-d'embarquement.md)
+    - [Atterrissage de l'embarquement](/fr/Atterrissage-de-l'embarquement.md)
+    - [Stockage du projet d'embarquement](/fr/Stockage-du-projet-d'embarquement.md)
+    - [Embarquement](/fr/Embarquement.md)
+  - Power BI
+    - [Accessibilité de PowerBI](/fr/Accessibilité-de-PowerBI.md)
+    - [Ressources PowerBI](/fr/Ressources-PowerBI.md)
+  - [Lignes directrices sur les B protégés pour les projets Datahub](/fr/Lignes-directrices-sur-les-B-protégés-pour-les-projets-Datahub.md)
+  - Aperçu des ressources
+    - [Ressourcement d'Azure Storage Blob](/fr/Resourcing/Ressourcement-d'Azure-Storage-Blob.md)
+    - [Ressourcement des files d'attente de messages](/fr/Resourcing/Ressourcement-des-files-d'attente-de-messages.md)
+    - [Modèle de ressourcement d'un nouveau projet](/fr/Resourcing/Modèle-de-ressourcement-d'un-nouveau-projet.md)
+    - [Aperçu des ressources](/fr/Resourcing/Aperçu-des-ressources.md)
+    - [Ressourcement Runs des ressources](/fr/Resourcing/Ressourcement-Runs-des-ressources.md)
+    - [Composants du service de ressourcement](/fr/Resourcing/Composants-du-service-de-ressourcement.md)
+    - [Ressourcement des structures de Terraform](/fr/Resourcing/Ressourcement-des-structures-de-Terraform.md)
+  - [Ressources SQL Server](/fr/Ressources-SQL-Server.md)
+  - [Ressources Postgresql](/fr/Ressources-Postgresql.md)
+  - [Gestion de l'identité des utilisateurs (scénario non classifié)](/fr/Gestion-de-l'identité-des-utilisateurs-Scénario-non-classifié.md)
