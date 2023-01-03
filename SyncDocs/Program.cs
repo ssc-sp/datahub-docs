@@ -19,14 +19,20 @@ var deeplKey = config.GetSection("DeepL").GetValue<string>("Key") ?? "";
 // get the source path
 var sourcePath = args.Length == 1 ? args[0] : "./";
 
+// file name cache
+var fileNameCache = new FileNameCache(Path.Combine(sourcePath, configParams.Target, "filenamecache.json"));
+
 // translation service
 var translationService = new TranslationService(sourcePath, deeplKey);
 
 // replication service
-var replicationService = new ReplicationService(configParams, sourcePath, translationService);
+var replicationService = new ReplicationService(configParams, sourcePath, translationService, fileNameCache);
 
 // iterate the provided source folder
 await IteratePath(sourcePath, BuildExcluder(configParams), replicationService);
+
+// save translation cache
+fileNameCache.SaveChanges();
 
 // END
 
