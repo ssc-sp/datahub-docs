@@ -1,0 +1,257 @@
+[
+  {
+    "Id": "fcdbca0b-f80e-4a65-8609-5c9b5b2ed473",
+    "En": "/Architecture/Microservice_Architecture.md",
+    "Fr": "/fr/Architecture/Architecture-microservice.md"
+  },
+  {
+    "Id": "dd2a09b8-bc87-414c-b8e7-bb378a042d8b",
+    "En": "/Contributing/Authoring-Documentation.md",
+    "Fr": "/fr/Contributing/Cr\u00E9ation-de-la-documentation.md"
+  },
+  {
+    "Id": "4a542997-8170-4351-a340-b70e311356ca",
+    "En": "/Contributing/Contributing-Overview.md",
+    "Fr": "/fr/Contributing/Aper\u00E7u-des-contributions.md"
+  },
+  {
+    "Id": "f6d28e5c-8fa8-46a2-887e-abf61b71772c",
+    "En": "/Contributing/Contributing-Pull-Request.md",
+    "Fr": "/fr/Contributing/Contribution-\u00E0-la-demande-de-tirage.md"
+  },
+  {
+    "Id": "cf8a69f9-cd46-4dfe-92de-a0b4a21ae98a",
+    "En": "/Contributing/_Sidebar.md",
+    "Fr": "/fr/Contributing/_Sidebar.md"
+  },
+  {
+    "Id": "beacf505-65e0-4a33-9d8b-7d91896da3f0",
+    "En": "/Resourcing/Resourcing-Azure-Storage-Blob.md",
+    "Fr": "/fr/Resourcing/Ressourcement-d\u0027Azure-Storage-Blob.md"
+  },
+  {
+    "Id": "63985c8b-4b33-43ad-a2fa-dedb76a51506",
+    "En": "/Resourcing/Resourcing-Message-Queues.md",
+    "Fr": "/fr/Resourcing/Ressourcement-des-files-d\u0027attente-de-messages.md"
+  },
+  {
+    "Id": "5873d216-1f02-4a22-a5b3-2de4543b89c6",
+    "En": "/Resourcing/Resourcing-New-Project-Template.md",
+    "Fr": "/fr/Resourcing/Mod\u00E8le-de-ressourcement-d\u0027un-nouveau-projet.md"
+  },
+  {
+    "Id": "ce98d579-160f-48b4-b586-d8f3e09341fd",
+    "En": "/Resourcing/Resourcing-Overview.md",
+    "Fr": "/fr/Resourcing/Aper\u00E7u-des-ressources.md"
+  },
+  {
+    "Id": "e689235d-d01d-4e7a-bb5f-7ca1d6762458",
+    "En": "/Resourcing/Resourcing-Resource-Runs.md",
+    "Fr": "/fr/Resourcing/Ressourcement-Runs-des-ressources.md"
+  },
+  {
+    "Id": "64ffe3a1-ce5e-45bc-ab62-bcbc0cca448c",
+    "En": "/Resourcing/Resourcing-Servicing-Components.md",
+    "Fr": "/fr/Resourcing/Composants-du-service-de-ressourcement.md"
+  },
+  {
+    "Id": "33b86112-829c-4d82-b1af-292ed2be8284",
+    "En": "/Resourcing/Resourcing-Terraform-Structures.md",
+    "Fr": "/fr/Resourcing/Ressourcement-des-structures-de-Terraform.md"
+  },
+  {
+    "Id": "0fd1fa89-5922-44dd-852a-07b8a37d4677",
+    "En": "/Resourcing/Resourcing_Overview_Sidebar.md",
+    "Fr": "/fr/Resourcing/Aper\u00E7u-des-ressources.md"
+  },
+  {
+    "Id": "c6db6523-7734-45c4-a82e-5ad1250fa95c",
+    "En": "/1---Getting-Started-Guide.md",
+    "Fr": "/fr/1-Guide-de-d\u00E9marrage.md"
+  },
+  {
+    "Id": "7b8c29ab-57e5-43ec-ba82-7aa8394f8fa0",
+    "En": "/2---Sign-in-Instructions.md",
+    "Fr": "/fr/2-Instructions-de-connexion.md"
+  },
+  {
+    "Id": "55f59f68-12bd-42aa-b440-a635afc17f65",
+    "En": "/3---Feature-Request-Form-for-SSC-DataHub-PoC.md",
+    "Fr": "/fr/3-Formulaire-de-demande-de-fonctionnalit\u00E9s-pour-le-SSC-DataHub-PoC.md"
+  },
+  {
+    "Id": "a2703f78-ae7c-4a55-be6b-71d778214809",
+    "En": "/Access-your-storage-account-in-Databricks.md",
+    "Fr": "/fr/Acc\u00E9dez-\u00E0-votre-compte-de-stockage-dans-Databricks.md"
+  },
+  {
+    "Id": "7757fce8-2248-4d5b-ba74-6ae51f16185c",
+    "En": "/Active-Resources-in-Data-Projects.md",
+    "Fr": "/fr/Ressources-actives-dans-les-projets-de-donn\u00E9es.md"
+  },
+  {
+    "Id": "2889cdf1-1e9b-4128-a3ce-d1d745fa9f27",
+    "En": "/Cloud-Team-Requirement-for-Running-DataHub-Terraform.md",
+    "Fr": "/fr/Exigence-de-l\u0027\u00E9quipe-Cloud-pour-ex\u00E9cuter-DataHub-Terraform.md"
+  },
+  {
+    "Id": "3277e516-3ebd-4a1d-acac-156446116b31",
+    "En": "/Configuration-options.md",
+    "Fr": "/fr/Options-de-configuration.md"
+  },
+  {
+    "Id": "c5a6e9ca-55fe-4cc1-b268-ec0847b97929",
+    "En": "/Data-Analytics-(Databricks).md",
+    "Fr": "/fr/Analytique-des-donn\u00E9es-Databricks.md"
+  },
+  {
+    "Id": "7cad3384-8e35-4b07-bb2d-996ca29fd49c",
+    "En": "/Data-Analytics-Projects---FAQ-(DRAFT).md",
+    "Fr": "/fr/FAQ-sur-les-projets-d\u0027analyse-de-donn\u00E9es-PROJET.md"
+  },
+  {
+    "Id": "6a9acfb5-ed5b-4c26-866c-eb7571054376",
+    "En": "/Data-Processing-using-Databricks---User-Guide.md",
+    "Fr": "/fr/Guide-de-l\u0027utilisateur-du-traitement-des-donn\u00E9es-\u00E0-l\u0027aide-de-Databricks.md"
+  },
+  {
+    "Id": "86d3b396-e365-4fc3-be19-42971cdab75c",
+    "En": "/Databricks---Secure-Access-using-ADSF-Passthrough.md",
+    "Fr": "/fr/Acc\u00E8s-s\u00E9curis\u00E9-Databricks-utilisant-ADSF-Passthrough.md"
+  },
+  {
+    "Id": "377bc7b1-9898-4c46-a435-3d2c99506118",
+    "En": "/Databricks-and-Spark-SQL-tutorials.md",
+    "Fr": "/fr/Didacticiels-sur-Databricks-et-Spark-SQL.md"
+  },
+  {
+    "Id": "6d909320-37b0-44ce-9208-353ac55e9d72",
+    "En": "/Databricks-Resources.md",
+    "Fr": "/fr/Ressources-Databricks.md"
+  },
+  {
+    "Id": "0ab94c6d-ecf9-4b6e-ba42-b86ed8405ed2",
+    "En": "/Datahub-Artifacts-Naming-Standards.md",
+    "Fr": "/fr/Normes-de-nommage-des-artefacts-de-Datahub.md"
+  },
+  {
+    "Id": "3f90e1d3-a772-40f4-b3fd-ced0b894f41a",
+    "En": "/Datahub-AzureStorage.md",
+    "Fr": "/fr/Datahub-AzureStorage.md"
+  },
+  {
+    "Id": "d99ce10d-2c79-429e-b424-c9b8d288b266",
+    "En": "/Datahub-Data-Project.md",
+    "Fr": "/fr/Projet-de-donn\u00E9es-Datahub.md"
+  },
+  {
+    "Id": "730225c3-9bbd-4a1a-9920-1753ffa1cb3b",
+    "En": "/Datahub-Metadata.md",
+    "Fr": "/fr/M\u00E9tadonn\u00E9es-Datahub.md"
+  },
+  {
+    "Id": "8d26f342-e865-43a9-a54e-f977adfb363c",
+    "En": "/DataHub-Opendata-Publishing-API.md",
+    "Fr": "/fr/DataHub-Opendata-Publishing-API.md"
+  },
+  {
+    "Id": "ff8337bc-0649-48b1-9524-f2693954b94b",
+    "En": "/English-Resourcing-Overview-Test.md.md",
+    "Fr": "/fr/Aper\u00E7u-de-l\u0027anglais-Resourcing-Test-md.md"
+  },
+  {
+    "Id": "226bbb3e-6cf8-46e0-8066-fe68d93e0304",
+    "En": "/Home.md",
+    "Fr": "/fr/Accueil.md"
+  },
+  {
+    "Id": "5bdc6766-7010-4697-a996-8035cda407c7",
+    "En": "/Landing.md",
+    "Fr": "/fr/Atterrissage.md"
+  },
+  {
+    "Id": "6533c808-84bf-40b0-9a97-4152a25c9e72",
+    "En": "/Management-of-Project-Resources.md",
+    "Fr": "/fr/Gestion-des-ressources-du-projet.md"
+  },
+  {
+    "Id": "98e2bb96-3ee2-424c-bd37-20f767c751c2",
+    "En": "/Onboarding---Data-Project.md",
+    "Fr": "/fr/Projet-de-donn\u00E9es-d\u0027embarquement.md"
+  },
+  {
+    "Id": "50000723-8f4f-491b-ab16-19e3115fac88",
+    "En": "/Onboarding---Data-Projects.md",
+    "Fr": "/fr/Projets-de-donn\u00E9es-d\u0027embarquement.md"
+  },
+  {
+    "Id": "abf360c0-f8b9-47d0-a5e0-3c04edb27b32",
+    "En": "/Onboarding---Landing.md",
+    "Fr": "/fr/Atterrissage-de-l\u0027embarquement.md"
+  },
+  {
+    "Id": "ce9ff82f-750b-43d8-a640-cf98af630eee",
+    "En": "/Onboarding---Project-Storage.md",
+    "Fr": "/fr/Stockage-du-projet-d\u0027embarquement.md"
+  },
+  {
+    "Id": "a91bba06-eee7-444e-aca8-51d80960b1a5",
+    "En": "/Onboarding.md",
+    "Fr": "/fr/Embarquement.md"
+  },
+  {
+    "Id": "42250b19-42f3-4db8-aefb-0a49f7a68216",
+    "En": "/Postgresql-Resources.md",
+    "Fr": "/fr/Ressources-Postgresql.md"
+  },
+  {
+    "Id": "a7e8c405-1509-42bd-84f5-c6d2686dda0b",
+    "En": "/PowerBI-Accessibility.md",
+    "Fr": "/fr/Accessibilit\u00E9-de-PowerBI.md"
+  },
+  {
+    "Id": "d901ecde-7746-4560-a339-dcae39a6904b",
+    "En": "/PowerBI-Resources.md",
+    "Fr": "/fr/Ressources-PowerBI.md"
+  },
+  {
+    "Id": "9202fd2b-e215-4511-9f3b-3f425a5b9db8",
+    "En": "/Protected-B-Guidelines-for-Datahub-Projects.md",
+    "Fr": "/fr/Lignes-directrices-sur-les-B-prot\u00E9g\u00E9s-pour-les-projets-Datahub.md"
+  },
+  {
+    "Id": "40b051b6-9853-413b-bd4e-e21b13677f41",
+    "En": "/README.md",
+    "Fr": "/fr/README.md"
+  },
+  {
+    "Id": "d6fdb4c4-5e85-439c-b829-221b3a3146cf",
+    "En": "/Scopus-Dataset.md",
+    "Fr": "/fr/Base-de-donn\u00E9es-Scopus.md"
+  },
+  {
+    "Id": "dce63a74-6cbd-4587-905c-7f83b25dc50d",
+    "En": "/SQL-Server-Resources.md",
+    "Fr": "/fr/Ressources-SQL-Server.md"
+  },
+  {
+    "Id": "6d42d1ae-fba5-4477-ac11-fa2b1a810469",
+    "En": "/Use-AzCopy-to-Interact-with-Azure-Storage-Account.md",
+    "Fr": "/fr/Utiliser-AzCopy-pour-interagir-avec-le-compte-de-stockage-Azure.md"
+  },
+  {
+    "Id": "d49d6210-e1ee-4c3f-a217-4c31dec18f30",
+    "En": "/User-Identity-Management-(Unclassified-scenario).md",
+    "Fr": "/fr/Gestion-de-l\u0027identit\u00E9-des-utilisateurs-Sc\u00E9nario-non-classifi\u00E9.md"
+  },
+  {
+    "Id": "8fde2299-8b15-4e70-9688-8678242db005",
+    "En": "/_navbar.md",
+    "Fr": "/fr/_navbar.md"
+  },
+  {
+    "Id": "c0a40635-fe24-4bfb-884e-481ad13d418c",
+    "En": "/_sidebar.md",
+    "Fr": "/fr/_sidebar.md"
+  }
+]
