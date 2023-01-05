@@ -1,6 +1,6 @@
 [_metadata_: remarks]:- "Automatically translated with DeepL. From: /2---Sign-in-Instructions.md"
 
-[_(draft documentation, please review)_](/2---Sign-in-Instructions.md)
+[_(REVIEW)_](/2---Sign-in-Instructions.md)
 
 # Utilisateur avec un compte GC
 Vous recevrez une invitation par courriel de la part de l'équipe SSC Cloud pour créer votre compte. Suivez les instructions incluses dans le courriel. L'adresse électronique de l'expéditeur dans le corps du courriel sera celle du domaine ** @ssc-spc.gc.ca.**.
