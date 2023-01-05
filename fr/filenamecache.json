@@ -190,5 +190,9 @@
   {
     "English": "Microservice_Architecture.md",
     "French": "Architecture-microservice.md"
+  },
+  {
+    "English": "Overall_Architecture.md",
+    "French": "Architecture-globale.md"
   }
 ]
