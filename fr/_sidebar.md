@@ -1,7 +1,5 @@
 [_metadata_: remarks]:- "Automatically translated with DeepL. From: /_sidebar.md"
 
-[_(draft documentation, please review)_](/_sidebar.md)
-
   - Pour commencer
     - [Guide de démarrage](/fr/1-Guide-de-démarrage.md)
     - [Instructions d'inscription](/fr/2-Instructions-de-connexion.md)
