@@ -7,7 +7,7 @@
     - [Projet de données Datahub](/fr/Projet-de-données-Datahub.md)
     - [Gestion des ressources du projet](/fr/Gestion-des-ressources-du-projet.md)
   - Aperçu de l'architecture
-    - [Microservice_Architecture](/fr/Architecture/Architecture-microservice.md)
+    - [Architecture technique](/fr/Architecture/Architecture-globale.md)
     - [Exigence de l'équipe Cloud pour exécuter DataHub Terraform](/fr/Exigence-de-l'équipe-Cloud-pour-exécuter-DataHub-Terraform.md)
     - [Options de configuration](/fr/Options-de-configuration.md)
   - Databricks
