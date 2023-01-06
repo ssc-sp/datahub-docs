@@ -8,6 +8,7 @@ The following requirements must be met outside this Terraform code in advance. S
 3. Created a new AAD group using naming convention `fsdh-group-dba-dev` for DBA users (e.g. dev is for DEV). This group will be assigned as the DBA for Azure managed databases.
 4. Created a separate storage account in a dedicated resource group for storing Terraform backend state. Grant the contributor role to the admin group;
 5. Created a new app registration (e.g. fsdh-app-dev) for the Datahub Portal App and created a client secret. The app registration must have ID token enabled and have the following permissions:
+## Table
      |Permission | Type | Granted Through|
      |--|--|--|
      |User.Read | Delegated | Admin consent|
