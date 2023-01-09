@@ -1,18 +1,18 @@
 # Components and Concepts
 
 * What is it? Federal Science DataHub PoC #1  SSC DataHub – Enterprise Capabilities   
+* Why a “datahub”? To enable storing and sharing of science data in a cloud environment to reduce barriers to collaboration. 
+* What are the technical components? 
 
-* Why a “datahub”?
-To enable storing and sharing of science data in a cloud environment to reduce barriers to collaboration. 
-
-* What are the technical components?
 ![image](https://user-images.githubusercontent.com/99416857/153501468-b81d0f0d-2010-4f92-b5c7-91b6fc5b8d41.png)
 
 
 # Video Tutorial
+
 A [DataHub Video Tutorial - AzCopy focus](https://dhdemosand.blob.core.windows.net/datahub/Data%20Sharing%20Tutorial.mp4?sv=2020-10-02&st=2022-02-09T20%3A22%3A12Z&se=2023-02-10T20%3A22%3A00Z&sr=b&sp=r&sig=OeNPrxbhVMshileL39VKre%2FQBBYfUae5gz1M%2Fsyo3JY%3D) has been created to walk users through the steps to upload files using **AzCopy**.
 
 # Proof-of-Concept Evaluation
+
 You will be provided PoC evaluation online forms at sprint intervals and asked to complete the evaluation by the date provided by the Data Solutions team.
 
 # Access/Sign-in
