@@ -48,3 +48,12 @@
   - [SQL Server Resources](/SQL-Server-Resources.md)
   - [Postgresql Resources](/Postgresql-Resources.md)
   - [User Identity Management (Unclassified scenario)](/User-Identity-Management-(Unclassified-scenario).md)
+- Platform Documention
+  - Azure
+    - [Storage Limits](/Platform/Azure/Storage_Limits.md)
+  - Contributing
+    - [Contributing Overview](/Platform/Contributing/Contributing-Overview.md)
+    - [Authoring Documentation](/Platform/Contributing/Authoring-Documentation.md)
+    - [Pull Requests](/Platform/Contributing/Contributing-Pull-Request.md)
+  - Testing
+    - [Automated End to End testing](/Platform/Testing/EndToEnd.md)
