@@ -1,0 +1,198 @@
+[
+  {
+    "English": "Authoring-Documentation.md",
+    "French": "Cr\u00E9ation-de-la-documentation.md"
+  },
+  {
+    "English": "Contributing-Overview.md",
+    "French": "Aper\u00E7u-des-contributions.md"
+  },
+  {
+    "English": "Contributing-Pull-Request.md",
+    "French": "Contribution-\u00E0-la-demande-de-tirage.md"
+  },
+  {
+    "English": "Resourcing-Azure-Storage-Blob.md",
+    "French": "Ressourcement-d\u0027Azure-Storage-Blob.md"
+  },
+  {
+    "English": "Resourcing-Message-Queues.md",
+    "French": "Ressourcement-des-files-d\u0027attente-de-messages.md"
+  },
+  {
+    "English": "Resourcing-New-Project-Template.md",
+    "French": "Mod\u00E8le-de-ressourcement-d\u0027un-nouveau-projet.md"
+  },
+  {
+    "English": "Resourcing-Overview.md",
+    "French": "Aper\u00E7u-des-ressources.md"
+  },
+  {
+    "English": "Resourcing-Resource-Runs.md",
+    "French": "Ressourcement-Runs-des-ressources.md"
+  },
+  {
+    "English": "Resourcing-Servicing-Components.md",
+    "French": "Composants-du-service-de-ressourcement.md"
+  },
+  {
+    "English": "Resourcing-Terraform-Structures.md",
+    "French": "Ressourcement-des-structures-de-Terraform.md"
+  },
+  {
+    "English": "Resourcing_Overview_Sidebar.md",
+    "French": "Aper\u00E7u-des-ressources.md"
+  },
+  {
+    "English": "1---Getting-Started-Guide.md",
+    "French": "1-Guide-de-d\u00E9marrage.md"
+  },
+  {
+    "English": "2---Sign-in-Instructions.md",
+    "French": "2-Instructions-de-connexion.md"
+  },
+  {
+    "English": "3---Feature-Request-Form-for-SSC-DataHub-PoC.md",
+    "French": "3-Formulaire-de-demande-de-fonctionnalit\u00E9s-pour-le-SSC-DataHub-PoC.md"
+  },
+  {
+    "English": "Access-your-storage-account-in-Databricks.md",
+    "French": "Acc\u00E9dez-\u00E0-votre-compte-de-stockage-dans-Databricks.md"
+  },
+  {
+    "English": "Active-Resources-in-Data-Projects.md",
+    "French": "Ressources-actives-dans-les-projets-de-donn\u00E9es.md"
+  },
+  {
+    "English": "Cloud-Team-Requirement-for-Running-DataHub-Terraform.md",
+    "French": "Exigence-de-l\u0027\u00E9quipe-Cloud-pour-ex\u00E9cuter-DataHub-Terraform.md"
+  },
+  {
+    "English": "Configuration-options.md",
+    "French": "Options-de-configuration.md"
+  },
+  {
+    "English": "Data-Analytics-(Databricks).md",
+    "French": "Analytique-des-donn\u00E9es-Databricks.md"
+  },
+  {
+    "English": "Data-Analytics-Projects---FAQ-(DRAFT).md",
+    "French": "FAQ-sur-les-projets-d\u0027analyse-de-donn\u00E9es-PROJET.md"
+  },
+  {
+    "English": "Data-Processing-using-Databricks---User-Guide.md",
+    "French": "Guide-de-l\u0027utilisateur-du-traitement-des-donn\u00E9es-\u00E0-l\u0027aide-de-Databricks.md"
+  },
+  {
+    "English": "Databricks---Secure-Access-using-ADSF-Passthrough.md",
+    "French": "Acc\u00E8s-s\u00E9curis\u00E9-Databricks-utilisant-ADSF-Passthrough.md"
+  },
+  {
+    "English": "Databricks-and-Spark-SQL-tutorials.md",
+    "French": "Didacticiels-sur-Databricks-et-Spark-SQL.md"
+  },
+  {
+    "English": "Databricks-Resources.md",
+    "French": "Ressources-Databricks.md"
+  },
+  {
+    "English": "Datahub-Artifacts-Naming-Standards.md",
+    "French": "Normes-de-nommage-des-artefacts-de-Datahub.md"
+  },
+  {
+    "English": "Datahub-AzureStorage.md",
+    "French": "Datahub-AzureStorage.md"
+  },
+  {
+    "English": "Datahub-Data-Project.md",
+    "French": "Projet-de-donn\u00E9es-Datahub.md"
+  },
+  {
+    "English": "Datahub-Metadata.md",
+    "French": "M\u00E9tadonn\u00E9es-Datahub.md"
+  },
+  {
+    "English": "DataHub-Opendata-Publishing-API.md",
+    "French": "DataHub-Opendata-Publishing-API.md"
+  },
+  {
+    "English": "English-Resourcing-Overview-Test.md.md",
+    "French": "Aper\u00E7u-de-l\u0027anglais-Resourcing-Test-md.md"
+  },
+  {
+    "English": "Home.md",
+    "French": "Accueil.md"
+  },
+  {
+    "English": "Landing.md",
+    "French": "Atterrissage.md"
+  },
+  {
+    "English": "Management-of-Project-Resources.md",
+    "French": "Gestion-des-ressources-du-projet.md"
+  },
+  {
+    "English": "Onboarding---Data-Project.md",
+    "French": "Projet-de-donn\u00E9es-d\u0027embarquement.md"
+  },
+  {
+    "English": "Onboarding---Data-Projects.md",
+    "French": "Projets-de-donn\u00E9es-d\u0027embarquement.md"
+  },
+  {
+    "English": "Onboarding---Landing.md",
+    "French": "Atterrissage-de-l\u0027embarquement.md"
+  },
+  {
+    "English": "Onboarding---Project-Storage.md",
+    "French": "Stockage-du-projet-d\u0027embarquement.md"
+  },
+  {
+    "English": "Onboarding.md",
+    "French": "Embarquement.md"
+  },
+  {
+    "English": "Postgresql-Resources.md",
+    "French": "Ressources-Postgresql.md"
+  },
+  {
+    "English": "PowerBI-Accessibility.md",
+    "French": "Accessibilit\u00E9-de-PowerBI.md"
+  },
+  {
+    "English": "PowerBI-Resources.md",
+    "French": "Ressources-PowerBI.md"
+  },
+  {
+    "English": "Protected-B-Guidelines-for-Datahub-Projects.md",
+    "French": "Lignes-directrices-sur-les-B-prot\u00E9g\u00E9s-pour-les-projets-Datahub.md"
+  },
+  {
+    "English": "README.md",
+    "French": "README.md"
+  },
+  {
+    "English": "Scopus-Dataset.md",
+    "French": "Base-de-donn\u00E9es-Scopus.md"
+  },
+  {
+    "English": "SQL-Server-Resources.md",
+    "French": "Ressources-SQL-Server.md"
+  },
+  {
+    "English": "Use-AzCopy-to-Interact-with-Azure-Storage-Account.md",
+    "French": "Utiliser-AzCopy-pour-interagir-avec-le-compte-de-stockage-Azure.md"
+  },
+  {
+    "English": "User-Identity-Management-(Unclassified-scenario).md",
+    "French": "Gestion-de-l\u0027identit\u00E9-des-utilisateurs-Sc\u00E9nario-non-classifi\u00E9.md"
+  },
+  {
+    "English": "Microservice_Architecture.md",
+    "French": "Architecture-microservice.md"
+  },
+  {
+    "English": "Overall_Architecture.md",
+    "French": "Architecture-globale.md"
+  }
+]

@@ -5,7 +5,7 @@
     - [Datahub Data Project](/Datahub-Data-Project.md)
     - [Management of Project Resources](/Management-of-Project-Resources.md)
   - Architecture Overview
-    - [Microservice_Architecture](/Architecture/Microservice_Architecture.md)
+    - [Technical Architecture](/Architecture/Overall_Architecture.md)
     - [Cloud Team Requirement for Running DataHub Terraform](/Cloud-Team-Requirement-for-Running-DataHub-Terraform.md)
     - [Configuration options](/Configuration-options.md)
   - Databricks
