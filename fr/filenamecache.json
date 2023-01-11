@@ -194,5 +194,13 @@
   {
     "English": "Overall_Architecture.md",
     "French": "Architecture-globale.md"
+  },
+  {
+    "English": "Storage_Limits.md",
+    "French": "Limites-de-stockage.md"
+  },
+  {
+    "English": "EndToEnd.md",
+    "French": "EndToEnd.md"
   }
 ]
