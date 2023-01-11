@@ -1,10 +1,12 @@
 # Overview of Storage Alerts
 
-## Failsafe with 110% usage
+## Failsafe with 110% usage or 110% budget based
 
 Azure Action groups will be used to lock or disable the account. Leverage the alert system.
 
-Needs to be investigated
+Possible actions:
+- Disable storage account (? remove/rotate keys?)
+- Make account read only (could still incur egress)
 
 Failsafe can implemented in Terraform See [Azure Metric Alert](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/monitor_metric_alert)
 
