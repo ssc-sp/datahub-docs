@@ -18,7 +18,7 @@ Email warnings will be sent to the users at the following thresholds:
 
 A separate function _storage monitor_ will be triggered on a daily basis, leverage the existing service principal authentication to the Azure API to capture the overall storage capacity for each storage account.
 
-The output will be stored in the portal database.
+The output will be stored in the portal database in table azure_storage_capacity
 
 ## Email notifications
 
