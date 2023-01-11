@@ -6,6 +6,7 @@ Azure Action groups will be used to lock or disable the account. Leverage the al
 
 Possible actions:
 - Disable storage account (? remove/rotate keys?)
+- Remove users from ACL?
 - Make account read only (could still incur egress)
 
 Failsafe can implemented in Terraform See [Azure Metric Alert](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/monitor_metric_alert)
