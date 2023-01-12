@@ -35,3 +35,19 @@ flowchart TD
     D[Access pages]
 
 ```
+
+## Resources
+
+[Daemon app that calls web APIs](https://learn.microsoft.com/en-us/azure/active-directory/develop/scenario-daemon-app-registration)
+
+[Service Principal authentication](https://learn.microsoft.com/en-us/azure/developer/java/sdk/identity-service-principal-auth)
+
+[Blazor custom AuthenticationStateProvider](https://learn.microsoft.com/en-us/aspnet/core/blazor/security/server/?view=aspnetcore-7.0&tabs=visual-studio)
+
+[Call Web API from Daemon](https://learn.microsoft.com/en-us/azure/active-directory/develop/scenario-daemon-call-api?tabs=dotnet)
+
+[Add roles to applications](https://learn.microsoft.com/en-us/azure/active-directory/develop/howto-add-app-roles-in-azure-ad-apps#declare-roles-for-an-application)
+
+[Implement RBAC for applications](https://learn.microsoft.com/en-us/azure/active-directory/develop/howto-implement-rbac-for-apps)
+
+[Protected Web API Registration](https://learn.microsoft.com/en-us/azure/active-directory/develop/scenario-protected-web-api-app-registration#if-your-web-api-is-called-by-a-service-or-daemon-app)
