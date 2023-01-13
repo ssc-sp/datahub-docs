@@ -1,3 +1,7 @@
+---
+onProfileExclude: nrcan
+---
+
 # User with GC account 
 1.	You will receive an email invitation from the SSC cloud team to initiate your account. Follow the instructions included in the email. The sender email address in the body of the email will be from the ** @ssc-spc.gc.ca domain.**
  

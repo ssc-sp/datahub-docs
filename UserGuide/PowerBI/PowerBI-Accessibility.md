@@ -1,3 +1,7 @@
+---
+onProfileExclude: ssc
+---
+
 # PowerBI Accessibility Guidelines
 
 ## Built in Accessibility Features that Require no Configuration

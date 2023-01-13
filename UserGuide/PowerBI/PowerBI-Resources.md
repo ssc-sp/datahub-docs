@@ -1,3 +1,7 @@
+---
+onProfileExclude: ssc
+---
+
 # PowerBI Resources
 
 PowerBI is a SaaS service from Microsoft that provides Business Intelligence and Analytics. The service includes:
