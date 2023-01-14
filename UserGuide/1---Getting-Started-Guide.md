@@ -1,9 +1,5 @@
 # Components and Concepts
 
-* What is it? Federal Science DataHub PoC #1  SSC DataHub – Enterprise Capabilities   
-* Why a “datahub”? To enable storing and sharing of science data in a cloud environment to reduce barriers to collaboration. 
-* What are the technical components? 
-
 ![image](https://user-images.githubusercontent.com/99416857/153501468-b81d0f0d-2010-4f92-b5c7-91b6fc5b8d41.png)
 
 

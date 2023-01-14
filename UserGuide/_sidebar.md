@@ -28,14 +28,10 @@
 - [Onboarding Project Storage](/UserGuide/Onboarding---Project-Storage.md)
 - [Onboarding](/UserGuide/Onboarding.md)
 - PowerBI
-
-  - [PowerBI Accessibility](/UserGuide/PowerBI/PowerBI-Accessibility.md)
-  - [PowerBI Resources](/UserGuide/PowerBI/PowerBI-Resources.md)
-
 - [Protected B Guidelines for Datahub Projects](/UserGuide/Protected-B-Guidelines-for-Datahub-Projects.md)
 - Storage
 
   - [Datahub Azure storage](/Storage/Datahub-AzureStorage.md)
-  - [Use Az copy to Interact with Azure Storage Account](/Storage/Use-AzCopy-to-Interact-with-Azure-Storage-Account.md)
+  - [Use AzCopy to Interact with Azure Storage Account](/Storage/Use-AzCopy-to-Interact-with-Azure-Storage-Account.md)
 
 

@@ -10,7 +10,6 @@
 
 - Contributing
 
-  - [Sidebar](/DeveloperGuide/Contributing/_Sidebar.md)
   - [Authoring Documentation](/DeveloperGuide/Contributing/Authoring-Documentation.md)
   - [Contributing Overview](/DeveloperGuide/Contributing/Contributing-Overview.md)
   - [Contributing Pull Request](/DeveloperGuide/Contributing/Contributing-Pull-Request.md)

@@ -6,11 +6,11 @@ onProfileExclude: ssc
 
 ## Built in Accessibility Features that Require no Configuration
 
-<...>
+TBD
 
 ## Keyboard Navigation
 
-<...>
+TBD
 
 ## Power BI Service
 After opening up a Power BI Report, press question mark (?) to open up keyboard shortcuts
