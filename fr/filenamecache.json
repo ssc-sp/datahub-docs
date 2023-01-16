@@ -202,5 +202,9 @@
   {
     "English": "EndToEnd.md",
     "French": "EndToEnd.md"
+  },
+  {
+    "English": "Localization.md",
+    "French": "Localisation.md"
   }
 ]
