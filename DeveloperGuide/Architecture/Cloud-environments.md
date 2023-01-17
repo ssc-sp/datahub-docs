@@ -4,12 +4,12 @@ To facilitate the lifecycle of a project, the DataHub solution can be deployed t
 
 | Name |  ID | Purpose | Always On | CI/CD | Functional Testing | Automated Testing | Performance Testing |
 | ---- | :-: | ------- | :-------: | :---: | :----------------: | :---------------: | :-----------------: |
-| Development | dev | For dev team | x | x || x | |
-| Engineering | eng | For infrastructure and security development and testing | | | | | |
-| Integration | int | For Integration testing | x| x| x|x | | 
-| Training | trn | User training | | | | | | 
-| Pre-prod | prp | Pre-production and production issue fix | | | | | x | 
-| Production | prd | Live environment | x | | | | |  
+| Development | `dev` | For dev team | ✅ | ✅ || ✅ | |
+| Engineering | `eng` | For infrastructure and security development and testing | | | | | |
+| Integration | `int` | For Integration testing | ✅ | ✅ | ✅ | ✅ | | 
+| Training | `trn` | User training | | | | | | 
+| Pre-prod | `prp` | Pre-production and production issue fix | | | | | ✅ | 
+| Production | `prd` | Live environment | ✅ | | | | |  
 
  
 
