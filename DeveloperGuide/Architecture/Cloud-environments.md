@@ -8,7 +8,7 @@ To facilitate the lifecycle of a project, the DataHub solution can be deployed t
 | Engineering | `eng` | For infrastructure and security development and testing | | | | | |
 | Integration | `int` | For Integration testing | ✅ | ✅ | ✅ | ✅ | | 
 | Training | `trn` | User training | | | | | | 
-| Pre-prod | `prp` | Pre-production and production issue fix | | | | | ✅ | 
+|Staging | `stg` | Pre-production and production issue fix | | | | | ✅ | 
 | Production | `prd` | Live environment | ✅ | | | | |  
 
  
