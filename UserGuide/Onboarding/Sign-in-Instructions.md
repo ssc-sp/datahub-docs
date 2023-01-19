@@ -1,5 +1,5 @@
 ---
-onProfileExclude: nrcan
+onProfileInclude: ssc
 ---
 
 # User with GC account 

@@ -1,22 +1,15 @@
-# Components and Concepts
+# Welcome
 
-![image](https://user-images.githubusercontent.com/99416857/153501468-b81d0f0d-2010-4f92-b5c7-91b6fc5b8d41.png)
-
-
-# Video Tutorial
-
-A [DataHub Video Tutorial - AzCopy focus](https://dhdemosand.blob.core.windows.net/datahub/Data%20Sharing%20Tutorial.mp4?sv=2020-10-02&st=2022-02-09T20%3A22%3A12Z&se=2023-02-10T20%3A22%3A00Z&sr=b&sp=r&sig=OeNPrxbhVMshileL39VKre%2FQBBYfUae5gz1M%2Fsyo3JY%3D) has been created to walk users through the steps to upload files using **AzCopy**.
-
-# Proof-of-Concept Evaluation
+## Proof-of-Concept Evaluation
 
 You will be provided PoC evaluation online forms at sprint intervals and asked to complete the evaluation by the date provided by the Data Solutions team.
 
-# Access/Sign-in
+## Access/Sign-in
 You must have been onboarded to the environment by the SSC team before you can access the DataHub. If you have not been advised that you are onboarded, please contact the [Data Solutions team](mailto:datasolutions-solutiondedonnees@ssc-spc.gc.ca) for further details.
 
 See **[Sign-in Instructions](https://github.com/ssc-sp/datahub-portal/wiki/Sign-in-Instructions)** for detailed instructions on accessing the SSC DataHub.
 
-# DataHub Landing Page
+## DataHub Landing Page
  
 Start at the SSC Datahub Landing Page: https://datahub-test.scienceprogram.cloud/
 
@@ -38,8 +31,7 @@ If you do not have access to the project you have been assigned, click on the **
 **Review Project Toolset**
 
 * **Project Storage**: Access the storage account for this project to upload, download and share datasets with all project members. (An Azure Storage Account is assigned to the project by the DataHub admin team).
-* _**Azure Databricks**:  Run your Python, R and SQL notebooks in the cloud with Databricks for analytics, machine learning and data pipelines. (This will be enabled at later points in the PoC)._
-* **Postgres SQL**: Access the project PostgreSQL database and leverage your credentials for data connections.
+* **Azure Databricks**:  Run your Python, R and SQL notebooks in the cloud with Databricks for analytics, machine learning and data pipelines. (
 
 ## 2. Store and Share data
 

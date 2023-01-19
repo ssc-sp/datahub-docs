@@ -1,3 +1,7 @@
+---
+onProfileInclude: nrcan
+---
+
 # Databricks
 
 ## Hive tables vs SQL Server and Cosmos DB.
