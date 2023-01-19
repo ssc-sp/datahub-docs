@@ -1,19 +1,12 @@
 # User Guide to DataHub
 
-## What are the portal capabilities?
-
-### Landing & Shortcuts
-
-The DataHub landing pages provides instant jump lists to let users access their recent tools, and also the storage, Power BI and databricks areas associated with their account. The DataHub landing has saved many users from navigation exhaustion in the Power BI & Databricks menus.
-
-### Data Projects
+## Data Projects
 
 The DataHub makes it easy for multiple teams, labs or users to get access to Storage, Databases, Data Science and Analytical tools:
 
 - Storage accounts: A Data Project includes a storage explorer to upload/download files with a friendly user interface.
 - Databricks integration: The Data Project has a direct link to Databricks workspaces and also simplifies the mounting of the storage account for the notebooks
 - Power BI integration: The integration implements NRCan's governance model and connects users directly to their workspaces and key reports.
-- SQL Server: A SQL Server can be associated to a project and the connection details will be directly available to the users.
 - PostgreSQL: Postgresql servers can also be linked and the project tools can generate the associated Azure token for integrated authentication.
 - Data Sharing: A simple workflow lets users select a file, and request data sharing (see Data Sharing for more details)
 - User onboarding: Project administrators can invite other users to their project(s)
@@ -40,7 +33,7 @@ The portal includes a data entry framework that leverages Entity Framework, flue
 
 ## Technology
 
-The Web Portal is developed in .NET 6 and uses Blazor and ASP.Net core and several other open source libraries. The portal can run on Windows, Linux and can be deployed in any cloud environment. The styling leverages SCSS to modularize the CSS settings.
+The Web Portal is developed in .NET 7 and uses Blazor and ASP.Net core and several other open source libraries. The portal can run on Windows, Linux and can be deployed in any cloud environment. The styling leverages SCSS to modularize the CSS settings.
 
 ## Extensibility & Configuration
 
