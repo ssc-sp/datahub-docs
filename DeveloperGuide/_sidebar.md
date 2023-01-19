@@ -1,5 +1,6 @@
 - Architecture
 
+  - [Cloud environments](/DeveloperGuide/Architecture/Cloud-environments.md)
   - [Cloud Team Requirement for Running Data hub Terraform](/DeveloperGuide/Architecture/Cloud-Team-Requirement-for-Running-DataHub-Terraform.md)
   - [Microservice Architecture](/DeveloperGuide/Architecture/Microservice_Architecture.md)
   - [Overall Architecture](/DeveloperGuide/Architecture/Overall_Architecture.md)
@@ -8,11 +9,20 @@
 
   - [Storage Limits](/DeveloperGuide/Azure/Storage_Limits.md)
 
+- [Configuration options](/DeveloperGuide/Configuration-options.md)
 - Contributing
 
   - [Authoring Documentation](/DeveloperGuide/Contributing/Authoring-Documentation.md)
   - [Contributing Overview](/DeveloperGuide/Contributing/Contributing-Overview.md)
   - [Contributing Pull Request](/DeveloperGuide/Contributing/Contributing-Pull-Request.md)
+
+- Localization
+
+  - [Localization](/DeveloperGuide/Localization/Localization.md)
+
+- Publishing
+
+  - [Data hub Opendata Publishing API](/DeveloperGuide/Publishing/DataHub-Opendata-Publishing-API.md)
 
 - Resourcing
 
