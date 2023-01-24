@@ -1,16 +1,17 @@
-# Next Step Overview
+# Current State Overview
 
 ```mermaid
 flowchart LR
     B[Blazor]
     N[Notification Service]
+    E[Email Service]
     I[Identity Service]
     U[User Service]
     P[Project Service]
     C[Costing Service]
     Re[Reporting Service]
     R[Resource Provisioner]
-    M{{Message Queue}}
+    M{{Message Queues}}
 
 
     B <--> |OAuth| I
@@ -23,6 +24,7 @@ flowchart LR
     B --> M
 
     R <--> M
+    E <--> M
 
     subgraph Datahub Portal
         B
@@ -45,6 +47,7 @@ flowchart LR
 flowchart LR
     B[Blazor]
     N[Notification Service]
+    E[Email Service]
     I[Identity Service]
     U[User Service]
     P[Project Service]
@@ -58,10 +61,13 @@ flowchart LR
     B <--> |API| P
     B <--> |API| N
     B <--> |API| C
+    B <--> |API| E
+    B <--> |API| R
 
     B --> M
 
     R <--> M
+    E <--> M
     P <--> M
     U <--> M
     N <--> M
@@ -79,6 +85,7 @@ flowchart LR
             R
             N
             C
+            E
         end
     end
 
