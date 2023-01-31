@@ -206,5 +206,33 @@
   {
     "English": "Localization.md",
     "French": "Localisation.md"
+  },
+  {
+    "English": "Data-Project.md",
+    "French": "Projet-de-donn\u00E9es.md"
+  },
+  {
+    "English": "Project-Storage.md",
+    "French": "Stockage-du-projet.md"
+  },
+  {
+    "English": "Email-Service.md",
+    "French": "Service-de-messagerie.md"
+  },
+  {
+    "English": "Cloud-environments.md",
+    "French": "Environnements-en-nuage.md"
+  },
+  {
+    "English": "Sign-in-Instructions.md",
+    "French": "Instructions-d\u0027inscription.md"
+  },
+  {
+    "English": "Feature-Request-Form-for-SSC-DataHub-PoC.md",
+    "French": "Formulaire-de-demande-de-fonctionnalit\u00E9-pour-le-SSC-DataHub-PoC.md"
+  },
+  {
+    "English": "Getting-Started.md",
+    "French": "Pour-commencer.md"
   }
 ]
