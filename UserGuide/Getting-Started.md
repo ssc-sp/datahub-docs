@@ -1,5 +1,7 @@
 # Welcome
 
+Thanks for signing up to the Shared Services Canada DataHub.
+
 ## Proof-of-Concept Evaluation
 
 You will be provided PoC evaluation online forms at sprint intervals and asked to complete the evaluation by the date provided by the Data Solutions team.
