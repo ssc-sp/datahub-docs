@@ -1,9 +1,5 @@
 - [Getting Started](/UserGuide/Getting-Started-SSC.md)
 
-- Databases
-  - [Postgresql Resources](/UserGuide/Databases/Postgresql-Resources.md)
-  - [SQL Server Resources](/UserGuide/Databases/SQL-Server-Resources.md)
-
 - Databricks
   - [Access your storage account in Databricks](/UserGuide/Databricks/Access-your-storage-account-in-Databricks.md)
   - [Data Processing using Databricks User Guide](/UserGuide/Databricks/Data-Processing-using-Databricks---User-Guide.md)
@@ -25,14 +21,11 @@
   - [Sign in Instructions](/UserGuide/Onboarding/Sign-in-Instructions.md)
   - [Feature Request Form](/UserGuide/Feature-Request-Form-for-SSC-DataHub-PoC.md)
 
-- PowerBI
-
 - Projects
   - [Active Resources in Data Projects](/UserGuide/Projects/Active-Resources-in-Data-Projects.md)
   - [Data Analytics Projects FAQ (DRAFT)](/UserGuide/Projects/Data-Analytics-Projects---FAQ-(DRAFT).md)
   - [Datahub Data Project](/UserGuide/Projects/Datahub-Data-Project.md)
 
-- Sensitive data
 - Storage
   - [Datahub Azure storage](/UserGuide/Storage/Datahub-AzureStorage.md)
   - [Use AzCopy to Interact with Azure Storage Account](/UserGuide/Storage/Use-AzCopy-to-Interact-with-Azure-Storage-Account.md)
