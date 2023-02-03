@@ -1,4 +1,3 @@
-- [Feature Request Form for SSC Data hub PoC](/UserGuide/Feature-Request-Form-for-SSC-DataHub-PoC.md)
 - [Getting Started](/UserGuide/Getting-Started-SSC.md)
 
 - Databases
@@ -24,6 +23,7 @@
   - [Onboarding Project Storage](/UserGuide/Onboarding/Onboarding---Project-Storage.md)
   - [Onboarding](/UserGuide/Onboarding/Onboarding.md)
   - [Sign in Instructions](/UserGuide/Onboarding/Sign-in-Instructions.md)
+  - [Feature Request Form](/UserGuide/Feature-Request-Form-for-SSC-DataHub-PoC.md)
 
 - PowerBI
 
