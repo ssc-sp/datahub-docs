@@ -17,7 +17,7 @@ Le service de messagerie est un microservice qui est responsable de l'envoi de c
 
 Le format du message pour la file d'attente `email` est le suivant :
 
-```json
+```
 {
     "à" : Liste<string>,
     "sujet" : String,
@@ -26,7 +26,7 @@ Le format du message pour la file d'attente `email` est le suivant :
     // Facultatif
     "cc" : Liste<string>,
     "bcc" : Liste<string>,
-    "pièces jointes" : List<string> // à envoyer sous forme de chaînes codées en base64
+    "pièces jointes" : Liste<string> // à envoyer sous forme de chaînes codées en base64
 
 
     "template" : String // si le modèle est défini, le corps sera ignoré et le modèle sera utilisé à la place.

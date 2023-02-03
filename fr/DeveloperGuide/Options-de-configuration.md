@@ -23,7 +23,7 @@ Ces paramètres sont utilisés pour s'intégrer à PowerBI afin de générer le 
 - **OpenDataApprovalPdfBaseUrl** : L'URL de base du formulaire d'approbation PowerBI. Par exemple, https\://app.powerbi.com/groups/[groupId]/rdlreports/[reportId].
 - **OpenDataApprovalPdfFormIdParam** : Le paramètre utilisé pour spécifier l'ID du formulaire d'approbation. À ce jour, le rapport utilise le paramètre "rp:p_approval_form_id".
 - **PublicFileSharingDomain** : Le domaine utilisé pour les URLs partagées publiquement.
-- **OpenDataApproverName** : Le nom de la personne ou de la boîte aux lettres qui approuve les demandes de partage de données ouvertes.
+- **OpenDataApproverName** : Le nom de la personne ou de la boîte aux lettres approuvant les demandes de partage de données ouvertes.
 - **OpenDataApproverEmail** : Courriel de la personne ou de la boîte aux lettres approuvant les demandes de partage de données ouvertes.
 
 ## HttpLogging

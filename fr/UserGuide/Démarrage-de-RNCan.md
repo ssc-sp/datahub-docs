@@ -1,26 +1,28 @@
-[_metadata_: remarks]:- "Automatically translated with DeepL. From: /UserGuide/1---Getting-Started-Guide.md"
+---
+remarks: Automatically translated with DeepL
+source: /UserGuide/Getting-Started-NRCAN.md
+---
 
-[_(draft documentation, please review)_](/UserGuide/1---Getting-Started-Guide.md)
+_(draft documentation, please review)_
 
-# Composants et concepts
+---
+onProfileInclude : nrcan
+---
 
-![image](https://user-images.githubusercontent.com/99416857/153501468-b81d0f0d-2010-4f92-b5c7-91b6fc5b8d41.png)
+# Welcome
 
+Merci de vous être inscrit au DataHub de Services partagés Canada.
 
-# Tutoriel vidéo
-
-Un [DataHub Video Tutorial - AzCopy focus] (https://dhdemosand.blob.core.windows.net/datahub/Data%20Sharing%20Tutorial.mp4?sv=2020-10-02&st=2022-02-09T20%3A22%3A12Z&se=2023-02-10T20%3A22%3A00Z&sr=b&sp=r&sig=OeNPrxbhVMshileL39VKre%2FQBBYfUae5gz1M%2Fsyo3JY%3D) a été créé pour guider les utilisateurs à travers les étapes du téléchargement de fichiers à l'aide de **AzCopy**.
-
-# Évaluation de la preuve de concept
+## Évaluation de la preuve de concept
 
 Vous recevrez des formulaires en ligne d'évaluation du PoC à intervalles réguliers et vous devrez les remplir avant la date indiquée par l'équipe Data Solutions.
 
-# Accès/Inscription
+## Accès/Inscription
 Vous devez avoir été intégré à l'environnement par l'équipe SSC avant de pouvoir accéder au DataHub. Si vous n'avez pas été informé de votre intégration, veuillez contacter [l'équipe Data Solutions] (mailto:datasolutions-solutiondedonnees@ssc-spc.gc.ca) pour plus de détails.
 
 Voir **[Sign-in Instructions](https://github.com/ssc-sp/datahub-portal/wiki/Sign-in-Instructions)** pour des instructions détaillées sur l'accès au SSC DataHub.
 
-# Page d'accueil de DataHub
+## Page d'accueil de DataHub
 
 Commencez par la page d'accueil du SSC Datahub : https://datahub-test.scienceprogram.cloud/
 
@@ -42,8 +44,7 @@ Si vous n'avez pas accès au projet qui vous a été attribué, cliquez sur le b
 **Review Project Toolset**
 
 * **Stockage du projet** : Accédez au compte de stockage de ce projet pour charger, télécharger et partager des ensembles de données avec tous les membres du projet. (Un compte de stockage Azure est attribué au projet par l'équipe d'administration de DataHub).
-* _**Azure Databricks** :  Exécutez vos carnets Python, R et SQL dans le cloud avec Databricks pour l'analyse, l'apprentissage automatique et les pipelines de données. (Cette fonctionnalité sera activée ultérieurement dans le cadre de la démonstration de faisabilité).
-* **Postgres SQL** : Accédez à la base de données PostgreSQL du projet et utilisez vos informations d'identification pour les connexions de données.
+**Azure Databricks** :  Exécutez vos carnets Python, R et SQL dans le cloud avec Databricks pour l'analyse, l'apprentissage automatique et les pipelines de données. (
 
 ## 2. Stocker et partager des données
 
@@ -98,7 +99,7 @@ Commencer l'évaluation des capacités actuelles de la preuve de concept du SSC 
 **2. Quelles sont les capacités à évaluer?** Stockage en nuage, partage, collaboration sur ordinateur portable
 
 **3. Où vivent les données ?
-Le cloud Azure de SSC - hébergé au Canada.
+Azure Cloud de SSC - hébergé au Canada.
 
 **4. Que vont devenir les données à la fin du PoC ?
 Les options sont détruire ou migrer vers un autre environnement spécifié par l'utilisateur.
