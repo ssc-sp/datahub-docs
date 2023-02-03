@@ -15,16 +15,11 @@
 - Onboarding
 
   - [Data Project](/UserGuide/Onboarding/Data-Project.md)
-  - [Onboarding Landing](/UserGuide/Onboarding/Onboarding---Landing.md)
-  - [Onboarding Project Storage](/UserGuide/Onboarding/Onboarding---Project-Storage.md)
-  - [Onboarding](/UserGuide/Onboarding/Onboarding.md)
   - [Sign in Instructions](/UserGuide/Onboarding/Sign-in-Instructions.md)
   - [Feature Request Form](/UserGuide/Feature-Request-Form-for-SSC-DataHub-PoC.md)
 
 - Projects
   - [Active Resources in Data Projects](/UserGuide/Projects/Active-Resources-in-Data-Projects.md)
-  - [Data Analytics Projects FAQ (DRAFT)](/UserGuide/Projects/Data-Analytics-Projects---FAQ-(DRAFT).md)
-  - [Datahub Data Project](/UserGuide/Projects/Datahub-Data-Project.md)
 
 - Storage
   - [Datahub Azure storage](/UserGuide/Storage/Datahub-AzureStorage.md)
