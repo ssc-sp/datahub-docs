@@ -10,7 +10,7 @@ The Email Service is a microservice that is responsible for sending emails to us
 
 The message format for the `email` queue is as follows:
 
-```json
+```
 {
     "to": List<string>,
     "subject": String,

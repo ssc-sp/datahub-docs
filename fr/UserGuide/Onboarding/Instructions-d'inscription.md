@@ -1,9 +1,12 @@
-[_metadata_: remarks]:- "Automatically translated with DeepL. From: /UserGuide/2---Sign-in-Instructions.md"
+---
+remarks: Automatically translated with DeepL
+source: /UserGuide/Onboarding/Sign-in-Instructions.md
+---
 
-[_(draft documentation, please review)_](/UserGuide/2---Sign-in-Instructions.md)
+_(draft documentation, please review)_
 
 ---
-onProfileExclude : nrcan
+onProfileInclude : ssc
 ---
 
 # Utilisateur avec un compte GC

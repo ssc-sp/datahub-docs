@@ -1,6 +1,9 @@
-[_metadata_: remarks]:- "Automatically translated with DeepL. From: /UserGuide/Data-Analytics-Projects---FAQ-(DRAFT).md"
+---
+remarks: Automatically translated with DeepL
+source: /UserGuide/Projects/Data-Analytics-Projects---FAQ-(DRAFT).md
+---
 
-[_(draft documentation, please review)_](/UserGuide/Data-Analytics-Projects---FAQ-(DRAFT).md)
+_(draft documentation, please review)_
 
 
 **Quels sont les outils et services disponibles dans Datahub que je peux utiliser pour mon projet d'analyse de données ?

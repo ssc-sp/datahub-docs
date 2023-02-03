@@ -1,4 +1,10 @@
+---
+onProfileInclude: nrcan
+---
+
 # Welcome
+
+Thanks for signing up to the Shared Services Canada DataHub.
 
 ## Proof-of-Concept Evaluation
 

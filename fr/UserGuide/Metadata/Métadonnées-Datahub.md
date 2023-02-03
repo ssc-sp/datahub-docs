@@ -1,6 +1,9 @@
-[_metadata_: remarks]:- "Automatically translated with DeepL. From: /UserGuide/Datahub-Metadata.md"
+---
+remarks: Automatically translated with DeepL
+source: /UserGuide/Metadata/Datahub-Metadata.md
+---
 
-[_(draft documentation, please review)_](/UserGuide/Datahub-Metadata.md)
+_(draft documentation, please review)_
 
 # Métadonnées
 

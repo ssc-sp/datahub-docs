@@ -1,6 +1,9 @@
-[_metadata_: remarks]:- "Automatically translated with DeepL. From: /UserGuide/Onboarding---Landing.md"
+---
+remarks: Automatically translated with DeepL
+source: /UserGuide/Onboarding/Onboarding---Landing.md
+---
 
-[_(draft documentation, please review)_](/UserGuide/Onboarding---Landing.md)
+_(draft documentation, please review)_
 
 ## Qu'est-ce que le DataHub ?
 
