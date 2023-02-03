@@ -1,6 +1,13 @@
-[_metadata_: remarks]:- "Automatically translated with DeepL. From: /UserGuide/Protected-B-Guidelines-for-Datahub-Projects.md"
+---
+remarks: Automatically translated with DeepL
+source: /UserGuide/SensitiveData/Protected-B-Guidelines-for-Datahub-Projects.md
+---
 
-[_(draft documentation, please review)_](/UserGuide/Protected-B-Guidelines-for-Datahub-Projects.md)
+_(draft documentation, please review)_
+
+---
+onProfileInclude : nrcan
+---
 
 # Databricks
 

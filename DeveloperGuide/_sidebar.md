@@ -4,6 +4,10 @@
   - [Cloud Team Requirement for Running Data hub Terraform](/DeveloperGuide/Architecture/Cloud-Team-Requirement-for-Running-DataHub-Terraform.md)
   - [Microservice Architecture](/DeveloperGuide/Architecture/Microservice_Architecture.md)
   - [Overall Architecture](/DeveloperGuide/Architecture/Overall_Architecture.md)
+  - Services
+
+    - [Email Service](/DeveloperGuide/Architecture/Services/Email-Service.md)
+
 
 - Azure
 

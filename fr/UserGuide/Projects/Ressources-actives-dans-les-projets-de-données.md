@@ -1,6 +1,9 @@
-[_metadata_: remarks]:- "Automatically translated with DeepL. From: /UserGuide/Active-Resources-in-Data-Projects.md"
+---
+remarks: Automatically translated with DeepL
+source: /UserGuide/Projects/Active-Resources-in-Data-Projects.md
+---
 
-[_(draft documentation, please review)_](/UserGuide/Active-Resources-in-Data-Projects.md)
+_(draft documentation, please review)_
 
 # Objectif
 

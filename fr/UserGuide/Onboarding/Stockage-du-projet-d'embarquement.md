@@ -1,6 +1,9 @@
-[_metadata_: remarks]:- "Automatically translated with DeepL. From: /UserGuide/Onboarding---Project-Storage.md"
+---
+remarks: Automatically translated with DeepL
+source: /UserGuide/Onboarding/Onboarding---Project-Storage.md
+---
 
-[_(draft documentation, please review)_](/UserGuide/Onboarding---Project-Storage.md)
+_(draft documentation, please review)_
 
 ## Storage Explorer
 

@@ -1,9 +1,12 @@
-[_metadata_: remarks]:- "Automatically translated with DeepL. From: /UserGuide/Data-Processing-using-Databricks---User-Guide.md"
+---
+remarks: Automatically translated with DeepL
+source: /UserGuide/Databricks/Data-Processing-using-Databricks---User-Guide.md
+---
 
-[_(draft documentation, please review)_](/UserGuide/Data-Processing-using-Databricks---User-Guide.md)
+_(draft documentation, please review)_
 
 
-Veuillez noter que le langage de programmation utilisé pour ce guide de l'utilisateur est principalement Python. Toutefois, vous pouvez consulter le site Web fourni sous chaque section pour des exemples utilisant d'autres langages tels que Scala et R.
+Veuillez noter que le langage de programmation utilisé pour ce guide de l'utilisateur est principalement Python. Cependant, vous pouvez visiter le site Web fourni sous chaque section pour des exemples utilisant d'autres langages tels que Scala et R.
 
 ## Accéder aux fichiers du stockage Data Lake et les charger dans un dataframe spark.
 

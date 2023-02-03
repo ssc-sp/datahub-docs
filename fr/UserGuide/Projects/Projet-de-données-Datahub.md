@@ -1,6 +1,9 @@
-[_metadata_: remarks]:- "Automatically translated with DeepL. From: /UserGuide/Datahub-Data-Project.md"
+---
+remarks: Automatically translated with DeepL
+source: /UserGuide/Projects/Datahub-Data-Project.md
+---
 
-[_(draft documentation, please review)_](/UserGuide/Datahub-Data-Project.md)
+_(draft documentation, please review)_
 
 # Projet de données DataHub
 
