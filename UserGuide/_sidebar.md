@@ -9,8 +9,7 @@
   - [Scopus Dataset](/UserGuide/Databricks/Scopus-Dataset.md)
 
 - Metadata
-  - [Datahub Metadata](/UserGuide/Metadata/Datahub-Metadata.md)
-  - [Workspace Profile](/UserGuide/Metadata/Workspace_Profile.md)
+    - [Workspace Profile](/UserGuide/Metadata/Workspace_Profile.md)
 
 - Onboarding
 
