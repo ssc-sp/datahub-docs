@@ -1,4 +1,4 @@
-- [Data Project](/Banners/Data-Project.md)
-- [Landing](/Banners/Landing.md)
-- [Project Storage](/Banners/Project-Storage.md)
+- [Worksapce](/Banners/Data-Project.md)
+- [Landing page](/Banners/Landing.md)
+- [Workspace Storage](/Banners/Project-Storage.md)
 
