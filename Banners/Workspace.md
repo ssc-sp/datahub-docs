@@ -3,8 +3,7 @@
 A Workspace provides easy access to the key features in the Federal Science DataHub:
 - Storage (Azure Blob Storage)
 - Data analytics tools (Azure Databricks); 
-- Shared databases (Postgresql & SQL Server)
-- Adding Collaborators
+- Add Collaborators
 - Administration features (including ...???)
 
 ## Workspace Storage
