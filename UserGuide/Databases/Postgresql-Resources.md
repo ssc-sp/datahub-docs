@@ -1,3 +1,7 @@
+---
+onProfileExclude: ssc
+---
+
 # Postgresql Azure
 
 ## Authentication model
