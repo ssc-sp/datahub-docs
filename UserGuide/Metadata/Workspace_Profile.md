@@ -4,7 +4,7 @@ onProfileinclude: ssc
 
 # Metadata Profile for Workspaces
 
-All workspaces in DataHub require a metadata profile to be completed before resources can be requested.
+All workspaces in FSDH require a metadata profile to be completed before resources (e.g. storage or Databricks) can be requested.
 
 ## Required fields
 
