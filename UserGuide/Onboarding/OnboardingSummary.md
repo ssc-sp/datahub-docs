@@ -33,3 +33,23 @@ flowchart TD
     E ---> F
 
 ```
+
+## Create workspace
+
+```mermaid
+flowchart TD 
+    A[User clicks Create Workspace]
+    B[User enters Name and Acronym]
+    C[User is redirected to workspace metadata entry]
+    D[User completes metadata]
+    E[DataHub administrator approves workspace]
+    F[User requests Storage and Databricks]
+    G[User adds collaborators]
+    A ---> B
+    B ---> C
+    C ---> D
+    C ---> E
+    C ---> G
+    D ---> F
+    E ---> F
+```
