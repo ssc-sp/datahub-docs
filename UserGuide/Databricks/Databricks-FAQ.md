@@ -18,15 +18,15 @@ Absolutely, yes. Databricks provides the capability to write your code using reg
 
 ### How can I upload my own dataset and use in Databricks? 
 
-You can upload and manage your dataset using the Datahub Portal. The uploaded data will be stored in in the cloud using the Azure Blog Storage. To access the uploaded file programmatically using Databricks, you will need to obtain the path where the file is stored. The path of your uploaded file can be obtained by going to the portal and…….… Here is a sample code that shows how to access a data that is stored in Blob Storage using python in Databricks:
+You can upload and manage your dataset using the FSDH  Portal. The uploaded data will be stored in in the cloud using the Azure Blog Storage. To access the uploaded file programmatically using Databricks, you will need to obtain the path where the file is stored. The path of your uploaded file can be obtained by going to the portal and…….… Here is a sample code that shows how to access a data that is stored in Blob Storage using python in Databricks:
 
 ### Can I create my own Cluster in Databricks? 
 
-No. For the time being, the Clusters that are required for your project will created and configured by the Datahub team based on your requirement. You will be provided with the controls to start and shut down the clusters.
+No. For the time being, the Clusters that are required for your project will created and configured by the FSDH team based on your requirement. You will be provided with the controls to start and shut down the clusters.
 
 ### Is the Databricks environment certified to handle Protected B information? 
 
-No, currently, the Databricks environment supported by SSC DataHub only supports up to **TBC**
+No, currently, the Databricks environment supported by the Federal Science DataHub only supports UNCLASSIFIED data.
 
 ### Can I access the Databricks environment using locally running Jupyter notebook or IDEs such as PyCharm,VS Code, and Spyder? 
 
@@ -34,19 +34,11 @@ Yes, you can. However, it requires some configuration to be done on the Databric
 
 ### How is my data and the source code protected from unauthorized access? 
 
-The DataHub Analytics environments follow the security principle of “Least Privilege”, which means only the minimum set of privileges required to perform the tasks will be granted to the users. Access controls and procedures will be setup to ensure that any source code that is created within your Databricks project can be viewed and executed by only those users that have been authorized to do so. Similarly, any data stored in the Azure Blog Storage account for your project will be managed by using folder level access control to ensure that reading and writing to the files and folders can be done by only those users that have been explicitly granted access to do so.
+The FSDH Analytics environments follow the security principle of “Least Privilege”, which means only the minimum set of privileges required to perform the tasks will be granted to the users. Access controls and procedures will be setup to ensure that any source code that is created within your Databricks project can be viewed and executed by only those users that have been authorized to do so. Similarly, any data stored in the Azure Blog Storage account for your project will be managed by using folder level access control to ensure that reading and writing to the files and folders can be done by only those users that have been explicitly granted access to do so.
 
 ### Who will be responsible for setting up the Databricks resources (folders, clusters, access groups and users)Blob Storage Account and the Access Controls pertaining to these components? 
 
-Configuration of the Databricks resources and the storage account will be managed by the DataHub team.
-
-### Other than configuring the resources, what other services can I expect from the Datahub team in support of my project? 
-
-We provide technical as well as architectural guidance for any data that needs to be stored and shared at the department level.
-
-### We have completed analysing and exploring the data in Databricks, and now we would like to have a data pipeline built to regularly update and store this data in persistent storage so it can be shared across the department, what is the next step? 
-
-If you have the resources and would like to implement a production ready solution to update the data regularly, the DataHub team will be happy to support you by configuring the environment as well as provide guidance and technical advice. In the event that you do not have the resources to implement such a solution, we will be happy to work with you to gather the requirements and implement the solution on your behalf. For storing and sharing data that requires frequent access for production use, we recommend the use of Delta Lake architecture.
+Configuration of the Databricks resources and the storage account will be managed by the FSDH team.
 
 ### I have an AI/Machine Learning project that I would like to implement using Databricks, how do I get started?
 
