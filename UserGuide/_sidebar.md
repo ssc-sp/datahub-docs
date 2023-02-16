@@ -1,7 +1,7 @@
 - [Getting Started](/UserGuide/Getting-Started-SSC.md)
 
-  - [Support Request Form]
-  - [Feature Request Form](/UserGuide/Feature-Request-Form-for-SSC-DataHub-PoC.md)
+  - [Support Request Form](/UserGuide/FSDH-Support-Request-Form.md) 
+  - [Feature Request Form](/UserGuide/FSDH-Feature-Request-Form.md)
 
 - Workspaces
   - [Data Project](/UserGuide/Onboarding/Data-Project.md)
