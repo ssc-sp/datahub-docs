@@ -53,3 +53,18 @@ flowchart TD
     D ---> F
     E ---> F
 ```
+
+### Datahub administrator approval workflow
+
+```mermaid
+flowchart TD 
+    A[DataHub admin opens Pull Request on Azure Devops]
+    B[DataHub admin compares email of PR Request with approved applicants]
+    C[User is in the list]
+    D[DataHub admin approves PR]
+    E[DataHub admin contacts users for clarification]
+    A ---> B
+    B ---> C
+    C ---> D
+    C ---> E
+```
