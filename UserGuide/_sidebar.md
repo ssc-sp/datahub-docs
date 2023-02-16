@@ -6,7 +6,7 @@
 - Workspaces
   - [Data Project](/UserGuide/Onboarding/Data-Project.md)
   - [Active Resources in Data Projects](/UserGuide/Projects/Active-Resources-in-Data-Projects.md)
-  - Metadata - [Workspace Profile](/UserGuide/Metadata/Workspace_Profile.md)
+  - [Workspace Profile (Metadata)](/UserGuide/Metadata/Workspace_Profile.md)
 
 - Storage
   - [Datahub Azure storage](/UserGuide/Storage/Datahub-AzureStorage.md)
