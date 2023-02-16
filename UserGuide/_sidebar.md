@@ -19,3 +19,7 @@
   - [Databricks and Spark SQL tutorials](/UserGuide/Databricks/Databricks-and-Spark-SQL-tutorials.md)
   - [Databricks FAQ](/UserGuide/Databricks/Databricks-FAQ.md)
   - [Scopus Dataset](/UserGuide/Databricks/Scopus-Dataset.md)
+
+- Monitor Costs (Cloud Credits)
+  - Considerations for optimizing cloud credits 
+  - Set baseline for monitoring consumptiom
