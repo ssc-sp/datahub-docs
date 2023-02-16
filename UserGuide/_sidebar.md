@@ -1,5 +1,17 @@
 - [Getting Started](/UserGuide/Getting-Started-SSC.md)
 
+  - [Support Request Form]
+  - [Feature Request Form](/UserGuide/Feature-Request-Form-for-SSC-DataHub-PoC.md)
+
+- Workspaces
+  - [Data Project](/UserGuide/Onboarding/Data-Project.md)
+  - [Active Resources in Data Projects](/UserGuide/Projects/Active-Resources-in-Data-Projects.md)
+  - Metadata - [Workspace Profile](/UserGuide/Metadata/Workspace_Profile.md)
+
+- Storage
+  - [Datahub Azure storage](/UserGuide/Storage/Datahub-AzureStorage.md)
+  - [Use AzCopy to Interact with Azure Storage Account](/UserGuide/Storage/Use-AzCopy-to-Interact-with-Azure-Storage-Account.md)
+
 - Databricks
   - [Access your storage account in Databricks](/UserGuide/Databricks/Access-your-storage-account-in-Databricks.md)
   - [Data Processing using Databricks User Guide](/UserGuide/Databricks/Data-Processing-using-Databricks---User-Guide.md)
@@ -7,19 +19,3 @@
   - [Databricks and Spark SQL tutorials](/UserGuide/Databricks/Databricks-and-Spark-SQL-tutorials.md)
   - [Databricks FAQ](/UserGuide/Databricks/Databricks-FAQ.md)
   - [Scopus Dataset](/UserGuide/Databricks/Scopus-Dataset.md)
-
-- Metadata
-    - [Workspace Profile](/UserGuide/Metadata/Workspace_Profile.md)
-
-- Onboarding
-
-  - [Data Project](/UserGuide/Onboarding/Data-Project.md)
-  - [Sign in Instructions](/UserGuide/Onboarding/Sign-in-Instructions.md)
-  - [Feature Request Form](/UserGuide/Feature-Request-Form-for-SSC-DataHub-PoC.md)
-
-- Projects
-  - [Active Resources in Data Projects](/UserGuide/Projects/Active-Resources-in-Data-Projects.md)
-
-- Storage
-  - [Datahub Azure storage](/UserGuide/Storage/Datahub-AzureStorage.md)
-  - [Use AzCopy to Interact with Azure Storage Account](/UserGuide/Storage/Use-AzCopy-to-Interact-with-Azure-Storage-Account.md)
