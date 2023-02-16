@@ -40,7 +40,7 @@ flowchart TD
 flowchart TD 
     A[User clicks Create Workspace]
     B[User enters Name and Acronym]
-    C[User is redirected to workspace metadata entry]
+    C[User is redirected to workspace]
     D[User completes metadata]
     E[DataHub administrator approves workspace]
     F[User requests Storage and Databricks]
