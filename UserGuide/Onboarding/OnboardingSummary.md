@@ -54,6 +54,22 @@ flowchart TD
     E ---> F
 ```
 
+## Invite workflow
+```mermaid
+flowchart TD
+    A[Lead opens manage users]
+    B[Lead enters valid GoC email address]
+    C[Lead selects department agency]
+    D[Lead clicks send invite]
+    E[Collaborator received welcome email]
+    F[Collaborator can login and view workspace]
+    A ---> B
+    B ---> C
+    C ---> D
+    D ---> E
+    E ---> F
+```
+
 ### Datahub administrator approval workflow
 
 ```mermaid
