@@ -1,11 +1,9 @@
 - Get Started
-  - [Workspace Lead](https://github.com/ssc-sp/datahub-docs/blob/main/UserGuide/FSDH%20PoC%201%20Phase%202%20-%20Onboarding%20Guide%20-%20WORKSPACE%20LEAD.docx)
+  - [Workspace Lead](see Word doc - format tbd)
 
-  - Collaborators
-    - Find Workspace
-    - Store and Share data
-    - Use Databricks
-   - Registration and Login Instructions
+  - [Collaborators](see Word doc - format tbd)
+     
+   - [Registration and Login Instructions](see Word doc - format tbd)
 
 - Workspaces
   - [What is a Workspace](/UserGuide/Workspace/Workspace.md)
