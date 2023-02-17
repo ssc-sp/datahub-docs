@@ -10,12 +10,11 @@
    - Registration and Login Instructions
 
 - Workspaces
-  - [Data Project](/UserGuide/Onboarding/Data-Project.md)
+  - [What is a Workspace](/UserGuide/Onboarding/Data-Project.md)
   - [Workspace Profile (Metadata)](/UserGuide/Metadata/Workspace_Profile.md)
-  - [Active Resources in Workspaces](/UserGuide/Projects/Active-Resources-in-Data-Projects.md)
   
 - Storage
-  - [Datahub Azure storage](/UserGuide/Storage/Datahub-AzureStorage.md)
+  - [What is Azure Storage Explorer?](/UserGuide/Storage/Datahub-AzureStorage.md)
   - [Use AzCopy to Interact with Azure Storage Account](/UserGuide/Storage/Use-AzCopy-to-Interact-with-Azure-Storage-Account.md)
 
 - Databricks
