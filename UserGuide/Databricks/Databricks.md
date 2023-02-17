@@ -2,7 +2,7 @@
 onProfileInclude: ssc
 ---
 
-## Cloud analytics with Python, R and Databricks
+## Databricks for Cloud analytics with Python, R  
 
 All participants of PoC Use Case 2 (analytics) can request a databricks instance in their workspace.
 
