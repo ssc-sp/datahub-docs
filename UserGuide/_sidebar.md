@@ -15,7 +15,7 @@
   
 - Storage
   - [What is Azure Storage Explorer?](/UserGuide/Storage/Datahub-AzureStorage.md)
-  - [Use AzCopy to Interact with Azure Storage Account](/UserGuide/Storage/Use-AzCopy-to-Interact-with-Azure-Storage-Account.md)
+  - [Use AzCopy to Interact with Azure Storage Account](/UserGuide/Storage/Use-AzCopy.md)
 
 - Databricks
   - [What is Databricks?](/UserGuide/Databricks/Databricks.md)
