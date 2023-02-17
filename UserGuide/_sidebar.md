@@ -23,8 +23,6 @@
   - [Access your storage account in Databricks](/UserGuide/Databricks/Access-your-storage-account-in-Databricks.md)
   - [Data Processing using Databricks User Guide](/UserGuide/Databricks/Data-Processing-using-Databricks---User-Guide.md)
   - [Databricks Secure Access using ADSF Passthrough](/UserGuide/Databricks/Databricks---Secure-Access-using-ADSF-Passthrough.md)
-  - [Databricks and Spark SQL tutorials](/UserGuide/Databricks/Databricks-and-Spark-SQL-tutorials.md)
-  - [Databricks FAQ](/UserGuide/Databricks/Databricks-FAQ.md)
   - [Scopus Dataset](/UserGuide/Databricks/Scopus-Dataset.md)
 
 - Monitor Cloud Credits and Consumption
