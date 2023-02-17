@@ -1,5 +1,5 @@
 - Get Started
-  - Workspace Lead
+  - Workspace Lead 
     - Create Workspace
     - Request Tools
     - Invite Collaborators
