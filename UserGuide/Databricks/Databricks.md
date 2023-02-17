@@ -11,7 +11,6 @@ Databricks is a platform similar to Jupyter notebooks and enables scientists to 
 See the following links for a list of resources for working with Databricks, Python, R and Spark:
 
 - [Learning the basics about Databricks and Spark](Databricks/Databricks-and-Spark-SQL-tutorials)
-- [Databricks Frequently Asked Questions](Databricks/Databricks-FAQ.md)
 - [Official Databricks Documentation](https://docs.databricks.com/)
 - [Databricks Getting Started Guide]( https://docs.databricks.com/getting-started/index.html)
 - [Databricks Community Edition](https://databricks.com/product/faq/community-edition) - You can use this edition free of charge for learning purpose
