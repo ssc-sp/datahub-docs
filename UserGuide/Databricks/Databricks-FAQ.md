@@ -1,9 +1,5 @@
 ## Databricks Frequently Asked Questions
 
-### What is Databricks? 
-
-Databricks is a cloud based analytics platform that enables you to work with data using the Apache Spark Framework. In another words, it provides an easy to use interface for your data related tasks to be seamlessly executed on multiple virtual machines (clusters) in parallel. It is also integrated with other cloud services such as Azure Blob Storage and databases, which makes it easy to securely store and access your data within Databricks.
-
 ### What are the programming languages supported in Databricks? 
 
 The following languages are supported: Spark SQL, Java, Scala, Python, R and standard SQL. It offers the opportunity for you to select the language that your developers are comfortable with for your project. Furthermore, Databricks provides the capability for developer to use multiple languages in single notebook.
