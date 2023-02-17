@@ -1,11 +1,20 @@
 RENAME TO WORKSPACE STORAGE
 
-## Storage Explorer
+## Workspace Storage
 
-The current tab shows the Storage Explorer that enables you to browse the workspace files. You can interact with the web interface and drag and drop files to upload, download, or delete them as needed.
+The Federal Science DataHub uses Azure Storage, Microsoft's cloud storage solution for modern data storage scenarios. Azure Storage offers highly available, massively scalable, durable, and secure storage for a variety of data objects in the cloud. 
 
-__Note: the web interface is not recommended for any files larger than a gigabyte, as this can be dependent on your network connection.__
+There are two key types of storage accounts:
 
-## AzCopy
+- **Azure Data Lake Storage (Gen2)** - designed for big data analytics and provides Access Control Lists at the file and folder level
+- **Azure Blob Storage** - basic storage account - doesn't provide Access Control at the file and folder level but is required for compatibility in certain scenarios.
 
-AzCopy is the recommended approach for managing large data files inside the Project Storage. Click on "AzCopy" tab below for more details.
+## How to upload files to FSDH (Azure Storage)
+
+You have the option to use the browser interface or command line interface (CLI) options to upload/download.
+
+**Datahub Storage Explorer** is the simple method for working with Azure Storage accounts. The storage explorer provides a drag and drop interface and is accessible from the Workspace page. The tool enables users to upload and download files.
+
+## Automated upload and large files
+
+AzCopy is the recommended option for working with large files and the tool can also be integrated into scripts. The tool is available for Windows and Linux. See [AzCopy for copying files from/to Azure Storage](Use-AzCopy-to-Interact-with-Azure-Storage-Account) for additional details.
