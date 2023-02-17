@@ -1,4 +1,4 @@
-- Get Started
+- Onboarding (Getting Started)
   - [Workspace Lead](see Word doc - format tbd)
 
   - [Collaborators](see Word doc - format tbd)
