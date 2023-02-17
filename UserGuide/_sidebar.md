@@ -12,7 +12,7 @@
   - [Use AzCopy to Interact with Azure Storage Account](/UserGuide/Storage/Use-AzCopy.md)
 
 - Databricks
-  - [What is Databricks?](/UserGuide/Databricks/Databricks.md)
+  - [What is Azure Databricks?](/UserGuide/Databricks/Databricks.md)
   - [Databricks FAQ](/UserGuide/Databricks/Databricks-FAQ.md)
   - [Access your storage account in Databricks](/UserGuide/Databricks/Access-your-storage-account-in-Databricks.md)
   - [Data Processing using Databricks](/UserGuide/Databricks/Data-Processing-using-Databricks.md)
