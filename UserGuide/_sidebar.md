@@ -1,16 +1,19 @@
-- [Getting Started](/UserGuide/Getting-Started-SSC.md)
-
-  - [Support Request Form](/UserGuide/FSDH-Support-Request-Form.md) 
-  - [Feature Request Form](/UserGuide/FSDH-Feature-Request-Form.md)
+- Get Started
+  - Workspace Lead
+    - Create Workspace
+    - Request Tools
+    - Invite Collaborators
+  - Collaborators
+    - Find Workspace
+    - Store and Share data
+    - Use Databricks
+   - Registration and Login Instructions
 
 - Workspaces
   - [Data Project](/UserGuide/Onboarding/Data-Project.md)
-  - [Active Resources in Data Projects](/UserGuide/Projects/Active-Resources-in-Data-Projects.md)
   - [Workspace Profile (Metadata)](/UserGuide/Metadata/Workspace_Profile.md)
-  - [Service Catalogue (Tools)]
-
-- Service Catalogue
-- 
+  - [Active Resources in Workspaces](/UserGuide/Projects/Active-Resources-in-Data-Projects.md)
+  
 - Storage
   - [Datahub Azure storage](/UserGuide/Storage/Datahub-AzureStorage.md)
   - [Use AzCopy to Interact with Azure Storage Account](/UserGuide/Storage/Use-AzCopy-to-Interact-with-Azure-Storage-Account.md)
@@ -23,6 +26,8 @@
   - [Databricks FAQ](/UserGuide/Databricks/Databricks-FAQ.md)
   - [Scopus Dataset](/UserGuide/Databricks/Scopus-Dataset.md)
 
-- Monitor Costs (Cloud Credits)
-  - Considerations for optimizing cloud credits 
-  - Set baseline for monitoring consumptiom
+- Monitor Cloud Credits and Consumption
+  - Report
+
+- [Support Request Form](/UserGuide/FSDH-Support-Request-Form.md) 
+- [Feature Request Form](/UserGuide/FSDH-Feature-Request-Form.md)
