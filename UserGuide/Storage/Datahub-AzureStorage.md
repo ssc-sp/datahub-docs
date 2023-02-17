@@ -2,7 +2,7 @@
 
 ## What is Azure Storage
 
-Azure storage provides scalable, secure cloud storage for archival, data, apps and workloads.
+The Federal Science DataHub uses Azure Storage, Microsoft's cloud storage solution for modern data storage scenarios. Azure Storage offers highly available, massively scalable, durable, and secure storage for a variety of data objects in the cloud. 
 
 There are two key types of storage accounts:
 
@@ -11,7 +11,9 @@ There are two key types of storage accounts:
 
 ## How to copy files to Azure
 
-**Datahub Storage Explorer** is the preferred method for working with Azure Storage accounts. The storage explorer provides a drag and drop interface and is accessible from the Data Project page. The tool enables users to upload and download files.
+You have the option to use the browser interface or command line interface (CLI) options to upload/download.
+
+**Datahub Storage Explorer** is the simple method for working with Azure Storage accounts. The storage explorer provides a drag and drop interface and is accessible from the Workspace page. The tool enables users to upload and download files.
 
 ## Automated upload and large files
 
