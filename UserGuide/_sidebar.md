@@ -11,7 +11,7 @@
 
 - Workspaces
   - [What is a Workspace](/UserGuide/Workspace/Workspace.md)
-  - [Workspace Profile (Metadata)](/UserGuide/Workspace/Workspace_Profile.md)
+  - [Workspace Profile (Metadata)](/UserGuide/Workspace/Workspace-Profile-Metadata.md)
   
 - Storage
   - [What is Azure Storage Explorer?](/UserGuide/Storage/Datahub-AzureStorage.md)
