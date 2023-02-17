@@ -2,7 +2,7 @@
 onProfileInclude: ssc
 ---
 
-## Databricks for Cloud Analytics
+## Azure Databricks for Cloud Analytics
 
 Databricks is a platform similar to Jupyter notebooks and enables scientists to create and share documents that include live code, equations, and other multimedia resources. Databricks integrates with cloud storage and security in your cloud account, and manages and deploys cloud infrastructure on your behalf.
 
