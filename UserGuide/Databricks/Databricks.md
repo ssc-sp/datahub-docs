@@ -2,9 +2,7 @@
 onProfileInclude: ssc
 ---
 
-## Databricks for Cloud analytics with Python, R  
-
-All participants of PoC Use Case 2 (analytics) can request a databricks instance in their workspace.
+## Databricks for Cloud analytics
 
 Databricks is a platform similar to Jupyter notebooks and enables scientists to create and share documents that include live code, equations, and other multimedia resources. Databricks integrates with cloud storage and security in your cloud account, and manages and deploys cloud infrastructure on your behalf.
 
