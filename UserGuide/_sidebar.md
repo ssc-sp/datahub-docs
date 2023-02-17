@@ -3,8 +3,6 @@
 
   - [Collaborators](see Word doc - format tbd)
      
-   - [Registration and Login Instructions](see Word doc - format tbd)
-
 - Workspaces
   - [What is a Workspace](/UserGuide/Workspace/Workspace.md)
   - [Workspace Profile (Metadata)](/UserGuide/Workspace/Workspace-Profile-Metadata.md)
