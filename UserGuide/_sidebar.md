@@ -23,10 +23,10 @@
   - [Databricks Secure Access using ADSF Passthrough](/UserGuide/Databricks/Databricks---Secure-Access-using-ADSF-Passthrough.md)
 
 - Monitor Cloud Credits and Consumption
-  - Report
+  - Report (TBD)
   
 -Reference
-- [FSDH Proof-of-Concept Kick-off Deck (April 2023)](  ) 
+- [FSDH Proof-of-Concept Kick-off Deck (April 2023)]( add link when complete ) 
 
 - [Support Request Form](/UserGuide/FSDH-Support-Request-Form.md) 
 
