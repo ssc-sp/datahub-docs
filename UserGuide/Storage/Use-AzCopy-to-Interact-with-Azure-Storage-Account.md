@@ -6,7 +6,7 @@
 
 ## Prerequisites
 - Download AzCopy from [Azure](https://aka.ms/downloadazcopy-v10-windows) (no installation required)
-- Generate SAS token in Azure or in DataHub Portal
+- Generate SAS token in Azure or in DataHub Portal. Note: if needed, you can request an extended period SAS Token – send your request using the [FSDH Support Request Form](https://forms.office.com/r/zk82ehvUtv).
 
 ## Folder Initial Sync from Local
 - In the line below, change ```C:\mydata\stage``` to your local directory where the data is located.
