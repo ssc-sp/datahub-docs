@@ -10,8 +10,8 @@
    - Registration and Login Instructions
 
 - Workspaces
-  - [What is a Workspace](/UserGuide/Onboarding/Data-Project.md)
-  - [Workspace Profile (Metadata)](/UserGuide/Metadata/Workspace_Profile.md)
+  - [What is a Workspace](/UserGuide/Workspace/Workspace.md)
+  - [Workspace Profile (Metadata)](/UserGuide/Workspace/Workspace_Profile.md)
   
 - Storage
   - [What is Azure Storage Explorer?](/UserGuide/Storage/Datahub-AzureStorage.md)
