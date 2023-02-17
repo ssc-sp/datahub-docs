@@ -9,6 +9,8 @@
   - [Workspace Profile (Metadata)](/UserGuide/Metadata/Workspace_Profile.md)
   - [Service Catalogue (Tools)]
 
+- Service Catalogue
+- 
 - Storage
   - [Datahub Azure storage](/UserGuide/Storage/Datahub-AzureStorage.md)
   - [Use AzCopy to Interact with Azure Storage Account](/UserGuide/Storage/Use-AzCopy-to-Interact-with-Azure-Storage-Account.md)
