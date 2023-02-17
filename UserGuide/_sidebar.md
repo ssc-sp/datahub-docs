@@ -1,5 +1,5 @@
 - Get Started
-  - [Workspace Lead](https://github.com/ssc-sp/datahub-docs/blob/main/UserGuide/FSDH%20PoC%201%20Phase%202%20-%20Onboarding%20Guide%20-%20WORKSPACE%20LEAD.docx:raw)
+  - [Workspace Lead](https://github.com/ssc-sp/datahub-docs/blob/main/UserGuide/FSDH%20PoC%201%20Phase%202%20-%20Onboarding%20Guide%20-%20WORKSPACE%20LEAD.docx)
 
   - Collaborators
     - Find Workspace
