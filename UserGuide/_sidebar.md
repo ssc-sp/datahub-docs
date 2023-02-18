@@ -6,7 +6,7 @@
   - [What is a Workspace](/UserGuide/Workspace/Workspace.md)
   - [Workspace Profile (Metadata)](/UserGuide/Workspace/Workspace-Profile-Metadata.md)
   - [How to Create Workspace and Request Tools (Azure Storage and Azure Databricks)](/UserGuide/Workspace/Create-workspace.md)
-  - [How to Invite Collaborators to your Workspace]() 
+  - [How to Invite Collaborators to your Workspace](/UserGuide/Workspace/Invite-Collaborator.md) 
   
 - Storage
   - [What is Azure Storage Explorer?](/UserGuide/Storage/Datahub-AzureStorage.md)
