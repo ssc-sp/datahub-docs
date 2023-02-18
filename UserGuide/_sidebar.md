@@ -1,11 +1,12 @@
-- Onboarding (Getting Started)
+- Proof-of-Concept Onboarding (with Quick Start Guide) 
   - [Workspace Lead](see Word doc - format tbd)
-
   - [Collaborators](see Word doc - format tbd)
      
 - Workspaces
   - [What is a Workspace](/UserGuide/Workspace/Workspace.md)
   - [Workspace Profile (Metadata)](/UserGuide/Workspace/Workspace-Profile-Metadata.md)
+  - Create Workspace and Request Tools (Azure Storage and Azure Databricks)
+  - Invite Collaborators to Workspace 
   
 - Storage
   - [What is Azure Storage Explorer?](/UserGuide/Storage/Datahub-AzureStorage.md)
