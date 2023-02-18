@@ -5,7 +5,8 @@
 ## Workspaces
 - [What is a Workspace](/UserGuide/Workspace/Workspace.md)
 - [Workspace Profile (Metadata)](/UserGuide/Workspace/Workspace-Profile-Metadata.md)
-- [Create Workspace and Request Tools (Azure Storage and Azure Databricks) - all workspaces must be approved by FSDH Admin]()
+- [Create Workspace and Request Tools (Azure Storage and Azure Databricks]()
+  - all workspaces must be approved by FSDH Admin
 - [Invite Collaborators to Workspace]() 
   
 ## Storage
@@ -19,7 +20,7 @@
 - [Access your storage account in Databricks](/UserGuide/Databricks/Access-your-storage-account-in-Databricks.md)
 - [Data Processing using Databricks](/UserGuide/Databricks/Data-Processing-using-Databricks.md)
 - [Databricks Secure Access using ADSF Passthrough](/UserGuide/Databricks/Databricks---Secure-Access-using-ADSF-Passthrough.md)
-- [Request Detailed Databricks Introduction Session with Databricks Expert](/UserGuide/Databricks/Request-databricks-session.md)
+- [Request Detailed Databricks Introduction Session](/UserGuide/Databricks/Request-databricks-session.md)
 
 ## Monitor Cloud Credits and Consumption
 - Report (TBD)
