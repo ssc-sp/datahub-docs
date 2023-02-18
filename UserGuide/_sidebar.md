@@ -5,8 +5,8 @@
 - Workspaces
   - [What is a Workspace](/UserGuide/Workspace/Workspace.md)
   - [Workspace Profile (Metadata)](/UserGuide/Workspace/Workspace-Profile-Metadata.md)
-  - Create Workspace and Request Tools (Azure Storage and Azure Databricks)
-  - [Invite Collaborators to Workspace]( 
+  - [Create Workspace and Request Tools (Azure Storage and Azure Databricks) - all workspaces must be approved by FSDH Admin]()
+  - [Invite Collaborators to Workspace]() 
   
 - Storage
   - [What is Azure Storage Explorer?](/UserGuide/Storage/Datahub-AzureStorage.md)
@@ -23,7 +23,7 @@
 - Monitor Cloud Credits and Consumption
   - Report (TBD)
   
--Reference
+- Reference
   - [FSDH Proof-of-Concept Kick-off Deck (April 2023)]( add link when complete ) 
 
 - [Support Request Form](https://forms.office.com/r/zk82ehvUtv) 
