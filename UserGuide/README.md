@@ -11,7 +11,7 @@ The FSDH Workspace makes it easy for multiple teams, labs or users to get access
 
 ### User Management
 
-The FSDH Portal integrates with Azure Active Directory and manages roles and users. The portal has 3 types of users: 
+The FSDH Portal integrates with Azure Active Directory and manages roles and users. The portal has 2 types of users: 
 - Users can access Workspace resources 
 - Workspace Leads (Admin) can invite other users and assign roles 
 
