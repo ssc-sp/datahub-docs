@@ -25,7 +25,7 @@
   - Report (TBD)
   
 - Reference
-  - [FSDH Frequently Asked Questions (FAQs)[
+  - [FSDH Frequently Asked Questions (FAQs)](main/UserGuide/FSDH-FAQs.md)
   - [FSDH Proof-of-Concept Kick-off Deck (April 2023)]( add link when complete ) 
 
 - [Support Request Form](https://forms.office.com/r/zk82ehvUtv) 
