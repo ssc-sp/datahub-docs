@@ -1,6 +1,6 @@
 - Proof-of-Concept Onboarding (with Quick Start Guide) 
-  - [Workspace Lead](see Word doc - format tbd)
-  - [Collaborators](see Word doc - format tbd)
+  - [Workspace Lead](/UserGuide/Onboarding/Onboard-Workspace-Lead.md)
+  - [Collaborators](/UserGuide/Onboarding/Onboard-Collaborator.md) 
      
 - Workspaces
   - [What is a Workspace](/UserGuide/Workspace/Workspace.md)
