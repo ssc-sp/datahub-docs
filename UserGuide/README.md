@@ -6,7 +6,7 @@ The FSDH Workspace makes it easy for multiple teams, labs or users to get access
 
 - Storage accounts: a Workspace includes a Storage Explorer to upload/download files with a user friendly interface. AzCopy is used for command line interface to upload very large datasets.
 - Databricks integration: the Workspace has a direct link to Databricks workspaces and also simplifies the mounting of the storage account for the notebooks
-CONFIRM THIS IS CORRECT - Data Sharing: A simple workflow lets users select a file, and request data sharing (see Data Sharing for more details)
+- CONFIRM THIS IS CORRECT Data Sharing: A simple workflow lets users select a file, and request data sharing (see Data Sharing for more details)
 - User onboarding: Project administrators can invite other users to their Workspace(s)
 
 ### User Management
