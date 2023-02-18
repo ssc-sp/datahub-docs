@@ -1,10 +1,10 @@
 1.	What are the 2 uses cases in this Proof-of-Concept?
- 
+ ![image](https://user-images.githubusercontent.com/99416857/219882481-a871d9aa-d8ba-49e4-bf52-dbb9414b0005.png)
 
 2.	What are the capabilities to be used and evaluated during the PoC? 
-•	Cloud storage 
-•	Data Sharing 
-•	Notebook collaboration 
+-	Cloud storage 
+-	Data Sharing 
+-	Notebook collaboration 
  
 3.	Where does the data ‘live’? 
 SSC’s Azure Cloud – hosted in Canada. 
@@ -14,15 +14,14 @@ Options are to delete/destroy or migrate to another environment specified by use
  
 5.	What is an Azure storage account? 
 There are two key types of storage accounts – these are enabled by SSC and access provided by the FSDH team: 
-i.	 Azure Data Lake Storage (Gen2) - designed for big data analytics and provides Access Control Lists at the file and folder level 
-ii.	 Azure Blob Storage - basic storage account - doesn't provide Access Control at the file and folder level but is required for compatibility in certain scenarios. 
+- i.	 Azure Data Lake Storage (Gen2) - designed for big data analytics and provides Access Control Lists at the file and folder level 
+- ii.	 Azure Blob Storage - basic storage account - doesn't provide Access Control at the file and folder level but is required for compatibility in certain scenarios. 
  
 6.	Will I have issues using the FSDH with VPN? 
 You may need to disconnect from your VPN to upload or download files. 
 
 7.	What if I need to more than the 5TB allocation or additional cloud credits? 
-For the PoC we are trying to limit file sizes and stay within allocated budgets. However, if you feel you need more storage or credits, please open an issue with the FSDH Support Request Form and your request will be reviewed.  
-•	COST RECOVERY???
+For the PoC we are trying to limit file sizes and stay within allocated budgets. However, if you feel you need more storage or credits, please open an issue with the [FSDH Support Request Form](  ) and your request will be reviewed.  
 
 8.	What are the type of costs that my analytics project may incur? 
 At high level, the costs for your project will depend on the following 3 factors:
@@ -43,5 +42,4 @@ The DSS team in the Science Program is mandated to deliver federal data solution
 The FSDH PoC provides an enterprise platform for GC scientists and researchers to store data, perform collaborative analysis, and manipulate data using advanced analytics tools. 
 
 13.	Why a Proof-of-Concept? 
-Allows for innovation and iteration as we discover and test data solution capabilities that will give scientists the tools they need to support their data management, storage, advanced analytics and collaboration requirements.
-
+A PoC allows for innovation and iteration as we discover and test data solution capabilities that will give scientists the tools they need to support their data management, storage, advanced analytics and collaboration requirements.
