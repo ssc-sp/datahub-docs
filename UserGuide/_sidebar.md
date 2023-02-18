@@ -6,11 +6,12 @@
   - [What is a Workspace](/UserGuide/Workspace/Workspace.md)
   - [Workspace Profile (Metadata)](/UserGuide/Workspace/Workspace-Profile-Metadata.md)
   - Create Workspace and Request Tools (Azure Storage and Azure Databricks)
-  - Invite Collaborators to Workspace 
+  - [Invite Collaborators to Workspace]( 
   
 - Storage
   - [What is Azure Storage Explorer?](/UserGuide/Storage/Datahub-AzureStorage.md)
   - [Use AzCopy to Interact with Azure Storage Account](/UserGuide/Storage/Use-AzCopy.md)
+  - [Who is notified when new files are added to storage?](text of email that is sent to workspace users)
 
 - Databricks
   - [What is Azure Databricks?](/UserGuide/Databricks/Databricks.md)
