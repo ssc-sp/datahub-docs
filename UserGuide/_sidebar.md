@@ -5,9 +5,8 @@
 - Workspaces
   - [What is a Workspace](/UserGuide/Workspace/Workspace.md)
   - [Workspace Profile (Metadata)](/UserGuide/Workspace/Workspace-Profile-Metadata.md)
-  - [Create Workspace and Request Tools (Azure Storage and Azure Databricks)]()
-    - All workspaces must be approved by FSDH Admin
-  - [Invite Collaborators to Workspace]() 
+  - [How to Create Workspace and Request Tools (Azure Storage and Azure Databricks)]()
+  - [How to Invite Collaborators to your Workspace]() 
   
 - Storage
   - [What is Azure Storage Explorer?](/UserGuide/Storage/Datahub-AzureStorage.md)
