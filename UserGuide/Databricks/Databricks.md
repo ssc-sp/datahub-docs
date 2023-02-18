@@ -6,6 +6,10 @@ onProfileInclude: ssc
 
 Databricks is a platform similar to Jupyter notebooks and enables scientists to create and share documents that include live code, equations, and other multimedia resources. Databricks integrates with cloud storage and security in your cloud account, and manages and deploys cloud infrastructure on your behalf.
 
+### Accessing Storage through Databricks
+
+The DataHub provides an unified environment with storage and databricks and each workspace includes a storage account that can be accessed through Databricks using mount points. (DOES THIS NEED MORE DETAIL??)
+
 ### Learn more about Databricks
 
 See the following links for a list of resources for working with Databricks, Python, R and Spark:
@@ -20,8 +24,6 @@ See the following links for a list of resources for working with Databricks, Pyt
 - [Spark SQL Guide](https://spark.apache.org/docs/latest/sql-programming-guide.html)
 - [Intro to Spark](https://www.kdnuggets.com/2018/10/apache-spark-introduction-beginners.html)
 
-### Accessing Storage through Databricks
 
-The DataHub provides an unified environment with storage and databricks and each workspace includes a storage account that can be accessed through Databricks using mount points.
 
 
