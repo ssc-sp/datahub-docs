@@ -19,7 +19,7 @@ To safely implement this process a set of queues and functions will be used:
 - project-usage-notification
 - email-notification
 
-## Function
+## Functions
 - ProjectUsageScheduler
 - ProjectUsageUpdater
 - ProjectUsageNotifier
