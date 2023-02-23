@@ -262,5 +262,57 @@
   {
     "English": "Getting-Started-SSC.md",
     "French": "D\u00E9marrer-le-SSC.md"
+  },
+  {
+    "English": "Databricks.md",
+    "French": "Databricks.md"
+  },
+  {
+    "English": "Workspace.md",
+    "French": "Espace-de-travail.md"
+  },
+  {
+    "English": "Credits_and_notifications.md",
+    "French": "Cr\u00E9dits-et-notifications.md"
+  },
+  {
+    "English": "Data-Processing-using-Databricks.md",
+    "French": "Traitement-des-donn\u00E9es-\u00E0-l\u0027aide-de-Databricks.md"
+  },
+  {
+    "English": "Request-databricks-session.md",
+    "French": "Demande-de-session-databricks.md"
+  },
+  {
+    "English": "Onboard-Collaborator.md",
+    "French": "Collaborateur-\u00E0-bord.md"
+  },
+  {
+    "English": "Onboard-Workspace-Lead.md",
+    "French": "Responsable-de-l\u0027espace-de-travail-\u00E0-bord.md"
+  },
+  {
+    "English": "OnboardingSummary.md",
+    "French": "R\u00E9sum\u00E9-de-l\u0027embarquement.md"
+  },
+  {
+    "English": "Use-AzCopy.md",
+    "French": "Utilisez-AzCopy.md"
+  },
+  {
+    "English": "Create-workspace.md",
+    "French": "Cr\u00E9er-un-espace-de-travail.md"
+  },
+  {
+    "English": "Invite-Collaborator.md",
+    "French": "Inviter-un-collaborateur.md"
+  },
+  {
+    "English": "Workspace-Profile-Metadata.md",
+    "French": "M\u00E9tadonn\u00E9es-du-profil-de-l\u0027espace-de-travail.md"
+  },
+  {
+    "English": "FSDH-FAQs.md",
+    "French": "FSDH-FAQs.md"
   }
 ]
