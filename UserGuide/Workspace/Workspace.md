@@ -9,5 +9,5 @@ A Workspace provides easy access to the key features in the Federal Science Data
 - Add Collaborators
 - Administration features (including ...???)
 
-To request Storage in your Workspace see:
-To request Databricks in your Workspace see:
+To request Storage in your Workspace go to: [Request Storage](/UserGuide/Storage/Request-storage.md)
+To request Databricks in your Workspace go to: [Request Databricks](/UserGuide/Storage/Request-databricks.md)
