@@ -20,7 +20,7 @@
     - [Access your storage account in Databricks](/UserGuide/Databricks/Access-your-storage-account-in-Databricks.md)
     - [Data Processing using Databricks](/UserGuide/Databricks/Data-Processing-using-Databricks.md)
     - [Databricks Secure Access using ADSF Passthrough](/UserGuide/Databricks/Databricks---Secure-Access-using-ADSF-Passthrough.md)
-  - [Request Detailed Databricks Session](/UserGuide/Databricks/Request-databricks-session.md)
+  - [Request a Detailed Databricks Session](/UserGuide/Databricks/Request-databricks-session.md)
 
 - Monitor Cloud Credits and Consumption
   - Report (TBD)
