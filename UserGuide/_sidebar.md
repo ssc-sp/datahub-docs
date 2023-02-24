@@ -6,6 +6,8 @@
   - [What is a Workspace](/UserGuide/Workspace/Workspace.md)
   - [How to Request a Workspace](/UserGuide/Workspace/Request-workspace.md)
   - [Workspace Profile (Metadata)](/UserGuide/Workspace/Workspace-Profile-Metadata.md)
+
+- Collaboration
   - [How to Invite Collaborators to your Workspace](/UserGuide/Workspace/Invite-Collaborator.md) 
   
 - Storage
