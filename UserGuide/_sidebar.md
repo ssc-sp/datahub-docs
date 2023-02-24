@@ -3,7 +3,7 @@
   - [Collaborators](/UserGuide/Onboarding/Onboard-Collaborator.md) 
      
 - Workspaces
-  - [What is a Workspace](/UserGuide/Workspace/Workspace.md)
+  - [What is a Workspace in FSDH?](/UserGuide/Workspace/Workspace.md)
   - [How to Request a Workspace](/UserGuide/Workspace/Request-workspace.md)
   - [Workspace Profile (Metadata)](/UserGuide/Workspace/Workspace-Profile-Metadata.md)
 
