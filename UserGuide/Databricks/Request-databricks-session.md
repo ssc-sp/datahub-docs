@@ -1,4 +1,4 @@
-## Request Databricks Detailed Session 
+## Request a Databricks Detailed Session 
 
 - A detailed individual or group session with a Databricks expert, can be requested, if required. 
 - The content of the session will be determined based on your identified needs. 
