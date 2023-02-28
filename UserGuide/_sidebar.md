@@ -1,5 +1,6 @@
 - Proof-of-Concept Onboarding (with Quick Start Guide) 
   - [Workspace Lead](/UserGuide/Onboarding/Onboard-Workspace-Lead.md)
+  - https://github.com/ssc-sp/datahub-docs/blob/main/UserGuide/Onboarding/FSDH%20PoC%20Phase%202%20-%20Onboarding%20Guide%20for%20WORKSPACE%20LEAD%20(1).pdf
   - [Collaborators](/UserGuide/Onboarding/Onboard-Collaborator.md) 
      
 - Workspaces
