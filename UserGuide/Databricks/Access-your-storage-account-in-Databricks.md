@@ -24,14 +24,6 @@ As you create more clusters, you can mount the default Blob storage or other sto
 
 For instance, once you have mounted a folder in ```/mnt/test/data```, the python programs in Databricks can access files in that storage container as if they were local files.
 
-## Mount point code
-
-```
-dbutils.fs.mount(
-source = "wasbs://costing@<storage_account>",
-mount_point = "/mnt/<project_acronym>/data",
-extra_configs = {"fs.azure.account.key.<storage_account>":"<sas_token>"})
-```
 ## References
 
 
