@@ -13,7 +13,7 @@ Mounting storage in Databricks allows you to access objects in object storage as
 
 To access the mount point in the default cluster, consider the sample code below
 ```
-df = spark.read.option("header","true").csv('/mnt/datahub-main-mount/export-2.csv');
+df = spark.read.option("header","true").csv('/mnt/fsdh-dbk-main-mount/sample.csv');
 df.show(3);
 ```
 In the above example, the path `/mnt/datahub-main-mount/` points to the root of your Blob storage.
