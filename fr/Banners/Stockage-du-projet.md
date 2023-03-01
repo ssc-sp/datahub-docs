@@ -1,9 +1,8 @@
 ---
 remarks: Automatically translated with DeepL
 source: /Banners/Project-Storage.md
+draft: true
 ---
-
-_(draft documentation, please review)_
 
 
 ## Storage Explorer

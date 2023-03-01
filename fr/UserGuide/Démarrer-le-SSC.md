@@ -1,9 +1,8 @@
 ---
 remarks: Automatically translated with DeepL
 source: /UserGuide/Getting-Started-SSC.md
+draft: true
 ---
-
-_(draft documentation, please review)_
 
 ---
 onProfileInclude : ssc

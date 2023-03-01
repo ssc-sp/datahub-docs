@@ -1,4 +1,6 @@
-_(draft documentation, please review)_
+---
+draft: true
+---
 
 - [Projet de données](/fr/Banners/Projet-de-données.md)
 - [Atterrissage](/fr/Banners/Atterrissage.md)

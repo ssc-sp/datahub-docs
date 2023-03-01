@@ -1,6 +1,7 @@
-[_metadata_: remarks]:- "Automatically translated with DeepL. From: /DeveloperGuide/Storage/Storage_Limits.md"
-
-[_(draft documentation, please review)_](/DeveloperGuide/Storage/Storage_Limits.md)
+---
+remarks: Automatically translated with DeepL
+source: \$1
+---
 
 # Limites de stockage
 

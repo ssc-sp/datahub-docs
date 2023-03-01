@@ -1,6 +1,7 @@
-[_metadata_: remarks]:- "Automatically translated with DeepL. From: /DeveloperGuide/Resourcing/Resourcing-New-Project-Template.md"
-
-[_(draft documentation, please review)_](/DeveloperGuide/Resourcing/Resourcing-New-Project-Template.md)
+---
+remarks: Automatically translated with DeepL
+source: \$1
+---
 
 ## Diagramme de séquence
 

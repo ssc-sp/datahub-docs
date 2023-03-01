@@ -1,6 +1,7 @@
-[_metadata_: remarks]:- "Automatically translated with DeepL. From: /DeveloperGuide/_sidebar.md"
-
-[_(draft documentation, please review)_](/DeveloperGuide/_sidebar.md)
+---
+remarks: Automatically translated with DeepL
+source: \$1
+---
 
 - Architecture
 

@@ -3,8 +3,6 @@ remarks: Automatically translated with DeepL
 source: /AdminGuide/Power-BI-Administration.md
 ---
 
-_(draft documentation, please review)_
-
 # Administration de Power BI
 
 Cette section permet aux administrateurs de saisir et de mettre à jour les métadonnées des espaces de travail et des rapports Power BI. Elle peut également être utilisée pour associer les espaces de travail aux initiatives s'ils ne sont pas correctement associés. Cependant, la méthode recommandée pour intégrer Power BI aux initiatives est d'utiliser l'option "Demander la création d'un service" dans la tuile Power BI de la page de renvoi d'une initiative.

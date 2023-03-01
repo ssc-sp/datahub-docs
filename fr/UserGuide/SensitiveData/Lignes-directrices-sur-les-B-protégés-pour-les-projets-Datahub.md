@@ -1,9 +1,8 @@
 ---
 remarks: Automatically translated with DeepL
 source: /UserGuide/SensitiveData/Protected-B-Guidelines-for-Datahub-Projects.md
+draft: true
 ---
-
-_(draft documentation, please review)_
 
 ---
 onProfileInclude : nrcan

@@ -1,6 +1,7 @@
-[_metadata_: remarks]:- "Automatically translated with DeepL. From: /UserGuide/PowerBI/PowerBI-Resources.md"
-
-[_(draft documentation, please review)_](/UserGuide/PowerBI/PowerBI-Resources.md)
+---
+remarks: Automatically translated with DeepL
+source: \$1
+---
 
 ---
 onProfileExclude : ssc

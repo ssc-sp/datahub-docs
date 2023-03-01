@@ -1,9 +1,8 @@
 ---
 remarks: Automatically translated with DeepL
 source: /Banners/Landing.md
+draft: true
 ---
-
-_(draft documentation, please review)_
 
 ## Qu'est-ce que le DataHub ?
 

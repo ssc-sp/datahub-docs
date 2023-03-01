@@ -1,6 +1,7 @@
-[_metadata_: remarks]:- "Automatically translated with DeepL. From: /DeveloperGuide/Localization/Localization.md"
-
-[_(draft documentation, please review)_](/DeveloperGuide/Localization/Localization.md)
+---
+remarks: Automatically translated with DeepL
+source: \$1
+---
 
 # Aperçu de la localisation
 

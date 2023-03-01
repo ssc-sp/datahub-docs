@@ -1,6 +1,7 @@
-[_metadata_: remarks]:- "Automatically translated with DeepL. From: /UserGuide/_sidebar.md"
-
-[_(draft documentation, please review)_](/UserGuide/_sidebar.md)
+---
+remarks: Automatically translated with DeepL
+source: \$1
+---
 
 - [1 Guide de démarrage](/fr/UserGuide/1-Guide-de-démarrage.md)
 - [2 Instructions de connexion](/fr/UserGuide/2-Instructions-de-connexion.md)

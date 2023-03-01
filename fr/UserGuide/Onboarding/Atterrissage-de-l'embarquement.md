@@ -1,9 +1,8 @@
 ---
 remarks: Automatically translated with DeepL
 source: /UserGuide/Onboarding/Onboarding---Landing.md
+draft: true
 ---
-
-_(draft documentation, please review)_
 
 ## Qu'est-ce que le DataHub ?
 

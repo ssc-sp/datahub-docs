@@ -1,9 +1,8 @@
 ---
 remarks: Automatically translated with DeepL
 source: /UserGuide/Onboarding/Onboarding.md
+draft: true
 ---
-
-_(draft documentation, please review)_
 
 # Création du projet
 

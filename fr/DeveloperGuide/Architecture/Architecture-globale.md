@@ -1,6 +1,7 @@
-[_metadata_: remarks]:- "Automatically translated with DeepL. From: /DeveloperGuide/Architecture/Overall_Architecture.md"
-
-[_(draft documentation, please review)_](/DeveloperGuide/Architecture/Overall_Architecture.md)
+---
+remarks: Automatically translated with DeepL
+source: \$1
+---
 
 # Architecture technique de DataHub
 

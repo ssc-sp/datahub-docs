@@ -1,9 +1,8 @@
 ---
 remarks: Automatically translated with DeepL
 source: /DeveloperGuide/Publishing/DataHub-Opendata-Publishing-API.md
+draft: true
 ---
-
-_(draft documentation, please review)_
 
 _DRAFT SPECS_
 

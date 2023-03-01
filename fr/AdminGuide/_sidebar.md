@@ -1,6 +1,7 @@
-[_metadata_: remarks]:- "Automatically translated with DeepL. From: /AdminGuide/_sidebar.md"
-
-[_(draft documentation, please review)_](/AdminGuide/_sidebar.md)
+---
+remarks: Automatically translated with DeepL
+source: \$1
+---
 
 - [Normes de nommage des artefacts de Datahub](/fr/AdminGuide/Normes-de-nommage-des-artefacts-de-Datahub.md)
 - [Gestion des ressources du projet](/fr/AdminGuide/Gestion-des-ressources-du-projet.md)

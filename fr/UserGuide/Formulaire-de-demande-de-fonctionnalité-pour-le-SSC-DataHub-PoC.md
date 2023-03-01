@@ -1,9 +1,8 @@
 ---
 remarks: Automatically translated with DeepL
 source: /UserGuide/Feature-Request-Form-for-SSC-DataHub-PoC.md
+draft: true
 ---
-
-_(draft documentation, please review)_
 
 ---
 onProfileInclude : ssc

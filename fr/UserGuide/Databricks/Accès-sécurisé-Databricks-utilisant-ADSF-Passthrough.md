@@ -1,6 +1,7 @@
-[_metadata_: remarks]:- "Automatically translated with DeepL. From: /UserGuide/Databricks/Databricks---Secure-Access-using-ADSF-Passthrough.md"
-
-[_(draft documentation, please review)_](/UserGuide/Databricks/Databricks---Secure-Access-using-ADSF-Passthrough.md)
+---
+remarks: Automatically translated with DeepL
+source: \$1
+---
 
 # Résumé
 - Datahub recommande d'utiliser la fonction AD Credential Pass-through de Databricks pour garantir la sécurité de l'accès de Databricks aux comptes de stockage.

@@ -1,6 +1,7 @@
-[_metadata_: remarks]:- "Automatically translated with DeepL. From: /DeveloperGuide/Resourcing/Resourcing-Overview.md"
-
-[_(draft documentation, please review)_](/DeveloperGuide/Resourcing/Resourcing-Overview.md)
+---
+remarks: Automatically translated with DeepL
+source: \$1
+---
 
 ## Aperçu
 

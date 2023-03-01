@@ -40,7 +40,6 @@ To safely implement this process a set of queues and functions will be used:
     participant EF as Email Sender
     actor U as Project User
 
-
       SF ->> SF: CRON Schedule
       SF ->> UQ: Queues update message
       UQ ->> UF: Triggers update function
@@ -54,6 +53,32 @@ To safely implement this process a set of queues and functions will be used:
       EQ ->> EF: Triggers email sender function
       EF ->> U: Sends email to user
 ```
+## Function configuration
 
+### Queue links
+
+All the function will link to the respective queues via the ConnectionString named __StorageConnectionString__
+
+The queue name is not hardcoded in the implementation of the function, the name is stored in using an ENV VARIABLE. E.g.:
+
+```
+
+    [Function("EmailNotificationHandler")]
+    public async Task Run([QueueTrigger("%QueueEmailNotification%", Connection = "DatahubStorageConnectionString")] string requestMessage)
+    {
+      ...
+    }
+```
+
+
+**Email Notification**
+
+Queue Var Name: __%QueueEmailNotification%__
+
+**ProjectUsageUpdater**
+
+Queue Var Name: __%QueueProjectUsageUpdate%__
+
+(More coming...)
 
 

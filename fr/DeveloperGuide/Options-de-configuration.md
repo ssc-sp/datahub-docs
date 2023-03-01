@@ -1,9 +1,8 @@
 ---
 remarks: Automatically translated with DeepL
 source: /DeveloperGuide/Configuration-options.md
+draft: true
 ---
-
-_(draft documentation, please review)_
 
 # Options de configuration
 Il s'agit de paramètres dans appsettings.json, ou configurés dans l'environnement de déploiement, qui sont utilisés par diverses fonctionnalités de DataHub.

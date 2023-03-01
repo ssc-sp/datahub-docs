@@ -1,9 +1,8 @@
 ---
 remarks: Automatically translated with DeepL
 source: /UserGuide/Projects/Datahub-Data-Project.md
+draft: true
 ---
-
-_(draft documentation, please review)_
 
 # Projet de données DataHub
 

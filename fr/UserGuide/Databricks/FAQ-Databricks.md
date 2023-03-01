@@ -1,9 +1,8 @@
 ---
 remarks: Automatically translated with DeepL
 source: /UserGuide/Databricks/Databricks-FAQ.md
+draft: true
 ---
-
-_(draft documentation, please review)_
 
 ## Databricks Foire aux questions
 

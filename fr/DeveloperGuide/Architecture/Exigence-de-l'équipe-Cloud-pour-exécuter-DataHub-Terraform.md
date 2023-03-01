@@ -1,6 +1,7 @@
-[_metadata_: remarks]:- "Automatically translated with DeepL. From: /DeveloperGuide/Architecture/Cloud-Team-Requirement-for-Running-DataHub-Terraform.md"
-
-[_(draft documentation, please review)_](/DeveloperGuide/Architecture/Cloud-Team-Requirement-for-Running-DataHub-Terraform.md)
+---
+remarks: Automatically translated with DeepL
+source: \$1
+---
 
 
 ## Prereq

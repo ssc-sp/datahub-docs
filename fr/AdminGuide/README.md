@@ -1,6 +1,7 @@
-[_metadata_: remarks]:- "Automatically translated with DeepL. From: /AdminGuide/README.md"
-
-[_(draft documentation, please review)_](/AdminGuide/README.md)
+---
+remarks: Automatically translated with DeepL
+source: \$1
+---
 
 # Guide de l'administrateur
 
