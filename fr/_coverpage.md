@@ -1,6 +1,7 @@
-[_metadata_: remarks]:- "Automatically translated with DeepL. From: /_coverpage.md"
-
-[_(draft documentation, please review)_](/_coverpage.md)
+---
+remarks: Automatically translated with DeepL
+source: \$1
+---
 
 # Bienvenue sur DataHub
 

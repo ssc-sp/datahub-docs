@@ -1,6 +1,7 @@
-[_metadata_: remarks]:- "Automatically translated with DeepL. From: /UserGuide/Databricks/Scopus-Dataset.md"
-
-[_(draft documentation, please review)_](/UserGuide/Databricks/Scopus-Dataset.md)
+---
+remarks: Automatically translated with DeepL
+source: \$1
+---
 
 # **Scopus Dataset**
 <br>

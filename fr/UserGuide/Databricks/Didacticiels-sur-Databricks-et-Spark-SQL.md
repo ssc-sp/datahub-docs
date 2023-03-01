@@ -1,6 +1,7 @@
-[_metadata_: remarks]:- "Automatically translated with DeepL. From: /UserGuide/Databricks/Databricks-and-Spark-SQL-tutorials.md"
-
-[_(draft documentation, please review)_](/UserGuide/Databricks/Databricks-and-Spark-SQL-tutorials.md)
+---
+remarks: Automatically translated with DeepL
+source: \$1
+---
 
 Cette page fournit une liste de tutoriels Databricks et Spark SQL.
 

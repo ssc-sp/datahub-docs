@@ -1,6 +1,7 @@
-[_metadata_: remarks]:- "Automatically translated with DeepL. From: /UserGuide/Storage/Datahub-AzureStorage.md"
-
-[_(draft documentation, please review)_](/UserGuide/Storage/Datahub-AzureStorage.md)
+---
+remarks: Automatically translated with DeepL
+source: \$1
+---
 
 # Travailler avec Azure Storage
 

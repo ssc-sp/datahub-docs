@@ -1,6 +1,7 @@
-[_metadata_: remarks]:- "Automatically translated with DeepL. From: /UserGuide/Databases/SQL-Server-Resources.md"
-
-[_(draft documentation, please review)_](/UserGuide/Databases/SQL-Server-Resources.md)
+---
+remarks: Automatically translated with DeepL
+source: \$1
+---
 
 # Instances gérées de SQL Server
 

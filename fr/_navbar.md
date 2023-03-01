@@ -1,6 +1,7 @@
-[_metadata_: remarks]:- "Automatically translated with DeepL. From: /_navbar.md"
-
-[_(draft documentation, please review)_](/_navbar.md)
+---
+remarks: Automatically translated with DeepL
+source: \$1
+---
 
 <!-- _navbar.md -->
 

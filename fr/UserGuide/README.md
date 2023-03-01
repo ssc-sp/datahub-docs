@@ -1,6 +1,7 @@
-[_metadata_: remarks]:- "Automatically translated with DeepL. From: /UserGuide/README.md"
-
-[_(draft documentation, please review)_](/UserGuide/README.md)
+---
+remarks: Automatically translated with DeepL
+source: \$1
+---
 
 # Guide de l'utilisateur de DataHub
 

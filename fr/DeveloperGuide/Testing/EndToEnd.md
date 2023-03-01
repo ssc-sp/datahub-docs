@@ -1,6 +1,7 @@
-[_metadata_: remarks]:- "Automatically translated with DeepL. From: /DeveloperGuide/Testing/EndToEnd.md"
-
-[_(draft documentation, please review)_](/DeveloperGuide/Testing/EndToEnd.md)
+---
+remarks: Automatically translated with DeepL
+source: \$1
+---
 
 # Test de bout en bout
 

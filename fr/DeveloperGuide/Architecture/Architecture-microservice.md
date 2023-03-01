@@ -1,6 +1,7 @@
-[_metadata_: remarks]:- "Automatically translated with DeepL. From: /DeveloperGuide/Architecture/Microservice_Architecture.md"
-
-[_(draft documentation, please review)_](/DeveloperGuide/Architecture/Microservice_Architecture.md)
+---
+remarks: Automatically translated with DeepL
+source: \$1
+---
 
 # Aperçu de la prochaine étape
 

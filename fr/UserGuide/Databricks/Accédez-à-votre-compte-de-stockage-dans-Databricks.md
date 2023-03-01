@@ -1,6 +1,7 @@
-[_metadata_: remarks]:- "Automatically translated with DeepL. From: /UserGuide/Databricks/Access-your-storage-account-in-Databricks.md"
-
-[_(draft documentation, please review)_](/UserGuide/Databricks/Access-your-storage-account-in-Databricks.md)
+---
+remarks: Automatically translated with DeepL
+source: \$1
+---
 
 # Accéder à votre compte de stockage dans Databricks
 
