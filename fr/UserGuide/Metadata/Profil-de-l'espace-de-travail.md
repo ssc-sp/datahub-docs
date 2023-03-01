@@ -1,9 +1,8 @@
 ---
 remarks: Automatically translated with DeepL
 source: /UserGuide/Metadata/Workspace_Profile.md
+draft: true
 ---
-
-_(draft documentation, please review)_
 
 ---
 onProfileinclude : ssc

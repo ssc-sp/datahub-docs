@@ -1,9 +1,8 @@
 ---
 remarks: Automatically translated with DeepL
 source: /DeveloperGuide/Architecture/Services/Email-Service.md
+draft: true
 ---
-
-_(draft documentation, please review)_
 
 # Service de courrier électronique
 

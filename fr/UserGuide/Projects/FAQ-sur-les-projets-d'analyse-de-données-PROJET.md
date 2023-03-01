@@ -1,9 +1,8 @@
 ---
 remarks: Automatically translated with DeepL
 source: /UserGuide/Projects/Data-Analytics-Projects---FAQ-(DRAFT).md
+draft: true
 ---
-
-_(draft documentation, please review)_
 
 
 **Quels sont les outils et services disponibles dans Datahub que je peux utiliser pour mon projet d'analyse de données ?

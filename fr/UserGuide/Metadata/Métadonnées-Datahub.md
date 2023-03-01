@@ -1,9 +1,8 @@
 ---
 remarks: Automatically translated with DeepL
 source: /UserGuide/Metadata/Datahub-Metadata.md
+draft: true
 ---
-
-_(draft documentation, please review)_
 
 # Métadonnées
 

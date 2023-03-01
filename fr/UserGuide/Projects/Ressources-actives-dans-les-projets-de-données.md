@@ -1,9 +1,8 @@
 ---
 remarks: Automatically translated with DeepL
 source: /UserGuide/Projects/Active-Resources-in-Data-Projects.md
+draft: true
 ---
-
-_(draft documentation, please review)_
 
 # Objectif
 

@@ -1,9 +1,8 @@
 ---
 remarks: Automatically translated with DeepL
 source: /Banners/Data-Project.md
+draft: true
 ---
-
-_(draft documentation, please review)_
 
 ## Pourquoi utiliserais-je Data Projects ?
 

@@ -1,7 +1,6 @@
 ---
 remarks: Automatically translated with DeepL
 source: /Home.md
+draft: true
 ---
-
-_(draft documentation, please review)_
 
