@@ -1,42 +1,38 @@
 ---
 remarks: Automatically translated with DeepL
-source: \$1
+source: /UserGuide/_sidebar.md
+draft: true
 ---
-
-- [1 Guide de démarrage](/fr/UserGuide/1-Guide-de-démarrage.md)
-- [2 Instructions de connexion](/fr/UserGuide/2-Instructions-de-connexion.md)
-- [3 Formulaire de demande de fonctionnalités pour le concentrateur de données du SSC Po c](/fr/UserGuide/3-Formulaire-de-demande-de-fonctionnalités-pour-le-SSC-DataHub-PoC.md)
-- [Ressources actives dans les projets de données](/fr/UserGuide/Ressources-actives-dans-les-projets-de-données.md)
-- [Options de configuration](/fr/UserGuide/Options-de-configuration.md)
-- [FAQ sur les projets d'analyse de données (PROJET)](/fr/UserGuide/FAQ-sur-les-projets-d'analyse-de-données-PROJET.md)
-- [Guide de l'utilisateur du traitement des données à l'aide de Databricks](/fr/UserGuide/Guide-de-l'utilisateur-du-traitement-des-données-à-l'aide-de-Databricks.md)
-- Bases de données
-
-  - [Ressources Postgresql](/fr/UserGuide/Databases/Ressources-Postgresql.md)
-  - [Ressources SQL Server](/fr/UserGuide/Databases/Ressources-SQL-Server.md)
 
 - Databricks
 
   - [Accédez à votre compte de stockage dans Databricks](/fr/UserGuide/Databricks/Accédez-à-votre-compte-de-stockage-dans-Databricks.md)
-  - [Analyse des données (Databricks)](/fr/UserGuide/Databricks/Analytique-des-données-Databricks.md)
-  - [Accès sécurisé Databricks utilisant ADSF Passthrough](/fr/UserGuide/Databricks/Accès-sécurisé-Databricks-utilisant-ADSF-Passthrough.md)
-  - [Didacticiels sur Databricks et Spark SQL](/fr/UserGuide/Databricks/Didacticiels-sur-Databricks-et-Spark-SQL.md)
-  - [Ressources Databricks](/fr/UserGuide/Databricks/Ressources-Databricks.md)
-  - [Base de données Scopus](/fr/UserGuide/Databricks/Base-de-données-Scopus.md)
+  - [FAQ Databricks](/fr/UserGuide/Databricks/FAQ-Databricks.md)
+  - [Databricks](/fr/UserGuide/Databricks/Databricks.md)
+  - [Excel et SQL avec Databricks](/fr/UserGuide/Databricks/Excel-et-SQL-avec-Databricks.md)
+  - [Demande de session databricks](/fr/UserGuide/Databricks/Demande-de-session-databricks.md)
+  - [Demander des databricks](/fr/UserGuide/Databricks/Demander-des-databricks.md)
 
-- [Projet de données Datahub](/fr/UserGuide/Projet-de-données-Datahub.md)
-- [Métadonnées Datahub](/fr/UserGuide/Métadonnées-Datahub.md)
-- [Hub de données Opendata Publishing API](/fr/UserGuide/DataHub-Opendata-Publishing-API.md)
-- [Projet de données d'embarquement](/fr/UserGuide/Projet-de-données-d'embarquement.md)
-- [Projets de données d'embarquement](/fr/UserGuide/Projets-de-données-d'embarquement.md)
-- [Atterrissage de l'embarquement](/fr/UserGuide/Atterrissage-de-l'embarquement.md)
-- [Stockage du projet d'embarquement](/fr/UserGuide/Stockage-du-projet-d'embarquement.md)
-- [Embarquement](/fr/UserGuide/Embarquement.md)
-- PowerBI
-- [Lignes directrices sur les B protégés pour les projets Datahub](/fr/UserGuide/Lignes-directrices-sur-les-B-protégés-pour-les-projets-Datahub.md)
+- [FSDH FAQs](/fr/UserGuide/FSDH-FAQs.md)
+- Embarquement
+
+  - [Collaborateur à bord](/fr/UserGuide/Onboarding/Collaborateur-à-bord.md)
+  - [Responsable de l'espace de travail à bord](/fr/UserGuide/Onboarding/Responsable-de-l'espace-de-travail-à-bord.md)
+  - [Résumé de l'embarquement](/fr/UserGuide/Onboarding/Résumé-de-l'embarquement.md)
+
+- [Conditions générales de POC](/fr/UserGuide/Conditions-générales-de-POC.md)
 - Stockage
 
   - [Stockage Azure Datahub](/fr/Storage/Datahub-AzureStorage.md)
-  - [Utiliser AzCopy pour interagir avec le compte de stockage Azure](/fr/Storage/Utiliser-AzCopy-pour-interagir-avec-le-compte-de-stockage-Azure.md)
+  - [Demande de stockage](/fr/Storage/Demande-de-stockage.md)
+  - [Utilisez AzCopy](/fr/Storage/Utilisez-AzCopy.md)
+
+- Espace de travail
+
+  - [Inviter un collaborateur](/fr/Workspace/Inviter-un-collaborateur.md)
+  - [Surveiller la consommation des nuages](/fr/Workspace/Surveiller-la-consommation-des-nuages.md)
+  - [Demander un espace de travail](/fr/Workspace/Demander-un-espace-de-travail.md)
+  - [Métadonnées du profil de l'espace de travail](/fr/Workspace/Métadonnées-du-profil-de-l'espace-de-travail.md)
+  - [Espace de travail](/fr/Workspace/Espace-de-travail.md)
 
 

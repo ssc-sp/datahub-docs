@@ -1,23 +1,39 @@
 ---
 remarks: Automatically translated with DeepL
-source: \$1
+source: /DeveloperGuide/_sidebar.md
+draft: true
 ---
 
 - Architecture
 
+  - [Environnements en nuage](/fr/DeveloperGuide/Architecture/Environnements-en-nuage.md)
   - [Exigence de l'équipe Cloud pour l'exécution de Data Hub Terraform](/fr/DeveloperGuide/Architecture/Exigence-de-l'équipe-Cloud-pour-exécuter-DataHub-Terraform.md)
   - [Architecture microservice](/fr/DeveloperGuide/Architecture/Architecture-microservice.md)
   - [Architecture globale](/fr/DeveloperGuide/Architecture/Architecture-globale.md)
+  - Services
+
+    - [Service de messagerie](/fr/DeveloperGuide/Architecture/Services/Service-de-messagerie.md)
+
 
 - Azure
 
+  - [Crédits et notifications](/fr/DeveloperGuide/Azure/Crédits-et-notifications.md)
   - [Limites de stockage](/fr/DeveloperGuide/Azure/Limites-de-stockage.md)
 
+- [Options de configuration](/fr/DeveloperGuide/Options-de-configuration.md)
 - Contribuer
 
   - [Création de la documentation](/fr/DeveloperGuide/Contributing/Création-de-la-documentation.md)
   - [Aperçu des contributions](/fr/DeveloperGuide/Contributing/Aperçu-des-contributions.md)
-  - [Contribution à la demande de tirage](/fr/DeveloperGuide/Contributing/Contribution-à-une-demande-de-retrait.md)
+  - [Contribution à la demande de tirage](/fr/DeveloperGuide/Contributing/Contribution-à-la-demande-de-tirage.md)
+
+- Localisation
+
+  - [Localisation](/fr/DeveloperGuide/Localization/Localisation.md)
+
+- Publication
+
+  - [Hub de données Opendata Publishing API](/fr/DeveloperGuide/Publishing/DataHub-Opendata-Publishing-API.md)
 
 - Ressourcement
 

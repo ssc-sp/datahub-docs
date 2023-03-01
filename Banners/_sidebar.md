@@ -1,4 +1,4 @@
+- [Landing](/Banners/Landing.md)
+- [Workspace Storage](/Banners/Workspace-Storage.md)
 - [Workspace](/Banners/Workspace.md)
-- [Landing page](/Banners/Landing.md)
-- [Workspace Storage](/Banners/Project-Storage.md)
 

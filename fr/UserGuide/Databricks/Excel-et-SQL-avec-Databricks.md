@@ -1,9 +1,8 @@
 ---
 remarks: Automatically translated with DeepL
-source: /UserGuide/Databricks/Data-Processing-using-Databricks.md
+source: /UserGuide/Databricks/Excel-and-SQL-with-Databricks.md
+draft: true
 ---
-
-_(draft documentation, please review)_
 
 
 Veuillez noter que le langage de programmation utilisé pour ce guide de l'utilisateur est principalement Python. Toutefois, vous pouvez consulter le site Web fourni sous chaque section pour des exemples utilisant d'autres langages tels que Scala et R.

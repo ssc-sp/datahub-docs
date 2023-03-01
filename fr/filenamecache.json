@@ -314,5 +314,33 @@
   {
     "English": "FSDH-FAQs.md",
     "French": "FSDH-FAQs.md"
+  },
+  {
+    "English": "Workspace-Storage.md",
+    "French": "Rangement-de-l\u0027espace-de-travail.md"
+  },
+  {
+    "English": "Excel-and-SQL-with-Databricks.md",
+    "French": "Excel-et-SQL-avec-Databricks.md"
+  },
+  {
+    "English": "Request-databricks.md",
+    "French": "Demander-des-databricks.md"
+  },
+  {
+    "English": "Request-storage.md",
+    "French": "Demande-de-stockage.md"
+  },
+  {
+    "English": "Monitor-Cloud-Consumption.md",
+    "French": "Surveiller-la-consommation-des-nuages.md"
+  },
+  {
+    "English": "Request-workspace.md",
+    "French": "Demander-un-espace-de-travail.md"
+  },
+  {
+    "English": "POC-Terms-And-Conditions.md",
+    "French": "Conditions-g\u00E9n\u00E9rales-de-POC.md"
   }
 ]
