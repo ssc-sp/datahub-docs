@@ -1,6 +1,7 @@
 ---
 remarks: Automatically translated with DeepL
-source: \$1
+source: /AdminGuide/User-Identity-Management-(Unclassified-scenario).md
+draft: true
 ---
 
 # Membre du GdC

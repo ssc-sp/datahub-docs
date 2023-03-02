@@ -1,6 +1,7 @@
 ---
 remarks: Automatically translated with DeepL
-source: \$1
+source: /AdminGuide/README.md
+draft: true
 ---
 
 # Guide de l'administrateur

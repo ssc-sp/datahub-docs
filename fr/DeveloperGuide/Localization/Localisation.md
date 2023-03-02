@@ -1,6 +1,7 @@
 ---
 remarks: Automatically translated with DeepL
-source: \$1
+source: /DeveloperGuide/Localization/Localization.md
+draft: true
 ---
 
 # Aperçu de la localisation

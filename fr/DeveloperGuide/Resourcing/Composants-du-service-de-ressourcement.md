@@ -1,6 +1,7 @@
 ---
 remarks: Automatically translated with DeepL
-source: \$1
+source: /DeveloperGuide/Resourcing/Resourcing-Servicing-Components.md
+draft: true
 ---
 
 ## Utilisateurs

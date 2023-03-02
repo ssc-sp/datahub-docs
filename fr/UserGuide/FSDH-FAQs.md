@@ -1,9 +1,8 @@
 ---
 remarks: Automatically translated with DeepL
 source: /UserGuide/FSDH-FAQs.md
+draft: true
 ---
-
-_(draft documentation, please review)_
 
 ## 1. Quels sont les 2 cas d'utilisation dans ce Proof-of-Concept ?
  ![image](https://user-images.githubusercontent.com/99416857/219882481-a871d9aa-d8ba-49e4-bf52-dbb9414b0005.png)

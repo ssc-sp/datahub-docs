@@ -1,6 +1,7 @@
 ---
 remarks: Automatically translated with DeepL
-source: \$1
+source: /_navbar.md
+draft: true
 ---
 
 <!-- _navbar.md -->

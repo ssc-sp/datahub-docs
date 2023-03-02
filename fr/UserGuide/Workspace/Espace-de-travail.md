@@ -1,9 +1,8 @@
 ---
 remarks: Automatically translated with DeepL
 source: /UserGuide/Workspace/Workspace.md
+draft: true
 ---
-
-_(draft documentation, please review)_
 
 # Espace de travail FSDH
 
@@ -15,3 +14,7 @@ Un espace de travail permet d'accéder facilement aux principales fonctionnalit�
 - Outils d'analyse de données (Azure Databricks) ;
 - Ajouter des collaborateurs
 - Fonctions d'administration (y compris ... ???)
+
+Pour demander du stockage dans votre espace de travail, allez à : [Demande de stockage] (/UserGuide/Storage/Request-storage.md)
+
+Pour demander des Databricks dans votre espace de travail, allez à : [Demander des modules de données] (/UserGuide/Databricks/Request-databricks.md)

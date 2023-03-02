@@ -7,7 +7,7 @@ draft: true
 - Architecture
 
   - [Environnements en nuage](/fr/DeveloperGuide/Architecture/Environnements-en-nuage.md)
-  - [Exigence de l'équipe Cloud pour l'exécution de Data Hub Terraform](/fr/DeveloperGuide/Architecture/Exigence-de-l'équipe-Cloud-pour-exécuter-DataHub-Terraform.md)
+  - [Exigences de l'équipe Cloud pour l'exécution de Data Hub Terraform](/fr/DeveloperGuide/Architecture/Exigence-de-l'équipe-Cloud-pour-exécuter-DataHub-Terraform.md)
   - [Architecture microservice](/fr/DeveloperGuide/Architecture/Architecture-microservice.md)
   - [Architecture globale](/fr/DeveloperGuide/Architecture/Architecture-globale.md)
   - Services
@@ -25,7 +25,7 @@ draft: true
 
   - [Création de la documentation](/fr/DeveloperGuide/Contributing/Création-de-la-documentation.md)
   - [Aperçu des contributions](/fr/DeveloperGuide/Contributing/Aperçu-des-contributions.md)
-  - [Contribution à la demande de tirage](/fr/DeveloperGuide/Contributing/Contribution-à-la-demande-de-tirage.md)
+  - [Contribution à une demande de retrait](/fr/DeveloperGuide/Contributing/Contribution-à-une-demande-de-retrait.md)
 
 - Localisation
 

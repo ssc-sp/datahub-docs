@@ -1,6 +1,7 @@
 ---
 remarks: Automatically translated with DeepL
-source: \$1
+source: /DeveloperGuide/Contributing/Authoring-Documentation.md
+draft: true
 ---
 
 # Aperçu de l'élaboration de la documentation

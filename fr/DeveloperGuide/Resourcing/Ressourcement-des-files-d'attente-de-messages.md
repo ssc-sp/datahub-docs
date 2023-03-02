@@ -1,6 +1,7 @@
 ---
 remarks: Automatically translated with DeepL
-source: \$1
+source: /DeveloperGuide/Resourcing/Resourcing-Message-Queues.md
+draft: true
 ---
 
 Il y a deux files d'attente qui sont utilisées dans le processus de ressourcement.

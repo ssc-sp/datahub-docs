@@ -1,6 +1,7 @@
 ---
 remarks: Automatically translated with DeepL
-source: \$1
+source: /DeveloperGuide/Architecture/Overall_Architecture.md
+draft: true
 ---
 
 # Architecture technique de DataHub

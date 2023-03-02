@@ -1,6 +1,7 @@
 ---
 remarks: Automatically translated with DeepL
-source: \$1
+source: /DeveloperGuide/Testing/EndToEnd.md
+draft: true
 ---
 
 # Test de bout en bout

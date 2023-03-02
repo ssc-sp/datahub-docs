@@ -1,9 +1,8 @@
 ---
 remarks: Automatically translated with DeepL
 source: /UserGuide/Databricks/Databricks.md
+draft: true
 ---
-
-_(draft documentation, please review)_
 
 ---
 onProfileInclude : ssc
@@ -11,7 +10,7 @@ onProfileInclude : ssc
 
 ## Azure Databricks for Cloud Analytics (en anglais)
 
-Databricks est une plateforme similaire aux carnets Jupyter et permet aux scientifiques de créer et de partager des documents comprenant du code en direct, des équations et d'autres ressources multimédia. Databricks s'intègre au stockage et à la sécurité du cloud dans votre compte cloud, et gère et déploie l'infrastructure cloud en votre nom.
+Databricks est une plateforme similaire aux carnets Jupyter et permet aux scientifiques de créer et de partager des documents qui incluent du code en direct, des équations et d'autres ressources multimédias. Databricks s'intègre au stockage et à la sécurité de votre compte cloud, et gère et déploie l'infrastructure cloud en votre nom.
 
 ### Accès au stockage par le biais de Databricks
 

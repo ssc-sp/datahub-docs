@@ -1,6 +1,7 @@
 ---
 remarks: Automatically translated with DeepL
 source: /AdminGuide/Power-BI-Administration.md
+draft: true
 ---
 
 # Administration de Power BI
@@ -11,5 +12,5 @@ Cette section permet aux administrateurs de saisir et de mettre à jour les mét
 
 Les métadonnées des objets Power BI peuvent être saisies à l'aide de l'interface arborescente de la page d'administration de Power BI.
 
-Le niveau supérieur de l'arbre affiche les initiatives, ainsi qu'une catégorie "Espace de travail à attribuer" pour les espaces de travail qui ne sont associés à aucune initiative. Chaque initiative affichée dans cette liste possède un ou plusieurs espaces de travail Power BI, et les espaces de travail peuvent contenir un nombre quelconque de rapports Power BI. La sélection d'un espace de travail ou d'un rapport dans l'arborescence permet à l'utilisateur de visualiser et de modifier les métadonnées qui lui sont associées, et de l'inclure ou de l'exclure du catalogue.
+Le niveau supérieur de l'arbre affiche les initiatives, ainsi qu'une catégorie "Espace de travail à attribuer" pour les espaces de travail qui ne sont associés à aucune initiative. Chaque initiative affichée dans cette liste possède un ou plusieurs espaces de travail Power BI, et les espaces de travail peuvent contenir un nombre quelconque de rapports Power BI. En sélectionnant un espace de travail ou un rapport dans l'arborescence, l'utilisateur pourra visualiser et modifier les métadonnées qui lui sont associées, et l'inclure ou l'exclure du catalogue.
 

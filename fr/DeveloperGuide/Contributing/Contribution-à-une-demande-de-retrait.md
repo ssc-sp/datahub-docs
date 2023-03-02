@@ -1,6 +1,7 @@
 ---
 remarks: Automatically translated with DeepL
-source: \$1
+source: /DeveloperGuide/Contributing/Contributing-Pull-Request.md
+draft: true
 ---
 
 ## Ouverture d'une demande de retrait

@@ -1,9 +1,8 @@
 ---
 remarks: Automatically translated with DeepL
 source: /Banners/Workspace.md
+draft: true
 ---
-
-_(draft documentation, please review)_
 
 ## Espaces de travail
 

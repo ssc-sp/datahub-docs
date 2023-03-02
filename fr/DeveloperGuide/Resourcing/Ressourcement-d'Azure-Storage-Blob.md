@@ -1,6 +1,7 @@
 ---
 remarks: Automatically translated with DeepL
-source: \$1
+source: /DeveloperGuide/Resourcing/Resourcing-Azure-Storage-Blob.md
+draft: true
 ---
 
 ## Diagramme de séquence

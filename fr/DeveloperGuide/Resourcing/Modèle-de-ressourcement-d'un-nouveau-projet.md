@@ -1,6 +1,7 @@
 ---
 remarks: Automatically translated with DeepL
-source: \$1
+source: /DeveloperGuide/Resourcing/Resourcing-New-Project-Template.md
+draft: true
 ---
 
 ## Diagramme de séquence

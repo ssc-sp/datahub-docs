@@ -1,6 +1,7 @@
 ---
 remarks: Automatically translated with DeepL
-source: \$1
+source: /DeveloperGuide/Contributing/Contributing-Overview.md
+draft: true
 ---
 
 ## Introduction

@@ -1,6 +1,7 @@
 ---
 remarks: Automatically translated with DeepL
-source: \$1
+source: /DeveloperGuide/Storage/Storage_Limits.md
+draft: true
 ---
 
 # Limites de stockage

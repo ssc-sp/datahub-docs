@@ -25,7 +25,7 @@ DEV : `https://dh-portal-app-dev.azurewebsites.net/api/opendata/submit`
 | file_url | string (max 200) | URL de l'ensemble de données source qui sera publié dans Open Data. Cette URL doit être accessible au public sans aucune restriction IP.
 | file_id | string (max 200) | Cet ID doit être unique, nous suggérons fortement d'utiliser un GUID. Cet ID sera utilisé pour éviter les doubles soumissions de fichiers.
 | nom_fichier | chaîne (max 200) | Nom du fichier utilisé pour afficher dans l'interface utilisateur du flux de travail de partage.
-| email_contact | string | Contact email responsable du flux de travail de partage.
+| email_contact | string | Contact e-mail responsable du flux de travail de partage.
 | La collection (spécifique au domaine) à laquelle appartient l'enregistrement de métadonnées. Choix : **primaire, code, api, app**
 | title_translated_en | string | Le nom anglais par lequel l'ensemble de données est connu.
 | title_translated_fr | string | Le nom français sous lequel l'ensemble de données est connu.

@@ -1,6 +1,7 @@
 ---
 remarks: Automatically translated with DeepL
-source: \$1
+source: /DeveloperGuide/Azure/Storage_Limits.md
+draft: true
 ---
 
 # Aperçu des alertes de stockage

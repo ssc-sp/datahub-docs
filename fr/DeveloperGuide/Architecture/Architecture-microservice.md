@@ -1,21 +1,23 @@
 ---
 remarks: Automatically translated with DeepL
-source: \$1
+source: /DeveloperGuide/Architecture/Microservice_Architecture.md
+draft: true
 ---
 
-# Aperçu de la prochaine étape
+# Aperçu de l'état actuel
 
 ``mermaid``
 organigramme LR
     B [Blazor]
     N[Service de notification]
+    E [Service e-mail]
     I [Service d'identité]
     U [Service utilisateur]
     P [Service des projets]
     C [Service d'évaluation des coûts]
     Re [Service des rapports]
     R[Fournisseur de ressources]
-    M{{Message Queue}}
+    M{{Questions de messages}}
 
 
     B <--> |OAuth| I
@@ -28,6 +30,7 @@ organigramme LR
     B --> M
 
     R <--> M
+    E <--> M
 
     Sous-graphe du portail Datahub
         B
@@ -50,6 +53,7 @@ organigramme LR
 organigramme LR
     B [Blazor]
     N[Service de notification]
+    E [Service e-mail]
     I [Service d'identité]
     U [Service utilisateur]
     P [Service des projets]
@@ -63,10 +67,13 @@ organigramme LR
     B <--> |API| P
     B <--> |API| N
     B <--> |API| C
+    B <--> |API| E
+    B <--> |API| R
 
     B --> M
 
     R <--> M
+    E <--> M
     P <--> M
     U <--> M
     N <--> M
@@ -84,6 +91,7 @@ organigramme LR
             R
             N
             C
+            E
         fin
     fin
 

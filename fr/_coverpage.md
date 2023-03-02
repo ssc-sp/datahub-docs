@@ -1,6 +1,7 @@
 ---
 remarks: Automatically translated with DeepL
-source: \$1
+source: /_coverpage.md
+draft: true
 ---
 
 # Bienvenue sur DataHub

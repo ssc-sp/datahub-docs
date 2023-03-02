@@ -4,8 +4,8 @@ source: /Banners/Landing.md
 draft: true
 ---
 
-## Qu'est-ce que le DataHub ?
+## Qu'est-ce que le Federal Science DataHub ?
 
-Le DataHub est une plateforme d'entreprise permettant de stocker, de travailler et de collaborer sur des initiatives de données dans tous les secteurs. Il s'agit d'un emplacement central permettant aux utilisateurs de stocker des données, d'effectuer des analyses collaboratives, de manipuler des données à l'aide d'outils d'analyse avancés et de mener des expériences de science des données.
+Le Centre fédéral de données scientifiques est une plateforme d'entreprise permettant de stocker, de travailler et de collaborer sur les données scientifiques du gouvernement du Canada. Il s'agit d'un endroit central où les scientifiques et les chercheurs du GC peuvent stocker des données, effectuer des analyses en collaboration et manipuler des données à l'aide d'outils d'analyse avancés.
 
 [En savoir plus]()
