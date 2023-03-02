@@ -4,9 +4,6 @@ source: /UserGuide/Databricks/Databricks.md
 draft: true
 ---
 
----
-onProfileInclude : ssc
----
 
 ## Azure Databricks for Cloud Analytics (en anglais)
 

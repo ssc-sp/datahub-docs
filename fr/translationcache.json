@@ -6342,5 +6342,225 @@
   {
     "English": "* [Francais](/fr/)",
     "French": "* [Francais](/fr/)"
+  },
+  {
+    "English": "autogenerate: true",
+    "French": "autog\u00E9n\u00E9rer : true"
+  },
+  {
+    "English": "## Default DataHub Mount point ",
+    "French": "## Point de montage par d\u00E9faut du DataHub"
+  },
+  {
+    "English": "In the above example, the pre-created path \u0060/mnt/fsdh-dbk-main-mount/\u0060 points to the \u0060datahub\u0060 container of your Blob storage. The file \u0060sample.csv\u0060 is for illustration purpose and you must change to your file name.",
+    "French": "Dans l\u0027exemple ci-dessus, le chemin pr\u00E9-cr\u00E9\u00E9 \u0060/mnt/fsdh-dbk-main-mount/\u0060 pointe vers le conteneur \u0060datahub\u0060 de votre stockage Blob. Le fichier \u0060sample.csv\u0060 est \u00E0 titre d\u0027illustration et vous devez le changer pour votre nom de fichier."
+  },
+  {
+    "English": "## Mount to Other Clusters",
+    "French": "## Montage sur d\u0027autres clusters"
+  },
+  {
+    "English": "As you create more clusters based on DataHub cluster policies, you can mount your project Blob storage in your code.",
+    "French": "Au fur et \u00E0 mesure que vous cr\u00E9ez des clusters bas\u00E9s sur les politiques de cluster DataHub, vous pouvez monter le stockage Blob de votre projet dans votre code."
+  },
+  {
+    "English": "### Option 1 - Mount Blob Container",
+    "French": "### Option 1 - Monter le conteneur Blob"
+  },
+  {
+    "English": "1. Mount the container",
+    "French": "1. Montez le conteneur"
+  },
+  {
+    "English": "    configs = {",
+    "French": "    configs = {"
+  },
+  {
+    "English": "      \u0022fs.azure.account.auth.type\u0022: \u0022CustomAccessToken\u0022,",
+    "French": "      \u0022fs.azure.account.auth.type\u0022 : \u0022CustomAccessToken\u0022,"
+  },
+  {
+    "English": "      \u0022fs.azure.account.custom.token.provider.class\u0022: spark.conf.get(\u0022spark.databricks.passthrough.adls.gen2.tokenProviderClassName\u0022)",
+    "French": "      \u0022fs.azure.account.custom.token.provider.class\u0022 : spark.conf.get(\u0022spark.databricks.passthrough.adls.gen2.tokenProviderClassName\u0022)"
+  },
+  {
+    "English": "    dbutils.fs.mount(",
+    "French": "    dbutils.fs.mount("
+  },
+  {
+    "English": "       source = \u0022abfss://container@account.dfs.core.windows.net/\u0022,",
+    "French": "       source = \u0022abfss://container@account.dfs.core.windows.net/\u0022,"
+  },
+  {
+    "English": "       mount_point = \u0022/mnt/my-mountpoint\u0022,",
+    "French": "       mount_point = \u0022/mnt/my-mountpoint\u0022,"
+  },
+  {
+    "English": "       extra_configs = configs)",
+    "French": "       extra_configs = configs)"
+  },
+  {
+    "English": "2. Once you have mounted a folder in \u0060\u0060\u0060/mnt/my-mountpoint\u0060\u0060\u0060, the python programs in Databricks can access files in that storage container as if they were local files.",
+    "French": "2. Une fois que vous avez mont\u00E9 un dossier dans \u0060\u0060\u0060/mnt/my-mountpoint\u0060\u0060, les programmes python de Databricks peuvent acc\u00E9der aux fichiers de ce conteneur de stockage comme s\u0027il s\u0027agissait de fichiers locaux."
+  },
+  {
+    "English": "    \u0060\u0060\u0060",
+    "French": "    \u0060\u0060\u0060"
+  },
+  {
+    "English": "    df = spark.read.option(\u0022header\u0022,\u0022true\u0022).csv(\u0027/mnt/my-mountpoint/sample.csv\u0027);",
+    "French": "    df = spark.read.option(\u0022header\u0022, \u0022true\u0022).csv(\u0027/mnt/my-mountpoint/sample.csv\u0027) ;"
+  },
+  {
+    "English": "    df.show(3);",
+    "French": "    df.show(3) ;"
+  },
+  {
+    "English": "### Option 2 - Directly Access Individule Files",
+    "French": "### Option 2 - Acc\u00E8s direct aux fichiers individuels"
+  },
+  {
+    "English": "You can also directly access files without mounting the storage first",
+    "French": "Vous pouvez \u00E9galement acc\u00E9der directement aux fichiers sans monter le stockage au pr\u00E9alable."
+  },
+  {
+    "English": "spark.read.format(\u0022csv\u0022).load(\u0022abfss://container@account.dfs.core.windows.net/sample.csv\u0022).collect()",
+    "French": "spark.read.format(\u0022csv\u0022).load(\u0022abfss://container@account.dfs.core.windows.net/sample.csv\u0022).collect()"
+  },
+  {
+    "English": "- See [Databricks Storage Documentation](https://docs.microsoft.com/en-us/azure/databricks/data/data-sources/azure/azure-storage) for more details",
+    "French": "- Voir [Databricks Storage Documentation] (https://docs.microsoft.com/en-us/azure/databricks/data/data-sources/azure/azure-storage) pour plus de d\u00E9tails."
+  },
+  {
+    "English": "- See [Access Azure Data Lake Storage using Azure Active Directory credential passthrough](https://learn.microsoft.com/en-us/azure/databricks/data-governance/credential-passthrough/adls-passthrough) for using credential passthrough to access your Blob storage in Databricks",
+    "French": "- Voir [Access Azure Data Lake Storage using Azure Active Directory credential passthrough] (https://learn.microsoft.com/en-us/azure/databricks/data-governance/credential-passthrough/adls-passthrough) pour l\u0027utilisation du credential passthrough pour acc\u00E9der \u00E0 votre stockage Blob dans Databricks."
+  },
+  {
+    "English": "autogenerate: false",
+    "French": "autog\u00E9n\u00E9rer : false"
+  },
+  {
+    "English": "- Proof-of-Concept Onboarding (with Quick Start Guide) ",
+    "French": "- Embarquement pour la validation du concept (avec guide de d\u00E9marrage rapide)"
+  },
+  {
+    "English": "Workspace Lead",
+    "French": "Responsable de l\u0027espace de travail"
+  },
+  {
+    "English": "Collaborators",
+    "French": "Collaborateurs"
+  },
+  {
+    "English": "- Workspaces",
+    "French": "- Espaces de travail"
+  },
+  {
+    "English": "What is a Workspace in FSDH?",
+    "French": "Qu\u0027est-ce qu\u0027un espace de travail dans la FSDH ?"
+  },
+  {
+    "English": "How to Request a Workspace",
+    "French": "Comment demander un espace de travail"
+  },
+  {
+    "English": "Workspace Profile (Metadata)",
+    "French": "Profil de l\u0027espace de travail (m\u00E9tadonn\u00E9es)"
+  },
+  {
+    "English": "- Collaboration",
+    "French": "- Collaboration"
+  },
+  {
+    "English": "How to Invite Collaborators to your Workspace",
+    "French": "Comment inviter des collaborateurs \u00E0 votre espace de travail"
+  },
+  {
+    "English": "What is Azure Storage Explorer?",
+    "French": "Qu\u0027est-ce que Azure Storage Explorer ?"
+  },
+  {
+    "English": "How to Request Storage",
+    "French": "Comment demander le stockage"
+  },
+  {
+    "English": "Use AzCopy to Interact with Azure Storage Account",
+    "French": "Utiliser AzCopy pour interagir avec le compte de stockage Azure"
+  },
+  {
+    "English": "Who is notified when new files are added to storage?",
+    "French": "Qui est inform\u00E9 lorsque de nouveaux fichiers sont ajout\u00E9s au stockage ?"
+  },
+  {
+    "English": "text of email that is sent to workspace users",
+    "French": "texte de l\u0027email qui est envoy\u00E9 aux utilisateurs de l\u0027espace de travail"
+  },
+  {
+    "English": "What is Azure Databricks?",
+    "French": "Qu\u0027est-ce qu\u0027Azure Databricks ?"
+  },
+  {
+    "English": "How to Request Databricks",
+    "French": "Comment demander des Databricks"
+  },
+  {
+    "English": "  - Databricks Tips ",
+    "French": "  - Conseils pour Databricks"
+  },
+  {
+    "English": "Data Processing using Databricks",
+    "French": "Traitement des donn\u00E9es \u00E0 l\u0027aide de Databricks"
+  },
+  {
+    "English": "Databricks Secure Access using ADSF Passthrough",
+    "French": "Acc\u00E8s s\u00E9curis\u00E9 Databricks utilisant ADSF Passthrough"
+  },
+  {
+    "English": "Databricks   Secure Access using ADSF Passthrough",
+    "French": "Acc\u00E8s s\u00E9curis\u00E9 Databricks utilisant ADSF Passthrough"
+  },
+  {
+    "English": "Request a Session with a Databricks Expert",
+    "French": "Demander une session avec un expert Databricks"
+  },
+  {
+    "English": "- Monitor Cloud Credits and Consumption",
+    "French": "- Surveiller les cr\u00E9dits et la consommation des nuages"
+  },
+  {
+    "English": "  - Report (TBD)",
+    "French": "  - Rapport (TBD)"
+  },
+  {
+    "English": "- Reference",
+    "French": "- R\u00E9f\u00E9rence"
+  },
+  {
+    "English": "FSDH Frequently Asked Questions (FAQs)",
+    "French": "FSDH Foire aux questions (FAQ)"
+  },
+  {
+    "English": "FSDH Proof-of-Concept Kick-off Deck (April 2023)",
+    "French": "Deck de lancement de la preuve de concept FSDH (avril 2023)"
+  },
+  {
+    "English": " add link when complete ",
+    "French": " ajouter le lien quand il sera termin\u00E9"
+  },
+  {
+    "English": "- Support",
+    "French": "- Soutien"
+  },
+  {
+    "English": "FSDH Support Request Form",
+    "French": "Formulaire de demande de soutien FSDH"
+  },
+  {
+    "English": "zk82ehvUtv",
+    "French": "zk82ehvUtv"
+  },
+  {
+    "English": "     - To request help with an issue or problem with FSDH please use this form. This is the only means to request support from the FSDH team.",
+    "French": "     - Pour demander de l\u0027aide concernant une question ou un probl\u00E8me avec la FSDH, veuillez utiliser ce formulaire. C\u0027est le seul moyen de demander de l\u0027aide \u00E0 l\u0027\u00E9quipe de la FSDH."
   }
 ]

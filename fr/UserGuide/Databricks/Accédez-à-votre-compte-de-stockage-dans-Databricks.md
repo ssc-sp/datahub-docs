@@ -12,7 +12,7 @@ Lorsque votre espace de travail Databricks est créé pour votre projet, un comp
 - Familiarité avec l'API de fichier en Python ou R
 - L'accès aux Databricks a été accordé par l'équipe de Datahub.
 
-## Point de montage par défaut
+## Point de montage par défaut du DataHub
 
 Le compte de stockage a été monté dans Databricks sur le cluster par défaut (main_cluster) et on peut y accéder dans votre Noteobok comme à un dossier ordinaire.
 Le montage du stockage dans Databricks vous permet d'accéder aux objets du stockage objet comme s'ils étaient sur le système de fichiers local.
@@ -22,15 +22,41 @@ Pour accéder au point de montage dans le cluster par défaut, considérez l'exe
 df = spark.read.option("header", "true").csv('/mnt/fsdh-dbk-main-mount/sample.csv') ;
 df.show(3) ;
 ```
-Dans l'exemple ci-dessus, le chemin `/mnt/fsdh-dbk-main-mount/` pointe vers le conteneur `datahub` de votre stockage Blob. Le fichier `sample.csv` est pour l'illustration et vous devez changer le nom de votre fichier.
+Dans l'exemple ci-dessus, le chemin pré-créé `/mnt/fsdh-dbk-main-mount/` pointe vers le conteneur `datahub` de votre stockage Blob. Le fichier `sample.csv` est à titre d'illustration et vous devez le changer pour votre nom de fichier.
 
-## Monter vers plus de clusters
+## Montage sur d'autres clusters
 
-Au fur et à mesure que vous créez d'autres clusters, vous pouvez leur monter le stockage Blob par défaut ou un autre compte de stockage dans votre code.
+Au fur et à mesure que vous créez des clusters basés sur les politiques de cluster DataHub, vous pouvez monter le stockage Blob de votre projet dans votre code.
 
-Par exemple, une fois que vous avez monté un dossier dans ``/mnt/test/data``, les programmes python de Databricks peuvent accéder aux fichiers de ce conteneur de stockage comme s'il s'agissait de fichiers locaux.
+### Option 1 - Monter le conteneur Blob
+
+1. Montez le conteneur
+
+   ```
+    configs = {
+      "fs.azure.account.auth.type" : "CustomAccessToken",
+      "fs.azure.account.custom.token.provider.class" : spark.conf.get("spark.databricks.passthrough.adls.gen2.tokenProviderClassName")
+    }
+
+    dbutils.fs.mount(
+       source = "abfss://container@account.dfs.core.windows.net/",
+       mount_point = "/mnt/my-mountpoint",
+       extra_configs = configs)
+   ```
+2. Une fois que vous avez monté un dossier dans ```/mnt/my-mountpoint``, les programmes python de Databricks peuvent accéder aux fichiers de ce conteneur de stockage comme s'il s'agissait de fichiers locaux.
+    ```
+    df = spark.read.option("header", "true").csv('/mnt/my-mountpoint/sample.csv') ;
+    df.show(3) ;
+    ```
+
+### Option 2 - Accès direct aux fichiers individuels
+
+Vous pouvez également accéder directement aux fichiers sans monter le stockage au préalable.
+```
+spark.read.format("csv").load("abfss://container@account.dfs.core.windows.net/sample.csv").collect()
+```
 
 ## Références
 
-
-Voir [Databricks Storage Documentation] (https://docs.microsoft.com/en-us/azure/databricks/data/data-sources/azure/azure-storage) pour plus de détails.
+- Voir [Databricks Storage Documentation] (https://docs.microsoft.com/en-us/azure/databricks/data/data-sources/azure/azure-storage) pour plus de détails.
+- Voir [Access Azure Data Lake Storage using Azure Active Directory credential passthrough] (https://learn.microsoft.com/en-us/azure/databricks/data-governance/credential-passthrough/adls-passthrough) pour l'utilisation du credential passthrough pour accéder à votre stockage Blob dans Databricks.

@@ -4,9 +4,6 @@ source: /UserGuide/Workspace/Workspace-Profile-Metadata.md
 draft: true
 ---
 
----
-onProfileinclude : ssc
----
 
 # Profil de métadonnées pour les espaces de travail
 
