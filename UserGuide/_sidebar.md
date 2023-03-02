@@ -17,7 +17,6 @@ autogenerate: false
   - [What is Azure Storage Explorer?](/UserGuide/Storage/Datahub-AzureStorage.md)
   - [How to Request Storage](/UserGuide/Storage/Request-storage.md)
   - [Use AzCopy to Interact with Azure Storage Account](/UserGuide/Storage/Use-AzCopy.md)
-  - [Who is notified when new files are added to storage?](text of email that is sent to workspace users)
 
 - Databricks
   - [What is Azure Databricks?](/UserGuide/Databricks/Databricks.md)

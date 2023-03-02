@@ -20,7 +20,6 @@ draft: true
   - [Qu'est-ce que Azure Storage Explorer ?](/fr/UserGuide/Storage/Datahub-AzureStorage.md)
   - [Comment demander le stockage](/fr/UserGuide/Storage/Demande-de-stockage.md)
   - [Utiliser AzCopy pour interagir avec le compte de stockage Azure](/fr/UserGuide/Storage/Utilisez-AzCopy.md)
-  - [Qui est informé lorsque de nouveaux fichiers sont ajoutés au stockage ?](/fr/texte-de-l'email-qui-est-envoyé-aux-utilisateurs-de-l'espace-de-travail)
 
 - Databricks
   - [Qu'est-ce qu'Azure Databricks ?](/fr/UserGuide/Databricks/Databricks.md)
