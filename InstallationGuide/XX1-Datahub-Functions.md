@@ -10,9 +10,11 @@ You have completed the previous steps in the installation guide.
 
 ### Create Graph User Function
 
-1. Navigate to the Azure Portal and select the resource group that you created for the DataHub Functions
+1. Navigate to the Azure Portal and select the resource group that you created for the DataHub Core infrastructure
 1. Select the `fsdh-func-dotnet-env` function app
 1. Confirm that the function app is running
+   - Verify it's on `dotnet-isolated` runtime
+   - Verify it's on dotnet 7.x
 1. Verify the CreateGraphUser function by navigating to the `CreateGraphUser` function
    1. Select the Overview tab
    1. Click the `Get Function Url` button
