@@ -1,6 +1,8 @@
-[_metadata_: remarks]:- "Automatically translated with DeepL. From: /DeveloperGuide/Resourcing/Resourcing-Resource-Runs.md"
-
-[_(draft documentation, please review)_](/DeveloperGuide/Resourcing/Resourcing-Resource-Runs.md)
+---
+remarks: Automatically translated with DeepL
+source: /DeveloperGuide/Resourcing/Resourcing-Resource-Runs.md
+draft: true
+---
 
 ## Les ressources fonctionnent
 

@@ -1,6 +1,8 @@
-[_metadata_: remarks]:- "Automatically translated with DeepL. From: /AdminGuide/User-Identity-Management-(Unclassified-scenario).md"
-
-[_(draft documentation, please review)_](/AdminGuide/User-Identity-Management-(Unclassified-scenario).md)
+---
+remarks: Automatically translated with DeepL
+source: /AdminGuide/User-Identity-Management-(Unclassified-scenario).md
+draft: true
+---
 
 # Membre du GdC
 

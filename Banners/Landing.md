@@ -1,5 +1,5 @@
-## What is the DataHub?
+## What is the Federal Science DataHub?
 
-The DataHub is an enterprise platform for storing, working with and collaborating on data initiatives across sectors. It is a central location for users to store data, perform collaborative analysis, manipulate data using advanced analytics tools, and conduct data science experiments.
+The Federal Science DataHub is an enterprise platform for storing, working with, and collaborating on science data across the Government of Canada. It is a central location for GC scientists and researchers to store data, perform collaborative analysis, and manipulate data using advanced analytics tools.
 
 [Learn More]()

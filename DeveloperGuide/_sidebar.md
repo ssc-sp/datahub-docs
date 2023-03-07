@@ -1,3 +1,6 @@
+---
+autogenerate: true
+---
 - Architecture
 
   - [Cloud environments](/DeveloperGuide/Architecture/Cloud-environments.md)
@@ -11,6 +14,7 @@
 
 - Azure
 
+  - [Credits and notifications](/DeveloperGuide/Azure/Credits_and_notifications.md)
   - [Storage Limits](/DeveloperGuide/Azure/Storage_Limits.md)
 
 - [Configuration options](/DeveloperGuide/Configuration-options.md)

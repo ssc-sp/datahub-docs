@@ -1,4 +1,7 @@
-- [Data Project](/Banners/Data-Project.md)
+---
+autogenerate: true
+---
 - [Landing](/Banners/Landing.md)
-- [Project Storage](/Banners/Project-Storage.md)
+- [Workspace Storage](/Banners/Workspace-Storage.md)
+- [Workspace](/Banners/Workspace.md)
 

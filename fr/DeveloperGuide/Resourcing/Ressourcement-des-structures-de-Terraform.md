@@ -1,6 +1,8 @@
-[_metadata_: remarks]:- "Automatically translated with DeepL. From: /DeveloperGuide/Resourcing/Resourcing-Terraform-Structures.md"
-
-[_(draft documentation, please review)_](/DeveloperGuide/Resourcing/Resourcing-Terraform-Structures.md)
+---
+remarks: Automatically translated with DeepL
+source: /DeveloperGuide/Resourcing/Resourcing-Terraform-Structures.md
+draft: true
+---
 
 ## Repo d'infrastructure (publique)
 
@@ -67,7 +69,7 @@ root/
     WRK1/
       main.tf
       ~~ variables.tfvars
-      ~~ valeurs.json
+      ~~ values.json
       feature-1.tf
       feature-4.tf
       ++ storage-module-<id>.tf

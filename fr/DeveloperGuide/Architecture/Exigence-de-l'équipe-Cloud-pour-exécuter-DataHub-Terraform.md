@@ -1,6 +1,8 @@
-[_metadata_: remarks]:- "Automatically translated with DeepL. From: /DeveloperGuide/Architecture/Cloud-Team-Requirement-for-Running-DataHub-Terraform.md"
-
-[_(draft documentation, please review)_](/DeveloperGuide/Architecture/Cloud-Team-Requirement-for-Running-DataHub-Terraform.md)
+---
+remarks: Automatically translated with DeepL
+source: /DeveloperGuide/Architecture/Cloud-Team-Requirement-for-Running-DataHub-Terraform.md
+draft: true
+---
 
 
 ## Prereq
@@ -27,7 +29,7 @@ Les exigences suivantes doivent être satisfaites en dehors de ce code Terraform
    Permissions accordées User.Invite.All et GroupMember.ReadWrite.All. Le consentement de l'administrateur a été accordé
 
 - Créez un nouvel enregistrement d'application (par exemple, fsdh-billing-dev) pour appeler l'API de facturation. L'enregistrement de l'application doit avoir le rôle de "lecteur de gestion des coûts".
-- Création du coffre à clés "fsdh-key-env" et création de la politique d'accès au coffre à clés pour l'utilisateur qui exécute Terraform.
+- Création du coffre-fort "fsdh-key-env" et création de la politique d'accès au coffre-fort pour l'utilisateur qui exécute Terraform.
 - Création des secrets "datahubportal-client-id" et "datahubportal-client-secret" pour correspondre à l'enregistrement de l'application.
 - Création des secrets "datahub-smtp-username" et "datahub-smtp-password" pour l'authentification SMTP
 - Création du secret "deepl-authkey" dans Key Vault

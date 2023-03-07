@@ -1,6 +1,8 @@
-[_metadata_: remarks]:- "Automatically translated with DeepL. From: /DeveloperGuide/Resourcing/Resourcing-Azure-Storage-Blob.md"
-
-[_(draft documentation, please review)_](/DeveloperGuide/Resourcing/Resourcing-Azure-Storage-Blob.md)
+---
+remarks: Automatically translated with DeepL
+source: /DeveloperGuide/Resourcing/Resourcing-Azure-Storage-Blob.md
+draft: true
+---
 
 ## Diagramme de séquence
 

@@ -1,9 +1,8 @@
 ---
 remarks: Automatically translated with DeepL
 source: /AdminGuide/Manage-Initiatives-Admin-Page.md
+draft: true
 ---
-
-_(draft documentation, please review)_
 
 # Initiative Administration
 
@@ -13,7 +12,7 @@ Cette page peut être ouverte en naviguant vers la section Administration de Dat
 
 ## Demandes d'accès à l'initiative
 
-Ici, les administrateurs d'initiatives peuvent voir les demandes d'accès des utilisateurs aux initiatives, ainsi que les utilisateurs qui ont reçu un accès. Les demandes peuvent être traitées soit en **Autorisant** l'utilisateur (accordant l'accès) soit en **Supprimant** la demande d'accès.
+Ici, les administrateurs d'initiatives peuvent voir les demandes d'accès des utilisateurs aux initiatives, ainsi que les utilisateurs qui ont obtenu un accès. Les demandes peuvent être traitées soit en **Autorisant** l'utilisateur (accordant l'accès) soit en **Supprimant** la demande d'accès.
 
 ## Suivi de l'initiative DataHub
 

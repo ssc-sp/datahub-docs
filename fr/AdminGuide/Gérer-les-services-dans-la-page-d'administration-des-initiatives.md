@@ -1,9 +1,8 @@
 ---
 remarks: Automatically translated with DeepL
 source: /AdminGuide/Manage-Services-In-Initiatives-Admin-Page.md
+draft: true
 ---
-
-_(draft documentation, please review)_
 
 # Initiative Administration
 
