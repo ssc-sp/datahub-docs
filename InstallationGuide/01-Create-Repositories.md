@@ -9,7 +9,7 @@ We use Azure DevOps to manage our infrastructure but there is no reason why you 
 
 > Note: You can use two separate repositories for both the DataHub (Core) and DataHub (Projects) infrastructures. However, we recommend that you use a single infrastructure repository.
 
-### Create the DataHub infrastructure template repository
+### Create the DataHub Core infrastructure template repository
 
 1. Clone the Datahub Infrastructure repository into a new repository in your Azure DevOps organization.
 1. Configure your terraform backend however you wish. We recommend using Azure Storage as the backend.
@@ -17,3 +17,8 @@ We use Azure DevOps to manage our infrastructure but there is no reason why you 
 1. Run `terraform init` to initialize the terraform backend.
 1. Run `terraform plan` to ensure that the infrastructure is configured correctly.
 1. Run `terraform apply` to deploy the infrastructure.
+
+### Create the DataHub Projects infrastructure template repository
+
+1. Create an empty repository in your Azure DevOps organization.
+1. Create the folder path `/terraform/projects/` in the repository by creating a readme.md at that path.
