@@ -1,9 +1,8 @@
 ---
 remarks: Automatically translated with DeepL
 source: /AdminGuide/DataHub-Initiative-Tracker.md
+draft: true
 ---
-
-_(draft documentation, please review)_
 
 # Suivi de l'initiative DataHub
 

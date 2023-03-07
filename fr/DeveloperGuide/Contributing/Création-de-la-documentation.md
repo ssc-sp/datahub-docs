@@ -1,6 +1,8 @@
-[_metadata_: remarks]:- "Automatically translated with DeepL. From: /DeveloperGuide/Contributing/Authoring-Documentation.md"
-
-[_(draft documentation, please review)_](/DeveloperGuide/Contributing/Authoring-Documentation.md)
+---
+remarks: Automatically translated with DeepL
+source: /DeveloperGuide/Contributing/Authoring-Documentation.md
+draft: true
+---
 
 # Aperçu de l'élaboration de la documentation
 

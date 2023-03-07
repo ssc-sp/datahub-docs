@@ -1,9 +1,8 @@
 ---
 remarks: Automatically translated with DeepL
 source: /DeveloperGuide/Azure/Credits_and_notifications.md
+draft: true
 ---
-
-_(draft documentation, please review)_
 
 # Aperçu des coûts et de la notification du projet
 
@@ -35,7 +34,7 @@ Pour mettre en œuvre ce processus en toute sécurité, un ensemble de files d'a
 ### Diagramme de mise à jour et de notification de l'utilisation des crédits
 
 ``mermaid``
- diagramme de séquences
+ diagramme de séquence
     participant SF comme fonction de planification
     participant UQ comme File d'attente de mise à jour
     participant UF comme fonction de mise à jour
@@ -46,7 +45,6 @@ Pour mettre en œuvre ce processus en toute sécurité, un ensemble de files d'a
     participant EQ comme file d'attente d'emails
     participant EF comme expéditeur d'e-mails
     acteur U comme utilisateur du projet
-
 
       SF ->> SF : CRON Schedule
       SF ->> UQ : Message de mise à jour des files d'attente
@@ -61,6 +59,32 @@ Pour mettre en œuvre ce processus en toute sécurité, un ensemble de files d'a
       EQ ->> EF : Déclenche la fonction d'expéditeur de courriel
       EF ->> U : envoie un e-mail à l'utilisateur
 ```
+## Configuration de la fonction
 
+### Liens de la file d'attente
+
+Toutes les fonctions seront liées aux files d'attente respectives via la ConnectionString nommée __StorageConnectionString__.
+
+Le nom de la file d'attente n'est pas codé en dur dans l'implémentation de la fonction, le nom est stocké en utilisant une VARIABLE ENV. Par exemple :
+
+```
+
+    [Function("EmailNotificationHandler")]
+    public async Task Run([QueueTrigger("%QueueEmailNotification%", Connection = "DatahubStorageConnectionString")] string requestMessage)
+    {
+      ...
+    }
+```
+
+
+**Notification par courriel**
+
+Nom de la file d'attente : __%QueueueEmailNotification%__
+
+**ProjetUsageUpdater**
+
+Nom de la file d'attente : __%QueueueProjectUsageUpdate%__
+
+(Suite à venir...)
 
 

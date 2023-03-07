@@ -1,6 +1,8 @@
-[_metadata_: remarks]:- "Automatically translated with DeepL. From: /DeveloperGuide/Resourcing/Resourcing-Servicing-Components.md"
-
-[_(draft documentation, please review)_](/DeveloperGuide/Resourcing/Resourcing-Servicing-Components.md)
+---
+remarks: Automatically translated with DeepL
+source: /DeveloperGuide/Resourcing/Resourcing-Servicing-Components.md
+draft: true
+---
 
 ## Utilisateurs
 

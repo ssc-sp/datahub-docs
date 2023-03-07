@@ -1,6 +1,10 @@
-_(draft documentation, please review)_
+---
+remarks: Automatically translated with DeepL
+source: /Banners/_sidebar.md
+draft: true
+---
 
-- [Projet de données](/fr/Banners/Projet-de-données.md)
 - [Atterrissage](/fr/Banners/Atterrissage.md)
-- [Stockage du projet](/fr/Banners/Stockage-du-projet.md)
+- [Rangement de l'espace de travail](/fr/Banners/Rangement-de-l'espace-de-travail.md)
+- [Espace de travail](/fr/Banners/Espace-de-travail.md)
 

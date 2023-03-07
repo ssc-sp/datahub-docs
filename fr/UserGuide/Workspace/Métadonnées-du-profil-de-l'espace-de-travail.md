@@ -1,13 +1,9 @@
 ---
 remarks: Automatically translated with DeepL
 source: /UserGuide/Workspace/Workspace-Profile-Metadata.md
+draft: true
 ---
 
-_(draft documentation, please review)_
-
----
-onProfileinclude : ssc
----
 
 # Profil de métadonnées pour les espaces de travail
 

@@ -1,5 +1,3 @@
-RENAME TO WORKSPACE STORAGE
-
 ## Workspace Storage
 
 The Federal Science DataHub uses Azure Storage, Microsoft's cloud storage solution for modern data storage scenarios. Azure Storage offers highly available, massively scalable, durable, and secure storage for a variety of data objects in the cloud. 
