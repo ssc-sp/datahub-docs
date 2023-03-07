@@ -34,7 +34,7 @@ The following table contains the configuration information for the DataHub Funct
 | `EmailNotification__SmtpUsername`  | The SMTP username                                                    | `datahub-smtp-username`          | -                                      |
 | `FUNC_SP_CLIENT_ID`                | The client ID of the service principal for the DataHub Functions     | `datahubportal-client-id`        | -                                      |
 | `FUNC_SP_CLIENT_SECRET`            | The client secret of the service principal for the DataHub Functions | `datahubportal-client-secret`    | -                                      |
-| `FUNCTIONS_WORKER_RUNTIME`         | The runtime of the DataHub Functions                                 | -                                | -                                      |
+| `FUNCTIONS_WORKER_RUNTIME`         | The runtime of the DataHub Functions                                 | -                                | `dotnet-isolated`                      |
 | `PORTAL_URL`                       | The URL of the DataHub Portal                                        | -                                | -                                      |
 | `ProjectUsageCRON`                 | The CRON expression for the ProjectUsage function                    | -                                | `0 0 2 * * *`                          |
 | `ProjectUsageNotificationPercents` | The percentages for the ProjectUsageNotification function            | -                                | `25,50,80,100`                         |
