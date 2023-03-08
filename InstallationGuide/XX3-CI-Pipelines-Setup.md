@@ -1,4 +1,4 @@
-## Azure Devops
+## Azure Devops CI
 
 This guide will walk you through the steps to setup Azure DevOps for DataHub.
 
