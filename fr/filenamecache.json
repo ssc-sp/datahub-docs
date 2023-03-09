@@ -206,5 +206,17 @@
   {
     "English": "Home.md",
     "French": "Accueil.md"
+  },
+  {
+    "English": "Approving-Workspaces.md",
+    "French": "Approbation-des-espaces-de-travail.md"
+  },
+  {
+    "English": "Deleting-Projects.md",
+    "French": "Suppression-de-projets.md"
+  },
+  {
+    "English": "Managing-Budgets.md",
+    "French": "Gestion-des-budgets.md"
   }
 ]

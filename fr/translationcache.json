@@ -6562,5 +6562,121 @@
   {
     "English": "     - To request help with an issue or problem with FSDH please use this form. This is the only means to request support from the FSDH team.",
     "French": "     - Pour demander de l\u0027aide concernant une question ou un probl\u00E8me avec la FSDH, veuillez utiliser ce formulaire. C\u0027est le seul moyen de demander de l\u0027aide \u00E0 l\u0027\u00E9quipe de la FSDH."
+  },
+  {
+    "English": "| Integration | \u0060int\u0060 | \u0060integration\u0060 | For Integration testing | \u2705 | \u2705 | \u2705 | \u2705 | | ",
+    "French": "| Int\u00E9gration | \u0060int\u0060 | \u0060integration\u0060 | Pour les tests d\u0027int\u00E9gration | \u2705 | \u2705 | \u2705 | \u2705 | \u2705 | | \u2705 | |"
+  },
+  {
+    "English": "- Onboarding Quick Start Guides",
+    "French": "- Guides de d\u00E9marrage rapide de l\u0027int\u00E9gration"
+  },
+  {
+    "English": "Workspace Lead Guide",
+    "French": "Guide de l\u0027espace de travail"
+  },
+  {
+    "English": "Collaborators Guide",
+    "French": "Guide du collaborateur"
+  },
+  {
+    "English": "# Workspace Lead",
+    "French": "# Responsable de l\u0027espace de travail"
+  },
+  {
+    "English": "How to get started as lead.",
+    "French": "Comment commencer en tant que chef de file."
+  },
+  {
+    "English": "## Download Onboarding Quick Start Guide",
+    "French": "## T\u00E9l\u00E9charger le guide de d\u00E9marrage rapide de l\u0027int\u00E9gration"
+  },
+  {
+    "English": "Please find a link to the guide below:",
+    "French": "Veuillez trouver un lien vers le guide ci-dessous :"
+  },
+  {
+    "English": "Approving Workspaces",
+    "French": "Approbation des espaces de travail"
+  },
+  {
+    "English": "Deleting Projects",
+    "French": "Suppression de projets"
+  },
+  {
+    "English": "# Deleting Projects",
+    "French": "# Suppression de projets"
+  },
+  {
+    "English": "Deletion of projects requires:",
+    "French": "La suppression des projets n\u00E9cessite :"
+  },
+  {
+    "English": "1. Database Deletion (manual see below)",
+    "French": "1. Suppression de la base de donn\u00E9es (manuel voir ci-dessous)"
+  },
+  {
+    "English": "1. Terraform resource deletion",
+    "French": "1. Suppression des ressources Terraform"
+  },
+  {
+    "English": "## Database Deletion ",
+    "French": "## Suppression de la base de donn\u00E9es"
+  },
+  {
+    "English": "### 1. Whitelist ",
+    "French": "### 1. Liste blanche"
+  },
+  {
+    "English": "\u0060\u0060\u0060sql",
+    "French": "\u0060\u0060sql"
+  },
+  {
+    "English": "DELETE w from Project_Whitelists w left join [dbo].[Projects] p on p.Project_ID = w.ProjectId",
+    "French": "DELETE w from Project_Whitelists w left join [dbo].[Projects] p on p.Project_ID = w.ProjectId"
+  },
+  {
+    "English": "WHERE p.Project_Acronym_CD in (\u0027RETE\u0027,\u0027NCAR\u0027,\u0027NMCD\u0027,\u0027BWE\u0027,\u0027DEPR\u0027)",
+    "French": "WHERE p.Project_Acronym_CD in (\u0027RETE\u0027, \u0027NCAR\u0027, \u0027NMCD\u0027, \u0027BWE\u0027, \u0027DEPR\u0027)"
+  },
+  {
+    "English": "### 2. Project Users",
+    "French": "### 2. Utilisateurs du projet"
+  },
+  {
+    "English": "DELETE u from Project_Users u left join [dbo].[Projects] p on p.Project_ID = u.Project_Id",
+    "French": "DELETE u from Project_Users u left join [dbo].[Projects] p on p.Project_ID = u.Project_Id"
+  },
+  {
+    "English": "### 3. Project Requests",
+    "French": "### 3. Demandes de projets"
+  },
+  {
+    "English": "DELETE r from Project_Requests r left join [dbo].[Projects] p on p.Project_ID = r.Project_Id",
+    "French": "DELETE r from Project_Requests r left join [dbo].[Projects] p on p.Project_ID = r.Project_Id"
+  },
+  {
+    "English": "### 4. Projects",
+    "French": "### 4. Projets"
+  },
+  {
+    "English": "DELETE",
+    "French": "DELETE"
+  },
+  {
+    "English": "  FROM [dbo].[Projects]",
+    "French": "  FROM [dbo].[Projets]"
+  },
+  {
+    "English": "  WHERE Project_Acronym_CD in (\u0027RETE\u0027,\u0027NCAR\u0027,\u0027NMCD\u0027,\u0027BWE\u0027,\u0027DEPR\u0027)",
+    "French": "  WHERE Project_Acronym_CD in (\u0027RETE\u0027, \u0027NCAR\u0027, \u0027NMCD\u0027, \u0027BWE\u0027, \u0027DEPR\u0027)"
+  },
+  {
+    "English": "\u0060\u0060\u0060  ",
+    "French": "\u0060\u0060\u0060"
+  },
+  {
+    "English": "Managing Budgets",
+    "French": "Gestion des budgets"
   }
 ]

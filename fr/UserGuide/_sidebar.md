@@ -4,9 +4,9 @@ source: /UserGuide/_sidebar.md
 draft: true
 ---
 
-- Embarquement pour la validation du concept (avec guide de démarrage rapide)
-  - [Responsable de l'espace de travail](/fr/UserGuide/Onboarding/Responsable-de-l'espace-de-travail-à-bord.md)
-  - [Collaborateurs](/fr/UserGuide/Onboarding/Collaborateur-à-bord.md) 
+- Guides de démarrage rapide de l'intégration
+  - [Guide de l'espace de travail](/fr/UserGuide/Onboarding/Responsable-de-l'espace-de-travail-à-bord.md)
+  - [Guide du collaborateur](/fr/UserGuide/Onboarding/Collaborateur-à-bord.md) 
 
 - Espaces de travail
   - [Qu'est-ce qu'un espace de travail dans la FSDH ?](/fr/UserGuide/Workspace/Espace-de-travail.md)

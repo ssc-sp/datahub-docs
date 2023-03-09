@@ -1,9 +1,9 @@
 ---
 autogenerate: false
 ---
-- Proof-of-Concept Onboarding (with Quick Start Guide) 
-  - [Workspace Lead](/UserGuide/Onboarding/Onboard-Workspace-Lead.md)
-  - [Collaborators](/UserGuide/Onboarding/Onboard-Collaborator.md) 
+- Onboarding Quick Start Guides
+  - [Workspace Lead Guide](/UserGuide/Onboarding/Onboard-Workspace-Lead.md)
+  - [Collaborators Guide](/UserGuide/Onboarding/Onboard-Collaborator.md) 
      
 - Workspaces
   - [What is a Workspace in FSDH?](/UserGuide/Workspace/Workspace.md)

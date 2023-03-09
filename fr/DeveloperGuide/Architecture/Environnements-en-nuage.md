@@ -12,7 +12,7 @@ Pour faciliter le cycle de vie d'un projet, la solution DataHub peut être dépl
 | ---- | :- : | ------- | ---- | :------- : | :--- : | :---------------- : | :--------------- : | :----------------- : |
 | Développement | `dev` | `develop` | Pour l'équipe de développement | ✅ | ✅ | | ✅ | | | | |
 | Engineering | `eng` | Pour le développement et les tests de l'infrastructure et de la sécurité | | | | | | | | | | | | | | | | | |
-| Intégration | `int` | | Pour les tests d'intégration | ✅ | ✅ | ✅ | ✅ | | ✅ | |
+| Intégration | `int` | `integration` | Pour les tests d'intégration | ✅ | ✅ | ✅ | ✅ | ✅ | | ✅ | |
 | Formation des utilisateurs | | | | | | | | | | | | | | | | | | Formation des utilisateurs
 | Staging | `stg` | | Correction des problèmes de pré-production et de production | | | | | ✅ | |
 | Production | `prd` | | Live environment | ✅ | | | | | | | | |
