@@ -12,7 +12,7 @@ Once the PR is approved, it will trigger the Terraform pipelines:
 
 ### Dev
 
-The terraform pipeline is called [`fsdh-project-release-v0.1.x`](https://dev.azure.com/science-program/DataHub%20SSC/_release?_a=releases&view=mine&definitionId=14)
+The terraform pipeline is called [`fsdh-dev-project-release-v0.1.x`](https://dev.azure.com/science-program/DataHub%20SSC/_release?definitionId=22&view=mine&_a=releases)
 
 ### Int
 
