@@ -18,4 +18,4 @@
 
 ## Download
 - In the line below, change ```C:\mydata\stage``` to your local directory where the data will be downloaded.
-- Download all files from Azure to local (costs apply) ```azcopy cp "<sas_uri>" C:\mydata\stage```
+- Download all files from Azure to local (costs apply) ```azcopy cp "<sas_uri>" C:\mydata\stage --recursive```
