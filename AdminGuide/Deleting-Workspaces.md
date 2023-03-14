@@ -26,7 +26,7 @@ WHERE p.Project_Acronym_CD in ('RETE','NCAR','NMCD','BWE','DEPR')
 DELETE r from Project_Requests r left join [dbo].[Projects] p on p.Project_ID = r.Project_Id
 WHERE p.Project_Acronym_CD in ('RETE','NCAR','NMCD','BWE','DEPR')
 ```
-### 4. Project Requests
+### 4. Project Users Requests
 
 ```sql
 DELETE r from Project_Users_Requests r left join [dbo].[Projects] p on p.Project_ID = r.Project_Id
