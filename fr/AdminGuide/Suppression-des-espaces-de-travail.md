@@ -1,10 +1,10 @@
 ---
 remarks: Automatically translated with DeepL
-source: /AdminGuide/Deleting-Projects.md
+source: /AdminGuide/Deleting-Workspaces.md
 draft: true
 ---
 
-# Suppression de projets
+# Suppression des espaces de travail
 
 La suppression des projets nécessite :
 1. Suppression de la base de données (manuel voir ci-dessous)
@@ -40,3 +40,4 @@ DELETE
   FROM [dbo].[Projets]
   WHERE Project_Acronym_CD in ('RETE', 'NCAR', 'NMCD', 'BWE', 'DEPR')
 ```
+

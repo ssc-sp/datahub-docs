@@ -24,4 +24,4 @@ draft: true
 
 ## Télécharger
 - Dans la ligne ci-dessous, remplacez "C:\mydata\stage" par votre répertoire local où les données seront téléchargées.
-- Télécharger tous les fichiers d'Azure vers le local (des coûts s'appliquent) ``azcopy cp "<sas_uri>" C:\mydata\stage``
+- Télécharger tous les fichiers d'Azure en local (les coûts s'appliquent) ```azcopy cp "<sas_uri>" C:\NMydata\stage --recursive ```
