@@ -2,6 +2,7 @@
 autogenerate: false
 ---
 - Onboarding Quick Start Guides
+  - [Linking Your Account](/UserGuide/Onboarding/Link-Account.md)
   - [Workspace Lead Guide](/UserGuide/Onboarding/Onboard-Workspace-Lead.md)
   - [Collaborators Guide](/UserGuide/Onboarding/Onboard-Collaborator.md) 
      

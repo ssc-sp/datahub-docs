@@ -5,6 +5,7 @@ draft: true
 ---
 
 - Guides de démarrage rapide de l'intégration
+  - [Relier votre compte](/fr/UserGuide/Onboarding/Compte-de-liaison.md)
   - [Guide de l'espace de travail](/fr/UserGuide/Onboarding/Responsable-de-l'espace-de-travail-à-bord.md)
   - [Guide du collaborateur](/fr/UserGuide/Onboarding/Collaborateur-à-bord.md) 
 
