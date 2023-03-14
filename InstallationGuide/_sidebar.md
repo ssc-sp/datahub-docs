@@ -1,3 +1,14 @@
 ---
 autogenerate: true
 ---
+- [00 Preparation](/InstallationGuide/00-Preparation.md)
+- [01 Create Repositories](/InstallationGuide/01-Create-Repositories.md)
+- [02 Datahub Core Infrastructure](/InstallationGuide/02-Datahub-Core-Infrastructure.md)
+- [03 Seed Admin](/InstallationGuide/03-Seed-Admin.md)
+- [04 CI Pipelines Setup](/InstallationGuide/04-CI-Pipelines-Setup.md)
+- [05 CD Pipelines Setup](/InstallationGuide/05-CD-Pipelines-Setup.md)
+- [06 Datahub Functions](/InstallationGuide/06-Datahub-Functions.md)
+- [07 Resource Provisioner Functions](/InstallationGuide/07-Resource-Provisioner-Functions.md)
+- [08 Project Pipelines Setup](/InstallationGuide/08-Project-Pipelines-Setup.md)
+- [09 Seed Metadata](/InstallationGuide/09-Seed-Metadata.md)
+

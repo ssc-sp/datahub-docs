@@ -4,3 +4,14 @@ source: /InstallationGuide/_sidebar.md
 draft: true
 ---
 
+- [00 Préparation](/fr/InstallationGuide/00-Préparation.md)
+- [01 Créer des référentiels](/fr/InstallationGuide/01-Créer-des-référentiels.md)
+- [02 Infrastructure de base du Datahub](/fr/InstallationGuide/02-Infrastructure-de-base-du-Datahub.md)
+- [03 Administration des semences](/fr/InstallationGuide/03-Administration-des-semences.md)
+- [04 Configuration des pipelines CI](/fr/InstallationGuide/04-Configuration-des-pipelines-CI.md)
+- [05 Configuration des pipelines CD](/fr/InstallationGuide/05-Configuration-des-pipelines-CD.md)
+- [06 Fonctions du Datahub](/fr/InstallationGuide/06-Fonctions-du-Datahub.md)
+- [07 Fonctions du fournisseur de ressources](/fr/InstallationGuide/07-Fonctions-du-fournisseur-de-ressources.md)
+- [08 Configuration des pipelines de projet](/fr/InstallationGuide/08-Configuration-des-pipelines-de-projet.md)
+- [09 Métadonnées sur les semences](/fr/InstallationGuide/09-Métadonnées-sur-les-semences.md)
+

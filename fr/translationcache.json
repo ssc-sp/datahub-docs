@@ -10902,5 +10902,97 @@
   {
     "English": "- Download all files from Azure to local (costs apply) \u0060\u0060\u0060azcopy cp \u0022\u003Csas_uri\u003E\u0022 C:\\mydata\\stage --recursive\u0060\u0060\u0060",
     "French": "- T\u00E9l\u00E9charger tous les fichiers d\u0027Azure en local (les co\u00FBts s\u0027appliquent) \u0060\u0060\u0060azcopy cp \u0022\u003Csas_uri\u003E\u0022 C:\\NMydata\\stage --recursive \u0060\u0060\u0060"
+  },
+  {
+    "English": "Link Account",
+    "French": "Compte de liaison"
+  },
+  {
+    "English": "# Linking your Active Directory Account to the Federal Science DataHub",
+    "French": "# Relier votre compte Active Directory au Federal Science DataHub"
+  },
+  {
+    "English": "## Step 1 - Check your inbox for the email invitation",
+    "French": "## \u00C9tape 1 - V\u00E9rifiez votre bo\u00EEte de r\u00E9ception pour l\u0027e-mail d\u0027invitation"
+  },
+  {
+    "English": "Once your invitation has been processed - you will receive an email like the following one in your mailbox. ",
+    "French": "Une fois que votre invitation a \u00E9t\u00E9 trait\u00E9e, vous recevrez dans votre bo\u00EEte aux lettres un courriel comme celui-ci."
+  },
+  {
+    "English": "![image](0-email-invitation.png)",
+    "French": "![image](0-email-invitation.png)"
+  },
+  {
+    "English": "To proceed with the invitation - please open the link from the email.",
+    "French": "Pour proc\u00E9der \u00E0 l\u0027invitation, veuillez ouvrir le lien figurant dans l\u0027e-mail."
+  },
+  {
+    "English": "## Step 2 - Link your existing Active Directory account to the Federal Science Tenant",
+    "French": "## \u00C9tape 2 - Relier votre compte Active Directory existant au Federal Science Tenant"
+  },
+  {
+    "English": "To login to the DataHub, it is necessary to link your existing Microsoft 365 credentials to the tenant for the Science Program called 163Oxygen. You should see a permission request to connect your existing profile to our tenant which needs to be accepted to continue to process.",
+    "French": "Pour vous connecter au DataHub, il est n\u00E9cessaire de lier vos identifiants Microsoft 365 existants au locataire du programme scientifique appel\u00E9 163Oxygen. Vous devriez voir une demande d\u0027autorisation pour connecter votre profil existant \u00E0 notre locataire qui doit \u00EAtre accept\u00E9e pour continuer le processus."
+  },
+  {
+    "English": "![image](1-aad-permission.png)",
+    "French": "![image](1-aad-permission.png)"
+  },
+  {
+    "English": "## Step 3- Multifactor Authentication (MFA)",
+    "French": "## \u00C9tape 3 - Authentification multifactorielle (MFA)"
+  },
+  {
+    "English": "The tenant configuration requires another Multifactor Authentication using an authenticator. It is recommended to use the Microsoft Authenticator on your work or personal device.",
+    "French": "La configuration du locataire n\u00E9cessite une autre authentification multifactorielle \u00E0 l\u0027aide d\u0027un authentificateur. Il est recommand\u00E9 d\u0027utiliser l\u0027authentificateur Microsoft sur votre appareil professionnel ou personnel."
+  },
+  {
+    "English": "![image](2-mfa-request.png)",
+    "French": "![image](2-mfa-request.png)"
+  },
+  {
+    "English": "See [set up the Microsoft Authenticator app as your verification method](https://support.microsoft.com/en-us/account-billing/set-up-the-microsoft-authenticator-app-as-your-verification-method-33452159-6af9-438f-8f82-63ce94cf3d29) for more details.",
+    "French": "Voir [configurer l\u0027application Microsoft Authenticator comme m\u00E9thode de v\u00E9rification] (https://support.microsoft.com/en-us/account-billing/set-up-the-microsoft-authenticator-app-as-your-verification-method-33452159-6af9-438f-8f82-63ce94cf3d29) pour plus de d\u00E9tails."
+  },
+  {
+    "English": "Once the authenticator is installed and verified, you should see the following screen.",
+    "French": "Une fois l\u0027authentificateur install\u00E9 et v\u00E9rifi\u00E9, vous devriez voir l\u0027\u00E9cran suivant."
+  },
+  {
+    "English": "![image](4-mfa-validation.png)",
+    "French": "![image](4-mfa-validation.png)"
+  },
+  {
+    "English": "## Step 4 - DataHub Language Selection",
+    "French": "## \u00C9tape 4 - S\u00E9lection de la langue du DataHub"
+  },
+  {
+    "English": "With the account linked to the FSDH tenant, it is possible to enter the DataHub. Any new user will require to initially select their prefered language.",
+    "French": "Avec le compte li\u00E9 au locataire FSDH, il est possible d\u0027entrer dans le DataHub. Tout nouvel utilisateur devra d\u0027abord s\u00E9lectionner sa langue pr\u00E9f\u00E9r\u00E9e."
+  },
+  {
+    "English": "![image](5-language-selection.png)",
+    "French": "![image](5-language-selection.png)"
+  },
+  {
+    "English": "## Step 5 - Terms and Conditions",
+    "French": "## \u00C9tape 5 - Conditions g\u00E9n\u00E9rales"
+  },
+  {
+    "English": "Finally, the terms and conditions for the DataHub need to be accepted before entering your workspace.",
+    "French": "Enfin, les conditions d\u0027utilisation du DataHub doivent \u00EAtre accept\u00E9es avant d\u0027acc\u00E9der \u00E0 votre espace de travail."
+  },
+  {
+    "English": "![image](6-Terms-and-Conditions.png)",
+    "French": "![image](6-Termes-et-Conditions.png)"
+  },
+  {
+    "English": "## Congratulations",
+    "French": "## F\u00E9licitations"
+  },
+  {
+    "English": "Your setup is completed and you can access your workspace.",
+    "French": "Votre installation est termin\u00E9e et vous pouvez acc\u00E9der \u00E0 votre espace de travail."
   }
 ]
