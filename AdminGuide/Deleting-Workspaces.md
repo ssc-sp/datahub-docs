@@ -1,4 +1,4 @@
-# Deleting Projects
+# Deleting Workspaces
 
 Deletion of projects requires:
 1. Database Deletion (manual see below)
