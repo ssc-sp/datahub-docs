@@ -218,5 +218,49 @@
   {
     "English": "Managing-Budgets.md",
     "French": "Gestion-des-budgets.md"
+  },
+  {
+    "English": "Deleting-Workspaces.md",
+    "French": "Suppression-des-espaces-de-travail.md"
+  },
+  {
+    "English": "00-Preparation.md",
+    "French": "00-Pr\u00E9paration.md"
+  },
+  {
+    "English": "01-Create-Repositories.md",
+    "French": "01-Cr\u00E9er-des-r\u00E9f\u00E9rentiels.md"
+  },
+  {
+    "English": "02-Datahub-Core-Infrastructure.md",
+    "French": "02-Infrastructure-de-base-du-Datahub.md"
+  },
+  {
+    "English": "03-Seed-Admin.md",
+    "French": "03-Administration-des-semences.md"
+  },
+  {
+    "English": "04-CI-Pipelines-Setup.md",
+    "French": "04-Configuration-des-pipelines-CI.md"
+  },
+  {
+    "English": "05-CD-Pipelines-Setup.md",
+    "French": "05-Configuration-des-pipelines-CD.md"
+  },
+  {
+    "English": "06-Datahub-Functions.md",
+    "French": "06-Fonctions-du-Datahub.md"
+  },
+  {
+    "English": "07-Resource-Provisioner-Functions.md",
+    "French": "07-Fonctions-du-fournisseur-de-ressources.md"
+  },
+  {
+    "English": "08-Project-Pipelines-Setup.md",
+    "French": "08-Configuration-des-pipelines-de-projet.md"
+  },
+  {
+    "English": "09-Seed-Metadata.md",
+    "French": "09-M\u00E9tadonn\u00E9es-sur-les-semences.md"
   }
 ]
