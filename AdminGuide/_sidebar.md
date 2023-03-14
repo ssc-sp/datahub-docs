@@ -1,6 +1,3 @@
----
-autogenerate: true
----
 - [Approving Workspaces](/AdminGuide/Approving-Workspaces.md)
 - [Datahub Artifacts Naming Standards](/AdminGuide/Datahub-Artifacts-Naming-Standards.md)
 - [Data hub Initiative Tracker](/AdminGuide/DataHub-Initiative-Tracker.md)

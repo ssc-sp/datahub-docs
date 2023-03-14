@@ -1,9 +1,3 @@
----
-remarks: Automatically translated with DeepL
-source: /AdminGuide/_sidebar.md
-draft: true
----
-
 - [Approbation des espaces de travail](/fr/AdminGuide/Approbation-des-espaces-de-travail.md)
 - [Normes de nommage des artefacts de Datahub](/fr/AdminGuide/Normes-de-nommage-des-artefacts-de-Datahub.md)
 - [Hub de données Initiative Tracker](/fr/AdminGuide/Suivi-de-l'initiative-DataHub.md)

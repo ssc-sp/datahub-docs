@@ -1,6 +1,3 @@
----
-autogenerate: true
----
 - Architecture
 
   - [Cloud environments](/DeveloperGuide/Architecture/Cloud-environments.md)

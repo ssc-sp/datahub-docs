@@ -1,9 +1,3 @@
----
-remarks: Automatically translated with DeepL
-source: /DeveloperGuide/_sidebar.md
-draft: true
----
-
 - Architecture
 
   - [Environnements en nuage](/fr/DeveloperGuide/Architecture/Environnements-en-nuage.md)

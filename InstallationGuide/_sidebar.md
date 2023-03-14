@@ -1,6 +1,3 @@
----
-autogenerate: true
----
 - [00 Preparation](/InstallationGuide/00-Preparation.md)
 - [01 Create Repositories](/InstallationGuide/01-Create-Repositories.md)
 - [02 Datahub Core Infrastructure](/InstallationGuide/02-Datahub-Core-Infrastructure.md)

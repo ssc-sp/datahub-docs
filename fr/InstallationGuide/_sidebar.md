@@ -1,9 +1,3 @@
----
-remarks: Automatically translated with DeepL
-source: /InstallationGuide/_sidebar.md
-draft: true
----
-
 - [00 Préparation](/fr/InstallationGuide/00-Préparation.md)
 - [01 Créer des référentiels](/fr/InstallationGuide/01-Créer-des-référentiels.md)
 - [02 Infrastructure de base du Datahub](/fr/InstallationGuide/02-Infrastructure-de-base-du-Datahub.md)
