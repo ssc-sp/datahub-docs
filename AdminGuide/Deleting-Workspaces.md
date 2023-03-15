@@ -52,5 +52,8 @@ Here we use project TEST1 for illustration.
 
  In the case that Terraform fails to destroy, proceed to the next step.
  
- ### 7. Optionally Delete the Azure Resource Group
- Go to Azure Portal and search Resource Groups by project code, delete the resource group
+ ### 7. Manually Delete the Azure Resource Group
+ If the Terraform cannot be used to destroy the project infrastructure resources, proceed with the manual steps below.
+ 
+ - Go to Azure Portal and search Resource Groups by project code, delete the resource group
+ - Delete the Terraform backend state file in Azure Storage Account
