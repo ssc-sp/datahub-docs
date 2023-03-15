@@ -49,3 +49,8 @@ Here we use project TEST1 for illustration.
   - Run `terraform init -backend-config="project.tfbackend"`
   - Run `terraform destroy` 
 - Push the change up to Azure DevOps
+
+ In the case that Terraform fails to destroy, proceed to the next step.
+ 
+ ### 7. Optionally Delete the Azure Resource Group
+ Go to Azure Portal and search Resource Groups by project code, delete the resource group
