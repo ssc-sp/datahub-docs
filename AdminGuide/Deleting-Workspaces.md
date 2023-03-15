@@ -40,3 +40,12 @@ DELETE
   FROM [dbo].[Projects]
   WHERE Project_Acronym_CD in ('RETE','NCAR','NMCD','BWE','DEPR')
 ```  
+### 6. Terraform
+Here we use project TEST1 for illustration.
+
+- Checkout the Terraform repo for the environment from Azure DevOps (e.g. datahub-project-infrastructure-dev for dev)
+- Move the project directory (`terraform/projects/TEST1`) to `archive` folder
+- Go into the new project folder (e.g. `archive/TEST1`)
+  - Run `terraform init -backend-config="project.tfbackend"`
+  - Run `terraform destroy` 
+- Push the change up to Azure DevOps
