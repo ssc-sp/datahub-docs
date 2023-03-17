@@ -4,7 +4,7 @@ Welcome to the Federal Science DataHub (FSDH) Proof-of-Concept (PoC), an initiat
 
 The scope of PoC Phase 2 includes: intuitive self-service; quick and temporary data storage; readily available digital tools for analytics, visualization, and machine learning models; collaboration with peers across GC; discovery metadata.
 
-The objective of the PoC is to have active participation from scientists in as many SBDAs as possible to ensure we have the right people to help evaluate, confirm, and prioritize capabilities and services for GC data storage, collaboration, and analysis.
+The objective of the PoC is to have active participation from scientists in as many Science-based Departments and Agencies as possible to ensure we have the right people to help evaluate, confirm, and prioritize capabilities and services for GC data storage, collaboration, and analysis.
 
 ## Limited use
 
