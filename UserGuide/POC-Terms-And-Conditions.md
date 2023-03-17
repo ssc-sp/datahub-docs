@@ -39,4 +39,4 @@ The FSDH PoC Phase 2 includes mandatory workspace metadata to enable discovery. 
 
 ## Support
 
-FSDH PoC Phase 2 will be supported by the DSS Team on a best-effort basis. All questions/issues can be sent to the team via the [FSDH Support Request Form](https://forms.office.com/r/zk82ehvUtv).
+FSDH PoC Phase 2 will be supported by the DSS Team on a best-effort basis. All questions/issues can be sent to the team via the [FSDH Support Request Form](https://forms.office.com/pages/responsepage.aspx?id=lMFb0L-U1kquLh2w8uOPXhksOXzZ73RCp9fVTz4vTU5UNTc1U00yNVUxWVg4SkJGMFVHN1RCTTdQRS4u).
