@@ -1,8 +1,8 @@
 ## Welcome to the FSDH PoC Phase 2
 
-Welcome to the sandbox/testing environment for the Federal Science DataHub (FSDH) Proof-of-Concept (PoC), an initiative supported by the Data Solutions for Science Team within Shared Services Canada’s Science Program. 
+Welcome to the Federal Science DataHub (FSDH) Proof-of-Concept (PoC), an initiative supported by the Data Solutions for Science Team within Shared Services Canada’s Science Program. 
 
-The scope of PoC Phase 2 includes: intuitive self-service; quick and temporary data storage; readily available digital tools for analytics, visualization, and machine learning models; collaboration with peers across GC; and discovery metadata.
+The scope of PoC Phase 2 includes: intuitive self-service; quick and temporary data storage; readily available digital tools for analytics, visualization, and machine learning models; collaboration with peers across GC; discovery metadata.
 
 The objective of the PoC is to have active participation from scientists in as many SBDAs as possible to ensure we have the right people to help evaluate, confirm, and prioritize capabilities and services for GC data storage, collaboration, and analysis.
 
@@ -12,7 +12,7 @@ The Federal Science DataHub is intended to support the advancement of scienc
 
 ## Timeline  
 
-FSDH PoC Phase 2 will run from April 1 to September 30, 2023.  Participants requiring access to the environment and/or their data after that date can work with the DSS team to determine the approach for data migration, etc. 
+FSDH PoC Phase 2 will run from April 3 to September 30, 2023.  Participants requiring access to the environment and/or their data after that date can work with the DSS team to determine the approach for data migration, etc. 
 
 ## Non-sensitive (unclassified) information
 
