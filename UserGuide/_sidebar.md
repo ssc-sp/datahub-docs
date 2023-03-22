@@ -18,7 +18,7 @@
 
 - Databricks
   - [What is Azure Databricks?](/UserGuide/Databricks/Databricks.md)
-  - [How to Request Databricks](/UserGuide/Databricks/Request-databricks.md)
+<!--   - [How to Request Databricks](/UserGuide/Databricks/Request-databricks.md) -->
   - [Databricks FAQ](/UserGuide/Databricks/Databricks-FAQ.md)
   - Databricks Tips 
     - [Access your storage account in Databricks](/UserGuide/Databricks/Access-your-storage-account-in-Databricks.md)
@@ -31,7 +31,7 @@
   
 - Reference
   - [FSDH Frequently Asked Questions (FAQs)](/UserGuide/FSDH-FAQs.md)
-  - [FSDH Proof-of-Concept Kick-off Deck (April 2023)]( add link when complete ) 
+<!--   - [FSDH Proof-of-Concept Kick-off Deck (April 2023)]( add link when complete )  -->
   
 - Support
   - [FSDH Support Request Form](https://forms.office.com/r/zk82ehvUtv)
