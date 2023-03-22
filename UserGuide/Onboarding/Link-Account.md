@@ -16,6 +16,12 @@ To login to the DataHub, it is necessary to link your existing Microsoft 365 cre
 
 ## Step 3- Multifactor Authentication (MFA)
 
+### Option 1: Use a SMS message to validate your account
+
+*** Add screenshots ***
+
+### Option 2: Use the Authenticator Application - Recommended (if you are familiar with the Authenticator Application)
+
 The tenant configuration requires another Multifactor Authentication using an authenticator. It is recommended to use the Microsoft Authenticator on your work or personal device.
 
 ![image](2-mfa-request.png)
