@@ -34,6 +34,5 @@
 <!--   - [FSDH Proof-of-Concept Kick-off Deck (April 2023)]( add link when complete )  -->
   
 - Support
-  - [FSDH Support Request Form](https://forms.office.com/r/zk82ehvUtv)
-     - To request help with an issue or problem with FSDH please use this form. This is the only means to request support from the FSDH team.
+  - [FSDH Support Request Form](/UserGuide/FSDH-Support-Request-Form.md)
  
