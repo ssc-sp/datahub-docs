@@ -81,4 +81,15 @@ Queue Var Name: __%QueueProjectUsageUpdate%__
 
 (More coming...)
 
+## Manually updating costs
+
+To Update a WS costs info in a rush drop a message like this in the `project-usage-update` queue:
+
+```json
+{
+    "ProjectId": 11,
+    "ResourceGroup": "fsdh_proj_die1_dev_rg"
+}
+```
+
 
