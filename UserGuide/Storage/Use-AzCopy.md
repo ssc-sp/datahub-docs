@@ -2,7 +2,7 @@
 
 ## Assumptions
 - Familarity with command line (e.g. PowerShell, Linux Shell scripting)
-- For command line interaction onl. Users may choose to use Azure Storage Explorer and DataHub Portal Storage Explorer as alternatives if not using command line
+- For command line interaction only. Users may choose to use Azure Storage Explorer and DataHub Portal Storage Explorer as alternatives if not using command line
 
 ## Prerequisites
 - Download AzCopy from [Azure](https://aka.ms/downloadazcopy-v10-windows) (no installation required)
