@@ -1,15 +1,15 @@
-- Onboarding Quick Start Guides
+- Federal Science DataHub User Guide
   - [Linking Your Account](/UserGuide/Onboarding/Link-Account.md)
   - [Workspace Lead Guide](/UserGuide/Onboarding/Onboard-Workspace-Lead.md)
   - [Collaborators Guide](/UserGuide/Onboarding/Onboard-Collaborator.md) 
      
-- Workspaces
+<!-- - Workspaces
   - [What is a Workspace in FSDH?](/UserGuide/Workspace/Workspace.md)
   - [How to Request a Workspace](/UserGuide/Workspace/Request-workspace.md)
-  - [Workspace Profile (Metadata)](/UserGuide/Workspace/Workspace-Profile-Metadata.md)
+  - [Workspace Profile (Metadata)](/UserGuide/Workspace/Workspace-Profile-Metadata.md) -->
 
-- Collaboration
-  - [How to Invite Collaborators to your Workspace](/UserGuide/Workspace/Invite-Collaborator.md) 
+<!-- - Collaboration
+  - [How to Invite Collaborators to your Workspace](/UserGuide/Workspace/Invite-Collaborator.md)  -->
   
 - Storage
   - [What is Azure Storage Explorer?](/UserGuide/Storage/Datahub-AzureStorage.md)
@@ -26,8 +26,8 @@
     - [Databricks Secure Access using ADSF Passthrough](/UserGuide/Databricks/Databricks---Secure-Access-using-ADSF-Passthrough.md)
   - [Request a Session with a Databricks Expert](/UserGuide/Databricks/Request-databricks-session.md)
 
-- Monitor Cloud Credits and Consumption
-  - Report (TBD)
+<!-- - Monitor Cloud Credits and Consumption
+  - Report (TBD) -->
   
 - Reference
   - [FSDH Frequently Asked Questions (FAQs)](/UserGuide/FSDH-FAQs.md)
