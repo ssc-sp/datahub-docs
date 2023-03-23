@@ -77,6 +77,9 @@ Storage explorer:
 - upload files and folders to azure
 - download files
 
+Storage account accessible through special path in Databricks called mount point
+- `/mnt/fsdh-dbk-main-mount`
+
 ### Cluster Selection
 
 Cluster selection in Databricks has been contrainted to a selection of cost efficient execution nodes (note: node are using virtual machines in backend not accessible to the user). 
