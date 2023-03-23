@@ -71,6 +71,12 @@ Highlights:
 
 ## Section 2: Python/R Environment Overview
 
+### How to upload your data to Azure
+
+Storage explorer:
+- upload files and folders to azure
+- download files
+
 ### Cluster Selection
 
 Cluster selection in Databricks has been contrainted to a selection of cost efficient execution nodes (note: node are using virtual machines in backend not accessible to the user). 
