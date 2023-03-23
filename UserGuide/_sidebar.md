@@ -10,11 +10,11 @@
 
 - Databricks
   - [What is Azure Databricks?](/UserGuide/Databricks/Databricks.md)
-  - [Databricks FAQ](/UserGuide/Databricks/Databricks-FAQ.md)
   - [Access your storage account in Databricks](/UserGuide/Databricks/Access-your-storage-account-in-Databricks.md)
   - [Data Processing using Databricks](/UserGuide/Databricks/Data-Processing-using-Databricks.md)
   - [Databricks Secure Access using ADSF Passthrough](/UserGuide/Databricks/Databricks---Secure-Access-using-ADSF-Passthrough.md)
   - [Request a Session with a Databricks Expert](/UserGuide/Databricks/Request-databricks-session.md)
+  - [Databricks Frequently Asked Questions (FAQs)](/UserGuide/Databricks/Databricks-FAQ.md)
   
 - Support
   - [FSDH Support Request Form](/UserGuide/FSDH-Support-Request-Form.md)
