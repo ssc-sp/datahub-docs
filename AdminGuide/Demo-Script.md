@@ -15,12 +15,33 @@ Provide an overview of the Science Program DataHub. Main objectives:
 ### T&C and Language
 
 - Pre-requisite for entering the Portal. Quiz will be asked later to make sure every bullet has been read.
+- Language can be switched inside the portal using the profile
 
-### Workspaces
+### What is a workspace
 
+Provide an overview of the Science Program DataHub. Main objectives:
+- workspaces for storage and processing
+- access to storage 
+- tracking of budget used (daily and monthly)
+- collaboration space for sharing data and python/r notebooks
+
+### Metadata
+
+Required to access the resources
 Unified access to Azure Resources: Azure Storage (Use Case 1), Databricks for R and Python (Use Case 2)
 
+### Collaborators
+
+Datahub roles:
+- administrator
+- owner
+- collaborator
+
+Roles are also used in databricks for permissions.
+
 ### Azure Costing
+
+Cost page includes all costs including backend
 
 What is expensive:
 - Time spent on the cluster
@@ -40,15 +61,6 @@ Recommended approach is to start using the DataHub with small scale project and 
 Example costs:
 - DIE1, DIE2, DIE3: less than $70/week
 - NRC: large cluster, 300Gb Ram > $1000/day - cost mostly incurred because of extremely large cluster used.
-
-### Collaborators
-
-Datahub roles:
-- administrator
-- owner
-- collaborator
-
-Roles are also used in databricks for permissions.
 
 ### Built-in Documentation
 
