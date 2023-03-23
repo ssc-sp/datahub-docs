@@ -2,6 +2,7 @@
   - [Linking Your Account](/UserGuide/Onboarding/Link-Account.md)
   - [Workspace Lead Guide](/UserGuide/Onboarding/Onboard-Workspace-Lead.md)
   - [Collaborators Guide](/UserGuide/Onboarding/Onboard-Collaborator.md) 
+  - [FSDH Frequently Asked Questions (FAQs)](/UserGuide/FSDH-FAQs.md)
 
 - Storage
   - [What is Azure Storage Explorer?](/UserGuide/Storage/Datahub-AzureStorage.md)
@@ -10,15 +11,10 @@
 - Databricks
   - [What is Azure Databricks?](/UserGuide/Databricks/Databricks.md)
   - [Databricks FAQ](/UserGuide/Databricks/Databricks-FAQ.md)
-  - Databricks Tips 
-    - [Access your storage account in Databricks](/UserGuide/Databricks/Access-your-storage-account-in-Databricks.md)
-    - [Data Processing using Databricks](/UserGuide/Databricks/Data-Processing-using-Databricks.md)
-    - [Databricks Secure Access using ADSF Passthrough](/UserGuide/Databricks/Databricks---Secure-Access-using-ADSF-Passthrough.md)
+  - [Access your storage account in Databricks](/UserGuide/Databricks/Access-your-storage-account-in-Databricks.md)
+  - [Data Processing using Databricks](/UserGuide/Databricks/Data-Processing-using-Databricks.md)
+  - [Databricks Secure Access using ADSF Passthrough](/UserGuide/Databricks/Databricks---Secure-Access-using-ADSF-Passthrough.md)
   - [Request a Session with a Databricks Expert](/UserGuide/Databricks/Request-databricks-session.md)
-
-- Reference
-  - [FSDH Frequently Asked Questions (FAQs)](/UserGuide/FSDH-FAQs.md)
   
 - Support
   - [FSDH Support Request Form](/UserGuide/FSDH-Support-Request-Form.md)
- 
