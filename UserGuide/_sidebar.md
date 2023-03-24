@@ -1,7 +1,4 @@
-- Federal Science DataHub User Guide
-  - [Linking Your Account](/UserGuide/Onboarding/Link-Account.md)
-  - [Workspace Lead Guide](/UserGuide/Onboarding/Onboard-Workspace-Lead.md)
-  - [Collaborators Guide](/UserGuide/Onboarding/Onboard-Collaborator.md) 
+- [Federal Science DataHub User Guide](/UserGuide/User-Guide.md)
 
 - Storage
   - [What is Azure Storage Explorer?](/UserGuide/Storage/Datahub-AzureStorage.md)
@@ -16,8 +13,9 @@
     - [Databricks Secure Access using ADSF Passthrough](/UserGuide/Databricks/Databricks---Secure-Access-using-ADSF-Passthrough.md)
   - [Request a Session with a Databricks Expert](/UserGuide/Databricks/Request-databricks-session.md)
 
-- Reference
-  - [FSDH Frequently Asked Questions (FAQs)](/UserGuide/FSDH-FAQs.md)
+- [Frequently Asked Questions (FAQs)]
+  - [Cloud Storage](/UserGuide/FSDH-FAQs.md)
+  - [Metadata Reference](/UserGuide/Workspace/Workspace-Profile-Metadata.md)
   
 - Support
   - [FSDH Support Request Form](/UserGuide/FSDH-Support-Request-Form.md)
