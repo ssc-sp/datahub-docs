@@ -6,7 +6,7 @@ Not sure we need to cover this...
 
 ## Terms & Conditions and Language
 
-Before entering the Science Program DataHub Portal, there are two important steps you need to complete.
+Before entering the Federal Science DataHub Portal, there are two important steps you need to complete.
 
 1. **You need to accept the Terms and Conditions** that govern the use of the platform. This is an essential requirement to gain access to the features and benefits of DataHub.
 
