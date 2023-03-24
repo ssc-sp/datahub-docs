@@ -4,6 +4,7 @@
 
 1. Open https://federal-science-datahub.canada.ca
 2. On login screen mention that you use the MS Teams account and password which can be different from your network credentials.
+3. Mention that the login screen is going to be different for each department. The authentication in DataHub leverages existing AAD.
 
 
 # Section 1: Portal Overview
