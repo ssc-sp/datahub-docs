@@ -1,6 +1,6 @@
 # Section 0: Onboarding
 
-Not sure we need to cover this...
+Quickly walk through how you login to the portal. Mention that you use the MS Teams account and password.
 
 # Section 1: Portal Overview
 
