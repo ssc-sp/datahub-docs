@@ -1,4 +1,4 @@
-# Section 0: Onboarding
+# Section 0: Onboarding and Login
 
 **Prep:** Sign out  
 
