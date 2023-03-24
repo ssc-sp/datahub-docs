@@ -2,8 +2,8 @@
 
 **Prep:** Sign out  
 
-1. Mention that you use the MS Teams account and password.
 1. Open https://federal-science-datahub.canada.ca
+2. On login screen mention that you use the MS Teams account and password which can be different from your network credentials.
 
 
 # Section 1: Portal Overview
