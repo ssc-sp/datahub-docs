@@ -120,6 +120,10 @@ One of the highlights of the Federal Science DataHub is the **built-in documenta
 
 # Section 2: Python/R Environment Overview
 
+## What is Databricks
+
+Databricks is a managed platform that provides support for Python and R notebooks and a standard Hadoop/Hive infrastructure for large data processing. The databricks platform separates the notebook and the infrastructure to execute the code. The code (SQL, Python and R) is executed on clusters and the structured SQL tables leverage standard Azure storage.
+
 ## How to upload your data to Azure
 
 Storage explorer:
