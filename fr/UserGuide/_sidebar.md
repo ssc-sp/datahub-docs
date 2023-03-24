@@ -10,7 +10,7 @@
   - [Traitement des données à l'aide de Databricks](/fr/UserGuide/Databricks/Traitement-des-données-à-l'aide-de-Databricks.md)
   - [Accès sécurisé Databricks utilisant ADSF Passthrough](/fr/UserGuide/Databricks/Accès-sécurisé-Databricks-utilisant-ADSF-Passthrough.md)
   - [Demander une session avec un expert Databricks](/fr/UserGuide/Databricks/Demande-de-session-databricks.md)
-- [Foire aux questions (FAQ)]
+- Foire aux questions (FAQ)
   - [Stockage en nuage](/fr/UserGuide/FSDH-FAQs.md)
   - [Référence des métadonnées](/fr/UserGuide/Workspace/Métadonnées-du-profil-de-l'espace-de-travail.md)
 - Soutien
