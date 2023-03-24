@@ -1,6 +1,10 @@
 # Section 0: Onboarding
 
-Quickly walk through how you login to the portal. Mention that you use the MS Teams account and password.
+**Prep:** Sign out  
+
+1. Mention that you use the MS Teams account and password.
+1. Open https://federal-science-datahub.canada.ca
+
 
 # Section 1: Portal Overview
 
