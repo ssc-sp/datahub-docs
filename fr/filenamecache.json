@@ -266,5 +266,21 @@
   {
     "English": "Link-Account.md",
     "French": "Compte-de-liaison.md"
+  },
+  {
+    "English": "Demo-Script.md",
+    "French": "Script-de-d\u00E9monstration.md"
+  },
+  {
+    "English": "Common-Issues.md",
+    "French": "Probl\u00E8mes-communs.md"
+  },
+  {
+    "English": "FSDH-Support-Request-Form.md",
+    "French": "Formulaire-de-demande-de-soutien-FSDH.md"
+  },
+  {
+    "English": "User-Guide.md",
+    "French": "Guide-de-l\u0027utilisateur.md"
   }
 ]

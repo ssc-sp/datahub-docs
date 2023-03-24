@@ -32,12 +32,34 @@ WHERE p.Project_Acronym_CD in ('RETE', 'NCAR', 'NMCD', 'BWE', 'DEPR')
 DELETE r from Project_Requests r left join [dbo].[Projects] p on p.Project_ID = r.Project_Id
 WHERE p.Project_Acronym_CD in ('RETE', 'NCAR', 'NMCD', 'BWE', 'DEPR')
 ```
+### 4. Demandes des utilisateurs du projet
 
-### 4. Projets
+``sql
+DELETE r from Project_Users_Requests r left join [dbo].[Projects] p on p.Project_ID = r.Project_Id
+WHERE p.Project_Acronym_CD in ('RETE', 'NCAR', 'NMCD', 'BWE', 'DEPR')
+```
+
+### 5. Projets
 
 ``sql
 DELETE
   FROM [dbo].[Projets]
   WHERE Project_Acronym_CD in ('RETE', 'NCAR', 'NMCD', 'BWE', 'DEPR')
 ```
+  ### 6. Terraform
+Nous utilisons ici le projet TEST1 à titre d'illustration.
 
+- Extraire le repo Terraform pour l'environnement à partir d'Azure DevOps (par exemple, datahub-project-infrastructure-dev pour dev).
+- Déplacer le répertoire du projet (`terraform/projects/TEST1`) vers le dossier `archive`.
+- Allez dans le dossier du nouveau projet (par exemple `archive/TEST1`)
+  - Exécutez `terraform init -backend-config="project.tfbackend"`.
+  - Exécuter `terraform destroy`
+- Pousser le changement jusqu'à Azure DevOps
+
+ Dans le cas où Terraform ne parvient pas à détruire, passez à l'étape suivante.
+
+ ### 7. Supprimer manuellement le groupe de ressources Azure
+ Si Terraform ne peut pas être utilisé pour détruire les ressources de l'infrastructure du projet, procédez aux étapes manuelles ci-dessous.
+
+ - Allez sur Azure Portal et recherchez les groupes de ressources par code de projet, puis supprimez le groupe de ressources.
+ - Supprimer le fichier d'état du backend Terraform dans le compte de stockage Azure

@@ -87,4 +87,15 @@ Nom de la file d'attente : __%QueueueProjectUsageUpdate%__
 
 (Suite à venir...)
 
+## Mise à jour manuelle des coûts
+
+Pour mettre à jour les informations sur les coûts d'un projet dans l'urgence, déposez un message comme celui-ci dans la file d'attente `project-usage-update` :
+
+```json
+{
+    "ProjectId" : 11,
+    "ResourceGroup" : "fsdh_proj_die1_dev_rg"
+}
+```
+
 

@@ -22,6 +22,12 @@ Pour vous connecter au DataHub, il est nécessaire de lier vos identifiants Micr
 
 ## Étape 3 - Authentification multifactorielle (MFA)
 
+### Option 1 : Utiliser un message SMS pour valider votre compte
+
+*** Ajouter des captures d'écran ***
+
+### Option 2 : Utiliser l'application Authenticator - Recommandé (si vous êtes familier avec l'application Authenticator)
+
 La configuration du locataire nécessite une autre authentification multifactorielle à l'aide d'un authentificateur. Il est recommandé d'utiliser l'authentificateur Microsoft sur votre appareil professionnel ou personnel.
 
 ![image](2-mfa-request.png)

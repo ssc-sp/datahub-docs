@@ -12,7 +12,6 @@ L'espace de travail FSDH permet à plusieurs équipes, laboratoires ou utilisate
 
 - Comptes de stockage : un espace de travail comprend un explorateur de stockage permettant de charger/télécharger des fichiers avec une interface conviviale. AzCopy est utilisé comme interface en ligne de commande pour télécharger de très grands ensembles de données.
 - Intégration de Databricks : l'espace de travail a un lien direct avec les espaces de travail de Databricks et simplifie également le montage du compte de stockage pour les carnets.
-- CONFIRMEZ QUE C'EST CORRECT Partage de données : Un simple flux de travail permet aux utilisateurs de sélectionner un fichier et de demander le partage des données (voir Partage des données pour plus de détails).
 - Embarquement des utilisateurs : Les administrateurs de projets peuvent inviter d'autres utilisateurs à leur(s) espace(s) de travail.
 
 ### Gestion des utilisateurs

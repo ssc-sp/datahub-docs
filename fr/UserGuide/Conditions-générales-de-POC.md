@@ -6,11 +6,11 @@ draft: true
 
 ## Bienvenue au PoC FSDH Phase 2
 
-Bienvenue au bac à sable/environnement d'essai pour la démonstration de concept du Federal Science DataHub (FSDH), une initiative soutenue par l'équipe Solutions de données pour la science du programme scientifique de Services partagés Canada.
+Bienvenue à la démonstration de concept du Federal Science DataHub (FSDH), une initiative soutenue par l'équipe Solutions de données pour la science au sein du programme scientifique de Services partagés Canada.
 
-Le champ d'application de la phase 2 du projet PoC comprend : un libre-service intuitif ; un stockage rapide et temporaire des données ; des outils numériques facilement accessibles pour l'analyse, la visualisation et les modèles d'apprentissage automatique ; la collaboration avec des pairs à travers le GC ; et des métadonnées de découverte.
+Le champ d'application de la phase 2 du PoC comprend : un libre-service intuitif ; un stockage rapide et temporaire des données ; des outils numériques facilement accessibles pour l'analyse, la visualisation et les modèles d'apprentissage automatique ; la collaboration avec des pairs au sein du GC ; des métadonnées de découverte.
 
-L'objectif du PoC est d'obtenir la participation active de scientifiques dans le plus grand nombre possible de SBDA afin de s'assurer que nous avons les bonnes personnes pour aider à évaluer, confirmer et prioriser les capacités et les services pour le stockage, la collaboration et l'analyse des données GC.
+L'objectif du PoC est d'obtenir la participation active de scientifiques dans le plus grand nombre possible de ministères et d'agences à vocation scientifique afin de s'assurer que nous disposons des bonnes personnes pour aider à évaluer, confirmer et hiérarchiser les capacités et les services pour le stockage, la collaboration et l'analyse des données du GC.
 
 ## Utilisation limitée
 
@@ -18,7 +18,7 @@ Le Federal Science DataHub est destiné à soutenir l'avancement de la science. 
 
 ## Timeline
 
-La phase 2 du PoC FSDH se déroulera du 1er avril au 30 septembre 2023.  Les participants ayant besoin d'accéder à l'environnement et/ou à leurs données après cette date pourront travailler avec l'équipe DSS pour déterminer l'approche à adopter pour la migration des données, etc.
+La phase 2 du PoC FSDH se déroulera du 3 avril au 30 septembre 2023.  Les participants ayant besoin d'accéder à l'environnement et/ou à leurs données après cette date peuvent travailler avec l'équipe DSS pour déterminer l'approche à adopter pour la migration des données, etc.
 
 ## Informations non sensibles (non classifiées)
 
@@ -45,4 +45,4 @@ La phase 2 du PoC FSDH comprend des métadonnées obligatoires sur les espaces d
 
 ## Support
 
-La phase 2 du FSDH PoC sera soutenue par l'équipe DSS sur la base du meilleur effort. Toutes les questions/problèmes peuvent être envoyées à l'équipe via le [FSDH Support Request Form] (https://forms.office.com/r/zk82ehvUtv).
+La phase 2 du PoC FSDH sera prise en charge par l'équipe DSS dans la mesure du possible. Toutes les questions/problèmes peuvent être envoyés à l'équipe via le [FSDH Support Request Form] (https://forms.office.com/pages/responsepage.aspx?id=lMFb0L-U1kquLh2w8uOPXhksOXzZ73RCp9fVTz4vTU5UNTc1U00yNVUxWVg4SkJGMFVHN1RCTTdQRS4u).

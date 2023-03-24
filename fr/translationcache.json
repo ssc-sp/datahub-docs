@@ -10998,5 +10998,561 @@
   {
     "English": "Linking Your Account",
     "French": "Relier votre compte"
+  },
+  {
+    "English": "### 4. Project Users Requests",
+    "French": "### 4. Demandes des utilisateurs du projet"
+  },
+  {
+    "English": "DELETE r from Project_Users_Requests r left join [dbo].[Projects] p on p.Project_ID = r.Project_Id",
+    "French": "DELETE r from Project_Users_Requests r left join [dbo].[Projects] p on p.Project_ID = r.Project_Id"
+  },
+  {
+    "English": "### 5. Projects",
+    "French": "### 5. Projets"
+  },
+  {
+    "English": "  ### 6. Terraform",
+    "French": "  ### 6. Terraform"
+  },
+  {
+    "English": "Here we use project TEST1 for illustration.",
+    "French": "Nous utilisons ici le projet TEST1 \u00E0 titre d\u0027illustration."
+  },
+  {
+    "English": "- Checkout the Terraform repo for the environment from Azure DevOps (e.g. datahub-project-infrastructure-dev for dev)",
+    "French": "- Extraire le repo Terraform pour l\u0027environnement \u00E0 partir d\u0027Azure DevOps (par exemple, datahub-project-infrastructure-dev pour dev)."
+  },
+  {
+    "English": "- Move the project directory (\u0060terraform/projects/TEST1\u0060) to \u0060archive\u0060 folder",
+    "French": "- D\u00E9placer le r\u00E9pertoire du projet (\u0060terraform/projects/TEST1\u0060) vers le dossier \u0060archive\u0060."
+  },
+  {
+    "English": "- Go into the new project folder (e.g. \u0060archive/TEST1\u0060)",
+    "French": "- Allez dans le dossier du nouveau projet (par exemple \u0060archive/TEST1\u0060)"
+  },
+  {
+    "English": "  - Run \u0060terraform init -backend-config=\u0022project.tfbackend\u0022\u0060",
+    "French": "  - Ex\u00E9cutez \u0060terraform init -backend-config=\u0022project.tfbackend\u0022\u0060."
+  },
+  {
+    "English": "  - Run \u0060terraform destroy\u0060 ",
+    "French": "  - Ex\u00E9cuter \u0060terraform destroy\u0060"
+  },
+  {
+    "English": "- Push the change up to Azure DevOps",
+    "French": "- Pousser le changement jusqu\u0027\u00E0 Azure DevOps"
+  },
+  {
+    "English": " In the case that Terraform fails to destroy, proceed to the next step.",
+    "French": " Dans le cas o\u00F9 Terraform ne parvient pas \u00E0 d\u00E9truire, passez \u00E0 l\u0027\u00E9tape suivante."
+  },
+  {
+    "English": " ### 7. Manually Delete the Azure Resource Group",
+    "French": " ### 7. Supprimer manuellement le groupe de ressources Azure"
+  },
+  {
+    "English": " If the Terraform cannot be used to destroy the project infrastructure resources, proceed with the manual steps below.",
+    "French": " Si Terraform ne peut pas \u00EAtre utilis\u00E9 pour d\u00E9truire les ressources de l\u0027infrastructure du projet, proc\u00E9dez aux \u00E9tapes manuelles ci-dessous."
+  },
+  {
+    "English": " - Go to Azure Portal and search Resource Groups by project code, delete the resource group",
+    "French": " - Allez sur Azure Portal et recherchez les groupes de ressources par code de projet, puis supprimez le groupe de ressources."
+  },
+  {
+    "English": " - Delete the Terraform backend state file in Azure Storage Account",
+    "French": " - Supprimer le fichier d\u0027\u00E9tat du backend Terraform dans le compte de stockage Azure"
+  },
+  {
+    "English": "Demo Script",
+    "French": "Script de d\u00E9monstration"
+  },
+  {
+    "English": "# Demo Script for DataHub",
+    "French": "# Script de d\u00E9monstration pour DataHub"
+  },
+  {
+    "English": "## Section 0: Onboarding",
+    "French": "## Section 0 : Embarquement"
+  },
+  {
+    "English": "Not sure we need to cover this...",
+    "French": "Je ne suis pas s\u00FBr qu\u0027il faille couvrir ce point..."
+  },
+  {
+    "English": "## Section 1: Portal Overview",
+    "French": "## Section 1 : Pr\u00E9sentation du portail"
+  },
+  {
+    "English": "Provide an overview of the Science Program DataHub. Main objectives:",
+    "French": "Fournir une vue d\u0027ensemble du DataHub du programme scientifique. Principaux objectifs :"
+  },
+  {
+    "English": "- workspaces for storage and processing",
+    "French": "- des espaces de travail pour le stockage et la transformation"
+  },
+  {
+    "English": "- access to storage ",
+    "French": "- l\u0027acc\u00E8s au stockage"
+  },
+  {
+    "English": "- tracking of budget used (daily and monthly)",
+    "French": "- le suivi du budget utilis\u00E9 (quotidien et mensuel)"
+  },
+  {
+    "English": "- collaboration space for sharing data and python/r notebooks",
+    "French": "- espace de collaboration pour le partage des donn\u00E9es et des carnets de notes python/r"
+  },
+  {
+    "English": "### T\u0026C and Language",
+    "French": "### T\u0026C et langue"
+  },
+  {
+    "English": "- Pre-requisite for entering the Portal. Quiz will be asked later to make sure every bullet has been read.",
+    "French": "- Condition pr\u00E9alable \u00E0 l\u0027entr\u00E9e dans le portail. Des questions seront pos\u00E9es ult\u00E9rieurement pour s\u0027assurer que tous les points ont \u00E9t\u00E9 lus."
+  },
+  {
+    "English": "- Language can be switched inside the portal using the profile",
+    "French": "- La langue peut \u00EAtre chang\u00E9e \u00E0 l\u0027int\u00E9rieur du portail \u00E0 l\u0027aide du profil"
+  },
+  {
+    "English": "### What is a workspace",
+    "French": "### Qu\u0027est-ce qu\u0027un espace de travail ?"
+  },
+  {
+    "English": "### Metadata",
+    "French": "### M\u00E9tadonn\u00E9es"
+  },
+  {
+    "English": "Required to access the resources",
+    "French": "N\u00E9cessaire pour acc\u00E9der aux ressources"
+  },
+  {
+    "English": "Unified access to Azure Resources: Azure Storage (Use Case 1), Databricks for R and Python (Use Case 2)",
+    "French": "Acc\u00E8s unifi\u00E9 aux ressources Azure : Azure Storage (cas d\u0027utilisation 1), Databricks pour R et Python (cas d\u0027utilisation 2)"
+  },
+  {
+    "English": "### Collaborators",
+    "French": "### Collaborateurs"
+  },
+  {
+    "English": "Datahub roles:",
+    "French": "R\u00F4les de Datahub :"
+  },
+  {
+    "English": "- administrator",
+    "French": "- administrateur"
+  },
+  {
+    "English": "- owner",
+    "French": "- propri\u00E9taire"
+  },
+  {
+    "English": "- collaborator",
+    "French": "- collaborateur"
+  },
+  {
+    "English": "Roles are also used in databricks for permissions.",
+    "French": "Les r\u00F4les sont \u00E9galement utilis\u00E9s dans les banques de donn\u00E9es pour les autorisations."
+  },
+  {
+    "English": "### Azure Costing",
+    "French": "### Co\u00FBt de revient de l\u0027Azure"
+  },
+  {
+    "English": "Cost page includes all costs including backend",
+    "French": "La page des co\u00FBts comprend tous les co\u00FBts, y compris le backend"
+  },
+  {
+    "English": "What is expensive:",
+    "French": "Ce qui est cher :"
+  },
+  {
+    "English": "- Time spent on the cluster",
+    "French": "- Temps pass\u00E9 sur le cluster"
+  },
+  {
+    "English": "- Large data transfers (ingress \u002B bandwitdth to go to Azure data centers from user computer)",
+    "French": "- Transferts de donn\u00E9es importants (ingress \u002B bandwitdth pour aller vers les centres de donn\u00E9es Azure \u00E0 partir de l\u0027ordinateur de l\u0027utilisateur)"
+  },
+  {
+    "English": "What is not expensive:",
+    "French": "Ce qui n\u0027est pas cher :"
+  },
+  {
+    "English": "- No cost when notebook is not used and cluster is turned off",
+    "French": "- Aucun co\u00FBt lorsque l\u0027ordinateur portable n\u0027est pas utilis\u00E9 et que le cluster est \u00E9teint"
+  },
+  {
+    "English": "- Keeping data in Azure = Hotel California. Most storage costs are incurred on uploading/downloading data out of Azure.",
+    "French": "- Conserver les donn\u00E9es dans Azure = Hotel California. La plupart des co\u00FBts de stockage sont encourus lors du chargement et du d\u00E9chargement des donn\u00E9es hors d\u0027Azure."
+  },
+  {
+    "English": "### Managing Costs",
+    "French": "### Gestion des co\u00FBts"
+  },
+  {
+    "English": "Recommended approach is to start using the DataHub with small scale project and measure costs for one week:",
+    "French": "L\u0027approche recommand\u00E9e est de commencer \u00E0 utiliser le DataHub avec un projet \u00E0 petite \u00E9chelle et de mesurer les co\u00FBts pendant une semaine :"
+  },
+  {
+    "English": "- select small data set",
+    "French": "- s\u00E9lectionner un petit ensemble de donn\u00E9es"
+  },
+  {
+    "English": "- execute algorithm on small dataset and use one week to establish baseline",
+    "French": "- ex\u00E9cuter l\u0027algorithme sur un petit ensemble de donn\u00E9es et utiliser une semaine pour \u00E9tablir une base de r\u00E9f\u00E9rence"
+  },
+  {
+    "English": "- use test week to estimate costs on longer term",
+    "French": "- utiliser la semaine de test pour estimer les co\u00FBts \u00E0 plus long terme"
+  },
+  {
+    "English": "Example costs:",
+    "French": "Exemple de co\u00FBts :"
+  },
+  {
+    "English": "- DIE1, DIE2, DIE3: less than $70/week",
+    "French": "- DIE1, DIE2, DIE3 : moins de 70 $/semaine"
+  },
+  {
+    "English": "- NRC: large cluster, 300Gb Ram \u003E $1000/day - cost mostly incurred because of extremely large cluster used.",
+    "French": "- NRC : grand cluster, 300Gb Ram \u003E $1000/jour - co\u00FBt principalement d\u00FB \u00E0 l\u0027utilisation d\u0027un tr\u00E8s grand cluster."
+  },
+  {
+    "English": "### Built-in Documentation",
+    "French": "### Documentation int\u00E9gr\u00E9e"
+  },
+  {
+    "English": "Highlights:",
+    "French": "Faits marquants :"
+  },
+  {
+    "English": "- Upload/download large files with \u0060azcopy\u0060",
+    "French": "- T\u00E9l\u00E9charger de gros fichiers avec \u0060azcopy\u0060"
+  },
+  {
+    "English": "- List of databricks resources for python",
+    "French": "- Liste des ressources databricks pour python"
+  },
+  {
+    "English": "- List of databricks resources for R",
+    "French": "- Liste des ressources databricks pour R"
+  },
+  {
+    "English": "## Section 2: Python/R Environment Overview",
+    "French": "## Section 2 : Pr\u00E9sentation de l\u0027environnement Python/R"
+  },
+  {
+    "English": "### How to upload your data to Azure",
+    "French": "### Comment t\u00E9l\u00E9charger vos donn\u00E9es vers Azure"
+  },
+  {
+    "English": "Storage explorer:",
+    "French": "Explorateur de stockage :"
+  },
+  {
+    "English": "- upload files and folders to azure",
+    "French": "- t\u00E9l\u00E9charger des fichiers et des dossiers vers azure"
+  },
+  {
+    "English": "- download files",
+    "French": "- t\u00E9l\u00E9charger des fichiers"
+  },
+  {
+    "English": "Storage account accessible through special path in Databricks called mount point",
+    "French": "Compte de stockage accessible par un chemin sp\u00E9cial dans les bases de donn\u00E9es, appel\u00E9 point de montage."
+  },
+  {
+    "English": "- \u0060/mnt/fsdh-dbk-main-mount\u0060",
+    "French": "- \u0060/mnt/fsdh-dbk-main-mount\u0060"
+  },
+  {
+    "English": "### Cluster Selection",
+    "French": "### S\u00E9lection de la grappe"
+  },
+  {
+    "English": "Cluster selection in Databricks has been contrainted to a selection of cost efficient execution nodes (note: node are using virtual machines in backend not accessible to the user). ",
+    "French": "La s\u00E9lection des clusters dans Databricks a \u00E9t\u00E9 limit\u00E9e \u00E0 une s\u00E9lection de n\u0153uds d\u0027ex\u00E9cution rentables (note : les n\u0153uds utilisent des machines virtuelles dans le backend qui n\u0027est pas accessible \u00E0 l\u0027utilisateur)."
+  },
+  {
+    "English": "### Python \u0026 R Libraries",
+    "French": "### Biblioth\u00E8ques Python et R"
+  },
+  {
+    "English": "- **Python:** Databricks provides access to [notebook scoped libraries](https://docs.databricks.com/libraries/notebooks-python-libraries.html) using special \u0060%pip\u0060 command. No limitation on available libraries = pypip. Libraries that require native binaries might have some limitations.",
+    "French": "- **Python:** Databricks permet d\u0027acc\u00E9der \u00E0 des [librairies encadr\u00E9es par le cahier] (https://docs.databricks.com/libraries/notebooks-python-libraries.html) en utilisant la commande sp\u00E9ciale \u0060%pip\u0060. Aucune limitation sur les biblioth\u00E8ques disponibles = pypip. Les biblioth\u00E8ques qui n\u00E9cessitent des binaires natifs peuvent avoir certaines limitations."
+  },
+  {
+    "English": "- **R:** Databricks provides access to [notebook scoped libraries](https://docs.databricks.com/libraries/notebooks-r-libraries.html) as well using special \u0060install.packages\u0060 command and \u0060devtools::install_github\u0060 for github libraries. CRAN snapshots are recommended.",
+    "French": "- **R:** Databricks fournit un acc\u00E8s aux [notebook scoped libraries] (https://docs.databricks.com/libraries/notebooks-r-libraries.html) en utilisant la commande sp\u00E9ciale \u0060install.packages\u0060 et \u0060devtools::install_github\u0060 pour les biblioth\u00E8ques github. Les snapshots CRAN sont recommand\u00E9s."
+  },
+  {
+    "English": "### Databricks SQL Storage",
+    "French": "### Databricks SQL Storage"
+  },
+  {
+    "English": "In addition to Python and R - Databricks provides access to standard Hive tables which enable to use SQL on managed files stored in Azure Storage Account. More details available in resources section.",
+    "French": "En plus de Python et R - Databricks fournit un acc\u00E8s aux tables Hive standard qui permettent d\u0027utiliser SQL sur les fichiers g\u00E9r\u00E9s stock\u00E9s dans le compte de stockage Azure. Plus de d\u00E9tails sont disponibles dans la section des ressources."
+  },
+  {
+    "English": "### Demo notebook",
+    "French": "### Carnet de d\u00E9mo"
+  },
+  {
+    "English": "Databricks can be used for:",
+    "French": "Les banques de donn\u00E9es peuvent \u00EAtre utilis\u00E9es pour :"
+  },
+  {
+    "English": "- Data transformations, ETL",
+    "French": "- Transformations de donn\u00E9es, ETL"
+  },
+  {
+    "English": "- Machine learning",
+    "French": "- Apprentissage automatique"
+  },
+  {
+    "English": "- Visualizations",
+    "French": "- Visualisations"
+  },
+  {
+    "English": "- Access to storage",
+    "French": "- Acc\u00E8s au stockage"
+  },
+  {
+    "English": "- API access",
+    "French": "- Acc\u00E8s \u00E0 l\u0027API"
+  },
+  {
+    "English": "### Additional Resources",
+    "French": "### Ressources compl\u00E9mentaires"
+  },
+  {
+    "English": "Show resources in portal to learn more about databricks.",
+    "French": "Montrer les ressources dans le portail pour en savoir plus sur les matrices de donn\u00E9es."
+  },
+  {
+    "English": "## Manually updating costs",
+    "French": "## Mise \u00E0 jour manuelle des co\u00FBts"
+  },
+  {
+    "English": "To Update a WS costs info in a rush drop a message like this in the \u0060project-usage-update\u0060 queue:",
+    "French": "Pour mettre \u00E0 jour les informations sur les co\u00FBts d\u0027un projet dans l\u0027urgence, d\u00E9posez un message comme celui-ci dans la file d\u0027attente \u0060project-usage-update\u0060 :"
+  },
+  {
+    "English": "\u00A0\u00A0\u00A0 \u0022ProjectId\u0022: 11,",
+    "French": "    \u0022ProjectId\u0022 : 11,"
+  },
+  {
+    "English": "\u00A0\u00A0\u00A0 \u0022ResourceGroup\u0022: \u0022fsdh_proj_die1_dev_rg\u0022",
+    "French": "    \u0022ResourceGroup\u0022 : \u0022fsdh_proj_die1_dev_rg\u0022"
+  },
+  {
+    "English": "### Databricks Cluster Policies",
+    "French": "### Politiques de cluster de Databricks"
+  },
+  {
+    "English": "The DataHub provides a few pre-defined cluster policies and a default all purpose cluster out of the box. Project lead users can create additional clusters using one of the policies. Regular project users can start and use these clusters.",
+    "French": "Le DataHub propose quelques politiques de cluster pr\u00E9d\u00E9finies et un cluster polyvalent par d\u00E9faut. Les utilisateurs chefs de projet peuvent cr\u00E9er des clusters suppl\u00E9mentaires en utilisant l\u0027une des politiques. Les utilisateurs r\u00E9guliers du projet peuvent d\u00E9marrer et utiliser ces clusters."
+  },
+  {
+    "English": "|Policy Name | Max DBU Per Hour |Node Type |Max Workers |",
+    "French": "|Nom de la politique - DBU max. par heure - Type de n\u0153ud - Nombre max. de travailleurs - Nom de la politique - Nom de la politique - DBU max. par heure - Type de n\u0153ud - Nombre max. de travailleurs"
+  },
+  {
+    "English": "|------------|------------------|----------|----------- |",
+    "French": "|------------|------------------|----------|----------- |"
+  },
+  {
+    "English": "| DataHub Small |4 |\u003Cul\u003E\u003Cli\u003EStandard_D4ds_v5\u003C/li\u003E\u003C/ul\u003E|2|",
+    "French": "| DataHub Small |4 |\u003Cul\u003E\u003Cli\u003EStandard_D4ds_v5\u003C/li\u003E\u003C/ul\u003E|2|"
+  },
+  {
+    "English": "| DataHub Regular | 12 | \u003Cu/\u003E\u003Cli\u003EStandard_D4ds_v5 (Default)\u003C/li\u003E\u003Cli\u003EStandard_D8ds_v5\u003C/li\u003E\u003Cli\u003EStandard_D16ds_v5\u003C/li\u003E\u003C/ul\u003E| 4| ",
+    "French": "| DataHub Regular | 12 | \u003Cu/\u003E\u003Cli\u003EStandard_D4ds_v5 (Default)\u003C/li\u003E\u003Cli\u003EStandard_D8ds_v5\u003C/li\u003E\u003Cli\u003EStandard_D16ds_v5\u003C/li\u003E\u003C/ul\u003E| 4|"
+  },
+  {
+    "English": "| DataHub Large|64|\u003Cul\u003E\u003Cli\u003EStandard_D4ds_v5\u003C/li\u003E\u003Cli\u003EStandard_D8ds_v5 (Default)\u003C/li\u003E\u003Cli\u003EStandard_D16ds_v5\u003C/li\u003E\u003Cli\u003EStandard_D32ds_v5\u003C/li\u003E\u003Cli\u003EStandard_D48ds_v5\u003C/li\u003E\u003Cli\u003EStandard_D64ds_v5\u003C/li\u003E\u003C/ul\u003E|32 |",
+    "French": "| DataHub Large|64|\u003Cul\u003E\u003Cli\u003EStandard_D4ds_v5\u003C/li\u003E\u003Cli\u003EStandard_D8ds_v5 (par d\u00E9faut)\u003C/li\u003E\u003Cli\u003EStandard_D16ds_v5\u003C/li\u003E\u003Cli\u003EStandard_D32ds_v5\u003C/li\u003E\u003Cli\u003EStandard_D48ds_v5\u003C/li\u003E\u003Cli\u003EStandard_D64ds_v5\u003C/li\u003E\u003C/ul\u003E|32|."
+  },
+  {
+    "English": "### Option 1: Use a SMS message to validate your account",
+    "French": "### Option 1 : Utiliser un message SMS pour valider votre compte"
+  },
+  {
+    "English": "*** Add screenshots ***",
+    "French": "*** Ajouter des captures d\u0027\u00E9cran ***"
+  },
+  {
+    "English": "### Option 2: Use the Authenticator Application - Recommended (if you are familiar with the Authenticator Application)",
+    "French": "### Option 2 : Utiliser l\u0027application Authenticator - Recommand\u00E9 (si vous \u00EAtes familier avec l\u0027application Authenticator)"
+  },
+  {
+    "English": "- For command line interaction only. Users may choose to use Azure Storage Explorer and DataHub Portal Storage Explorer as alternatives if not using command line",
+    "French": "- Pour l\u0027interaction en ligne de commande uniquement. Les utilisateurs peuvent choisir d\u0027utiliser Azure Storage Explorer et DataHub Portal Storage Explorer comme alternatives s\u0027ils n\u0027utilisent pas la ligne de commande."
+  },
+  {
+    "English": "Common Issues",
+    "French": "Probl\u00E8mes communs"
+  },
+  {
+    "English": "# Common Issues and Resolutions",
+    "French": "# Questions courantes et solutions"
+  },
+  {
+    "English": "- I am not able to access a workspace that I have been granted access",
+    "French": "- Je ne peux pas acc\u00E9der \u00E0 un espace de travail dont l\u0027acc\u00E8s m\u0027a \u00E9t\u00E9 accord\u00E9."
+  },
+  {
+    "English": "  - To resolve this, you need to refresh the current page using full refresh with F5. The permissions are only reloaded when the site is refreshed",
+    "French": "  - Pour r\u00E9soudre ce probl\u00E8me, vous devez rafra\u00EEchir la page actuelle en utilisant la touche F5. Les autorisations ne sont recharg\u00E9es que lorsque le site est actualis\u00E9."
+  },
+  {
+    "English": "##\tWhat are the capabilities to be used and evaluated during the PoC? ",
+    "French": "## Quelles sont les capacit\u00E9s \u00E0 utiliser et \u00E0 \u00E9valuer pendant la PoC ?"
+  },
+  {
+    "English": "##\tWhere does the data \u2018live\u2019? ",
+    "French": "## O\u00F9 se trouvent les donn\u00E9es ?"
+  },
+  {
+    "English": "SSC\u2019s Azure Cloud \u2013 hosted in Canada. ",
+    "French": "Azure Cloud de SSC - h\u00E9berg\u00E9 au Canada."
+  },
+  {
+    "English": "##\tWhat will happen to the data at the end of the PoC timeline? ",
+    "French": "## Qu\u0027adviendra-t-il des donn\u00E9es \u00E0 la fin de la dur\u00E9e du PoC ?"
+  },
+  {
+    "English": "Options are to delete/destroy or migrate to another environment specified by user. ",
+    "French": "Les options sont de supprimer/d\u00E9truire ou de migrer vers un autre environnement sp\u00E9cifi\u00E9 par l\u0027utilisateur."
+  },
+  {
+    "English": "##\tWhat is an Azure storage account? ",
+    "French": "## Qu\u0027est-ce qu\u0027un compte de stockage Azure ?"
+  },
+  {
+    "English": "There are two key types of storage accounts \u2013 these are enabled by SSC and access provided by the FSDH team: ",
+    "French": "Il existe deux types de comptes de stockage : ceux qui sont activ\u00E9s par le CSP et ceux dont l\u0027acc\u00E8s est fourni par l\u0027\u00E9quipe de la FSDH :"
+  },
+  {
+    "English": "##\tWill I have issues using the FSDH with VPN? ",
+    "French": "## Aurai-je des difficult\u00E9s \u00E0 utiliser la FSDH avec le VPN ?"
+  },
+  {
+    "English": "You may need to disconnect from your VPN to upload or download files. ",
+    "French": "Il se peut que vous deviez vous d\u00E9connecter de votre VPN pour charger ou t\u00E9l\u00E9charger des fichiers."
+  },
+  {
+    "English": "##\tWhat if I need to more than the 5TB allocation or additional cloud credits? ",
+    "French": "## Que se passe-t-il si j\u0027ai besoin de plus que les 5 To allou\u00E9s ou de cr\u00E9dits cloud suppl\u00E9mentaires ?"
+  },
+  {
+    "English": "For the PoC we are trying to limit file sizes and stay within allocated budgets. However, if you feel you need more storage or credits, please open an issue with the [FSDH Support Request Form](/UserGuide/FSDH-Support-Request-Form.md) and your request will be reviewed.  ",
+    "French": "Pour le PoC, nous essayons de limiter la taille des fichiers et de rester dans les limites des budgets allou\u00E9s. Cependant, si vous pensez avoir besoin de plus d\u0027espace de stockage ou de cr\u00E9dits, veuillez ouvrir un dossier avec le [FSDH Support Request Form] (/UserGuide/FSDH-Support-Request-Form.md) et votre demande sera examin\u00E9e.  "
+  },
+  {
+    "English": "##\tWhat are the type of costs that my analytics project may incur? ",
+    "French": "## Quels sont les types de co\u00FBts que mon projet d\u0027analyse peut engendrer ?"
+  },
+  {
+    "English": "At high level, the costs for your project will depend on the following 3 factors:",
+    "French": "En g\u00E9n\u00E9ral, les co\u00FBts de votre projet d\u00E9pendent des trois facteurs suivants :"
+  },
+  {
+    "English": "##\tWhere can I see the costing model for the services? How can I track the cost that is being incurred for my project? ",
+    "French": "## O\u00F9 puis-je voir le mod\u00E8le de calcul des co\u00FBts pour les services ? Comment puis-je suivre les co\u00FBts encourus pour mon projet ?"
+  },
+  {
+    "English": "Reports and alerts will be configured to enable you to track the ongoing usage and cost of the services consumed in your Workspace.",
+    "French": "Des rapports et des alertes seront configur\u00E9s pour vous permettre de suivre l\u0027utilisation et le co\u00FBt des services consomm\u00E9s dans votre espace de travail."
+  },
+  {
+    "English": "##\tWhat is the Shared Services Canada Science Program?",
+    "French": "## Qu\u0027est-ce que le programme scientifique de Services partag\u00E9s Canada ?"
+  },
+  {
+    "English": "SSC created the Science Program to support GC priorities on modernising and securing research in Canada and to better enable scientists with digital infrastructure and services to support their respective mandates. A key priority is to address and remove barriers that inhibit collaboration between SBDAs. ",
+    "French": "La SSC a cr\u00E9\u00E9 le programme scientifique pour soutenir les priorit\u00E9s du gouvernement en mati\u00E8re de modernisation et de s\u00E9curisation de la recherche au Canada et pour permettre aux scientifiques de disposer d\u0027une infrastructure et de services num\u00E9riques leur permettant de remplir leurs mandats respectifs. L\u0027une des principales priorit\u00E9s est d\u0027\u00E9liminer les obstacles qui entravent la collaboration entre les organismes de recherche scientifique et technique."
+  },
+  {
+    "English": "##\tWhat is the Data Solutions for Science (DSS) Team?",
+    "French": "## Qu\u0027est-ce que l\u0027\u00E9quipe Data Solutions for Science (DSS) ?"
+  },
+  {
+    "English": "The DSS team in the Science Program is mandated to deliver federal data solutions for Science Based Departments and Agencies (SBDAs) to address common data challenges and strengthen the posture of federal science in Canada. In addition, we seek to eliminate ongoing investment in siloed departmental solutions that don\u2019t meet the needs of the GC science community.  ",
+    "French": "L\u0027\u00E9quipe DSS du Programme scientifique a pour mandat de fournir des solutions de donn\u00E9es f\u00E9d\u00E9rales aux minist\u00E8res et organismes \u00E0 vocation scientifique (MOVS) afin de relever les d\u00E9fis communs en mati\u00E8re de donn\u00E9es et de renforcer la position de la science f\u00E9d\u00E9rale au Canada. En outre, nous cherchons \u00E0 \u00E9liminer les investissements continus dans des solutions minist\u00E9rielles cloisonn\u00E9es qui ne r\u00E9pondent pas aux besoins de la communaut\u00E9 scientifique du GC.  "
+  },
+  {
+    "English": "## Why a Proof-of-Concept? ",
+    "French": "## Pourquoi une preuve de concept ?"
+  },
+  {
+    "English": "A PoC allows for innovation and iteration as we discover and test data solution capabilities that will give scientists the tools they need to support their data management, storage, advanced analytics and collaboration requirements",
+    "French": "Un PoC permet l\u0027innovation et l\u0027it\u00E9ration au fur et \u00E0 mesure que nous d\u00E9couvrons et testons les capacit\u00E9s des solutions de donn\u00E9es qui donneront aux scientifiques les outils dont ils ont besoin pour r\u00E9pondre \u00E0 leurs besoins en mati\u00E8re de gestion, de stockage, d\u0027analyse avanc\u00E9e et de collaboration des donn\u00E9es."
+  },
+  {
+    "English": "# FSDH Support Request Form",
+    "French": "# Formulaire de demande de soutien \u00E0 la FSDH"
+  },
+  {
+    "English": "To request help with an issue or problem with FSDH please use this form. This is the only means to request support from the FSDH team.",
+    "French": "Pour demander de l\u0027aide sur une question ou un probl\u00E8me concernant la FSDH, veuillez utiliser ce formulaire. C\u0027est le seul moyen de demander de l\u0027aide \u00E0 l\u0027\u00E9quipe de la FSDH."
+  },
+  {
+    "English": "[Support Request Form](https://forms.office.com/pages/responsepage.aspx?id=lMFb0L-U1kquLh2w8uOPXhksOXzZ73RCp9fVTz4vTU5UNTc1U00yNVUxWVg4SkJGMFVHN1RCTTdQRS4u)",
+    "French": "[Formulaire de demande d\u0027assistance] (https://forms.office.com/pages/responsepage.aspx?id=lMFb0L-U1kquLh2w8uOPXhksOXzZ73RCp9fVTz4vTU5UNTc1U00yNVUxWVg4SkJGMFVHN1RCTTdQRS4u)"
+  },
+  {
+    "English": "Welcome to the Federal Science DataHub (FSDH) Proof-of-Concept (PoC), an initiative supported by the Data Solutions for Science Team within Shared Services Canada\u2019s Science Program.\u00A0",
+    "French": "Bienvenue \u00E0 la d\u00E9monstration de concept du Federal Science DataHub (FSDH), une initiative soutenue par l\u0027\u00E9quipe Solutions de donn\u00E9es pour la science au sein du programme scientifique de Services partag\u00E9s Canada."
+  },
+  {
+    "English": "The scope of PoC Phase 2 includes:\u202Fintuitive self-service; quick\u202Fand temporary data storage; readily\u202Favailable digital tools for analytics, visualization, and machine learning models; collaboration with peers across GC; discovery metadata.",
+    "French": "Le champ d\u0027application de la phase 2 du PoC comprend : un libre-service intuitif ; un stockage rapide et temporaire des donn\u00E9es ; des outils num\u00E9riques facilement accessibles pour l\u0027analyse, la visualisation et les mod\u00E8les d\u0027apprentissage automatique ; la collaboration avec des pairs au sein du GC ; des m\u00E9tadonn\u00E9es de d\u00E9couverte."
+  },
+  {
+    "English": "The objective of the PoC is to have active participation from scientists in as many Science-based Departments and Agencies as possible to ensure\u202Fwe have the right people to help evaluate, confirm, and prioritize capabilities and services for\u202FGC data storage, collaboration, and analysis.",
+    "French": "L\u0027objectif du PoC est d\u0027obtenir la participation active de scientifiques dans le plus grand nombre possible de minist\u00E8res et d\u0027agences \u00E0 vocation scientifique afin de s\u0027assurer que nous disposons des bonnes personnes pour aider \u00E0 \u00E9valuer, confirmer et hi\u00E9rarchiser les capacit\u00E9s et les services pour le stockage, la collaboration et l\u0027analyse des donn\u00E9es du GC."
+  },
+  {
+    "English": "FSDH PoC Phase 2 will run from April 3 to September 30, 2023. \u00A0Participants requiring access to the environment and/or their data after that date can work with the DSS team to determine the approach for data migration, etc.\u00A0",
+    "French": "La phase 2 du PoC FSDH se d\u00E9roulera du 3 avril au 30 septembre 2023.  Les participants ayant besoin d\u0027acc\u00E9der \u00E0 l\u0027environnement et/ou \u00E0 leurs donn\u00E9es apr\u00E8s cette date peuvent travailler avec l\u0027\u00E9quipe DSS pour d\u00E9terminer l\u0027approche \u00E0 adopter pour la migration des donn\u00E9es, etc."
+  },
+  {
+    "English": "FSDH PoC Phase 2 will be supported by the DSS Team on a best-effort basis. All questions/issues can be sent to the team via the [FSDH Support Request Form](https://forms.office.com/pages/responsepage.aspx?id=lMFb0L-U1kquLh2w8uOPXhksOXzZ73RCp9fVTz4vTU5UNTc1U00yNVUxWVg4SkJGMFVHN1RCTTdQRS4u).",
+    "French": "La phase 2 du PoC FSDH sera prise en charge par l\u0027\u00E9quipe DSS dans la mesure du possible. Toutes les questions/probl\u00E8mes peuvent \u00EAtre envoy\u00E9s \u00E0 l\u0027\u00E9quipe via le [FSDH Support Request Form] (https://forms.office.com/pages/responsepage.aspx?id=lMFb0L-U1kquLh2w8uOPXhksOXzZ73RCp9fVTz4vTU5UNTc1U00yNVUxWVg4SkJGMFVHN1RCTTdQRS4u)."
+  },
+  {
+    "English": "User Guide",
+    "French": "Guide de l\u0027utilisateur"
+  },
+  {
+    "English": "# Federal Science DataHub User Guide",
+    "French": "# Guide de l\u0027utilisateur du Federal Science DataHub"
+  },
+  {
+    "English": "The official User Guide is available on [this link](https://github.com/ssc-sp/datahub-docs/blob/main/UserGuide/Onboarding/FSDH%20PoC%20Phase%202%20-%20Onboarding%20Guide_En.pdf) and ",
+    "French": "Le guide de l\u0027utilisateur officiel est disponible sur [ce lien] (https://github.com/ssc-sp/datahub-docs/blob/main/UserGuide/Onboarding/FSDH%20PoC%20Phase%202%20-%20Onboarding%20Guide_En.pdf) et sur"
+  },
+  {
+    "English": "[French link](https://github.com/ssc-sp/datahub-docs/blob/main/UserGuide/Onboarding/FSDH%20PoC%20Phase%202%20-%20Onboarding%20Guide_Fr.pdf).",
+    "French": "(https://github.com/ssc-sp/datahub-docs/blob/main/UserGuide/Onboarding/FSDH%20PoC%20Phase%202%20-%20Onboarding%20Guide_Fr.pdf)."
+  },
+  {
+    "English": "Federal Science DataHub User Guide",
+    "French": "Guide de l\u0027utilisateur du Federal Science DataHub"
+  },
+  {
+    "English": "- [Frequently Asked Questions (FAQs)]",
+    "French": "- [Foire aux questions (FAQ)]"
+  },
+  {
+    "English": "Cloud Storage",
+    "French": "Stockage en nuage"
+  },
+  {
+    "English": "Metadata Reference",
+    "French": "R\u00E9f\u00E9rence des m\u00E9tadonn\u00E9es"
   }
 ]
