@@ -21,9 +21,7 @@ FSDH PoC Phase 2 will run from April 3 to September 30, 2023.  Participants req
 - You don’t need to do anything special to protect this data.
 - It is your responsibility to conclude the data is unclassified/non-sensitive before uploading to FSDH
 
-For more information security of information, please see: 
-- [Guidance on Security Controls](https://www.gcpedia.gc.ca/wiki/PGS_Security_Controls)
-- [Directive on Security Management - Appendix J: Standard on Security Categorization](https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=32614)
+For more information security of information, please see the [Directive on Security Management - Appendix J: Standard on Security Categorization](https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=32614)
 
 ## Privacy/Permissions 
 
