@@ -4,11 +4,11 @@ onProfileinclude: ssc
 
 # Metadata Profile for Workspaces
 
-All workspaces in FSDH require a metadata profile to be completed before resources (e.g. storage or Databricks) can be requested.
+All workspaces in FSDH require a metadata profile to be completed in order to start working with the resources.
 
 ## Required fields
 
-The fields required for the metadata profile are the following:
+The fields required for the metadata profile are:
 
 
 | Field | Description |
