@@ -13,5 +13,4 @@
 - Frequently Asked Questions (FAQs)
   - [Cloud Storage](/UserGuide/FSDH-FAQs.md)
   - [Metadata Reference](/UserGuide/Workspace/Workspace-Profile-Metadata.md)
-- Support
-  - [FSDH Support Request Form](/UserGuide/FSDH-Support-Request-Form.md)
+- [FSDH Support Request Form](/UserGuide/FSDH-Support-Request-Form.md)
