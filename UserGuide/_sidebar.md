@@ -12,6 +12,6 @@
   - [Request a Session with a Databricks Expert](/UserGuide/Databricks/Request-databricks-session.md)
 
 - Workspace
-  - [Metadata Reference](/UserGuide/Workspace/Workspace-Profile-Metadata.md)
+  - [Metadata Profile Details](/UserGuide/Workspace/Workspace-Profile-Metadata.md)
 - [Frequently Asked Questions (FAQs)](/UserGuide/FSDH-FAQs.md)
 - [FSDH Support Request Form](/UserGuide/FSDH-Support-Request-Form.md)
