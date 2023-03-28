@@ -10,6 +10,8 @@
   - [Data Processing using Databricks](/UserGuide/Databricks/Data-Processing-using-Databricks.md)
   - [Databricks Secure Access using ADSF Passthrough](/UserGuide/Databricks/Databricks---Secure-Access-using-ADSF-Passthrough.md)
   - [Request a Session with a Databricks Expert](/UserGuide/Databricks/Request-databricks-session.md)
+
+- Workspace
+  - [Metadata Reference](/UserGuide/Workspace/Workspace-Profile-Metadata.md)
 - [Frequently Asked Questions (FAQs)](/UserGuide/FSDH-FAQs.md)
-- [Metadata Reference](/UserGuide/Workspace/Workspace-Profile-Metadata.md)
 - [FSDH Support Request Form](/UserGuide/FSDH-Support-Request-Form.md)
