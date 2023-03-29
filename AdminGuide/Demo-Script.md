@@ -6,11 +6,11 @@ Not sure we need to cover this...
 
 ## Terms & Conditions and Language
 
-Before entering the Science Program DataHub Portal, there are two important steps you need to complete.
-
-1. **You need to accept the Terms and Conditions** that govern the use of the platform. This is an essential requirement to gain access to the features and benefits of DataHub.
+Before entering the Federal Science DataHub Portal, there are two important steps you need to complete.
 
 1. **You need to select a language for the portal.** This language selection ensures that you can easily navigate and use the platform in your preferred language.
+
+1. **You need to accept the Terms and Conditions** that govern the use of the platform. This is an essential requirement to gain access to the features and benefits of DataHub.
 
 Once you have selected a language and accepted the Terms and Conditions, you will be granted access to the portal.
 
@@ -20,9 +20,7 @@ Once you have selected a language and accepted the Terms and Conditions, you wil
 
 The Federal Science DataHub is a powerful platform that provides **four main objectives for scientists and researchers**. These objectives are as follows:
 
-1. **The platform offers workspaces for storage and processing**. With DataHub, you can securely store your data and code in one central location, and have easy access to your work wherever you go.
-
-1. **The DataHub platform also provides access to storage**. This means that you can easily retrieve and modify your data from anywhere, at any time, using any approved device that has internet access.
+1. **The platform offers workspaces for storage, data processing, and analytics**. This means that you can store, process, and analyze your data in a secure cloud environment.
 
 1. **DataHub offers a way to monitor your budget used and track on a daily and monthly basis**. This helps you to keep track of your expenditures and stay within your budget limits.
 
