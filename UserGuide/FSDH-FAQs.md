@@ -18,7 +18,7 @@ There are two key types of storage accounts – these are enabled by SSC and acc
 You may need to disconnect from your VPN to upload or download files. 
 
 ##	What if I need to more than the 5TB allocation or additional cloud credits? 
-For the PoC we are trying to limit file sizes and stay within allocated budgets. However, if you feel you need more storage or credits, please open an issue with the [FSDH Support Request Form](/UserGuide/FSDH-Support-Request-Form.md) and your request will be reviewed.  
+For the PoC we are trying to limit file sizes and stay within allocated budgets. However, if you feel you need more storage or credits, please open an issue with the [FSDH Support Request Form](https://forms.office.com/pages/responsepage.aspx?id=lMFb0L-U1kquLh2w8uOPXhksOXzZ73RCp9fVTz4vTU5UNTc1U00yNVUxWVg4SkJGMFVHN1RCTTdQRS4u) and your request will be reviewed.  
 
 ##	What are the type of costs that my analytics project may incur? 
 At high level, the costs for your project will depend on the following 3 factors:

@@ -1,6 +1,10 @@
-# Section 0: Onboarding
+# Section 0: Onboarding and Login
 
-Not sure we need to cover this...
+**Prep:** Sign out
+
+1. Open https://federal-science-datahub.canada.ca
+2. On login screen mention that you use the MS Teams account and password which can be different from your network credentials.
+3. Mention that the login screen is going to be different for each department. The authentication in DataHub leverages existing AAD.
 
 # Section 1: Portal Overview
 
@@ -84,6 +88,9 @@ There are certain factors that can impact the cost of usage. Let's take a closer
 
 - **Keeping data within the Azure ecosystem** can also help to reduce costs. Most storage costs are incurred when data is uploaded or downloaded from Azure. Therefore, if data is kept within the Azure ecosystem, there are minimal additional costs.
 
+> **Out of credits**: We would not be giving more credits - it will be assessed on a case by case basis and we will be helping to move the data elsewhere if necessary.
+> Cost is shared among collaborators.
+
 ## Managing Costs
 
 The recommended approach to begin utilizing the DataHub effectively is to start with a small scale project and measure the associated costs for one week.
@@ -111,9 +118,17 @@ One of the highlights of the Federal Science DataHub is the **built-in documenta
 
 - **List of databricks resources for python and R**. This list includes various resources such as libraries, packages, and modules that can be used in python to manipulate and analyze data. These resources can be used to build sophisticated machine learning models, perform data analysis, and generate insightful reports. The documentation provides detailed instructions on how to install and use these resources effectively.
 
+> **Training**: Existing R and Python knowledge should be sufficient to work with the platform. Training on other databricks features
+
 # Section 2: Python/R Environment Overview
 
+## What is Databricks
+
+Databricks is a managed platform that provides support for Python and R notebooks and a standard Hadoop/Hive infrastructure for large data processing. The databricks platform separates the notebook and the infrastructure to execute the code. The code (SQL, Python and R) is executed on clusters and the structured SQL tables leverage standard Azure storage.
+
 ## How to upload your data to Azure
+
+> We assume that the data is available locally and can be uploaded to Azure. If the data is already on Azure please contact us to figure out a solution to limit egress and ingress costs.
 
 Storage explorer:
 
