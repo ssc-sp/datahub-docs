@@ -27,7 +27,7 @@ Le terme "non classifié" ou l'absence de marquage de sécurité désigne des do
 - Vous n'avez rien à faire de particulier pour protéger ces données.
 - Il est de votre responsabilité de conclure que les données ne sont pas classifiées/non sensibles avant de les télécharger vers la FSDH.
 
-Pour plus d'informations sur la sécurité des informations, veuillez consulter : Directive sur la gestion de la sécurité - Appendice J : Norme sur la catégorisation de la sécurité](https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=32614).
+Pour plus d'informations sur la sécurité des informations, veuillez consulter : [Directive sur la gestion de la sécurité - Appendice J : Norme sur la catégorisation de la sécurité](https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=32614).
 
 ## Confidentialité/Permissions
 
