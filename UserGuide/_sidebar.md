@@ -7,7 +7,6 @@
 - Databricks
   - [What is Azure Databricks?](/UserGuide/Databricks/Databricks.md)
   - [Access your storage account in Databricks](/UserGuide/Databricks/Access-your-storage-account-in-Databricks.md)
-  - [Data Processing using Databricks](/UserGuide/Databricks/Data-Processing-using-Databricks.md)
   - [Request a Session with a Databricks Expert](/UserGuide/Databricks/Request-databricks-session.md)
 
 - Workspace
