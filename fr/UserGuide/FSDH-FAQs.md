@@ -20,7 +20,7 @@ Il existe deux types de comptes de stockage : ceux qui sont activés par le CSP 
   - i. Azure Data Lake Storage (Gen2) - conçu pour l'analyse des big data et fournissant des listes de contrôle d'accès au niveau des fichiers et des dossiers.
   - ii. Azure Blob Storage - compte de stockage de base - ne fournit pas de contrôle d'accès au niveau des fichiers et des dossiers mais est requis pour la compatibilité dans certains scénarios.
 
-## Aurai-je des difficultés à utiliser la FSDH avec le VPN ?
+## Aurai-je des difficultés à utiliser la DHSF avec le VPN ?
 Il se peut que vous deviez vous déconnecter de votre VPN pour charger ou télécharger des fichiers.
 
 ## Que se passe-t-il si j'ai besoin de plus que les 5 To alloués ou de crédits cloud supplémentaires ?
