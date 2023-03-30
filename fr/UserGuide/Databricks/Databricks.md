@@ -1,7 +1,7 @@
 ---
 remarks: Automatically translated with DeepL
 source: /UserGuide/Databricks/Databricks.md
-draft: true
+draft: false
 ---
 
 
