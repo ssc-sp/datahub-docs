@@ -6,7 +6,7 @@ draft: false
 
 # Accéder à votre compte de stockage dans Databricks
 
-Lorsque votre espace de travail Databricks est créé pour votre projet, un compte de stockage Azure a déjà été créé. DataHub monte également le stockage Blob du compte de stockage avec le cluster Databricks précréé (main_cluster). Ce montage est pour votre commodité et l'accès aux données Blob est soumis à votre identité. Au moment de la rédaction de ce document, tous les membres du projet ont un accès complet au stockage Blob.
+Lorsque votre espace de travail Databricks est créé pour votre projet, un compte de stockage Azure a déjà été créé. DHSF  monte également le stockage Blob du compte de stockage avec le cluster Databricks précréé (main_cluster). Ce montage est pour votre commodité et l'accès aux données Blob est soumis à votre identité. Au moment de la rédaction de ce document, tous les membres du projet ont un accès complet au stockage Blob.
 
 ## Hypothèses
 - Familiarité avec l'API de fichier en Python ou R
