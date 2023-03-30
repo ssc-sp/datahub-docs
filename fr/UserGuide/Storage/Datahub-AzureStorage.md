@@ -23,5 +23,5 @@ Vous avez la possibilité d'utiliser l'interface du navigateur ou les options de
 
 ## Téléchargement automatisé et fichiers volumineux
 
-AzCopy est l'option recommandée pour travailler avec des fichiers volumineux et l'outil peut également être intégré dans des scripts. L'outil est disponible pour Windows et Linux. Voir [AzCopy pour copier des fichiers depuis/vers Azure Storage](Use-AzCopy-to-Interact-with-Azure-Storage-Account) pour plus de détails.
+AzCopy est l'option recommandée pour travailler avec des fichiers volumineux et l'outil peut également être intégré dans des scripts. L'outil est disponible pour Windows et Linux. 
 
