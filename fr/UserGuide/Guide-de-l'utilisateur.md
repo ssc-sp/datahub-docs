@@ -1,7 +1,7 @@
 ---
 remarks: Automatically translated with DeepL
 source: /UserGuide/User-Guide.md
-draft: true
+draft: false
 ---
 
 # Guide de l'utilisateur du DataHub scientifique fédéral
