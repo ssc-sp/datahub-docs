@@ -24,7 +24,7 @@ At high level, the costs for your project will depend on the following 3 factors
   -	Cost of any additional services that you may require for your project such as license cost for Power BI, Tableau, SQL Sever Database etc.
 
 ##	Where can I see the costing model for the services? How can I track the cost that is being incurred for my project? 
-Reports and alerts will be configured to enable you to track the ongoing usage and cost of the services consumed in your Workspace.
+Reports and alerts are configured to enable you to track the ongoing usage and cost of the services consumed in your Workspace.
 
 ##	What is the Shared Services Canada Science Program?
 SSC created the Science Program to support GC priorities on modernising and securing research in Canada and to better enable scientists with digital infrastructure and services to support their respective mandates. A key priority is to address and remove barriers that inhibit collaboration between SBDAs. 
