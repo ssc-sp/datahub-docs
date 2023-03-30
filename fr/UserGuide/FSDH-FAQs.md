@@ -17,8 +17,8 @@ Les options sont de supprimer/détruire ou de migrer vers un autre environnement
 
 ## Qu'est-ce qu'un compte de stockage Azure ?
 Il existe deux types de comptes de stockage : ceux qui sont activés par le CSP et ceux dont l'accès est fourni par l'équipe de la DHSF :
-  - i. Azure Data Lake Storage (Gen2) - conçu pour l'analyse des big data et fournissant des listes de contrôle d'accès au niveau des fichiers et des dossiers.
-  - ii. Azure Blob Storage - compte de stockage de base - ne fournit pas de contrôle d'accès au niveau des fichiers et des dossiers mais est requis pour la compatibilité dans certains scénarios.
+  - Azure Data Lake Storage (Gen2) - conçu pour l'analyse des big data et fournissant des listes de contrôle d'accès au niveau des fichiers et des dossiers.
+  - Azure Blob Storage - compte de stockage de base - ne fournit pas de contrôle d'accès au niveau des fichiers et des dossiers mais est requis pour la compatibilité dans certains scénarios.
 
 ## Aurai-je des difficultés à utiliser la DHSF avec le RPV ?
 Il se peut que vous deviez vous déconnecter de votre RPV pour charger ou télécharger des fichiers.
