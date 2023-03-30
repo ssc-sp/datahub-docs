@@ -11554,5 +11554,313 @@
   {
     "English": "Metadata Reference",
     "French": "R\u00E9f\u00E9rence des m\u00E9tadonn\u00E9es"
+  },
+  {
+    "English": "# Section 0: Onboarding and Login",
+    "French": "# Section 0 : Onboarding et Login"
+  },
+  {
+    "English": "**Prep:** Sign out",
+    "French": "**Prep:** Sign out"
+  },
+  {
+    "English": "1. Open https://federal-science-datahub.canada.ca",
+    "French": "1. Ouvrez https://federal-science-datahub.canada.ca"
+  },
+  {
+    "English": "2. On login screen mention that you use the MS Teams account and password which can be different from your network credentials.",
+    "French": "2. Sur l\u0027\u00E9cran de connexion, indiquez que vous utilisez le compte et le mot de passe de MS Teams, qui peuvent \u00EAtre diff\u00E9rents de ceux de votre r\u00E9seau."
+  },
+  {
+    "English": "3. Mention that the login screen is going to be different for each department. The authentication in DataHub leverages existing AAD.",
+    "French": "3. Mentionnez que l\u0027\u00E9cran de connexion sera diff\u00E9rent pour chaque d\u00E9partement. L\u0027authentification dans DataHub s\u0027appuie sur l\u0027AAD existant."
+  },
+  {
+    "English": "# Section 1: Portal Overview",
+    "French": "# Section 1 : Pr\u00E9sentation du portail"
+  },
+  {
+    "English": "## Terms \u0026 Conditions and Language",
+    "French": "## Conditions g\u00E9n\u00E9rales et langue"
+  },
+  {
+    "English": "Before entering the Federal Science DataHub Portal, there are two important steps you need to complete.",
+    "French": "Avant d\u0027entrer dans le portail Federal Science DataHub, vous devez suivre deux \u00E9tapes importantes."
+  },
+  {
+    "English": "1. **You need to select a language for the portal.** This language selection ensures that you can easily navigate and use the platform in your preferred language.",
+    "French": "1. **Vous devez s\u00E9lectionner une langue pour le portail**. Cette s\u00E9lection de langue vous permet de naviguer et d\u0027utiliser facilement la plateforme dans la langue de votre choix."
+  },
+  {
+    "English": "1. **You need to accept the Terms and Conditions** that govern the use of the platform. This is an essential requirement to gain access to the features and benefits of DataHub.",
+    "French": "1. **Vous devez accepter les conditions g\u00E9n\u00E9rales** qui r\u00E9gissent l\u0027utilisation de la plateforme. Il s\u0027agit d\u0027une condition essentielle pour acc\u00E9der aux fonctionnalit\u00E9s et aux avantages de DataHub."
+  },
+  {
+    "English": "Once you have selected a language and accepted the Terms and Conditions, you will be granted access to the portal.",
+    "French": "Une fois que vous aurez s\u00E9lectionn\u00E9 une langue et accept\u00E9 les conditions g\u00E9n\u00E9rales, vous aurez acc\u00E8s au portail."
+  },
+  {
+    "English": "\u003E It\u0027s worth noting that **you can switch between different languages** inside the portal using your profile. This feature allows you to change your language preference at any time",
+    "French": "\u003E Il est int\u00E9ressant de noter que **vous pouvez passer d\u0027une langue \u00E0 l\u0027autre** \u00E0 l\u0027int\u00E9rieur du portail en utilisant votre profil. Cette fonction vous permet de modifier vos pr\u00E9f\u00E9rences linguistiques \u00E0 tout moment."
+  },
+  {
+    "English": "## What is a workspace",
+    "French": "## Qu\u0027est-ce qu\u0027un espace de travail ?"
+  },
+  {
+    "English": "The Federal Science DataHub is a powerful platform that provides **four main objectives for scientists and researchers**. These objectives are as follows:",
+    "French": "Le Federal Science DataHub est une plateforme puissante qui offre **quatre objectifs principaux aux scientifiques et aux chercheurs**. Ces objectifs sont les suivants :"
+  },
+  {
+    "English": "1. **The platform offers workspaces for storage, data processing, and analytics**. This means that you can store, process, and analyze your data in a secure cloud environment.",
+    "French": "1. **La plateforme offre des espaces de travail pour le stockage, le traitement des donn\u00E9es et l\u0027analyse**. Cela signifie que vous pouvez stocker, traiter et analyser vos donn\u00E9es dans un environnement cloud s\u00E9curis\u00E9."
+  },
+  {
+    "English": "1. **DataHub offers a way to monitor your budget used and track on a daily and monthly basis**. This helps you to keep track of your expenditures and stay within your budget limits.",
+    "French": "1. **DataHub offre un moyen de contr\u00F4ler votre budget utilis\u00E9 et de le suivre sur une base quotidienne et mensuelle**. Cela vous aide \u00E0 suivre vos d\u00E9penses et \u00E0 rester dans les limites de votre budget."
+  },
+  {
+    "English": "1. **The Federal Science DataHub platform also provides a collaboration space for sharing data and python/r notebooks**. This allows you to work together with colleagues and peers from other government departments and agencies, share ideas, and improve your work efficiency.",
+    "French": "1. **La plateforme Federal Science DataHub offre \u00E9galement un espace de collaboration pour le partage des donn\u00E9es et des carnets python/r**. Cela vous permet de travailler avec des coll\u00E8gues et des homologues d\u0027autres minist\u00E8res et agences, de partager des id\u00E9es et d\u0027am\u00E9liorer l\u0027efficacit\u00E9 de votre travail."
+  },
+  {
+    "English": "## Metadata",
+    "French": "## M\u00E9tadonn\u00E9es"
+  },
+  {
+    "English": "To access the Azure resources provided by the Science Program DataHub, there is an important requirement that needs to be fulfilled for both Azure Storage (Use Case 1) and Azure Databricks (Use Case 2).",
+    "French": "Pour acc\u00E9der aux ressources Azure fournies par le Science Program DataHub, une condition importante doit \u00EAtre remplie pour Azure Storage (cas d\u0027utilisation 1) et Azure Databricks (cas d\u0027utilisation 2)."
+  },
+  {
+    "English": "**You must complete the metadata** for your workspace in order to gain access to specific resources within the platform. This is a one-time requirement that will allow you to access the unified resources in Azure.",
+    "French": "**Vous devez compl\u00E9ter les m\u00E9tadonn\u00E9es** de votre espace de travail afin d\u0027avoir acc\u00E8s \u00E0 des ressources sp\u00E9cifiques au sein de la plateforme. Il s\u0027agit d\u0027une exigence unique qui vous permettra d\u0027acc\u00E9der aux ressources unifi\u00E9es d\u0027Azure."
+  },
+  {
+    "English": "\u003E Metadata is a set of data that describes and gives information about other data. In the context of the DataHub, metadata is used to describe the data and code that you store in your workspace.",
+    "French": "\u003E Les m\u00E9tadonn\u00E9es sont un ensemble de donn\u00E9es qui d\u00E9crivent et donnent des informations sur d\u0027autres donn\u00E9es. Dans le contexte du DataHub, les m\u00E9tadonn\u00E9es sont utilis\u00E9es pour d\u00E9crire les donn\u00E9es et le code que vous stockez dans votre espace de travail."
+  },
+  {
+    "English": "## Collaborators",
+    "French": "## Collaborateurs"
+  },
+  {
+    "English": "- lead",
+    "French": "- plomb"
+  },
+  {
+    "English": "In the Federal Science DataHub, there are three main roles that are used to manage access and permissions. These roles are as follows:",
+    "French": "Dans le Federal Science DataHub, trois r\u00F4les principaux sont utilis\u00E9s pour g\u00E9rer les acc\u00E8s et les permissions. Ces r\u00F4les sont les suivants :"
+  },
+  {
+    "English": "1. **The Workspace Lead** role is the highest level of access in a workspace. The workspace leads are the owners of the workspace and have the ability to manage and create resources, and can grant or revoke access for other users.",
+    "French": "1. **Le r\u00F4le de responsable d\u0027espace de travail** est le niveau d\u0027acc\u00E8s le plus \u00E9lev\u00E9 dans un espace de travail. Les responsables d\u0027espace de travail sont les propri\u00E9taires de l\u0027espace de travail et ont la possibilit\u00E9 de g\u00E9rer et de cr\u00E9er des ressources, ainsi que d\u0027accorder ou de r\u00E9voquer l\u0027acc\u00E8s \u00E0 d\u0027autres utilisateurs."
+  },
+  {
+    "English": "1. **The Workspace Administrator** role is responsible for managing the workspaces\u0027s resources, including data and metadata. Administrators can also manage user access, create cloud resources, and view budget usage reports.",
+    "French": "1. **L\u0027administrateur de l\u0027espace de travail est responsable de la gestion des ressources de l\u0027espace de travail, y compris les donn\u00E9es et les m\u00E9tadonn\u00E9es. Les administrateurs peuvent \u00E9galement g\u00E9rer l\u0027acc\u00E8s des utilisateurs, cr\u00E9er des ressources en nuage et consulter les rapports d\u0027utilisation du budget."
+  },
+  {
+    "English": "1. **The Workspace Collaborator** role is designed for users who need to work on projects and contribute to research, but do not require full administrative access. Collaborators can access projects, upload data, and perform data analysis, but they cannot manage the workspace\u0027s resources or grant access to other users.",
+    "French": "1. **Le r\u00F4le de collaborateur de l\u0027espace de travail** est con\u00E7u pour les utilisateurs qui ont besoin de travailler sur des projets et de contribuer \u00E0 la recherche, mais qui n\u0027ont pas besoin d\u0027un acc\u00E8s administratif complet. Les collaborateurs peuvent acc\u00E9der aux projets, t\u00E9l\u00E9charger des donn\u00E9es et effectuer des analyses de donn\u00E9es, mais ils ne peuvent pas g\u00E9rer les ressources de l\u0027espace de travail ni accorder l\u0027acc\u00E8s \u00E0 d\u0027autres utilisateurs."
+  },
+  {
+    "English": "\u003E It\u0027s worth noting that these roles are also used in Databricks for permissions. This means that the same roles apply when working with Databricks, ensuring that permissions and access are consistent across the platform.",
+    "French": "\u003E Il convient de noter que ces r\u00F4les sont \u00E9galement utilis\u00E9s dans Databricks pour les autorisations. Cela signifie que les m\u00EAmes r\u00F4les s\u0027appliquent lorsque l\u0027on travaille avec Databricks, ce qui garantit que les autorisations et l\u0027acc\u00E8s sont coh\u00E9rents sur l\u0027ensemble de la plateforme."
+  },
+  {
+    "English": "## Azure Costing",
+    "French": "## Azure Costing"
+  },
+  {
+    "English": "The costing page on your workspace provides a comprehensive overview of all costs associated with using the cloud resources. This includes the backend costs of the workspace that are necessary to keep it running securely.",
+    "French": "La page de calcul des co\u00FBts de votre espace de travail fournit une vue d\u0027ensemble de tous les co\u00FBts associ\u00E9s \u00E0 l\u0027utilisation des ressources en nuage. Cela inclut les co\u00FBts de l\u0027espace de travail qui sont n\u00E9cessaires pour assurer son fonctionnement en toute s\u00E9curit\u00E9."
+  },
+  {
+    "English": "There are certain factors that can impact the cost of usage. Let\u0027s take a closer look at what is expensive and what is not expensive when using the platform:",
+    "French": "Certains facteurs peuvent avoir un impact sur le co\u00FBt d\u0027utilisation. Examinons de plus pr\u00E8s ce qui est co\u00FBteux et ce qui ne l\u0027est pas lors de l\u0027utilisation de la plateforme :"
+  },
+  {
+    "English": "### What is expensive",
+    "French": "### Ce qui est cher"
+  },
+  {
+    "English": "- **Time spent on an active cluster** can be costly. This is because clusters require resources, such as CPU and memory, which are billed by the minute. Therefore, the longer a cluster is active and the larger it is, the more expensive it can become.",
+    "French": "- Le temps pass\u00E9 sur un cluster actif** peut \u00EAtre co\u00FBteux. En effet, les clusters n\u00E9cessitent des ressources, telles que l\u0027unit\u00E9 centrale et la m\u00E9moire, qui sont factur\u00E9es \u00E0 la minute. Par cons\u00E9quent, plus une grappe est active longtemps et plus elle est grande, plus elle peut \u00EAtre co\u00FBteuse."
+  },
+  {
+    "English": "- **Large data transfers** can also be expensive. This includes both ingress and egress costs to move data from a user\u0027s computer up to Azure data centers or back down. These costs can add up quickly, especially for large datasets.",
+    "French": "- Les transferts de donn\u00E9es importants** peuvent \u00E9galement \u00EAtre co\u00FBteux. Il s\u0027agit des co\u00FBts d\u0027entr\u00E9e et de sortie pour d\u00E9placer les donn\u00E9es de l\u0027ordinateur d\u0027un utilisateur vers les centres de donn\u00E9es d\u0027Azure ou pour les redescendre. Ces co\u00FBts peuvent s\u0027additionner rapidement, en particulier pour les grands ensembles de donn\u00E9es."
+  },
+  {
+    "English": "### What is not expensive",
+    "French": "### Ce qui n\u0027est pas cher"
+  },
+  {
+    "English": "- **There is no cost when the clusters are turned off**. a notebook is not running on an active the cluster is turned off\\*\\*. This means that users can save costs by turning off their clusters when not in use.",
+    "French": "- Il n\u0027y a pas de co\u00FBt lorsque les grappes sont \u00E9teintes**. Un ordinateur portable ne fonctionne pas sur une grappe active lorsque celle-ci est \u00E9teinte. Cela signifie que les utilisateurs peuvent faire des \u00E9conomies en \u00E9teignant leurs clusters lorsqu\u0027ils ne sont pas utilis\u00E9s."
+  },
+  {
+    "English": "- **Keeping data within the Azure ecosystem** can also help to reduce costs. Most storage costs are incurred when data is uploaded or downloaded from Azure. Therefore, if data is kept within the Azure ecosystem, there are minimal additional costs.",
+    "French": "- La conservation des donn\u00E9es au sein de l\u0027\u00E9cosyst\u00E8me Azure** peut \u00E9galement contribuer \u00E0 r\u00E9duire les co\u00FBts. La plupart des co\u00FBts de stockage sont encourus lorsque les donn\u00E9es sont charg\u00E9es ou t\u00E9l\u00E9charg\u00E9es \u00E0 partir d\u0027Azure. Par cons\u00E9quent, si les donn\u00E9es sont conserv\u00E9es dans l\u0027\u00E9cosyst\u00E8me Azure, les co\u00FBts suppl\u00E9mentaires sont minimes."
+  },
+  {
+    "English": "\u003E **Out of credits**: We would not be giving more credits - it will be assessed on a case by case basis and we will be helping to move the data elsewhere if necessary.",
+    "French": "**Sans cr\u00E9dits** : Nous n\u0027accorderons pas plus de cr\u00E9dits - la situation sera \u00E9valu\u00E9e au cas par cas et nous vous aiderons \u00E0 transf\u00E9rer les donn\u00E9es ailleurs si n\u00E9cessaire."
+  },
+  {
+    "English": "\u003E Cost is shared among collaborators.",
+    "French": "\u003E Les co\u00FBts sont partag\u00E9s entre les collaborateurs."
+  },
+  {
+    "English": "## Managing Costs",
+    "French": "## Gestion des co\u00FBts"
+  },
+  {
+    "English": "The recommended approach to begin utilizing the DataHub effectively is to start with a small scale project and measure the associated costs for one week.",
+    "French": "L\u0027approche recommand\u00E9e pour commencer \u00E0 utiliser efficacement le DataHub est de commencer par un projet \u00E0 petite \u00E9chelle et de mesurer les co\u00FBts associ\u00E9s pendant une semaine."
+  },
+  {
+    "English": "- **Select a small data set** that is representative of the larger data set to be used in the project. This small data set should be small enough to execute the algorithm on quickly, but large enough to provide a realistic representation of the larger data set.",
+    "French": "- S\u00E9lectionnez un petit ensemble de donn\u00E9es** repr\u00E9sentatif de l\u0027ensemble de donn\u00E9es plus large qui sera utilis\u00E9 dans le projet. Ce petit ensemble de donn\u00E9es doit \u00EAtre suffisamment petit pour que l\u0027algorithme puisse \u00EAtre ex\u00E9cut\u00E9 rapidement, mais suffisamment grand pour fournir une repr\u00E9sentation r\u00E9aliste de l\u0027ensemble de donn\u00E9es plus large."
+  },
+  {
+    "English": "- **Execute the algorithm on the small data set** and use the **first week** of working with it to establish a baseline for the project\u0027s costs. This will involve measuring the resources required to run the algorithm, such as CPU time, memory usage, and network bandwidth, as well as any associated costs, such as storage or data transfer costs.",
+    "French": "- Ex\u00E9cutez l\u0027algorithme sur le petit ensemble de donn\u00E9es** et utilisez la **premi\u00E8re semaine** de travail pour \u00E9tablir une base de r\u00E9f\u00E9rence pour les co\u00FBts du projet. Il s\u0027agira de mesurer les ressources n\u00E9cessaires \u00E0 l\u0027ex\u00E9cution de l\u0027algorithme, telles que le temps de l\u0027unit\u00E9 centrale, l\u0027utilisation de la m\u00E9moire et la bande passante du r\u00E9seau, ainsi que tous les co\u00FBts associ\u00E9s, tels que les co\u00FBts de stockage ou de transfert des donn\u00E9es."
+  },
+  {
+    "English": "- **Use a test week to estimate the costs for the longer term** after baseline has been established. This involves extrapolating the costs from the baseline week to estimate the costs for the full project. This will provide a more accurate estimate of the overall costs of the project and can help to identify any potential cost-saving measures that can be implemented to reduce the overall cost of the project.",
+    "French": "- Utiliser une semaine de test pour estimer les co\u00FBts \u00E0 plus long terme** une fois que la base de r\u00E9f\u00E9rence a \u00E9t\u00E9 \u00E9tablie. Il s\u0027agit d\u0027extrapoler les co\u00FBts de la semaine de r\u00E9f\u00E9rence pour estimer les co\u00FBts de l\u0027ensemble du projet. Cela permettra d\u0027obtenir une estimation plus pr\u00E9cise des co\u00FBts globaux du projet et d\u0027identifier toute mesure d\u0027\u00E9conomie potentielle pouvant \u00EAtre mise en \u0153uvre pour r\u00E9duire le co\u00FBt global du projet."
+  },
+  {
+    "English": "### Sample costs",
+    "French": "### Co\u00FBts de l\u0027\u00E9chantillon"
+  },
+  {
+    "English": "We have run a few sample projects to demonstrate the costs associated with using the platform, and have provided the results below.",
+    "French": "Nous avons ex\u00E9cut\u00E9 quelques projets types pour d\u00E9montrer les co\u00FBts associ\u00E9s \u00E0 l\u0027utilisation de la plateforme, et nous avons fourni les r\u00E9sultats ci-dessous."
+  },
+  {
+    "English": "\u003E These results are based on the costs incurred by the Science Program DataHub team, and are provided as a guide only.",
+    "French": "\u003E Ces r\u00E9sultats sont bas\u00E9s sur les co\u00FBts encourus par l\u0027\u00E9quipe DataHub du programme scientifique et ne sont donn\u00E9s qu\u0027\u00E0 titre indicatif."
+  },
+  {
+    "English": "## Built-in Documentation",
+    "French": "## Documentation int\u00E9gr\u00E9e"
+  },
+  {
+    "English": "One of the highlights of the Federal Science DataHub is the **built-in documentation**, which makes it easier to understand and navigate the platform\u0027s capabilities; some of these built-in documentation features include:",
+    "French": "L\u0027un des points forts du Federal Science DataHub est la **documentation int\u00E9gr\u00E9e**, qui facilite la compr\u00E9hension et la navigation dans les capacit\u00E9s de la plateforme :"
+  },
+  {
+    "English": "- **Uploading and downloading large files to storage using \u0060azcopy\u0060**. This feature is particularly useful for users who need to transfer large files between different storage locations or systems. The documentation provides detailed instructions on how to use azcopy to transfer large files and manage storage efficiently.",
+    "French": "- T\u00E9l\u00E9chargement et chargement de fichiers volumineux sur un support de stockage en utilisant \u0060azcopy\u0060**. Cette fonctionnalit\u00E9 est particuli\u00E8rement utile pour les utilisateurs qui ont besoin de transf\u00E9rer des fichiers volumineux entre diff\u00E9rents emplacements de stockage ou syst\u00E8mes. La documentation fournit des instructions d\u00E9taill\u00E9es sur la mani\u00E8re d\u0027utiliser azcopy pour transf\u00E9rer des fichiers volumineux et g\u00E9rer efficacement le stockage."
+  },
+  {
+    "English": "- **List of databricks resources for python and R**. This list includes various resources such as libraries, packages, and modules that can be used in python to manipulate and analyze data. These resources can be used to build sophisticated machine learning models, perform data analysis, and generate insightful reports. The documentation provides detailed instructions on how to install and use these resources effectively.",
+    "French": "- **Liste de ressources databricks pour python et R**. Cette liste comprend diverses ressources telles que des biblioth\u00E8ques, des paquets et des modules qui peuvent \u00EAtre utilis\u00E9s en python pour manipuler et analyser des donn\u00E9es. Ces ressources peuvent \u00EAtre utilis\u00E9es pour construire des mod\u00E8les sophistiqu\u00E9s d\u0027apprentissage automatique, effectuer des analyses de donn\u00E9es et g\u00E9n\u00E9rer des rapports pertinents. La documentation fournit des instructions d\u00E9taill\u00E9es sur l\u0027installation et l\u0027utilisation efficace de ces ressources."
+  },
+  {
+    "English": "\u003E **Training**: Existing R and Python knowledge should be sufficient to work with the platform. Training on other databricks features",
+    "French": "**Formation** : Les connaissances existantes en R et Python devraient \u00EAtre suffisantes pour travailler avec la plateforme. Formation sur d\u0027autres fonctionnalit\u00E9s de databricks"
+  },
+  {
+    "English": "# Section 2: Python/R Environment Overview",
+    "French": "# Section 2 : Aper\u00E7u de l\u0027environnement Python/R"
+  },
+  {
+    "English": "## What is Databricks",
+    "French": "## Qu\u0027est-ce que Databricks ?"
+  },
+  {
+    "English": "Databricks is a managed platform that provides support for Python and R notebooks and a standard Hadoop/Hive infrastructure for large data processing. The databricks platform separates the notebook and the infrastructure to execute the code. The code (SQL, Python and R) is executed on clusters and the structured SQL tables leverage standard Azure storage.",
+    "French": "Databricks est une plateforme g\u00E9r\u00E9e qui prend en charge les ordinateurs portables Python et R et une infrastructure Hadoop/Hive standard pour le traitement des donn\u00E9es volumineuses. La plateforme Databricks s\u00E9pare le notebook et l\u0027infrastructure pour ex\u00E9cuter le code. Le code (SQL, Python et R) est ex\u00E9cut\u00E9 sur des clusters et les tables SQL structur\u00E9es utilisent le stockage Azure standard."
+  },
+  {
+    "English": "## How to upload your data to Azure",
+    "French": "## Comment t\u00E9l\u00E9charger vos donn\u00E9es vers Azure"
+  },
+  {
+    "English": "\u003E We assume that the data is available locally and can be uploaded to Azure. If the data is already on Azure please contact us to figure out a solution to limit egress and ingress costs.",
+    "French": "\u003E Nous supposons que les donn\u00E9es sont disponibles localement et peuvent \u00EAtre t\u00E9l\u00E9charg\u00E9es sur Azure. Si les donn\u00E9es sont d\u00E9j\u00E0 sur Azure, veuillez nous contacter pour trouver une solution afin de limiter les co\u00FBts d\u0027entr\u00E9e et de sortie."
+  },
+  {
+    "English": "One of the features available to both use cases is the **Storage Explorer**, which provides a user-friendly interface for managing cloud storage. This feature allows users to upload files and folders to Azure storage and download files from it with ease. With this feature, users can manage their storage resources seamlessly, making it easier to access and manipulate data stored in the cloud.",
+    "French": "L\u0027une des fonctionnalit\u00E9s disponibles pour les deux cas d\u0027utilisation est le **Storage Explorer**, qui fournit une interface conviviale pour g\u00E9rer le stockage en nuage. Cette fonctionnalit\u00E9 permet aux utilisateurs de t\u00E9l\u00E9charger des fichiers et des dossiers vers le stockage Azure et d\u0027en extraire des fichiers en toute simplicit\u00E9. Gr\u00E2ce \u00E0 cette fonctionnalit\u00E9, les utilisateurs peuvent g\u00E9rer leurs ressources de stockage de mani\u00E8re transparente, ce qui facilite l\u0027acc\u00E8s et la manipulation des donn\u00E9es stock\u00E9es dans le nuage."
+  },
+  {
+    "English": "**There is a special path in Databricks known as the mount point**. The mount point is a virtual path that allows users to access their storage resources as if they were part of the Databricks file system. This provides a unified view of the data stored in Azure, making it easier for users to access and manipulate their data within the Databricks environment.",
+    "French": "**Il existe un chemin sp\u00E9cial dans Databricks connu sous le nom de point de montage**. Le point de montage est un chemin virtuel qui permet aux utilisateurs d\u0027acc\u00E9der \u00E0 leurs ressources de stockage comme si elles faisaient partie du syst\u00E8me de fichiers Databricks. Cela permet d\u0027avoir une vue unifi\u00E9e des donn\u00E9es stock\u00E9es dans Azure, ce qui facilite l\u0027acc\u00E8s et la manipulation des donn\u00E9es dans l\u0027environnement Databricks."
+  },
+  {
+    "English": "\u003E **The mount point for the storage account in Azure is \u0060/mnt/fsdh-dbk-main-mount\u0060**. This mount point provides access to the storage account, allowing users to read, write, and modify files stored in the Azure storage account using the standard file system commands in Databricks.",
+    "French": "**Le point de montage pour le compte de stockage dans Azure est \u0060/mnt/fsdh-dbk-main-mount\u0060**. Ce point de montage fournit un acc\u00E8s au compte de stockage, permettant aux utilisateurs de lire, \u00E9crire et modifier les fichiers stock\u00E9s dans le compte de stockage Azure en utilisant les commandes standard du syst\u00E8me de fichiers dans Databricks."
+  },
+  {
+    "English": "With this automatically configured, you can seamlessly access your data between the storage account in Azure and Databricks. Additionally, the mount point makes it possible for users to perform various data processing tasks such as data manipulation, cleaning, and analysis on data stored in the cloud without having to copy the data to the local machine or cluster.",
+    "French": "Gr\u00E2ce \u00E0 cette configuration automatique, vous pouvez acc\u00E9der de mani\u00E8re transparente \u00E0 vos donn\u00E9es entre le compte de stockage dans Azure et Databricks. En outre, le point de montage permet aux utilisateurs d\u0027effectuer diverses t\u00E2ches de traitement des donn\u00E9es, telles que la manipulation, le nettoyage et l\u0027analyse des donn\u00E9es stock\u00E9es dans le nuage, sans avoir \u00E0 copier les donn\u00E9es sur la machine locale ou le cluster."
+  },
+  {
+    "English": "## Cluster Selection",
+    "French": "## S\u00E9lection de la grappe"
+  },
+  {
+    "English": "Cluster selection in Databricks has been contrainted to a selection of cost efficient execution nodes (note: node are using virtual machines in backend not accessible to the user).",
+    "French": "La s\u00E9lection des clusters dans Databricks a \u00E9t\u00E9 limit\u00E9e \u00E0 une s\u00E9lection de n\u0153uds d\u0027ex\u00E9cution rentables (note : les n\u0153uds utilisent des machines virtuelles dans le backend qui n\u0027est pas accessible \u00E0 l\u0027utilisateur)."
+  },
+  {
+    "English": "## Python \u0026 R Libraries",
+    "French": "## Biblioth\u00E8ques Python et R"
+  },
+  {
+    "English": "## Databricks SQL Storage",
+    "French": "## Databricks SQL Storage"
+  },
+  {
+    "English": "## Demo notebook",
+    "French": "## Carnet de d\u00E9mo"
+  },
+  {
+    "English": "## Additional Resources",
+    "French": "## Ressources suppl\u00E9mentaires"
+  },
+  {
+    "English": "- Please send your request, describing your need, using the [FSDH Support Request Form](https://forms.office.com/pages/responsepage.aspx?id=lMFb0L-U1kquLh2w8uOPXhksOXzZ73RCp9fVTz4vTU5UNTc1U00yNVUxWVg4SkJGMFVHN1RCTTdQRS4u).",
+    "French": "- Veuillez envoyer votre demande, en d\u00E9crivant votre besoin, en utilisant le [FSDH Support Request Form] (https://forms.office.com/pages/responsepage.aspx?id=lMFb0L-U1kquLh2w8uOPXhksOXzZ73RCp9fVTz4vTU5UNTc1U00yNVUxWVg4SkJGMFVHN1RCTTdQRS4u)."
+  },
+  {
+    "English": "All workspaces in FSDH require a metadata profile to be completed in order to start working with the resources.",
+    "French": "Tous les espaces de travail de la FSDH requi\u00E8rent un profil de m\u00E9tadonn\u00E9es pour pouvoir commencer \u00E0 travailler avec les ressources."
+  },
+  {
+    "English": "The fields required for the metadata profile are:",
+    "French": "Les champs requis pour le profil de m\u00E9tadonn\u00E9es sont les suivants :"
+  },
+  {
+    "English": "For the PoC we are trying to limit file sizes and stay within allocated budgets. However, if you feel you need more storage or credits, please open an issue with the [FSDH Support Request Form](https://forms.office.com/pages/responsepage.aspx?id=lMFb0L-U1kquLh2w8uOPXhksOXzZ73RCp9fVTz4vTU5UNTc1U00yNVUxWVg4SkJGMFVHN1RCTTdQRS4u) and your request will be reviewed.  ",
+    "French": "Pour le PoC, nous essayons de limiter la taille des fichiers et de rester dans les limites des budgets allou\u00E9s. Cependant, si vous pensez avoir besoin de plus d\u0027espace de stockage ou de cr\u00E9dits, veuillez ouvrir un dossier avec le [FSDH Support Request Form] (https://forms.office.com/pages/responsepage.aspx?id=lMFb0L-U1kquLh2w8uOPXhksOXzZ73RCp9fVTz4vTU5UNTc1U00yNVUxWVg4SkJGMFVHN1RCTTdQRS4u) et votre demande sera examin\u00E9e.  "
+  },
+  {
+    "English": "To request help with an FSDH issue or problem please use this [Support Request Form](https://forms.office.com/r/fTB6n7nLCB). ",
+    "French": "Pour demander de l\u0027aide concernant une question ou un probl\u00E8me li\u00E9 \u00E0 la FSDH, veuillez utiliser le [Formulaire de demande d\u0027assistance] (https://forms.office.com/r/fTB6n7nLCB)."
+  },
+  {
+    "English": "This is the only means to request support from the FSDH team.",
+    "French": "C\u0027est le seul moyen de demander l\u0027aide de l\u0027\u00E9quipe de la FSDH."
+  },
+  {
+    "English": "For more information security of information, please see the [Directive on Security Management - Appendix J: Standard on Security Categorization](https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=32614)",
+    "French": "Pour plus d\u0027informations sur la s\u00E9curit\u00E9 de l\u0027information, veuillez consulter la [Directive sur la gestion de la s\u00E9curit\u00E9 - Annexe J : Norme sur la cat\u00E9gorisation de la s\u00E9curit\u00E9] (https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=32614)."
+  },
+  {
+    "English": "The official User Guide is available to download [here (English)](https://github.com/ssc-sp/datahub-docs/raw/main/UserGuide/Federal%20Science%20Data%20Hub%20User%20Guide-TEST.pdf) and [here (francais)](URL) ",
+    "French": "Le guide de l\u0027utilisateur officiel peut \u00EAtre t\u00E9l\u00E9charg\u00E9 [ici (anglais)](https://github.com/ssc-sp/datahub-docs/raw/main/UserGuide/Federal%20Science%20Data%20Hub%20User%20Guide-TEST.pdf) et [ici (fran\u00E7ais)](URL)."
+  },
+  {
+    "English": "Metadata Profile Details",
+    "French": "D\u00E9tails du profil de m\u00E9tadonn\u00E9es"
+  },
+  {
+    "English": "Frequently Asked Questions (FAQs)",
+    "French": "Foire aux questions (FAQ)"
   }
 ]

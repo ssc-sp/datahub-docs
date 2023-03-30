@@ -7,7 +7,7 @@ draft: true
 
 # Profil de métadonnées pour les espaces de travail
 
-Tous les espaces de travail de la FSDH nécessitent qu'un profil de métadonnées soit rempli avant que les ressources (par exemple, le stockage ou les Databricks) puissent être demandées.
+Tous les espaces de travail de la FSDH requièrent un profil de métadonnées pour pouvoir commencer à travailler avec les ressources.
 
 ## Champs obligatoires
 
