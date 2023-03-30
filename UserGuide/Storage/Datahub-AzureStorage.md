@@ -17,4 +17,4 @@ You have the option to use the browser interface or command line interface (CLI)
 
 ## Automated upload and large files
 
-AzCopy is the recommended option for working with large files and the tool can also be integrated into scripts. The tool is available for Windows and Linux. See the "AzCopy for copying files from/to Azure Storage" page for additional details.
+AzCopy is the recommended option for working with large files and the tool can also be integrated into scripts. The tool is available for Windows and Linux.
