@@ -1,7 +1,7 @@
 - [Guide de l'utilisateur du DataHub scientifique fédéral](/fr/UserGuide/Guide-de-l'utilisateur.md)
 
 - Stockage
-  - [Qu'est-ce que Azure Storage Explorer ?](/fr/UserGuide/Storage/Datahub-AzureStorage.md)
+  - [Qu'est-ce qu'Azure Storage Explorer ?](/fr/UserGuide/Storage/Datahub-AzureStorage.md)
   - [Utiliser AzCopy pour interagir avec le compte de stockage Azure](/fr/UserGuide/Storage/Utilisez-AzCopy.md)
 
 - Databricks
