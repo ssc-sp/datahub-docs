@@ -8,7 +8,7 @@ draft: false
 
 ## Qu'est-ce qu'Azure Storage
 
-Le Federal Science DataHub utilise Azure Storage, la solution de stockage en nuage de Microsoft pour les scénarios modernes de stockage de données. Azure Storage offre un stockage hautement disponible, massivement évolutif, durable et sécurisé pour une variété d'objets de données dans le cloud.
+Le DHFS utilises Azure Storage, la solution de stockage en nuage de Microsoft pour les scénarios modernes de stockage de données. Azure Storage offre un stockage hautement disponible, massivement évolutif, durable et sécurisé pour une variété d'objets de données dans le cloud.
 
 Il existe deux grands types de comptes de stockage :
 
@@ -23,5 +23,5 @@ Vous avez la possibilité d'utiliser l'interface du navigateur ou les options de
 
 ## Téléchargement automatisé et fichiers volumineux
 
-AzCopy est l'option recommandée pour travailler avec des fichiers volumineux et l'outil peut également être intégré dans des scripts. L'outil est disponible pour Windows et Linux. Voir [AzCopy pour copier des fichiers depuis/vers Azure Storage] (Use-AzCopy-to-Interact-with-Azure-Storage-Account) pour plus de détails.
+AzCopy est l'option recommandée pour travailler avec des fichiers volumineux et l'outil peut également être intégré dans des scripts. L'outil est disponible pour Windows et Linux. Voir [AzCopy pour copier des fichiers depuis/vers Azure Storage](Use-AzCopy-to-Interact-with-Azure-Storage-Account) pour plus de détails.
 
