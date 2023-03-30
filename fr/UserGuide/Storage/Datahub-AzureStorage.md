@@ -1,7 +1,7 @@
 ---
 remarks: Automatically translated with DeepL
 source: /UserGuide/Storage/Datahub-AzureStorage.md
-draft: true
+draft: false
 ---
 
 # Travailler avec Azure Storage
@@ -25,6 +25,3 @@ Vous avez la possibilité d'utiliser l'interface du navigateur ou les options de
 
 AzCopy est l'option recommandée pour travailler avec des fichiers volumineux et l'outil peut également être intégré dans des scripts. L'outil est disponible pour Windows et Linux. Voir [AzCopy pour copier des fichiers depuis/vers Azure Storage] (Use-AzCopy-to-Interact-with-Azure-Storage-Account) pour plus de détails.
 
-## Tutoriel vidéo
-
-Un [Tutoriel vidéo FSDH - focus AzCopy] (https://dhdemosand.blob.core.windows.net/datahub/Data%20Sharing%20Tutorial.mp4?sv=2020-10-02&st=2022-02-09T20%3A22%3A12Z&se=2023-02-10T20%3A22%3A00Z&sr=b&sp=r&sig=OeNPrxbhVMshileL39VKre%2FQBBYfUae5gz1M%2Fsyo3JY%3D) a été créé pour guider les utilisateurs à travers les étapes du téléchargement de fichiers à l'aide de **AzCopy**.
