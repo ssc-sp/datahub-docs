@@ -23,9 +23,6 @@ Il existe deux types de comptes de stockage : ceux qui sont activés par le CSP 
 ## Aurai-je des difficultés à utiliser la DHSF avec le VPN ?
 Il se peut que vous deviez vous déconnecter de votre VPN pour charger ou télécharger des fichiers.
 
-## Que se passe-t-il si j'ai besoin de plus que les 5 To alloués ou de crédits cloud supplémentaires ?
-Pour le PoC, nous essayons de limiter la taille des fichiers et de rester dans les limites des budgets alloués. Cependant, si vous pensez avoir besoin de plus d'espace de stockage ou de crédits, veuillez ouvrir un dossier avec le [Formulaire de demande de soutien à la FSDH](https://forms.office.com/pages/responsepage.aspx?id=lMFb0L-U1kquLh2w8uOPXhksOXzZ73RCp9fVTz4vTU5UNTc1U00yNVUxWVg4SkJGMFVHN1RCTTdQRS4u) et votre demande sera examinée.  
-
 ## Quels sont les types de coûts que mon projet d'analyse peut engendrer ?
 En général, les coûts de votre projet dépendent des trois facteurs suivants :
   - Compute - le type de machines virtuelles (Clusters Databricks) dont vous avez besoin pour le projet.
