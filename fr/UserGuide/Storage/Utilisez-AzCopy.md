@@ -12,7 +12,7 @@ draft: true
 
 ## Conditions préalables
 - Téléchargez AzCopy à partir de [Azure](https://aka.ms/downloadazcopy-v10-windows) (aucune installation n'est requise).
-- Générer le jeton SAS dans Azure ou dans DataHub Portal. Remarque : si nécessaire, vous pouvez demander un jeton SAS pour une période prolongée - envoyez votre demande en utilisant le [Formulaire de demande de support FSDH](https://forms.office.com/r/zk82ehvUtv).
+- Générer le jeton SAS dans Azure ou dans DataHub Portal. Remarque : si nécessaire, vous pouvez demander un jeton SAS pour une période prolongée - envoyez votre demande en utilisant le [Formulaire de demande de soutien DHSF](https://forms.office.com/r/zk82ehvUtv).
 
 ## Synchronisation initiale du dossier depuis le local
 - Dans la ligne ci-dessous, remplacez "C:\mydata\stage" par votre répertoire local où se trouvent les données.
