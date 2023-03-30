@@ -8,7 +8,7 @@ draft: false
 
 ## Qu'est-ce qu'Azure Storage
 
-Le DHSF utilises Azure Storage, la solution de stockage en nuage de Microsoft pour les scénarios modernes de stockage de données. Azure Storage offre un stockage hautement disponible, massivement évolutif, durable et sécurisé pour une variété d'objets de données dans le cloud.
+Le DHSF utilise Azure Storage, la solution de stockage en nuage de Microsoft pour les scénarios modernes de stockage de données. Azure Storage offre un stockage hautement disponible, massivement évolutif, durable et sécurisé pour une variété d'objets de données dans le cloud.
 
 Il existe deux grands types de comptes de stockage :
 
