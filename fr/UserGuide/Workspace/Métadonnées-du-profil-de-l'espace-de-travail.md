@@ -1,13 +1,13 @@
 ---
 remarks: Automatically translated with DeepL
 source: /UserGuide/Workspace/Workspace-Profile-Metadata.md
-draft: true
+draft: false
 ---
 
 
 # Profil de métadonnées pour les espaces de travail
 
-Tous les espaces de travail de la FSDH requièrent un profil de métadonnées pour pouvoir commencer à travailler avec les ressources.
+Tous les espaces de travail de la DHSF requièrent un profil de métadonnées pour pouvoir commencer à travailler avec les ressources.
 
 ## Champs obligatoires
 
