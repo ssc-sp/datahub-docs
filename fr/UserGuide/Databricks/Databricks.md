@@ -17,11 +17,11 @@ Le DataHub fournit un environnement unifié avec du stockage et des databricks e
 
 Le DataHub propose quelques politiques de cluster prédéfinies et un cluster polyvalent par défaut. Les utilisateurs chefs de projet peuvent créer des clusters supplémentaires en utilisant l'une des politiques. Les utilisateurs réguliers du projet peuvent démarrer et utiliser ces clusters.
 
-|Nom de la politique - DBU max. par heure - Type de nœud - Nombre max. de travailleurs - Nom de la politique - Nom de la politique - DBU max. par heure - Type de nœud - Nombre max. de travailleurs
+|Nom de la politique | DBU max. par heure | Type de nœud | Nombre max. de travailleurs 
 |------------|------------------|----------|----------- |
 | DataHub Small |4 |<ul><li>Standard_D4ds_v5</li></ul>|2|
 | DataHub Regular | 12 | <u/><li>Standard_D4ds_v5 (Default)</li><li>Standard_D8ds_v5</li><li>Standard_D16ds_v5</li></ul>| 4|
-| DataHub Large|64|<ul><li>Standard_D4ds_v5</li><li>Standard_D8ds_v5 (par défaut)</li><li>Standard_D16ds_v5</li><li>Standard_D32ds_v5</li><li>Standard_D48ds_v5</li><li>Standard_D64ds_v5</li></ul>|32|.
+| DataHub Large|64|<ul><li>Standard_D4ds_v5</li><li>Standard_D8ds_v5 (par défaut)</li><li>Standard_D16ds_v5</li><li>Standard_D32ds_v5</li><li>Standard_D48ds_v5</li><li>Standard_D64ds_v5</li></ul>|32|
 
 #### En savoir plus sur les Databricks
 
