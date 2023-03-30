@@ -1,4 +1,4 @@
-- [Guide de l'utilisateur du Federal Science DataHub](/fr/UserGuide/Guide-de-l'utilisateur.md)
+- [Guide de l'utilisateur du DataHub scientifique fédéral](/fr/UserGuide/Guide-de-l'utilisateur.md)
 
 - Stockage
   - [Qu'est-ce que Azure Storage Explorer ?](/fr/UserGuide/Storage/Datahub-AzureStorage.md)
