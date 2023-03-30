@@ -30,7 +30,7 @@ En général, les coûts de votre projet dépendent des trois facteurs suivants 
   - Coût de tout service supplémentaire dont vous pourriez avoir besoin pour votre projet, comme le coût des licences pour Power BI, Tableau, SQL Sever Database, etc.
 
 ## Où puis-je voir le modèle de calcul des coûts pour les services ? Comment puis-je suivre les coûts encourus pour mon projet ?
-Des rapports et des alertes seront configurés pour vous permettre de suivre l'utilisation et le coût des services consommés dans votre espace de travail.
+Des rapports et des alertes sont configurés pour vous permettre de suivre l'utilisation et le coût des services consommés dans votre espace de travail.
 
 ## Qu'est-ce que le programme scientifique de Services partagés Canada ?
 La SPC a créé le programme scientifique pour soutenir les priorités du gouvernement en matière de modernisation et de sécurisation de la recherche au Canada et pour permettre aux scientifiques de disposer d'une infrastructure et de services numériques leur permettant de remplir leurs mandats respectifs. L'une des principales priorités est d'éliminer les obstacles qui entravent la collaboration entre les organismes de recherche scientifique et technique.
