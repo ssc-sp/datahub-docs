@@ -1,12 +1,12 @@
 ---
 remarks: Automatically translated with DeepL
 source: /Banners/Workspace-Storage.md
-draft: true
+draft: false
 ---
 
 ## Stockage de l'espace de travail
 
-Le Federal Science DataHub utilise Azure Storage, la solution de stockage en nuage de Microsoft pour les scénarios modernes de stockage de données. Azure Storage offre un stockage hautement disponible, massivement évolutif, durable et sécurisé pour une variété d'objets de données dans le cloud.
+Le DataHub scientifique fédéral utilise Azure Storage, la solution de stockage en nuage de Microsoft pour les scénarios modernes de stockage de données. Azure Storage offre un stockage hautement disponible, massivement évolutif, durable et sécurisé pour une variété d'objets de données dans le cloud.
 
 Il existe deux grands types de comptes de stockage :
 
