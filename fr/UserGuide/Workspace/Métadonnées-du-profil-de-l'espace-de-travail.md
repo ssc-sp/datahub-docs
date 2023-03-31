@@ -21,7 +21,7 @@ Les champs requis pour le profil de métadonnées sont les suivants :
 |Acronyme de l'espace de travail|Acronyme unique de l'espace de travail.
 |Description de l'espace de travail (anglais)|Description de l'espace de travail en anglais.
 |Description de l'espace de travail (français)|Description de l'espace de travail en français.
-|Catégorie de sécurité|Sélectionnez la catégorie de sécurité appropriée, par défaut il s'agit de non classifié|
+|Catégorie de sécurité|Sélectionnez la catégorie de sécurité appropriée, par défaut il s'agit de non classifié.
 |Subject|Le sujet du contenu de l'ensemble de données. Vous pouvez sélectionner ou désélectionner plusieurs sujets.
 |Mots clés (anglais)|Mots ou phrases couramment utilisés pour décrire l'ensemble de données, en anglais. (Séparez les entrées multiples par des virgules).
 |Mots clés (français)|Mots ou phrases couramment utilisés pour décrire l'ensemble de données, en français. (Séparez les entrées multiples par des virgules).
