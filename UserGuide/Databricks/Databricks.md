@@ -8,8 +8,7 @@ Databricks is a platform similar to Jupyter notebooks and enables scientists to 
 
 ### Accessing Storage through Databricks
 
-The DataHub provides an unified environment with storage and databricks and each workspace includes a storage account that can be accessed through Databricks using mount points. (DOES THIS NEED MORE DETAIL??)
-
+The DataHub provides an unified environment with storage and databricks and each workspace includes a storage account that can be accessed through Databricks using mount points. 
 ### Databricks Cluster Policies
 
 The DataHub provides a few pre-defined cluster policies and a default all purpose cluster out of the box. Project lead users can create additional clusters using one of the policies. Regular project users can start and use these clusters.

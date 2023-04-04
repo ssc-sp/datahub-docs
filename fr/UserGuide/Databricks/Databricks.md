@@ -11,7 +11,7 @@ Databricks est une plateforme similaire aux carnets Jupyter et permet aux scient
 
 ### Accès au stockage par le biais de Databricks
 
-Le DataHub fournit un environnement unifié avec du stockage et des databricks et chaque espace de travail comprend un compte de stockage auquel on peut accéder via Databricks en utilisant des points de montage. (CELA NÉCESSITE-T-IL PLUS DE DÉTAILS ??)
+Le DataHub fournit un environnement unifié avec du stockage et des databricks et chaque espace de travail comprend un compte de stockage auquel on peut accéder via Databricks en utilisant des points de montage. 
 
 ### Politiques de cluster de Databricks
 
