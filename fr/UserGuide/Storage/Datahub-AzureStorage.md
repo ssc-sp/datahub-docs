@@ -17,7 +17,7 @@ Il existe deux grands types de comptes de stockage :
 
 ## Comment copier des fichiers sur Azure
 
-Vous avez la possibilité d'utiliser l'interface du navigateur ou les options de l'interface de ligne de commande (CLI) pour charger/télécharger.
+Vous avez la possibilité d'utiliser l'interface du navigateur ou les options de l'interface de ligne de commande (ILC) pour charger/télécharger.
 
 **Datahub Storage Explorer** est la méthode simple pour travailler avec les comptes Azure Storage. L'explorateur de stockage offre une interface de type glisser-déposer et est accessible à partir de la page Espace de travail. L'outil permet aux utilisateurs de charger et de télécharger des fichiers.
 
