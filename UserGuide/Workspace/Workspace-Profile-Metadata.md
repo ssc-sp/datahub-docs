@@ -17,7 +17,7 @@ The fields required for the metadata profile are:
 |Workspace Name (French)|A name given to the workspace in French.|
 |Workspace Description (English)|An account of the workspace in English.|
 |Workspace Description (French)|An account of the workspace in French.|
-|Organization Name|An entity responsible for making the resource available. (Some are listed with Legal name starting with Department of ...|)
+|Organization Name|An entity responsible for making the resource available. (Some are listed with Legal name starting with Department of ...)|
 |Security Categorization|Select the appropriated security categorization, default is Unclassified. For the PoC this is set to Unclassified only.|
 |Subject|The topic of the content of the dataset. You may select or deselect multiple subjects.|
 |Keywords (English)|Commonly used words or phrases which describe the dataset, in English. (Separate multiple entries by commas).|
