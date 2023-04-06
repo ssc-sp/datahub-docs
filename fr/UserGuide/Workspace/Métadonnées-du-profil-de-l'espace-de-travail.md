@@ -18,13 +18,13 @@ Les champs requis pour le profil de métadonnées sont les suivants :
 |-------|-------------|
 |Nom de l'espace de travail (anglais)|Nom donné à l'espace de travail en anglais.
 |Nom de l'espace de travail (français)|Nom donné à l'espace de travail en français.
-|Description de l'espace de travail (anglais)|Description de l'espace de travail en anglais.
-|Description de l'espace de travail (français)|Description de l'espace de travail en français.
+|Description de l'espace de travail (anglais)|Une comptabilité de l'espace de travail en anglais.
+|Description de l'espace de travail (français)|Une comptabilité de l'espace de travail en français.
 |Nom de l'organisation|Entité responsable de la mise à disposition de la ressource.
 |Catégorie de sécurité|Sélectionnez la catégorie de sécurité appropriée, par défaut il s'agit de non classifié.
 |Sujet|Le sujet du contenu de l'ensemble de données. Vous pouvez sélectionner ou désélectionner plusieurs sujets.
 |Mots clés (anglais)|Mots ou phrases couramment utilisés pour décrire le jeu de données, en anglais. (Séparez les entrées multiples par des virgules).
 |Mots clés (français)|Mots ou phrases couramment utilisés pour décrire le jeu de données, en français. (Séparez les entrées multiples par des virgules).
 |Restrictions d'accès|Les restrictions d'accès de l'espace de travail, par défaut il s'agit de Unrestricted.
-|Le nom du responsable de l'espace de travail|Une entité principalement responsable de la création de la ressource.
-|Adresse électronique du responsable de l'espace de travail|Contact de l'entité principalement responsable de la création de la ressource.
+|Le nom du responsable de l'espace de travail|La personne principalement responsable de la création de la ressource.
+|Adresse électronique du responsable de l'espace de travail|Contact de la personne principalement responsable de la création de la ressource.
