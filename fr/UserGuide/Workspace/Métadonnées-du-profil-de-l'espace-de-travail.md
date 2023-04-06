@@ -21,8 +21,8 @@ Les champs requis pour le profil de métadonnées sont les suivants :
 |Description de l'espace de travail (anglais)|Une comptabilité de l'espace de travail en anglais.
 |Description de l'espace de travail (français)|Une comptabilité de l'espace de travail en français.
 |Nom de l'organisation|Entité responsable de la mise à disposition de la ressource.
-|Catégorie de sécurité|Sélectionnez la catégorie de sécurité appropriée, par défaut il s'agit de non classifié.
-|Sujet|Le sujet du contenu de l'ensemble de données. Vous pouvez sélectionner ou désélectionner plusieurs sujets.
+|Catégorisation de sécurité|Sélectionnez la catégorisation de sécurité appropriée, par défaut il s'agit de non classifié.
+|Sujet|Le sujet du contenu de le jeu de données. Vous pouvez sélectionner ou désélectionner plusieurs sujets.
 |Mots clés (anglais)|Mots ou phrases couramment utilisés pour décrire le jeu de données, en anglais. (Séparez les entrées multiples par des virgules).
 |Mots clés (français)|Mots ou phrases couramment utilisés pour décrire le jeu de données, en français. (Séparez les entrées multiples par des virgules).
 |Restrictions d'accès|Les restrictions d'accès de l'espace de travail, par défaut il s'agit de Unrestricted.
