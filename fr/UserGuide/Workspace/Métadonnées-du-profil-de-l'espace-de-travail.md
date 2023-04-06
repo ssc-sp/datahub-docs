@@ -27,4 +27,4 @@ Les champs requis pour le profil de métadonnées sont les suivants :
 |Mots clés (français)|Mots ou phrases couramment utilisés pour décrire l'ensemble de données, en français. (Séparez les entrées multiples par des virgules).
 |Restrictions d'accès|Les restrictions d'accès de l'espace de travail, par défaut il s'agit de Unrestricted.
 |Le nom du responsable de l'espace de travail|Une entité principalement responsable de la création de la ressource.
-|Courriel du responsable de l'espace de travail|Contact de l'entité principalement responsable de la création de la ressource.
+|Adresse électronique du responsable de l'espace de travail|Contact de l'entité principalement responsable de la création de la ressource.
