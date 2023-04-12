@@ -1,6 +1,6 @@
 # Change Management Process for Datahub
 
-## Hot fixes / Patches
+## Use Case 1: Hot fixes / Patches
 
 ### Branches
 
@@ -41,7 +41,7 @@ Landing tests to be performed for key features:
 - [ ] File explorer
 - [ ] Databricks access
 
-## Minor and Major Versions
+## Use Case 2: Minor and Major Versions
 
 ### Examples
 
