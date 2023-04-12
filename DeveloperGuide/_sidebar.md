@@ -8,6 +8,8 @@
 
     - [Email Service](/DeveloperGuide/Architecture/Services/Email-Service.md)
 
+- Change Management
+  - [Overview](/DeveloperGuide/Change-Management/Change-Management-Overview.md)
 
 - Azure
 
