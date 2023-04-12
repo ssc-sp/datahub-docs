@@ -1,35 +1,34 @@
 # Section 0: Onboarding and Login
 
-**Prep:** Sign out  
+**Prep:** Sign out
 
 1. Open https://federal-science-datahub.canada.ca
 2. On login screen mention that you use the MS Teams account and password which can be different from your network credentials.
 3. Mention that the login screen is going to be different for each department. The authentication in DataHub leverages existing AAD.
 
-
-# Section 1: Portal Overview
+# Section 1: Portal and Workspace Overview
 
 ## Terms & Conditions and Language
 
 Before entering the Federal Science DataHub Portal, there are two important steps you need to complete.
 
-1. **You need to accept the Terms and Conditions** that govern the use of the platform. This is an essential requirement to gain access to the features and benefits of DataHub.
-
 1. **You need to select a language for the portal.** This language selection ensures that you can easily navigate and use the platform in your preferred language.
+
+1. **You need to accept the Terms and Conditions** that govern the use of the platform. This is an essential requirement to gain access to the features and benefits of DataHub.
 
 Once you have selected a language and accepted the Terms and Conditions, you will be granted access to the portal.
 
 > It's worth noting that **you can switch between different languages** inside the portal using your profile. This feature allows you to change your language preference at any time
 
+> There are helper banners that appear at the top of the portal to help you navigate and use the platform. These banners are available in both English and French and can be dismissed at any time.
+
 ## What is a workspace
 
-The Federal Science DataHub is a powerful platform that provides **four main objectives for scientists and researchers**. These objectives are as follows:
+The Federal Science DataHub is a powerful platform that provides **three main objectives for scientists and researchers**:
 
-1. **The platform offers workspaces for storage and processing**. With DataHub, you can securely store your data and code in one central location, and have easy access to your work wherever you go.
+1. **The platform offers workspaces for storage, data processing, and analytics**. This means that you can store, process, and analyze your data in a secure cloud environment.
 
-1. **The DataHub platform also provides access to storage**. This means that you can easily retrieve and modify your data from anywhere, at any time, using any approved device that has internet access.
-
-1. **DataHub offers a way to monitor your budget used and track on a daily and monthly basis**. This helps you to keep track of your expenditures and stay within your budget limits.
+1. **DataHub offers a way to monitor your budget use and track expenses on a daily and monthly basis**. This helps you to keep track of your expenditures and stay within your budget limits.
 
 1. **The Federal Science DataHub platform also provides a collaboration space for sharing data and python/r notebooks**. This allows you to work together with colleagues and peers from other government departments and agencies, share ideas, and improve your work efficiency.
 
@@ -61,23 +60,13 @@ In the Federal Science DataHub, there are three main roles that are used to mana
 
 > It's worth noting that these roles are also used in Databricks for permissions. This means that the same roles apply when working with Databricks, ensuring that permissions and access are consistent across the platform.
 
+> It can take a few minutes for the permissions to synchronize between the portal and Databricks. If you are unable to access databricks, please wait a few minutes and try again. If you are still unable to access databricks, please fill out a support request form.
+
 ## Azure Costing
 
-Cost page includes all costs including backend
+The costing page on your workspace provides a comprehensive overview of all costs associated with using your cloud resources. This includes the backend costs of the workspace that are necessary to keep it running securely.
 
-What is expensive:
-
-- Time spent on the cluster
-- Large data transfers (ingress + bandwitdth to go to Azure data centers from user computer)
-
-What is not expensive:
-
-- No cost when notebook is not used and cluster is turned off
-- Keeping data in Azure = Hotel California. Most storage costs are incurred on uploading/downloading data out of Azure.
-
-The costing page on your workspace provides a comprehensive overview of all costs associated with using the cloud resources. This includes the backend costs of the workspace that are necessary to keep it running securely.
-
-There are certain factors that can impact the cost of usage. Let's take a closer look at what is expensive and what is not expensive when using the platform:
+There are certain factors that can impact the cost of usage. I'll do a quick overview of what is expensive and what is not expensive when using the platform:
 
 ### What is expensive
 
@@ -87,12 +76,11 @@ There are certain factors that can impact the cost of usage. Let's take a closer
 
 ### What is not expensive
 
-- **There is no cost when the clusters are turned off**. a notebook is not running on an active the cluster is turned off\*\*. This means that users can save costs by turning off their clusters when not in use.
+- **There is virtually no cost when the clusters are turned off** and notebooks are not running on active clusters. This means that users can save costs by turning off their clusters when not in use.
 
-- **Keeping data within the Azure ecosystem** can also help to reduce costs. Most storage costs are incurred when data is uploaded or downloaded from Azure. Therefore, if data is kept within the Azure ecosystem, there are minimal additional costs.
+- **Keeping data within the Azure ecosystem** can also help to reduce costs. Most storage costs are incurred when data is uploaded or downloaded from Azure. If data is mounted and kept within the Azure ecosystem, there are minimal additional costs.
 
-> **Out of credits**: We would not be giving more credits - it will be assessed on a case by case basis and we will be helping to move the data elsewhere if necessary.
-> Cost is shared among collaborators.
+> **Out of credits**: We will not be giving more credits - it will be assessed on a case by case basis and we will be helping to move the data elsewhere if necessary. Please remember that the cost is shared amongst your collaborators.
 
 ## Managing Costs
 
@@ -102,34 +90,26 @@ The recommended approach to begin utilizing the DataHub effectively is to start 
 
 - **Execute the algorithm on the small data set** and use the **first week** of working with it to establish a baseline for the project's costs. This will involve measuring the resources required to run the algorithm, such as CPU time, memory usage, and network bandwidth, as well as any associated costs, such as storage or data transfer costs.
 
-- **Use a test week to estimate the costs for the longer term** after baseline has been established. This involves extrapolating the costs from the baseline week to estimate the costs for the full project. This will provide a more accurate estimate of the overall costs of the project and can help to identify any potential cost-saving measures that can be implemented to reduce the overall cost of the project.
+- **Use a test week to estimate the costs for the longer term** after baseline has been established. This will provide a more accurate estimate of the overall costs of the project and can help to identify any potential cost-saving measures that can be implemented to reduce the overall cost of the project.
 
 ### Sample costs
 
-We have run a few sample projects to demonstrate the costs associated with using the platform, and have provided the results below.
+We have run a few sample projects to demonstrate the costs associated with using the platform, and have found the for small datasets the costs are less than $70/week. For larger datasets, the costs can be more than $1000/day.
 
 > These results are based on the costs incurred by the Science Program DataHub team, and are provided as a guide only.
 
 - DIE1, DIE2, DIE3: less than $70/week
 - NRC: large cluster, 300Gb Ram > $1000/day - cost mostly incurred because of extremely large cluster used.
 
-## Built-in Documentation
-
-One of the highlights of the Federal Science DataHub is the **built-in documentation**, which makes it easier to understand and navigate the platform's capabilities; some of these built-in documentation features include:
-
-- **Uploading and downloading large files to storage using `azcopy`**. This feature is particularly useful for users who need to transfer large files between different storage locations or systems. The documentation provides detailed instructions on how to use azcopy to transfer large files and manage storage efficiently.
-
-- **List of databricks resources for python and R**. This list includes various resources such as libraries, packages, and modules that can be used in python to manipulate and analyze data. These resources can be used to build sophisticated machine learning models, perform data analysis, and generate insightful reports. The documentation provides detailed instructions on how to install and use these resources effectively.
-
-> **Training**: Existing R and Python knowledge should be sufficient to work with the platform. Training on other databricks features 
-
-# Section 2: Python/R Environment Overview
+# Section 2: Workspace Tools Overview
 
 ## What is Databricks
 
 Databricks is a managed platform that provides support for Python and R notebooks and a standard Hadoop/Hive infrastructure for large data processing. The databricks platform separates the notebook and the infrastructure to execute the code. The code (SQL, Python and R) is executed on clusters and the structured SQL tables leverage standard Azure storage.
 
-## How to upload your data to Azure
+## How to upload your data to Azure and/or Databricks
+
+One of the features available to both use cases is the **Storage Explorer**, which provides a user-friendly interface for managing cloud storage. This feature allows users to upload files and folders to Azure storage and download files from it as well. With this feature, users can manage their storage resources seamlessly, making it easier to access and manipulate data stored in the cloud.
 
 > We assume that the data is available locally and can be uploaded to Azure. If the data is already on Azure please contact us to figure out a solution to limit egress and ingress costs.
 
@@ -138,17 +118,21 @@ Storage explorer:
 - upload files and folders to azure
 - download files
 
-Storage account accessible through special path in Databricks called mount point
-
-- `/mnt/fsdh-dbk-main-mount`
-
-One of the features available to both use cases is the **Storage Explorer**, which provides a user-friendly interface for managing cloud storage. This feature allows users to upload files and folders to Azure storage and download files from it with ease. With this feature, users can manage their storage resources seamlessly, making it easier to access and manipulate data stored in the cloud.
-
-**There is a special path in Databricks known as the mount point**. The mount point is a virtual path that allows users to access their storage resources as if they were part of the Databricks file system. This provides a unified view of the data stored in Azure, making it easier for users to access and manipulate their data within the Databricks environment.
+**There is a special path in Databricks known as the mount point**. The mount point is a virtual path that allows users to access their storage resources as if they were part of the Databricks file system.
 
 > **The mount point for the storage account in Azure is `/mnt/fsdh-dbk-main-mount`**. This mount point provides access to the storage account, allowing users to read, write, and modify files stored in the Azure storage account using the standard file system commands in Databricks.
 
 With this automatically configured, you can seamlessly access your data between the storage account in Azure and Databricks. Additionally, the mount point makes it possible for users to perform various data processing tasks such as data manipulation, cleaning, and analysis on data stored in the cloud without having to copy the data to the local machine or cluster.
+
+## Built-in Documentation
+
+One of the highlights of the Federal Science DataHub is the **built-in documentation**, which makes it easier to understand and navigate the platform's capabilities; some of these built-in documentation features include:
+
+- **Uploading and downloading large files to storage using `azcopy`**. This feature is particularly useful for users who need to transfer large files between different storage locations or systems. Click on the "Generate Container Token" button to generate a token that can be used to access the storage account using the `azcopy` command line tool.
+
+- **Databricks access and python/R resources**. This documentation provides a quick overview on how to access the storage mount and some links to the Databricks documentation.
+
+> **Training**: Existing R and Python knowledge should be sufficient to work with the platform. Help with other databricks features will be provided on a case by case basis during available office hours.
 
 ## Cluster Selection
 

@@ -1,11 +1,12 @@
 ---
 remarks: Automatically translated with DeepL
 source: /UserGuide/FSDH-Support-Request-Form.md
-draft: true
+draft: false
 ---
 
-# Formulaire de demande de soutien à la FSDH
+# Formulaire de demande de soutien à la DHSF
 
-Pour demander de l'aide sur une question ou un problème concernant la FSDH, veuillez utiliser ce formulaire. C'est le seul moyen de demander de l'aide à l'équipe de la FSDH.
+Pour demander de l'aide concernant une question ou un problème lié à la DHSF, veuillez utiliser le [Formulaire de demande de soutien](https://forms.office.com/r/fTB6n7nLCB).
 
-[Formulaire de demande d'assistance] (https://forms.office.com/pages/responsepage.aspx?id=lMFb0L-U1kquLh2w8uOPXhksOXzZ73RCp9fVTz4vTU5UNTc1U00yNVUxWVg4SkJGMFVHN1RCTTdQRS4u)
+C'est le seul moyen de demander l'aide de l'équipe de la DHSF.
+

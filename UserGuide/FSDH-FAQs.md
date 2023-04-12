@@ -17,9 +17,6 @@ There are two key types of storage accounts – these are enabled by SSC and acc
 ##	Will I have issues using the FSDH with VPN? 
 You may need to disconnect from your VPN to upload or download files. 
 
-##	What if I need to more than the 5TB allocation or additional cloud credits? 
-For the PoC we are trying to limit file sizes and stay within allocated budgets. However, if you feel you need more storage or credits, please open an issue with the [FSDH Support Request Form](/UserGuide/FSDH-Support-Request-Form.md) and your request will be reviewed.  
-
 ##	What are the type of costs that my analytics project may incur? 
 At high level, the costs for your project will depend on the following 3 factors:
   -	Compute – the type of virtual machines (Databricks Clusters) that you require for the project.
@@ -27,7 +24,7 @@ At high level, the costs for your project will depend on the following 3 factors
   -	Cost of any additional services that you may require for your project such as license cost for Power BI, Tableau, SQL Sever Database etc.
 
 ##	Where can I see the costing model for the services? How can I track the cost that is being incurred for my project? 
-Reports and alerts will be configured to enable you to track the ongoing usage and cost of the services consumed in your Workspace.
+Reports and alerts are configured to enable you to track the ongoing usage and cost of the services consumed in your Workspace.
 
 ##	What is the Shared Services Canada Science Program?
 SSC created the Science Program to support GC priorities on modernising and securing research in Canada and to better enable scientists with digital infrastructure and services to support their respective mandates. A key priority is to address and remove barriers that inhibit collaboration between SBDAs. 

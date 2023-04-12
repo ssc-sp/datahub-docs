@@ -1,18 +1,18 @@
 ---
 remarks: Automatically translated with DeepL
 source: /UserGuide/Databricks/Access-your-storage-account-in-Databricks.md
-draft: true
+draft: false
 ---
 
 # Accéder à votre compte de stockage dans Databricks
 
-Lorsque votre espace de travail Databricks est créé pour votre projet, un compte de stockage Azure a déjà été créé. DataHub monte également le stockage Blob du compte de stockage avec le cluster Databricks précréé (main_cluster). Ce montage est pour votre commodité et l'accès aux données Blob est soumis à votre identité. Au moment de la rédaction de ce document, tous les membres du projet ont un accès complet au stockage Blob.
+Lorsque votre espace de travail Databricks est créé pour votre projet, un compte de stockage Azure a déjà été créé. DHSF  monte également le stockage Blob du compte de stockage avec le cluster Databricks précréé (main_cluster). Ce montage est pour votre commodité et l'accès aux données Blob est soumis à votre identité. Au moment de la rédaction de ce document, tous les membres du projet ont un accès complet au stockage Blob.
 
 ## Hypothèses
 - Familiarité avec l'API de fichier en Python ou R
-- L'accès aux Databricks a été accordé par l'équipe de Datahub.
+- L'accès aux Databricks a été accordé par l'équipe de DHSF.
 
-## Point de montage par défaut du DataHub
+## Point de montage par défaut du DHSF
 
 Le compte de stockage a été monté dans Databricks sur le cluster par défaut (main_cluster) et on peut y accéder dans votre Noteobok comme à un dossier ordinaire.
 Le montage du stockage dans Databricks vous permet d'accéder aux objets du stockage objet comme s'ils étaient sur le système de fichiers local.
@@ -58,5 +58,5 @@ spark.read.format("csv").load("abfss://container@account.dfs.core.windows.net/sa
 
 ## Références
 
-- Voir [Databricks Storage Documentation] (https://docs.microsoft.com/en-us/azure/databricks/data/data-sources/azure/azure-storage) pour plus de détails.
-- Voir [Access Azure Data Lake Storage using Azure Active Directory credential passthrough] (https://learn.microsoft.com/en-us/azure/databricks/data-governance/credential-passthrough/adls-passthrough) pour l'utilisation du credential passthrough pour accéder à votre stockage Blob dans Databricks.
+- Voir [Databricks Storage Documentation](https://docs.microsoft.com/en-us/azure/databricks/data/data-sources/azure/azure-storage) pour plus de détails.
+- Voir [Access Azure Data Lake Storage using Azure Active Directory credential passthrough](https://learn.microsoft.com/en-us/azure/databricks/data-governance/credential-passthrough/adls-passthrough) pour l'utilisation du credential passthrough pour accéder à votre stockage Blob dans Databricks.

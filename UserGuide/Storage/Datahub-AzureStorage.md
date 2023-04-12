@@ -17,8 +17,4 @@ You have the option to use the browser interface or command line interface (CLI)
 
 ## Automated upload and large files
 
-AzCopy is the recommended option for working with large files and the tool can also be integrated into scripts. The tool is available for Windows and Linux. See [AzCopy for copying files from/to Azure Storage](Use-AzCopy-to-Interact-with-Azure-Storage-Account) for additional details.
-
-## Video Tutorial
-
-A [FSDH Video Tutorial - AzCopy focus](https://dhdemosand.blob.core.windows.net/datahub/Data%20Sharing%20Tutorial.mp4?sv=2020-10-02&st=2022-02-09T20%3A22%3A12Z&se=2023-02-10T20%3A22%3A00Z&sr=b&sp=r&sig=OeNPrxbhVMshileL39VKre%2FQBBYfUae5gz1M%2Fsyo3JY%3D) has been created to walk users through the steps to upload files using **AzCopy**.
+AzCopy is the recommended option for working with large files and the tool can also be integrated into scripts. The tool is available for Windows and Linux.

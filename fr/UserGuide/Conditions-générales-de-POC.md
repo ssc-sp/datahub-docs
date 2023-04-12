@@ -4,7 +4,7 @@ source: /UserGuide/POC-Terms-And-Conditions.md
 draft: true
 ---
 
-## Bienvenue au PoC FSDH Phase 2
+## Bienvenue au PoC DHSF Phase 2
 
 Bienvenue à la démonstration de concept du Federal Science DataHub (FSDH), une initiative soutenue par l'équipe Solutions de données pour la science au sein du programme scientifique de Services partagés Canada.
 
@@ -27,9 +27,7 @@ Le terme "non classifié" ou l'absence de marquage de sécurité désigne des do
 - Vous n'avez rien à faire de particulier pour protéger ces données.
 - Il est de votre responsabilité de conclure que les données ne sont pas classifiées/non sensibles avant de les télécharger vers la FSDH.
 
-Pour plus d'informations sur la sécurité des informations, veuillez consulter :
-- [Guide des contrôles de sécurité] (https://www.gcpedia.gc.ca/wiki/PGS_Security_Controls)
-- Directive sur la gestion de la sécurité - Appendice J : Norme sur la catégorisation de la sécurité] (https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=32614)
+Pour plus d'informations sur la sécurité des informations, veuillez consulter : [Directive sur la gestion de la sécurité - Appendice J : Norme sur la catégorisation de la sécurité](https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=32614).
 
 ## Confidentialité/Permissions
 
@@ -45,4 +43,4 @@ La phase 2 du PoC FSDH comprend des métadonnées obligatoires sur les espaces d
 
 ## Support
 
-La phase 2 du PoC FSDH sera prise en charge par l'équipe DSS dans la mesure du possible. Toutes les questions/problèmes peuvent être envoyés à l'équipe via le [FSDH Support Request Form] (https://forms.office.com/pages/responsepage.aspx?id=lMFb0L-U1kquLh2w8uOPXhksOXzZ73RCp9fVTz4vTU5UNTc1U00yNVUxWVg4SkJGMFVHN1RCTTdQRS4u).
+La phase 2 du PoC FSDH sera prise en charge par l'équipe DSS dans la mesure du possible. Toutes les questions/problèmes peuvent être envoyés à l'équipe via le [Formulaire de Demande de Soutien DataHub Scientifique Fédéral](https://forms.office.com/pages/responsepage.aspx?id=lMFb0L-U1kquLh2w8uOPXhksOXzZ73RCp9fVTz4vTU5UNTc1U00yNVUxWVg4SkJGMFVHN1RCTTdQRS4u).

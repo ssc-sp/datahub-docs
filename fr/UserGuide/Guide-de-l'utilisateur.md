@@ -1,10 +1,9 @@
 ---
 remarks: Automatically translated with DeepL
 source: /UserGuide/User-Guide.md
-draft: true
+draft: false
 ---
 
-# Guide de l'utilisateur du Federal Science DataHub
+# Guide de l'utilisateur du DataHub scientifique fédéral
 
-Le guide de l'utilisateur officiel est disponible sur [ce lien] (https://github.com/ssc-sp/datahub-docs/blob/main/UserGuide/Onboarding/FSDH%20PoC%20Phase%202%20-%20Onboarding%20Guide_En.pdf) et sur
-(https://github.com/ssc-sp/datahub-docs/blob/main/UserGuide/Onboarding/FSDH%20PoC%20Phase%202%20-%20Onboarding%20Guide_Fr.pdf).
+Le guide de l'utilisateur officiel peut être téléchargé [ici (anglais)](https://github.com/ssc-sp/datahub-docs/raw/main/UserGuide/Federal%20Science%20Data%20Hub%20User%20Guide.pdf) et [ici (français)](https://github.com/ssc-sp/datahub-docs/raw/main/fr/UserGuide/DataHub%20scientifiques%20f%C3%A9d%C3%A9ral%20guide%20de%20l%E2%80%99utilisateur.pdf).
