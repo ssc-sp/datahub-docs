@@ -2,18 +2,17 @@
 
 ## Use Case 1: Hot fixes / Patches
 
-### Branches
-
-- Production branch
-- Commits gets pulled back into develop branch
-
-### Examples
+### Type of changes for Use Case 1
 
 - Database data fixes/updates
 - Minor UI updates
 - Terraform minor updates
 - Admin pages
 
+### Git Branch Management
+
+- Production branch
+- Commits gets pulled back into develop branch
 ### 1. Recording and planning 
 
 - Hotfix tag
@@ -43,16 +42,22 @@ Landing tests to be performed for key features:
 
 ## Use Case 2: Minor and Major Versions
 
-### Examples
+### Type of changes for Use Case 2
 
 - Database schema updates
 - New public page
 - Major UI updates
 - Terraform major updates
 
+### Git Branch Management
+
+- Updates are done on Develop branch
+- Develop gets merged into production through PR
+
 ### 1. Recording and planning 
 
 - Schedule planned in advanced based on sprints
+- Key changes (bug fixes, features) tracked in Github milestones
 - Milestone dates on Github
 
 ### 2. Approval
