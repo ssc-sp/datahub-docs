@@ -85,17 +85,17 @@ emplois :
         les entrées :
           targetType : inline
           script : "cd Portal/src\n $files=Get-Childitem -Path Datahub.Portal -Include appsettings*json-tmpl,launch*json-tmpl -File -Recurse -ErrorAction SilentlyContinue | Where {$_.FullName -notlike \N "*\NDebug\N"}n foreach ($file in $files){\n $fileRendered=$file.FullName.trim(\N"-tmpl\N")\n Write-Host \N "Processing file : ${fichier} > $fileRendered"\N- Copy-Item $file.FullName -Force -Destination $fileRendered\N }\N cd Datahub.Portal ; mv appsettings.Development.json appsettings.dev.json ; Move-Item -Force appsettings.json-tmpl-spdatahub appsettings.json\n "
-      - tâche : DotNetCoreCLI@2
+      - tâche : DotNetCoreILC@2
         displayName : dotnet restore
         les entrées :
           commande : restaurer
           projets : Portal/src/Datahub.Portal/*.csproj
-      - tâche : DotNetCoreCLI@2
+      - tâche : DotNetCoreILC@2
         displayName : dotnet build
         les entrées :
           projets : Portal/src/Datahub.Portal/*.csproj
           arguments : --configuration $(BuildConfiguration)
-      - tâche : DotNetCoreCLI@2
+      - tâche : DotNetCoreILC@2
         displayName : dotnet publish
         les entrées :
           commande : publier
@@ -115,17 +115,17 @@ emplois :
         propre : vrai
         lfs : true
         fetchTags : false
-      - tâche : DotNetCoreCLI@2
+      - tâche : DotNetCoreILC@2
         displayName : dotnet restore
         les entrées :
           commande : restaurer
           projets : Portal/src/Datahub.Functions/*.csproj
-      - tâche : DotNetCoreCLI@2
+      - tâche : DotNetCoreILC@2
         displayName : dotnet build
         les entrées :
           projets : Portal/src/Datahub.Functions/*.csproj
           arguments : --configuration $(BuildConfiguration)
-      - tâche : DotNetCoreCLI@2
+      - tâche : DotNetCoreILC@2
         displayName : dotnet publish
         les entrées :
           commande : publier
@@ -147,17 +147,17 @@ emplois :
         propre : vrai
         lfs : true
         fetchTags : false
-      - tâche : DotNetCoreCLI@2
+      - tâche : DotNetCoreILC@2
         displayName : dotnet restore
         les entrées :
           commande : restaurer
           projets : ResourceProvisioner/src/ResourceProvisioner.Functions/*.csproj
-      - tâche : DotNetCoreCLI@2
+      - tâche : DotNetCoreILC@2
         displayName : dotnet build
         les entrées :
           projets : ResourceProvisioner/src/ResourceProvisioner.Functions/*.csproj
           arguments : --configuration $(BuildConfiguration)
-      - tâche : DotNetCoreCLI@2
+      - tâche : DotNetCoreILC@2
         displayName : dotnet publish
         les entrées :
           commande : publier

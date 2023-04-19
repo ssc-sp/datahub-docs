@@ -31,7 +31,7 @@ Remplissez `L'emplacement du référentiel` avec le lien du référentiel de Dat
 
 ![repo](https://raw.githubusercontent.com/wiki/ssc-sp/datahub-portal/static/vs/repo.png)
 
-TENTATIVE : Afin de configurer les paramètres de construction correctement, envoyez une demande au propriétaire du projet, ou alternativement **si vous êtes un stagiaire SSC**, envoyez une demande à `matteo.gisondi@ssc-spc.gc.ca` pour le schéma `appsettings` approprié.
+TENTATIVE : Afin de configurer les paramètres de construction correctement, envoyez une demande au propriétaire du projet, ou alternativement **si vous êtes un stagiaire SPC**, envoyez une demande à `matteo.gisondi@ssc-spc.gc.ca` pour le schéma `appsettings` approprié.
 
 Copiez le schéma dans le répertoire `Datahub.Portal`.
 
@@ -61,7 +61,7 @@ Une fois cloné, si vous y êtes invité, sélectionnez "Trust and Open".
 
 ![confiance](https://raw.githubusercontent.com/wiki/ssc-sp/datahub-portal/static/rider/trust.png)
 
-TENTATIVE : Afin de configurer les paramètres de construction correctement, envoyez une demande au propriétaire du projet, ou alternativement **si vous êtes un stagiaire SSC**, envoyez une demande à `matteo.gisondi@ssc-spc.gc.ca` pour le schéma `appsettings` approprié.
+TENTATIVE : Afin de configurer les paramètres de construction correctement, envoyez une demande au propriétaire du projet, ou alternativement **si vous êtes un stagiaire SPC**, envoyez une demande à `matteo.gisondi@ssc-spc.gc.ca` pour le schéma `appsettings` approprié.
 
 Copiez le schéma dans le répertoire `Datahub.Portal`.
 

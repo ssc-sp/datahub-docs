@@ -75,7 +75,7 @@ Si le service de messagerie n'envoie pas d'e-mails, les étapes suivantes peuven
 1. Vérifiez le fichier `appsettings.json` pour vous assurer que le paramètre `FromAddress` est défini sur une adresse e-mail autorisée à envoyer des e-mails.
 1. Vérifiez le fichier `appsettings.json` pour vous assurer que le `SmtpUsername` et le `SmtpPassword` sont définis
 1. Vérifiez le fichier `appsettings.json` pour vous assurer que les paramètres `SmtpServer` et `SmtpPort` sont correctement définis.
-1. Vérifiez le fichier `appsettings.json` pour vous assurer que le `SmtpServer` et le `SmtpPort` ne sont pas bloqués par un pare-feu, un filtre anti-spam, un filtre de sécurité, un proxy, un VPN, un routeur ou un filtre DNS.
+1. Vérifiez le fichier `appsettings.json` pour vous assurer que le `SmtpServer` et le `SmtpPort` ne sont pas bloqués par un pare-feu, un filtre anti-spam, un filtre de sécurité, un proxy, un RPV, un routeur ou un filtre DNS.
 
 ## Références
 

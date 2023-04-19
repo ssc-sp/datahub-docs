@@ -11858,5 +11858,461 @@
   {
     "English": "Frequently Asked Questions (FAQs)",
     "French": "Foire aux questions (FAQ)"
+  },
+  {
+    "English": "# Section 1: Portal and Workspace Overview",
+    "French": "# Section 1 : Pr\u00E9sentation du portail et de l\u0027espace de travail"
+  },
+  {
+    "English": "\u003E There are helper banners that appear at the top of the portal to help you navigate and use the platform. These banners are available in both English and French and can be dismissed at any time.",
+    "French": "\u003E Des banni\u00E8res d\u0027aide apparaissent en haut du portail pour vous aider \u00E0 naviguer et \u00E0 utiliser la plateforme. Ces banni\u00E8res sont disponibles en anglais et en fran\u00E7ais et peuvent \u00EAtre d\u00E9sactiv\u00E9es \u00E0 tout moment."
+  },
+  {
+    "English": "The Federal Science DataHub is a powerful platform that provides **three main objectives for scientists and researchers**:",
+    "French": "Le DataHub scientifique f\u00E9d\u00E9ral est une plateforme puissante qui offre **trois objectifs principaux aux scientifiques et aux chercheurs** :"
+  },
+  {
+    "English": "1. **DataHub offers a way to monitor your budget use and track expenses on a daily and monthly basis**. This helps you to keep track of your expenditures and stay within your budget limits.",
+    "French": "1. **DataHub offre un moyen de contr\u00F4ler l\u0027utilisation de votre budget et de suivre vos d\u00E9penses sur une base quotidienne et mensuelle**. Cela vous aide \u00E0 suivre vos d\u00E9penses et \u00E0 rester dans les limites de votre budget."
+  },
+  {
+    "English": "\u003E It can take a few minutes for the permissions to synchronize between the portal and Databricks. If you are unable to access databricks, please wait a few minutes and try again. If you are still unable to access databricks, please fill out a support request form.",
+    "French": "\u003E La synchronisation des autorisations entre le portail et Databricks peut prendre quelques minutes. Si vous n\u0027arrivez pas \u00E0 acc\u00E9der \u00E0 Databricks, attendez quelques minutes et r\u00E9essayez. Si vous n\u0027arrivez toujours pas \u00E0 acc\u00E9der \u00E0 Databricks, veuillez remplir un formulaire de demande de support."
+  },
+  {
+    "English": "The costing page on your workspace provides a comprehensive overview of all costs associated with using your cloud resources. This includes the backend costs of the workspace that are necessary to keep it running securely.",
+    "French": "La page de calcul des co\u00FBts de votre espace de travail fournit une vue d\u0027ensemble de tous les co\u00FBts associ\u00E9s \u00E0 l\u0027utilisation de vos ressources en nuage. Cela inclut les co\u00FBts de l\u0027espace de travail qui sont n\u00E9cessaires pour assurer son fonctionnement en toute s\u00E9curit\u00E9."
+  },
+  {
+    "English": "There are certain factors that can impact the cost of usage. I\u0027ll do a quick overview of what is expensive and what is not expensive when using the platform:",
+    "French": "Certains facteurs peuvent avoir un impact sur le co\u00FBt d\u0027utilisation. Je vais faire un rapide tour d\u0027horizon de ce qui est co\u00FBteux et de ce qui ne l\u0027est pas lors de l\u0027utilisation de la plateforme :"
+  },
+  {
+    "English": "- **There is virtually no cost when the clusters are turned off** and notebooks are not running on active clusters. This means that users can save costs by turning off their clusters when not in use.",
+    "French": "- Il n\u0027y a pratiquement aucun co\u00FBt lorsque les grappes sont \u00E9teintes** et que les ordinateurs portables ne fonctionnent pas sur des grappes actives. Cela signifie que les utilisateurs peuvent \u00E9conomiser des co\u00FBts en \u00E9teignant leurs clusters lorsqu\u0027ils ne sont pas utilis\u00E9s."
+  },
+  {
+    "English": "- **Keeping data within the Azure ecosystem** can also help to reduce costs. Most storage costs are incurred when data is uploaded or downloaded from Azure. If data is mounted and kept within the Azure ecosystem, there are minimal additional costs.",
+    "French": "- La conservation des donn\u00E9es au sein de l\u0027\u00E9cosyst\u00E8me Azure** peut \u00E9galement contribuer \u00E0 r\u00E9duire les co\u00FBts. La plupart des co\u00FBts de stockage sont encourus lorsque les donn\u00E9es sont charg\u00E9es ou t\u00E9l\u00E9charg\u00E9es \u00E0 partir d\u0027Azure. Si les donn\u00E9es sont mont\u00E9es et conserv\u00E9es dans l\u0027\u00E9cosyst\u00E8me Azure, les co\u00FBts suppl\u00E9mentaires sont minimes."
+  },
+  {
+    "English": "\u003E **Out of credits**: We will not be giving more credits - it will be assessed on a case by case basis and we will be helping to move the data elsewhere if necessary. Please remember that the cost is shared amongst your collaborators.",
+    "French": "**Plus de cr\u00E9dits** : Nous n\u0027accorderons pas de cr\u00E9dits suppl\u00E9mentaires - la situation sera \u00E9valu\u00E9e au cas par cas et nous vous aiderons \u00E0 transf\u00E9rer les donn\u00E9es ailleurs si n\u00E9cessaire. N\u0027oubliez pas que le co\u00FBt est partag\u00E9 entre vos collaborateurs."
+  },
+  {
+    "English": "- **Use a test week to estimate the costs for the longer term** after baseline has been established. This will provide a more accurate estimate of the overall costs of the project and can help to identify any potential cost-saving measures that can be implemented to reduce the overall cost of the project.",
+    "French": "- Utilisez une semaine de test pour estimer les co\u00FBts \u00E0 plus long terme** une fois que la base de r\u00E9f\u00E9rence a \u00E9t\u00E9 \u00E9tablie. Cela permettra d\u0027obtenir une estimation plus pr\u00E9cise des co\u00FBts globaux du projet et d\u0027identifier les mesures d\u0027\u00E9conomie potentielles qui peuvent \u00EAtre mises en \u0153uvre pour r\u00E9duire le co\u00FBt global du projet."
+  },
+  {
+    "English": "We have run a few sample projects to demonstrate the costs associated with using the platform, and have found the for small datasets the costs are less than $70/week. For larger datasets, the costs can be more than $1000/day.",
+    "French": "Nous avons men\u00E9 quelques projets types pour d\u00E9montrer les co\u00FBts associ\u00E9s \u00E0 l\u0027utilisation de la plateforme, et nous avons constat\u00E9 que pour les petits ensembles de donn\u00E9es, les co\u00FBts sont inf\u00E9rieurs \u00E0 70 $/semaine. Pour des ensembles de donn\u00E9es plus importants, les co\u00FBts peuvent \u00EAtre sup\u00E9rieurs \u00E0 1000 $/jour."
+  },
+  {
+    "English": "# Section 2: Workspace Tools Overview",
+    "French": "# Section 2 : Vue d\u0027ensemble des outils de l\u0027espace de travail"
+  },
+  {
+    "English": "## How to upload your data to Azure and/or Databricks",
+    "French": "## Comment t\u00E9l\u00E9charger vos donn\u00E9es vers Azure et/ou Databricks"
+  },
+  {
+    "English": "One of the features available to both use cases is the **Storage Explorer**, which provides a user-friendly interface for managing cloud storage. This feature allows users to upload files and folders to Azure storage and download files from it as well. With this feature, users can manage their storage resources seamlessly, making it easier to access and manipulate data stored in the cloud.",
+    "French": "L\u0027une des fonctionnalit\u00E9s disponibles pour les deux cas d\u0027utilisation est le **Storage Explorer**, qui fournit une interface conviviale pour g\u00E9rer le stockage en nuage. Cette fonctionnalit\u00E9 permet aux utilisateurs de t\u00E9l\u00E9charger des fichiers et des dossiers vers le stockage Azure et de t\u00E9l\u00E9charger des fichiers \u00E0 partir de celui-ci. Gr\u00E2ce \u00E0 cette fonctionnalit\u00E9, les utilisateurs peuvent g\u00E9rer leurs ressources de stockage de mani\u00E8re transparente, ce qui facilite l\u0027acc\u00E8s et la manipulation des donn\u00E9es stock\u00E9es dans le nuage."
+  },
+  {
+    "English": "**There is a special path in Databricks known as the mount point**. The mount point is a virtual path that allows users to access their storage resources as if they were part of the Databricks file system.",
+    "French": "**Il existe un chemin sp\u00E9cial dans Databricks connu sous le nom de point de montage**. Le point de montage est un chemin virtuel qui permet aux utilisateurs d\u0027acc\u00E9der \u00E0 leurs ressources de stockage comme si elles faisaient partie du syst\u00E8me de fichiers Databricks."
+  },
+  {
+    "English": "- **Uploading and downloading large files to storage using \u0060azcopy\u0060**. This feature is particularly useful for users who need to transfer large files between different storage locations or systems. Click on the \u0022Generate Container Token\u0022 button to generate a token that can be used to access the storage account using the \u0060azcopy\u0060 command line tool.",
+    "French": "- T\u00E9l\u00E9chargement et chargement de fichiers volumineux sur un support de stockage en utilisant \u0060azcopy\u0060**. Cette fonctionnalit\u00E9 est particuli\u00E8rement utile pour les utilisateurs qui ont besoin de transf\u00E9rer des fichiers volumineux entre diff\u00E9rents emplacements de stockage ou syst\u00E8mes. Cliquez sur le bouton \u0022Generate Container Token\u0022 pour g\u00E9n\u00E9rer un jeton qui peut \u00EAtre utilis\u00E9 pour acc\u00E9der au compte de stockage en utilisant l\u0027outil de ligne de commande \u0060azcopy\u0060."
+  },
+  {
+    "English": "- **Databricks access and python/R resources**. This documentation provides a quick overview on how to access the storage mount and some links to the Databricks documentation.",
+    "French": "- **Acc\u00E8s \u00E0 Databricks et ressources python/R**. Cette documentation fournit une vue d\u0027ensemble rapide sur la fa\u00E7on d\u0027acc\u00E9der au montage de stockage et quelques liens vers la documentation Databricks."
+  },
+  {
+    "English": "\u003E **Training**: Existing R and Python knowledge should be sufficient to work with the platform. Help with other databricks features will be provided on a case by case basis during available office hours.",
+    "French": "**Formation** : Des connaissances existantes en R et Python devraient \u00EAtre suffisantes pour travailler avec la plateforme. L\u0027aide avec d\u0027autres fonctionnalit\u00E9s de databricks sera fournie au cas par cas pendant les heures de bureau disponibles."
+  },
+  {
+    "English": "| Name             |  ID   | Branch        | Purpose                                                 | Always On | CI/CD | Functional Testing | Automated Testing | Performance Testing |                           Url                            |",
+    "French": "| Les tests fonctionnels, les tests automatis\u00E9s, les tests de performance et les tests d\u0027url sont des \u00E9l\u00E9ments essentiels pour la mise en place d\u0027un syst\u00E8me de gestion de l\u0027information et de la s\u00E9curit\u00E9."
+  },
+  {
+    "English": "| ---------------- | :---: | ------------- | ------------------------------------------------------- | :-------: | :---: | :----------------: | :---------------: | :-----------------: | :------------------------------------------------------: |",
+    "French": "| ---------------- | :--- : | ------------- | ------------------------------------------------------- | :------- : | :--- : | :---------------- : | :--------------- : | :----------------- : | :------------------------------------------------------: |"
+  },
+  {
+    "English": "| Development      | \u0060dev\u0060 | \u0060develop\u0060     | For dev team                                            |    \u2705     |  \u2705   |                    |        \u2705         |                     | https://dev.fsdh-dhsf.science.cloud-nuage.canada.ca/home |",
+    "French": "| D\u00E9veloppement | \u0060dev\u0060 | \u0060develop\u0060 | Pour l\u0027\u00E9quipe de d\u00E9veloppement | \u2705 | \u2705 | | \u2705 | | https://dev.fsdh-dhsf.science.cloud-nuage.canada.ca/home |"
+  },
+  {
+    "English": "| Engineering      | \u0060eng\u0060 |               | For infrastructure and security development and testing |           |       |                    |                   |                     |                                                          |",
+    "French": "| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |"
+  },
+  {
+    "English": "| Integration      | \u0060int\u0060 | \u0060integration\u0060 | For Integration testing                                 |    \u2705     |  \u2705   |         \u2705         |        \u2705         |                     | https://int.fsdh-dhsf.science.cloud-nuage.canada.ca/home |",
+    "French": "| Pour les tests d\u0027int\u00E9gration | \u2705 | \u2705 | \u2705 | \u2705 | \u2705 | https://int.fsdh-dhsf.science.cloud-nuage.canada.ca/home |"
+  },
+  {
+    "English": "| Training         | \u0060trn\u0060 |               | User training                                           |           |       |                    |                   |                     |                                                          |",
+    "French": "| Formation | \u0060trn\u0060 | | Formation des utilisateurs | | | | | | | | | | | | | | | |"
+  },
+  {
+    "English": "| Staging          | \u0060stg\u0060 |               | Pre-production and production issue fix                 |           |       |                    |                   |         \u2705          |                                                          |",
+    "French": "| | Staging | \u0060stg\u0060 | | | Pr\u00E9-production et correction des probl\u00E8mes de production | | | | \u2705 | | | |"
+  },
+  {
+    "English": "| Proof of Concept | \u0060poc\u0060 |               | Live environment                                        |    \u2705     |       |                    |                   |                     |      https://federal-science-datahub.canada.ca/home      |",
+    "French": "| validation de principe | \u0060poc\u0060 | | Live environment | \u2705 | | | | | | https://federal-science-datahub.canada.ca/home |"
+  },
+  {
+    "English": "Change Management Overview",
+    "French": "Vue d\u0027ensemble de la gestion du changement"
+  },
+  {
+    "English": "# Change Management Process for Datahub",
+    "French": "# Processus de gestion du changement pour Datahub"
+  },
+  {
+    "English": "## Use Case 1: Hot fixes / Patches",
+    "French": "## Cas d\u0027utilisation 1 : Hot fixes / Patches"
+  },
+  {
+    "English": "### Type of changes for Use Case 1",
+    "French": "### Type de modifications pour le cas d\u0027utilisation 1"
+  },
+  {
+    "English": "- Database data fixes/updates",
+    "French": "- Correction/mise \u00E0 jour des donn\u00E9es de la base de donn\u00E9es"
+  },
+  {
+    "English": "- Minor UI updates",
+    "French": "- Mises \u00E0 jour mineures de l\u0027interface utilisateur"
+  },
+  {
+    "English": "- Terraform minor updates",
+    "French": "- Mises \u00E0 jour mineures de Terraform"
+  },
+  {
+    "English": "- Admin pages",
+    "French": "- Pages d\u0027administration"
+  },
+  {
+    "English": "### Git Branch Management",
+    "French": "### Gestion des branches Git"
+  },
+  {
+    "English": "- Production branch",
+    "French": "- Branche de production"
+  },
+  {
+    "English": "- Commits gets pulled back into develop branch",
+    "French": "- Les commits sont ramen\u00E9s dans la branche de d\u00E9veloppement"
+  },
+  {
+    "English": "### 1. Recording and planning ",
+    "French": "### 1. Enregistrement et planification"
+  },
+  {
+    "English": "- Hotfix tag",
+    "French": "- \u00C9tiquette du correctif"
+  },
+  {
+    "English": "- Draft releases in Github to track what has been changes (only owners can see it)",
+    "French": "- R\u00E9diger des versions pr\u00E9liminaires dans Github pour suivre les modifications apport\u00E9es (seuls les propri\u00E9taires peuvent les voir)."
+  },
+  {
+    "English": "- PR needs to pass build",
+    "French": "- La RP doit passer le cap de la construction"
+  },
+  {
+    "English": "### 2. Approval",
+    "French": "### 2. Approbation"
+  },
+  {
+    "English": "- PR approval",
+    "French": "- Approbation de la RP"
+  },
+  {
+    "English": "- Release pipeline approval",
+    "French": "- Approbation du pipeline de lib\u00E9ration"
+  },
+  {
+    "English": "### 3. Communication ",
+    "French": "### 3. Communication"
+  },
+  {
+    "English": "- N/A - deployment process takes less than 10 minutes",
+    "French": "- N/A - le processus de d\u00E9ploiement prend moins de 10 minutes"
+  },
+  {
+    "English": "- Visible in release notes",
+    "French": "- Visible dans les notes de mise \u00E0 jour"
+  },
+  {
+    "English": "### 4. Deployment",
+    "French": "### 4. D\u00E9ploiement"
+  },
+  {
+    "English": "- Deployment ideally done after 5pm Pacific (8pm Eastern)",
+    "French": "- Le d\u00E9ploiement est id\u00E9alement effectu\u00E9 apr\u00E8s 17 heures dans la zone Pacifique (20 heures dans la zone Est)."
+  },
+  {
+    "English": "- Minor impact expected for users",
+    "French": "- Impact mineur attendu pour les utilisateurs"
+  },
+  {
+    "English": "### 5. Review",
+    "French": "### 5. R\u00E9vision"
+  },
+  {
+    "English": "Landing tests to be performed for key features:",
+    "French": "Tests d\u0027atterrissage \u00E0 effectuer pour les caract\u00E9ristiques cl\u00E9s :"
+  },
+  {
+    "English": "- [ ] File explorer",
+    "French": "- [ ] Explorateur de fichiers"
+  },
+  {
+    "English": "- [ ] Databricks access",
+    "French": "- [ ] Acc\u00E8s aux bases de donn\u00E9es"
+  },
+  {
+    "English": "## Use Case 2: Minor and Major Versions",
+    "French": "## Cas d\u0027utilisation 2 : Versions mineures et majeures"
+  },
+  {
+    "English": "### Type of changes for Use Case 2",
+    "French": "### Type de modifications pour le cas d\u0027utilisation 2"
+  },
+  {
+    "English": "- Database schema updates",
+    "French": "- Mise \u00E0 jour du sch\u00E9ma de la base de donn\u00E9es"
+  },
+  {
+    "English": "- New public page",
+    "French": "- Nouvelle page publique"
+  },
+  {
+    "English": "- Major UI updates",
+    "French": "- Mises \u00E0 jour majeures de l\u0027interface utilisateur"
+  },
+  {
+    "English": "- Terraform major updates",
+    "French": "- Mises \u00E0 jour majeures de Terraform"
+  },
+  {
+    "English": "- Updates are done on Develop branch",
+    "French": "- Les mises \u00E0 jour sont effectu\u00E9es sur la branche Develop"
+  },
+  {
+    "English": "- Develop gets merged into production through PR",
+    "French": "- Le d\u00E9veloppement est int\u00E9gr\u00E9 \u00E0 la production par le biais de la RP"
+  },
+  {
+    "English": "- Schedule planned in advanced based on sprints",
+    "French": "- Calendrier planifi\u00E9 \u00E0 l\u0027avance sur la base des sprints"
+  },
+  {
+    "English": "- Key changes (bug fixes, features) tracked in Github milestones",
+    "French": "- Changements cl\u00E9s (corrections de bogues, fonctionnalit\u00E9s) suivis dans les jalons Github"
+  },
+  {
+    "English": "- Milestone dates on Github",
+    "French": "- Dates rep\u00E8res sur Github"
+  },
+  {
+    "English": "- Management approval",
+    "French": "- Approbation de la direction"
+  },
+  {
+    "English": "- Downtime of portal to be announced on Office Hours",
+    "French": "- L\u0027indisponibilit\u00E9 du portail sera annonc\u00E9e lors des heures de bureau."
+  },
+  {
+    "English": "- Maintenance page available when new version is being deployed",
+    "French": "- Page de maintenance disponible lorsqu\u0027une nouvelle version est en cours de d\u00E9ploiement"
+  },
+  {
+    "English": "- Banner to be considered later",
+    "French": "- Banni\u00E8re \u00E0 examiner ult\u00E9rieurement"
+  },
+  {
+    "English": "- Maintenance page",
+    "French": "- Page de maintenance"
+  },
+  {
+    "English": "- Offline access to databricks to be considered later from maintenance page",
+    "French": "- L\u0027acc\u00E8s hors ligne aux banques de donn\u00E9es doit \u00EAtre envisag\u00E9 ult\u00E9rieurement \u00E0 partir de la page de maintenance"
+  },
+  {
+    "English": "- 2-12hrs of downtime",
+    "French": "- 2 \u00E0 12 heures de temps d\u0027arr\u00EAt"
+  },
+  {
+    "English": "- Monday-Thursday ",
+    "French": "- Du lundi au jeudi"
+  },
+  {
+    "English": "- [ ] New areas affected",
+    "French": "- [ ] Nouvelles zones touch\u00E9es"
+  },
+  {
+    "English": "- [ ] Resources",
+    "French": "- Ressources"
+  },
+  {
+    "English": "- [ ] User Management",
+    "French": "- Gestion des utilisateurs"
+  },
+  {
+    "English": "- Change Management",
+    "French": "- Gestion du changement"
+  },
+  {
+    "English": "Using Libraries",
+    "French": "Utilisation des biblioth\u00E8ques"
+  },
+  {
+    "English": "# Integrating External Libraries",
+    "French": "# Int\u00E9gration de biblioth\u00E8ques externes"
+  },
+  {
+    "English": "## Use Case 1: Pypi Library with Python",
+    "French": "## Cas d\u0027utilisation 1 : Biblioth\u00E8que Pypi avec Python"
+  },
+  {
+    "English": "The most common way to install libraries is to leverage the Pypi repository [Notebook-scoped Python Libraries](https://docs.databricks.com/libraries/notebooks-python-libraries.html#notebook-scoped-python-libraries) using the \u0060%pip\u0060 command.",
+    "French": "La fa\u00E7on la plus courante d\u0027installer des biblioth\u00E8ques est d\u0027utiliser le d\u00E9p\u00F4t Pypi [Notebook-scoped Python Libraries] (https://docs.databricks.com/libraries/notebooks-python-libraries.html#notebook-scoped-python-libraries) en utilisant la commande \u0060%pip\u0060."
+  },
+  {
+    "English": "## Use Case 2: Libraries in Github",
+    "French": "## Cas d\u0027utilisation 2 : Biblioth\u00E8ques dans Github"
+  },
+  {
+    "English": "## Use Case 3: ",
+    "French": "## Cas d\u0027utilisation 3 :"
+  },
+  {
+    "English": "2023 04 04",
+    "French": "2023 04 04"
+  },
+  {
+    "English": "# Office Hours - April 4th, 2023",
+    "French": "# Heures de bureau - 4 avril 2023"
+  },
+  {
+    "English": "## Summary",
+    "French": "## R\u00E9sum\u00E9"
+  },
+  {
+    "English": "We covered a few topics in the office hour today",
+    "French": "Nous avons abord\u00E9 plusieurs sujets lors de l\u0027heure de bureau d\u0027aujourd\u0027hui"
+  },
+  {
+    "English": "- Troubleshooting issues with logging in to the FSDH portal, specifically around the \u0022Not found in Oxygen163\u0022 error message.",
+    "French": "- R\u00E9solution des probl\u00E8mes de connexion au portail DHSF, en particulier le message d\u0027erreur \u0022Not found in Oxygen163\u0022."
+  },
+  {
+    "English": "  \u003E If you encounter this error, please verify that your Workspace Lead has invited you and you have completed the login steps after going to the FSDH. If you are still having issues, please reach out to your Workspace Lead or [submit a support request](https://forms.office.com/pages/responsepage.aspx?id=lMFb0L-U1kquLh2w8uOPXhksOXzZ73RCp9fVTz4vTU5UNTc1U00yNVUxWVg4SkJGMFVHN1RCTTdQRS4u) to the FSDH Team",
+    "French": "  \u003E Si vous rencontrez cette erreur, veuillez v\u00E9rifier que votre responsable d\u0027espace de travail vous a invit\u00E9 et que vous avez suivi les \u00E9tapes de connexion apr\u00E8s avoir acc\u00E9d\u00E9 \u00E0 la DHSF. Si vous rencontrez toujours des probl\u00E8mes, veuillez contacter votre responsable d\u0027espace de travail ou [soumettre une demande de support] (https://forms.office.com/pages/responsepage.aspx?id=lMFb0L-U1kquLh2w8uOPXhksOXzZ73RCp9fVTz4vTU5UNTc1U00yNVUxWVg4SkJGMFVHN1RCTTdQRS4u) \u00E0 l\u0027\u00E9quipe DHSF."
+  },
+  {
+    "English": "- Uploading, downloading, and deleting with the Storage Explorer",
+    "French": "- Chargement, t\u00E9l\u00E9chargement et suppression \u00E0 l\u0027aide de l\u0027explorateur de stockage"
+  },
+  {
+    "English": "  \u003E The Storage Explorer is a tool that allows you to upload and download files to and from the FSDH. You can find more information about the Storage Explorer in the [documentation](https://federal-science-datahub.canada.ca/resources/113d3041-e2a6-4043-8f83-2d2bdb0639c5)",
+    "French": "  \u003E L\u0027explorateur de stockage est un outil qui vous permet de t\u00E9l\u00E9charger des fichiers vers et depuis le DHSF. Vous trouverez plus d\u0027informations sur le Storage Explorer dans la [documentation] (https://federal-science-datahub.canada.ca/resources/113d3041-e2a6-4043-8f83-2d2bdb0639c5)."
+  },
+  {
+    "English": "- Using \u0060azcopy\u0060 to sync files between your local machine and the FSDH",
+    "French": "- Utiliser \u0060azcopy\u0060 pour synchroniser les fichiers entre votre machine locale et le DHSF"
+  },
+  {
+    "English": "  \u003E \u0060azcopy\u0060 is a tool that allows you to sync files between your local machine and the FSDH Storage. You can find more information about \u0060azcopy\u0060 in the [documentation](https://federal-science-datahub.canada.ca/resources/5a6b42aa-d48a-4e04-8383-751699273d7e)",
+    "French": "  \u003E \u0060azcopy\u0060 est un outil qui vous permet de synchroniser des fichiers entre votre machine locale et le stockage DHSF. Vous pouvez trouver plus d\u0027informations sur \u0060azcopy\u0060 dans la [documentation](https://federal-science-datahub.canada.ca/resources/5a6b42aa-d48a-4e04-8383-751699273d7e)"
+  },
+  {
+    "English": "- Mounting files from the FSDH Storage Explorer to your Databricks notebook",
+    "French": "- Montage de fichiers de l\u0027explorateur de stockage DHSF sur votre ordinateur portable Databricks"
+  },
+  {
+    "English": "  \u003E You can mount files from the FSDH directly into your Databricks notebook. You can find more information about mounting files in the [documentation](https://federal-science-datahub.canada.ca/resources/24e0b610-5d4d-46b2-99df-73e847abd630)",
+    "French": "  \u003E Vous pouvez monter des fichiers depuis le DHSF directement dans votre notebook Databricks. Vous trouverez plus d\u0027informations sur le montage de fichiers dans la [documentation] (https://federal-science-datahub.canada.ca/resources/24e0b610-5d4d-46b2-99df-73e847abd630)."
+  },
+  {
+    "English": "- Overview of notebook cells (python, markdown, R) and how to run them on a Databricks cluster",
+    "French": "- Vue d\u0027ensemble des cellules de notebook (python, markdown, R) et comment les ex\u00E9cuter sur un cluster Databricks"
+  },
+  {
+    "English": "  \u003E You can find more information about markdown and how to format it on the following [website](https://www.markdownguide.org/basic-syntax/)",
+    "French": "  \u003E Vous pouvez trouver plus d\u0027informations sur markdown et comment le formater sur le [site web] suivant (https://www.markdownguide.org/basic-syntax/)"
+  },
+  {
+    "English": "## Up Next",
+    "French": "## Up Next"
+  },
+  {
+    "English": "The next office hour will be on April 5th, 2023 at 13:00 EST. Where we will cover the following topics:",
+    "French": "La prochaine heure de bureau aura lieu le 5 avril 2023 \u00E0 13:00 EST. Nous y aborderons les sujets suivants :"
+  },
+  {
+    "English": "- [Using spark to work with data files](https://learn.microsoft.com/en-us/training/modules/use-apache-spark-azure-databricks/05-write-spark-code)",
+    "French": "- [Utiliser spark pour travailler avec des fichiers de donn\u00E9es](https://learn.microsoft.com/en-us/training/modules/use-apache-spark-azure-databricks/05-write-spark-code)"
+  },
+  {
+    "English": "2023 04 05",
+    "French": "2023 04 05"
+  },
+  {
+    "English": "# Office Hours - April 5th, 2023",
+    "French": "# Heures de bureau - 5 avril 2023"
+  },
+  {
+    "English": "- R support in PoC Databricks Cluster",
+    "French": "- Support R dans le VdP Databricks Cluster"
+  },
+  {
+    "English": "  \u003E For now, projects can create a new custom cluster and it will have R support",
+    "French": "  \u003E Pour l\u0027instant, les projets peuvent cr\u00E9er un nouveau cluster personnalis\u00E9 qui prendra en charge R."
+  },
+  {
+    "English": "  \u003E The FSDH team is also working to make the default cluster compatible with R",
+    "French": "  \u003E L\u0027\u00E9quipe DHSF travaille \u00E9galement \u00E0 rendre le cluster par d\u00E9faut compatible avec R"
+  },
+  {
+    "English": "- Shell support in Databricks",
+    "French": "- Support du shell dans Databricks"
+  },
+  {
+    "English": "  \u003E Users can run Shell using \u0022%sh\u0022 directive in notebooks but apparently Shell scripts do not support credential passthrough. As a result, users cannot access the main mount point (/dbfs/mnt/fsdh-dbk-main-mount) from a Shell script. However, Python and R are known to work.",
+    "French": "  \u003E Les utilisateurs peuvent ex\u00E9cuter Shell en utilisant la directive \u0022%sh\u0022 dans les ordinateurs portables, mais apparemment les scripts Shell ne prennent pas en charge la transmission des informations d\u0027identification. Par cons\u00E9quent, les utilisateurs ne peuvent pas acc\u00E9der au point de montage principal (/dbfs/mnt/fsdh-dbk-main-mount) \u00E0 partir d\u0027un script Shell. Cependant, les scripts Python et R sont connus pour fonctionner."
+  },
+  {
+    "English": "- Parallel computing in Databricks",
+    "French": "- Le calcul parall\u00E8le dans Databricks"
+  },
+  {
+    "English": "  \u003E A question about the need to write instructions or codes to run parallel computing among Databricks workers?\u00A0The answer is no. The Databricks platform handles the parallelization if using supported language",
+    "French": "  \u003E Une question sur la n\u00E9cessit\u00E9 d\u0027\u00E9crire des instructions ou des codes pour faire fonctionner le calcul parall\u00E8le entre les travailleurs de Databricks ? La r\u00E9ponse est non. La plateforme Databricks g\u00E8re la parall\u00E9lisation si elle utilise un langage support\u00E9."
+  },
+  {
+    "English": "The next office hour will be on April 11th, 2023 at 13:00 EST. Where we will cover the following topics:",
+    "French": "La prochaine heure de bureau aura lieu le 11 avril 2023 \u00E0 13:00 EST. Nous y aborderons les sujets suivants :"
+  },
+  {
+    "English": "- [Using spark to vizualize data](https://learn.microsoft.com/en-us/training/modules/use-apache-spark-azure-databricks/06-visualize-spark-data)",
+    "French": "- [Utiliser spark pour visualiser des donn\u00E9es] (https://learn.microsoft.com/en-us/training/modules/use-apache-spark-azure-databricks/06-visualize-spark-data)"
+  },
+  {
+    "English": "- Generate SAS token in Azure or in DataHub Portal. Note: if needed, you can request an extended period SAS Token \u2013 send your request using the [FSDH Support Request Form](https://forms.office.com/pages/responsepage.aspx?id=lMFb0L-U1kquLh2w8uOPXhksOXzZ73RCp9fVTz4vTU5UNTc1U00yNVUxWVg4SkJGMFVHN1RCTTdQRS4u).",
+    "French": "- G\u00E9n\u00E9rer le jeton SAS dans Azure ou dans le portail DataHub. Remarque : si n\u00E9cessaire, vous pouvez demander un jeton SAS \u00E0 dur\u00E9e prolong\u00E9e - envoyez votre demande en utilisant le [DHSF Support Request Form] (https://forms.office.com/pages/responsepage.aspx?id=lMFb0L-U1kquLh2w8uOPXhksOXzZ73RCp9fVTz4vTU5UNTc1U00yNVUxWVg4SkJGMFVHN1RCTTdQRS4u)."
+  },
+  {
+    "English": "A Workspace provides easy access to the key features in the Federal Science DataHub",
+    "French": "Un espace de travail permet d\u0027acc\u00E9der facilement aux principales fonctionnalit\u00E9s du DataHub scientifique f\u00E9d\u00E9ral"
   }
 ]

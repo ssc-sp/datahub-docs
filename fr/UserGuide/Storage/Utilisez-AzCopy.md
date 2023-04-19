@@ -11,8 +11,8 @@ draft: true
 - Pour l'interaction en ligne de commande uniquement. Les utilisateurs peuvent choisir d'utiliser Azure Storage Explorer et DataHub Portal Storage Explorer comme alternatives s'ils n'utilisent pas la ligne de commande.
 
 ## Conditions préalables
-- Téléchargez AzCopy à partir de [Azure](https://aka.ms/downloadazcopy-v10-windows) (aucune installation n'est requise).
-- Générer le jeton SAS dans Azure ou dans DataHub Portal. Remarque : si nécessaire, vous pouvez demander un jeton SAS pour une période prolongée - envoyez votre demande en utilisant le [Formulaire de demande de soutien DHSF](https://forms.office.com/r/fTB6n7nLCB).
+- Téléchargez AzCopy à partir de [Azure] (https://aka.ms/downloadazcopy-v10-windows) (aucune installation n'est requise).
+- Générer le jeton SAS dans Azure ou dans le portail DataHub. Remarque : si nécessaire, vous pouvez demander un jeton SAS à durée prolongée - envoyez votre demande en utilisant le [DHSF Support Request Form] (https://forms.office.com/pages/responsepage.aspx?id=lMFb0L-U1kquLh2w8uOPXhksOXzZ73RCp9fVTz4vTU5UNTc1U00yNVUxWVg4SkJGMFVHN1RCTTdQRS4u).
 
 ## Synchronisation initiale du dossier depuis le local
 - Dans la ligne ci-dessous, remplacez "C:\mydata\stage" par votre répertoire local où se trouvent les données.
