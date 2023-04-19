@@ -16,15 +16,15 @@ L'accès au DataHub serait renouvelé périodiquement.
 
 ## Scénario 1 : Département partenaire du CSP/B2B
 
-L'annuaire actif du département est fédéré et connecté avec le DAA de DataHub/SSC (confiance entre locataires). Les membres du GdC seront des utilisateurs externes dans le DAA de DataHub/SSC et utiliseront la validation d'identité du département.
+L'annuaire actif du département est fédéré et connecté avec le DAA de DataHub/SPC (confiance entre locataires). Les membres du GdC seront des utilisateurs externes dans le DAA de DataHub/SPC et utiliseront la validation d'identité du département.
 
-*Action* Confirmer que les départements ciblés sont dans la liste des départements partenaires du SSC.
+*Action* Confirmer que les départements ciblés sont dans la liste des départements partenaires du SPC.
 
-*Action* Confirmer avec l'équipe SSC de l'entreprise, peut nécessiter un locataire séparé.
+*Action* Confirmer avec l'équipe SPC de l'entreprise, peut nécessiter un locataire séparé.
 
 ## Scénario 2 : Département non partenaire
 
-Tous les départements ne figurent pas dans la liste des départements partenaires du SSC. Hors du champ d'application du MVP ?
+Tous les départements ne figurent pas dans la liste des départements partenaires du SPC. Hors du champ d'application du MVP ?
 D'autres étapes du processus seront nécessaires.
 
 *Action : il faut une liste des départements et voir s'ils doivent être intégrés à DataHub.

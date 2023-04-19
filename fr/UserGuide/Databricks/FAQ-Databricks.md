@@ -20,15 +20,15 @@ Absolument, oui. Databricks permet d'écrire votre code en utilisant le langage 
 
 ### Comment puis-je télécharger mon propre jeu de données et l'utiliser dans Databricks ?
 
-Vous pouvez télécharger et gérer votre ensemble de données en utilisant le portail FSDH. Les données téléchargées seront stockées dans le nuage à l'aide d'Azure Blog Storage. Pour accéder au fichier téléchargé de manière programmatique en utilisant Databricks, vous devrez obtenir le chemin d'accès où le fichier est stocké. Le chemin de votre fichier téléchargé peut être obtenu en allant sur le portail et en allant sur ........... Voici un exemple de code qui montre comment accéder à des données stockées dans Blob Storage en utilisant python dans Databricks :
+Vous pouvez télécharger et gérer votre ensemble de données en utilisant le portail DHSF. Les données téléchargées seront stockées dans le nuage à l'aide d'Azure Blog Storage. Pour accéder au fichier téléchargé de manière programmatique en utilisant Databricks, vous devrez obtenir le chemin d'accès où le fichier est stocké. Le chemin de votre fichier téléchargé peut être obtenu en allant sur le portail et en allant sur ........... Voici un exemple de code qui montre comment accéder à des données stockées dans Blob Storage en utilisant python dans Databricks :
 
 #### Puis-je créer mon propre Cluster dans Databricks ?
 
-Non. Pour l'instant, les clusters nécessaires à votre projet seront créés et configurés par l'équipe FSDH en fonction de vos besoins. Vous disposerez des commandes pour démarrer et arrêter les clusters.
+Non. Pour l'instant, les clusters nécessaires à votre projet seront créés et configurés par l'équipe DHSF en fonction de vos besoins. Vous disposerez des commandes pour démarrer et arrêter les clusters.
 
 ### L'environnement Databricks est-il certifié pour traiter des informations Protégé B ?
 
-Non, actuellement, l'environnement Databricks soutenu par le Federal Science DataHub ne supporte que les données UNCLASSIFIED.
+Non, actuellement, l'environnement Databricks soutenu par le DataHub scientifique fédéral ne supporte que les données UNCLASSIFIED.
 
 ### Puis-je accéder à l'environnement Databricks à l'aide d'un carnet Jupyter fonctionnant localement ou d'IDE tels que PyCharm, VS Code et Spyder ?
 
@@ -36,11 +36,11 @@ Oui, vous pouvez le faire. Cependant, cela nécessite une certaine configuration
 
 ### Comment mes données et le code source sont-ils protégés contre les accès non autorisés ?
 
-Les environnements FSDH Analytics suivent le principe de sécurité du "moindre privilège", ce qui signifie que seul l'ensemble minimal de privilèges requis pour effectuer les tâches sera accordé aux utilisateurs. Des contrôles d'accès et des procédures seront mis en place pour garantir que tout code source créé dans votre projet Databricks ne peut être consulté et exécuté que par les utilisateurs autorisés à le faire. De même, les données stockées dans le compte Azure Blog Storage de votre projet seront gérées à l'aide d'un contrôle d'accès au niveau des dossiers afin de garantir que seuls les utilisateurs ayant reçu une autorisation explicite pourront lire et écrire dans les fichiers et les dossiers.
+Les environnements DHSF Analytics suivent le principe de sécurité du "moindre privilège", ce qui signifie que seul l'ensemble minimal de privilèges requis pour effectuer les tâches sera accordé aux utilisateurs. Des contrôles d'accès et des procédures seront mis en place pour garantir que tout code source créé dans votre projet Databricks ne peut être consulté et exécuté que par les utilisateurs autorisés à le faire. De même, les données stockées dans le compte Azure Blog Storage de votre projet seront gérées à l'aide d'un contrôle d'accès au niveau des dossiers afin de garantir que seuls les utilisateurs ayant reçu une autorisation explicite pourront lire et écrire dans les fichiers et les dossiers.
 
 #### Qui sera responsable de la configuration des ressources Databricks (dossiers, clusters, groupes d'accès et utilisateurs), du compte de stockage Blob et des contrôles d'accès relatifs à ces composants ?
 
-La configuration des ressources Databricks et du compte de stockage sera gérée par l'équipe FSDH.
+La configuration des ressources Databricks et du compte de stockage sera gérée par l'équipe DHSF.
 
 ### J'ai un projet d'IA/apprentissage machine que je voudrais mettre en œuvre à l'aide de Databricks, comment puis-je commencer ?
 

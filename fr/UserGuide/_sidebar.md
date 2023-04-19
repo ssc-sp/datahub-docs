@@ -1,7 +1,7 @@
 - [Guide de l'utilisateur du DataHub scientifique fédéral](/fr/UserGuide/Guide-de-l'utilisateur.md)
 
 - Stockage
-  - [Qu'est-ce qu'Azure Storage Explorer ?](/fr/UserGuide/Storage/Datahub-AzureStorage.md)
+  - [Qu'est-ce que Azure Storage Explorer ?](/fr/UserGuide/Storage/Datahub-AzureStorage.md)
   - [Utiliser AzCopy pour interagir avec le compte de stockage Azure](/fr/UserGuide/Storage/Utilisez-AzCopy.md)
 
 - Databricks
@@ -12,6 +12,6 @@
 - Espace de travail
   - [Détails du profil de métadonnées](/fr/UserGuide/Workspace/Métadonnées-du-profil-de-l'espace-de-travail.md)
 
-- [Foire aux questions (FAQ)](/fr/UserGuide/FSDH-FAQs.md)
+- [Foire aux questions (FAQ)](/fr/UserGuide/DHSF-FAQs.md)
 
-- [Formulaire de demande de soutien DHSF](/fr/UserGuide/Formulaire-de-demande-de-soutien-FSDH.md)
+- [Formulaire de demande de soutien DHSF](/fr/UserGuide/Formulaire-de-demande-de-soutien-DHSF.md)

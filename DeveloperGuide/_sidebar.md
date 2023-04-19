@@ -8,13 +8,15 @@
 
     - [Email Service](/DeveloperGuide/Architecture/Services/Email-Service.md)
 
-- Change Management
-  - [Overview](/DeveloperGuide/Change-Management/Change-Management-Overview.md)
 
 - Azure
 
   - [Credits and notifications](/DeveloperGuide/Azure/Credits_and_notifications.md)
   - [Storage Limits](/DeveloperGuide/Azure/Storage_Limits.md)
+
+- Change Management
+
+  - [Change Management Overview](/DeveloperGuide/Change-Management/Change-Management-Overview.md)
 
 - [Configuration options](/DeveloperGuide/Configuration-options.md)
 - Contributing

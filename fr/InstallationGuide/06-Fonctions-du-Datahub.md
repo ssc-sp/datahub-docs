@@ -40,8 +40,8 @@ Le tableau suivant contient les informations de configuration des fonctions Data
 | `EmailNotification__SmtpPassword` | Le mot de passe SMTP | `datahub-smtp-password` | - | |
 | `EmailNotification__SmtpPort` | Le port SMTP | - | - - |
 | `EmailNotification__SmtpUsername` | Le nom d'utilisateur SMTP | `datahub-smtp-username` | - | |
-| `FUNC_SP_CLIENT_ID` | L'ID du client du principal de service pour les fonctions DataHub.
-| `FUNC_SP_CLIENT_SECRET` | Le secret du client du principal de service pour les fonctions DataHub.
+| `FUNC_SP_ILCENT_ID` | L'ID du client du principal de service pour les fonctions DataHub.
+| `FUNC_SP_ILCENT_SECRET` | Le secret du client du principal de service pour les fonctions DataHub.
 | `FUNCTIONS_WORKER_RUNTIME` | La durée d'exécution des fonctions DataHub | - | `dotnet-isolated` |
 | `PORTAL_URL` | L'URL du portail DataHub | - | - - |
 | `ProjectUsageCRON` | L'expression CRON pour la fonction ProjectUsage | - | `0 0 2 * * *` |

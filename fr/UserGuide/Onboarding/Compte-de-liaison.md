@@ -4,7 +4,7 @@ source: /UserGuide/Onboarding/Link-Account.md
 draft: true
 ---
 
-# Relier votre compte Active Directory au Federal Science DataHub
+# Relier votre compte Active Directory au DataHub scientifique fédéral
 
 ## Étape 1 - Vérifiez votre boîte de réception pour l'e-mail d'invitation
 
@@ -40,7 +40,7 @@ Une fois l'authentificateur installé et vérifié, vous devriez voir l'écran s
 
 ## Étape 4 - Sélection de la langue du DataHub
 
-Avec le compte lié au locataire FSDH, il est possible d'entrer dans le DataHub. Tout nouvel utilisateur devra d'abord sélectionner sa langue préférée.
+Avec le compte lié au locataire DHSF, il est possible d'entrer dans le DataHub. Tout nouvel utilisateur devra d'abord sélectionner sa langue préférée.
 
 ![image](5-language-selection.png)
 

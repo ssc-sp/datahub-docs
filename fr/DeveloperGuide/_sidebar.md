@@ -14,6 +14,10 @@
   - [Crédits et notifications](/fr/DeveloperGuide/Azure/Crédits-et-notifications.md)
   - [Limites de stockage](/fr/DeveloperGuide/Azure/Limites-de-stockage.md)
 
+- Gestion du changement
+
+  - [Vue d'ensemble de la gestion du changement](/fr/DeveloperGuide/Change-Management/Vue-d'ensemble-de-la-gestion-du-changement.md)
+
 - [Options de configuration](/fr/DeveloperGuide/Options-de-configuration.md)
 - Contribuer
 

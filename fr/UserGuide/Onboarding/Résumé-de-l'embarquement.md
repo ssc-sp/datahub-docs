@@ -9,7 +9,7 @@ draft: true
 ## Flux d'enregistrement
 ``mermaid``
 organigramme TD
-    A [L'utilisateur ouvre la page d'enregistrement de la FSDH].
+    A [L'utilisateur ouvre la page d'enregistrement de la DHSF].
     B [L'utilisateur entre une adresse e-mail valide du GdC]
     C [L'utilisateur sélectionne l'agence départementale]
     D [Enregistrement des clics utilisateur]
@@ -25,7 +25,7 @@ organigramme TD
 ## Connexion
 ``mermaid``
 organigramme TD
-    A [L'utilisateur ouvre la page de connexion FSDH].
+    A [L'utilisateur ouvre la page de connexion DHSF].
     B [Première connexion]
     C [Configuration de Microsoft MFA]
     D [Sélectionner la langue]
