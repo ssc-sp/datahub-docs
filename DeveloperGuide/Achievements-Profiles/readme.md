@@ -41,10 +41,27 @@ The following diagram shows the data model for the User Achievements feature:
 
 ```mermaid
 classDiagram
-    class User {
+    class GraphUser {
         +guid Id
         +string Name
         +string Email
+        ...
+    }
+
+    class UserPersonalization {
+        +int Id
+        +guid UserId
+        +string? BackgroundImageUrl
+        +string? ProfilePictureUrl
+        +User User
+        +bool OptOut
+    }
+
+    class UserTelemetryEvent {
+        +int Id
+        +guid UserId
+        +string EventName
+        +DateTime EventDate
     }
 
     class Achievement {
@@ -55,30 +72,17 @@ classDiagram
         +string ImageUrl
         +AchievementType Type
         +string[] RuleExpressions
-        +Unlockable? Unlockable
-    }
-
-    class Unlockable {
-        +int Id
-        +string Name
-        +UnlockableType Type
-        +string ImageUrl
+        +string? UnlockableUrl
+        +UnlockableType? Type
     }
 
     class UserAchievement {
         +int UserId
         +int AchievementId
         +User User
-        +int Score
+        +int Count
         +Achievement Achievement
-    }
-
-    class UserUnlockable {
-        +int UserId
-        +int UnlockableId
         +DateTime UnlockedAt
-        +User User
-        +Unlockable Unlockable
     }
 
     class AchievementType {
@@ -95,9 +99,6 @@ classDiagram
         Badge
     }
 
-    UserAchievement --> User
+    UserAchievement --> GraphUser
     UserAchievement --> Achievement
-    Achievement --> Unlockable
-    UserUnlockable --> User
-    UserUnlockable --> Unlockable
 ```
