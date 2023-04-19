@@ -1,7 +1,7 @@
 ---
 remarks: Automatically translated with DeepL
 source: /UserGuide/Storage/Use-AzCopy.md
-draft: true
+draft: false
 ---
 
 # Utiliser AzCopy pour interagir avec le compte de stockage Azure
