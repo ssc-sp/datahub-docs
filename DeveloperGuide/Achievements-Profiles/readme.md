@@ -40,48 +40,46 @@ Achievements can be unlocked by the user, and can be used to personalize the use
 The following diagram shows the data model for the User Achievements feature:
 
 ```mermaid
-classDiagram
-    class GraphUser {
-        +guid Id
-        +string Name
-        +string Email
-        ...
-    }
 
-    class UserPersonalization {
+classDiagram
+
+    class PortalUser {
         +int Id
-        +guid UserId
+        +guid GraphId
         +string? BackgroundImageUrl
         +string? ProfilePictureUrl
-        +User User
         +bool OptOut
     }
 
-    class UserTelemetryEvent {
+    class TelemetryEvent {
         +int Id
-        +guid UserId
+        +int UserId
         +string EventName
         +DateTime EventDate
     }
 
     class Achievement {
+        <<seedable>>
         +int Id
         +string Name
         +string Description
         +int Points
         +string ImageUrl
         +AchievementType Type
-        +string[] RuleExpressions
         +string? UnlockableUrl
         +UnlockableType? Type
+    }
+
+    class AchievementRule {
+        +int id
+        +int AchievementId
+        +string Expression
     }
 
     class UserAchievement {
         +int UserId
         +int AchievementId
-        +User User
         +int Count
-        +Achievement Achievement
         +DateTime UnlockedAt
     }
 
@@ -99,6 +97,9 @@ classDiagram
         Badge
     }
 
-    UserAchievement --> GraphUser
+    AchievementRule --> Achievement
     UserAchievement --> Achievement
+    UserAchievement --> PortalUser
+    TelemetryEvent --> PortalUser
+    
 ```
