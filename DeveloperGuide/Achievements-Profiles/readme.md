@@ -12,7 +12,7 @@ Achievements are divided into three types:
 
 - **One-time**: Achievements that are awarded once, and never again.
 - **Repeatable**: Achievements that are awarded multiple times.
-- **Countable**: Achievements that are awarded based on a count or collection.
+- **Collectable**: Achievements that are awarded based on a count or collection.
 
 ## User Profile Levels
 
@@ -26,7 +26,7 @@ The score is calculated based on the achievement type:
 
 - **One-time**: The score is usually 1, but can be any value.
 - **Repeatable**: The score is usually 1, but can be any value.
-- **Countable**: The score is usually the number of items in the collection, but can be any value.
+- **Collectable**: The score is usually the number of items in the collection, but can be any value.
 
 ## Achievement Unlockables
 
