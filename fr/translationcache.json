@@ -12766,5 +12766,617 @@
   {
     "English": "Connecting Google APIs with Databricks",
     "French": "Connecter les API de Google avec Databricks"
+  },
+  {
+    "English": "Achievements",
+    "French": "R\u00E9alisations"
+  },
+  {
+    "English": "# Achievements",
+    "French": "# R\u00E9alisations"
+  },
+  {
+    "English": "## JSON Model",
+    "French": "## Mod\u00E8le JSON"
+  },
+  {
+    "English": "The following diagram shows an example JSON model for the User Achievements feature:",
+    "French": "Le diagramme suivant montre un exemple de mod\u00E8le JSON pour la fonctionnalit\u00E9 R\u00E9alisations de l\u0027utilisateur :"
+  },
+  {
+    "English": "  \u0022Id\u0022: \u0022EXP-000\u0022,",
+    "French": "  \u0022Id\u0022 : \u0022EXP-000\u0022,"
+  },
+  {
+    "English": "  \u0022Name\u0022: \u0022To Infinity and beyond\u0022,",
+    "French": "  \u0022Nom\u0022 : \u0022Jusqu\u0027\u00E0 l\u0027infini et au-del\u00E0\u0022,"
+  },
+  {
+    "English": "  \u0022Description\u0022: \u0022Unlock all the initial release exploration achievements\u0022,",
+    "French": "  \u0022Description\u0022 : \u0022D\u00E9verrouiller tous les succ\u00E8s d\u0027exploration de la version initiale\u0022,"
+  },
+  {
+    "English": "  \u0022Points\u0022: 1,",
+    "French": "  \u0022Points\u0022 : 1,"
+  },
+  {
+    "English": "  \u0022AchievementType\u0022: \u0022Trophy|Achievement\u0022,",
+    "French": "  \u0022AchievementType\u0022 : \u0022Trophy|Achievement\u0022,"
+  },
+  {
+    "English": "  \u0022RuleExpressions\u0022: [",
+    "French": "  \u0022RuleExpressions\u0022 : ["
+  },
+  {
+    "English": "    \u0022Utils.AchievementPassed(\\\u0022EXP-001\\\u0022, input1)\u0022,",
+    "French": "    \u0022Utils.AchievementPassed(\\\u0022EXP-001\\\u0022, input1)\u0022,"
+  },
+  {
+    "English": "    \u0022Utils.AchievementPassed(\\\u0022EXP-002\\\u0022, input1)\u0022,",
+    "French": "    \u0022Utils.AchievementPassed(\\\u0022EXP-002\\\u0022, input1)\u0022,"
+  },
+  {
+    "English": "    \u0022...\u0022,",
+    "French": "    \u0022...\u0022,"
+  },
+  {
+    "English": "    \u0022Utils.AchievementPassed(\\\u0022EXP-011\\\u0022, input1)\u0022",
+    "French": "    \u0022Utils.AchievementPassed(\\N-\u0022EXP-011\u0022, input1)\u0022"
+  },
+  {
+    "English": "## \u0060DHA\u0060 Datahub Achievements",
+    "French": "## \u0060DHA\u0060 Datahub Achievements"
+  },
+  {
+    "English": "| Id        | Name                      | Description                     | Conditions                      | AchievementType |",
+    "French": "| Le type d\u0027accomplissement est le m\u00EAme que celui de l\u0027entreprise, \u00E0 savoir : l\u0027identit\u00E9, le nom, la description, les conditions et le type d\u0027accomplissement."
+  },
+  {
+    "English": "| --------- | ------------------------- | ------------------------------- | ------------------------------- | --------------- |",
+    "French": "| --------- | ------------------------- | ------------------------------- | ------------------------------- | --------------- |"
+  },
+  {
+    "English": "| \u0060DHA-001\u0060 | Collaboration Connoisseur | Logged in to DataHub            | Log in at least once            | Achievement     |",
+    "French": "| \u0060DHA-001\u0060 | Connaisseur de la collaboration | Connect\u00E9 \u00E0 DataHub | Connect\u00E9 au moins une fois | R\u00E9ussite |"
+  },
+  {
+    "English": "| \u0060DHA-002\u0060 | Collaboration Commander   | Invite a user to your workspace | Invite a User to your workspace | Achievement     |",
+    "French": "| DHA-002\u0060 | Collaboration Commander | Inviter un utilisateur \u00E0 votre espace de travail | Inviter un utilisateur \u00E0 votre espace de travail | R\u00E9alisation |"
+  },
+  {
+    "English": "| \u0060DHA-003\u0060 | Workspace Warrior         | Join a workspace                | Join a workspace                | Achievement     |",
+    "French": "| DHA-003\u0060 | Espace de travail Warrior | Rejoindre un espace de travail | Rejoindre un espace de travail | R\u00E9ussite |"
+  },
+  {
+    "English": "| \u0060DHA-004\u0060 | Workspace Wanderlust      | Leave a workspace               | Leave a workspace               | Achievement     |",
+    "French": "| DHA-004\u0060 | Espace de travail Wanderlust | Laisser un espace de travail | Laisser un espace de travail | R\u00E9ussite |"
+  },
+  {
+    "English": "| \u0060DHA-005\u0060 | Consistent Contributor    | Login on multiple days          | Login on at least two days      | Achievement     |",
+    "French": "| DHA-005\u0060 | Contributeur r\u00E9gulier | Se connecter plusieurs fois par jour | Se connecter au moins deux fois par jour | R\u00E9ussite |"
+  },
+  {
+    "English": "## \u0060STR\u0060 Storage Explorer Achievements",
+    "French": "## \u0060STR\u0060 R\u00E9alisations de Storage Explorer"
+  },
+  {
+    "English": "| Id        | Name                 | Description                                                | Conditions      | AchievementType |",
+    "French": "| Le type d\u0027accomplissement est le m\u00EAme que celui de l\u0027entreprise, \u00E0 savoir : l\u0027identit\u00E9, le nom, la description, les conditions et le type d\u0027accomplissement."
+  },
+  {
+    "English": "| --------- | -------------------- | ---------------------------------------------------------- | --------------- | --------------- |",
+    "French": "| --------- | -------------------- | ---------------------------------------------------------- | --------------- | --------------- |"
+  },
+  {
+    "English": "| \u0060STR-000\u0060 | Storage Savant       | Unlock all the 2.0 Storage Explorer achievements           | Unlock All FIL  | Trophy          |",
+    "French": "| Storage Savant | D\u00E9bloquer tous les succ\u00E8s de l\u0027Explorateur de stockage 2.0 | D\u00E9bloquer tous les FIL | Troph\u00E9e |"
+  },
+  {
+    "English": "| \u0060STR-001\u0060 | Unstoppable Uploader | Upload a file using the workspace Storage Explorer         | Upload a file   | Achievement     |",
+    "French": "| \u0060STR-001\u0060 | Unstoppable Uploader | T\u00E9l\u00E9charger un fichier \u00E0 l\u0027aide de l\u0027espace de travail Explorateur de stockage | T\u00E9l\u00E9charger un fichier | R\u00E9alisation |"
+  },
+  {
+    "English": "| \u0060STR-002\u0060 | Storage Socialite    | Share a file using the workspace Storage Explorer          | Share a file    | Achievement     |",
+    "French": "| \u0060STR-002\u0060 | Storage Socialite | Partager un fichier en utilisant l\u0027espace de travail Explorateur de stockage | Partager un fichier | R\u00E9alisation |"
+  },
+  {
+    "English": "| \u0060STR-003\u0060 | File Fetcher         | Download a file using the workspace Storage Explorer       | Download a file | Achievement     |",
+    "French": "| \u0060STR-003\u0060 | File Fetcher | T\u00E9l\u00E9charger un fichier \u00E0 partir de l\u0027espace de travail Explorateur de stockage | T\u00E9l\u00E9charger un fichier | R\u00E9alisation |"
+  },
+  {
+    "English": "| \u0060STR-004\u0060 | Daredevil Deleter    | Delete a file from the workspace with the Storage Explorer | Delete a file   | Achievement     |",
+    "French": "| \u0060STR-004\u0060 | Daredevil Deleter | Supprimer un fichier de l\u0027espace de travail avec l\u0027explorateur de stockage | Supprimer un fichier | R\u00E9alisation |"
+  },
+  {
+    "English": "| \u0060STR-005\u0060 | Folder Fashionista   | Create a folder in the workspace\u0027s Storage Explorer        | Create a folder | Achievement     |",
+    "French": "| \u0060STR-005\u0060 | Dossier Fashionista | Cr\u00E9er un dossier dans l\u0027explorateur de stockage de l\u0027espace de travail | Cr\u00E9er un dossier | R\u00E9alisation |"
+  },
+  {
+    "English": "| \u0060STR-006\u0060 | Folder Farewell      | Delete a folder in the workspace\u0027s Storage Explorer        | Delete a folder | Achievement     |",
+    "French": "| \u0060STR-006\u0060 | Dossier Adieu | Supprimer un dossier dans l\u0027explorateur de stockage de l\u0027espace de travail | Supprimer un dossier | R\u00E9alisation |"
+  },
+  {
+    "English": "## \u0060EXP\u0060 Exploration Achievements",
+    "French": "## \u0060EXP\u0060 R\u00E9alisations en mati\u00E8re d\u0027exploration"
+  },
+  {
+    "English": "| Id        | Name                    | Description                                          | Conditions             | AchievementType |",
+    "French": "| Le type d\u0027accomplissement est le m\u00EAme que celui de l\u0027entreprise, \u00E0 savoir : l\u0027identit\u00E9, le nom, la description, les conditions et le type d\u0027accomplissement."
+  },
+  {
+    "English": "| --------- | ----------------------- | ---------------------------------------------------- | ---------------------- | --------------- |",
+    "French": "| --------- | ----------------------- | ---------------------------------------------------- | ---------------------- | --------------- |"
+  },
+  {
+    "English": "| \u0060EXP-000\u0060 | Explorer Extraordinaire | Unlock all the 2.0 Exploration achievements          | Unlock all EXP         | Trophy          |",
+    "French": "| Explorer Extraordinaire | D\u00E9bloquer tous les succ\u00E8s de l\u0027Exploration 2.0 | D\u00E9bloquer toutes les EXP | Troph\u00E9es"
+  },
+  {
+    "English": "| \u0060EXP-001\u0060 | Storage Safari          | Navigate to the Storage Explorer page of a workspace | Visit Storage Explorer | Achievement     |",
+    "French": "| Storage Safari | Naviguer vers la page Storage Explorer d\u0027un espace de travail | Visiter Storage Explorer | Achievement |"
+  },
+  {
+    "English": "| \u0060EXP-002\u0060 | Databricks Discovery    | Navigate to the Databricks page of a workspace       | Visit Databricks       | Achievement     |",
+    "French": "| \u0060EXP-002\u0060 | Databricks Discovery | Naviguer vers la page Databricks d\u0027un espace de travail | Visiter Databricks | Achievement |"
+  },
+  {
+    "English": "| \u0060EXP-003\u0060 | Resource Ranger         | View the resources section of DataHub                | Visit Resources        | Achievement     |",
+    "French": "| Ressources | Voir la section des ressources de DataHub | Visiter Ressources | R\u00E9alisation |"
+  },
+  {
+    "English": "| \u0060EXP-004\u0060 | Workspace Wanderer      | View a workspace you are not a member of             | Visit Another Project  | Achievement     |",
+    "French": "| Espace de travail Wanderer | Voir un espace de travail dont vous n\u0027\u00EAtes pas membre | Visiter un autre projet | R\u00E9alisation |"
+  },
+  {
+    "English": "| \u0060EXP-005\u0060 | Workspace Wayfarer      | Visit one of your own workspaces                     | Visit Own Project      | Achievement     |",
+    "French": "| Espace de travail Wayfarer | Visiter l\u0027un de vos propres espaces de travail | Visiter votre propre projet | R\u00E9alisations"
+  },
+  {
+    "English": "| \u0060EXP-006\u0060 | Link Legend             | Use a recent link to get to the same page again      | Use A Recent Link      | Achievement     |",
+    "French": "| \u0060EXP-006\u0060 | L\u00E9gende des liens | Utiliser un lien r\u00E9cent pour revenir \u00E0 la m\u00EAme page | Utiliser un lien r\u00E9cent | R\u00E9alisation |"
+  },
+  {
+    "English": "| \u0060EXP-007\u0060 | Prolific Polyglot       | Switch languages in the portal                       | Toggle Culture         | Achievement     |",
+    "French": "| \u0060EXP-007\u0060 | Polyglotte prolifique | Passer d\u0027une langue \u00E0 l\u0027autre dans le portail | Changer de culture | R\u00E9alisation |"
+  },
+  {
+    "English": "| \u0060EXP-008\u0060 | Profile Peruser         | View your own profile page                           | Visit A Profile        | Achievement     |",
+    "French": "| Profil de l\u0027utilisateur | Voir votre propre page de profil | Visiter un profil | R\u00E9ussite |"
+  },
+  {
+    "English": "| \u0060EXP-009\u0060 | Profile Prowler         | View another person\u0027s profile                        | Visit Another Profile  | Achievement     |",
+    "French": "| Profil de l\u0027utilisateur | Voir le profil d\u0027une autre personne | Visiter un autre profil | R\u00E9ussite |"
+  },
+  {
+    "English": "Achievements are divided into two types:",
+    "French": "Les r\u00E9alisations sont divis\u00E9es en deux types :"
+  },
+  {
+    "English": "- **Achievement**: Achievements that are awarded when a user completes a task.",
+    "French": "- **R\u00E9alisation** : Les r\u00E9alisations qui sont attribu\u00E9es lorsqu\u0027un utilisateur accomplit une t\u00E2che."
+  },
+  {
+    "English": "- **Trophy**: Achievements that are awarded after a user has completed a set of achievements.",
+    "French": "- **Troph\u00E9e** : Les r\u00E9alisations qui sont attribu\u00E9es apr\u00E8s qu\u0027un utilisateur a accompli une s\u00E9rie de r\u00E9alisations."
+  },
+  {
+    "English": "# this was generated, might need some manual tweaking",
+    "French": "# Ceci a \u00E9t\u00E9 g\u00E9n\u00E9r\u00E9, il peut \u00EAtre n\u00E9cessaire de le modifier manuellement."
+  },
+  {
+    "English": "- **Trophies**: Trophies that can be showcased on the user\u0027s profile.",
+    "French": "- **Troph\u00E9es** : Troph\u00E9es qui peuvent \u00EAtre affich\u00E9s sur le profil de l\u0027utilisateur."
+  },
+  {
+    "English": "    class PortalUser {",
+    "French": "    class PortalUser {"
+  },
+  {
+    "English": "        \u002Bguid GraphId",
+    "French": "        \u002Bguid GraphId"
+  },
+  {
+    "English": "        \u002BDateTime FirstLoginDateTime",
+    "French": "        \u002BDateTime FirstLoginDateTime"
+  },
+  {
+    "English": "        \u002BDateTime LastLoginDateTime",
+    "French": "        \u002BDateTime LastLoginDateTime"
+  },
+  {
+    "English": "        \u002Bstring? BackgroundImageUrl",
+    "French": "        \u002Bstring ? BackgroundImageUrl"
+  },
+  {
+    "English": "        \u002Bstring? ProfilePictureUrl",
+    "French": "        \u002Bstring ? ProfilePictureUrl"
+  },
+  {
+    "English": "        \u002Bbool HideAchievements",
+    "French": "        \u002Bbool HideAchievements"
+  },
+  {
+    "English": "        \u002Bstring? Language",
+    "French": "        \u002Bstring ? Langue"
+  },
+  {
+    "English": "    class TelemetryEvent {",
+    "French": "    class TelemetryEvent {"
+  },
+  {
+    "English": "        \u002Bstring EventName",
+    "French": "        \u002BCha\u00EEne de caract\u00E8res EventName"
+  },
+  {
+    "English": "        \u002BDateTime EventDate",
+    "French": "        \u002BDateTime EventDate"
+  },
+  {
+    "English": "        \u003C\u003Cseedable\u003E\u003E",
+    "French": "        \u003C\u003Cseedable\u003E\u003E"
+  },
+  {
+    "English": "        \u002Bid Id",
+    "French": "        \u002Bid Id"
+  },
+  {
+    "English": "        \u002Bint Points = 1",
+    "French": "        \u002Bint Points = 1"
+  },
+  {
+    "English": "        \u002Bstring ConcatenatedRules",
+    "French": "        \u002BCha\u00EEne de caract\u00E8res ConcatenatedRules"
+  },
+  {
+    "English": "        \u002Bstring ImageUrl(string storagePath)",
+    "French": "        \u002Bstring ImageUrl(string storagePath)"
+  },
+  {
+    "English": "        \u002Bstring? UnlockableUrl(string storagePath)",
+    "French": "        \u002Bstring ? UnlockableUrl(string storagePath)"
+  },
+  {
+    "English": "        \u002Bstring[] Rules()",
+    "French": "        \u002Bstring[] Rules()"
+  },
+  {
+    "English": "        \u002Bbool IsTrophy()",
+    "French": "        \u002Bbool IsTrophy()"
+  },
+  {
+    "English": "        \u002Bint Count",
+    "French": "        \u002Bint Compte"
+  },
+  {
+    "English": "    UserAchievement --\u003E PortalUser",
+    "French": "    UserAchievement --\u003E PortalUser"
+  },
+  {
+    "English": "    TelemetryEvent --\u003E PortalUser",
+    "French": "    TelemetryEvent --\u003E PortalUser"
+  },
+  {
+    "English": "# Costing Function",
+    "French": "# Fonction de calcul des co\u00FBts"
+  },
+  {
+    "English": "Funtion in english:",
+    "French": "Fonction en anglais :"
+  },
+  {
+    "English": "\u003E Fetch yesterday\u0027s cost of a project from the cloud provider and store it in the database.",
+    "French": "\u003E R\u00E9cup\u00E9rer le co\u00FBt de la veille d\u0027un projet aupr\u00E8s du fournisseur de services en nuage et le stocker dans la base de donn\u00E9es."
+  },
+  {
+    "English": "\u003E AI Generated",
+    "French": "\u003E G\u00E9n\u00E9r\u00E9 par l\u0027IA"
+  },
+  {
+    "English": "\u003E Azure Consumption API query endpoint \u0060https://management.azure.com/subscriptions/{subscriptionId}/providers/Microsoft.Consumption/usageDetails?api-version=2019-10-01\u0026$filter=properties/usageEnd le \u00272020-10-01T00:00:00Z\u0027 and properties/usageStart ge \u00272020-09-30T00:00:00Z\u0027\u0060",
+    "French": "\u003E Azure Consumption API query endpoint \u0060https://management.azure.com/subscriptions/{subscriptionId}/providers/Microsoft.Consumption/usageDetails?api-version=2019-10-01\u0026$filter=properties/usageEnd le \u00272020-10-01T00:00:00Z\u0027 and properties/usageStart ge \u00272020-09-30T00:00:00Z\u0027\u0060."
+  },
+  {
+    "English": "https://learn.microsoft.com/en-us/rest/api/consumption/usage-details/list?tabs=HTTP",
+    "French": "https://learn.microsoft.com/en-us/rest/api/consumption/usage-details/list?tabs=HTTP"
+  },
+  {
+    "English": "    class Project_Costs {",
+    "French": "    class Project_Costs {"
+  },
+  {
+    "English": "        \u002Bint ProjectId",
+    "French": "        \u002Bint ProjectId"
+  },
+  {
+    "English": "        \u002Bdatetime Date",
+    "French": "        \u002Bdatetime Date"
+  },
+  {
+    "English": "        \u002Bdecimal CadCost",
+    "French": "        \u002Bd\u00E9cimal CadCost"
+  },
+  {
+    "English": "        \u002Bstring ServiceName",
+    "French": "        \u002BCha\u00EEne de caract\u00E8res Nom du service"
+  },
+  {
+    "English": "        \u002Bstring CloudProvider",
+    "French": "        \u002BCha\u00EEne CloudProvider"
+  },
+  {
+    "English": "This document details how to configure credentials to connect any google API such as Google Earth Engine, BigTable, and BigQuery.",
+    "French": "Ce document explique comment configurer les informations d\u0027identification pour se connecter \u00E0 n\u0027importe quelle API Google telle que Google Earth Engine, BigTable et BigQuery."
+  },
+  {
+    "English": "## 1. [Create a Google Cloud Project](https://developers.google.com/workspace/guides/create-project)",
+    "French": "## 1. [Cr\u00E9er un projet Google Cloud](https://developers.google.com/workspace/guides/create-project)"
+  },
+  {
+    "English": "Follow the link for instructions on how to create a Google Cloud Project.",
+    "French": "Suivez le lien pour savoir comment cr\u00E9er un projet Google Cloud."
+  },
+  {
+    "English": "## 2. Enable the APIs \u0026 Services necessary",
+    "French": "## 2. Activer les API et les services n\u00E9cessaires"
+  },
+  {
+    "English": "Once your project is created and selected, in the navigation bar, click on \u0022APIs \u0026 Services\u0022:",
+    "French": "Une fois votre projet cr\u00E9\u00E9 et s\u00E9lectionn\u00E9, dans la barre de navigation, cliquez sur \u0022APIs \u0026 Services\u0022 :"
+  },
+  {
+    "English": "![341182784_1883945795306857_7440166856820153159_n](https://user-images.githubusercontent.com/56747050/233416304-13b98718-337e-42eb-b6ae-0e1888404fea.png)",
+    "French": "![341182784_1883945795306857_7440166856820153159_n](https://user-images.githubusercontent.com/56747050/233416304-13b98718-337e-42eb-b6ae-0e1888404fea.png)"
+  },
+  {
+    "English": "Then click on \u0022Enable APIs \u0026 Services\u0022:",
+    "French": "Cliquez ensuite sur \u0022Enable APIs \u0026 Services\u0022 :"
+  },
+  {
+    "English": "![341291789_178018718053904_5458837908367107510_n](https://user-images.githubusercontent.com/56747050/233416401-5de8b538-6c2a-4e89-a578-6810736eb484.png)",
+    "French": "![341291789_178018718053904_5458837908367107510_n](https://user-images.githubusercontent.com/56747050/233416401-5de8b538-6c2a-4e89-a578-6810736eb484.png)"
+  },
+  {
+    "English": "Search for the services you may need such as \u0022BigQuery API\u0022, \u0022BigTable API\u0022, \u0022Earth Engine API\u0022, etc. It should then appear in the search results. Click on it, then click on \u0022Enable\u0022.",
+    "French": "Recherchez les services dont vous pourriez avoir besoin, tels que \u0022BigQuery API\u0022, \u0022BigTable API\u0022, \u0022Earth Engine API\u0022, etc. Il devrait alors appara\u00EEtre dans les r\u00E9sultats de la recherche. Cliquez dessus, puis cliquez sur \u0022Enable\u0022."
+  },
+  {
+    "English": "## 3. Create a Service account and obtain a private key.",
+    "French": "## 3. Cr\u00E9ez un compte de service et obtenez une cl\u00E9 priv\u00E9e."
+  },
+  {
+    "English": "Once you have enabled the Earth Engine API in your project, open the navigation menu and click on \u0022IAM \u0026 Admin\u0022:",
+    "French": "Une fois que vous avez activ\u00E9 l\u0027API Earth Engine dans votre projet, ouvrez le menu de navigation et cliquez sur \u0022IAM \u0026 Admin\u0022 :"
+  },
+  {
+    "English": "![341174751_558854192793790_2404372516710887907_n](https://user-images.githubusercontent.com/56747050/233416480-e9e68e01-6d9f-4db2-9235-9fd68c03a500.png)",
+    "French": "![341174751_558854192793790_2404372516710887907_n](https://user-images.githubusercontent.com/56747050/233416480-e9e68e01-6d9f-4db2-9235-9fd68c03a500.png)"
+  },
+  {
+    "English": "Then click on \u0022Service Accounts\u0022:",
+    "French": "Cliquez ensuite sur \u0022Comptes de service\u0022 :"
+  },
+  {
+    "English": "![342383092_889586648769272_4903323285442570884_n](https://user-images.githubusercontent.com/56747050/233416581-b959909c-d8f2-42ef-a304-f2734e7aaeb3.png)",
+    "French": "![342383092_889586648769272_4903323285442570884_n](https://user-images.githubusercontent.com/56747050/233416581-b959909c-d8f2-42ef-a304-f2734e7aaeb3.png)"
+  },
+  {
+    "English": "Then create a new service account:",
+    "French": "Cr\u00E9ez ensuite un nouveau compte de service :"
+  },
+  {
+    "English": "![341223863_914125263146363_524864849766701058_n](https://user-images.githubusercontent.com/56747050/233416627-8c378c19-e2cc-44d9-8b18-8e64735ecc7b.png)",
+    "French": "![341223863_914125263146363_524864849766701058_n](https://user-images.githubusercontent.com/56747050/233416627-8c378c19-e2cc-44d9-8b18-8e64735ecc7b.png)"
+  },
+  {
+    "English": "Enter the necessary information (name, ID, description) in the first step, then in the second step, select the roles necessary for your service account. Depending on what service you are using, you will have to select the proper roles: for example, when using Earth Engine API, you need to select the admin, viewer or writer roles, depending on your needs:",
+    "French": "Saisissez les informations n\u00E9cessaires (nom, ID, description) dans la premi\u00E8re \u00E9tape, puis dans la deuxi\u00E8me \u00E9tape, s\u00E9lectionnez les r\u00F4les n\u00E9cessaires pour votre compte de service. En fonction du service que vous utilisez, vous devrez s\u00E9lectionner les r\u00F4les appropri\u00E9s : par exemple, si vous utilisez l\u0027API Earth Engine, vous devez s\u00E9lectionner les r\u00F4les admin, viewer ou writer, en fonction de vos besoins :"
+  },
+  {
+    "English": "![341285054_594648945966990_3340994669833248652_n](https://user-images.githubusercontent.com/56747050/233417210-10045800-9b95-4aab-b1e8-0ac86752c586.png)",
+    "French": "![341285054_594648945966990_3340994669833248652_n](https://user-images.githubusercontent.com/56747050/233417210-10045800-9b95-4aab-b1e8-0ac86752c586.png)"
+  },
+  {
+    "English": "Then, skip the 3rd step and create your service account by clicking on \u0022Done\u0022. This should bring you back to the list of all service accounts and you should see the service account you just created listed. Click on it, then click on the \u0022Keys\u0022 tab:",
+    "French": "Ensuite, sautez la troisi\u00E8me \u00E9tape et cr\u00E9ez votre compte de service en cliquant sur \u0022Termin\u00E9\u0022. Cela devrait vous ramener \u00E0 la liste de tous les comptes de service et vous devriez voir le compte de service que vous venez de cr\u00E9er list\u00E9. Cliquez dessus, puis cliquez sur l\u0027onglet \u0022Cl\u00E9s\u0022 :"
+  },
+  {
+    "English": "![328758927_2692944394192271_6807215753292084072_n](https://user-images.githubusercontent.com/56747050/233417265-fd030087-8034-44c7-8177-786af4b02e7d.png)",
+    "French": "![328758927_2692944394192271_6807215753292084072_n](https://user-images.githubusercontent.com/56747050/233417265-fd030087-8034-44c7-8177-786af4b02e7d.png)"
+  },
+  {
+    "English": "Click on \u0022Add Key\u0022 and \u0022Create new key\u0022, and select the JSON format for your key:",
+    "French": "Cliquez sur \u0022Add Key\u0022 et \u0022Create new key\u0022, et s\u00E9lectionnez le format JSON pour votre cl\u00E9 :"
+  },
+  {
+    "English": "![341264731_1182567819100669_7664721525011167448_n](https://user-images.githubusercontent.com/56747050/233417303-b47f9007-d15f-4211-a049-cc6cddcd0b21.png)",
+    "French": "![341264731_1182567819100669_7664721525011167448_n](https://user-images.githubusercontent.com/56747050/233417303-b47f9007-d15f-4211-a049-cc6cddcd0b21.png)"
+  },
+  {
+    "English": "This will automatically create a key and download it. Make sure you keep this key.",
+    "French": "Cela cr\u00E9era automatiquement une cl\u00E9 et la t\u00E9l\u00E9chargera. Veillez \u00E0 conserver cette cl\u00E9."
+  },
+  {
+    "English": "## 4. Register your cloud project",
+    "French": "## 4. Enregistrez votre projet cloud"
+  },
+  {
+    "English": "In the case of certain APIs, you may need to register your Google Cloud project. For example, Google Earth Engine requires us to navigate to [this registering link](https://code.earthengine.google.com/register) and sign-in using the same google account you use for Google Cloud, in order to register your project.",
+    "French": "Dans le cas de certaines API, il se peut que vous deviez enregistrer votre projet Google Cloud. Par exemple, Google Earth Engine nous demande de naviguer vers [ce lien d\u0027enregistrement] (https://code.earthengine.google.com/register) et de nous connecter \u00E0 l\u0027aide du m\u00EAme compte Google que celui que vous utilisez pour Google Cloud, afin d\u0027enregistrer votre projet."
+  },
+  {
+    "English": "To register your Google Cloud ",
+    "French": "Pour enregistrer votre Google Cloud"
+  },
+  {
+    "English": "Select \u0022Use with a Cloud Project\u0022",
+    "French": "S\u00E9lectionnez \u0022Utiliser avec un projet cloud\u0022"
+  },
+  {
+    "English": "Select \u0022Paid\u0022 or \u0022Unpaid usage\u0022 depending on your personal needs and role. In our case, we will select \u0022Unpaid usage\u0022. It will prompt you to select a project type, select \u0022Government\u0022.",
+    "French": "S\u00E9lectionnez \u0022Utilisation payante\u0022 ou \u0022Utilisation non payante\u0022 en fonction de vos besoins personnels et de votre r\u00F4le. Dans notre cas, nous s\u00E9lectionnerons \u0022Usage non r\u00E9mun\u00E9r\u00E9\u0022. Le syst\u00E8me vous invite \u00E0 s\u00E9lectionner un type de projet, choisissez \u0022Gouvernement\u0022."
+  },
+  {
+    "English": "Select \u0022Choose an existing cloud project\u0022 and select the project you have enabled Google Earth Engine API in.",
+    "French": "S\u00E9lectionnez \u0022Choose an existing cloud project\u0022 et s\u00E9lectionnez le projet dans lequel vous avez activ\u00E9 l\u0027API Google Earth Engine."
+  },
+  {
+    "English": "Finally, review the information you have given and confirm.",
+    "French": "Enfin, v\u00E9rifiez les informations que vous avez fournies et confirmez-les."
+  },
+  {
+    "English": "## 5. Install the client-side SDK for your service",
+    "French": "## 5. Installer le SDK c\u00F4t\u00E9 client pour votre service"
+  },
+  {
+    "English": "Your service may require you to install a package on Databricks in order to use it, as is the case for Google Earth Engine API. For this step, we will demonstrate the installation of Google\u0027s Earth Engine API, but any packages can be installed that way.",
+    "French": "Votre service peut n\u00E9cessiter l\u0027installation d\u0027un paquetage sur Databricks afin de l\u0027utiliser, comme c\u0027est le cas pour l\u0027API Google Earth Engine. Pour cette \u00E9tape, nous allons d\u00E9montrer l\u0027installation de l\u0027API Earth Engine de Google, mais tous les paquets peuvent \u00EAtre install\u00E9s de cette mani\u00E8re."
+  },
+  {
+    "English": "There are two ways to install a package. To install a Python package in the notebook scope, run the following Python magic line (make sure to replace \u0060earthengine-api\u0060 with your package name, which you may need to search online for):",
+    "French": "Il y a deux fa\u00E7ons d\u0027installer un paquetage. Pour installer un paquetage Python dans la port\u00E9e du notebook, ex\u00E9cutez la ligne magique Python suivante (assurez-vous de remplacer \u0060earthengine-api\u0060 par le nom de votre paquetage, que vous devrez peut-\u00EAtre rechercher en ligne) :"
+  },
+  {
+    "English": "%pip install earthengine-api",
+    "French": "%pip install earthengine-api"
+  },
+  {
+    "English": "Upon the success of running this line, skip to the next step. If instead you want to install the package on the cluster, open the navigation bar on Databricks, and click \u0022Compute\u0022. Select the cluster you want to install the package on, then click on libraries:",
+    "French": "Si vous r\u00E9ussissez \u00E0 ex\u00E9cuter cette ligne, passez \u00E0 l\u0027\u00E9tape suivante. Si vous souhaitez plut\u00F4t installer le package sur le cluster, ouvrez la barre de navigation sur Databricks, et cliquez sur \u0022Compute\u0022. S\u00E9lectionnez le cluster sur lequel vous souhaitez installer le paquet, puis cliquez sur \u0022libraries\u0022 :"
+  },
+  {
+    "English": "![341180939_1322586438321309_3468577516645542908_n](https://user-images.githubusercontent.com/56747050/233418201-52d806c7-9d0d-4e2f-a839-ff7d39d161af.png)",
+    "French": "![341180939_1322586438321309_3468577516645542908_n](https://user-images.githubusercontent.com/56747050/233418201-52d806c7-9d0d-4e2f-a839-ff7d39d161af.png)"
+  },
+  {
+    "English": "Then click on \u0022Install new\u0022:",
+    "French": "Cliquez ensuite sur \u0022Installer nouveau\u0022 :"
+  },
+  {
+    "English": "![341112662_216410727698121_7329229316469598703_n](https://user-images.githubusercontent.com/56747050/233419405-8c2d008d-1e6a-4f00-94b5-1528a17fac58.png)",
+    "French": "![341112662_216410727698121_7329229316469598703_n](https://user-images.githubusercontent.com/56747050/233419405-8c2d008d-1e6a-4f00-94b5-1528a17fac58.png)"
+  },
+  {
+    "English": "In the pop-up menu, select PyPI, and in the \u0022package name\u0022 field, enter the name of your package (for us: \u0060earthengine-api\u0060), then click \u0022Install\u0022. Once you start your cluster, it will install the library and it will be available on all notebooks that are attached to this cluster.",
+    "French": "Dans le menu contextuel, s\u00E9lectionnez PyPI, et dans le champ \u0022package name\u0022, entrez le nom de votre paquet (pour nous : \u0060earthengine-api\u0060), puis cliquez sur \u0022Install\u0022. Une fois que vous aurez d\u00E9marr\u00E9 votre cluster, il installera la biblioth\u00E8que et elle sera disponible sur tous les notebooks qui sont attach\u00E9s \u00E0 ce cluster."
+  },
+  {
+    "English": "## 6. Using your Google API",
+    "French": "## 6. Utilisation de votre API Google"
+  },
+  {
+    "English": "Begin by uploading the private key we created from step 3. You can do so by either uploading to your FSDH storage, or you can upload directly to Databricks. Take note of where your key is stored, then use the following code to link to it. This code was created for the case of using Earth Engine API, but the process is extremely similar from one service to another.",
+    "French": "Commencez par t\u00E9l\u00E9charger la cl\u00E9 priv\u00E9e que nous avons cr\u00E9\u00E9e \u00E0 l\u0027\u00E9tape 3. Vous pouvez le faire soit en t\u00E9l\u00E9chargeant vers votre stockage DHSF, soit en t\u00E9l\u00E9chargeant directement vers Databricks. Prenez note de l\u0027endroit o\u00F9 votre cl\u00E9 est stock\u00E9e, puis utilisez le code suivant pour y acc\u00E9der. Ce code a \u00E9t\u00E9 cr\u00E9\u00E9 pour l\u0027utilisation de l\u0027API Earth Engine, mais le processus est tr\u00E8s similaire d\u0027un service \u00E0 l\u0027autre."
+  },
+  {
+    "English": "### Using a private key uploaded through the Databricks File Upload",
+    "French": "### Utilisation d\u0027une cl\u00E9 priv\u00E9e t\u00E9l\u00E9charg\u00E9e via Databricks File Upload"
+  },
+  {
+    "English": "import ee",
+    "French": "importation ee"
+  },
+  {
+    "English": "# Enter the email associated with your service account created in step 3:",
+    "French": "# Entrez l\u0027email associ\u00E9 \u00E0 votre compte de service cr\u00E9\u00E9 \u00E0 l\u0027\u00E9tape 3 :"
+  },
+  {
+    "English": "service_account = \u0027my-service-account@...gserviceaccount.com\u0027",
+    "French": "compte_service = \u0027my-service-account@...gserviceaccount.com\u0027"
+  },
+  {
+    "English": "# In our case:",
+    "French": "# Dans notre cas :"
+  },
+  {
+    "English": "service_account = \u0027david-rene@earth-engine-384112.iam.gserviceaccount.com\u0027",
+    "French": "compte_service = \u0027david-rene@earth-engine-384112.iam.gserviceaccount.com\u0027"
+  },
+  {
+    "English": "# Enter the path to your credentials:",
+    "French": "# Entrez le chemin d\u0027acc\u00E8s \u00E0 vos informations d\u0027identification :"
+  },
+  {
+    "English": "credsPath = \u0027/dbfs/Filestore/tables/credentials.json\u0027",
+    "French": "credsPath = \u0027/dbfs/Filestore/tables/credentials.json\u0027"
+  },
+  {
+    "English": "# In our case, using a key that we uploaded through Databricks file upload:",
+    "French": "# Dans notre cas, nous utilisons une cl\u00E9 que nous avons t\u00E9l\u00E9charg\u00E9e via Databricks file upload :"
+  },
+  {
+    "English": "credsPath = \u0027/dbfs/FileStore/tables/earth_engine_384112_03e2e02ee924.json\u0027",
+    "French": "credsPath = \u0027/dbfs/FileStore/tables/earth_engine_384112_03e2e02ee924.json\u0027"
+  },
+  {
+    "English": "# EARTH ENGINE ONLY:",
+    "French": "# MOTEUR \u00C0 TERRE UNIQUEMENT :"
+  },
+  {
+    "English": "# We can then initialize a session:",
+    "French": "# Nous pouvons alors initialiser une session :"
+  },
+  {
+    "English": "credentials = ee.ServiceAccountCredentials(service_account, credsPath)",
+    "French": "credentials = ee.ServiceAccountCredentials(service_account, credsPath)"
+  },
+  {
+    "English": "ee.Initialize(credentials)",
+    "French": "ee.Initialize(credentials)"
+  },
+  {
+    "English": "# Let\u0027s test it out:",
+    "French": "# Testons-le :"
+  },
+  {
+    "English": "print(ee.Image(\u0022NASA/NASADEM_HGT/001\u0022).get(\u0022title\u0022).getInfo())",
+    "French": "print(ee.Image(\u0022NASA/NASADEM_HGT/001\u0022).get(\u0022title\u0022).getInfo())"
+  },
+  {
+    "English": "### Using a private key uploaded to FSDH storage",
+    "French": "### Utilisation d\u0027une cl\u00E9 priv\u00E9e t\u00E9l\u00E9charg\u00E9e sur le stockage DHSF"
+  },
+  {
+    "English": "import json",
+    "French": "import json"
+  },
+  {
+    "English": "credsPath = \u0027/mnt/fsdh-dbk-main-mount/path/to/credentials.json\u0027",
+    "French": "credsPath = \u0027/mnt/fsdh-dbk-main-mount/path/to/credentials.json\u0027"
+  },
+  {
+    "English": "# In our case, using a key that we uploaded to FSDH storage:",
+    "French": "# Dans notre cas, nous utilisons une cl\u00E9 que nous avons t\u00E9l\u00E9charg\u00E9e dans le stockage DHSF :"
+  },
+  {
+    "English": "credsPath = \u0027/mnt/fsdh-dbk-main-mount/David/earth-engine-384112-72d27e31c3b7.json\u0027",
+    "French": "credsPath = \u0027/mnt/fsdh-dbk-main-mount/David/earth-engine-384112-72d27e31c3b7.json\u0027"
+  },
+  {
+    "English": "json_rows = spark.read.text(credsPath).collect() # Read the file using spark",
+    "French": "json_rows = spark.read.text(credsPath).collect() # Lire le fichier en utilisant spark"
+  },
+  {
+    "English": "creds = json.loads(\u0022\u0022.join([row.value for row in json_rows])) # Load it into a proper json/dict",
+    "French": "creds = json.loads(\u0022\u0022.join([row.value for row in json_rows])) # Chargement dans un fichier json/dict correct"
+  },
+  {
+    "English": "# Dump into a json file with the original name but in filestore",
+    "French": "# D\u00E9pose dans un fichier json avec le nom d\u0027origine mais dans le d\u00E9p\u00F4t de fichiers"
+  },
+  {
+    "English": "newPath = \u0022/dbfs/FileStore/tables/\u0022\u002BcredsPath.split(\u0022/\u0022)[-1] ",
+    "French": "newPath = \u0022/dbfs/FileStore/tables/\u0022\u002BcredsPath.split(\u0022/\u0022)[-1]"
+  },
+  {
+    "English": "with open(newPath, \u0022w\u0022) as f: ",
+    "French": "avec open(newPath, \u0022w\u0022) as f :"
+  },
+  {
+    "English": "    json.dump(creds,f)",
+    "French": "    json.dump(creds,f)"
+  },
+  {
+    "English": "credentials = ee.ServiceAccountCredentials(service_account, newPath)",
+    "French": "credentials = ee.ServiceAccountCredentials(service_account, newPath)"
   }
 ]
