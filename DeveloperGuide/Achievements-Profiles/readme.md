@@ -42,8 +42,8 @@ classDiagram
         +int Id
         +guid GraphId
         
-        +DateTime FirstLogin
-        +DateTime LastLogin
+        +DateTime FirstLoginDateTime
+        +DateTime LastLoginDateTime
 
         +string? BackgroundImageUrl
         +string? ProfilePictureUrl
