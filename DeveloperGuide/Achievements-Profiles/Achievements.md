@@ -14,7 +14,7 @@ The following diagram shows an example JSON model for the User Achievements feat
   "RuleExpressions": [
     "Utils.AchievementPassed(\"EXP-001\", input1)",
     "Utils.AchievementPassed(\"EXP-002\", input1)",
-    ...
+    "...",
     "Utils.AchievementPassed(\"EXP-011\", input1)"
   ]
 }
