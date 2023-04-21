@@ -64,11 +64,8 @@ classDiagram
         <<seedable>>
         +id Id
 
-        +string NameEn
-        +string DescriptionEn
-        +string NameFr
-        +string DescriptionFr
-
+        +string Name
+        +string Description
         +int Points = 1
         +UnlockableType Type
 
