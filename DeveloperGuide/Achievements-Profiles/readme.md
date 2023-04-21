@@ -62,18 +62,12 @@ classDiagram
         +string Name
         +string Description
         +int Points = 1
-        +UnlockableType Type
-
-        +AchievementRule[] AchievementRules
+        +string ConcatenatedRules
+        +AchievementType AchievementType
 
         +string ImageUrl(string storagePath)
         +string? UnlockableUrl(string storagePath)
-    }
-
-    class AchievementRule {
-        +int id
-        +int AchievementId
-        +string Expression
+        +string[] Rules()
     }
 
     class UserAchievement {
@@ -83,17 +77,15 @@ classDiagram
         +DateTime UnlockedAt
     }
 
-    class UnlockableType {
+    class AchievementType {
         <<enumeration>>
-        None
-        BackgroundImage
-        ProfilePicture
+        Achievement
         Trophy
     }
 
-    AchievementRule --> Achievement
     UserAchievement --> Achievement
     UserAchievement --> PortalUser
     TelemetryEvent --> PortalUser
+    Achievement --> AchievementType
 
 ```
