@@ -26,7 +26,7 @@ The score is calculated based on the achievement type:
 
 - **One-time**: The score is usually 1, but can be any value.
 - **Repeatable**: The score is usually 1, but can be any value.
-- **Collectable**: The score is usually the number of items in the collection, but can be any value.
+- **c**: The score is usually the number of items in the collection, but can be any value.
 
 ## Achievement Unlockables
 
@@ -46,9 +46,11 @@ classDiagram
     class PortalUser {
         +int Id
         +guid GraphId
+
         +string? BackgroundImageUrl
         +string? ProfilePictureUrl
-        +bool OptOut
+        +bool HideAchievements
+        +string? Language
     }
 
     class TelemetryEvent {
@@ -60,14 +62,20 @@ classDiagram
 
     class Achievement {
         <<seedable>>
-        +int Id
-        +string Name
-        +string Description
-        +int Points
-        +string ImageUrl
-        +AchievementType Type
-        +string? UnlockableUrl
-        +UnlockableType? Type
+        +id Id
+
+        +string NameEn
+        +string DescriptionEn
+        +string NameFr
+        +string DescriptionFr
+
+        +int Points = 1
+        +UnlockableType Type
+
+        +AchievementRule[] AchievementRules
+
+        +string ImageUrl(string storagePath)
+        +string? UnlockableUrl(string storagePath)
     }
 
     class AchievementRule {
@@ -83,23 +91,17 @@ classDiagram
         +DateTime UnlockedAt
     }
 
-    class AchievementType {
-        <<enumeration>>
-        OneTime
-        Repeatable
-        Countable
-    }
-
     class UnlockableType {
         <<enumeration>>
+        None
         BackgroundImage
         ProfilePicture
-        Badge
+        Trophy
     }
 
     AchievementRule --> Achievement
     UserAchievement --> Achievement
     UserAchievement --> PortalUser
     TelemetryEvent --> PortalUser
-    
+
 ```
