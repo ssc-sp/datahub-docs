@@ -41,6 +41,7 @@ classDiagram
     class PortalUser {
         +int Id
         +guid GraphId
+        +datetime LastLoginDateTime
 
         +string? BackgroundImageUrl
         +string? ProfilePictureUrl
