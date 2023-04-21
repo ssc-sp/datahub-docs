@@ -12314,5 +12314,457 @@
   {
     "English": "A Workspace provides easy access to the key features in the Federal Science DataHub",
     "French": "Un espace de travail permet d\u0027acc\u00E9der facilement aux principales fonctionnalit\u00E9s du DataHub scientifique f\u00E9d\u00E9ral"
+  },
+  {
+    "English": "readme",
+    "French": "readme"
+  },
+  {
+    "English": "# User Achievements and Profile personalization",
+    "French": "# R\u00E9alisations de l\u0027utilisateur et personnalisation du profil"
+  },
+  {
+    "English": "# Overview",
+    "French": "# Vue d\u0027ensemble"
+  },
+  {
+    "English": "This document describes the design of the User Achievements and Profile personalization feature.",
+    "French": "Ce document d\u00E9crit la conception de la fonction de personnalisation des r\u00E9alisations et du profil de l\u0027utilisateur."
+  },
+  {
+    "English": "# User Achievements",
+    "French": "# R\u00E9alisations des utilisateurs"
+  },
+  {
+    "English": "## Achievement Types",
+    "French": "## Types de r\u00E9alisations"
+  },
+  {
+    "English": "Achievements are divided into three types:",
+    "French": "Les r\u00E9alisations sont divis\u00E9es en trois types :"
+  },
+  {
+    "English": "- **One-time**: Achievements that are awarded once, and never again.",
+    "French": "- **Une fois** : Les r\u00E9alisations qui ne sont attribu\u00E9es qu\u0027une fois et ne le sont plus jamais."
+  },
+  {
+    "English": "- **Repeatable**: Achievements that are awarded multiple times.",
+    "French": "- **R\u00E9p\u00E9tition** : R\u00E9alisations qui sont r\u00E9compens\u00E9es plusieurs fois."
+  },
+  {
+    "English": "- **Countable**: Achievements that are awarded based on a count or collection.",
+    "French": "- **Comptable** : Les r\u00E9alisations qui sont r\u00E9compens\u00E9es sur la base d\u0027un d\u00E9compte ou d\u0027une collection."
+  },
+  {
+    "English": "## User Profile Levels",
+    "French": "## Niveaux du profil de l\u0027utilisateur"
+  },
+  {
+    "English": "The user\u0027s profile level is calculated based on the total score of all the user\u0027s achievements. The level is calculated based on the following formula:",
+    "French": "Le niveau du profil de l\u0027utilisateur est calcul\u00E9 sur la base du score total de toutes les r\u00E9alisations de l\u0027utilisateur. Le niveau est calcul\u00E9 selon la formule suivante :"
+  },
+  {
+    "English": "\u0060\u0060\u0060csharp",
+    "French": "\u0060\u0060csharp"
+  },
+  {
+    "English": "int level = (int)Math.Floor(Math.Log(score, 2));",
+    "French": "int level = (int)Math.Floor(Math.Log(score, 2)) ;"
+  },
+  {
+    "English": "The score is calculated based on the achievement type:",
+    "French": "Le score est calcul\u00E9 en fonction du type de r\u00E9alisation :"
+  },
+  {
+    "English": "- **One-time**: The score is usually 1, but can be any value.",
+    "French": "- Une seule fois** : Le score est g\u00E9n\u00E9ralement de 1, mais il peut \u00EAtre de n\u0027importe quelle valeur."
+  },
+  {
+    "English": "- **Repeatable**: The score is usually 1, but can be any value.",
+    "French": "- **R\u00E9p\u00E9titible** : Le score est g\u00E9n\u00E9ralement de 1, mais il peut \u00EAtre de n\u0027importe quelle valeur."
+  },
+  {
+    "English": "- **Countable**: The score is usually the number of items in the collection, but can be any value.",
+    "French": "- **Comptable** : Le score est g\u00E9n\u00E9ralement le nombre d\u0027\u00E9l\u00E9ments de la collection, mais il peut s\u0027agir de n\u0027importe quelle valeur."
+  },
+  {
+    "English": "## Achievement Unlockables",
+    "French": "## R\u00E9alisations \u00E0 d\u00E9bloquer"
+  },
+  {
+    "English": "Achievements can be unlocked by the user, and can be used to personalize the user\u0027s profile. Unlockables are divided into two types:",
+    "French": "Les r\u00E9alisations peuvent \u00EAtre d\u00E9bloqu\u00E9es par l\u0027utilisateur et peuvent \u00EAtre utilis\u00E9es pour personnaliser le profil de l\u0027utilisateur. Les r\u00E9alisations \u00E0 d\u00E9bloquer sont divis\u00E9es en deux types :"
+  },
+  {
+    "English": "- **Background Images**: Background images that can be used to personalize the user\u0027s profile.",
+    "French": "- Images d\u0027arri\u00E8re-plan** : Images d\u0027arri\u00E8re-plan qui peuvent \u00EAtre utilis\u00E9es pour personnaliser le profil de l\u0027utilisateur."
+  },
+  {
+    "English": "- **Profile Pictures**: Profile pictures that can be used to personalize the user\u0027s profile.",
+    "French": "- Images de profil** : Images de profil qui peuvent \u00EAtre utilis\u00E9es pour personnaliser le profil de l\u0027utilisateur."
+  },
+  {
+    "English": "## Data Model",
+    "French": "## Mod\u00E8le de donn\u00E9es"
+  },
+  {
+    "English": "The following diagram shows the data model for the User Achievements feature:",
+    "French": "Le diagramme suivant montre le mod\u00E8le de donn\u00E9es pour la fonctionnalit\u00E9 R\u00E9alisations de l\u0027utilisateur :"
+  },
+  {
+    "English": "classDiagram",
+    "French": "classDiagram"
+  },
+  {
+    "English": "    class User {",
+    "French": "    class User {"
+  },
+  {
+    "English": "        \u002Bguid Id",
+    "French": "        \u002Bguid Id"
+  },
+  {
+    "English": "        \u002Bstring Name",
+    "French": "        \u002BCha\u00EEne de caract\u00E8res Nom"
+  },
+  {
+    "English": "        \u002Bstring Email",
+    "French": "        \u002BCha\u00EEne de caract\u00E8res Email"
+  },
+  {
+    "English": "    class Achievement {",
+    "French": "    class Achievement {"
+  },
+  {
+    "English": "        \u002Bint Id",
+    "French": "        \u002Bint Id"
+  },
+  {
+    "English": "        \u002Bstring Description",
+    "French": "        \u002BCha\u00EEne de caract\u00E8res Description"
+  },
+  {
+    "English": "        \u002Bint Points",
+    "French": "        \u002B points d\u0027indice"
+  },
+  {
+    "English": "        \u002Bstring ImageUrl",
+    "French": "        \u002BCha\u00EEne de caract\u00E8res ImageUrl"
+  },
+  {
+    "English": "        \u002BAchievementType Type",
+    "French": "        \u002BType de r\u00E9alisation Type"
+  },
+  {
+    "English": "        \u002Bstring[] RuleExpressions",
+    "French": "        \u002Bcha\u00EEne[] RuleExpressions"
+  },
+  {
+    "English": "        \u002BUnlockable? Unlockable",
+    "French": "        \u002BD\u00E9verrouillable ? D\u00E9verrouillable"
+  },
+  {
+    "English": "    class Unlockable {",
+    "French": "    class Unlockable {"
+  },
+  {
+    "English": "        \u002BUnlockableType Type",
+    "French": "        \u002BUnlockableType Type"
+  },
+  {
+    "English": "    class UserAchievement {",
+    "French": "    class UserAchievement {"
+  },
+  {
+    "English": "        \u002Bint UserId",
+    "French": "        \u002Bint UserId"
+  },
+  {
+    "English": "        \u002Bint AchievementId",
+    "French": "        \u002Bint AchievementId"
+  },
+  {
+    "English": "        \u002BUser User",
+    "French": "        \u002BUtilisateur Utilisateur"
+  },
+  {
+    "English": "        \u002Bint Score",
+    "French": "        \u002Bint Score"
+  },
+  {
+    "English": "        \u002BAchievement Achievement",
+    "French": "        \u002BR\u00E9alisations R\u00E9alisations"
+  },
+  {
+    "English": "    class UserUnlockable {",
+    "French": "    class UserUnlockable {"
+  },
+  {
+    "English": "        \u002Bint UnlockableId",
+    "French": "        \u002Bint UnlockableId"
+  },
+  {
+    "English": "        \u002BDateTime UnlockedAt",
+    "French": "        \u002BDateTime UnlockedAt"
+  },
+  {
+    "English": "        \u002BUnlockable Unlockable",
+    "French": "        \u002BUnlockable Unlockable"
+  },
+  {
+    "English": "    class AchievementType {",
+    "French": "    class AchievementType {"
+  },
+  {
+    "English": "        \u003C\u003Cenumeration\u003E\u003E",
+    "French": "        \u003C\u003C\u00E9num\u00E9ration\u003E\u003E"
+  },
+  {
+    "English": "        OneTime",
+    "French": "        Temps unique"
+  },
+  {
+    "English": "        Repeatable",
+    "French": "        R\u00E9p\u00E9table"
+  },
+  {
+    "English": "        Countable",
+    "French": "        Comptable"
+  },
+  {
+    "English": "    class UnlockableType {",
+    "French": "    class UnlockableType {"
+  },
+  {
+    "English": "        BackgroundImage",
+    "French": "        Image de fond"
+  },
+  {
+    "English": "        ProfilePicture",
+    "French": "        ProfilImage"
+  },
+  {
+    "English": "        Badge",
+    "French": "        Badge"
+  },
+  {
+    "English": "    UserAchievement --\u003E User",
+    "French": "    R\u00E9alisation de l\u0027utilisateur --\u003E Utilisateur"
+  },
+  {
+    "English": "    UserAchievement --\u003E Achievement",
+    "French": "    R\u00E9alisation de l\u0027utilisateur --\u003E R\u00E9alisation"
+  },
+  {
+    "English": "    Achievement --\u003E Unlockable",
+    "French": "    R\u00E9alisation --\u003E D\u00E9verrouillable"
+  },
+  {
+    "English": "    UserUnlockable --\u003E User",
+    "French": "    UserUnlockable --\u003E Utilisateur"
+  },
+  {
+    "English": "    UserUnlockable --\u003E Unlockable",
+    "French": "    UserUnlockable --\u003E D\u00E9verrouillable"
+  },
+  {
+    "English": "Connecting Google API",
+    "French": "Connexion \u00E0 l\u0027API Google"
+  },
+  {
+    "English": "# Connecting Google API to Databricks",
+    "French": "# Connexion de l\u0027API Google \u00E0 Databricks"
+  },
+  {
+    "English": "This document details how to configure credentials to connect any google API such as Google Earth Engine or Big Table.",
+    "French": "Ce document explique comment configurer les informations d\u0027identification pour se connecter \u00E0 n\u0027importe quelle API de Google, comme Google Earth Engine ou Big Table."
+  },
+  {
+    "English": "- The FSDH will not provide credentials for the Google Cloud Platform and assumes the user has been provided an access by their department",
+    "French": "- La DHSF ne fournira pas d\u0027identifiants pour la Google Cloud Platform et suppose que l\u0027utilisateur a re\u00E7u un acc\u00E8s de son d\u00E9partement."
+  },
+  {
+    "English": "- The user is familiar with the Google product used",
+    "French": "- L\u0027utilisateur conna\u00EEt le produit Google utilis\u00E9"
+  },
+  {
+    "English": "## Step 1: Obtain JSON key",
+    "French": "## \u00C9tape 1 : Obtenir la cl\u00E9 JSON"
+  },
+  {
+    "English": "## Step 2: Copy JSON key to storage account",
+    "French": "## \u00C9tape 2 : Copier la cl\u00E9 JSON sur le compte de stockage"
+  },
+  {
+    "English": "## Step 3: \u003Cbalblabla\u003E",
+    "French": "## \u00C9tape 3 : \u003Cbalblabla\u003E"
+  },
+  {
+    "English": "2023 04 13",
+    "French": "2023 04 13"
+  },
+  {
+    "English": "# Office Hours - April 13th, 2023",
+    "French": "# Heures de bureau - 13 avril 2023"
+  },
+  {
+    "English": "- .",
+    "French": "- ."
+  },
+  {
+    "English": "## Using Azure Databricks for Python Package Management",
+    "French": "## Utilisation d\u0027Azure Databricks pour la gestion des paquets Python"
+  },
+  {
+    "English": "### Introduction",
+    "French": "### Introduction"
+  },
+  {
+    "English": "In this lesson, you will learn how to install Python packages in both the cluster and in the notebook in Azure Databricks, and understand the best practices for managing package dependencies.",
+    "French": "Dans cette le\u00E7on, vous apprendrez \u00E0 installer des paquets Python \u00E0 la fois dans le cluster et dans le notebook dans Azure Databricks, et \u00E0 comprendre les meilleures pratiques pour g\u00E9rer les d\u00E9pendances des paquets."
+  },
+  {
+    "English": "It is important to manage package dependencies in Azure Databricks. If you install a package in the cluster library, all notebooks in the cluster will have access to the package. If you install a package in the notebook library, only the notebook in which you installed the package will have access to the package. If you install a package in both the cluster and the notebook libraries, the notebook will have access to the package, and the cluster will have access to the package.",
+    "French": "Il est important de g\u00E9rer les d\u00E9pendances des paquets dans Azure Databricks. Si vous installez un package dans la biblioth\u00E8que du cluster, tous les notebooks du cluster auront acc\u00E8s au package. Si vous installez un package dans la biblioth\u00E8que du notebook, seul le notebook dans lequel vous avez install\u00E9 le package aura acc\u00E8s au package. Si vous installez un paquet dans les biblioth\u00E8ques de la grappe et du carnet, le carnet aura acc\u00E8s au paquet et la grappe aura acc\u00E8s au paquet."
+  },
+  {
+    "English": "### Installing Packages in the Cluster",
+    "French": "### Installation de paquets dans le cluster"
+  },
+  {
+    "English": "To install the pandas package in the cluster library in Azure Databricks, you can follow these steps:",
+    "French": "Pour installer le paquet pandas dans la biblioth\u00E8que de cluster dans Azure Databricks, vous pouvez suivre les \u00E9tapes suivantes :"
+  },
+  {
+    "English": "1. Navigate to the cluster settings page.",
+    "French": "1. Naviguez jusqu\u0027\u00E0 la page des param\u00E8tres du cluster."
+  },
+  {
+    "English": "1. Select the Libraries tab.",
+    "French": "1. S\u00E9lectionnez l\u0027onglet Biblioth\u00E8ques."
+  },
+  {
+    "English": "1. Click on the Install New button.",
+    "French": "1. Cliquez sur le bouton Installer nouveau."
+  },
+  {
+    "English": "1. Select the library source. You can choose to install a library from PyPI, a Maven repository, or an uploaded Python egg or wheel file.",
+    "French": "1. S\u00E9lectionnez la source de la biblioth\u00E8que. Vous pouvez choisir d\u0027installer une biblioth\u00E8que \u00E0 partir de PyPI, d\u0027un d\u00E9p\u00F4t Maven ou d\u0027un fichier Python egg ou wheel t\u00E9l\u00E9charg\u00E9."
+  },
+  {
+    "English": "1. If you selected PyPI, search for \u0022pandas\u0022 and select the latest version of the 1. package.",
+    "French": "1. Si vous avez choisi PyPI, recherchez \u0022pandas\u0022 et s\u00E9lectionnez la derni\u00E8re version du paquet 1."
+  },
+  {
+    "English": "1. Click on the Install button to install pandas on the cluster.",
+    "French": "1. Cliquez sur le bouton Installer pour installer pandas sur le cluster."
+  },
+  {
+    "English": "After you install the pandas package in the cluster library, you can verify that the package is installed by importing the package in a notebook.",
+    "French": "Apr\u00E8s avoir install\u00E9 le paquet pandas dans la biblioth\u00E8que du cluster, vous pouvez v\u00E9rifier que le paquet est install\u00E9 en l\u0027important dans un notebook."
+  },
+  {
+    "English": "\u0060\u0060\u0060python",
+    "French": "\u0060\u0060python"
+  },
+  {
+    "English": "import pandas as pd",
+    "French": "import pandas as pd"
+  },
+  {
+    "English": "df = pd.DataFrame({\u0027a\u0027: [1, 2, 3], \u0027b\u0027: [4, 5, 6]})",
+    "French": "df = pd.DataFrame({\u0027a\u0027 : [1, 2, 3], \u0027b\u0027 : [4, 5, 6]})"
+  },
+  {
+    "English": "df",
+    "French": "df"
+  },
+  {
+    "English": "print(pd.__version__)",
+    "French": "print(pd.__version__)"
+  },
+  {
+    "English": "### Installing Packages in the Notebook",
+    "French": "### Installation de paquets dans l\u0027ordinateur portable"
+  },
+  {
+    "English": "To install the pandas package in the notebook library in Azure Databricks, you can follow these steps:",
+    "French": "Pour installer le paquet pandas dans la biblioth\u00E8que notebook dans Azure Databricks, vous pouvez suivre les \u00E9tapes suivantes :"
+  },
+  {
+    "English": "We would like to know which of the following topics are of interest to you. Please vote for any of the topics you would like to see covered:",
+    "French": "Nous aimerions savoir quels sont les sujets qui vous int\u00E9ressent parmi les suivants. Veuillez voter pour l\u0027un ou l\u0027autre des sujets que vous aimeriez voir abord\u00E9s :"
+  },
+  {
+    "English": "- Google Cloud auth",
+    "French": "- Authentification Google Cloud"
+  },
+  {
+    "English": "- Saving objects/files",
+    "French": "- Sauvegarde d\u0027objets/fichiers"
+  },
+  {
+    "English": "- Spark SQL",
+    "French": "- Spark SQL"
+  },
+  {
+    "English": "- Visualization libraries",
+    "French": "- Biblioth\u00E8ques de visualisation"
+  },
+  {
+    "English": "- Spark ML",
+    "French": "- Spark ML"
+  },
+  {
+    "English": "- Spark Streaming",
+    "French": "- Spark Streaming"
+  },
+  {
+    "English": "- Graph computing",
+    "French": "- Calcul graphique"
+  },
+  {
+    "English": "- Dashboarding UI",
+    "French": "- Interface utilisateur du tableau de bord"
+  },
+  {
+    "English": "- Installing packages (notebook vs cluster)",
+    "French": "- Installation de paquets (notebook vs cluster)"
+  },
+  {
+    "English": "# Office hours",
+    "French": "# Heures de bureau"
+  },
+  {
+    "English": "Office hours are a time when you can come to the office and ask questions about the DataHub, or get help with your workspaces. Office hours are held regularly at the scheduled times (contact your workspace lead for details), and are open to all users on the platform.",
+    "French": "Les heures de bureau sont un moment o\u00F9 vous pouvez venir au bureau et poser des questions sur le DataHub, ou obtenir de l\u0027aide avec vos espaces de travail. Les heures de bureau ont lieu r\u00E9guli\u00E8rement aux heures pr\u00E9vues (contactez votre responsable d\u0027espace de travail pour plus de d\u00E9tails), et sont ouvertes \u00E0 tous les utilisateurs de la plateforme."
+  },
+  {
+    "English": "## What to expect",
+    "French": "## A quoi s\u0027attendre"
+  },
+  {
+    "English": "During office hours, DataHub team members will be available to answer questions and help you with your workspaces. We will also be available to help you with any technical issues you may be having with the datahub.",
+    "French": "Pendant les heures de bureau, les membres de l\u0027\u00E9quipe du DataHub seront disponibles pour r\u00E9pondre \u00E0 vos questions et vous aider avec vos espaces de travail. Nous serons \u00E9galement disponibles pour vous aider \u00E0 r\u00E9soudre les probl\u00E8mes techniques que vous pourriez rencontrer avec le datahub."
+  },
+  {
+    "English": "Office hours are a great opportunity to get help with your workspaces, and to learn more about the DataHub. We will be happy to answer any questions you may have about the platform, and to help you with any issues you may be having with your workspaces.",
+    "French": "Les heures de bureau sont une excellente occasion d\u0027obtenir de l\u0027aide avec vos espaces de travail et d\u0027en apprendre davantage sur le DataHub. Nous serons heureux de r\u00E9pondre \u00E0 vos questions sur la plateforme et de vous aider \u00E0 r\u00E9soudre les probl\u00E8mes que vous pourriez rencontrer avec vos espaces de travail."
+  },
+  {
+    "English": "If there are no questions or technical issues, we will provide a short presentation on a topic of interest to the community.",
+    "French": "S\u0027il n\u0027y a pas de questions ou de probl\u00E8mes techniques, nous ferons une br\u00E8ve pr\u00E9sentation sur un sujet d\u0027int\u00E9r\u00EAt pour la communaut\u00E9."
+  },
+  {
+    "English": "## Topics of interest",
+    "French": "## Sujets d\u0027int\u00E9r\u00EAt"
+  },
+  {
+    "English": "We are happy to provide presentations on any topic of interest to the community. If you have a topic you would like to see covered, please let us know by contacting your workspace lead or by mentioning it in the",
+    "French": "Nous sommes heureux d\u0027organiser des pr\u00E9sentations sur n\u0027importe quel sujet d\u0027int\u00E9r\u00EAt pour la communaut\u00E9. Si vous avez un sujet que vous aimeriez voir abord\u00E9, faites-le nous savoir en contactant le responsable de votre espace de travail ou en le mentionnant dans la rubrique"
+  },
+  {
+    "English": "Connecting Google APIs with Databricks",
+    "French": "Connecter les API de Google avec Databricks"
   }
 ]

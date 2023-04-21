@@ -8,6 +8,7 @@
   - [Qu'est-ce qu'Azure Databricks ?](/fr/UserGuide/Databricks/Databricks.md)
   - [Accédez à votre compte de stockage dans Databricks](/fr/UserGuide/Databricks/Accédez-à-votre-compte-de-stockage-dans-Databricks.md)
   - [Demander une session avec un expert Databricks](/fr/UserGuide/Databricks/Demande-de-session-databricks.md)
+  - [Connecter les API de Google avec Databricks](/fr/UserGuide/Databricks/Connexion-à-l'API-Google.md)
 
 - Espace de travail
   - [Détails du profil de métadonnées](/fr/UserGuide/Workspace/Métadonnées-du-profil-de-l'espace-de-travail.md)
