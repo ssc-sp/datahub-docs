@@ -12,7 +12,7 @@ Achievements are divided into three types:
 
 - **One-time**: Achievements that are awarded once, and never again.
 - **Repeatable**: Achievements that are awarded multiple times.
-- **Countable**: Achievements that are awarded based on a count or collection.
+- **Collectable**: Achievements that are awarded based on a count or collection.
 
 ## User Profile Levels
 
@@ -26,7 +26,7 @@ The score is calculated based on the achievement type:
 
 - **One-time**: The score is usually 1, but can be any value.
 - **Repeatable**: The score is usually 1, but can be any value.
-- **Countable**: The score is usually the number of items in the collection, but can be any value.
+- **Collectable**: The score is usually the number of items in the collection, but can be any value.
 
 ## Achievement Unlockables
 
@@ -40,48 +40,46 @@ Achievements can be unlocked by the user, and can be used to personalize the use
 The following diagram shows the data model for the User Achievements feature:
 
 ```mermaid
-classDiagram
-    class GraphUser {
-        +guid Id
-        +string Name
-        +string Email
-        ...
-    }
 
-    class UserPersonalization {
+classDiagram
+
+    class PortalUser {
         +int Id
-        +guid UserId
+        +guid GraphId
         +string? BackgroundImageUrl
         +string? ProfilePictureUrl
-        +User User
         +bool OptOut
     }
 
-    class UserTelemetryEvent {
+    class TelemetryEvent {
         +int Id
-        +guid UserId
+        +int UserId
         +string EventName
         +DateTime EventDate
     }
 
     class Achievement {
+        <<seedable>>
         +int Id
         +string Name
         +string Description
         +int Points
         +string ImageUrl
         +AchievementType Type
-        +string[] RuleExpressions
         +string? UnlockableUrl
         +UnlockableType? Type
+    }
+
+    class AchievementRule {
+        +int id
+        +int AchievementId
+        +string Expression
     }
 
     class UserAchievement {
         +int UserId
         +int AchievementId
-        +User User
         +int Count
-        +Achievement Achievement
         +DateTime UnlockedAt
     }
 
@@ -99,6 +97,9 @@ classDiagram
         Badge
     }
 
-    UserAchievement --> GraphUser
+    AchievementRule --> Achievement
     UserAchievement --> Achievement
+    UserAchievement --> PortalUser
+    TelemetryEvent --> PortalUser
+    
 ```
