@@ -22,35 +22,35 @@ The following diagram shows an example JSON model for the User Achievements feat
 
 ## `PRJ` Project Achievements
 
-| Code      | Name        | Conditions                    | Type       |
-| --------- | ----------- | ----------------------------- | ---------- |
-| `PRJ-001` | One of us!  | Invite a User to your project | Repeatable |
-| `PRJ-002` | Can I help? | Join a project                | One Time   |
+| Code      | Name        | Conditions                    | Unlockable Type  |
+| --------- | ----------- | ----------------------------- | ---------------- |
+| `PRJ-001` | One of us!  | Invite a User to your project | Background Image |
+| `PRJ-002` | Can I help? | Join a project                | Background Image |
 
 ## `FIL` File Explorer Achievements
 
-| Code      | Name                          | Conditions      | Type       |
-| --------- | ----------------------------- | --------------- | ---------- |
-| `FIL-000` | File Explorer Badge           | Unlock All FIL  | One Time   |
-| `FIL-001` | Beam us up, Scotty            | Upload a file   | Repeatable |
-| `FIL-002` | Check this out                | Share a file    | Repeatable |
-| `FIL-003` | It wasn't a car               | Download a file | Repeatable |
-| `FIL-004` | Another one bytes the dust    | Delete a file   | Repeatable |
-| `FIL-005` | It's turtles all the way down | Create a folder | Repeatable |
-| `FIL-006` | I'm a leaf on the wind        | Delete a folder | Repeatable |
+| Code      | Name                          | Conditions      | Unlockable Type |
+| --------- | ----------------------------- | --------------- | --------------- |
+| `FIL-000` | File Explorer Badge           | Unlock All FIL  | Trophy          |
+| `FIL-001` | Beam us up, Scotty            | Upload a file   | Profile Picture |
+| `FIL-002` | Check this out                | Share a file    | Profile Picture |
+| `FIL-003` | It wasn't a car               | Download a file | Profile Picture |
+| `FIL-004` | Another one bytes the dust    | Delete a file   | Profile Picture |
+| `FIL-005` | It's turtles all the way down | Create a folder | Profile Picture |
+| `FIL-006` | I'm a leaf on the wind        | Delete a folder | Profile Picture |
 
 ## `EXP` Exploration Achievements
 
-| Code      | Name                             | Conditions                  | Type       |
-| --------- | -------------------------------- | --------------------------- | ---------- |
-| `EXP-000` | To infinity and beyond           | Unlock all MVP Explorations | One Time   |
-| `EXP-001` | Welcome Aboard!                  | Log In                      | Repeatable |
-| `EXP-002` | That's where we store the things | Visit Storage Explorer      | Repeatable |
-| `EXP-003` | Lakehouse Getaway                | Visit Databricks            | Repeatable |
-| `EXP-004` | How do I turn this thing on      | Visit Resources             | Repeatable |
-| `EXP-005` | What are you guys up to?         | Visit Another Project       | Repeatable |
-| `EXP-006` | Mirror, mirror on the wall       | Visit A Profile             | Repeatable |
-| `EXP-007` | Deja Vu                          | Use A Recent Link           | Repeatable |
-| `EXP-008` | C'est mieux comme ca             | Toggle Culture              |
-| `EXP-010` | Home, sweet home                 | Visit Own Project           |
-| `EXP-011` | Why, hello there!                | Visit Another Profile       |
+| Code      | Name                             | Conditions             | Unlockable Type  |
+| --------- | -------------------------------- | ---------------------- | ---------------- |
+| `EXP-000` | To infinity and beyond           | Unlock all EXP         | Trophy           |
+| `EXP-001` | Welcome Aboard!                  | Log In                 | Background Image |
+| `EXP-002` | That's where we store the things | Visit Storage Explorer | Background Image |
+| `EXP-003` | Lakehouse Getaway                | Visit Databricks       | Background Image |
+| `EXP-004` | How do I turn this thing on      | Visit Resources        | Background Image |
+| `EXP-005` | What are you guys up to?         | Visit Another Project  | Profile Picture  |
+| `EXP-006` | Mirror, mirror on the wall       | Visit A Profile        | Profile Picture  |
+| `EXP-007` | Deja Vu                          | Use A Recent Link      | Profile Picture  |
+| `EXP-008` | C'est mieux comme ca             | Toggle Culture         | Profile Picture  |
+| `EXP-009` | Home, sweet home                 | Visit Own Project      | Background Image |
+| `EXP-010` | Why, hello there!                | Visit Another Profile  | Background Image |
