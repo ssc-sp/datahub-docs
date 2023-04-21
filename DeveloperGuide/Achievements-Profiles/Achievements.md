@@ -1,6 +1,24 @@
 # Achievements
 
-> WIP
+## JSON Model
+
+The following diagram shows an example JSON model for the User Achievements feature:
+
+```json
+{
+  "Code": "EXP-000",
+  "Name": "To Infinity and beyond",
+  "Description": "Unlock all the initial release exploration achievements",
+  "Points": 1,
+  "UnlockableType": "Trophy|BackgroundImage|ProfilePicture|None",
+  "RuleExpressions": [
+    "Utils.AchievementPassed(\"EXP-001\", input1)",
+    "Utils.AchievementPassed(\"EXP-002\", input1)",
+    ...
+    "Utils.AchievementPassed(\"EXP-011\", input1)"
+  ]
+}
+```
 
 ## `PRJ` Project Achievements
 
@@ -25,7 +43,7 @@
 
 | Code      | Name                             | Conditions                  | Type       |
 | --------- | -------------------------------- | --------------------------- | ---------- |
-| `EXP-009` | To infinity and beyond           | Unlock all MVP Explorations | One Time   |
+| `EXP-000` | To infinity and beyond           | Unlock all MVP Explorations | One Time   |
 | `EXP-001` | Welcome Aboard!                  | Log In                      | Repeatable |
 | `EXP-002` | That's where we store the things | Visit Storage Explorer      | Repeatable |
 | `EXP-003` | Lakehouse Getaway                | Visit Databricks            | Repeatable |

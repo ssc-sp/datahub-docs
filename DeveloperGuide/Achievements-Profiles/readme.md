@@ -8,25 +8,19 @@ This document describes the design of the User Achievements and Profile personal
 
 ## Achievement Types
 
-Achievements are divided into three types:
+Achievements are divided into two types:
 
-- **One-time**: Achievements that are awarded once, and never again.
-- **Repeatable**: Achievements that are awarded multiple times.
-- **Collectable**: Achievements that are awarded based on a count or collection.
+- **Achievement**: Achievements that are awarded when a user completes a task.
+- **Trophy**: Achievements that are awarded after a user has completed a set of achievements.
 
 ## User Profile Levels
 
 The user's profile level is calculated based on the total score of all the user's achievements. The level is calculated based on the following formula:
 
 ```csharp
+# this was generated, might need some manual tweaking
 int level = (int)Math.Floor(Math.Log(score, 2));
 ```
-
-The score is calculated based on the achievement type:
-
-- **One-time**: The score is usually 1, but can be any value.
-- **Repeatable**: The score is usually 1, but can be any value.
-- **c**: The score is usually the number of items in the collection, but can be any value.
 
 ## Achievement Unlockables
 
@@ -34,6 +28,7 @@ Achievements can be unlocked by the user, and can be used to personalize the use
 
 - **Background Images**: Background images that can be used to personalize the user's profile.
 - **Profile Pictures**: Profile pictures that can be used to personalize the user's profile.
+- **Trophies**: Trophies that can be showcased on the user's profile.
 
 ## Data Model
 
