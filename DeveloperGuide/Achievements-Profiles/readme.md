@@ -40,7 +40,10 @@ classDiagram
 
     class PortalUser {
         +int Id
+        
         +guid GraphId
+        +string DisplayName
+        +string Email
         
         +DateTime FirstLoginDateTime
         +DateTime LastLoginDateTime
