@@ -79,7 +79,6 @@ classDiagram
     class UserAchievement {
         +int UserId
         +int AchievementId
-        +int Count
         +DateTime UnlockedAt
     }
 
