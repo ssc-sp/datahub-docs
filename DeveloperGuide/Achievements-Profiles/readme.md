@@ -48,7 +48,7 @@ classDiagram
         +DateTime FirstLoginDateTime
         +DateTime LastLoginDateTime
 
-        +string? BackgroundImageUrl
+        +string? BannerPictureUrl
         +string? ProfilePictureUrl
         +bool HideAchievements
         +string? Language
