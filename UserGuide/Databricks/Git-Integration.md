@@ -2,13 +2,19 @@
 
 ## Pre-requisites
 
-- Familiarity on Git
+- Familiarity with Git version control
+- Have access to a Git repository - the creation and access to a repository is outside the scope of this
 
 ## Why use Git/GitHub
 
 - Better version control than built-in change tracker
 - Manage code and notebooks outside Databricks
 - Collaboration across multiple workspaces
+
+## Workbook vs Repository
+
+- Once you connect Git to Databricks, your git repository will contain your workbook files
+- Workbook files in Git have a slightly different syntax than standard Jupyter Notebooks
 
 ## Part 1: Setup Git/GitHub with Databricks
 
@@ -39,3 +45,11 @@ Once this is configured, you can see the files inside the repository
 ![image](https://user-images.githubusercontent.com/3179656/236485460-ad76f29a-f009-41e8-8bc3-2532bdfb16a1.png)
 
 Changes done from Databricks can be pushed to the repository using the built-in 
+
+## Resolving Conflicts
+
+??
+
+## Automating Git pulls
+
+??
