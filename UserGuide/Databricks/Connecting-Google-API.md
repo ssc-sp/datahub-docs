@@ -8,9 +8,11 @@ This document details how to configure credentials to connect any google API suc
 - The user is familiar with the Google product used
 
 ## 1. [Create a Google Cloud Project](https://developers.google.com/workspace/guides/create-project)
+
 Follow the link for instructions on how to create a Google Cloud Project.
 
 ## 2. Enable the APIs & Services necessary
+
 Once your project is created and selected, in the navigation bar, click on "APIs & Services":
 
 ![341182784_1883945795306857_7440166856820153159_n](https://user-images.githubusercontent.com/56747050/233416304-13b98718-337e-42eb-b6ae-0e1888404fea.png)
@@ -22,7 +24,8 @@ Then click on "Enable APIs & Services":
 Search for the services you may need such as "BigQuery API", "BigTable API", "Earth Engine API", etc. It should then appear in the search results. Click on it, then click on "Enable".
 
 ## 3. Create a Service account and obtain a private key.
-Once you have enabled the Earth Engine API in your project, open the navigation menu and click on "IAM & Admin":
+
+Once you have enabled the APIs you need in your project, open the navigation menu and click on "IAM & Admin":
 
 ![341174751_558854192793790_2404372516710887907_n](https://user-images.githubusercontent.com/56747050/233416480-e9e68e01-6d9f-4db2-9235-9fd68c03a500.png)
 
@@ -52,7 +55,7 @@ This will automatically create a key and download it. Make sure you keep this ke
 
 In the case of certain APIs, you may need to register your Google Cloud project. For example, Google Earth Engine requires us to navigate to [this registering link](https://code.earthengine.google.com/register) and sign-in using the same google account you use for Google Cloud, in order to register your project.
 
-To register your Google Cloud 
+To register your Google Cloud
 
 Select "Use with a Cloud Project"
 
@@ -130,8 +133,8 @@ json_rows = spark.read.text(credsPath).collect() # Read the file using spark
 creds = json.loads("".join([row.value for row in json_rows])) # Load it into a proper json/dict
 
 # Dump into a json file with the original name but in filestore
-newPath = "/dbfs/FileStore/tables/"+credsPath.split("/")[-1] 
-with open(newPath, "w") as f: 
+newPath = "/dbfs/FileStore/tables/"+credsPath.split("/")[-1]
+with open(newPath, "w") as f:
     json.dump(creds,f)
 
 # EARTH ENGINE ONLY:
