@@ -18,6 +18,17 @@ df.show(3);
 ```
 In the above example, the pre-created path `/mnt/fsdh-dbk-main-mount/` points to the `datahub` container of your Blob storage. The file `sample.csv` is for illustration purpose and you must change to your file name.
 
+To access the same pre-created path from R using SparkR, refer to the following sample code.
+
+```
+%r
+
+library(SparkR)
+sparkR.session()
+df <- collect(read.df("dbfs:/mnt/fsdh-dbk-main-mount/sample.csv", source = "csv"))
+head(df, 3)
+```
+
 ## Mount to Other Clusters
 
 As you create more clusters based on DataHub cluster policies, you can mount your project Blob storage in your code.
