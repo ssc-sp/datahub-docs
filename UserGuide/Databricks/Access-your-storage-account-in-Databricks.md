@@ -25,7 +25,7 @@ To access the same pre-created path from R using SparkR, refer to the following 
 
 library(SparkR)
 sparkR.session()
-df <- collect(read.df("dbfs:/mnt/fsdh-dbk-main-mount/sample.csv", source = "csv"))
+df <- read.df("dbfs:/mnt/fsdh-dbk-main-mount/sample.csv", source = "csv")
 head(df, 3)
 ```
 
