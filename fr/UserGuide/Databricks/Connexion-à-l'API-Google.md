@@ -8,7 +8,7 @@ draft: true
 
 Ce document explique comment configurer les informations d'identification pour se connecter à n'importe quelle API Google telle que Google Earth Engine, BigTable et BigQuery.
 
-## Prérequis
+## Hypothèses
 
 - La DHSF ne fournira pas d'identifiants pour la Google Cloud Platform et suppose que l'utilisateur a reçu un accès de son département.
 - L'utilisateur connaît le produit Google utilisé
@@ -27,15 +27,15 @@ Cliquez ensuite sur "Enable APIs & Services" :
 
 ![341291789_178018718053904_5458837908367107510_n](https://user-images.githubusercontent.com/56747050/233416401-5de8b538-6c2a-4e89-a578-6810736eb484.png)
 
-Recherchez les services dont vous pourriez avoir besoin, tels que "BigQuery API", "BigTable API", "Earth Engine API", etc. Ils devraient alors apparaître dans les résultats de la recherche. Cliquez dessus, puis cliquez sur "Enable".
+Recherchez les services dont vous pourriez avoir besoin, tels que "BigQuery API", "BigTable API", "Earth Engine API", etc. Il devrait alors apparaître dans les résultats de la recherche. Cliquez dessus, puis cliquez sur "Enable".
 
 ## 3. Créez un compte de service et obtenez une clé privée.
 
-Une fois que vous avez activé les APIs dont vous avez besoin dans votre projet, ouvrez le menu de navigation et cliquez sur "IAM & Admin" :
+Une fois que vous avez activé les API dont vous avez besoin dans votre projet, ouvrez le menu de navigation et cliquez sur "IAM & Admin" :
 
 ![341174751_558854192793790_2404372516710887907_n](https://user-images.githubusercontent.com/56747050/233416480-e9e68e01-6d9f-4db2-9235-9fd68c03a500.png)
 
-Cliquez ensuite sur "Service Accounts" :
+Cliquez ensuite sur "Comptes de service" :
 
 ![342383092_889586648769272_4903323285442570884_n](https://user-images.githubusercontent.com/56747050/233416581-b959909c-d8f2-42ef-a304-f2734e7aaeb3.png)
 
@@ -43,7 +43,7 @@ Créez ensuite un nouveau compte de service :
 
 ![341223863_914125263146363_524864849766701058_n](https://user-images.githubusercontent.com/56747050/233416627-8c378c19-e2cc-44d9-8b18-8e64735ecc7b.png)
 
-Saisissez les informations nécessaires (nom, ID, description) dans la première étape, puis dans la deuxième étape, sélectionnez les rôles nécessaires pour votre compte de service ("Serivce account"). En fonction du service que vous utilisez, vous devrez sélectionner les rôles appropriés : par exemple, si vous utilisez l'API Earth Engine, vous devez sélectionner les rôles admin, viewer ou writer, en fonction de vos besoins :
+Saisissez les informations nécessaires (nom, ID, description) dans la première étape, puis dans la deuxième étape, sélectionnez les rôles nécessaires pour votre compte de service. En fonction du service que vous utilisez, vous devrez sélectionner les rôles appropriés : par exemple, si vous utilisez l'API Earth Engine, vous devez sélectionner les rôles admin, viewer ou writer, en fonction de vos besoins :
 
 ![341285054_594648945966990_3340994669833248652_n](https://user-images.githubusercontent.com/56747050/233417210-10045800-9b95-4aab-b1e8-0ac86752c586.png)
 

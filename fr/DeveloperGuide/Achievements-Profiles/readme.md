@@ -46,12 +46,15 @@ classDiagram
 
     class PortalUser {
         +int Id
+
         +guid GraphId
+        +Chaîne de caractères DisplayName
+        +Chaîne de caractères Email
 
         +DateTime FirstLoginDateTime
         +DateTime LastLoginDateTime
 
-        +string ? BackgroundImageUrl
+        +string ? BannerPictureUrl
         +string ? ProfilePictureUrl
         +bool HideAchievements
         +string ? Langue
@@ -82,7 +85,6 @@ classDiagram
     class UserAchievement {
         +int UserId
         +int AchievementId
-        +int Compte
         +DateTime UnlockedAt
     }
 

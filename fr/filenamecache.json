@@ -314,5 +314,21 @@
   {
     "English": "Achievements.md",
     "French": "R\u00E9alisations.md"
+  },
+  {
+    "English": "Conda-Packages.md",
+    "French": "Paquets-Conda.md"
+  },
+  {
+    "English": "Dashboarding.md",
+    "French": "Tableau-de-bord.md"
+  },
+  {
+    "English": "Git-Integration.md",
+    "French": "Int\u00E9gration-de-Git.md"
+  },
+  {
+    "English": "Release-Notes.md",
+    "French": "Notes-de-mise-\u00E0-jour.md"
   }
 ]

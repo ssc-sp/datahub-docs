@@ -1,3 +1,8 @@
+- Profils des réalisations
+
+  - [Réalisations](/fr/DeveloperGuide/Achievements-Profiles/Réalisations.md)
+  - [readme](/fr/DeveloperGuide/Achievements-Profiles/readme.md)
+
 - Architecture
 
   - [Environnements en nuage](/fr/DeveloperGuide/Architecture/Environnements-en-nuage.md)
@@ -25,6 +30,7 @@
   - [Aperçu des contributions](/fr/DeveloperGuide/Contributing/Aperçu-des-contributions.md)
   - [Contribution à une demande de retrait](/fr/DeveloperGuide/Contributing/Contribution-à-une-demande-de-retrait.md)
 
+- [Calcul des coûts](/fr/Costing/)
 - Localisation
 
   - [Localisation](/fr/DeveloperGuide/Localization/Localisation.md)

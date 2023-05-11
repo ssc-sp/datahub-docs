@@ -1,3 +1,8 @@
+- Achievements Profiles
+
+  - [Achievements](/DeveloperGuide/Achievements-Profiles/Achievements.md)
+  - [readme](/DeveloperGuide/Achievements-Profiles/readme.md)
+
 - Architecture
 
   - [Cloud environments](/DeveloperGuide/Architecture/Cloud-environments.md)
@@ -25,6 +30,7 @@
   - [Contributing Overview](/DeveloperGuide/Contributing/Contributing-Overview.md)
   - [Contributing Pull Request](/DeveloperGuide/Contributing/Contributing-Pull-Request.md)
 
+- [Costing](Costing/)
 - Localization
 
   - [Localization](/DeveloperGuide/Localization/Localization.md)

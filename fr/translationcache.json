@@ -13378,5 +13378,661 @@
   {
     "English": "credentials = ee.ServiceAccountCredentials(service_account, newPath)",
     "French": "credentials = ee.ServiceAccountCredentials(service_account, newPath)"
+  },
+  {
+    "English": "        \u002Bstring DisplayName",
+    "French": "        \u002BCha\u00EEne de caract\u00E8res DisplayName"
+  },
+  {
+    "English": "        \u002Bstring? BannerPictureUrl",
+    "French": "        \u002Bstring ? BannerPictureUrl"
+  },
+  {
+    "English": "- Achievements Profiles",
+    "French": "- Profils des r\u00E9alisations"
+  },
+  {
+    "English": "Costing",
+    "French": "Calcul des co\u00FBts"
+  },
+  {
+    "English": "Conda Packages",
+    "French": "Paquets Conda"
+  },
+  {
+    "English": "# Working with Conda",
+    "French": "# Travailler avec Conda"
+  },
+  {
+    "English": "Databricks can support Conda based environments. FSDH provides two options for users to work with Conda.",
+    "French": "Les Databricks peuvent prendre en charge des environnements bas\u00E9s sur Conda. DHSF offre deux options aux utilisateurs pour travailler avec Conda."
+  },
+  {
+    "English": "1. Project specific Docker image with Conda support and a predefined Conda environment. The Docker image needs to be co-developed with the FSDH support team and pushed to GitHub Container Registry (GHCR). ",
+    "French": "1. Image Docker sp\u00E9cifique au projet avec le support Conda et un environnement Conda pr\u00E9d\u00E9fini. L\u0027image Docker doit \u00EAtre co-d\u00E9velopp\u00E9e avec l\u0027\u00E9quipe de support DHSF et pouss\u00E9e vers le GitHub Container Registry (GHCR)."
+  },
+  {
+    "English": "2. Generic Docker image with Conda support. Users will need to install packages in their notebooks.",
+    "French": "2. Image Docker g\u00E9n\u00E9rique avec support Conda. Les utilisateurs devront installer les paquets dans leurs ordinateurs portables."
+  },
+  {
+    "English": "For illustration purposes, the following steps are based on option 1.",
+    "French": "\u00C0 titre d\u0027illustration, les \u00E9tapes suivantes sont bas\u00E9es sur l\u0027option 1."
+  },
+  {
+    "English": "## Step 1: Create environment YAML",
+    "French": "## \u00C9tape 1 : Cr\u00E9er l\u0027environnement YAML"
+  },
+  {
+    "English": "Sample code for \u0060env.yml\u0060. Skip to Step 3 if using an existing Docker image.",
+    "French": "Exemple de code pour \u0060env.yml\u0060. Passez \u00E0 l\u0027\u00E9tape 3 si vous utilisez une image Docker existante."
+  },
+  {
+    "English": "name: fsdh-sample",
+    "French": "nom : fsdh-sample"
+  },
+  {
+    "English": "channels:",
+    "French": "canaux :"
+  },
+  {
+    "English": "  - bioconda",
+    "French": "  - bioconda"
+  },
+  {
+    "English": "  - default",
+    "French": "  - par d\u00E9faut"
+  },
+  {
+    "English": "dependencies:",
+    "French": "d\u00E9pendances :"
+  },
+  {
+    "English": "  - python=3.8.16",
+    "French": "  - python=3.8.16"
+  },
+  {
+    "English": "  - pip=23.0.1",
+    "French": "  - pip=23.0.1"
+  },
+  {
+    "English": "  - six=1.16.0",
+    "French": "  - six=1.16.0"
+  },
+  {
+    "English": "  - ipython=8.12.0",
+    "French": "  - ipython=8.12.0"
+  },
+  {
+    "English": "  - nomkl=3.0",
+    "French": "  - nomkl=3.0"
+  },
+  {
+    "English": "  - numpy=1.24.3",
+    "French": "  - numpy=1.24.3"
+  },
+  {
+    "English": "  - pandas=1.1.5",
+    "French": "  - pandas=1.1.5"
+  },
+  {
+    "English": "  - traitlets=5.7.1",
+    "French": "  - traitlets=5.7.1"
+  },
+  {
+    "English": "  - wheel=0.38.4",
+    "French": "  - roue=0.38.4"
+  },
+  {
+    "English": "  - hifiasm=0.16.1",
+    "French": "  - hifiasm=0.16.1"
+  },
+  {
+    "English": "  - pip:",
+    "French": "  - pip :"
+  },
+  {
+    "English": "    - pyarrow==1.0.1",
+    "French": "    - pyarrow==1.0.1"
+  },
+  {
+    "English": "## Step 2. Build and Push the Image",
+    "French": "## \u00C9tape 2. Construire et pousser l\u0027image"
+  },
+  {
+    "English": "The FSDH team builds and pushes the image to GitHub. Skip to Step 3 if using an existing Docker image.",
+    "French": "L\u0027\u00E9quipe DHSF construit et pousse l\u0027image sur GitHub. Passez \u00E0 l\u0027\u00E9tape 3 si vous utilisez une image Docker existante."
+  },
+  {
+    "English": "docker build -t fsdh-sample .",
+    "French": "docker build -t fsdh-sample ."
+  },
+  {
+    "English": "export GHCR_PAT=\u0022XXX\u0022",
+    "French": "export GHCR_PAT=\u0022XXX\u0022"
+  },
+  {
+    "English": "echo $GHCR_PAT|docker login ghcr.io -u \u003Cusername\u003E --password-stdin",
+    "French": "echo $GHCR_PAT|docker login ghcr.io -u \u003Cusername\u003E --password-stdin"
+  },
+  {
+    "English": "docker tag fsdh-sample ghcr.io/ssc-sp/fsdh-sample:latest",
+    "French": "docker tag fsdh-sample ghcr.io/ssc-sp/fsdh-sample:latest"
+  },
+  {
+    "English": "docker push ghcr.io/ssc-sp/fsdh-sample:latest",
+    "French": "docker push ghcr.io/ssc-sp/fsdh-sample:latest"
+  },
+  {
+    "English": "## Step 3. Create a cluster",
+    "French": "## \u00C9tape 3. Cr\u00E9er un cluster"
+  },
+  {
+    "English": "1. Ask your admin to enable Container Service for your Databricks workspace.",
+    "French": "1. Demandez \u00E0 votre administrateur d\u0027activer Container Service pour votre espace de travail Databricks."
+  },
+  {
+    "English": "2. Create a cluster with access mode \u0022No Isolation Shared\u0022",
+    "French": "2. Cr\u00E9ez un cluster avec le mode d\u0027acc\u00E8s \u0022No Isolation Shared\u0022 (pas d\u0027isolation partag\u00E9e)"
+  },
+  {
+    "English": "3. Choose a runtime of 10.4-LTS, 9.1-LTS or 7.3-LTS",
+    "French": "3. Choisissez une dur\u00E9e d\u0027ex\u00E9cution de 10.4-LTS, 9.1-LTS ou 7.3-LTS."
+  },
+  {
+    "English": "4. Under Advance -\u003E Docker, use image \u0060ghcr.io/ssc-sp/fsdh-sample:latest\u0060",
+    "French": "4. Sous Advance -\u003E Docker, utilisez l\u0027image \u0060ghcr.io/ssc-sp/fsdh-sample:latest\u0060"
+  },
+  {
+    "English": "![image](https://user-images.githubusercontent.com/3179656/236491765-2dc12ee1-4106-42eb-9462-76accf8b3621.png)",
+    "French": "![image](https://user-images.githubusercontent.com/3179656/236491765-2dc12ee1-4106-42eb-9462-76accf8b3621.png)"
+  },
+  {
+    "English": "## Step 4. Validate the Cluster",
+    "French": "## \u00C9tape 4. Valider le cluster"
+  },
+  {
+    "English": "Run the following code:",
+    "French": "Ex\u00E9cutez le code suivant :"
+  },
+  {
+    "English": "%sh",
+    "French": "%sh"
+  },
+  {
+    "English": "conda list",
+    "French": "liste de conda"
+  },
+  {
+    "English": "Once you have enabled the APIs you need in your project, open the navigation menu and click on \u0022IAM \u0026 Admin\u0022:",
+    "French": "Une fois que vous avez activ\u00E9 les API dont vous avez besoin dans votre projet, ouvrez le menu de navigation et cliquez sur \u0022IAM \u0026 Admin\u0022 :"
+  },
+  {
+    "English": "To register your Google Cloud",
+    "French": "Pour enregistrer votre Google Cloud"
+  },
+  {
+    "English": "newPath = \u0022/dbfs/FileStore/tables/\u0022\u002BcredsPath.split(\u0022/\u0022)[-1]",
+    "French": "newPath = \u0022/dbfs/FileStore/tables/\u0022\u002BcredsPath.split(\u0022/\u0022)[-1]"
+  },
+  {
+    "English": "with open(newPath, \u0022w\u0022) as f:",
+    "French": "avec open(newPath, \u0022w\u0022) as f :"
+  },
+  {
+    "English": "Dashboarding",
+    "French": "Tableau de bord"
+  },
+  {
+    "English": "# How to Dashboard in Databricks",
+    "French": "# Comment cr\u00E9er un tableau de bord dans Databricks"
+  },
+  {
+    "English": "- Basic knowledge of Structured Query Language (SQL)",
+    "French": "- Connaissance de base du langage de requ\u00EAte structur\u00E9 (SQL)"
+  },
+  {
+    "English": "- Your data being stored as a table(s) within Databricks",
+    "French": "- Vos donn\u00E9es sont stock\u00E9es sous forme de table(s) dans Databricks"
+  },
+  {
+    "English": "## Why create dashboards?",
+    "French": "## Pourquoi cr\u00E9er des tableaux de bord ?"
+  },
+  {
+    "English": "- They are a great way to visualize your data in a way that is easy to understand",
+    "French": "- Ils constituent un excellent moyen de visualiser vos donn\u00E9es d\u0027une mani\u00E8re facile \u00E0 comprendre."
+  },
+  {
+    "English": "- They allow you to easily share your data with others (within your workspace)",
+    "French": "- Ils vous permettent de partager facilement vos donn\u00E9es avec d\u0027autres personnes (au sein de votre espace de travail)."
+  },
+  {
+    "English": "- They can be exported as PDF files to be easily shared to anyone",
+    "French": "- Ils peuvent \u00EAtre export\u00E9s sous forme de fichiers PDF pour \u00EAtre facilement partag\u00E9s avec n\u0027importe qui."
+  },
+  {
+    "English": "- They are dynamic and can be used to monitor your data in real-time",
+    "French": "- Ils sont dynamiques et peuvent \u00EAtre utilis\u00E9s pour contr\u00F4ler vos donn\u00E9es en temps r\u00E9el."
+  },
+  {
+    "English": "- They can be used to create an interactive user interface for your data",
+    "French": "- Ils peuvent \u00EAtre utilis\u00E9s pour cr\u00E9er une interface utilisateur interactive pour vos donn\u00E9es."
+  },
+  {
+    "English": "## Sample Dashboard",
+    "French": "## Exemple de tableau de bord"
+  },
+  {
+    "English": "Here is a sample dashboard created using Databricks\u0027 built-in dashboarding tool for the analysis of the [National Oceanic and Atmospheric Administration\u0027s International Comprehensive Ocean-Atmosphere DataSet](https://icoads.noaa.gov/).",
+    "French": "Voici un exemple de tableau de bord cr\u00E9\u00E9 \u00E0 l\u0027aide de l\u0027outil de tableau de bord int\u00E9gr\u00E9 de Databricks pour l\u0027analyse du [National Oceanic and Atmospheric Administration\u0027s International Comprehensive Ocean-Atmosphere DataSet] (https://icoads.noaa.gov/)."
+  },
+  {
+    "English": "![Preview 1](Dashboard1.png)",
+    "French": "![Aper\u00E7u 1](Dashboard1.png)"
+  },
+  {
+    "English": "![Preview 2](Dashboard2.png)",
+    "French": "![Aper\u00E7u 2](Dashboard2.png)"
+  },
+  {
+    "English": "![Preview 3](Dashboard3.png)",
+    "French": "![Aper\u00E7u 3](Dashboard3.png)"
+  },
+  {
+    "English": "This sample dashboard can also be seen as an [exported PDF](https://github.com/ssc-sp/datahub-docs/blob/main/UserGuide/Databricks/SampleDashboard.pdf).",
+    "French": "Cet exemple de tableau de bord peut \u00E9galement \u00EAtre visualis\u00E9 sous forme de [PDF export\u00E9] (https://github.com/ssc-sp/datahub-docs/blob/main/UserGuide/Databricks/SampleDashboard.pdf)."
+  },
+  {
+    "English": "As part of this tutorial, we will be going through the process of creating one block of this dashboard. All blocks follow a similar process.",
+    "French": "Dans le cadre de ce tutoriel, nous allons suivre le processus de cr\u00E9ation d\u0027un bloc de ce tableau de bord. Tous les blocs suivent un processus similaire."
+  },
+  {
+    "English": "## 1. Preparing your data",
+    "French": "## 1. Pr\u00E9parer vos donn\u00E9es"
+  },
+  {
+    "English": "Before you can create a dashboard, you need to have your data stored as a table within Databricks. If you have not done so already, you can follow the steps in the [Databricks documentation](https://docs.databricks.com/data/tables.html#create-a-table) to create a table from your data.",
+    "French": "Avant de pouvoir cr\u00E9er un tableau de bord, vos donn\u00E9es doivent \u00EAtre stock\u00E9es sous forme de tableau dans Databricks. Si vous ne l\u0027avez pas encore fait, vous pouvez suivre les \u00E9tapes de la [documentation Databricks] (https://docs.databricks.com/data/tables.html#create-a-table) pour cr\u00E9er une table \u00E0 partir de vos donn\u00E9es."
+  },
+  {
+    "English": "Your data should visible in the \u0022Data\u0022 tab of your workspace:",
+    "French": "Vos donn\u00E9es devraient \u00EAtre visibles dans l\u0027onglet \u0022Donn\u00E9es\u0022 de votre espace de travail :"
+  },
+  {
+    "English": "![Data tab](Tables.png)",
+    "French": "![Onglet Donn\u00E9es](Tables.png)"
+  },
+  {
+    "English": "## 2. Creating a dashboard",
+    "French": "## 2. Cr\u00E9ation d\u0027un tableau de bord"
+  },
+  {
+    "English": "After setting your environment to \u0022SQL\u0022 in the top left corner of your workspace, click on the \u0022Dashboard\u0022 tab. Then click on the \u0022Create dashboard\u0022 button to create a new dashboard:",
+    "French": "Apr\u00E8s avoir d\u00E9fini votre environnement sur \u0022SQL\u0022 dans le coin sup\u00E9rieur gauche de votre espace de travail, cliquez sur l\u0027onglet \u0022Tableau de bord\u0022. Cliquez ensuite sur le bouton \u0022Cr\u00E9er un tableau de bord\u0022 pour cr\u00E9er un nouveau tableau de bord :"
+  },
+  {
+    "English": "![Create dashboard](CreateDashboard.png)",
+    "French": "![Cr\u00E9er un tableau de bord](CreateDashboard.png)"
+  },
+  {
+    "English": "Select a proper name for your dashboard and click \u0022Save\u0022. Dashboards in Databricks are made up of \u0022blocks\u0022. Each block is either a visualization, a text box or a filter. You can add a new block by clicking on the \u0022Add\u0022 button on the top right corner of your dashboard.",
+    "French": "S\u00E9lectionnez un nom appropri\u00E9 pour votre tableau de bord et cliquez sur \u0022Enregistrer\u0022. Les tableaux de bord dans Databricks sont constitu\u00E9s de \u0022blocs\u0022. Chaque bloc est soit une visualisation, soit une zone de texte, soit un filtre. Vous pouvez ajouter un nouveau bloc en cliquant sur le bouton \u0022Ajouter\u0022 dans le coin sup\u00E9rieur droit de votre tableau de bord."
+  },
+  {
+    "English": "- Visualizations are used to display your data in a visual format. You can choose from a variety of different visualizations such as bar charts, line charts, pie charts, etc.",
+    "French": "- Les visualisations sont utilis\u00E9es pour afficher vos donn\u00E9es dans un format visuel. Vous pouvez choisir parmi une vari\u00E9t\u00E9 de visualisations diff\u00E9rentes telles que les diagrammes \u00E0 barres, les diagrammes lin\u00E9aires, les diagrammes circulaires, etc."
+  },
+  {
+    "English": "- Text boxes are used to display text. You can use them to add titles, subtitles, descriptions, etc. These text blocks can be formatted using Markdown and support embedding pictures.",
+    "French": "- Les zones de texte sont utilis\u00E9es pour afficher du texte. Vous pouvez les utiliser pour ajouter des titres, des sous-titres, des descriptions, etc. Ces blocs de texte peuvent \u00EAtre format\u00E9s \u00E0 l\u0027aide de Markdown et permettent d\u0027int\u00E9grer des images."
+  },
+  {
+    "English": "- Filters are used to filter your data. You can use them to filter your data based on a specific column or a specific value.",
+    "French": "- Les filtres sont utilis\u00E9s pour filtrer vos donn\u00E9es. Vous pouvez les utiliser pour filtrer vos donn\u00E9es sur la base d\u0027une colonne sp\u00E9cifique ou d\u0027une valeur sp\u00E9cifique."
+  },
+  {
+    "English": "At the core of each block is a SQL query. This query is used to retrieve the data that will be displayed in the block. In essence, each block is a dynamic representation of your data that is updated in real-time as your data changes.",
+    "French": "Au c\u0153ur de chaque bloc se trouve une requ\u00EAte SQL. Cette requ\u00EAte est utilis\u00E9e pour r\u00E9cup\u00E9rer les donn\u00E9es qui seront affich\u00E9es dans le bloc. En fait, chaque bloc est une repr\u00E9sentation dynamique de vos donn\u00E9es qui est mise \u00E0 jour en temps r\u00E9el au fur et \u00E0 mesure que vos donn\u00E9es changent."
+  },
+  {
+    "English": "## 3. Creating an SQL query",
+    "French": "## 3. Cr\u00E9ation d\u0027une requ\u00EAte SQL"
+  },
+  {
+    "English": "On the navigation bar, click on the \u0022Queries\u0022 tab and then click on the \u0022Create\u0022 button to create a new query:",
+    "French": "Dans la barre de navigation, cliquez sur l\u0027onglet \u0022Requ\u00EAtes\u0022, puis sur le bouton \u0022Cr\u00E9er\u0022 pour cr\u00E9er une nouvelle requ\u00EAte :"
+  },
+  {
+    "English": "![Create query](CreateQuery.png)",
+    "French": "![Cr\u00E9er une requ\u00EAte](CreateQuery.png)"
+  },
+  {
+    "English": "This will open the SQL editor. Here you can write your SQL query. For this tutorial, we will be creating a bar chart that displays the number of observations for each year. The query for this is as follows:",
+    "French": "L\u0027\u00E9diteur SQL s\u0027ouvre alors. Vous pouvez y \u00E9crire votre requ\u00EAte SQL. Pour ce tutoriel, nous allons cr\u00E9er un diagramme \u00E0 barres qui affiche le nombre d\u0027observations pour chaque ann\u00E9e. La requ\u00EAte est la suivante :"
+  },
+  {
+    "English": "SELECT YEAR(date) AS year, COUNT(sea_surface_temp) AS measurement_count",
+    "French": "SELECT YEAR(date) AS year, COUNT(sea_surface_temp) AS measurement_count"
+  },
+  {
+    "English": "FROM noaa_icoads",
+    "French": "FROM noaa_icoads"
+  },
+  {
+    "English": "WHERE YEAR(date) \u003E YEAR(DATE(\u00221849-01-01\u0022))",
+    "French": "WHERE YEAR(date) \u003E YEAR(DATE(\u00221849-01-01\u0022))"
+  },
+  {
+    "English": "GROUP BY year",
+    "French": "GROUPEMENT PAR ANN\u00C9E"
+  },
+  {
+    "English": "ORDER BY year",
+    "French": "ORDER BY year"
+  },
+  {
+    "English": "Notice that we are using the \u0060noaa_icoads\u0060 table that we created earlier. We are also using the \u0060YEAR()\u0060 function to extract the year from the \u0060date\u0060 column. This is because the \u0060date\u0060 column contains the date in the format \u0060YYYY-MM-DD\u0060. We are also using the \u0060DATE()\u0060 function to create a date object from the string \u0060\u00221849-01-01\u0022\u0060. This is because the \u0060YEAR()\u0060 function only works with date objects. We are using the \u0060GROUP BY\u0060 clause to group the data by year and the \u0060ORDER BY\u0060 clause to order the data by year. We are using data from 1849 onwards because the data before that is not necessarily reliable. This query will return the following table:",
+    "French": "Notez que nous utilisons la table \u0060noaa_icoads\u0060 que nous avons cr\u00E9\u00E9e plus t\u00F4t. Nous utilisons \u00E9galement la fonction \u0060YEAR()\u0060 pour extraire l\u0027ann\u00E9e de la colonne \u0060date\u0060. En effet, la colonne \u0060date\u0060 contient la date au format \u0060YYY-MM-DD\u0060. Nous utilisons \u00E9galement la fonction \u0060DATE()\u0060 pour cr\u00E9er un objet date \u00E0 partir de la cha\u00EEne \u0060\u00221849-01-01\u0022\u0060. En effet, la fonction \u0060YEAR()\u0060 ne fonctionne qu\u0027avec des objets de type date. Nous utilisons la clause \u0060GROUP BY\u0060 pour regrouper les donn\u00E9es par ann\u00E9e et la clause \u0060ORDER BY\u0060 pour ordonner les donn\u00E9es par ann\u00E9e. Nous utilisons les donn\u00E9es \u00E0 partir de 1849 car les donn\u00E9es ant\u00E9rieures ne sont pas n\u00E9cessairement fiables. Cette requ\u00EAte renvoie le tableau suivant :"
+  },
+  {
+    "English": "| year | measurement_count |",
+    "French": "| ann\u00E9e | nombre_de_mesures |"
+  },
+  {
+    "English": "| ---- | ----------------- |",
+    "French": "| ---- | ----------------- |"
+  },
+  {
+    "English": "| 1850 | 27736             |",
+    "French": "| 1850 | 27736 |"
+  },
+  {
+    "English": "| 1851 | 22490             |",
+    "French": "| 1851 | 22490 |"
+  },
+  {
+    "English": "| 1852 | 25061             |",
+    "French": "| 1852 | 25061 |"
+  },
+  {
+    "English": "| 1853 | 39143             |",
+    "French": "| 1853 | 39143 |"
+  },
+  {
+    "English": "| ...  | ...               |",
+    "French": "| ...  | ...               |"
+  },
+  {
+    "English": "Now that we have our query, let us save it by pressing the \u0022Save\u0022 button. This will open a dialog box where you can enter a name for your query. Enter a proper name and click \u0022Save\u0022.",
+    "French": "Maintenant que nous avons notre requ\u00EAte, enregistrons-la en cliquant sur le bouton \u0022Enregistrer\u0022. Une bo\u00EEte de dialogue s\u0027ouvre alors, dans laquelle vous pouvez saisir un nom pour votre requ\u00EAte. Saisissez un nom appropri\u00E9 et cliquez sur \u0022Enregistrer\u0022."
+  },
+  {
+    "English": "## 4. Creating a visualization",
+    "French": "## 4. Cr\u00E9ation d\u0027une visualisation"
+  },
+  {
+    "English": "Navigate back to the dashboard you created earlier, click the 3 dots at the top right and click \u0022Edit\u0022. This will open the dashboard editor. Click on the \u0022Add\u0022 button and select \u0022Visualization\u0022. This will prompt you to select a saved query: select the query you created earlier and click \u0022Select\u0022. This will open the visualization editor. Here you can select the type of visualization you want to create. For this tutorial, we will be creating a bar chart. Select \u0022Bar chart\u0022 and click \u0022Select\u0022. This will open the bar chart editor. Here you can select the columns you want to use for the x-axis and the y-axis. For this tutorial, we will be using the \u0060year\u0060 column for the x-axis and the \u0060measurement_count\u0060 column for the y-axis. Select the appropriate columns and click \u0022Apply\u0022. This will create a bar chart visualization. You can click on the \u0022Preview\u0022 button to see a preview of your visualization. You can also click on the \u0022Edit\u0022 button to edit your visualization. Once you are satisfied with your visualization, click \u0022Save\u0022. This will save your visualization and add it to your dashboard.",
+    "French": "Retournez au tableau de bord que vous avez cr\u00E9\u00E9 pr\u00E9c\u00E9demment, cliquez sur les 3 points en haut \u00E0 droite et cliquez sur \u0022Modifier\u0022. L\u0027\u00E9diteur de tableau de bord s\u0027ouvre alors. Cliquez sur le bouton \u0022Ajouter\u0022 et s\u00E9lectionnez \u0022Visualisation\u0022. Vous \u00EAtes invit\u00E9 \u00E0 s\u00E9lectionner une requ\u00EAte sauvegard\u00E9e : s\u00E9lectionnez la requ\u00EAte que vous avez cr\u00E9\u00E9e pr\u00E9c\u00E9demment et cliquez sur \u0022S\u00E9lectionner\u0022. L\u0027\u00E9diteur de visualisation s\u0027ouvre alors. Vous pouvez y s\u00E9lectionner le type de visualisation que vous souhaitez cr\u00E9er. Pour ce tutoriel, nous allons cr\u00E9er un diagramme \u00E0 barres. S\u00E9lectionnez \u0022Diagramme \u00E0 barres\u0022 et cliquez sur \u0022S\u00E9lectionner\u0022. L\u0027\u00E9diteur de diagramme \u00E0 barres s\u0027ouvre. Vous pouvez y s\u00E9lectionner les colonnes que vous souhaitez utiliser pour l\u0027axe des x et l\u0027axe des y. Pour ce tutoriel, nous utiliserons la colonne \u0060year\u0060 pour l\u0027axe x et la colonne \u0060measurement_count\u0060 pour l\u0027axe y. S\u00E9lectionnez les colonnes appropri\u00E9es et cliquez sur \u0022Appliquer\u0022. Cela cr\u00E9era un diagramme \u00E0 barres. Vous pouvez cliquer sur le bouton \u0022Preview\u0022 pour voir un aper\u00E7u de votre visualisation. Vous pouvez \u00E9galement cliquer sur le bouton \u0022Editer\u0022 pour modifier votre visualisation. Lorsque vous \u00EAtes satisfait de votre visualisation, cliquez sur \u0022Enregistrer\u0022. Votre visualisation sera enregistr\u00E9e et ajout\u00E9e \u00E0 votre tableau de bord."
+  },
+  {
+    "English": "There are tons of different visualization options available in Databricks. You should explore them to find the ones most suited for you. The visualization editor also offers tons of customization options such as changing the color of the bars, changing the title, etc. You can also add visualizations from different tables to a single dashboard, allowing you to compare data from different tables.",
+    "French": "Il existe des tonnes d\u0027options de visualisation diff\u00E9rentes dans Databricks. Vous devriez les explorer pour trouver celles qui vous conviennent le mieux. L\u0027\u00E9diteur de visualisation offre \u00E9galement des tonnes d\u0027options de personnalisation telles que la modification de la couleur des barres, la modification du titre, etc. Vous pouvez \u00E9galement ajouter des visualisations provenant de diff\u00E9rents tableaux \u00E0 un seul tableau de bord, ce qui vous permet de comparer des donn\u00E9es provenant de diff\u00E9rents tableaux."
+  },
+  {
+    "English": "## 5. Finalizing your dashboard",
+    "French": "## 5. Finalisation du tableau de bord"
+  },
+  {
+    "English": "You may add as many blocks as you want and you can arrange them and resize them in any way you want. You can also add text boxes and filters to your dashboard, as well as color themes. Once you are satisfied with your dashboard, click on the \u0022Done editing\u0022 button.",
+    "French": "Vous pouvez ajouter autant de blocs que vous le souhaitez et vous pouvez les arranger et les redimensionner comme bon vous semble. Vous pouvez \u00E9galement ajouter des zones de texte et des filtres \u00E0 votre tableau de bord, ainsi que des th\u00E8mes de couleurs. Lorsque vous \u00EAtes satisfait de votre tableau de bord, cliquez sur le bouton \u0022Terminer l\u0027\u00E9dition\u0022."
+  },
+  {
+    "English": "By clicking on the 3 dots at the top right, you may also export your dashboard to PDF, share it with others, or delete it.",
+    "French": "En cliquant sur les 3 points en haut \u00E0 droite, vous pouvez \u00E9galement exporter votre tableau de bord au format PDF, le partager avec d\u0027autres personnes ou le supprimer."
+  },
+  {
+    "English": "Here is another fun example of a dashboard created using Databricks\u0027 built-in dashboarding tool:",
+    "French": "Voici un autre exemple amusant de tableau de bord cr\u00E9\u00E9 \u00E0 l\u0027aide de l\u0027outil de tableau de bord int\u00E9gr\u00E9 de Databricks :"
+  },
+  {
+    "English": "![ChatGPT](ChatGPT.png)",
+    "French": "![ChatGPT](ChatGPT.png)"
+  },
+  {
+    "English": "This is a word cloud visualization of the most common words used in tweets containing the word \u0022ChatGPT\u0022 on twitter on a given day. Data taken from [Kaggle datasets](https://www.kaggle.com/datasets/edomingo/chatgpt-1000-daily-tweets).",
+    "French": "Il s\u0027agit d\u0027un nuage de mots visualisant les mots les plus utilis\u00E9s dans les tweets contenant le mot \u0022ChatGPT\u0022 sur twitter un jour donn\u00E9. Les donn\u00E9es proviennent de [Kaggle datasets] (https://www.kaggle.com/datasets/edomingo/chatgpt-1000-daily-tweets)."
+  },
+  {
+    "English": "## [More information on Databricks Dashboards](https://learn.microsoft.com/en-us/azure/databricks/lakehouse/data-objects)",
+    "French": "## [Plus d\u0027informations sur les tableaux de bord Databricks](https://learn.microsoft.com/en-us/azure/databricks/lakehouse/data-objects)"
+  },
+  {
+    "English": "Git Integration",
+    "French": "Int\u00E9gration de Git"
+  },
+  {
+    "English": "# Git/GitHub Integration with Databricks",
+    "French": "# Int\u00E9gration de Git/GitHub avec Databricks"
+  },
+  {
+    "English": "## Pre-requisites",
+    "French": "## Pr\u00E9-requis"
+  },
+  {
+    "English": "- Familiarity with Git version control.",
+    "French": "- Familiarit\u00E9 avec le contr\u00F4le de version Git."
+  },
+  {
+    "English": "- Have access to a Git repository - the creation and access to a repository is outside the scope of this guide.",
+    "French": "- Avoir acc\u00E8s \u00E0 un d\u00E9p\u00F4t Git - la cr\u00E9ation et l\u0027acc\u00E8s \u00E0 un d\u00E9p\u00F4t n\u0027entrent pas dans le cadre de ce guide."
+  },
+  {
+    "English": "## Why use Git/GitHub",
+    "French": "## Pourquoi utiliser Git/GitHub ?"
+  },
+  {
+    "English": "- Better version control than built-in change tracker.",
+    "French": "- Meilleur contr\u00F4le de version que le gestionnaire de changement int\u00E9gr\u00E9."
+  },
+  {
+    "English": "- Manage code and notebooks outside Databricks.",
+    "French": "- G\u00E9rer le code et les carnets en dehors de Databricks."
+  },
+  {
+    "English": "- Collaboration across multiple workspaces.",
+    "French": "- Collaboration entre plusieurs espaces de travail."
+  },
+  {
+    "English": "## Workbook vs Repository",
+    "French": "## Workbook vs Repository"
+  },
+  {
+    "English": "- Once you connect Git to Databricks, you can create and use notebooks like normal and also push them to GitHub.",
+    "French": "- Une fois que vous avez connect\u00E9 Git \u00E0 Databricks, vous pouvez cr\u00E9er et utiliser des carnets de notes comme d\u0027habitude et \u00E9galement les pousser vers GitHub."
+  },
+  {
+    "English": "- Workbook files in Git have a slightly different syntax than standard Jupyter Notebooks.",
+    "French": "- Les fichiers Workbook dans Git ont une syntaxe l\u00E9g\u00E8rement diff\u00E9rente de celle des carnets Jupyter standard."
+  },
+  {
+    "English": "## Part 1: Setup Git/GitHub with Databricks",
+    "French": "## Partie 1 : Configurer Git/GitHub avec Databricks"
+  },
+  {
+    "English": "Navigate to your User Settings from the top right drop down. Select the Git integration tab.",
+    "French": "Acc\u00E9dez \u00E0 vos param\u00E8tres d\u0027utilisateur dans le menu d\u00E9roulant en haut \u00E0 droite. S\u00E9lectionnez l\u0027onglet Int\u00E9gration Git."
+  },
+  {
+    "English": "![image](https://user-images.githubusercontent.com/3179656/236484074-eb2b631a-b130-4eda-8554-26a79bf8bb9d.png)",
+    "French": "![image](https://user-images.githubusercontent.com/3179656/236484074-eb2b631a-b130-4eda-8554-26a79bf8bb9d.png)"
+  },
+  {
+    "English": "- Select your Git provider",
+    "French": "- S\u00E9lectionnez votre fournisseur Git"
+  },
+  {
+    "English": "- Configure username",
+    "French": "- Configurer le nom d\u0027utilisateur"
+  },
+  {
+    "English": "- Generate a Token to give Databricks access to your repository",
+    "French": "- G\u00E9n\u00E9rer un Token pour donner \u00E0 Databricks l\u0027acc\u00E8s \u00E0 votre r\u00E9f\u00E9rentiel"
+  },
+  {
+    "English": "For GitHub, the access tokens can be created in Settings / Personal Access Token / Tokens (classic). On this page, click \u0022Generate new token\u0022 then \u0022Generate new token (classic)\u0022.",
+    "French": "Pour GitHub, les jetons d\u0027acc\u00E8s peuvent \u00EAtre cr\u00E9\u00E9s dans Settings / Personal Access Token / Tokens (classic). Sur cette page, cliquez sur \u0022Generate new token\u0022 puis sur \u0022Generate new token (classic)\u0022."
+  },
+  {
+    "English": "![image](https://user-images.githubusercontent.com/3179656/236484380-d193ae59-1a9c-434e-a7ec-790d691c1a89.png)",
+    "French": "![image](https://user-images.githubusercontent.com/3179656/236484380-d193ae59-1a9c-434e-a7ec-790d691c1a89.png)"
+  },
+  {
+    "English": "As a security best practice, we do recommend configuring an expiration date of less than a year. Tokens can easily be regenerated following expiration by following these steps.",
+    "French": "Pour des raisons de s\u00E9curit\u00E9, nous recommandons de configurer une date d\u0027expiration inf\u00E9rieure \u00E0 un an. Les jetons peuvent \u00EAtre facilement r\u00E9g\u00E9n\u00E9r\u00E9s apr\u00E8s expiration en suivant les \u00E9tapes suivantes."
+  },
+  {
+    "English": "The scopes required are \u0060repo\u0060 and \u0060workflow\u0060 (optional for GitHub Actions workflows)",
+    "French": "Les scopes requis sont \u0060repo\u0060 et \u0060workflow\u0060 (optionnel pour les workflows GitHub Actions)."
+  },
+  {
+    "English": "![image](TokenScopes.png)",
+    "French": "![image](TokenScopes.png)"
+  },
+  {
+    "English": "If the token and access permissions are correctly configured - you should see a green mark in the settings page",
+    "French": "Si le jeton et les autorisations d\u0027acc\u00E8s sont correctement configur\u00E9s, vous devriez voir une marque verte dans la page des param\u00E8tres."
+  },
+  {
+    "English": "![image](https://user-images.githubusercontent.com/3179656/236485049-c9a97fd0-3737-4c7d-9f3d-58242a32363c.png)",
+    "French": "![image](https://user-images.githubusercontent.com/3179656/236485049-c9a97fd0-3737-4c7d-9f3d-58242a32363c.png)"
+  },
+  {
+    "English": "## Part 2: Accessing and Modifying Repositories",
+    "French": "## Partie 2 : Acc\u00E9der et modifier les r\u00E9f\u00E9rentiels"
+  },
+  {
+    "English": "To clone a repository, you will need its HTTPS access link, and its branch.",
+    "French": "Pour cloner un d\u00E9p\u00F4t, vous aurez besoin de son lien d\u0027acc\u00E8s HTTPS et de sa branche."
+  },
+  {
+    "English": "![image](https://user-images.githubusercontent.com/3179656/236485166-3ed15a99-2ad6-4a97-9d17-8f46bbf1c111.png)",
+    "French": "![image](https://user-images.githubusercontent.com/3179656/236485166-3ed15a99-2ad6-4a97-9d17-8f46bbf1c111.png)"
+  },
+  {
+    "English": "Once this is configured, you can see the files inside the repository",
+    "French": "Une fois la configuration effectu\u00E9e, vous pouvez voir les fichiers contenus dans le r\u00E9f\u00E9rentiel"
+  },
+  {
+    "English": "![image](GitMenu.png)",
+    "French": "![image](GitMenu.png)"
+  },
+  {
+    "English": "Changes done from Databricks can be pushed to the repository using the built-in Git menu. Access it by right clicking in your repo files and clicking \u0022Git...\u0022.",
+    "French": "Les changements effectu\u00E9s \u00E0 partir de Databricks peuvent \u00EAtre pouss\u00E9s vers le d\u00E9p\u00F4t en utilisant le menu Git int\u00E9gr\u00E9. Pour y acc\u00E9der, cliquez avec le bouton droit de la souris sur les fichiers de votre d\u00E9p\u00F4t et cliquez sur \u0022Git...\u0022."
+  },
+  {
+    "English": "This screen will allow you to commit and push changes, as well as pull existing changes.",
+    "French": "Cet \u00E9cran vous permet de valider et d\u0027introduire des modifications, ainsi que d\u0027extraire des modifications existantes."
+  },
+  {
+    "English": "![image](GitMenu2.png)",
+    "French": "![image](GitMenu2.png)"
+  },
+  {
+    "English": "## Resolving Conflicts",
+    "French": "## R\u00E9soudre les conflits"
+  },
+  {
+    "English": "If multiple commits impact the same code, there could be a conflict issue. The following message will appear while attempting to pull code:",
+    "French": "Si plusieurs commits impactent le m\u00EAme code, il peut y avoir un probl\u00E8me de conflit. Le message suivant appara\u00EEtra lors d\u0027une tentative d\u0027extraction de code :"
+  },
+  {
+    "English": "![image](MergeConflict.png)",
+    "French": "![image](MergeConflict.png)"
+  },
+  {
+    "English": "Select \u0022Resolve conflict using PR\u0022, which opens the following:",
+    "French": "S\u00E9lectionnez \u0022R\u00E9soudre le conflit \u00E0 l\u0027aide de la RP\u0022, ce qui ouvre la fen\u00EAtre suivante :"
+  },
+  {
+    "English": "![image](MergeConflict2.png)",
+    "French": "![image](MergeConflict2.png)"
+  },
+  {
+    "English": "This step will ask you to create a new branch where your changes will be committed. Enter a branch name and a commit message then commit the messages again. If successful, you\u0027ll see the following message. You can follow the link in that message to make your changes.",
+    "French": "Cette \u00E9tape vous demandera de cr\u00E9er une nouvelle branche dans laquelle vos modifications seront valid\u00E9es. Saisissez un nom de branche et un message de validation, puis validez \u00E0 nouveau les messages. En cas de succ\u00E8s, le message suivant s\u0027affichera. Vous pouvez suivre le lien contenu dans ce message pour effectuer vos modifications."
+  },
+  {
+    "English": "![image](MergeConflict3.png)",
+    "French": "![image](MergeConflict3.png)"
+  },
+  {
+    "English": "\u003C!-- ## Automating Git pulls",
+    "French": "\u003C!-- ## Automatiser les extractions Git"
+  },
+  {
+    "English": "?? --\u003E",
+    "French": "? ? --\u003E"
+  },
+  {
+    "English": "Release Notes",
+    "French": "Notes de mise \u00E0 jour"
+  },
+  {
+    "English": "# DataHub Release Notes",
+    "French": "# Notes de mise \u00E0 jour de DataHub"
+  },
+  {
+    "English": "## Version 2.0",
+    "French": "## Version 2.0"
+  },
+  {
+    "English": "Initial version deployed to PoC site. ",
+    "French": "Version initiale d\u00E9ploy\u00E9e sur le site VdP."
+  },
+  {
+    "English": "- Terraform support for Azure Databricks",
+    "French": "- Prise en charge de Terraform pour Azure Databricks"
+  },
+  {
+    "English": "- Terraform support for Storage Databricks",
+    "French": "- Prise en charge de Terraform pour les Storage Databricks"
+  },
+  {
+    "English": "- Resource section",
+    "French": "- Section des ressources"
+  },
+  {
+    "English": "- Azure costing integration",
+    "French": "- Int\u00E9gration du calcul des co\u00FBts dans Azure"
+  },
+  {
+    "English": "- Costing alerts",
+    "French": "- Alertes sur les co\u00FBts"
+  },
+  {
+    "English": "## Version 2.1",
+    "French": "## Version 2.1"
+  },
+  {
+    "English": "- Internal Dashboards for Workspace metrics",
+    "French": "- Tableaux de bord internes pour les mesures de l\u0027espace de travail"
+  },
+  {
+    "English": "- Added R support in Databrick Terraform Module",
+    "French": "- Ajout du support R dans le module Databrick Terraform"
+  },
+  {
+    "English": "## Version 2.2",
+    "French": "## Version 2.2"
+  },
+  {
+    "English": "Integrating Git in Databricks",
+    "French": "Int\u00E9grer Git dans Databricks"
+  },
+  {
+    "English": "Building Dashboards",
+    "French": "Construire des tableaux de bord"
   }
 ]
