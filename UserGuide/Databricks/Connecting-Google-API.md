@@ -150,5 +150,6 @@ print(ee.Image("NASA/NASADEM_HGT/001").get("title").getInfo())
 
 ![GCP Databricks Live Demo](https://fsdhprojdw1poc.blob.core.windows.net/datahub/Videos/GCP-Databricks-Demo.mp4?sp=r&st=2023-05-11T18:45:18Z&se=2025-05-12T02:45:18Z&spr=https&sv=2022-11-02&sr=b&sig=1vCEgDu%2FloxrKCoGkeDifmK9iboDZ0jfMN6Gx85TO2s%3D)
 
+[GCP Databricks Live Demo](https://fsdhprojdw1poc.blob.core.windows.net/datahub/Videos/GCP-Databricks-Demo.mp4?sp=r&st=2023-05-11T18:45:18Z&se=2025-05-12T02:45:18Z&spr=https&sv=2022-11-02&sr=b&sig=1vCEgDu%2FloxrKCoGkeDifmK9iboDZ0jfMN6Gx85TO2s%3D)
 
 [!Video https://fsdhprojdw1poc.blob.core.windows.net/datahub/Videos/GCP-Databricks-Demo.mp4?sp=r&st=2023-05-11T18:45:18Z&se=2025-05-12T02:45:18Z&spr=https&sv=2022-11-02&sr=b&sig=1vCEgDu%2FloxrKCoGkeDifmK9iboDZ0jfMN6Gx85TO2s%3D]
