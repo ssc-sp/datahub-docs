@@ -2,6 +2,11 @@
 
 This document details how to configure credentials to connect any google API such as Google Earth Engine, BigTable, and BigQuery.
 
+<video width="640" height="480" controls>
+    <source src="/api/media/sample1.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
 ## Assumptions
 
 - The FSDH will not provide credentials for the Google Cloud Platform and assumes the user has been provided an access by their department
@@ -145,10 +150,3 @@ ee.Initialize(credentials)
 # Let's test it out:
 print(ee.Image("NASA/NASADEM_HGT/001").get("title").getInfo())
 ```
-
-### Video Tutorial
-
-<video width="320" height="240" controls>
-    <source src="/api/media/sample1.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-</video>
