@@ -2,7 +2,7 @@
 
 This document details how to configure credentials to connect any google API such as Google Earth Engine, BigTable, and BigQuery.
 
-<video width="640" height="480" controls>
+<video width="720" height="405" controls>
     <source src="/api/media/sample1.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
