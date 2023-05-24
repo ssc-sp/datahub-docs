@@ -8,6 +8,11 @@ draft: true
 
 Ce document explique comment configurer les informations d'identification pour se connecter à n'importe quelle API Google telle que Google Earth Engine, BigTable et BigQuery.
 
+<video width="720" height="405" controls>
+    <source src="/api/media/sample1.mp4" type="video/mp4">
+    Votre navigateur ne prend pas en charge la balise vidéo.
+</video>
+
 ## Hypothèses
 
 - La DHSF ne fournira pas d'identifiants pour la Google Cloud Platform et suppose que l'utilisateur a reçu un accès de son département.

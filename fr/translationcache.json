@@ -14034,5 +14034,157 @@
   {
     "English": "Building Dashboards",
     "French": "Construire des tableaux de bord"
+  },
+  {
+    "English": "To access the same pre-created path from R using SparkR, refer to the following sample code.",
+    "French": "Pour acc\u00E9der au m\u00EAme chemin pr\u00E9-cr\u00E9\u00E9 \u00E0 partir de R en utilisant SparkR, r\u00E9f\u00E9rez-vous \u00E0 l\u0027exemple de code suivant."
+  },
+  {
+    "English": "sparkR.session()",
+    "French": "sparkR.session()"
+  },
+  {
+    "English": "df \u003C- collect(read.df(\u0022dbfs:/mnt/fsdh-dbk-main-mount/sample.csv\u0022, source = \u0022csv\u0022))",
+    "French": "df \u003C- collect(read.df(\u0022dbfs:/mnt/fsdh-dbk-main-mount/sample.csv\u0022, source = \u0022csv\u0022))"
+  },
+  {
+    "English": "head(df, 3)",
+    "French": "head(df, 3)"
+  },
+  {
+    "English": "|Workspace Description (English)|An account of the workspace in English.|",
+    "French": "|Description de l\u0027espace de travail (en anglais)|Une description de l\u0027espace de travail en anglais."
+  },
+  {
+    "English": "|Workspace Description (French)|An account of the workspace in French.|",
+    "French": "|Description de l\u0027espace de travail (fran\u00E7ais)|Compte rendu de l\u0027espace de travail en fran\u00E7ais."
+  },
+  {
+    "English": "|Organization Name|An entity responsible for making the resource available. (Some are listed with Legal name starting with Department of ...)|",
+    "French": "|Nom de l\u0027organisation : entit\u00E9 responsable de la mise \u00E0 disposition de la ressource. (Certaines sont list\u00E9es avec un nom l\u00E9gal commen\u00E7ant par Department of ...)."
+  },
+  {
+    "English": "|Security Categorization|Select the appropriated security categorization, default is Unclassified. For the PoC this is set to Unclassified only.|",
+    "French": "|La cat\u00E9gorie de s\u00E9curit\u00E9 s\u00E9lectionn\u00E9e est Unclassified (non classifi\u00E9) par d\u00E9faut. Pour le VdP, elle est r\u00E9gl\u00E9e sur Non classifi\u00E9 uniquement."
+  },
+  {
+    "English": "|Keywords (English)|Commonly used words or phrases which describe the dataset, in English. (Separate multiple entries by commas).|",
+    "French": "|Mots cl\u00E9s (anglais)|Mots ou phrases couramment utilis\u00E9s pour d\u00E9crire l\u0027ensemble de donn\u00E9es, en anglais. (S\u00E9parer les entr\u00E9es multiples par des virgules)."
+  },
+  {
+    "English": "|Keywords (French)|Commonly used words or phrases which describe the dataset, in French. (Separate multiple entries by commas).|",
+    "French": "|Mots cl\u00E9s (fran\u00E7ais)|Mots ou phrases couramment utilis\u00E9s pour d\u00E9crire l\u0027ensemble de donn\u00E9es, en fran\u00E7ais. (S\u00E9parer les entr\u00E9es multiples par des virgules)."
+  },
+  {
+    "English": "|Access Restrictions|The access restrictions of the workspace, by default it is Unrestricted. For the PoC this is set to Unrestricted only.|",
+    "French": "|Restrictions d\u0027acc\u00E8s Les restrictions d\u0027acc\u00E8s \u00E0 l\u0027espace de travail sont par d\u00E9faut illimit\u00E9es. Pour le VdP, elle est r\u00E9gl\u00E9e sur Unrestricted only."
+  },
+  {
+    "English": "\u003Cvideo width=\u0022720\u0022 height=\u0022405\u0022 controls\u003E",
+    "French": "\u003Cvideo width=\u0022720\u0022 height=\u0022405\u0022 controls\u003E"
+  },
+  {
+    "English": "    \u003Csource src=\u0022/api/media/sample1.mp4\u0022 type=\u0022video/mp4\u0022\u003E",
+    "French": "    \u003Csource src=\u0022/api/media/sample1.mp4\u0022 type=\u0022video/mp4\u0022\u003E"
+  },
+  {
+    "English": "    Your browser does not support the video tag.",
+    "French": "    Votre navigateur ne prend pas en charge la balise vid\u00E9o."
+  },
+  {
+    "English": "\u003C/video\u003E",
+    "French": "\u003C/video\u003E"
+  },
+  {
+    "English": "[GitHub Issues for 2.0](https://github.com/ssc-sp/datahub-portal/issues?q=\u002Bmilestone%3A%22Pilot\u002B2.0%22\u002B)",
+    "French": "[GitHub Issues for 2.0](https://github.com/ssc-sp/datahub-portal/issues?q=\u002Bmilestone%3A%22Pilot\u002B2.0%22\u002B)"
+  },
+  {
+    "English": "## Version 2.1 - April 19, 2023",
+    "French": "## Version 2.1 - 19 avril 2023"
+  },
+  {
+    "English": "[GitHub Issues for 2.1](https://github.com/ssc-sp/datahub-portal/issues?q=\u002Bmilestone%3A%22Pilot\u002B2.1%22\u002B)",
+    "French": "[GitHub Issues for 2.1](https://github.com/ssc-sp/datahub-portal/issues?q=\u002Bmilestone%3A%22Pilot\u002B2.1%22\u002B)"
+  },
+  {
+    "English": "## Version 2.2 - May 9, 2023",
+    "French": "## Version 2.2 - 9 mai 2023"
+  },
+  {
+    "English": "[GitHub Issues for 2.2](https://github.com/ssc-sp/datahub-portal/issues?q=\u002Bmilestone%3A%22Pilot\u002B2.2%22\u002B)",
+    "French": "[GitHub Issues for 2.2](https://github.com/ssc-sp/datahub-portal/issues?q=\u002Bmilestone%3A%22Pilot\u002B2.2%22\u002B)"
+  },
+  {
+    "English": "- Issue fixed with recent links",
+    "French": "- Probl\u00E8me corrig\u00E9 avec les liens r\u00E9cents"
+  },
+  {
+    "English": "- Fixed costing histogram",
+    "French": "- Histogramme des co\u00FBts fixes"
+  },
+  {
+    "English": "- Achievements, badges and trophies in portal ",
+    "French": "- R\u00E9alisations, badges et troph\u00E9es dans le portail"
+  },
+  {
+    "English": "- Added custom profile and background pictures that are unlocked with achievements",
+    "French": "- Ajout d\u0027images de profil et d\u0027arri\u00E8re-plan personnalis\u00E9es qui se d\u00E9bloquent avec les succ\u00E8s."
+  },
+  {
+    "English": "- Tutorial for Google API access",
+    "French": "- Tutoriel pour l\u0027acc\u00E8s \u00E0 l\u0027API Google"
+  },
+  {
+    "English": "- Simplified portal settings management",
+    "French": "- Gestion simplifi\u00E9e des param\u00E8tres du portail"
+  },
+  {
+    "English": "## Version 2.3 - May 30, 2023",
+    "French": "## Version 2.3 - 30 mai 2023"
+  },
+  {
+    "English": "[GitHub Issues for 2.3](https://github.com/ssc-sp/datahub-portal/issues?q=\u002Bmilestone%3A%22Pilot\u002B2.3%22\u002B)",
+    "French": "[GitHub Issues for 2.3](https://github.com/ssc-sp/datahub-portal/issues?q=\u002Bmilestone%3A%22Pilot\u002B2.3%22\u002B)"
+  },
+  {
+    "English": "- Developped support for Conda in Databricks using custom Docker Image",
+    "French": "- D\u00E9veloppement du support de Conda dans Databricks \u00E0 l\u0027aide d\u0027une image Docker personnalis\u00E9e"
+  },
+  {
+    "English": "- Caroussel in home page with announcements",
+    "French": "- Caroussel en page d\u0027accueil avec les annonces"
+  },
+  {
+    "English": "- Added _news_ page for management announcements",
+    "French": "- Ajout d\u0027une page _news_ pour les annonces de la direction"
+  },
+  {
+    "English": "- Database model for announcements",
+    "French": "- Mod\u00E8le de base de donn\u00E9es pour les annonces"
+  },
+  {
+    "English": "- Improved audit coverage in log analytics",
+    "French": "- Am\u00E9lioration de la couverture d\u0027audit dans l\u0027analyse des journaux"
+  },
+  {
+    "English": "- Migrated UserContext to SQL Server from Cosmos DB",
+    "French": "- Migration du UserContext vers SQL Server depuis Cosmos DB"
+  },
+  {
+    "English": "[GitHub](https://github.com/ssc-sp/datahub-portal/issues?q=\u002Bmilestone%3A%22Pilot\u002B2.0%22\u002B)",
+    "French": "[GitHub](https://github.com/ssc-sp/datahub-portal/issues?q=\u002Bmilestone%3A%22Pilote\u002B2.0%22\u002B)"
+  },
+  {
+    "English": "[GitHub](https://github.com/ssc-sp/datahub-portal/issues?q=\u002Bmilestone%3A%22Pilot\u002B2.1%22\u002B)",
+    "French": "[GitHub](https://github.com/ssc-sp/datahub-portal/issues?q=\u002Bmilestone%3A%22Pilote\u002B2.1%22\u002B)"
+  },
+  {
+    "English": "[GitHub](https://github.com/ssc-sp/datahub-portal/issues?q=\u002Bmilestone%3A%22Pilot\u002B2.2%22\u002B)",
+    "French": "[GitHub](https://github.com/ssc-sp/datahub-portal/issues?q=\u002Bmilestone%3A%22Pilote\u002B2.2%22\u002B)"
+  },
+  {
+    "English": "[GitHub](https://github.com/ssc-sp/datahub-portal/issues?q=\u002Bmilestone%3A%22Pilot\u002B2.3%22\u002B)",
+    "French": "[GitHub](https://github.com/ssc-sp/datahub-portal/issues?q=\u002Bmilestone%3A%22Pilote\u002B2.3%22\u002B)"
   }
 ]

@@ -2,7 +2,7 @@
 
 ## Version 2.0
 
-[GitHub Issues for 2.0](https://github.com/ssc-sp/datahub-portal/issues?q=+milestone%3A%22Pilot+2.0%22+)
+[GitHub](https://github.com/ssc-sp/datahub-portal/issues?q=+milestone%3A%22Pilot+2.0%22+)
 
 Initial version deployed to PoC site. 
 - Terraform support for Azure Databricks
@@ -13,14 +13,14 @@ Initial version deployed to PoC site.
 
 ## Version 2.1 - April 19, 2023
 
-[GitHub Issues for 2.1](https://github.com/ssc-sp/datahub-portal/issues?q=+milestone%3A%22Pilot+2.1%22+)
+[GitHub](https://github.com/ssc-sp/datahub-portal/issues?q=+milestone%3A%22Pilot+2.1%22+)
 
 - Internal Dashboards for Workspace metrics
 - Added R support in Databrick Terraform Module
 
 ## Version 2.2 - May 9, 2023
 
-[GitHub Issues for 2.2](https://github.com/ssc-sp/datahub-portal/issues?q=+milestone%3A%22Pilot+2.2%22+)
+[GitHub](https://github.com/ssc-sp/datahub-portal/issues?q=+milestone%3A%22Pilot+2.2%22+)
 
 - Issue fixed with recent links
 - Fixed costing histogram
@@ -31,7 +31,7 @@ Initial version deployed to PoC site.
 
 ## Version 2.3 - May 30, 2023
 
-[GitHub Issues for 2.3](https://github.com/ssc-sp/datahub-portal/issues?q=+milestone%3A%22Pilot+2.3%22+)
+[GitHub](https://github.com/ssc-sp/datahub-portal/issues?q=+milestone%3A%22Pilot+2.3%22+)
 
 - Developped support for Conda in Databricks using custom Docker Image
 - Caroussel in home page with announcements
