@@ -152,9 +152,3 @@ print(ee.Image("NASA/NASADEM_HGT/001").get("title").getInfo())
     <source src="/api/media/sample1.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
-
-![GCP Databricks Live Demo](https://fsdhprojdw1poc.blob.core.windows.net/datahub/Videos/GCP-Databricks-Demo.mp4?sp=r&st=2023-05-11T18:45:18Z&se=2025-05-12T02:45:18Z&spr=https&sv=2022-11-02&sr=b&sig=1vCEgDu%2FloxrKCoGkeDifmK9iboDZ0jfMN6Gx85TO2s%3D)
-
-[GCP Databricks Live Demo](https://fsdhprojdw1poc.blob.core.windows.net/datahub/Videos/GCP-Databricks-Demo.mp4?sp=r&st=2023-05-11T18:45:18Z&se=2025-05-12T02:45:18Z&spr=https&sv=2022-11-02&sr=b&sig=1vCEgDu%2FloxrKCoGkeDifmK9iboDZ0jfMN6Gx85TO2s%3D)
-
-[!Video https://fsdhprojdw1poc.blob.core.windows.net/datahub/Videos/GCP-Databricks-Demo.mp4?sp=r&st=2023-05-11T18:45:18Z&se=2025-05-12T02:45:18Z&spr=https&sv=2022-11-02&sr=b&sig=1vCEgDu%2FloxrKCoGkeDifmK9iboDZ0jfMN6Gx85TO2s%3D]
