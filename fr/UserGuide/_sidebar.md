@@ -18,3 +18,5 @@
 - [Foire aux questions (FAQ)](/fr/UserGuide/DHSF-FAQs.md)
 
 - [Formulaire de demande de soutien DHSF](/fr/UserGuide/Formulaire-de-demande-de-soutien-DHSF.md)
+
+- [Notes de mise à jour de DataHub](/fr/UserGuide/Notes-de-mise-%C3%A0-jour.md)

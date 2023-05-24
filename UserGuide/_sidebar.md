@@ -18,3 +18,5 @@
 - [Frequently Asked Questions (FAQs)](/UserGuide/FSDH-FAQs.md)
 
 - [FSDH Support Request Form](/UserGuide/FSDH-Support-Request-Form.md)
+
+- [DataHub Release Notes](/UserGuide/Release-Notes.md)
