@@ -1,5 +1,10 @@
 # Federal Science Datahub Databricks Cluster Policies
 
+<video width="720" height="405" controls>
+    <source src="/api/media/cluster-policies.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
 ## Overview
 
 As part of the Federal Science Datahub, we provide custom Databricks cluster policies that are designed to help you get the most out of your Databricks clusters by having predefined cluster configurations. We currently offer 3 cluster policies on top of Databrick's personal compute policy. These are "Datahub Small Cluster", "Datahub Regular Cluster" and "Datahub Large Cluster". While workers and drivers configurations are predefined, the choice of [databricks runtime](https://docs.databricks.com/runtime/index.html) is completely up to you. We will go through each of these cluster policies in detail below.
