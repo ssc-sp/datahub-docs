@@ -11,6 +11,8 @@
   - [Building Dashboards](/UserGuide/Databricks/Dashboarding.md)
   - [Connecting Google APIs with Databricks](/UserGuide/Databricks/Connecting-Google-API.md)
   - [Request a Session with a Databricks Expert](/UserGuide/Databricks/Request-databricks-session.md)
+  - [Using Conda packages with Databricks](/UserGuide/Databricks/Conda-Packages.md)
+  - [Understanding Cluster Policies](/UserGuide/Databricks/Cluster-Policies.md)
 
 - Workspace
   - [Metadata Profile Details](/UserGuide/Workspace/Workspace-Profile-Metadata.md)

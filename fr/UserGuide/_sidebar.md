@@ -11,6 +11,8 @@
   - [Construire des tableaux de bord](/fr/UserGuide/Databricks/Tableau-de-bord.md)
   - [Connecter les API de Google avec Databricks](/fr/UserGuide/Databricks/Connexion-à-l'API-Google.md)
   - [Demander une session avec un expert Databricks](/fr/UserGuide/Databricks/Demande-de-session-databricks.md)
+  - [Utiliser les paquets Conda avec Databricks](/fr/UserGuide/Databricks/Paquets-Conda.md)
+  - [Comprendre les politiques de cluster](/fr/UserGuide/Databricks/Politiques-des-clusters.md)
 
 - Espace de travail
   - [Détails du profil de métadonnées](/fr/UserGuide/Workspace/Métadonnées-du-profil-de-l'espace-de-travail.md)
@@ -19,4 +21,4 @@
 
 - [Formulaire de demande de soutien DHSF](/fr/UserGuide/Formulaire-de-demande-de-soutien-DHSF.md)
 
-- [Notes de mise à jour de DataHub](/fr/UserGuide/Notes-de-mise-%C3%A0-jour.md)
+- [Notes de mise à jour de DataHub](/fr/UserGuide/Notes-de-mise-à-jour.md)

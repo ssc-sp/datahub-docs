@@ -6,6 +6,11 @@ draft: true
 
 # Intégration de Git/GitHub avec Databricks
 
+<video width="720" height="405" controls>
+    <source src="/api/media/git-integration.mp4" type="video/mp4">
+    Votre navigateur ne prend pas en charge la balise vidéo.
+</video>
+
 ## Pré-requis
 
 - Familiarité avec le contrôle de version Git.

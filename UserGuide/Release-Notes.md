@@ -34,7 +34,7 @@ Initial version deployed to PoC site.
 [GitHub](https://github.com/ssc-sp/datahub-portal/issues?q=+milestone%3A%22Pilot+2.3%22+)
 
 - Developped support for Conda in Databricks using custom Docker Image
-- Caroussel in home page with announcements
+- Carousel in home page with announcements
 - Added _news_ page for management announcements
 - Database model for announcements
 - Improved audit coverage in log analytics

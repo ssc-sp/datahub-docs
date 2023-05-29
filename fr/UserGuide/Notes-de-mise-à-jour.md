@@ -40,7 +40,7 @@ Version initiale déployée sur le site VdP.
 [GitHub](https://github.com/ssc-sp/datahub-portal/issues?q=+milestone%3A%22Pilote+2.3%22+)
 
 - Développement du support de Conda dans Databricks à l'aide d'une image Docker personnalisée
-- Caroussel en page d'accueil avec les annonces
+- Carrousel dans la page d'accueil avec les annonces
 - Ajout d'une page _news_ pour les annonces de la direction
 - Modèle de base de données pour les annonces
 - Amélioration de la couverture d'audit dans l'analyse des journaux

@@ -330,5 +330,9 @@
   {
     "English": "Release-Notes.md",
     "French": "Notes-de-mise-\u00E0-jour.md"
+  },
+  {
+    "English": "Cluster-Policies.md",
+    "French": "Politiques-des-clusters.md"
   }
 ]

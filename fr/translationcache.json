@@ -14186,5 +14186,157 @@
   {
     "English": "[GitHub](https://github.com/ssc-sp/datahub-portal/issues?q=\u002Bmilestone%3A%22Pilot\u002B2.3%22\u002B)",
     "French": "[GitHub](https://github.com/ssc-sp/datahub-portal/issues?q=\u002Bmilestone%3A%22Pilote\u002B2.3%22\u002B)"
+  },
+  {
+    "English": "Cluster Policies",
+    "French": "Politiques des clusters"
+  },
+  {
+    "English": "# Federal Science Datahub Databricks Cluster Policies",
+    "French": "# Politiques des clusters du Federal Science Datahub Databricks"
+  },
+  {
+    "English": "    \u003Csource src=\u0022/api/media/cluster-policies.mp4\u0022 type=\u0022video/mp4\u0022\u003E",
+    "French": "    \u003Csource src=\u0022/api/media/cluster-policies.mp4\u0022 type=\u0022video/mp4\u0022\u003E"
+  },
+  {
+    "English": "As part of the Federal Science Datahub, we provide custom Databricks cluster policies that are designed to help you get the most out of your Databricks clusters by having predefined cluster configurations. We currently offer 3 cluster policies on top of Databrick\u0027s personal compute policy. These are \u0022Datahub Small Cluster\u0022, \u0022Datahub Regular Cluster\u0022 and \u0022Datahub Large Cluster\u0022. While workers and drivers configurations are predefined, the choice of [databricks runtime](https://docs.databricks.com/runtime/index.html) is completely up to you. We will go through each of these cluster policies in detail below.",
+    "French": "Dans le cadre du Federal Science Datahub, nous fournissons des politiques de cluster Databricks personnalis\u00E9es qui sont con\u00E7ues pour vous aider \u00E0 tirer le meilleur parti de vos clusters Databricks gr\u00E2ce \u00E0 des configurations de cluster pr\u00E9d\u00E9finies. Nous proposons actuellement 3 politiques de cluster en plus de la politique de calcul personnel de Databrick. Il s\u0027agit de \u0022Datahub Small Cluster\u0022, \u0022Datahub Regular Cluster\u0022 et \u0022Datahub Large Cluster\u0022. Alors que les configurations des travailleurs et des pilotes sont pr\u00E9d\u00E9finies, le choix du [databricks runtime] (https://docs.databricks.com/runtime/index.html) d\u00E9pend enti\u00E8rement de vous. Nous allons d\u00E9tailler chacune de ces politiques de cluster ci-dessous."
+  },
+  {
+    "English": "### **Personal Compute**",
+    "French": "### **Informatique personnelle**"
+  },
+  {
+    "English": "This is the default cluster policy that is provided by Databricks. It is designed for personal use and is not recommended for production use. It is a good choice if you are just getting started with Databricks and want to get a feel for how it works. It is also a good choice if you are working with small datasets and do not need a lot of compute power. Do note that this cluster is a single-node/single-worker cluster and as such no parallelization will be done. By default, it uses the latest machine learning runtime, meaning machine learning toolings are available within this cluster. The cluster configuration is as follows:",
+    "French": "Il s\u0027agit de la politique de cluster par d\u00E9faut fournie par Databricks. Elle est con\u00E7ue pour un usage personnel et n\u0027est pas recommand\u00E9e pour une utilisation en production. C\u0027est un bon choix si vous commencez \u00E0 utiliser Databricks et que vous voulez vous familiariser avec son fonctionnement. C\u0027est \u00E9galement un bon choix si vous travaillez avec de petits ensembles de donn\u00E9es et que vous n\u0027avez pas besoin d\u0027une grande puissance de calcul. Notez que ce cluster est un cluster \u00E0 n\u0153ud unique/travailleur unique et qu\u0027en tant que tel, aucune parall\u00E9lisation ne sera effectu\u00E9e. Par d\u00E9faut, il utilise le dernier runtime d\u0027apprentissage automatique, ce qui signifie que les outils d\u0027apprentissage automatique sont disponibles dans ce cluster. La configuration du cluster est la suivante :"
+  },
+  {
+    "English": "- **Node type:** Standard_DS3_v2 (4 CPU, 14 GB memory)",
+    "French": "- **Type de n\u0153ud:** Standard_DS3_v2 (4 CPU, 14 GB de m\u00E9moire)"
+  },
+  {
+    "English": "[Read more here on personal compute policies](https://docs.databricks.com/clusters/personal-compute.html)",
+    "French": "[Plus d\u0027informations ici sur les politiques de calcul personnel] (https://docs.databricks.com/clusters/personal-compute.html)"
+  },
+  {
+    "English": "### **Datahub Small Cluster**",
+    "French": "### **Datahub Small Cluster**"
+  },
+  {
+    "English": "This cluster policy is designed for small production workloads. It is a good choice if you are working with small datasets and do not need a small amount of compute power that can scale if needed. It is also a good choice if you are just getting started with Databricks and want to get a feel for how non-personal cluster. The cluster configuration is as follows:",
+    "French": "Cette politique de cluster est con\u00E7ue pour les petites charges de travail de production. C\u0027est un bon choix si vous travaillez avec de petits ensembles de donn\u00E9es et que vous n\u0027avez pas besoin d\u0027une petite quantit\u00E9 de puissance de calcul qui peut \u00E9voluer si n\u00E9cessaire. C\u0027est \u00E9galement un bon choix si vous d\u00E9butez avec Databricks et que vous souhaitez vous familiariser avec un cluster non personnel. La configuration du cluster est la suivante :"
+  },
+  {
+    "English": "- **Worker and driver type:** Standard_D4ds_v5 (4 CPU, 16 GB memory)",
+    "French": "- **Type de travailleur et de pilote:** Standard_D4ds_v5 (4 CPU, 16 GB de m\u00E9moire)"
+  },
+  {
+    "English": "- **Amount of workers:** 0 to 2 workers",
+    "French": "- Nombre de travailleurs:** 0 \u00E0 2 travailleurs"
+  },
+  {
+    "English": "- **Can do spot instances**",
+    "French": "- **Capable de faire des instances ponctuelles**"
+  },
+  {
+    "English": "- **Can do autoscaling**",
+    "French": "- **Peut faire de l\u0027autoscaling**"
+  },
+  {
+    "English": "### **Datahub Regular Cluster**",
+    "French": "### **Datahub Regular Cluster**"
+  },
+  {
+    "English": "This cluster policy is designed for regular production workloads. It is a good choice if you\u0027ve encountered bottlenecks with the small cluster configuration. The cluster configuration is as follows:",
+    "French": "Cette politique de cluster est con\u00E7ue pour des charges de travail de production r\u00E9guli\u00E8res. C\u0027est un bon choix si vous avez rencontr\u00E9 des goulets d\u0027\u00E9tranglement avec la configuration en petits clusters. La configuration du cluster est la suivante :"
+  },
+  {
+    "English": "- **Worker and driver type:** Choice of the following",
+    "French": "- **Type de travailleur et de conducteur:** Choix parmi les suivants"
+  },
+  {
+    "English": "  - Standard_D4ds_v5 (4 CPU, 16 GB memory)",
+    "French": "  - Standard_D4ds_v5 (4 CPU, 16 GB de m\u00E9moire)"
+  },
+  {
+    "English": "  - Standard_D8ds_v5 (8 CPU, 32 GB memory)",
+    "French": "  - Standard_D8ds_v5 (8 CPU, 32 GB de m\u00E9moire)"
+  },
+  {
+    "English": "  - Standard_D16ds_v5 (16 CPU, 64 GB memory)",
+    "French": "  - Standard_D16ds_v5 (16 CPU, 64 GB de m\u00E9moire)"
+  },
+  {
+    "English": "- **Amount of workers:** 0 to 4 workers",
+    "French": "- Nombre de travailleurs:** 0 \u00E0 4 travailleurs"
+  },
+  {
+    "English": "- **Can autoscale**",
+    "French": "- **Pouvant \u00EAtre mis \u00E0 l\u0027\u00E9chelle**"
+  },
+  {
+    "English": "### **Datahub Large Cluster**",
+    "French": "### **Datahub Large Cluster**"
+  },
+  {
+    "English": "This cluster policy is designed for large production workloads. It is a good choice if you\u0027re working with extremely big data that requires maximal parallelization. It is not recommended users use this cluster unless they are aware of the possible costs it may entail. The cluster configuration is as follows:",
+    "French": "Cette politique de cluster est con\u00E7ue pour les charges de travail de production importantes. C\u0027est un bon choix si vous travaillez avec des donn\u00E9es extr\u00EAmement volumineuses qui n\u00E9cessitent une parall\u00E9lisation maximale. Il n\u0027est pas recommand\u00E9 aux utilisateurs d\u0027utiliser ce cluster s\u0027ils ne sont pas conscients des co\u00FBts qu\u0027il peut entra\u00EEner. La configuration du cluster est la suivante :"
+  },
+  {
+    "English": "  - Standard_D32ds_v5 (32 CPU, 128 GB memory)",
+    "French": "  - Standard_D32ds_v5 (32 CPU, 128 GB de m\u00E9moire)"
+  },
+  {
+    "English": "  - Standard_D48ds_v5 (48 CPU, 192 GB memory)",
+    "French": "  - Standard_D48ds_v5 (48 CPU, 192 GB de m\u00E9moire)"
+  },
+  {
+    "English": "  - Standard_D64ds_v5 (64 CPU, 256 GB memory)",
+    "French": "  - Standard_D64ds_v5 (64 CPU, 256 GB de m\u00E9moire)"
+  },
+  {
+    "English": "## Creating a cluster",
+    "French": "## Cr\u00E9ation d\u0027un cluster"
+  },
+  {
+    "English": "For more information on how to create clusters, please refer to the [Databricks documentation](https://learn.microsoft.com/en-us/azure/databricks/clusters/configure).",
+    "French": "Pour plus d\u0027informations sur la cr\u00E9ation de clusters, veuillez vous r\u00E9f\u00E9rer \u00E0 la [documentation Databricks] (https://learn.microsoft.com/en-us/azure/databricks/clusters/configure)."
+  },
+  {
+    "English": "## In the future",
+    "French": "## A l\u0027avenir"
+  },
+  {
+    "English": "We are already looking at possible new cluster policies that will offer not only specific configurations but also specific toolings, such as Conda support. We will communicate with users upon the release of such new cluster policies.",
+    "French": "Nous \u00E9tudions d\u00E9j\u00E0 la possibilit\u00E9 d\u0027\u00E9laborer de nouvelles politiques en mati\u00E8re de clusters qui offriront non seulement des configurations sp\u00E9cifiques, mais aussi des outils sp\u00E9cifiques, tels que le support de Conda. Nous communiquerons avec les utilisateurs lors de la publication de ces nouvelles politiques de cluster."
+  },
+  {
+    "English": "    \u003Csource src=\u0022/api/media/google-apis.mp4\u0022 type=\u0022video/mp4\u0022\u003E",
+    "French": "    \u003Csource src=\u0022/api/media/google-apis.mp4\u0022 type=\u0022video/mp4\u0022\u003E"
+  },
+  {
+    "English": "    \u003Csource src=\u0022/api/media/dashboard.mp4\u0022 type=\u0022video/mp4\u0022\u003E",
+    "French": "    \u003Csource src=\u0022/api/media/dashboard.mp4\u0022 type=\u0022video/mp4\u0022\u003E"
+  },
+  {
+    "English": "    \u003Csource src=\u0022/api/media/git-integration.mp4\u0022 type=\u0022video/mp4\u0022\u003E",
+    "French": "    \u003Csource src=\u0022/api/media/git-integration.mp4\u0022 type=\u0022video/mp4\u0022\u003E"
+  },
+  {
+    "English": "- Carousel in home page with announcements",
+    "French": "- Carrousel dans la page d\u0027accueil avec les annonces"
+  },
+  {
+    "English": "Using Conda packages with Databricks",
+    "French": "Utiliser les paquets Conda avec Databricks"
+  },
+  {
+    "English": "Understanding Cluster Policies",
+    "French": "Comprendre les politiques de cluster"
+  },
+  {
+    "English": "DataHub Release Notes",
+    "French": "Notes de mise \u00E0 jour de DataHub"
   }
 ]
