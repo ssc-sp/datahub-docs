@@ -17,6 +17,13 @@
 - Workspace
   - [Metadata Profile Details](/UserGuide/Workspace/Workspace-Profile-Metadata.md)
 
+- Tutorials
+  - [How to access your storage account in Databricks](/UserGuide/Databricks/Access-your-storage-account-in-Databricks.md)
+  - [How to integrate Git in Databricks](/UserGuide/Databricks/Git-Integration.md)
+  - [How to build Dashboards with Databricks](/UserGuide/Databricks/Dashboarding.md)
+  - [How to connect Google APIs with Databricks](/UserGuide/Databricks/Connecting-Google-API.md)
+  - [How to use Conda packages with Databricks](/UserGuide/Databricks/Conda-Packages.md)
+
 - [Frequently Asked Questions (FAQs)](/UserGuide/FSDH-FAQs.md)
 
 - [FSDH Support Request Form](/UserGuide/FSDH-Support-Request-Form.md)

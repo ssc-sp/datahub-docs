@@ -1,466 +1,466 @@
 [
   {
-    "Id": "b1359629-e688-4d3a-8e3a-6bd28a5294ac",
+    "Id": "3b96cb7a-6c1c-4c62-9625-fca83d9bb527",
     "En": "/AdminGuide/Approving-Workspaces.md",
     "Fr": "/fr/AdminGuide/Approbation-des-espaces-de-travail.md"
   },
   {
-    "Id": "001d2e72-488b-4a19-9c00-e149ba3b3a38",
+    "Id": "d237be4d-1b90-497d-8018-d364bd848fc4",
     "En": "/AdminGuide/Datahub-Artifacts-Naming-Standards.md",
     "Fr": "/fr/AdminGuide/Normes-de-nommage-des-artefacts-de-Datahub.md"
   },
   {
-    "Id": "b6186e1f-23b7-4321-83c2-6ff29a997b25",
+    "Id": "83be2122-a5ba-4666-a2ae-8a386521dd01",
     "En": "/AdminGuide/DataHub-Initiative-Tracker.md",
     "Fr": "/fr/AdminGuide/Suivi-de-l\u0027initiative-DataHub.md"
   },
   {
-    "Id": "056c8966-aa5e-40d1-8bd3-ae2a029f02ef",
+    "Id": "3dfec54d-b749-448f-b5ae-f8f0cb3187c0",
     "En": "/AdminGuide/Deleting-Workspaces.md",
     "Fr": "/fr/AdminGuide/Suppression-des-espaces-de-travail.md"
   },
   {
-    "Id": "b352f20c-9ed0-4f37-a2f2-8f2922bc6b01",
+    "Id": "dd9d5477-44e7-454a-900e-0ecb1e74b955",
     "En": "/AdminGuide/Demo-Script.md",
     "Fr": "/fr/AdminGuide/Script-de-d\u00E9monstration.md"
   },
   {
-    "Id": "4c7a93c0-b043-43b0-8397-cb8be9b0efc5",
+    "Id": "61c75d77-8bc8-418b-9175-b32681b01d24",
     "En": "/AdminGuide/Manage-Initiatives-Admin-Page.md",
     "Fr": "/fr/AdminGuide/Page-d\u0027administration-de-la-gestion-des-initiatives.md"
   },
   {
-    "Id": "625f72cb-f640-4d03-84f0-063e6e99c6c1",
+    "Id": "6b96e90f-eade-4a38-b1d7-a0d515937f47",
     "En": "/AdminGuide/Manage-Services-In-Initiatives-Admin-Page.md",
     "Fr": "/fr/AdminGuide/G\u00E9rer-les-services-dans-la-page-d\u0027administration-des-initiatives.md"
   },
   {
-    "Id": "16531c78-7a0b-4a48-898e-2332806507ba",
+    "Id": "e32978a8-d435-42eb-83a3-478cb37771a2",
     "En": "/AdminGuide/Management-of-Project-Resources.md",
     "Fr": "/fr/AdminGuide/Gestion-des-ressources-du-projet.md"
   },
   {
-    "Id": "e39c5034-8b1b-4500-9b79-4d19ec867f9a",
+    "Id": "36eda270-9688-40da-a21d-8773e86586b0",
     "En": "/AdminGuide/Managing-Budgets.md",
     "Fr": "/fr/AdminGuide/Gestion-des-budgets.md"
   },
   {
-    "Id": "5d8ebe9f-8a37-41aa-b0b2-af5e70c3744c",
+    "Id": "3be5cfb1-d14a-4197-a61a-e171a14e4392",
     "En": "/AdminGuide/Power-BI-Administration.md",
     "Fr": "/fr/AdminGuide/Administration-de-Power-BI.md"
   },
   {
-    "Id": "c07b5ba9-810e-425f-985a-26e5db324d2c",
+    "Id": "46b012e0-0769-462f-b953-ca440763db33",
     "En": "/AdminGuide/README.md",
     "Fr": "/fr/AdminGuide/README.md"
   },
   {
-    "Id": "19c1cc4d-7473-45b0-8931-ce3f3a6fb087",
+    "Id": "c8e71a55-d52d-4734-b4e6-b7c982a751af",
     "En": "/AdminGuide/User-Identity-Management-(Unclassified-scenario).md",
     "Fr": "/fr/AdminGuide/Gestion-de-l\u0027identit\u00E9-des-utilisateurs-Sc\u00E9nario-non-classifi\u00E9.md"
   },
   {
-    "Id": "51e8582d-d960-4948-8627-b9e1a4df00eb",
+    "Id": "d2aceafe-67dd-4b7b-9bc8-e0a742b65b52",
     "En": "/AdminGuide/_sidebar.md",
     "Fr": "/fr/AdminGuide/_sidebar.md"
   },
   {
-    "Id": "1fc81674-6f36-4e4a-9ec7-50671fde8193",
+    "Id": "a9295672-7b16-4567-9c73-358ffda9c91f",
     "En": "/Banners/Landing.md",
     "Fr": "/fr/Banners/Atterrissage.md"
   },
   {
-    "Id": "acce063f-6e1f-47e1-86ba-721dd8e36cca",
+    "Id": "ae84520a-2829-4bab-833f-b6d66f379364",
     "En": "/Banners/Workspace-Storage.md",
     "Fr": "/fr/Banners/Rangement-de-l\u0027espace-de-travail.md"
   },
   {
-    "Id": "e51d27e3-891d-4b37-b9db-c6dafbe7af77",
+    "Id": "11379a92-29b2-410d-a415-4558fea37e82",
     "En": "/Banners/Workspace.md",
     "Fr": "/fr/Banners/Espace-de-travail.md"
   },
   {
-    "Id": "d4523fd1-37d9-48d5-afb0-bc0038439b39",
+    "Id": "e37eeb79-fdf8-49bf-844d-32340e5233e0",
     "En": "/Banners/_sidebar.md",
     "Fr": "/fr/Banners/_sidebar.md"
   },
   {
-    "Id": "6f4235f5-76ef-4cd5-a811-4ba659910dce",
+    "Id": "f2ad1394-c6b5-4ec2-a474-8b44b9269efb",
     "En": "/DeveloperGuide/Achievements-Profiles/Achievements.md",
     "Fr": "/fr/DeveloperGuide/Achievements-Profiles/R\u00E9alisations.md"
   },
   {
-    "Id": "06761ec4-1e7a-44e1-b2d5-e0e2120603a3",
+    "Id": "5160e0ea-9653-4fad-989f-c5325151243b",
     "En": "/DeveloperGuide/Achievements-Profiles/readme.md",
     "Fr": "/fr/DeveloperGuide/Achievements-Profiles/readme.md"
   },
   {
-    "Id": "cce27d6d-6269-44db-8011-2109f0eb4ed4",
+    "Id": "48d5b136-3969-4ba2-8420-0f466f22b710",
     "En": "/DeveloperGuide/Architecture/Services/Email-Service.md",
     "Fr": "/fr/DeveloperGuide/Architecture/Services/Service-de-messagerie.md"
   },
   {
-    "Id": "312e1041-5a82-476c-ba21-86c0cbca41f4",
+    "Id": "82e1ed9b-0f6d-459d-94cd-e72937c09204",
     "En": "/DeveloperGuide/Architecture/Cloud-environments.md",
     "Fr": "/fr/DeveloperGuide/Architecture/Environnements-en-nuage.md"
   },
   {
-    "Id": "5b301199-8578-41d5-98da-fd6875496323",
+    "Id": "2dc7cc8a-ea15-403a-9e73-ee9c7cd2d531",
     "En": "/DeveloperGuide/Architecture/Cloud-Team-Requirement-for-Running-DataHub-Terraform.md",
     "Fr": "/fr/DeveloperGuide/Architecture/Exigence-de-l\u0027\u00E9quipe-Cloud-pour-ex\u00E9cuter-DataHub-Terraform.md"
   },
   {
-    "Id": "0efa629a-b613-47e8-9c01-b73cad55563d",
+    "Id": "97483067-7c75-4398-8689-a6281d5d95de",
     "En": "/DeveloperGuide/Architecture/Microservice_Architecture.md",
     "Fr": "/fr/DeveloperGuide/Architecture/Architecture-microservice.md"
   },
   {
-    "Id": "b244d19c-011f-4401-8cfa-3bb74c7de807",
+    "Id": "12eb57ec-5154-4ece-bdad-272d3042aa59",
     "En": "/DeveloperGuide/Architecture/Overall_Architecture.md",
     "Fr": "/fr/DeveloperGuide/Architecture/Architecture-globale.md"
   },
   {
-    "Id": "d084b695-5fc5-48bc-8463-cb0fca600d67",
+    "Id": "0079aedc-671f-4489-b554-a60ee64d5354",
     "En": "/DeveloperGuide/Azure/Credits_and_notifications.md",
     "Fr": "/fr/DeveloperGuide/Azure/Cr\u00E9dits-et-notifications.md"
   },
   {
-    "Id": "af03d85a-15d9-4c5f-863c-d76d6410523d",
+    "Id": "05f8db00-15f4-46ca-88c8-01a280cd5dec",
     "En": "/DeveloperGuide/Azure/Storage_Limits.md",
     "Fr": "/fr/DeveloperGuide/Azure/Limites-de-stockage.md"
   },
   {
-    "Id": "1a2f333f-d1c9-4533-9729-5283b94889ed",
+    "Id": "a92959a1-906a-4c9e-8c78-337844f180ca",
     "En": "/DeveloperGuide/Change-Management/Change-Management-Overview.md",
     "Fr": "/fr/DeveloperGuide/Change-Management/Vue-d\u0027ensemble-de-la-gestion-du-changement.md"
   },
   {
-    "Id": "19de1979-3717-4eff-a439-1f8ecc1998c1",
+    "Id": "a0a12399-812d-4ef4-9f31-d452366cda83",
     "En": "/DeveloperGuide/Contributing/Authoring-Documentation.md",
     "Fr": "/fr/DeveloperGuide/Contributing/Cr\u00E9ation-de-la-documentation.md"
   },
   {
-    "Id": "11d1c22d-b6c9-4ce1-afaa-0837ff25b2c5",
+    "Id": "643f7d6d-c787-4fa1-af47-27f1627059e5",
     "En": "/DeveloperGuide/Contributing/Contributing-Overview.md",
     "Fr": "/fr/DeveloperGuide/Contributing/Aper\u00E7u-des-contributions.md"
   },
   {
-    "Id": "f8457c11-92f3-42ee-a064-93b48b9d67d2",
+    "Id": "ee9ac2a6-5460-438d-8e0b-4172e9e6f969",
     "En": "/DeveloperGuide/Contributing/Contributing-Pull-Request.md",
     "Fr": "/fr/DeveloperGuide/Contributing/Contribution-\u00E0-une-demande-de-retrait.md"
   },
   {
-    "Id": "94d62beb-db40-485a-ad5c-2686ac9abf56",
+    "Id": "0a4f6b9c-ad7d-42ad-8deb-90c40d9dcb27",
     "En": "/DeveloperGuide/Costing/README.md",
     "Fr": "/fr/DeveloperGuide/Costing/README.md"
   },
   {
-    "Id": "2b4821a9-c166-4bdb-962b-bd67d31d13ed",
+    "Id": "43953027-789b-4c7f-bd95-089e1fc91bd4",
     "En": "/DeveloperGuide/Localization/Localization.md",
     "Fr": "/fr/DeveloperGuide/Localization/Localisation.md"
   },
   {
-    "Id": "559c8295-c082-4a57-96ab-fff4f08556cd",
+    "Id": "5fe748be-9d50-4cde-a5f8-db495d1d6760",
     "En": "/DeveloperGuide/Publishing/DataHub-Opendata-Publishing-API.md",
     "Fr": "/fr/DeveloperGuide/Publishing/DataHub-Opendata-Publishing-API.md"
   },
   {
-    "Id": "6c3aa701-5a3c-4f19-964e-e5eaf868b113",
+    "Id": "b1f2ab32-1a58-440d-b6e2-ff64e6c19bdd",
     "En": "/DeveloperGuide/Resourcing/Resourcing-Azure-Storage-Blob.md",
     "Fr": "/fr/DeveloperGuide/Resourcing/Ressourcement-d\u0027Azure-Storage-Blob.md"
   },
   {
-    "Id": "ac3cf9e8-f065-42a9-965d-048363a7701f",
+    "Id": "6235f738-12c9-47f9-9571-40c1169b3220",
     "En": "/DeveloperGuide/Resourcing/Resourcing-Message-Queues.md",
     "Fr": "/fr/DeveloperGuide/Resourcing/Ressourcement-des-files-d\u0027attente-de-messages.md"
   },
   {
-    "Id": "3ac94242-a5fe-489c-b2e8-26ffe81d3f5b",
+    "Id": "501f1992-82bf-49a9-9680-fb7dd0da1b03",
     "En": "/DeveloperGuide/Resourcing/Resourcing-New-Project-Template.md",
     "Fr": "/fr/DeveloperGuide/Resourcing/Mod\u00E8le-de-ressourcement-d\u0027un-nouveau-projet.md"
   },
   {
-    "Id": "fa464506-e7bb-480d-9560-f372c13d70c1",
+    "Id": "aa49f1d0-fa4b-496a-943f-4669ebc1f24e",
     "En": "/DeveloperGuide/Resourcing/Resourcing-Overview.md",
     "Fr": "/fr/DeveloperGuide/Resourcing/Aper\u00E7u-des-ressources.md"
   },
   {
-    "Id": "db60ceee-ba1b-453d-8948-5c2612593107",
+    "Id": "4c8d54fb-3b17-450a-8013-6a9cee524699",
     "En": "/DeveloperGuide/Resourcing/Resourcing-Resource-Runs.md",
     "Fr": "/fr/DeveloperGuide/Resourcing/Ressourcement-Runs-des-ressources.md"
   },
   {
-    "Id": "341122d2-0360-4e6d-a7a2-c42f4c0c967d",
+    "Id": "04630560-7361-4d8f-b0c6-fd5f46b40390",
     "En": "/DeveloperGuide/Resourcing/Resourcing-Servicing-Components.md",
     "Fr": "/fr/DeveloperGuide/Resourcing/Composants-du-service-de-ressourcement.md"
   },
   {
-    "Id": "f0746706-dc18-4f9c-8a55-49617af3bbee",
+    "Id": "ae1df9ee-5b28-4d66-8c43-8d48004066ac",
     "En": "/DeveloperGuide/Resourcing/Resourcing-Terraform-Structures.md",
     "Fr": "/fr/DeveloperGuide/Resourcing/Ressourcement-des-structures-de-Terraform.md"
   },
   {
-    "Id": "06855893-0c56-42fc-9e8d-722185e11ecb",
+    "Id": "2c7afc6e-af8b-4a1d-8517-ba8434ec70d8",
     "En": "/DeveloperGuide/Resourcing/Resourcing_Overview_Sidebar.md",
     "Fr": "/fr/DeveloperGuide/Resourcing/Aper\u00E7u-des-ressources.md"
   },
   {
-    "Id": "692dbca9-85bd-4961-9459-eb8c3cfb4a32",
+    "Id": "52e5f319-92aa-4ba8-ac66-4850ba20ef17",
     "En": "/DeveloperGuide/Storage/Storage_Limits.md",
     "Fr": "/fr/DeveloperGuide/Storage/Limites-de-stockage.md"
   },
   {
-    "Id": "7d1db893-4568-4189-bca5-329f836123c9",
+    "Id": "61b9fff5-f352-44f0-8918-d4b1a2e6b9c1",
     "En": "/DeveloperGuide/Testing/EndToEnd.md",
     "Fr": "/fr/DeveloperGuide/Testing/EndToEnd.md"
   },
   {
-    "Id": "9746b8d0-a692-4fa5-9951-8a995256c44e",
+    "Id": "1feecbf4-ba1a-4363-850a-db95abfeefa9",
     "En": "/DeveloperGuide/Configuration-options.md",
     "Fr": "/fr/DeveloperGuide/Options-de-configuration.md"
   },
   {
-    "Id": "46f30518-ee2a-4b80-acaf-f6262e99e4db",
+    "Id": "afbc4c7d-52df-4da4-8290-376ae0865701",
     "En": "/DeveloperGuide/README.md",
     "Fr": "/fr/DeveloperGuide/README.md"
   },
   {
-    "Id": "fed9400c-5322-49e1-b5d0-74e99c604c9a",
+    "Id": "1a9d9d74-c4af-4a32-b045-b5aea10570df",
     "En": "/DeveloperGuide/_sidebar.md",
     "Fr": "/fr/DeveloperGuide/_sidebar.md"
   },
   {
-    "Id": "9917a00f-3305-496b-8f75-032d991f702a",
+    "Id": "66d4e0f2-fd37-42d4-b764-331b22151c6b",
     "En": "/InstallationGuide/00-Preparation.md",
     "Fr": "/fr/InstallationGuide/00-Pr\u00E9paration.md"
   },
   {
-    "Id": "931b8c29-01cc-47a2-8b0c-7038916f19af",
+    "Id": "f7fd9e53-6081-48a5-b716-7021e24250df",
     "En": "/InstallationGuide/01-Create-Repositories.md",
     "Fr": "/fr/InstallationGuide/01-Cr\u00E9er-des-r\u00E9f\u00E9rentiels.md"
   },
   {
-    "Id": "e6c9cb74-6a68-4994-8fb5-20ae25fc20c2",
+    "Id": "f97af53a-7744-4810-831a-e9938e8cac8f",
     "En": "/InstallationGuide/02-Datahub-Core-Infrastructure.md",
     "Fr": "/fr/InstallationGuide/02-Infrastructure-de-base-du-Datahub.md"
   },
   {
-    "Id": "8bb7bfc5-d114-4a72-8613-648767cd9e6a",
+    "Id": "5f81253e-eb96-491b-9ce0-068566ace843",
     "En": "/InstallationGuide/03-Seed-Admin.md",
     "Fr": "/fr/InstallationGuide/03-Administration-des-semences.md"
   },
   {
-    "Id": "a22a4424-d66b-4501-9a59-93214018ad65",
+    "Id": "62b31521-422f-4188-b7ec-651ea18204de",
     "En": "/InstallationGuide/04-CI-Pipelines-Setup.md",
     "Fr": "/fr/InstallationGuide/04-Configuration-des-pipelines-CI.md"
   },
   {
-    "Id": "b5b9b463-2214-463e-9f35-6dccafce14f3",
+    "Id": "095c6e92-c22d-4d8e-90a0-d35999fa4e98",
     "En": "/InstallationGuide/05-CD-Pipelines-Setup.md",
     "Fr": "/fr/InstallationGuide/05-Configuration-des-pipelines-CD.md"
   },
   {
-    "Id": "c22c6643-3e01-4d8c-ab59-9403415e9c9c",
+    "Id": "13a88641-a259-43a2-bbf6-d5a6cf154ed5",
     "En": "/InstallationGuide/06-Datahub-Functions.md",
     "Fr": "/fr/InstallationGuide/06-Fonctions-du-Datahub.md"
   },
   {
-    "Id": "815dc9d3-fec7-4f2b-9748-515f2cb51f8d",
+    "Id": "40f0c51e-7594-4983-96c3-a1fc1fb6ebb0",
     "En": "/InstallationGuide/07-Resource-Provisioner-Functions.md",
     "Fr": "/fr/InstallationGuide/07-Fonctions-du-fournisseur-de-ressources.md"
   },
   {
-    "Id": "ad231cfb-7053-4fd5-8202-29d9852f2244",
+    "Id": "c396f825-4f55-496f-9c07-83f3ca6d5d0c",
     "En": "/InstallationGuide/08-Project-Pipelines-Setup.md",
     "Fr": "/fr/InstallationGuide/08-Configuration-des-pipelines-de-projet.md"
   },
   {
-    "Id": "cfea85ff-ce06-4d9c-a8d8-57c56d50eaa1",
+    "Id": "096f6347-195e-4d01-aff8-2bbe2a6eef7e",
     "En": "/InstallationGuide/09-Seed-Metadata.md",
     "Fr": "/fr/InstallationGuide/09-M\u00E9tadonn\u00E9es-sur-les-semences.md"
   },
   {
-    "Id": "e34623d3-5bfe-4f34-bd01-0fb35e41d266",
+    "Id": "bef5d54d-8d12-4fc1-813d-9783103a0082",
     "En": "/InstallationGuide/README.md",
     "Fr": "/fr/InstallationGuide/README.md"
   },
   {
-    "Id": "800ad73c-0932-4e8b-9074-7d3f2e707dd8",
+    "Id": "c8efa308-2d55-447c-9f4f-5d1e59c3846a",
     "En": "/InstallationGuide/_sidebar.md",
     "Fr": "/fr/InstallationGuide/_sidebar.md"
   },
   {
-    "Id": "6c62e3d3-645d-4b2d-90af-a99e8a474ccc",
+    "Id": "a645d58b-3bd2-4203-8b10-b8a630250993",
     "En": "/UserGuide/Databricks/Access-your-storage-account-in-Databricks.md",
     "Fr": "/fr/UserGuide/Databricks/Acc\u00E9dez-\u00E0-votre-compte-de-stockage-dans-Databricks.md"
   },
   {
-    "Id": "e71001fe-bb09-44df-acc3-ffccb711b34a",
+    "Id": "ec76c49a-85c4-405e-96fe-957dc421ad6e",
     "En": "/UserGuide/Databricks/Cluster-Policies.md",
     "Fr": "/fr/UserGuide/Databricks/Politiques-des-clusters.md"
   },
   {
-    "Id": "e6ed4665-cb26-4760-b5c0-c6c0baf4e034",
+    "Id": "b70af1a5-cb19-4178-95cb-7c1cdb243dbf",
     "En": "/UserGuide/Databricks/Conda-Packages.md",
     "Fr": "/fr/UserGuide/Databricks/Paquets-Conda.md"
   },
   {
-    "Id": "0260e52b-b2b9-46e1-8635-003b9c56beaf",
+    "Id": "67a8e736-d9d3-48db-a642-e193e878dfa9",
     "En": "/UserGuide/Databricks/Connecting-Google-API.md",
     "Fr": "/fr/UserGuide/Databricks/Connexion-\u00E0-l\u0027API-Google.md"
   },
   {
-    "Id": "5f3a5f83-d546-41da-aca2-a840deda26fd",
+    "Id": "22423891-d8e5-4f5d-8592-a8dfe006dda6",
     "En": "/UserGuide/Databricks/Dashboarding.md",
     "Fr": "/fr/UserGuide/Databricks/Tableau-de-bord.md"
   },
   {
-    "Id": "35fb41e7-9614-4cd0-ac35-e2af905fc6a1",
+    "Id": "7d2f5e88-0f43-4ff4-b10f-889ca4abfa33",
     "En": "/UserGuide/Databricks/Databricks-FAQ.md",
     "Fr": "/fr/UserGuide/Databricks/FAQ-Databricks.md"
   },
   {
-    "Id": "a3cdd78e-5f88-4f37-8dbd-655feb400f21",
+    "Id": "e009cb2a-85bd-46b4-8b48-4e25dcd2e703",
     "En": "/UserGuide/Databricks/Databricks.md",
     "Fr": "/fr/UserGuide/Databricks/Databricks.md"
   },
   {
-    "Id": "4c0a6703-0b65-41f6-8f5c-ce8fa6a7b1e9",
+    "Id": "9596d619-3213-46de-8ad1-f288df87cd27",
     "En": "/UserGuide/Databricks/Excel-and-SQL-with-Databricks.md",
     "Fr": "/fr/UserGuide/Databricks/Excel-et-SQL-avec-Databricks.md"
   },
   {
-    "Id": "c07957ad-2e14-4a5f-b59e-2d06345e7a7c",
+    "Id": "9b33fed7-e5f5-4861-9141-94863f81ae3f",
     "En": "/UserGuide/Databricks/Git-Integration.md",
     "Fr": "/fr/UserGuide/Databricks/Int\u00E9gration-de-Git.md"
   },
   {
-    "Id": "732b8fa8-8634-41e3-98d3-fab780bf86db",
+    "Id": "9e9ffd65-d47a-494c-87ac-f2fd20752557",
     "En": "/UserGuide/Databricks/Request-databricks-session.md",
     "Fr": "/fr/UserGuide/Databricks/Demande-de-session-databricks.md"
   },
   {
-    "Id": "370b7519-6cb6-48ce-9209-fd5c52cc763b",
+    "Id": "92f75142-73b5-4885-bb5b-3f91847fd005",
     "En": "/UserGuide/Databricks/Request-databricks.md",
     "Fr": "/fr/UserGuide/Databricks/Demander-des-databricks.md"
   },
   {
-    "Id": "df49c4d3-7390-4654-9897-bb4f3c674bd7",
+    "Id": "8546d7eb-bf50-48cc-8255-b7f01fd071e0",
     "En": "/UserGuide/Databricks/Using-Libraries.md",
     "Fr": "/fr/UserGuide/Databricks/Utilisation-des-biblioth\u00E8ques.md"
   },
   {
-    "Id": "abfb124d-ee13-40d2-a535-c6ebd48d62ad",
+    "Id": "8f60e9ac-6e25-4186-84e2-39de624735a6",
     "En": "/UserGuide/Office/2023-04-04.md",
     "Fr": "/fr/UserGuide/Office/2023-04-04.md"
   },
   {
-    "Id": "4c11b0c1-799c-46ac-9cd3-3c2ddca9413c",
+    "Id": "ce84ac31-5973-4d2f-8945-b49c09b9b638",
     "En": "/UserGuide/Office/2023-04-05.md",
     "Fr": "/fr/UserGuide/Office/2023-04-05.md"
   },
   {
-    "Id": "6bdcd5d0-e653-49ef-a771-daf389409b69",
+    "Id": "588c6243-8f58-482e-ae90-c951acc6d99b",
     "En": "/UserGuide/Office/2023-04-13.md",
     "Fr": "/fr/UserGuide/Office/2023-04-13.md"
   },
   {
-    "Id": "08155d4f-314d-44b6-9ffb-f78b0ef71f3b",
+    "Id": "c7e732b2-ae34-4cde-b028-063b45ae5af5",
     "En": "/UserGuide/Office/README.md",
     "Fr": "/fr/UserGuide/Office/README.md"
   },
   {
-    "Id": "e6c5655f-65d4-4be5-bb58-877e3a48c58c",
+    "Id": "3bf2ae44-3e45-4fb8-860e-f9752d4e9132",
     "En": "/UserGuide/Onboarding/Link-Account.md",
     "Fr": "/fr/UserGuide/Onboarding/Compte-de-liaison.md"
   },
   {
-    "Id": "c454e373-c82c-48dc-a0b0-9aca94d799a8",
+    "Id": "6930fc6b-f0ed-4994-8726-9efff5a2da2e",
     "En": "/UserGuide/Onboarding/OnboardingSummary.md",
     "Fr": "/fr/UserGuide/Onboarding/R\u00E9sum\u00E9-de-l\u0027embarquement.md"
   },
   {
-    "Id": "53cd1cb8-180a-4480-8a18-f4859349ee52",
+    "Id": "cfb4d90c-7968-4e13-90cf-d3d1500ab415",
     "En": "/UserGuide/Storage/Datahub-AzureStorage.md",
     "Fr": "/fr/UserGuide/Storage/Datahub-AzureStorage.md"
   },
   {
-    "Id": "169e0151-1bd9-4b9f-9726-abaf6c3c0c2f",
+    "Id": "7ac76e13-0a9a-4196-9331-aac735beb60f",
     "En": "/UserGuide/Storage/Use-AzCopy.md",
     "Fr": "/fr/UserGuide/Storage/Utilisez-AzCopy.md"
   },
   {
-    "Id": "d2fa2462-886a-447b-a015-aa15b62e6c69",
+    "Id": "0922fc28-e7a4-4e99-9764-8b67a593662b",
     "En": "/UserGuide/Workspace/Monitor-Cloud-Consumption.md",
     "Fr": "/fr/UserGuide/Workspace/Surveiller-la-consommation-des-nuages.md"
   },
   {
-    "Id": "419e7c05-c76d-4c7d-8e70-30d67f99cedc",
+    "Id": "b612f723-1bb8-415c-a8c8-72e33272396c",
     "En": "/UserGuide/Workspace/Workspace-Profile-Metadata.md",
     "Fr": "/fr/UserGuide/Workspace/M\u00E9tadonn\u00E9es-du-profil-de-l\u0027espace-de-travail.md"
   },
   {
-    "Id": "08452ad1-a42f-49df-8597-62cb744de5ab",
+    "Id": "cb41ef91-1763-4a9c-9696-bea670bf6f7e",
     "En": "/UserGuide/Workspace/Workspace.md",
     "Fr": "/fr/UserGuide/Workspace/Espace-de-travail.md"
   },
   {
-    "Id": "687809b4-45ca-45b3-a36b-a3d067ad2f21",
+    "Id": "9f51326c-d17d-420c-a53e-9a62bff5270e",
     "En": "/UserGuide/Common-Issues.md",
     "Fr": "/fr/UserGuide/Probl\u00E8mes-communs.md"
   },
   {
-    "Id": "85c338c6-327a-4285-ba3e-3a393ff2a576",
+    "Id": "3c76ce6c-2c39-4c08-8e47-2fc75144cf0f",
     "En": "/UserGuide/FSDH-FAQs.md",
     "Fr": "/fr/UserGuide/FSDH-FAQs.md"
   },
   {
-    "Id": "a8243dc8-07a7-420c-8979-732472fad9a9",
+    "Id": "d02a0d43-826a-484b-9ad7-5d8ce541a9d1",
     "En": "/UserGuide/FSDH-Support-Request-Form.md",
     "Fr": "/fr/UserGuide/Formulaire-de-demande-de-soutien-FSDH.md"
   },
   {
-    "Id": "f3793b96-2dcd-45c9-b4f0-47cd8d9442df",
+    "Id": "c2d1b86b-da15-4bfa-80e2-4a4bfb398484",
     "En": "/UserGuide/POC-Terms-And-Conditions.md",
     "Fr": "/fr/UserGuide/Conditions-g\u00E9n\u00E9rales-de-POC.md"
   },
   {
-    "Id": "fa8e6722-ceaf-4e41-929d-8d691f6f4197",
+    "Id": "79bc8ac2-64fc-4dc7-80cd-fa48036c7f21",
     "En": "/UserGuide/README.md",
     "Fr": "/fr/UserGuide/README.md"
   },
   {
-    "Id": "c73049ed-720d-48ed-82ec-620d31fffc26",
+    "Id": "cd1518b4-997f-4029-a078-833f583cf0ea",
     "En": "/UserGuide/Release-Notes.md",
     "Fr": "/fr/UserGuide/Notes-de-mise-\u00E0-jour.md"
   },
   {
-    "Id": "3ae6e36b-ba68-4713-aaa5-b430fec199be",
+    "Id": "c9ac66bd-cd39-43a9-a6f6-8b49efb4a13a",
     "En": "/UserGuide/User-Guide.md",
     "Fr": "/fr/UserGuide/Guide-de-l\u0027utilisateur.md"
   },
   {
-    "Id": "5a08fda5-f2d4-468a-9a92-bd926dbe3cc5",
+    "Id": "7585928f-43f9-4da8-9866-de22cdb736c7",
     "En": "/UserGuide/_sidebar.md",
     "Fr": "/fr/UserGuide/_sidebar.md"
   },
   {
-    "Id": "b52ef6d3-81a7-4b56-a251-9573c179e44d",
+    "Id": "f2be6941-51d4-4b65-b6d7-a3d40f9fc07c",
     "En": "/Home.md",
     "Fr": "/fr/Accueil.md"
   },
   {
-    "Id": "eaff6127-0326-4d1c-9a3b-d6430f0f50b4",
+    "Id": "5569913a-a9c2-496b-83dd-1a25e4dc8da2",
     "En": "/README.md",
     "Fr": "/fr/README.md"
   },
   {
-    "Id": "dd861c02-eb2f-4dc0-94cf-f3cea6e21f7d",
+    "Id": "314b06e2-45a1-4e7d-b650-8e64c29d440b",
     "En": "/_coverpage.md",
     "Fr": "/fr/_coverpage.md"
   },
   {
-    "Id": "a0597b68-2077-44d3-b0f8-baeb93904ba5",
+    "Id": "5cb0177b-2efe-453d-ab2d-b74f111ca9b4",
     "En": "/_sidebar.md",
     "Fr": "/fr/_sidebar.md"
   }

@@ -17,6 +17,13 @@
 - Espace de travail
   - [Détails du profil de métadonnées](/fr/UserGuide/Workspace/Métadonnées-du-profil-de-l'espace-de-travail.md)
 
+- Tutoriels
+  - [Comment accéder à votre compte de stockage dans Databricks ?](/fr/UserGuide/Databricks/Accédez-à-votre-compte-de-stockage-dans-Databricks.md)
+  - [Comment intégrer Git dans Databricks](/fr/UserGuide/Databricks/Intégration-de-Git.md)
+  - [Comment construire des tableaux de bord avec Databricks](/fr/UserGuide/Databricks/Tableau-de-bord.md)
+  - [Comment connecter les API de Google avec Databricks](/fr/UserGuide/Databricks/Connexion-à-l'API-Google.md)
+  - [Comment utiliser les paquets Conda avec Databricks](/fr/UserGuide/Databricks/Paquets-Conda.md)
+
 - [Foire aux questions (FAQ)](/fr/UserGuide/DHSF-FAQs.md)
 
 - [Formulaire de demande de soutien DHSF](/fr/UserGuide/Formulaire-de-demande-de-soutien-DHSF.md)

@@ -14338,5 +14338,29 @@
   {
     "English": "DataHub Release Notes",
     "French": "Notes de mise \u00E0 jour de DataHub"
+  },
+  {
+    "English": "- Tutorials",
+    "French": "- Tutoriels"
+  },
+  {
+    "English": "How to access your storage account in Databricks",
+    "French": "Comment acc\u00E9der \u00E0 votre compte de stockage dans Databricks ?"
+  },
+  {
+    "English": "How to integrate Git in Databricks",
+    "French": "Comment int\u00E9grer Git dans Databricks"
+  },
+  {
+    "English": "How to build Dashboards with Databricks",
+    "French": "Comment construire des tableaux de bord avec Databricks"
+  },
+  {
+    "English": "How to connect Google APIs with Databricks",
+    "French": "Comment connecter les API de Google avec Databricks"
+  },
+  {
+    "English": "How to use Conda packages with Databricks",
+    "French": "Comment utiliser les paquets Conda avec Databricks"
   }
 ]
