@@ -43,6 +43,9 @@ The solution assumes the following:
 
 # Decisions to Make
 
+- Hosting your Terraform backend. 
+- Creating a custom domain and optinally a DNS zone. 
+
 # Create the Infrastructure
 
 # Deploy the Application
