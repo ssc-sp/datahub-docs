@@ -14362,5 +14362,189 @@
   {
     "English": "How to use Conda packages with Databricks",
     "French": "Comment utiliser les paquets Conda avec Databricks"
+  },
+  {
+    "English": "AppInsights Auditing",
+    "French": "Audit AppInsights"
+  },
+  {
+    "English": "## How to query Datahub App Insights?",
+    "French": "## Comment interroger Datahub Appights ?"
+  },
+  {
+    "English": "- Open Azure Portal",
+    "French": "- Portail Azure ouvert"
+  },
+  {
+    "English": "- On the Search resources box paste \u0022Application Insights\u0022",
+    "French": "- Dans la bo\u00EEte des ressources de recherche, collez \u0022Application Insights\u0022."
+  },
+  {
+    "English": "- Click the link to \u0022Application Insights\u0022 a list will show in the left hand side.",
+    "French": "- Cliquez sur le lien \u0022Application Insights\u0022. Une liste s\u0027affiche dans la partie gauche de l\u0027\u00E9cran."
+  },
+  {
+    "English": "- From the resulting list select the correct Application Insights, for example for PoC Portal it is \u0022fsdh-app-insights-portal-dev\u0022",
+    "French": "- Dans la liste r\u00E9sultante, s\u00E9lectionnez l\u0027Application Insights correcte, par exemple pour VdP Portal, il s\u0027agit de \u0022fsdh-app-insights-portal-dev\u0022."
+  },
+  {
+    "English": "- After selecting the desired App Insights, hide the list (optional)",
+    "French": "- Apr\u00E8s avoir s\u00E9lectionn\u00E9 les App Insights souhait\u00E9s, masquer la liste (facultatif)"
+  },
+  {
+    "English": "- Select the \u0022Logs\u0022 tab or select the \u0022Logs\u0022 option from Monitoring section on the left menu. It is the same.",
+    "French": "- S\u00E9lectionnez l\u0027onglet \u0022Logs\u0022 ou s\u00E9lectionnez l\u0027option \u0022Logs\u0022 dans la section Surveillance du menu de gauche. C\u0027est la m\u00EAme chose."
+  },
+  {
+    "English": "- Close the Queries windows that will pop-up, we don\u0027t need it.",
+    "French": "- Fermez les fen\u00EAtres de requ\u00EAtes qui appara\u00EEtront, nous n\u0027en avons pas besoin."
+  },
+  {
+    "English": "- Now you can type and run queries, examples are shown next.",
+    "French": "- Vous pouvez maintenant saisir et ex\u00E9cuter des requ\u00EAtes, dont les exemples sont pr\u00E9sent\u00E9s ci-dessous."
+  },
+  {
+    "English": "## How to list all the events for a specific user?",
+    "French": "## Comment lister tous les \u00E9v\u00E9nements d\u0027un utilisateur sp\u00E9cifique ?"
+  },
+  {
+    "English": "Type: ",
+    "French": "Type :"
+  },
+  {
+    "English": "customEvents",
+    "French": "\u00E9v\u00E9nements personnalis\u00E9s"
+  },
+  {
+    "English": "| where customDimensions.userName == \u0022FULL_USER_NAME\u0022",
+    "French": "| where customDimensions.userName == \u0022FULL_USER_NAME\u0022"
+  },
+  {
+    "English": "Or ",
+    "French": "Ou"
+  },
+  {
+    "English": "| where customDimensions.userName contains \u0022A_NAME\u0022",
+    "French": "| o\u00F9 customDimensions.userName contient \u0022A_NAME\u0022"
+  },
+  {
+    "English": "## How to list data events?",
+    "French": "## Comment r\u00E9pertorier les \u00E9v\u00E9nements de donn\u00E9es ?"
+  },
+  {
+    "English": "| where name == \u0022DataEvent\u0022",
+    "French": "| o\u00F9 nom == \u0022DataEvent\u0022"
+  },
+  {
+    "English": "The filters can be combined with ands of extra \u0027where\u0027 clauses, for example, all the data events for a user named \u0022John\u0022",
+    "French": "Les filtres peuvent \u00EAtre combin\u00E9s avec des clauses \u0022where\u0022 suppl\u00E9mentaires, par exemple, tous les \u00E9v\u00E9nements de donn\u00E9es pour un utilisateur nomm\u00E9 \u0022John\u0022"
+  },
+  {
+    "English": "DataEvents are changes performed to the DB related to the actions performed by the logged user.",
+    "French": "Les DataEvents sont des modifications apport\u00E9es \u00E0 la base de donn\u00E9es en rapport avec les actions effectu\u00E9es par l\u0027utilisateur connect\u00E9."
+  },
+  {
+    "English": "Note: We store event related properties in the customDimensions of the event. For example:",
+    "French": "Remarque : nous stockons les propri\u00E9t\u00E9s li\u00E9es \u00E0 l\u0027\u00E9v\u00E9nement dans les customDimensions de l\u0027\u00E9v\u00E9nement. Par exemple, nous stockons les propri\u00E9t\u00E9s li\u00E9es \u00E0 l\u0027\u00E9v\u00E9nement dans les customDimensions de l\u0027\u00E9v\u00E9nement :"
+  },
+  {
+    "English": "\tAspNetCoreEnvironment: dev",
+    "French": "\tAspNetCoreEnvironment : dev"
+  },
+  {
+    "English": "\tchangeType: Delete",
+    "French": "\tchangeType : Supprimer"
+  },
+  {
+    "English": "\tobjectId: MetadataProfile {ProfileId: 4} Deleted",
+    "French": "\tobjectId : MetadataProfile {ProfileId : 4} Supprim\u00E9"
+  },
+  {
+    "English": "\ttable: MetadataProfile",
+    "French": "\ttable : MetadataProfile"
+  },
+  {
+    "English": "\tuserId: 34a16480-1c78-4b65-933f-c6cce336346b",
+    "French": "\tuserId : 34a16480-1c78-4b65-933f-c6cce336346b"
+  },
+  {
+    "English": "\tuserName: Iroel Perez-Garcia",
+    "French": "\tNom d\u0027utilisateur : Iroel Perez-Garcia"
+  },
+  {
+    "English": "\tuserPrincipalName: iperez_apption.com#EXT#@163oxygen.onmicrosoft.com",
+    "French": "\tuserPrincipalName : iperez_apption.com#EXT#@163oxygen.onmicrosoft.com"
+  },
+  {
+    "English": "Access your storage account in Docker cluster",
+    "French": "Acc\u00E9dez \u00E0 votre compte de stockage dans le cluster Docker"
+  },
+  {
+    "English": "# Access your storage account in Databricks from a Docker based cluster",
+    "French": "# Acc\u00E9dez \u00E0 votre compte de stockage dans Databricks \u00E0 partir d\u0027un cluster bas\u00E9 sur Docker."
+  },
+  {
+    "English": "FSDH provides Docker based runtime as an option for your Databricks clusters. This article describes how you connect to your storage account from this type of runtime.",
+    "French": "DHSF propose un runtime bas\u00E9 sur Docker comme option pour vos clusters Databricks. Cet article d\u00E9crit comment vous connecter \u00E0 votre compte de stockage \u00E0 partir de ce type de runtime."
+  },
+  {
+    "English": "When your Databricks workspace is initially created, the key for your storage account has been saved to your Azure Key Vault. In addition, a secret scope \u0060datahub\u0060 has been created to allow referencing the key from your notebooks using \u0060dbutils.secrets.get(scope = \u0022datahub\u0022, key = \u0022storage-key\u0022)\u0060",
+    "French": "Lorsque votre espace de travail Databricks est initialement cr\u00E9\u00E9, la cl\u00E9 de votre compte de stockage a \u00E9t\u00E9 sauvegard\u00E9e dans votre Azure Key Vault. De plus, une port\u00E9e secr\u00E8te \u0060datahub\u0060 a \u00E9t\u00E9 cr\u00E9\u00E9e pour permettre de r\u00E9f\u00E9rencer la cl\u00E9 \u00E0 partir de vos notebooks en utilisant \u0060dbutils.secrets.get(scope = \u0022datahub\u0022, key = \u0022storage-key\u0022)\u0060"
+  },
+  {
+    "English": "## Mount Storage",
+    "French": "## Stockage des montages"
+  },
+  {
+    "English": "The following sample code illustrates how to mount your storage account. Replace \u0060mystorageaccount\u0060 with your storage account name. Also replace \u0060mydata\u0060 with your mount name of choice. ",
+    "French": "L\u0027exemple de code suivant illustre comment monter votre compte de stockage. Remplacez \u0060mystorageaccount\u0060 par le nom de votre compte de stockage. Remplacez \u00E9galement \u0060mydata\u0060 par le nom de montage de votre choix."
+  },
+  {
+    "English": "dbutils.fs.mount(",
+    "French": "dbutils.fs.mount("
+  },
+  {
+    "English": "    source = \u0022wasbs://datahub@mystorageaccount.blob.core.windows.net/\u0022, \u00A0 \u00A0",
+    "French": "    source = \u0022wasbs://datahub@mystorageaccount.blob.core.windows.net/\u0022,"
+  },
+  {
+    "English": "\u00A0 \u00A0 mount_point = \u0022/mnt/mydata\u0022, \u00A0 \u00A0 \u00A0 \u00A0 \u00A0 \u00A0",
+    "French": "    mount_point = \u0022/mnt/mydata\u0022,"
+  },
+  {
+    "English": "\u00A0 \u00A0 extra_configs = {\u0022fs.azure.account.key.mystorageaccount.blob.core.windows.net\u0022:dbutils.secrets.get(scope = \u0022datahub\u0022, key = \u0022storage-key\u0022)})",
+    "French": "    extra_configs = {\u0022fs.azure.account.key.mystorageaccount.blob.core.windows.net\u0022:dbutils.secrets.get(scope = \u0022datahub\u0022, key = \u0022storage-key\u0022)})"
+  },
+  {
+    "English": "dbutils.fs.ls(\u0022/mnt/mydata\u0022)",
+    "French": "dbutils.fs.ls(\u0022/mnt/mydata\u0022)"
+  },
+  {
+    "English": "## Using the Mount",
+    "French": "## Utilisation de la monture"
+  },
+  {
+    "English": "The mountpoint \u0060/mnt/mydata\u0060 can now be used in your notebooks. The following sample code illustrates how you access the data on the mount point.",
+    "French": "Le point de montage \u0060/mnt/mydata\u0060 peut maintenant \u00EAtre utilis\u00E9 dans vos carnets. L\u0027exemple de code suivant illustre comment acc\u00E9der aux donn\u00E9es sur le point de montage."
+  },
+  {
+    "English": "dbutils.fs.ls(\u0022/mnt/mydata/conda_test_data\u0022)",
+    "French": "dbutils.fs.ls(\u0022/mnt/mydata/conda_test_data\u0022)"
+  },
+  {
+    "English": "dbutils.fs.cp(\u0022/mnt/mydata/conda_test_data\u0022, \u0022/tmp\u0022, True)",
+    "French": "dbutils.fs.cp(\u0022/mnt/mydata/conda_test_data\u0022, \u0022/tmp\u0022, True)"
+  },
+  {
+    "English": "dbutils.fs.ls(\u0022/tmp\u0022)",
+    "French": "dbutils.fs.ls(\u0022/tmp\u0022)"
+  },
+  {
+    "English": "!fastqc /dbfs/tmp/SRR957824_500K_R1.fastq.gz /dbfs/tmp/SRR957824_500K_R2.fastq.gz -o /dbfs/tmp/testout",
+    "French": "!fastqc /dbfs/tmp/SRR957824_500K_R1.fastq.gz /dbfs/tmp/SRR957824_500K_R2.fastq.gz -o /dbfs/tmp/testout"
+  },
+  {
+    "English": "dbutils.fs.cp(\u0022/tmp/testout\u0022, \u0022/mnt/mydata/conda_test_data\u0022, True)",
+    "French": "dbutils.fs.cp(\u0022/tmp/testout\u0022, \u0022/mnt/mydata/conda_test_data\u0022, True)"
   }
 ]
