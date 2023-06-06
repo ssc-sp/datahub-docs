@@ -14806,5 +14806,53 @@
   {
     "English": "You can read more on AzCopy, including examples scenarios involving Azure storage but also Amazon S3 buckets or Google cloud storage, in the [official documentation](https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-v10).",
     "French": "Vous pouvez en savoir plus sur AzCopy, y compris des exemples de sc\u00E9narios impliquant le stockage Azure mais aussi les buckets Amazon S3 ou le stockage dans le nuage de Google, dans la [documentation officielle] (https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-v10)."
+  },
+  {
+    "English": "Desktop Uploader",
+    "French": "Chargeur de bureau"
+  },
+  {
+    "English": "# DataHub Desktop Uploader",
+    "French": "# DataHub Desktop Uploader"
+  },
+  {
+    "English": "## Get an upload code",
+    "French": "## Obtenir un code de t\u00E9l\u00E9chargement"
+  },
+  {
+    "English": "Press the button above to generate an upload code. An upload code is valid for 1 day once generated.",
+    "French": "Appuyez sur le bouton ci-dessus pour g\u00E9n\u00E9rer un code de t\u00E9l\u00E9chargement. Un code de t\u00E9l\u00E9chargement est valable pendant un jour une fois qu\u0027il a \u00E9t\u00E9 g\u00E9n\u00E9r\u00E9."
+  },
+  {
+    "English": "\u0060\u0060",
+    "French": "\u0060\u0060"
+  },
+  {
+    "English": "\u003Cdesktop_code\u003E",
+    "French": "\u003Cdesktop_code\u003E"
+  },
+  {
+    "English": "## What is the DataHub Desktop Uploader?",
+    "French": "## Qu\u0027est-ce que le DataHub Desktop Uploader ?"
+  },
+  {
+    "English": "The desktop uploader is a simple native Windows application that can be used to upload large folders and large files to the DataHub without any command line tools and parameters. ",
+    "French": "L\u0027uploader de bureau est une simple application Windows native qui peut \u00EAtre utilis\u00E9e pour t\u00E9l\u00E9charger des dossiers et des fichiers volumineux vers le DataHub sans outils ni param\u00E8tres de ligne de commande."
+  },
+  {
+    "English": "1. Copy the upload code to your clipboard",
+    "French": "1. Copiez le code de t\u00E9l\u00E9chargement dans votre presse-papiers"
+  },
+  {
+    "English": "1. The desktop tool can run a speed test to estimate the network speed from your connection to the datahub",
+    "French": "1. L\u0027outil de bureau peut effectuer un test de vitesse pour estimer la vitesse du r\u00E9seau entre votre connexion et le datahub."
+  },
+  {
+    "English": "1. Files and folders can be dropped in the tool for upload",
+    "French": "1. Les fichiers et les dossiers peuvent \u00EAtre d\u00E9pos\u00E9s dans l\u0027outil pour \u00EAtre t\u00E9l\u00E9charg\u00E9s."
+  },
+  {
+    "English": "1. Pressing \u0022Upload\u0022 will start the upload process",
+    "French": "1. L\u0027appui sur \u0022Upload\u0022 lance le processus de t\u00E9l\u00E9chargement."
   }
 ]
