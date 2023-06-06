@@ -342,5 +342,9 @@
   {
     "English": "Access-your-storage-account-in-Docker-cluster.md",
     "French": "Acc\u00E9dez-\u00E0-votre-compte-de-stockage-dans-le-cluster-Docker.md"
+  },
+  {
+    "English": "Static_Media.md",
+    "French": "M\u00E9dias-statiques.md"
   }
 ]
