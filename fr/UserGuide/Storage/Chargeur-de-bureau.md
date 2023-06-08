@@ -1,5 +1,5 @@
 ---
-remarks: Automatically translated with DeepL
+remarks: Translation reviews by DataHub team
 source: /UserGuide/Storage/Desktop-Uploader.md
 draft: true
 ---
