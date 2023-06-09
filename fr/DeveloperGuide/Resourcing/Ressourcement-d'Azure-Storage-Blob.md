@@ -1,5 +1,5 @@
 ---
-remarks: Automatically translated with DeepL
+remarks: Translation reviewed by DataHub team
 source: /DeveloperGuide/Resourcing/Resourcing-Azure-Storage-Blob.md
 draft: true
 ---

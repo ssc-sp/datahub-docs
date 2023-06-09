@@ -1,5 +1,5 @@
 ---
-remarks: Automatically translated with DeepL
+remarks: Translation reviewed by DataHub team
 source: /DeveloperGuide/Contributing/Contributing-Pull-Request.md
 draft: true
 ---

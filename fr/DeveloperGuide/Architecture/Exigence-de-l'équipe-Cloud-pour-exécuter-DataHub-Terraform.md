@@ -1,5 +1,5 @@
 ---
-remarks: Automatically translated with DeepL
+remarks: Translation reviewed by DataHub team
 source: /DeveloperGuide/Architecture/Cloud-Team-Requirement-for-Running-DataHub-Terraform.md
 draft: true
 ---

@@ -1,5 +1,5 @@
 ---
-remarks: Automatically translated with DeepL
+remarks: Translation reviewed by DataHub team
 source: /UserGuide/Databricks/Connecting-Google-API.md
 draft: true
 ---

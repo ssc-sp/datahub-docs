@@ -1,5 +1,5 @@
 ---
-remarks: Automatically translated with DeepL
+remarks: Translation reviewed by DataHub team
 source: /UserGuide/Storage/Datahub-AzureStorage.md
 draft: false
 ---

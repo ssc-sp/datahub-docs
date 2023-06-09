@@ -1,5 +1,5 @@
 ---
-remarks: Automatically translated with DeepL
+remarks: Translation reviewed by DataHub team
 source: /DeveloperGuide/Publishing/DataHub-Opendata-Publishing-API.md
 draft: true
 ---

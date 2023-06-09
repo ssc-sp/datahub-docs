@@ -1,5 +1,5 @@
 ---
-remarks: Automatically translated with DeepL
+remarks: Translation reviewed by DataHub team
 source: /InstallationGuide/09-Seed-Metadata.md
 draft: true
 ---

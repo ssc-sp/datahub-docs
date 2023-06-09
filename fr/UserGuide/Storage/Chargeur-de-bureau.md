@@ -1,5 +1,5 @@
 ---
-remarks: Translation reviews by DataHub team
+remarks: Translation reviewed by DataHub team
 source: /UserGuide/Storage/Desktop-Uploader.md
 draft: true
 ---
