@@ -1,5 +1,5 @@
 ---
-remarks: Automatically translated with DeepL
+remarks: Translation reviewed by DataHub team
 source: /AdminGuide/Datahub-Artifacts-Naming-Standards.md
 draft: true
 ---

@@ -334,5 +334,21 @@
   {
     "English": "Cluster-Policies.md",
     "French": "Politiques-des-clusters.md"
+  },
+  {
+    "English": "AppInsights-Auditing.md",
+    "French": "Audit-AppInsights.md"
+  },
+  {
+    "English": "Access-your-storage-account-in-Docker-cluster.md",
+    "French": "Acc\u00E9dez-\u00E0-votre-compte-de-stockage-dans-le-cluster-Docker.md"
+  },
+  {
+    "English": "Static_Media.md",
+    "French": "M\u00E9dias-statiques.md"
+  },
+  {
+    "English": "Desktop-Uploader.md",
+    "French": "Chargeur-de-bureau.md"
   }
 ]
