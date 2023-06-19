@@ -17,7 +17,18 @@ The current authentication of the application is leveraging [MS Identity](https:
 
 1. Run the portal in the background (can use the `dh-portal` script)
 1. Configure credientials in the configuration
-1. Run the E2E tests
+```json
+{
+  "BaseUrl": "https://localhost:5001",
+  "Headless": "false",
+  "SlowMo": "2000",
+  "admin_user": "<admin-test-email>",
+  "admin_password": "<admin-test-pw>",
+  "user_name": "<user-test-email>",
+  "password": "<user-test-pw>"
+}
+```
+3. Run the E2E tests
 
 
 ## Future Authentication
