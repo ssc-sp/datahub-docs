@@ -4,7 +4,7 @@ A **workspace** may contain one app. The app will be reverse proxied using [YARP
 
 Only members and admins of a workspace will be allowed to access the proxied app. A middleware will be in charge of enforcing this rule.
 
-To configuration an App we will do it statically in the Datahub configuration (for now). The following is an example of how to configure one of these apps.
+Workspace apps will be configure statically in the Datahub configuration (for now). The following is an example of how to configure one of these apps.
 
 **Configuration to forward all traffic for the DIE1 workspace app**
 
