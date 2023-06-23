@@ -6,27 +6,19 @@ Here are some sample lines to interact with a workspace. In these sample lines, 
 
 Copy from local to Azure (upload a file or folder):
 
-```
-azcopy copy C:\mydata\stage "<sas_uri>"
-```
+`azcopy copy C:\mydata\stage "<sas_uri>"`
 
 Copy from Azure to local (download a file or folder):
 
-```
-azcopy copy "<sas_uri>" C:\mydata\stage
-```
+`azcopy copy "<sas_uri>" C:\mydata\stage`
 
 Recursively sync from local to Azure (mirror a folder your system to Azure):
 
-```
-azcopy sync C:\mydata\stage "<sas_uri>" --recursive
-```
+`azcopy sync C:\mydata\stage "<sas_uri>" --recursive`
 
 Recursively sync from Azure to local (mirror a folder in Azure to your system):
 
-```
-azcopy sync "<sas_uri>" C:\mydata\stage --recursive
-```
+`azcopy sync "<sas_uri>" C:\mydata\stage --recursive`
 
 ## Useful flags
 
@@ -104,21 +96,15 @@ In order to point to a specific folder or file, you can add the path to that fil
 
 Copying the `sample.csv` file on my machine into the root of my workspace:
 
-```
-azcopy copy C:\mydata\sample.csv "<sas_uri>"
-```
+`azcopy copy C:\mydata\sample.csv "<sas_uri>"`
 
 Copying a `sample` folder on my machine into the root of my workspace:
 
-```
-azcopy copy C:\mydata\sample "<sas_uri>" --recursive
-```
+`azcopy copy C:\mydata\sample "<sas_uri>" --recursive`
 
 Syncing the `sample` folder on my machine into a specific folder of my workspace:
 
-```
-azcopy sync C:\mydata\sample "blob-name.blob.core.windows.net/datahub/path/to/folder?token-info" --recursive
-```
+`azcopy sync C:\mydata\sample "blob-name.blob.core windows.net/datahub/path/to/folder?token-info" --recursive`
 
 ## Learn more
 
