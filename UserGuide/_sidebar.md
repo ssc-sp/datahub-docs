@@ -23,12 +23,12 @@
   - [How to build Dashboards with Databricks](/UserGuide/Databricks/Dashboarding.md)
   - [How to connect Google APIs with Databricks](/UserGuide/Databricks/Connecting-Google-API.md)
   - [How to use Conda packages with Databricks](/UserGuide/Databricks/Conda-Packages.md)
-  - [How to perform Experiments with AutoML]
-  - [How to schedule Jobs in Databricks]
-  - [Temperature Forecasting with Databricks Example]
-  - [How to use AzCopy to transfer large files]
-  - [Getting started with FSDH Use Case 1]
-  - [Torchvision for Dash Cam Video Analysis in Databricks]
+#  - [How to perform Experiments with AutoML]
+#  - [How to schedule Jobs in Databricks]
+#  - [Temperature Forecasting with Databricks Example]
+#  - [How to use AzCopy to transfer large files]
+#  - [Getting started with FSDH Use Case 1]
+#  - [Torchvision for Dash Cam Video Analysis in Databricks]
 
 - [Frequently Asked Questions (FAQs)](/UserGuide/FSDH-FAQs.md)
 
