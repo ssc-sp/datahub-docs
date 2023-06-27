@@ -1,5 +1,10 @@
 # **Databricks MLFlow: AutoML and Experiments**
 
+<video width="720" height="405" controls>
+    <source src="/api/media/experiments-automl.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
 Databricks MLFlow is an integrated platform for the end-to-end machine learning lifecycle. It provides a centralized place to track experiments, manage models, and quickly deploy them into production. MLflow lets you log and query experiments using Python, REST, R API, and Java API APIs. You can use MLflow to record and query experiments, get run metrics, metrics history, and compare runs. MLflow is an API and UI for logging parameters, code versions, metrics, and output files when running your machine learning code and for later visualizing the results.
 
 MLflow is organized around the concept of **runs**, which are executions of data science code. Runs are aggregated into **experiments** where many runs can be a part of a given experiment and an MLflow server can host many experiments. The MLflow component is an API and UI for logging parameters, code versions, metrics, and output files when running your machine learning code and for later visualizing the results.
