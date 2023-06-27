@@ -1,5 +1,5 @@
 ---
-remarks: Translation reviewed by DataHub team
+remarks: Automatically translated with DeepL
 source: /UserGuide/Storage/Use-AzCopy.md
 draft: true
 ---
@@ -12,27 +12,19 @@ Voici quelques exemples de lignes pour interagir avec un espace de travail. Dans
 
 Copie d'un fichier local vers Azure (téléchargement d'un fichier ou d'un dossier) :
 
-```
-azcopy copy C:\mydata\stage "<sas_uri>"
-```
+`azcopy copy C:\Nmydata\Nstage "<sas_uri>" `
 
 Copier d'Azure vers local (télécharger un fichier ou un dossier) :
 
-```
-azcopy copy "<sas_uri>" C:\NMydata\stage
-```
+`azcopy copy "<sas_uri>" C:\NMydata\Nstage`
 
 Synchronisation récursive du local vers Azure (mise en miroir d'un dossier de votre système vers Azure) :
 
-```
-azcopy sync C:\mydata\stage "<sas_uri>" --recursive
-```
+`azcopy sync C:\mydata\stage "<sas_uri>" --recursive`
 
 Synchronisation récursive d'Azure vers local (mise en miroir d'un dossier d'Azure vers votre système) :
 
-```
-azcopy sync "<sas_uri>" C:\NMydata\stage --recursive
-```
+`azcopy sync "<sas_uri>" C:\NMydata\stage --recursive`
 
 ## Drapeaux utiles
 
@@ -110,21 +102,15 @@ Pour pointer vers un dossier ou un fichier spécifique, vous pouvez ajouter le c
 
 Copier le fichier `sample.csv` sur ma machine dans la racine de mon espace de travail :
 
-```
-azcopy copy C:\Nmydata\Nsample.csv "<sas_uri>"
-```
+`azcopy copy C:\Nmydata\Nsample.csv "<sas_uri>" `
 
 Copier un dossier `sample` sur ma machine dans la racine de mon espace de travail :
 
-```
-azcopy copy C:\Nmydata\Nsample "<sas_uri>" --recursive
-```
+`azcopy copy C:\Nmydata\Nsample "<sas_uri>" --recursive`
 
 Synchronisation du dossier `sample` de ma machine dans un dossier spécifique de mon espace de travail :
 
-```
-azcopy sync C:\mydata\sample "blob-name.blob.core.windows.net/datahub/path/to/folder?token-info" --recursive
-```
+`azcopy sync C:\data\sample "blob-name.blob.core windows.net/datahub/path/to/folder?token-info" --recursive`
 
 ## En savoir plus
 

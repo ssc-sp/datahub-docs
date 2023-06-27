@@ -1,5 +1,5 @@
 ---
-remarks: Translation reviewed by DataHub team
+remarks: Automatically translated with DeepL
 source: /InstallationGuide/01-Create-Repositories.md
 draft: true
 ---

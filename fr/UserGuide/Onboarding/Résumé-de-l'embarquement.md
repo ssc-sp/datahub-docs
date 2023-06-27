@@ -1,5 +1,5 @@
 ---
-remarks: Translation reviewed by DataHub team
+remarks: Automatically translated with DeepL
 source: /UserGuide/Onboarding/OnboardingSummary.md
 draft: true
 ---

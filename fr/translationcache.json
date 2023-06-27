@@ -14854,5 +14854,829 @@
   {
     "English": "1. Pressing \u0022Upload\u0022 will start the upload process",
     "French": "1. L\u0027appui sur \u0022Upload\u0022 lance le processus de t\u00E9l\u00E9chargement."
+  },
+  {
+    "English": "This document summarized the workflow for automated end to end testing for the Datahub application.",
+    "French": "Ce document r\u00E9sume le flux de travail pour les tests automatis\u00E9s de bout en bout de l\u0027application Datahub."
+  },
+  {
+    "English": "The objective of E2E testing is to test the application from the user perspective. The test will be executed from the UI and will simulate the user interaction with the application.",
+    "French": "L\u0027objectif des tests E2E est de tester l\u0027application du point de vue de l\u0027utilisateur. Le test sera ex\u00E9cut\u00E9 \u00E0 partir de l\u0027interface utilisateur et simulera l\u0027interaction de l\u0027utilisateur avec l\u0027application."
+  },
+  {
+    "English": "The current authentication of the application is leveraging [MS Identity](https://learn.microsoft.com/en-us/azure/active-directory/develop/v2-app-types#web-apps) with OIDC.",
+    "French": "L\u0027authentification actuelle de l\u0027application s\u0027appuie sur [MS Identity] (https://learn.microsoft.com/en-us/azure/active-directory/develop/v2-app-types#web-apps) avec OIDC."
+  },
+  {
+    "English": "### Authentication steps",
+    "French": "### \u00C9tapes d\u0027authentification"
+  },
+  {
+    "English": "\u003E Note: until Keycloak has been integrated, there will be a manual step to login to the application.",
+    "French": "\u003E Note : jusqu\u0027\u00E0 ce que Keycloak soit int\u00E9gr\u00E9, il y aura une \u00E9tape manuelle pour se connecter \u00E0 l\u0027application."
+  },
+  {
+    "English": "1. Run the portal in the background (can use the \u0060dh-portal\u0060 script)",
+    "French": "1. Lancer le portail en arri\u00E8re-plan (on peut utiliser le script \u0060dh-portal\u0060)"
+  },
+  {
+    "English": "1. Configure credientials in the configuration",
+    "French": "1. Configurer les identifiants dans la configuration"
+  },
+  {
+    "English": "  \u0022BaseUrl\u0022: \u0022https://localhost:5001\u0022,",
+    "French": "  \u0022BaseUrl\u0022 : \u0022https://localhost:5001\u0022,"
+  },
+  {
+    "English": "  \u0022Headless\u0022: \u0022false\u0022,",
+    "French": "  \u0022Headless\u0022 : \u0022false\u0022,"
+  },
+  {
+    "English": "  \u0022SlowMo\u0022: \u00222000\u0022,",
+    "French": "  \u0022SlowMo\u0022 : \u00222000\u0022,"
+  },
+  {
+    "English": "  \u0022admin_user\u0022: \u0022\u003Cadmin-test-email\u003E\u0022,",
+    "French": "  \u0022admin_user\u0022 : \u0022\u003Cadmin-test-email\u003E\u0022,"
+  },
+  {
+    "English": "  \u0022admin_password\u0022: \u0022\u003Cadmin-test-pw\u003E\u0022,",
+    "French": "  \u0022admin_password\u0022 : \u0022\u003Cadmin-test-pw\u003E\u0022,"
+  },
+  {
+    "English": "  \u0022user_name\u0022: \u0022\u003Cuser-test-email\u003E\u0022,",
+    "French": "  \u0022user_name\u0022 : \u0022\u003Cuser-test-email\u003E\u0022,"
+  },
+  {
+    "English": "  \u0022password\u0022: \u0022\u003Cuser-test-pw\u003E\u0022",
+    "French": "  \u0022password\u0022 : \u0022\u003Cutilisateur-test-pw\u003E\u0022"
+  },
+  {
+    "English": "3. Run the E2E tests",
+    "French": "3. Ex\u00E9cuter les tests E2E"
+  },
+  {
+    "English": "## Future Authentication",
+    "French": "## Authentification future"
+  },
+  {
+    "English": "The future authentication will be leveraging [Keycloak](https://www.keycloak.org/). The following steps will be required to login to the application:",
+    "French": "L\u0027authentification future s\u0027appuiera sur [Keycloak] (https://www.keycloak.org/). Les \u00E9tapes suivantes seront n\u00E9cessaires pour se connecter \u00E0 l\u0027application :"
+  },
+  {
+    "English": "1. Run the E2E tests",
+    "French": "1. Ex\u00E9cuter les tests E2E"
+  },
+  {
+    "English": "Multi cloud security",
+    "French": "S\u00E9curit\u00E9 multi-nuages"
+  },
+  {
+    "English": "# Multi-cloud security",
+    "French": "# S\u00E9curit\u00E9 multi-cloud"
+  },
+  {
+    "English": "Here is a diagram for how a user will authenticate against keycloak and then access the different cloud providers. ",
+    "French": "Voici un diagramme qui montre comment un utilisateur s\u0027authentifie aupr\u00E8s de keycloak et acc\u00E8de ensuite aux diff\u00E9rents fournisseurs de services en nuage."
+  },
+  {
+    "English": "flowchart ",
+    "French": "organigramme"
+  },
+  {
+    "English": "    U(((User)))",
+    "French": "    U(((Utilisateur)))"
+  },
+  {
+    "English": "    K{{Keycloak}}",
+    "French": "    K{{Keycloak}}"
+  },
+  {
+    "English": "    cAWS[AWS Identity Center]",
+    "French": "    cAWS [Centre d\u0027identit\u00E9 AWS]"
+  },
+  {
+    "English": "    cGCP[GCP Workforce Identity Federation]",
+    "French": "    cGCP [GCP Workforce Identity Federation]"
+  },
+  {
+    "English": "    cAZ[Azure Active Directory]",
+    "French": "    cAZ[Azure Active Directory]"
+  },
+  {
+    "English": "    rAWS[Resources in AWS]",
+    "French": "    rAWS [Ressources dans AWS]"
+  },
+  {
+    "English": "    rGCP[Resources in GCP]",
+    "French": "    rGCP [Ressources dans les PCG]"
+  },
+  {
+    "English": "    rAZ[Resources in Azure]",
+    "French": "    rAZ [Ressources dans Azure]"
+  },
+  {
+    "English": "    U --\u003E|Authenticate| K",
+    "French": "    U --\u003E|Authenticate| K"
+  },
+  {
+    "English": "    K \u003C===\u003E|Brokered| cAZ",
+    "French": "    K \u003C===\u003E|Brokered| cAZ"
+  },
+  {
+    "English": "    K ---\u003E|Federated| cAWS",
+    "French": "    K ---\u003E|F\u00E9d\u00E9r\u00E9| cAWS"
+  },
+  {
+    "English": "    K ---\u003E|Federated| cGCP",
+    "French": "    K ---\u003E|Federated| cGCP"
+  },
+  {
+    "English": "    subgraph AWS",
+    "French": "    sous-graphe AWS"
+  },
+  {
+    "English": "        cAWS --\u003E|Authorize| rAWS",
+    "French": "        cAWS --\u003E|Autoriser| rAWS"
+  },
+  {
+    "English": "    subgraph GCP",
+    "French": "    sous-graphe GCP"
+  },
+  {
+    "English": "        cGCP --\u003E|Authorize| rGCP",
+    "French": "        cGCP --\u003E|Autoriser| rGCP"
+  },
+  {
+    "English": "    subgraph Azure",
+    "French": "    sous-graphe Azure"
+  },
+  {
+    "English": "        cAZ --\u003E|Authorize| rAZ",
+    "French": "        cAZ --\u003E|Autoriser| rAZ"
+  },
+  {
+    "English": "# AWS Identity Center",
+    "French": "# Centre d\u0027identit\u00E9 AWS"
+  },
+  {
+    "English": "[AWS IAM](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html) is a service that enables you to manage access to AWS services and resources securely. Using IAM, you can create and manage AWS users and groups, and use permissions to allow and deny their access to AWS resources.",
+    "French": "[AWS IAM] (https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html) est un service qui vous permet de g\u00E9rer l\u0027acc\u00E8s aux services et ressources AWS en toute s\u00E9curit\u00E9. L\u0027IAM permet de cr\u00E9er et de g\u00E9rer des utilisateurs et des groupes AWS, et d\u0027utiliser des autorisations pour leur permettre ou leur refuser l\u0027acc\u00E8s aux ressources AWS."
+  },
+  {
+    "English": "IAM Identity Center also supports a System for Cross-Domain Identity MAnagement (SCIM). See [SCIM profile and SAML2.0 implementation on AWS](https://docs.aws.amazon.com/singlesignon/latest/userguide/scim-profile-saml.html) for more information.",
+    "French": "Le centre d\u0027identit\u00E9 IAM prend \u00E9galement en charge un syst\u00E8me de gestion des identit\u00E9s interdomaines (SCIM). Voir [Profil SCIM et mise en \u0153uvre de SAML2.0 sur AWS] (https://docs.aws.amazon.com/singlesignon/latest/userguide/scim-profile-saml.html) pour plus d\u0027informations."
+  },
+  {
+    "English": "There is also a mechanism to handle the provisioning automatically. See [Automatic provisioning](https://docs.aws.amazon.com/singlesignon/latest/userguide/provision-automatically.html) for more information. There are a few considerations to take into account when using automatic provisioning that are covered in the previous link.",
+    "French": "Il existe \u00E9galement un m\u00E9canisme permettant de g\u00E9rer le provisionnement automatiquement. Voir [Automatic provisioning] (https://docs.aws.amazon.com/singlesignon/latest/userguide/provision-automatically.html) pour plus d\u0027informations. Il y a quelques consid\u00E9rations \u00E0 prendre en compte lors de l\u0027utilisation du provisionnement automatique qui sont couvertes dans le lien pr\u00E9c\u00E9dent."
+  },
+  {
+    "English": "\u003Cb\u003EFor SCIM synchronization to work, every user must have a First name, Last name, Username and Display name value specified. If any of these values are missing from a user, that user will not be provisioned.\u003C/b\u003E",
+    "French": "\u003CPour que la synchronisation SCIM fonctionne, chaque utilisateur doit avoir un pr\u00E9nom, un nom, un nom d\u0027utilisateur et un nom d\u0027affichage sp\u00E9cifi\u00E9s. Si l\u0027une de ces valeurs est manquante pour un utilisateur, celui-ci ne sera pas provisionn\u00E9."
+  },
+  {
+    "English": "\u003E Note: Changes to users and groups in your identity provider are only reflected in IAM Identity Center after your identity provider sends those changes to IAM Identity Center. ",
+    "French": "\u003E Remarque : Les modifications apport\u00E9es aux utilisateurs et aux groupes dans votre fournisseur d\u0027identit\u00E9 ne sont refl\u00E9t\u00E9es dans le centre d\u0027identit\u00E9 IAM qu\u0027une fois que votre fournisseur d\u0027identit\u00E9 a envoy\u00E9 ces modifications au centre d\u0027identit\u00E9 IAM."
+  },
+  {
+    "English": "# GCP Identity Center",
+    "French": "# Centre d\u0027identit\u00E9 GCP"
+  },
+  {
+    "English": "[GCP IAM](https://cloud.google.com/iam/docs/overview) is a service that enables you to manage access to GCP services and resources securely. Using IAM, you can create and manage GCP users and groups, and use permissions to allow and deny their access to GCP resources.",
+    "French": "[GCP IAM] (https://cloud.google.com/iam/docs/overview) est un service qui vous permet de g\u00E9rer l\u0027acc\u00E8s aux services et ressources GCP en toute s\u00E9curit\u00E9. Gr\u00E2ce \u00E0 IAM, vous pouvez cr\u00E9er et g\u00E9rer des utilisateurs et des groupes GCP, et utiliser des permissions pour autoriser ou refuser leur acc\u00E8s aux ressources GCP."
+  },
+  {
+    "English": "GCP Identity Center also supports a System for Cross-Domain Identity Management (SCIM). See [Configure workforce identity federation](https://cloud.google.com/iam/docs/configuring-workforce-identity-federation) for more information.",
+    "French": "Le centre d\u0027identit\u00E9 GCP prend \u00E9galement en charge un syst\u00E8me de gestion des identit\u00E9s interdomaines (SCIM). Voir [Configurer la f\u00E9d\u00E9ration d\u0027identit\u00E9 de la main-d\u0027\u0153uvre] (https://cloud.google.com/iam/docs/configuring-workforce-identity-federation) pour plus d\u0027informations."
+  },
+  {
+    "English": "## What is workforce identity federation?",
+    "French": "## Qu\u0027est-ce que la f\u00E9d\u00E9ration d\u0027identit\u00E9 de main-d\u0027\u0153uvre ?"
+  },
+  {
+    "English": "Workforce identity federation lets you use an external identity provider (IdP) to authenticate and authorize a workforce\u2014a group of users, such as employees, partners, and contractors\u2014using IAM, so that the users can access Google Cloud services. With workforce identity federation you don\u0027t need to synchronize user identities from your existing IdP to Google Cloud identities, as you would with Cloud Identity\u0027s Google Cloud Directory Sync (GCDS). ",
+    "French": "La f\u00E9d\u00E9ration d\u0027identit\u00E9 des employ\u00E9s vous permet d\u0027utiliser un fournisseur d\u0027identit\u00E9 externe (IdP) pour authentifier et autoriser un groupe d\u0027utilisateurs (employ\u00E9s, partenaires, sous-traitants, etc.) \u00E0 l\u0027aide d\u0027IAM, afin que les utilisateurs puissent acc\u00E9der aux services de Google Cloud. Avec la f\u00E9d\u00E9ration d\u0027identit\u00E9s des employ\u00E9s, vous n\u0027avez pas besoin de synchroniser les identit\u00E9s des utilisateurs de votre IdP existant avec les identit\u00E9s de Google Cloud, comme vous le feriez avec Google Cloud Directory Sync (GCDS) de Cloud Identity."
+  },
+  {
+    "English": "\u003Cb\u003EWorkforce identity federation extends Google Cloud\u0027s identity capabilities to support syncless, attribute-based single sign on.\u003C/b\u003E",
+    "French": "\u003CLa f\u00E9d\u00E9ration d\u0027identit\u00E9 des travailleurs \u00E9tend les capacit\u00E9s d\u0027identit\u00E9 de Google Cloud pour prendre en charge l\u0027authentification unique synchrone bas\u00E9e sur les attributs."
+  },
+  {
+    "English": "\u003E Note: In some IdPs, attributes are also known as claims or assertions.",
+    "French": "\u003E Note : Dans certains IdP, les attributs sont \u00E9galement appel\u00E9s \u0022claims\u0022 ou \u0022assertions\u0022."
+  },
+  {
+    "English": "After user authentication, information that is received from the IdP is used to determine the scope of access to the Google Cloud resources.",
+    "French": "Apr\u00E8s l\u0027authentification de l\u0027utilisateur, les informations re\u00E7ues de l\u0027IdP sont utilis\u00E9es pour d\u00E9terminer l\u0027\u00E9tendue de l\u0027acc\u00E8s aux ressources de Google Cloud."
+  },
+  {
+    "English": "You can use workforce identity federation with any IdP that supports OpenID Connect (OIDC) or SAML 2.0, such as Azure Active Directory (Azure AD), Active Directory Federation Services (AD FS), Okta, and others.",
+    "French": "Vous pouvez utiliser la f\u00E9d\u00E9ration d\u0027identit\u00E9 des travailleurs avec n\u0027importe quel IdP qui prend en charge OpenID Connect (OIDC) ou SAML 2.0, comme Azure Active Directory (Azure AD), Active Directory Federation Services (AD FS), Okta, et d\u0027autres."
+  },
+  {
+    "English": "# Azure Active Directory",
+    "French": "# Azure Active Directory"
+  },
+  {
+    "English": "[Azure AD](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-whatis) is Microsoft\u2019s cloud-based identity and access management service. ",
+    "French": "[Azure AD] (https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-whatis) est le service de gestion des identit\u00E9s et des acc\u00E8s de Microsoft bas\u00E9 sur le cloud."
+  },
+  {
+    "English": "2 6",
+    "French": "2 6"
+  },
+  {
+    "English": "# Release 2.6 Assets",
+    "French": "# Version 2.6 Actifs"
+  },
+  {
+    "English": "## Databricks Git Repository Sharing",
+    "French": "## Partage du d\u00E9p\u00F4t Git de Databricks"
+  },
+  {
+    "English": "![image](https://github.com/ssc-sp/datahub-docs/assets/43834308/ec9c184e-182b-4945-a7ea-d6fdb920b48a)",
+    "French": "![image](https://github.com/ssc-sp/datahub-docs/assets/43834308/ec9c184e-182b-4945-a7ea-d6fdb920b48a)"
+  },
+  {
+    "English": "![image](https://github.com/ssc-sp/datahub-docs/assets/43834308/83145430-fd5d-404e-ad4b-096b012ff2df)",
+    "French": "![image](https://github.com/ssc-sp/datahub-docs/assets/43834308/83145430-fd5d-404e-ad4b-096b012ff2df)"
+  },
+  {
+    "English": "![image](https://github.com/ssc-sp/datahub-docs/assets/43834308/07204eee-eb0f-4d2d-8e87-ddabdcae4649)",
+    "French": "![image](https://github.com/ssc-sp/datahub-docs/assets/43834308/07204eee-eb0f-4d2d-8e87-ddabdcae4649)"
+  },
+  {
+    "English": "## Guest Role (read-only)",
+    "French": "## R\u00F4le de l\u0027invit\u00E9 (en lecture seule)"
+  },
+  {
+    "English": "![image](https://github.com/ssc-sp/datahub-docs/assets/43834308/2f7103f2-9b25-4586-82b8-730eb41a5d6a)",
+    "French": "![image](https://github.com/ssc-sp/datahub-docs/assets/43834308/2f7103f2-9b25-4586-82b8-730eb41a5d6a)"
+  },
+  {
+    "English": "## UI Improvements",
+    "French": "## Am\u00E9liorations de l\u0027interface utilisateur"
+  },
+  {
+    "English": "![image](https://github.com/ssc-sp/datahub-docs/assets/43834308/0ccdea3b-bd64-4289-a902-ae5691e6e7ac)",
+    "French": "![image](https://github.com/ssc-sp/datahub-docs/assets/43834308/0ccdea3b-bd64-4289-a902-ae5691e6e7ac)"
+  },
+  {
+    "English": "Configuration",
+    "French": "Configuration"
+  },
+  {
+    "English": "# Workspaces and Apps",
+    "French": "# Espaces de travail et applications"
+  },
+  {
+    "English": "A workspace may contain one app. The app will be reverse proxied using [YARP](https://microsoft.github.io/reverse-proxy/).",
+    "French": "Un espace de travail peut contenir une application. L\u0027application fera l\u0027objet d\u0027une procuration inverse \u00E0 l\u0027aide de [YARP](https://microsoft.github.io/reverse-proxy/)."
+  },
+  {
+    "English": "Only members and admins of a workspace will be allowed to access the proxied app. A middleware will be in charge of enforcing this rule.",
+    "French": "Seuls les membres et les administrateurs d\u0027un espace de travail seront autoris\u00E9s \u00E0 acc\u00E9der \u00E0 l\u0027application mandat\u00E9e. Un middleware sera charg\u00E9 de faire respecter cette r\u00E8gle."
+  },
+  {
+    "English": "\u003EWorkspace apps will be configure statically in the Datahub Portal configuration (for now). ",
+    "French": "\u003ELes applications de l\u0027espace de travail seront configur\u00E9es statiquement dans la configuration du portail Datahub (pour l\u0027instant)."
+  },
+  {
+    "English": "The following is an example of how to configure one of these apps.",
+    "French": "Voici un exemple de configuration de l\u0027une de ces applications."
+  },
+  {
+    "English": "**Configuration to forward all traffic for the DIE1 workspace app**",
+    "French": "**Configuration pour transf\u00E9rer tout le trafic pour l\u0027application de l\u0027espace de travail DIE1**."
+  },
+  {
+    "English": "\u0022ReverseProxy\u0022: {",
+    "French": "\u0022ReverseProxy\u0022 : {"
+  },
+  {
+    "English": "    \u0022Routes\u0022: {",
+    "French": "    \u0022Routes\u0022 : {"
+  },
+  {
+    "English": "      \u0022route1\u0022: {",
+    "French": "      \u0022route1\u0022 : {"
+  },
+  {
+    "English": "        \u0022ClusterId\u0022: \u0022cluster1\u0022,",
+    "French": "        \u0022ClusterId\u0022 : \u0022cluster1\u0022,"
+  },
+  {
+    "English": "        \u0022Match\u0022: {",
+    "French": "        \u0022Match\u0022 : {"
+  },
+  {
+    "English": "          \u0022Path\u0022: \u0022/wsapp/die1/{**catch-all}\u0022",
+    "French": "          \u0022Path\u0022 : \u0022/wsapp/die1/{**catch-all}\u0022"
+  },
+  {
+    "English": "      }",
+    "French": "      }"
+  },
+  {
+    "English": "    \u0022Clusters\u0022: {",
+    "French": "    \u0022Clusters\u0022 : {"
+  },
+  {
+    "English": "      \u0022cluster1\u0022: {",
+    "French": "      \u0022cluster1\u0022 : {"
+  },
+  {
+    "English": "        \u0022Destinations\u0022: {",
+    "French": "        \u0022Destinations\u0022 : {"
+  },
+  {
+    "English": "          \u0022destination1\u0022: {",
+    "French": "          \u0022destination1\u0022 : {"
+  },
+  {
+    "English": "            \u0022Address\u0022: \u0022https://fsdh-proj-ncco-shiny-app-test.azurewebsites.net/\u0022",
+    "French": "            \u0022Adresse\u0022 : \u0022https://fsdh-proj-ncco-shiny-app-test.azurewebsites.net/\u0022"
+  },
+  {
+    "English": "This configuration will make any request sent to: https://datahub-portal-url/wsapp/die1/ to be forwarded to https://fsdh-proj-ncco-shiny-app-test.azurewebsites.net/ via the reverse-proxy.",
+    "French": "Cette configuration fera en sorte que toute requ\u00EAte envoy\u00E9e \u00E0 : https://datahub-portal-url/wsapp/die1/ sera transmise \u00E0 https://fsdh-proj-ncco-shiny-app-test.azurewebsites.net/ via le reverse-proxy."
+  },
+  {
+    "English": "Experiments Automl",
+    "French": "Exp\u00E9riences Automl"
+  },
+  {
+    "English": "# **Databricks MLFlow: AutoML and Experiments**",
+    "French": "**Databricks MLFlow : AutoML et exp\u00E9riences**"
+  },
+  {
+    "English": "Databricks MLFlow is an integrated platform for the end-to-end machine learning lifecycle. It provides a centralized place to track experiments, manage models, and quickly deploy them into production. MLflow lets you log and query experiments using Python, REST, R API, and Java API APIs. You can use MLflow to record and query experiments, get run metrics, metrics history, and compare runs. MLflow is an API and UI for logging parameters, code versions, metrics, and output files when running your machine learning code and for later visualizing the results.",
+    "French": "Databricks MLFlow est une plateforme int\u00E9gr\u00E9e pour le cycle de vie de l\u0027apprentissage automatique de bout en bout. Elle offre un lieu centralis\u00E9 pour suivre les exp\u00E9riences, g\u00E9rer les mod\u00E8les et les d\u00E9ployer rapidement en production. MLflow vous permet d\u0027enregistrer et d\u0027interroger des exp\u00E9riences \u00E0 l\u0027aide des API Python, REST, R et Java. Vous pouvez utiliser MLflow pour enregistrer et interroger des exp\u00E9riences, obtenir des m\u00E9triques d\u0027ex\u00E9cution, l\u0027historique des m\u00E9triques et comparer les ex\u00E9cutions. MLflow est une API et une interface utilisateur permettant d\u0027enregistrer les param\u00E8tres, les versions de code, les m\u00E9triques et les fichiers de sortie lors de l\u0027ex\u00E9cution de votre code d\u0027apprentissage automatique et de visualiser ult\u00E9rieurement les r\u00E9sultats."
+  },
+  {
+    "English": "MLflow is organized around the concept of **runs**, which are executions of data science code. Runs are aggregated into **experiments** where many runs can be a part of a given experiment and an MLflow server can host many experiments. The MLflow component is an API and UI for logging parameters, code versions, metrics, and output files when running your machine learning code and for later visualizing the results.",
+    "French": "MLflow est organis\u00E9 autour du concept de **runs**, qui sont des ex\u00E9cutions de code de science des donn\u00E9es. Les runs sont agr\u00E9g\u00E9s en **exp\u00E9riences** o\u00F9 de nombreux runs peuvent faire partie d\u0027une exp\u00E9rience donn\u00E9e et un serveur MLflow peut h\u00E9berger de nombreuses exp\u00E9riences. Le composant MLflow est une API et une interface utilisateur pour l\u0027enregistrement des param\u00E8tres, des versions de code, des m\u00E9triques et des fichiers de sortie lors de l\u0027ex\u00E9cution de votre code d\u0027apprentissage automatique et pour la visualisation ult\u00E9rieure des r\u00E9sultats."
+  },
+  {
+    "English": "In Databricks, there are two types of experiments:",
+    "French": "Dans Databricks, il existe deux types d\u0027exp\u00E9riences :"
+  },
+  {
+    "English": "- **Workspace experiments** are experiments that are created and managed in the Databricks workspace. You can use the Databricks experiment UI to view and manage these experiments. You can also use the MLflow API to log runs to these experiments.",
+    "French": "- Les exp\u00E9riences de l\u0027espace de travail** sont des exp\u00E9riences qui sont cr\u00E9\u00E9es et g\u00E9r\u00E9es dans l\u0027espace de travail Databricks. Vous pouvez utiliser l\u0027interface utilisateur des exp\u00E9riences Databricks pour visualiser et g\u00E9rer ces exp\u00E9riences. Vous pouvez \u00E9galement utiliser l\u0027API MLflow pour enregistrer les ex\u00E9cutions de ces exp\u00E9riences."
+  },
+  {
+    "English": "- **Notebook experiments** are experiments that are created and managed in a notebook. You can use the MLflow API to log runs to these experiments. You can also use the Databricks experiment UI to view and manage these experiments.",
+    "French": "- Les exp\u00E9riences de type notebook** sont des exp\u00E9riences cr\u00E9\u00E9es et g\u00E9r\u00E9es dans un notebook. Vous pouvez utiliser l\u0027API MLflow pour enregistrer les ex\u00E9cutions de ces exp\u00E9riences. Vous pouvez \u00E9galement utiliser l\u0027interface utilisateur des exp\u00E9riences Databricks pour visualiser et g\u00E9rer ces exp\u00E9riences."
+  },
+  {
+    "English": "## **Workspace Experiments and AutoML**",
+    "French": "## **Exp\u00E9riences d\u0027espace de travail et AutoML**"
+  },
+  {
+    "English": "Workspace experiments take advantage of AutoML, which is a feature of Databricks that automatically trains and tunes machine learning models. This allows user to build machine learning models with minimal effort and near no coding required. This feature is an out-of-the-box option for Databricks and it offers a variety of algorithms to choose from:",
+    "French": "Les exp\u00E9riences de l\u0027espace de travail tirent parti d\u0027AutoML, une fonctionnalit\u00E9 de Databricks qui entra\u00EEne et ajuste automatiquement les mod\u00E8les d\u0027apprentissage automatique. Cela permet \u00E0 l\u0027utilisateur de construire des mod\u00E8les d\u0027apprentissage automatique avec un minimum d\u0027effort et pratiquement sans codage. Cette fonctionnalit\u00E9 est une option pr\u00EAte \u00E0 l\u0027emploi pour Databricks et offre une vari\u00E9t\u00E9 d\u0027algorithmes \u00E0 choisir :"
+  },
+  {
+    "English": "- **Classification**: Logistic Regression, Random Forest, Decision Tree, XGBoost, LightGBM",
+    "French": "- Classification** : R\u00E9gression logistique, for\u00EAt al\u00E9atoire, arbre de d\u00E9cision, XGBoost, LightGBM"
+  },
+  {
+    "English": "- **Regression**: Decision Tree, Random Forest, Linear Regresseion with stochastic gradient descent, XGBoost, LightGBM",
+    "French": "- R\u00E9gression** : Arbre de d\u00E9cision, for\u00EAt al\u00E9atoire, r\u00E9gression lin\u00E9aire avec descente de gradient stochastique, XGBoost, LightGBM"
+  },
+  {
+    "English": "- **Forecasting**: ARIMA, Prophet",
+    "French": "- **Pr\u00E9vision** : ARIMA, Proph\u00E8te"
+  },
+  {
+    "English": "In summary, AutoML will train several models using different algorithms and hyperparameters and select the best one based on the metric you choose. It will also provide you with a notebook that you can use to deploy your model.",
+    "French": "En r\u00E9sum\u00E9, AutoML entra\u00EEnera plusieurs mod\u00E8les en utilisant diff\u00E9rents algorithmes et hyperparam\u00E8tres et s\u00E9lectionnera le meilleur sur la base de la m\u00E9trique que vous avez choisie. Il vous fournira \u00E9galement un carnet de notes que vous pourrez utiliser pour d\u00E9ployer votre mod\u00E8le."
+  },
+  {
+    "English": "The first step to using AutoML is to upload your training data to Databricks. You can do so by following [this guide](https://learn.microsoft.com/en-us/azure/databricks/ingestion/add-data/upload-data). You will also need a cluster with a ML runtime.",
+    "French": "La premi\u00E8re \u00E9tape de l\u0027utilisation d\u0027AutoML consiste \u00E0 t\u00E9l\u00E9charger vos donn\u00E9es de formation vers Databricks. Vous pouvez le faire en suivant [ce guide] (https://learn.microsoft.com/en-us/azure/databricks/ingestion/add-data/upload-data). Vous aurez \u00E9galement besoin d\u0027un cluster avec un runtime ML."
+  },
+  {
+    "English": "Once you have your data uploaded, you can create a new experiment by clicking on the \u0060Experiments\u0060 tab on the left side of the screen. If you are using the old UI, you need to select \u0022Machine Learning\u0022 from the top left dropdown menu.",
+    "French": "Une fois que vous avez t\u00E9l\u00E9charg\u00E9 vos donn\u00E9es, vous pouvez cr\u00E9er une nouvelle exp\u00E9rience en cliquant sur l\u0027onglet \u0022Exp\u00E9riences\u0022 sur le c\u00F4t\u00E9 gauche de l\u0027\u00E9cran. Si vous utilisez l\u0027ancienne interface utilisateur, vous devez s\u00E9lectionner \u0022Machine Learning\u0022 dans le menu d\u00E9roulant en haut \u00E0 gauche."
+  },
+  {
+    "English": "Old UI:",
+    "French": "Ancienne interface utilisateur :"
+  },
+  {
+    "English": "![Alt text](OldUIExp.png)",
+    "French": "![Alt text](OldUIExp.png)"
+  },
+  {
+    "English": "New UI:",
+    "French": "Nouvelle interface utilisateur :"
+  },
+  {
+    "English": "![Alt text](NewUIExp.png)",
+    "French": "![Alt text](NewUIExp.png)"
+  },
+  {
+    "English": "Once you\u0027ve accessed the experiment page, you can click on the \u0060New Experiment\u0060 button to create a new experiment:",
+    "French": "Une fois que vous avez acc\u00E9d\u00E9 \u00E0 la page des exp\u00E9riences, vous pouvez cliquer sur le bouton \u0022Nouvelle exp\u00E9rience\u0022 pour cr\u00E9er une nouvelle exp\u00E9rience :"
+  },
+  {
+    "English": "![Alt text](CreateExp.png)",
+    "French": "![Texte Alt](CreateExp.png)"
+  },
+  {
+    "English": "This will open the experiment creation menu:",
+    "French": "Le menu de cr\u00E9ation d\u0027exp\u00E9riences s\u0027ouvre alors :"
+  },
+  {
+    "English": "![Alt text](ExpMenu.png)",
+    "French": "![Alt text](ExpMenu.png)"
+  },
+  {
+    "English": "From there, you can configure your experiment. Certain configurations will be available only for certain ML problem types. The configurations are as follows:",
+    "French": "\u00C0 partir de l\u00E0, vous pouvez configurer votre exp\u00E9rience. Certaines configurations ne sont disponibles que pour certains types de probl\u00E8mes de ML. Les configurations sont les suivantes :"
+  },
+  {
+    "English": "- **Cluster**: the cluster you want to use for the experiment, as mentioned above, it must be a cluster with a ML runtime and it must be currently running.",
+    "French": "- **Cluster** : le cluster que vous souhaitez utiliser pour l\u0027exp\u00E9rience, comme mentionn\u00E9 ci-dessus, il doit s\u0027agir d\u0027un cluster avec un runtime ML et il doit \u00EAtre en cours d\u0027ex\u00E9cution."
+  },
+  {
+    "English": "- **ML problem type**: the type of problem you are trying to solve, either classification, regression or forecasting.",
+    "French": "- Type de probl\u00E8me LM** : le type de probl\u00E8me que vous essayez de r\u00E9soudre, qu\u0027il s\u0027agisse de classification, de r\u00E9gression ou de pr\u00E9vision."
+  },
+  {
+    "English": "- **Input training dataset**: the dataset you want to use for training. As mentioned above, your data must be available within Databricks\u0027 SQL database.",
+    "French": "- **Input training dataset** : l\u0027ensemble de donn\u00E9es que vous souhaitez utiliser pour la formation. Comme mentionn\u00E9 ci-dessus, vos donn\u00E9es doivent \u00EAtre disponibles dans la base de donn\u00E9es SQL de Databricks."
+  },
+  {
+    "English": "- **Prediction target**: the column/feature you are attempting to predict.",
+    "French": "- Cible de pr\u00E9diction** : la colonne/caract\u00E9ristique que vous essayez de pr\u00E9dire."
+  },
+  {
+    "English": "- **Experiment name**: the name of your experiment.",
+    "French": "- **Nom de l\u0027exp\u00E9rience** : le nom de votre exp\u00E9rience."
+  },
+  {
+    "English": "There are also advanced configurations where you can specify the following:",
+    "French": "Il existe \u00E9galement des configurations avanc\u00E9es dans lesquelles vous pouvez sp\u00E9cifier les \u00E9l\u00E9ments suivants :"
+  },
+  {
+    "English": "![Alt text](AdvancedConfig.png)",
+    "French": "![Alt text](AdvancedConfig.png)"
+  },
+  {
+    "English": "- **Evaluation metric**: the metric you want to use to evaluate your model. This will be used to compare models and select the best one. The metric you choose must be available for the problem type you selected.",
+    "French": "- M\u00E9trique d\u0027\u00E9valuation** : la m\u00E9trique que vous souhaitez utiliser pour \u00E9valuer votre mod\u00E8le. Elle sera utilis\u00E9e pour comparer les mod\u00E8les et s\u00E9lectionner le meilleur. La m\u00E9trique choisie doit \u00EAtre disponible pour le type de probl\u00E8me s\u00E9lectionn\u00E9."
+  },
+  {
+    "English": "- **Training frameworks**: the frameworks you want to use for training. Depending on your problem type, you will be able to choose from the list given above. Note that you can select several frameworks at once.",
+    "French": "- **Cadres de formation** : les cadres que vous souhaitez utiliser pour la formation. En fonction de votre type de probl\u00E8me, vous pourrez choisir dans la liste ci-dessus. Notez que vous pouvez s\u00E9lectionner plusieurs cadres \u00E0 la fois."
+  },
+  {
+    "English": "- **Timeout**: the maximum amount of time you want to allow for training. If the training time exceeds this value, the training will be stopped and the best model will be selected.",
+    "French": "- **Timeout** : la dur\u00E9e maximale que vous souhaitez accorder \u00E0 l\u0027apprentissage. Si le temps d\u0027apprentissage d\u00E9passe cette valeur, l\u0027apprentissage sera interrompu et le meilleur mod\u00E8le sera s\u00E9lectionn\u00E9."
+  },
+  {
+    "English": "As well as other configurations.",
+    "French": "Ainsi que d\u0027autres configurations."
+  },
+  {
+    "English": "Once you have configured your experiment, you can click on the \u0060Start AutoML\u0060 button to create it. This will take you to overview page, where you can see the progress of your experiment:",
+    "French": "Une fois que vous avez configur\u00E9 votre exp\u00E9rience, vous pouvez cliquer sur le bouton \u0022D\u00E9marrer AutoML\u0022 pour la cr\u00E9er. Vous acc\u00E9derez alors \u00E0 la page d\u0027aper\u00E7u, o\u00F9 vous pourrez voir la progression de votre exp\u00E9rience :"
+  },
+  {
+    "English": "![Alt text](ExpOverview.png)",
+    "French": "![Alt text](ExpOverview.png)"
+  },
+  {
+    "English": "At the top, you can see general information about your experiment, you can view an auto-generated data exploration notebook and you can view the best model\u0027s notebook. You can also see the status of your experiment and the number of models that have been trained so far. At the bottom, you can see more information about the models that have been trained, including the model\u0027s name, the framework used, the training time, the metric value and the status.",
+    "French": "En haut, vous pouvez voir des informations g\u00E9n\u00E9rales sur votre exp\u00E9rience, un carnet d\u0027exploration des donn\u00E9es g\u00E9n\u00E9r\u00E9 automatiquement et le carnet du meilleur mod\u00E8le. Vous pouvez \u00E9galement voir le statut de votre exp\u00E9rience et le nombre de mod\u00E8les qui ont \u00E9t\u00E9 form\u00E9s jusqu\u0027\u00E0 pr\u00E9sent. En bas, vous pouvez voir plus d\u0027informations sur les mod\u00E8les qui ont \u00E9t\u00E9 form\u00E9s, y compris le nom du mod\u00E8le, le cadre utilis\u00E9, le temps de formation, la valeur m\u00E9trique et le statut."
+  },
+  {
+    "English": "Once your experiment is over, your models will be sorted by the error metric you chose, and as such you can then select the best model from the list. By clicking on it, you can register the model:",
+    "French": "Une fois votre exp\u00E9rience termin\u00E9e, vos mod\u00E8les seront tri\u00E9s en fonction de la m\u00E9trique d\u0027erreur que vous avez choisie, et vous pourrez alors s\u00E9lectionner le meilleur mod\u00E8le dans la liste. En cliquant dessus, vous pouvez enregistrer le mod\u00E8le :"
+  },
+  {
+    "English": "![Alt text](RegisterModel.png)",
+    "French": "![Alt text](RegisterModel.png)"
+  },
+  {
+    "English": "You will be prompted to select a name for your model, then you can click on \u0060Create\u0060.",
+    "French": "Vous serez invit\u00E9 \u00E0 choisir un nom pour votre mod\u00E8le, puis vous pourrez cliquer sur \u0060Create\u0060."
+  },
+  {
+    "English": "From this point onward, the model you have created will be available to whoever you give permissions to from the \u0060Models\u0060 tab on the left side of the screen:",
+    "French": "\u00C0 partir de ce moment, le mod\u00E8le que vous avez cr\u00E9\u00E9 sera accessible \u00E0 toute personne \u00E0 laquelle vous aurez donn\u00E9 des autorisations dans l\u0027onglet \u0022Mod\u00E8les\u0022 sur le c\u00F4t\u00E9 gauche de l\u0027\u00E9cran :"
+  },
+  {
+    "English": "![Alt text](ModelTab.png)",
+    "French": "![Alt text](ModelTab.png)"
+  },
+  {
+    "English": "Upon clicking on a registered model, you will be able to see its details:",
+    "French": "En cliquant sur un mod\u00E8le enregistr\u00E9, vous pourrez en voir les d\u00E9tails :"
+  },
+  {
+    "English": "![Alt text](RegisteredModel.png)",
+    "French": "![Alt text](RegisteredModel.png)"
+  },
+  {
+    "English": "From there you can set it\u0027s stage, such as \u0060Production\u0060, \u0060Staging\u0060 or \u0060Archived\u0060. You can also view the model\u0027s version history, which will show you the different versions of the model that have been created. You can also view the model\u0027s lineage, which will show you the different experiments that have been used to create the model.",
+    "French": "A partir de l\u00E0, vous pouvez d\u00E9finir son stade, comme \u0060Production\u0060, \u0060Staging\u0060 ou \u0060Archiv\u00E9\u0060. Vous pouvez aussi voir l\u0027historique des versions du mod\u00E8le, qui vous montrera les diff\u00E9rentes versions du mod\u00E8le qui ont \u00E9t\u00E9 cr\u00E9\u00E9es. Vous pouvez \u00E9galement voir la lign\u00E9e du mod\u00E8le, qui vous montrera les diff\u00E9rentes exp\u00E9riences qui ont \u00E9t\u00E9 utilis\u00E9es pour cr\u00E9er le mod\u00E8le."
+  },
+  {
+    "English": "On top of this, you can click on \u0060Use model for inference\u0060 to auto-generate notebooks that can be used for using the model to infer or automatically apply the model to any available datasets.",
+    "French": "En outre, vous pouvez cliquer sur \u0022Utiliser le mod\u00E8le pour l\u0027inf\u00E9rence\u0022 pour g\u00E9n\u00E9rer automatiquement des carnets de notes qui peuvent \u00EAtre utilis\u00E9s pour utiliser le mod\u00E8le pour inf\u00E9rer ou appliquer automatiquement le mod\u00E8le \u00E0 tous les ensembles de donn\u00E9es disponibles."
+  },
+  {
+    "English": "_Congrats!_ You have successfully created a model using AutoML and registered it for future use, without writing any code!",
+    "French": "Vous avez r\u00E9ussi \u00E0 cr\u00E9er un mod\u00E8le \u00E0 l\u0027aide d\u0027AutoML et \u00E0 l\u0027enregistrer en vue d\u0027une utilisation ult\u00E9rieure, sans \u00E9crire de code !"
+  },
+  {
+    "English": "## **Notebook Experiments**",
+    "French": "## **Exp\u00E9riences sur le carnet de notes**"
+  },
+  {
+    "English": "Notebook experiments are experiments that are created and managed in a notebook. These are great if you require very specific machine learning code and if you need to do pre- or post-processing.",
+    "French": "Les exp\u00E9riences dans un carnet sont des exp\u00E9riences cr\u00E9\u00E9es et g\u00E9r\u00E9es dans un carnet. Elles sont id\u00E9ales si vous avez besoin d\u0027un code d\u0027apprentissage automatique tr\u00E8s sp\u00E9cifique et si vous devez effectuer un pr\u00E9traitement ou un post-traitement."
+  },
+  {
+    "English": "# mlflow.start_run creates a new MLflow run to track the performance of this model.",
+    "French": "# mlflow.start_run cr\u00E9e une nouvelle ex\u00E9cution MLflow pour suivre les performances de ce mod\u00E8le."
+  },
+  {
+    "English": "# Within the context, you call mlflow.log_param to keep track of the parameters used, and",
+    "French": "# Dans le contexte, vous appelez mlflow.log_param pour garder une trace des param\u00E8tres utilis\u00E9s, et vous appelez mlflow.log_param pour garder une trace des param\u00E8tres utilis\u00E9s."
+  },
+  {
+    "English": "# mlflow.log_metric to record metrics like accuracy.",
+    "French": "# mlflow.log_metric pour enregistrer des mesures telles que la pr\u00E9cision."
+  },
+  {
+    "English": "with mlflow.start_run(run_name=\u0027untuned_random_forest\u0027):",
+    "French": "avec mlflow.start_run(run_name=\u0027untuned_random_forest\u0027) :"
+  },
+  {
+    "English": "  n_estimators = 10",
+    "French": "  n_estimateurs = 10"
+  },
+  {
+    "English": "  model = RandomForestClassifier(n_estimators=n_estimators, random_state=np.random.RandomState(123))",
+    "French": "  model = RandomForestClassifier(n_estimateurs=n_estimateurs, random_state=np.random.RandomState(123))"
+  },
+  {
+    "English": "  model.fit(X_train, y_train)",
+    "French": "  model.fit(X_train, y_train)"
+  },
+  {
+    "English": "  # predict_proba returns [prob_negative, prob_positive], so slice the output with [:, 1]",
+    "French": "  # predict_proba renvoie [prob_negative, prob_positive], donc d\u00E9coupez la sortie avec [ :, 1]"
+  },
+  {
+    "English": "  predictions_test = model.predict_proba(X_test)[:,1]",
+    "French": "  predictions_test = model.predict_proba(X_test)[ :,1]"
+  },
+  {
+    "English": "  auc_score = roc_auc_score(y_test, predictions_test)",
+    "French": "  auc_score = roc_auc_score(y_test, predictions_test)"
+  },
+  {
+    "English": "  mlflow.log_param(\u0027n_estimators\u0027, n_estimators)",
+    "French": "  mlflow.log_param(\u0027n_estimators\u0027, n_estimators)"
+  },
+  {
+    "English": "  # Use the area under the ROC curve as a metric.",
+    "French": "  # Utiliser l\u0027aire sous la courbe ROC comme m\u00E9trique."
+  },
+  {
+    "English": "  mlflow.log_metric(\u0027auc\u0027, auc_score)",
+    "French": "  mlflow.log_metric(\u0027auc\u0027, auc_score)"
+  },
+  {
+    "English": "  wrappedModel = SklearnModelWrapper(model)",
+    "French": "  wrappedModel = SklearnModelWrapper(model)"
+  },
+  {
+    "English": "  # Log the model with a signature that defines the schema of the model\u0027s inputs and outputs.",
+    "French": "  # Enregistrer le mod\u00E8le avec une signature qui d\u00E9finit le sch\u00E9ma des entr\u00E9es et sorties du mod\u00E8le."
+  },
+  {
+    "English": "  # When the model is deployed, this signature will be used to validate inputs.",
+    "French": "  # Lorsque le mod\u00E8le est d\u00E9ploy\u00E9, cette signature sera utilis\u00E9e pour valider les entr\u00E9es."
+  },
+  {
+    "English": "  signature = infer_signature(X_train, wrappedModel.predict(None, X_train))",
+    "French": "  signature = infer_signature(X_train, wrappedModel.predict(None, X_train))"
+  },
+  {
+    "English": "  # MLflow contains utilities to create a conda environment used to serve models.",
+    "French": "  # MLflow contient des utilitaires pour cr\u00E9er un environnement conda utilis\u00E9 pour servir les mod\u00E8les."
+  },
+  {
+    "English": "  # The necessary dependencies are added to a conda.yaml file which is logged along with the model.",
+    "French": "  # Les d\u00E9pendances n\u00E9cessaires sont ajout\u00E9es \u00E0 un fichier conda.yaml qui est enregistr\u00E9 avec le mod\u00E8le."
+  },
+  {
+    "English": "  conda_env =  _mlflow_conda_env(",
+    "French": "  conda_env = _mlflow_conda_env("
+  },
+  {
+    "English": "        additional_conda_deps=None,",
+    "French": "        additional_conda_deps=None,"
+  },
+  {
+    "English": "        additional_pip_deps=[\u0022cloudpickle=={}\u0022.format(cloudpickle.__version__), \u0022scikit-learn=={}\u0022.format(sklearn.__version__)],",
+    "French": "        additional_pip_deps=[\u0022cloudpickle=={}\u0022.format(cloudpickle.__version__), \u0022scikit-learn=={}\u0022.format(sklearn.__version__)],"
+  },
+  {
+    "English": "        additional_conda_channels=None,",
+    "French": "        additional_conda_channels=None,"
+  },
+  {
+    "English": "    )",
+    "French": "    )"
+  },
+  {
+    "English": "  mlflow.pyfunc.log_model(\u0022random_forest_model\u0022, python_model=wrappedModel, conda_env=conda_env, signature=signature)",
+    "French": "  mlflow.pyfunc.log_model(\u0022random_forest_model\u0022, python_model=wrappedModel, conda_env=conda_env, signature=signature)"
+  },
+  {
+    "English": "Above is an example of how to use experiments from within Python notebooks. This example is taken from the [Databricks documentation](https://learn.microsoft.com/en-us/azure/databricks/mlflow/end-to-end-example).",
+    "French": "Voici un exemple d\u0027utilisation d\u0027exp\u00E9riences \u00E0 partir de carnets Python. Cet exemple est tir\u00E9 de la [documentation Databricks] (https://learn.microsoft.com/en-us/azure/databricks/mlflow/end-to-end-example)."
+  },
+  {
+    "English": "By opening the \u0060mlflow.start_run\u0060 context, you can log parameters and metrics to the experiment. You can also log the model itself! This will allow you to register the model for future use, just like as shown in the \u0022Workbook Experiments\u0022 section.",
+    "French": "En ouvrant le contexte \u0060mlflow.start_run\u0060, vous pouvez enregistrer les param\u00E8tres et les m\u00E9triques de l\u0027exp\u00E9rience. Vous pouvez \u00E9galement enregistrer le mod\u00E8le lui-m\u00EAme ! Cela vous permettra d\u0027enregistrer le mod\u00E8le pour une utilisation future, comme indiqu\u00E9 dans la section \u0022Exp\u00E9riences du cahier de travail\u0022."
+  },
+  {
+    "English": "Running this code will automatically create an experiment for you, which you can access in the \u0060Experiments\u0060 tab on the left side of the screen, and each run you create will be added to that experiment. You can also view all the runs you have created in a notebook by clicking the \u0060MLFlow experiments\u0060 icon on the right hand side:",
+    "French": "L\u0027ex\u00E9cution de ce code cr\u00E9era automatiquement une exp\u00E9rience pour vous, \u00E0 laquelle vous pouvez acc\u00E9der dans l\u0027onglet \u0060Exp\u00E9riences\u0060 sur le c\u00F4t\u00E9 gauche de l\u0027\u00E9cran, et chaque ex\u00E9cution que vous cr\u00E9ez sera ajout\u00E9e \u00E0 cette exp\u00E9rience. Vous pouvez \u00E9galement visualiser toutes les exp\u00E9riences que vous avez cr\u00E9\u00E9es dans un carnet en cliquant sur l\u0027ic\u00F4ne \u0060Exp\u00E9riences MLFlow\u0060 sur le c\u00F4t\u00E9 droit de l\u0027\u00E9cran :"
+  },
+  {
+    "English": "![Alt text](ExpIcon.png)",
+    "French": "![Texte Alt](ExpIcon.png)"
+  },
+  {
+    "English": "From there, you can view your runs, their associated models, their logged parameters and metrics:",
+    "French": "\u00C0 partir de l\u00E0, vous pouvez visualiser vos s\u00E9ries, les mod\u00E8les qui leur sont associ\u00E9s, les param\u00E8tres enregistr\u00E9s et les mesures :"
+  },
+  {
+    "English": "![Alt text](LoggedRuns.png)",
+    "French": "![Alt text](LoggedRuns.png)"
+  },
+  {
+    "English": "Again, make sure to check out the [end-to-end ML example notebook](https://learn.microsoft.com/en-us/azure/databricks/mlflow/end-to-end-example) as well as the [MLFlow databricks API documentation](https://docs.databricks.com/api/azure/workspace/experiments) to learn more about how to run experiments from within notebooks.",
+    "French": "Une fois encore, n\u0027oubliez pas de consulter le [cahier d\u0027exemples de ML de bout en bout] (https://learn.microsoft.com/en-us/azure/databricks/mlflow/end-to-end-example) ainsi que la [documentation de l\u0027API MLFlow] (https://docs.databricks.com/api/azure/workspace/experiments) pour en savoir plus sur la mani\u00E8re d\u0027ex\u00E9cuter des exp\u00E9riences \u00E0 partir des cahiers d\u0027exp\u00E9riences."
+  },
+  {
+    "English": "- [Databricks MLFlow documentation](https://learn.microsoft.com/en-us/azure/databricks/mlflow/)",
+    "French": "- [Documentation Databricks MLFlow] (https://learn.microsoft.com/en-us/azure/databricks/mlflow/)"
+  },
+  {
+    "English": "- [Notebook experiment example](https://learn.microsoft.com/en-us/azure/databricks/mlflow/end-to-end-example)",
+    "French": "- [Exemple d\u0027exp\u00E9rience dans un carnet de notes] (https://learn.microsoft.com/en-us/azure/databricks/mlflow/end-to-end-example)"
+  },
+  {
+    "English": "\u0060azcopy copy C:\\mydata\\stage \u0022\u003Csas_uri\u003E\u0022\u0060",
+    "French": "\u0060azcopy copy C:\\Nmydata\\Nstage \u0022\u003Csas_uri\u003E\u0022 \u0060"
+  },
+  {
+    "English": "\u0060azcopy copy \u0022\u003Csas_uri\u003E\u0022 C:\\mydata\\stage\u0060",
+    "French": "\u0060azcopy copy \u0022\u003Csas_uri\u003E\u0022 C:\\NMydata\\Nstage\u0060"
+  },
+  {
+    "English": "\u0060azcopy sync C:\\mydata\\stage \u0022\u003Csas_uri\u003E\u0022 --recursive\u0060",
+    "French": "\u0060azcopy sync C:\\mydata\\stage \u0022\u003Csas_uri\u003E\u0022 --recursive\u0060"
+  },
+  {
+    "English": "\u0060azcopy sync \u0022\u003Csas_uri\u003E\u0022 C:\\mydata\\stage --recursive\u0060",
+    "French": "\u0060azcopy sync \u0022\u003Csas_uri\u003E\u0022 C:\\NMydata\\stage --recursive\u0060"
+  },
+  {
+    "English": "\u0060azcopy copy C:\\mydata\\sample.csv \u0022\u003Csas_uri\u003E\u0022\u0060",
+    "French": "\u0060azcopy copy C:\\Nmydata\\Nsample.csv \u0022\u003Csas_uri\u003E\u0022 \u0060"
+  },
+  {
+    "English": "\u0060azcopy copy C:\\mydata\\sample \u0022\u003Csas_uri\u003E\u0022 --recursive\u0060",
+    "French": "\u0060azcopy copy C:\\Nmydata\\Nsample \u0022\u003Csas_uri\u003E\u0022 --recursive\u0060"
+  },
+  {
+    "English": "\u0060azcopy sync C:\\mydata\\sample \u0022blob-name.blob.core windows.net/datahub/path/to/folder?token-info\u0022 --recursive\u0060",
+    "French": "\u0060azcopy sync C:\\data\\sample \u0022blob-name.blob.core windows.net/datahub/path/to/folder?token-info\u0022 --recursive\u0060"
+  },
+  {
+    "English": "data visualization",
+    "French": "visualisation des donn\u00E9es"
+  },
+  {
+    "English": "# Science Data Visualization with FSDH",
+    "French": "# Visualisation des donn\u00E9es scientifiques avec DHSF"
+  },
+  {
+    "English": "The data product resulted from your scientific research can be visualized with familiar and supported tools by connecting to FSDH.",
+    "French": "Le produit des donn\u00E9es r\u00E9sultant de votre recherche scientifique peut \u00EAtre visualis\u00E9 avec des outils familiers et support\u00E9s en se connectant \u00E0 DHSF."
+  },
+  {
+    "English": "# Option 1. Shiny App",
+    "French": "# Option 1. Application brillante"
+  },
+  {
+    "English": "This popular option can be used to develop powerful interactive web applications entirely in R. Once developed and tested, you can deploy in two ways:",
+    "French": "Cette option populaire peut \u00EAtre utilis\u00E9e pour d\u00E9velopper de puissantes applications web interactives enti\u00E8rement en R. Une fois d\u00E9velopp\u00E9es et test\u00E9es, vous pouvez les d\u00E9ployer de deux mani\u00E8res :"
+  },
+  {
+    "English": "  ## Run on Azure App Service",
+    "French": "  ## Ex\u00E9cuter sur Azure App Service"
+  },
+  {
+    "English": "  FSDH can easily host your Shiny app in your own Azure App Service. Running your Shiny app on Azure App Service is more cost effective as it does not require a long running Databricks cluster, which typically costs much more. With this option, you upload your code to your storage account and a containerized Shiny server automatically starts with your code. FSDH also gives you a domain (e.g. https://my-shiny-app.fsdh-dhsf.science.cloud-nuage.canada.ca). The simplist design is to have your Shiny app connect to the data files on your Azure Storage Account.",
+    "French": "  DHSF peut facilement h\u00E9berger votre application Shiny dans votre propre Azure App Service. L\u0027ex\u00E9cution de votre application Shiny sur Azure App Service est plus rentable car elle ne n\u00E9cessite pas un cluster Databricks de longue dur\u00E9e, qui co\u00FBte g\u00E9n\u00E9ralement beaucoup plus cher. Avec cette option, vous t\u00E9l\u00E9chargez votre code sur votre compte de stockage et un serveur Shiny conteneuris\u00E9 d\u00E9marre automatiquement avec votre code. DHSF vous donne \u00E9galement un domaine (par exemple https://my-shiny-app.fsdh-dhsf.science.cloud-nuage.canada.ca). La conception la plus simple consiste \u00E0 faire en sorte que votre application Shiny se connecte aux fichiers de donn\u00E9es sur votre compte de stockage Azure."
+  },
+  {
+    "English": "  Once deployed, your app is automatically protected with authentication without any additional coding. As a result, only registered FSDH users can visit your Shiny app. You can further secure your Shiny app to limit to a smaller list of users by writing some code in your app.R.",
+    "French": "  Une fois d\u00E9ploy\u00E9e, votre application est automatiquement prot\u00E9g\u00E9e par l\u0027authentification sans aucun codage suppl\u00E9mentaire. Par cons\u00E9quent, seuls les utilisateurs DHSF enregistr\u00E9s peuvent visiter votre application Shiny. Vous pouvez s\u00E9curiser davantage votre application Shiny pour la limiter \u00E0 une liste plus restreinte d\u0027utilisateurs en \u00E9crivant du code dans votre app.R."
+  },
+  {
+    "English": "  ## Run inside Databricks",
+    "French": "  ## Ex\u00E9cuter \u00E0 l\u0027int\u00E9rieur de Databricks"
+  },
+  {
+    "English": "  Although not recommended due to higher cost, you can still host your Shiny app in your notebook and keep a smaller cluster running. This is simpler and faster to set up but Databricks imposes a hard limit of 50MB on the data size used in your Shiny app.",
+    "French": "  Bien que cela ne soit pas recommand\u00E9 en raison du co\u00FBt plus \u00E9lev\u00E9, vous pouvez toujours h\u00E9berger votre application Shiny dans votre ordinateur portable et faire fonctionner un cluster plus petit. C\u0027est plus simple et plus rapide \u00E0 mettre en place, mais Databricks impose une limite stricte de 50 Mo sur la taille des donn\u00E9es utilis\u00E9es dans votre application Shiny."
+  },
+  {
+    "English": "# Option 2. PowerBI",
+    "French": "# Option 2. PowerBI"
+  },
+  {
+    "English": "You can develop PowerBI reports and source data from your FSDH Databricks workspace or your FSDH Azure Storage. ",
+    "French": "Vous pouvez d\u00E9velopper des rapports PowerBI et des donn\u00E9es sources \u00E0 partir de votre espace de travail DHSF Databricks ou de votre DHSF Azure Storage."
+  },
+  {
+    "English": "  ## Source data from FSDH storage",
+    "French": "  ## Source des donn\u00E9es de stockage de la DHSF"
+  },
+  {
+    "English": "  Your PowerBI reports can retrieve data from your FSDH storage using an SAS token generated from within FSDH application. ",
+    "French": "  Vos rapports PowerBI peuvent r\u00E9cup\u00E9rer les donn\u00E9es de votre stockage DHSF en utilisant un jeton SAS g\u00E9n\u00E9r\u00E9 \u00E0 partir de l\u0027application DHSF."
+  },
+  {
+    "English": "  ## Source data from FSDH Databricks",
+    "French": "  ## Source des donn\u00E9es : DHSF Databricks"
+  },
+  {
+    "English": "  Your PowerBI reports can also connect to your FSDH Databricks clusters. For this option, however, the clusters will be started for the data retrieval and refresh.",
+    "French": "  Vos rapports PowerBI peuvent \u00E9galement se connecter \u00E0 vos clusters DHSF Databricks. Pour cette option, cependant, les clusters seront d\u00E9marr\u00E9s pour la r\u00E9cup\u00E9ration et l\u0027actualisation des donn\u00E9es."
+  },
+  {
+    "English": "Databricks MLFlow: AutoML and Experiments",
+    "French": "Databricks MLFlow : AutoML et exp\u00E9riences"
+  },
+  {
+    "English": "How to use MLFlow and AutoML for Experiments",
+    "French": "Comment utiliser MLFlow et AutoML pour les exp\u00E9riences"
+  },
+  {
+    "English": "How to schedule Jobs in Databricks",
+    "French": "Comment planifier des t\u00E2ches dans Databricks"
+  },
+  {
+    "English": "Schedule Jobs",
+    "French": "Planifier les emplois"
+  },
+  {
+    "English": "Temperature Forecasting with Databricks Example",
+    "French": "Pr\u00E9vision des temp\u00E9ratures avec Databricks Exemple"
+  },
+  {
+    "English": "Temperature Forecasting",
+    "French": "Pr\u00E9visions de temp\u00E9rature"
+  },
+  {
+    "English": "How to use AzCopy to transfer large files",
+    "French": "Comment utiliser AzCopy pour transf\u00E9rer des fichiers volumineux ?"
+  },
+  {
+    "English": "AzCopy",
+    "French": "AzCopy"
+  },
+  {
+    "English": "Getting started with FSDH Use Case 1",
+    "French": "D\u00E9marrer avec le cas d\u0027utilisation DHSF 1"
+  },
+  {
+    "English": "UseCase1",
+    "French": "Cas d\u0027utilisation 1"
+  },
+  {
+    "English": "Torchvision for Dash Cam Video Analysis in Databricks",
+    "French": "Torchvision pour l\u0027analyse des vid\u00E9os de Dash Cam dans Databricks"
+  },
+  {
+    "English": "Torchvision",
+    "French": "Torchvision"
   }
 ]

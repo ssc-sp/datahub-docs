@@ -1,5 +1,5 @@
 ---
-remarks: Translation reviewed by DataHub team
+remarks: Automatically translated with DeepL
 source: /UserGuide/Databricks/Excel-and-SQL-with-Databricks.md
 draft: true
 ---

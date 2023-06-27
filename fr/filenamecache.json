@@ -350,5 +350,25 @@
   {
     "English": "Desktop-Uploader.md",
     "French": "Chargeur-de-bureau.md"
+  },
+  {
+    "English": "Multi-cloud security.md",
+    "French": "S\u00E9curit\u00E9-multi-nuages.md"
+  },
+  {
+    "English": "2.6.md",
+    "French": "2-6.md"
+  },
+  {
+    "English": "Configuration.md",
+    "French": "Configuration.md"
+  },
+  {
+    "English": "Experiments-Automl.md",
+    "French": "Exp\u00E9riences-Automl.md"
+  },
+  {
+    "English": "data-visualization.md",
+    "French": "visualisation-des-donn\u00E9es.md"
   }
 ]

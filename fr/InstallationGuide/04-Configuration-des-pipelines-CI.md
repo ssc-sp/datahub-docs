@@ -1,5 +1,5 @@
 ---
-remarks: Translation reviewed by DataHub team
+remarks: Automatically translated with DeepL
 source: /InstallationGuide/04-CI-Pipelines-Setup.md
 draft: true
 ---

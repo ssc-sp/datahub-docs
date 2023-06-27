@@ -1,5 +1,5 @@
 ---
-remarks: Translation reviewed by DataHub team
+remarks: Automatically translated with DeepL
 source: /DeveloperGuide/Resourcing/Resourcing-New-Project-Template.md
 draft: true
 ---

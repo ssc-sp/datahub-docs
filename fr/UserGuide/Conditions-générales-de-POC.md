@@ -1,5 +1,5 @@
 ---
-remarks: Translation reviewed by DataHub team
+remarks: Automatically translated with DeepL
 source: /UserGuide/POC-Terms-And-Conditions.md
 draft: true
 ---

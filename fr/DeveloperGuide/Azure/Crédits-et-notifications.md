@@ -1,5 +1,5 @@
 ---
-remarks: Translation reviewed by DataHub team
+remarks: Automatically translated with DeepL
 source: /DeveloperGuide/Azure/Credits_and_notifications.md
 draft: true
 ---

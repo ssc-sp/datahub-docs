@@ -1,5 +1,5 @@
 ---
-remarks: Translation reviewed by DataHub team
+remarks: Automatically translated with DeepL
 source: /AdminGuide/Management-of-Project-Resources.md
 draft: true
 ---

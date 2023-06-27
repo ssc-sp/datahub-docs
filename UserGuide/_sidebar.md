@@ -13,6 +13,7 @@
   - [Request a Session with a Databricks Expert](/UserGuide/Databricks/Request-databricks-session.md)
   - [Using Conda packages with Databricks](/UserGuide/Databricks/Conda-Packages.md)
   - [Understanding Cluster Policies](/UserGuide/Databricks/Cluster-Policies.md)
+  - [Databricks MLFlow: AutoML and Experiments](/UserGuide/Databricks/Experiments-Automl.md)
 
 - Workspace
   - [Metadata Profile Details](/UserGuide/Workspace/Workspace-Profile-Metadata.md)
@@ -23,12 +24,12 @@
   - [How to build Dashboards with Databricks](/UserGuide/Databricks/Dashboarding.md)
   - [How to connect Google APIs with Databricks](/UserGuide/Databricks/Connecting-Google-API.md)
   - [How to use Conda packages with Databricks](/UserGuide/Databricks/Conda-Packages.md)
-#  - [How to perform Experiments with AutoML]
-#  - [How to schedule Jobs in Databricks]
-#  - [Temperature Forecasting with Databricks Example]
-#  - [How to use AzCopy to transfer large files]
-#  - [Getting started with FSDH Use Case 1]
-#  - [Torchvision for Dash Cam Video Analysis in Databricks]
+  - [How to use MLFlow and AutoML for Experiments](/UserGuide/Databricks/Experiments-Automl.md)
+  - [How to schedule Jobs in Databricks](/UserGuide/Databricks/Schedule-Jobs.md)
+  - [Temperature Forecasting with Databricks Example](/UserGuide/Tutorials/Temperature-Forecasting.md)
+  - [How to use AzCopy to transfer large files](/UserGuide/Databricks/AzCopy.md)
+  - [Getting started with FSDH Use Case 1](/UserGuide/Tutorials/UseCase1.md)
+  - [Torchvision for Dash Cam Video Analysis in Databricks](/UserGuide/Tutorials/Torchvision.md)
 
 - [Frequently Asked Questions (FAQs)](/UserGuide/FSDH-FAQs.md)
 
