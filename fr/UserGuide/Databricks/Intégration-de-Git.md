@@ -6,7 +6,7 @@ draft: true
 
 # Intégration de Git/GitHub avec Databricks
 
-<video width="720" height="405" controls>
+<video width="600" height="350" controls>
     <source src="/api/media/git-integration.mp4" type="video/mp4">
     Votre navigateur ne prend pas en charge la balise vidéo.
 </video>

@@ -6,7 +6,7 @@ draft: true
 
 # Politiques des clusters du Federal Science Datahub Databricks
 
-<video width="720" height="405" controls>
+<video width="600" height="350" controls>
     <source src="/api/media/cluster-policies.mp4" type="video/mp4">
     Votre navigateur ne prend pas en charge la balise vidéo.
 </video>

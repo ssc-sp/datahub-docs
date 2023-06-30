@@ -1,6 +1,6 @@
 # **Databricks MLFlow: AutoML and Experiments**
 
-<video width="720" height="405" controls>
+<video width="600" height="350" controls>
     <source src="/api/media/experiments-automl.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>

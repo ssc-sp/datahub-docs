@@ -1,6 +1,6 @@
 # Federal Science Datahub Databricks Cluster Policies
 
-<video width="720" height="405" controls>
+<video width="600" height="350" controls>
     <source src="/api/media/cluster-policies.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>

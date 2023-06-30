@@ -32,7 +32,7 @@ For more information on the flags that can be used on any command, run `azcopy <
 
 # AzCopy Guide
 
-<video width="720" height="405" controls>
+<video width="600" height="350" controls>
     <source src="/api/media/azcopy.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
