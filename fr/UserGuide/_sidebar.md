@@ -7,7 +7,7 @@
   - [Comment utiliser les paquets Conda avec Databricks](/fr/UserGuide/Databricks/Paquets-Conda.md)  
   - [Comment utiliser MLFlow et AutoML pour les expériences](/fr/UserGuide/Databricks/Expériences-Automl.md)
   - [Comment planifier des tâches dans Databricks](/fr/UserGuide/Databricks/Flux-de-travail.md)
-  - [Prévision des températures avec Databricks Exemple](/fr/UserGuide/Tutorials/Prévisions-de-température.md)
+  - [Prévision des températures avec Databricks Exemple](/fr/UserGuide/Tutorials/Prévisions-SST.md)
   - [Comment utiliser AzCopy pour transférer des fichiers volumineux ?](/fr/UserGuide/Databricks/AzCopy.md)
   - [Premiers pas avec DHSF et le partage de fichiers](/fr/UserGuide/Tutorials/Cas-d'utilisation-1.md)
   - [Torchvision pour l'analyse des vidéos de Dash Cam dans Databricks](/fr/UserGuide/Tutorials/Torchvision.md)
