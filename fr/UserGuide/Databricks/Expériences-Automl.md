@@ -6,6 +6,11 @@ draft: true
 
 **Databricks MLFlow : AutoML et expériences**
 
+<video width="600" height="350" controls>
+    <source src="/api/media/experiments-automl.mp4" type="video/mp4">
+    Votre navigateur ne prend pas en charge la balise vidéo.
+</video>
+
 Databricks MLFlow est une plateforme intégrée pour le cycle de vie de l'apprentissage automatique de bout en bout. Elle offre un lieu centralisé pour suivre les expériences, gérer les modèles et les déployer rapidement en production. MLflow vous permet d'enregistrer et d'interroger des expériences à l'aide des API Python, REST, R et Java. Vous pouvez utiliser MLflow pour enregistrer et interroger des expériences, obtenir des métriques d'exécution, l'historique des métriques et comparer les exécutions. MLflow est une API et une interface utilisateur permettant d'enregistrer les paramètres, les versions de code, les métriques et les fichiers de sortie lors de l'exécution de votre code d'apprentissage automatique et de visualiser ultérieurement les résultats.
 
 MLflow est organisé autour du concept de **runs**, qui sont des exécutions de code de science des données. Les runs sont agrégés en **expériences** où de nombreux runs peuvent faire partie d'une expérience donnée et un serveur MLflow peut héberger de nombreuses expériences. Le composant MLflow est une API et une interface utilisateur pour l'enregistrement des paramètres, des versions de code, des métriques et des fichiers de sortie lors de l'exécution de votre code d'apprentissage automatique et pour la visualisation ultérieure des résultats.

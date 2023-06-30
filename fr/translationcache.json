@@ -15678,5 +15678,81 @@
   {
     "English": "Torchvision",
     "French": "Torchvision"
+  },
+  {
+    "English": "# Example Usage: How to use AzCopy to transfer large files",
+    "French": "# Exemple d\u0027utilisation : Comment utiliser AzCopy pour transf\u00E9rer des fichiers volumineux ?"
+  },
+  {
+    "English": "\u003Cvideo width=\u0022600\u0022 height=\u0022350\u0022 controls\u003E",
+    "French": "\u003Cvideo width=\u0022600\u0022 height=\u0022350\u0022 controls\u003E"
+  },
+  {
+    "English": "    \u003Csource src=\u0022/api/media/experiments-automl.mp4\u0022 type=\u0022video/mp4\u0022\u003E",
+    "French": "    \u003Csource src=\u0022/api/media/experiments-automl.mp4\u0022 type=\u0022video/mp4\u0022\u003E"
+  },
+  {
+    "English": "Workflows",
+    "French": "Flux de travail"
+  },
+  {
+    "English": "# Databricks Workflows",
+    "French": "# Databricks Workflows"
+  },
+  {
+    "English": "    \u003Csource src=\u0022/api/media/workflows.mp4\u0022 type=\u0022video/mp4\u0022\u003E",
+    "French": "    \u003Csource src=\u0022/api/media/workflows.mp4\u0022 type=\u0022video/mp4\u0022\u003E"
+  },
+  {
+    "English": "This guide is a work in progress. Please check back later for more information.",
+    "French": "Ce guide est en cours d\u0027\u00E9laboration. N\u0027h\u00E9sitez pas \u00E0 le consulter ult\u00E9rieurement pour obtenir de plus amples informations."
+  },
+  {
+    "English": "SST Forecasting",
+    "French": "Pr\u00E9visions SST"
+  },
+  {
+    "English": "# Example Usage: Forecasting Sea Surface Temperature with Databricks",
+    "French": "# Exemple d\u0027utilisation : Pr\u00E9vision de la temp\u00E9rature de surface de la mer avec Databricks"
+  },
+  {
+    "English": "    \u003Csource src=\u0022/api/media/sst-forecasting.mp4\u0022 type=\u0022video/mp4\u0022\u003E",
+    "French": "    \u003Csource src=\u0022/api/media/sst-forecasting.mp4\u0022 type=\u0022video/mp4\u0022\u003E"
+  },
+  {
+    "English": "## Resources used:",
+    "French": "## Ressources utilis\u00E9es :"
+  },
+  {
+    "English": "- [Connecting Google API to Databricks](/UserGuide/Databricks/Connecting-Google-API.md)",
+    "French": "- [Connexion de l\u0027API Google \u00E0 Databricks](/UserGuide/Databricks/Connecting-Google-API.md)"
+  },
+  {
+    "English": "- [How to Dashboard in Databricks](/UserGuide/Databricks/Dashboarding.md)",
+    "French": "- Comment cr\u00E9er un tableau de bord dans Databricks](/UserGuide/Databricks/Dashboarding.md)"
+  },
+  {
+    "English": "- [Experiments and AutoML in Databricks](/UserGuide/Databricks/Experiments-Automl.md)",
+    "French": "- Exp\u00E9riences et AutoML dans Databricks](/UserGuide/Databricks/Experiments-Automl.md)"
+  },
+  {
+    "English": "# Example Usage: Torchvision for Dash Cam Video Analysis in Databricks",
+    "French": "# Exemple d\u0027utilisation : Torchvision pour l\u0027analyse des vid\u00E9os de la cam\u00E9ra embarqu\u00E9e dans Databricks"
+  },
+  {
+    "English": "    \u003Csource src=\u0022/api/media/dash_cam_project_demo.mp4\u0022 type=\u0022video/mp4\u0022\u003E",
+    "French": "    \u003Csource src=\u0022/api/media/dash_cam_project_demo.mp4\u0022 type=\u0022video/mp4\u0022\u003E"
+  },
+  {
+    "English": "# Example Usage: Getting started with FSDH and File Sharing",
+    "French": "# Exemple d\u0027utilisation : Premiers pas avec DHSF et le partage de fichiers"
+  },
+  {
+    "English": "    \u003Csource src=\u0022/api/media/usecase1-101.mp4\u0022 type=\u0022video/mp4\u0022\u003E",
+    "French": "    \u003Csource src=\u0022/api/media/usecase1-101.mp4\u0022 type=\u0022video/mp4\u0022\u003E"
+  },
+  {
+    "English": "Getting started with FSDH and File Sharing",
+    "French": "Premiers pas avec DHSF et le partage de fichiers"
   }
 ]

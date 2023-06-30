@@ -1,4 +1,16 @@
 - [Guide de l'utilisateur du DataHub scientifique fédéral](/fr/UserGuide/Guide-de-l'utilisateur.md)
+- Tutoriels
+  - [Comment accéder à votre compte de stockage dans Databricks ?](/fr/UserGuide/Databricks/Accédez-à-votre-compte-de-stockage-dans-Databricks.md)
+  - [Comment intégrer Git dans Databricks](/fr/UserGuide/Databricks/Intégration-de-Git.md)
+  - [Comment construire des tableaux de bord avec Databricks](/fr/UserGuide/Databricks/Tableau-de-bord.md)
+  - [Comment connecter les API de Google avec Databricks](/fr/UserGuide/Databricks/Connexion-à-l'API-Google.md)
+  - [Comment utiliser les paquets Conda avec Databricks](/fr/UserGuide/Databricks/Paquets-Conda.md)  
+  - [Comment utiliser MLFlow et AutoML pour les expériences](/fr/UserGuide/Databricks/Expériences-Automl.md)
+  - [Comment planifier des tâches dans Databricks](/fr/UserGuide/Databricks/Flux-de-travail.md)
+  - [Prévision des températures avec Databricks Exemple](/fr/UserGuide/Tutorials/Prévisions-de-température.md)
+  - [Comment utiliser AzCopy pour transférer des fichiers volumineux ?](/fr/UserGuide/Databricks/AzCopy.md)
+  - [Premiers pas avec DHSF et le partage de fichiers](/fr/UserGuide/Tutorials/Cas-d'utilisation-1.md)
+  - [Torchvision pour l'analyse des vidéos de Dash Cam dans Databricks](/fr/UserGuide/Tutorials/Torchvision.md)
 
 - Stockage
   - [Qu'est-ce que Azure Storage Explorer ?](/fr/UserGuide/Storage/Datahub-AzureStorage.md)
@@ -17,19 +29,6 @@
 
 - Espace de travail
   - [Détails du profil de métadonnées](/fr/UserGuide/Workspace/Métadonnées-du-profil-de-l'espace-de-travail.md)
-
-- Tutoriels
-  - [Comment accéder à votre compte de stockage dans Databricks ?](/fr/UserGuide/Databricks/Accédez-à-votre-compte-de-stockage-dans-Databricks.md)
-  - [Comment intégrer Git dans Databricks](/fr/UserGuide/Databricks/Intégration-de-Git.md)
-  - [Comment construire des tableaux de bord avec Databricks](/fr/UserGuide/Databricks/Tableau-de-bord.md)
-  - [Comment connecter les API de Google avec Databricks](/fr/UserGuide/Databricks/Connexion-à-l'API-Google.md)
-  - [Comment utiliser les paquets Conda avec Databricks](/fr/UserGuide/Databricks/Paquets-Conda.md)
-  - [Comment utiliser MLFlow et AutoML pour les expériences](/fr/UserGuide/Databricks/Expériences-Automl.md)
-  - [Comment planifier des tâches dans Databricks](/fr/UserGuide/Databricks/Planifier-les-emplois.md)
-  - [Prévision des températures avec Databricks Exemple](/fr/UserGuide/Tutorials/Prévisions-de-température.md)
-  - [Comment utiliser AzCopy pour transférer des fichiers volumineux ?](/fr/UserGuide/Databricks/AzCopy.md)
-  - [Démarrer avec le cas d'utilisation DHSF 1](/fr/UserGuide/Tutorials/Cas-d'utilisation-1.md)
-  - [Torchvision pour l'analyse des vidéos de Dash Cam dans Databricks](/fr/UserGuide/Tutorials/Torchvision.md)
 
 - [Foire aux questions (FAQ)](/fr/UserGuide/DHSF-FAQs.md)
 

@@ -370,5 +370,25 @@
   {
     "English": "data-visualization.md",
     "French": "visualisation-des-donn\u00E9es.md"
+  },
+  {
+    "English": "AzCopy.md",
+    "French": "AzCopy.md"
+  },
+  {
+    "English": "Workflows.md",
+    "French": "Flux-de-travail.md"
+  },
+  {
+    "English": "SST-Forecasting.md",
+    "French": "Pr\u00E9visions-SST.md"
+  },
+  {
+    "English": "Torchvision.md",
+    "French": "Torchvision.md"
+  },
+  {
+    "English": "UseCase1.md",
+    "French": "Cas-d\u0027utilisation-1.md"
   }
 ]
