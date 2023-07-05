@@ -14,5 +14,5 @@ draft: true
 ## Ressources utilisées :
 
 - [Connexion de l'API Google à Databricks](/UserGuide/Databricks/Connecting-Google-API.md)
-- Comment créer un tableau de bord dans Databricks](/UserGuide/Databricks/Dashboarding.md)
-- Expériences et AutoML dans Databricks](/UserGuide/Databricks/Experiments-Automl.md)
+- [Comment créer un tableau de bord dans Databricks](/UserGuide/Databricks/Dashboarding.md)
+- [Expériences et AutoML dans Databricks](/UserGuide/Databricks/Experiments-Automl.md)

@@ -17,15 +17,15 @@ MLflow est organisé autour du concept de **runs**, qui sont des exécutions de 
 
 Dans Databricks, il existe deux types d'expériences :
 
-- Les expériences de l'espace de travail** sont des expériences qui sont créées et gérées dans l'espace de travail Databricks. Vous pouvez utiliser l'interface utilisateur des expériences Databricks pour visualiser et gérer ces expériences. Vous pouvez également utiliser l'API MLflow pour enregistrer les exécutions de ces expériences.
-- Les expériences de type notebook** sont des expériences créées et gérées dans un notebook. Vous pouvez utiliser l'API MLflow pour enregistrer les exécutions de ces expériences. Vous pouvez également utiliser l'interface utilisateur des expériences Databricks pour visualiser et gérer ces expériences.
+- Les expériences de l'espace de travail\*\* sont des expériences qui sont créées et gérées dans l'espace de travail Databricks. Vous pouvez utiliser l'interface utilisateur des expériences Databricks pour visualiser et gérer ces expériences. Vous pouvez également utiliser l'API MLflow pour enregistrer les exécutions de ces expériences.
+- Les expériences de type notebook\*\* sont des expériences créées et gérées dans un notebook. Vous pouvez utiliser l'API MLflow pour enregistrer les exécutions de ces expériences. Vous pouvez également utiliser l'interface utilisateur des expériences Databricks pour visualiser et gérer ces expériences.
 
 ## **Expériences d'espace de travail et AutoML**
 
 Les expériences de l'espace de travail tirent parti d'AutoML, une fonctionnalité de Databricks qui entraîne et ajuste automatiquement les modèles d'apprentissage automatique. Cela permet à l'utilisateur de construire des modèles d'apprentissage automatique avec un minimum d'effort et pratiquement sans codage. Cette fonctionnalité est une option prête à l'emploi pour Databricks et offre une variété d'algorithmes à choisir :
 
-- Classification** : Régression logistique, forêt aléatoire, arbre de décision, XGBoost, LightGBM
-- Régression** : Arbre de décision, forêt aléatoire, régression linéaire avec descente de gradient stochastique, XGBoost, LightGBM
+- Classification\*\* : Régression logistique, forêt aléatoire, arbre de décision, XGBoost, LightGBM
+- Régression\*\* : Arbre de décision, forêt aléatoire, régression linéaire avec descente de gradient stochastique, XGBoost, LightGBM
 - **Prévision** : ARIMA, Prophète
 
 En résumé, AutoML entraînera plusieurs modèles en utilisant différents algorithmes et hyperparamètres et sélectionnera le meilleur sur la base de la métrique que vous avez choisie. Il vous fournira également un carnet de notes que vous pourrez utiliser pour déployer votre modèle.
@@ -51,16 +51,16 @@ Le menu de création d'expériences s'ouvre alors :
 À partir de là, vous pouvez configurer votre expérience. Certaines configurations ne sont disponibles que pour certains types de problèmes de ML. Les configurations sont les suivantes :
 
 - **Cluster** : le cluster que vous souhaitez utiliser pour l'expérience, comme mentionné ci-dessus, il doit s'agir d'un cluster avec un runtime ML et il doit être en cours d'exécution.
-- Type de problème LM** : le type de problème que vous essayez de résoudre, qu'il s'agisse de classification, de régression ou de prévision.
+- Type de problème LM\*\* : le type de problème que vous essayez de résoudre, qu'il s'agisse de classification, de régression ou de prévision.
 - **Input training dataset** : l'ensemble de données que vous souhaitez utiliser pour la formation. Comme mentionné ci-dessus, vos données doivent être disponibles dans la base de données SQL de Databricks.
-- Cible de prédiction** : la colonne/caractéristique que vous essayez de prédire.
+- Cible de prédiction\*\* : la colonne/caractéristique que vous essayez de prédire.
 - **Nom de l'expérience** : le nom de votre expérience.
 
 Il existe également des configurations avancées dans lesquelles vous pouvez spécifier les éléments suivants :
 
 ![Alt text](AdvancedConfig.png)
 
-- Métrique d'évaluation** : la métrique que vous souhaitez utiliser pour évaluer votre modèle. Elle sera utilisée pour comparer les modèles et sélectionner le meilleur. La métrique choisie doit être disponible pour le type de problème sélectionné.
+- Métrique d'évaluation\*\* : la métrique que vous souhaitez utiliser pour évaluer votre modèle. Elle sera utilisée pour comparer les modèles et sélectionner le meilleur. La métrique choisie doit être disponible pour le type de problème sélectionné.
 - **Cadres de formation** : les cadres que vous souhaitez utiliser pour la formation. En fonction de votre type de problème, vous pourrez choisir dans la liste ci-dessus. Notez que vous pouvez sélectionner plusieurs cadres à la fois.
 - **Timeout** : la durée maximale que vous souhaitez accorder à l'apprentissage. Si le temps d'apprentissage dépasse cette valeur, l'apprentissage sera interrompu et le meilleur modèle sera sélectionné.
 
@@ -96,17 +96,18 @@ Vous avez réussi à créer un modèle à l'aide d'AutoML et à l'enregistrer en
 
 Les expériences dans un carnet sont des expériences créées et gérées dans un carnet. Elles sont idéales si vous avez besoin d'un code d'apprentissage automatique très spécifique et si vous devez effectuer un prétraitement ou un post-traitement.
 
-``python
+```python
 # mlflow.start_run crée une nouvelle exécution MLflow pour suivre les performances de ce modèle.
 # Dans le contexte, vous appelez mlflow.log_param pour garder une trace des paramètres utilisés, et vous appelez mlflow.log_param pour garder une trace des paramètres utilisés.
 # mlflow.log_metric pour enregistrer des mesures telles que la précision.
-avec mlflow.start_run(run_name='untuned_random_forest') :
-  n_estimateurs = 10
-  model = RandomForestClassifier(n_estimateurs=n_estimateurs, random_state=np.random.RandomState(123))
+with mlflow.start_run(run_name='untuned_random_forest'):
+  n_estimators = 10
+  model = RandomForestClassifier(n_estimators=n_estimators, random_state=np.random.RandomState(123))
   model.fit(X_train, y_train)
 
+
   # predict_proba renvoie [prob_negative, prob_positive], donc découpez la sortie avec [ :, 1]
-  predictions_test = model.predict_proba(X_test)[ :,1]
+  predictions_test = model.predict_proba(X_test)[:,1]
   auc_score = roc_auc_score(y_test, predictions_test)
   mlflow.log_param('n_estimators', n_estimators)
   # Utiliser l'aire sous la courbe ROC comme métrique.
@@ -126,7 +127,7 @@ avec mlflow.start_run(run_name='untuned_random_forest') :
   mlflow.pyfunc.log_model("random_forest_model", python_model=wrappedModel, conda_env=conda_env, signature=signature)
 ```
 
-Voici un exemple d'utilisation d'expériences à partir de carnets Python. Cet exemple est tiré de la [documentation Databricks] (https://learn.microsoft.com/en-us/azure/databricks/mlflow/end-to-end-example).
+Voici un exemple d'utilisation d'expériences à partir de carnets Python. Cet exemple est tiré de la [documentation Databricks](https://learn.microsoft.com/en-us/azure/databricks/mlflow/end-to-end-example).
 
 En ouvrant le contexte `mlflow.start_run`, vous pouvez enregistrer les paramètres et les métriques de l'expérience. Vous pouvez également enregistrer le modèle lui-même ! Cela vous permettra d'enregistrer le modèle pour une utilisation future, comme indiqué dans la section "Expériences du cahier de travail".
 
@@ -138,9 +139,9 @@ L'exécution de ce code créera automatiquement une expérience pour vous, à la
 
 ![Alt text](LoggedRuns.png)
 
-Une fois encore, n'oubliez pas de consulter le [cahier d'exemples de ML de bout en bout] (https://learn.microsoft.com/en-us/azure/databricks/mlflow/end-to-end-example) ainsi que la [documentation de l'API MLFlow] (https://docs.databricks.com/api/azure/workspace/experiments) pour en savoir plus sur la manière d'exécuter des expériences à partir des cahiers d'expériences.
+Une fois encore, n'oubliez pas de consulter le [cahier d'exemples de ML de bout en bout](https://learn.microsoft.com/en-us/azure/databricks/mlflow/end-to-end-example) ainsi que la [documentation de l'API MLFlow](https://docs.databricks.com/api/azure/workspace/experiments) pour en savoir plus sur la manière d'exécuter des expériences à partir des cahiers d'expériences.
 
 ## En savoir plus
 
-- [Documentation Databricks MLFlow] (https://learn.microsoft.com/en-us/azure/databricks/mlflow/)
-- [Exemple d'expérience dans un carnet de notes] (https://learn.microsoft.com/en-us/azure/databricks/mlflow/end-to-end-example)
+- [Documentation Databricks MLFlow](https://learn.microsoft.com/en-us/azure/databricks/mlflow/)
+- [Exemple d'expérience dans un carnet de notes](https://learn.microsoft.com/en-us/azure/databricks/mlflow/end-to-end-example)
