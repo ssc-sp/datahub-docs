@@ -15918,5 +15918,33 @@
   {
     "English": "- Make sure there is a label",
     "French": "- S\u0027assurer de la pr\u00E9sence d\u0027une \u00E9tiquette"
+  },
+  {
+    "English": "App insights Auditing",
+    "French": "Audit des perspectives d\u0027utilisation"
+  },
+  {
+    "English": "- Accessibility",
+    "French": "- Accessibilit\u00E9"
+  },
+  {
+    "English": "- E2E",
+    "French": "- E2E"
+  },
+  {
+    "English": "- Keycloak",
+    "French": "- Keycloak"
+  },
+  {
+    "English": "- Release assets",
+    "French": "- Lib\u00E9rer des actifs"
+  },
+  {
+    "English": "2.6",
+    "French": "2.6"
+  },
+  {
+    "English": "- Workspace Apps",
+    "French": "- Applications pour l\u0027espace de travail"
   }
 ]

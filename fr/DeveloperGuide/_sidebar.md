@@ -1,3 +1,7 @@
+- Accessibilité
+
+  - [Vue d'ensemble](/fr/DeveloperGuide/Accessibility/Vue-d'ensemble.md)
+
 - Profils des réalisations
 
   - [Réalisations](/fr/DeveloperGuide/Achievements-Profiles/Réalisations.md)
@@ -31,6 +35,14 @@
   - [Contribution à une demande de retrait](/fr/DeveloperGuide/Contributing/Contribution-à-une-demande-de-retrait.md)
 
 - [Calcul des coûts](/fr/Costing/)
+- E2E
+
+  - [De bout en bout](/fr/DeveloperGuide/E2E/EndToEnd.md)
+
+- Keycloak
+
+  - [Sécurité multi-nuages](/fr/DeveloperGuide/Keycloak/Sécurité-multi-nuages.md)
+
 - Localisation
 
   - [Localisation](/fr/DeveloperGuide/Localization/Localisation.md)
@@ -38,6 +50,10 @@
 - Publication
 
   - [Hub de données Opendata Publishing API](/fr/DeveloperGuide/Publishing/DataHub-Opendata-Publishing-API.md)
+
+- Libérer des actifs
+
+  - [2.6](/fr/ReleaseAssets/2-6.md)
 
 - Ressourcement
 
@@ -52,10 +68,11 @@
 
 - Stockage
 
+  - [Médias statiques](/fr/Storage/Médias-statiques.md)
   - [Limites de stockage](/fr/Storage/Limites-de-stockage.md)
 
-- Test
+- Applications pour l'espace de travail
 
-  - [De bout en bout](/fr/Testing/EndToEnd.md)
+  - [Configuration](/fr/Workspace-Apps/Configuration.md)
 
 

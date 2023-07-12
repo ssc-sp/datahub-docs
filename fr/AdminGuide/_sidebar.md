@@ -1,4 +1,6 @@
+- [Audit des perspectives d'utilisation](/fr/AdminGuide/Audit-AppInsights.md)
 - [Approbation des espaces de travail](/fr/AdminGuide/Approbation-des-espaces-de-travail.md)
+- [Databricks Invité](/fr/AdminGuide/Databricks-Invité.md)
 - [Normes de nommage des artefacts de Datahub](/fr/AdminGuide/Normes-de-nommage-des-artefacts-de-Datahub.md)
 - [Hub de données Initiative Tracker](/fr/AdminGuide/Suivi-de-l'initiative-DataHub.md)
 - [Suppression des espaces de travail](/fr/AdminGuide/Suppression-des-espaces-de-travail.md)

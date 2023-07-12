@@ -1,3 +1,7 @@
+- Accessibility
+
+  - [Overview](/DeveloperGuide/Accessibility/Overview.md)
+
 - Achievements Profiles
 
   - [Achievements](/DeveloperGuide/Achievements-Profiles/Achievements.md)
@@ -31,6 +35,14 @@
   - [Contributing Pull Request](/DeveloperGuide/Contributing/Contributing-Pull-Request.md)
 
 - [Costing](Costing/)
+- E2E
+
+  - [End to end](/DeveloperGuide/E2E/EndToEnd.md)
+
+- Keycloak
+
+  - [Multi cloud security](/DeveloperGuide/Keycloak/Multi-cloud security.md)
+
 - Localization
 
   - [Localization](/DeveloperGuide/Localization/Localization.md)
@@ -38,6 +50,10 @@
 - Publishing
 
   - [Data hub Opendata Publishing API](/DeveloperGuide/Publishing/DataHub-Opendata-Publishing-API.md)
+
+- Release assets
+
+  - [2.6](/ReleaseAssets/2.6.md)
 
 - Resourcing
 
@@ -52,10 +68,11 @@
 
 - Storage
 
+  - [Static Media](/Storage/Static_Media.md)
   - [Storage Limits](/Storage/Storage_Limits.md)
 
-- Testing
+- Workspace Apps
 
-  - [End to end](/Testing/EndToEnd.md)
+  - [Configuration](/Workspace-Apps/Configuration.md)
 
 

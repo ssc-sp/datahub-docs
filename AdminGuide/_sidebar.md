@@ -1,4 +1,6 @@
+- [App insights Auditing](/AdminGuide/AppInsights-Auditing.md)
 - [Approving Workspaces](/AdminGuide/Approving-Workspaces.md)
+- [Databricks Guest](/AdminGuide/Databricks-Guest.md)
 - [Datahub Artifacts Naming Standards](/AdminGuide/Datahub-Artifacts-Naming-Standards.md)
 - [Data hub Initiative Tracker](/AdminGuide/DataHub-Initiative-Tracker.md)
 - [Deleting Workspaces](/AdminGuide/Deleting-Workspaces.md)
