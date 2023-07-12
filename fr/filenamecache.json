@@ -390,5 +390,13 @@
   {
     "English": "UseCase1.md",
     "French": "Cas-d\u0027utilisation-1.md"
+  },
+  {
+    "English": "Databricks-Guest.md",
+    "French": "Databricks-Invit\u00E9.md"
+  },
+  {
+    "English": "Overview.md",
+    "French": "Vue-d\u0027ensemble.md"
   }
 ]

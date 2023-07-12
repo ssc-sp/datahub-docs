@@ -15754,5 +15754,169 @@
   {
     "English": "Getting started with FSDH and File Sharing",
     "French": "Premiers pas avec DHSF et le partage de fichiers"
+  },
+  {
+    "English": "Databricks Guest",
+    "French": "Databricks Invit\u00E9"
+  },
+  {
+    "English": "# Databricks Guest Permissions Overview",
+    "French": "# Vue d\u0027ensemble des autorisations pour les invit\u00E9s Databricks"
+  },
+  {
+    "English": "## Users group",
+    "French": "## Groupe d\u0027utilisateurs"
+  },
+  {
+    "English": "- Users group is special group. It inherits permissions from Azure resource group",
+    "French": "- Le groupe d\u0027utilisateurs est un groupe sp\u00E9cial. Il h\u00E9rite des autorisations du groupe de ressources Azure."
+  },
+  {
+    "English": "- Users have by default read/write/cluster permissions",
+    "French": "- Les utilisateurs disposent par d\u00E9faut d\u0027autorisations de lecture/\u00E9criture/cluster."
+  },
+  {
+    "English": "## Required permissions",
+    "French": "## Permissions requises"
+  },
+  {
+    "English": "- Guest should not be able to edit workbooks",
+    "French": "- Les invit\u00E9s ne doivent pas pouvoir modifier les classeurs"
+  },
+  {
+    "English": "- Guest might need to be able to start SQL Warehouses",
+    "French": "- L\u0027invit\u00E9 pourrait avoir besoin de pouvoir d\u00E9marrer les entrep\u00F4ts SQL."
+  },
+  {
+    "English": "- Guest should not be able to start cluster",
+    "French": "- L\u0027invit\u00E9 ne doit pas pouvoir d\u00E9marrer le cluster"
+  },
+  {
+    "English": "- Guest needs to view workspaces",
+    "French": "- L\u0027invit\u00E9 doit pouvoir consulter les espaces de travail"
+  },
+  {
+    "English": "## SQL Warehouses",
+    "French": "## SQL Warehouses"
+  },
+  {
+    "English": "- Should provide better alternative to clusters for querying SQL data",
+    "French": "- Devrait offrir une meilleure alternative aux clusters pour l\u0027interrogation des donn\u00E9es SQL"
+  },
+  {
+    "English": "- Faster startup time",
+    "French": "- Temps de d\u00E9marrage plus rapide"
+  },
+  {
+    "English": "## Guest Group",
+    "French": "## Groupe d\u0027invit\u00E9s"
+  },
+  {
+    "English": "New guest group is probably best model for enabling access to external users.",
+    "French": "Le nouveau groupe d\u0027invit\u00E9s est probablement le meilleur mod\u00E8le pour permettre l\u0027acc\u00E8s aux utilisateurs externes."
+  },
+  {
+    "English": "- Create guest group",
+    "French": "- Cr\u00E9er un groupe d\u0027invit\u00E9s"
+  },
+  {
+    "English": "    - Guests should only be added to guest group and shouldn\u0027t be inherited from Azure resource group",
+    "French": "    - Les invit\u00E9s ne doivent \u00EAtre ajout\u00E9s qu\u0027au groupe d\u0027invit\u00E9s et ne doivent pas \u00EAtre h\u00E9rit\u00E9s du groupe de ressources Azure."
+  },
+  {
+    "English": "- Restrict guest group with following Entitlements",
+    "French": "- Restreindre le groupe d\u0027invit\u00E9s avec les droits suivants"
+  },
+  {
+    "English": "    - [x] Workspace access",
+    "French": "    - [x] Acc\u00E8s \u00E0 l\u0027espace de travail"
+  },
+  {
+    "English": "    - [x] Databricks SQL access",
+    "French": "    - [x] Acc\u00E8s \u00E0 Databricks SQL"
+  },
+  {
+    "English": "    - [ ] Disable \u0022cluster creation\u0022",
+    "French": "    - D\u00E9sactiver la \u0022cr\u00E9ation de grappes\u0022"
+  },
+  {
+    "English": "- Adjust permissions in Workspace",
+    "French": "- Ajuster les autorisations dans l\u0027espace de travail"
+  },
+  {
+    "English": "    - Add guest group with _Can View_ permission",
+    "French": "    - Ajouter un groupe d\u0027invit\u00E9s avec l\u0027autorisation _Can View_ (voir)"
+  },
+  {
+    "English": "Overview",
+    "French": "Vue d\u0027ensemble"
+  },
+  {
+    "English": "# Guidelines",
+    "French": "# Lignes directrices"
+  },
+  {
+    "English": "## Font-Awesome and icons",
+    "French": "## Font-Awesome et ic\u00F4nes"
+  },
+  {
+    "English": "- Do not use \u0060\u003Ci [icon]\u003E\u0060 use \u0060\u003Cspan\u003E\u0060 to help screen readers",
+    "French": "- N\u0027utilisez pas \u0060\u003Ci [icon]\u003E\u0060 mais plut\u00F4t \u0060\u003Cspan\u003E\u0060 pour aider les lecteurs d\u0027\u00E9cran."
+  },
+  {
+    "English": "## Videos",
+    "French": "## Vid\u00E9os"
+  },
+  {
+    "English": "- Each video posted should have a transcript and captions available",
+    "French": "- Chaque vid\u00E9o publi\u00E9e doit \u00EAtre accompagn\u00E9e d\u0027une transcription et de sous-titres."
+  },
+  {
+    "English": "## Headings",
+    "French": "## Rubriques"
+  },
+  {
+    "English": "- Do not skip headings, e.g. do not jump from \u003Ch1\u003E to \u003Ch6\u003E",
+    "French": "- Ne sautez pas de titres, par exemple, ne passez pas de \u003Ch1\u003E \u00E0 \u003Ch6\u003E."
+  },
+  {
+    "English": "- Make sure h1 is used on each page",
+    "French": "- Veillez \u00E0 ce que le h1 soit utilis\u00E9 sur chaque page"
+  },
+  {
+    "English": "## Form Elements",
+    "French": "## \u00C9l\u00E9ments du formulaire"
+  },
+  {
+    "English": "- Use labels in form fields",
+    "French": "- Utiliser des \u00E9tiquettes dans les champs de formulaire"
+  },
+  {
+    "English": "- Required needs to be in the label tag",
+    "French": "- Doit figurer dans la balise de l\u0027\u00E9tiquette"
+  },
+  {
+    "English": "## Color",
+    "French": "## Couleur"
+  },
+  {
+    "English": "- Do not use colors to indicate important information",
+    "French": "- Ne pas utiliser de couleurs pour indiquer des informations importantes"
+  },
+  {
+    "English": "## Landmarks",
+    "French": "## Points de rep\u00E8re"
+  },
+  {
+    "English": "- Wrap all the content inside landmarks. See https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/roles/landmark_role",
+    "French": "- Envelopper tout le contenu dans des points de rep\u00E8re. Voir https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/roles/landmark_role"
+  },
+  {
+    "English": "## Error Messages",
+    "French": "## Messages d\u0027erreur"
+  },
+  {
+    "English": "- Make sure there is a label",
+    "French": "- S\u0027assurer de la pr\u00E9sence d\u0027une \u00E9tiquette"
   }
 ]
