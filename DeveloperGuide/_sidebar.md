@@ -35,6 +35,10 @@
   - [Contributing Pull Request](/DeveloperGuide/Contributing/Contributing-Pull-Request.md)
 
 - [Costing](Costing/)
+- Databricks
+
+  - [Databricks Guest](/DeveloperGuide/Databricks/Databricks-Guest.md)
+
 - E2E
 
   - [End to end](/DeveloperGuide/E2E/EndToEnd.md)

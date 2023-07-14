@@ -8,23 +8,23 @@ draft: true
 
 ## Commandes utiles
 
-Voici quelques exemples de lignes pour interagir avec un espace de travail. Dans ces exemples de lignes, remplacez `C:\mesdonnees\stage` par le chemin du dossier ou du fichier qui vous intéresse. Pour un guide complet sur l'utilisation d'AzCopy, voir ci-dessous.
+Voici quelques exemples de lignes pour interagir avec un espace de travail. Dans ces exemples de lignes, remplacez `C:\data\stage` par le chemin du dossier ou du fichier qui vous intéresse. Pour un guide complet sur l'utilisation d'AzCopy, voir ci-dessous.
 
 Copie d'un fichier local vers Azure (téléchargement d'un fichier ou d'un dossier) :
 
-`azcopy copy C:\mesdonnees\stage "<sas_uri>" `
+`azcopy copy C:\Nmydata\Nstage "<sas_uri>" `
 
 Copier d'Azure vers local (télécharger un fichier ou un dossier) :
 
-`azcopy copy "<sas_uri>" C:\mesdonnees\stage`
+`azcopy copy "<sas_uri>" C:\NMydata\Nstage`
 
 Synchronisation récursive du local vers Azure (mise en miroir d'un dossier de votre système vers Azure) :
 
-`azcopy sync C:\mesdonnees\stage "<sas_uri>" --recursive`
+`azcopy sync C:\mydata\stage "<sas_uri>" --recursive`
 
 Synchronisation récursive d'Azure vers local (mise en miroir d'un dossier d'Azure vers votre système) :
 
-`azcopy sync "<sas_uri>" C:\mesdonnees\stage --recursive`
+`azcopy sync "<sas_uri>" C:\NMydata\stage --recursive`
 
 ## Drapeaux utiles
 
@@ -50,7 +50,7 @@ Pour plus d'informations sur les drapeaux qui peuvent être utilisés sur n'impo
 
 ## Installation
 
-Pour utiliser AzCopy, vous devez l'installer sur votre système. Vous pouvez télécharger la dernière version d'AzCopy [ici](https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-v10#download-azcopy). Pour les machines Windows, un fichier zip sera téléchargé. Extrayez le contenu du fichier zip dans un dossier de votre choix. Pour les machines Linux, un fichier tar sera téléchargé. Consultez la documentation de votre distribution Linux pour savoir comment extraire le contenu du fichier tar.
+Pour utiliser AzCopy, vous devez l'installer sur votre système. Vous pouvez télécharger la dernière version d'AzCopy [ici] (https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-v10#download-azcopy). Pour les machines Windows, un fichier zip sera téléchargé. Extrayez le contenu du fichier zip dans un dossier de votre choix. Pour les machines Linux, un fichier tar sera téléchargé. Consultez la documentation de votre distribution Linux pour savoir comment extraire le contenu du fichier tar.
 
 ## Utilisation d'AzCopy
 
@@ -102,16 +102,16 @@ Pour pointer vers un dossier ou un fichier spécifique, vous pouvez ajouter le c
 
 Copier le fichier `sample.csv` sur ma machine dans la racine de mon espace de travail :
 
-`azcopy copy C:\mesdonnees\sample.csv "<sas_uri>" `
+`azcopy copy C:\Nmydata\Nsample.csv "<sas_uri>" `
 
 Copier un dossier `sample` sur ma machine dans la racine de mon espace de travail :
 
-`azcopy copy C:\mesdonnees\sample "<sas_uri>" --recursive`
+`azcopy copy C:\Nmydata\Nsample "<sas_uri>" --recursive`
 
 Synchronisation du dossier `sample` de ma machine dans un dossier spécifique de mon espace de travail :
 
-`azcopy sync C:\mesdonnees\sample "blob-name.blob.core windows.net/datahub/path/to/folder?token-info" --recursive`
+`azcopy sync C:\data\sample "blob-name.blob.core windows.net/datahub/path/to/folder?token-info" --recursive`
 
 ## En savoir plus
 
-Vous pouvez en savoir plus sur AzCopy, y compris des exemples de scénarios impliquant le stockage Azure mais aussi les buckets Amazon S3 ou le stockage dans le nuage de Google, dans la [documentation officielle](https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-v10).
+Vous pouvez en savoir plus sur AzCopy, y compris des exemples de scénarios impliquant le stockage Azure mais aussi les buckets Amazon S3 ou le stockage dans le nuage de Google, dans la [documentation officielle] (https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-v10).
