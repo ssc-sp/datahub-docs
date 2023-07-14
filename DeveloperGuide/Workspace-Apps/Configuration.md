@@ -8,7 +8,8 @@ Only members and admins of a workspace will be allowed to access the proxied app
 
 ```
 "ReverseProxy": {
+    "Enabled": true,
     "BasePath":  "wsapp",
-    "Enabled": true
+    "UserHeaderName": "dh-user"
   }  
 ```
