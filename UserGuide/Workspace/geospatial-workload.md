@@ -25,6 +25,6 @@ This article explains how to prepare your Databricks for geospatial analysis. Al
     ```
 
 ## Create Cluster Using Policy (Evaluation only)
-1. Create a new cluster using cluster policy "Geo Cluster"
-1. Edit the cluster to add the init script: `init-geo.sh``
+1. Create a new cluster using cluster policy "Datahub Geo Cluster"
+1. Edit the cluster to add the init script: `/init-geo.sh`
 1. Follow the same steps in manual mode to run the setup code
