@@ -29,11 +29,28 @@ df <- read.df("dbfs:/mnt/fsdh-dbk-main-mount/sample.csv", source = "csv")
 head(df, 3)
 ```
 
-## Mount to Other Clusters
+## Other Ways
 
 As you create more clusters based on DataHub cluster policies, you can mount your project Blob storage in your code.
 
-### Option 1 - Mount Blob Container
+### Option 1 - SAS Token (Recommended)
+
+In your notebook, simply refer to your storage using the preconfigured Spark configuration `abfss_uri`. Sample code:
+```
+dbutils.fs.ls(spark.conf.get('abfss_uri'))
+```
+
+#### How does this work? 
+The SAS token for your storage account has been precreated in Azure Key Vault and referenced in your cluster configuration. The SAS token will be rotated periodically. The cluster configuration looks like the following. These settings apply to clusters created using FSDH cluster policy as well as personal clusters.
+
+  ```
+    fs.azure.sas.token.provider.type.yourstorageaccount.dfs.core.windows.net org.apache.hadoop.fs.azurebfs.sas.FixedSASTokenProvider
+    fs.azure.account.auth.type.yourstorageaccount.dfs.core.windows.net SAS
+    fs.azure.sas.fixed.token.yourstorageaccount.dfs.core.windows.net {{secrets/datahub/container-sas}}
+    abfss_uri abfss://datahub@yourstorageaccount.dfs.core.windows.net
+  ```
+
+### Option 2 - Mount Blob Container
 
 1. Mount the container
 
@@ -54,7 +71,7 @@ As you create more clusters based on DataHub cluster policies, you can mount you
     df.show(3);
     ```
 
-### Option 2 - Directly Access Individule Files
+### Option 3 - Directly Access Individule Files
 
 You can also directly access files without mounting the storage first
 ```
