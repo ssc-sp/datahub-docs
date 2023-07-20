@@ -37,7 +37,7 @@ flowchart TD
 ## Create workspace
 
 ```mermaid
-flowchart TD 
+flowchart TD
     A[User clicks Create Workspace]
     B[User enters Name and Acronym]
     C[User is redirected to workspace]
@@ -45,7 +45,7 @@ flowchart TD
     E[DataHub administrator approves workspace]
     F[User requests Storage and Databricks]
     G[User adds collaborators]
-    A ---> B
+    A ---> |If below max number of workspaces|B
     B ---> C
     C ---> D
     C ---> E
