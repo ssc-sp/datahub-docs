@@ -9,6 +9,8 @@
 
 ### Workspace
 
+> Note: A user can only be the Workspace Lead of up to 3 workspaces.
+
 - [Text Input] Workspace name
 - [Text Input] Workspace acronym
 - [Multi Select] Which features are of interest to you? (Select all that apply)
