@@ -1,5 +1,27 @@
 # Onboarding
 
+## Questions
+
+### Registration
+
+- [Text Input] Email address
+- [Text Area] (Optional) How did you hear about FSDH and what are you hoping to achieve with it?
+
+### Workspace
+
+- [Text Input] Workspace name
+- [Text Input] Workspace acronym
+- [Multi Select] Which features are of interest to you? (Select all that apply)
+  - [x] Storage
+  - [ ] Analytics
+  - [x] Collaboration
+  - [ ] Other
+
+- [Select] How many users do you anticipate to have in your workspace?
+  - [x] 1-3
+  - [ ] 4-10
+  - [ ] 11+
+
 ## Registration workflow
 ```mermaid
 flowchart TD
