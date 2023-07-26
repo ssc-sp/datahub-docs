@@ -19,10 +19,10 @@
   - [x] Collaboration
   - [ ] Other
 
-- [Select] How many users do you anticipate to have in your workspace?
-  - [x] 1-3
-  - [ ] 4-10
-  - [ ] 11+
+- ~~[Select] How many users do you anticipate to have in your workspace?~~
+  - ~~[x] 1-3~~
+  - ~~[ ] 4-10~~
+  - ~~[ ] 11+~~
 
 ## Registration workflow
 ```mermaid
