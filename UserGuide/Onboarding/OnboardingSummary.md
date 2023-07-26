@@ -9,7 +9,7 @@
 
 ### Workspace
 
-> Note: A user can only be the Workspace Lead of up to 3 workspaces.
+> Note: A user can only be the Workspace Lead for up to 3 workspaces.
 
 - [Text Input] Workspace name
 - [Text Input] Workspace acronym
