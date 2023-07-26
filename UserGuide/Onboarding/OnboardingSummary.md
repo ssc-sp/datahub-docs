@@ -72,11 +72,11 @@ flowchart TD
 ```mermaid
 flowchart TD
     A[Lead opens manage users]
-    B[Lead enters valid GoC email address]
-    C[Lead selects role for collaborator]
+    B[Lead enters GC emails in invitation window]
+    C[Lead selects roles for new collaborators]
     D[Lead clicks save changes]
-    E[Collaborator received welcome email]
-    F[Collaborator can login and view workspace]
+    E[Collaborators received welcome email]
+    F[Collaborators can login and view workspace]
     A ---> B
     B ---> C
     C ---> D
