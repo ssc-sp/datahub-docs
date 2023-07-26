@@ -19,7 +19,7 @@
   - [x] Collaboration
   - [ ] Other
 
-## Registration workflow
+## Registration Flow
 ```mermaid
 flowchart TD
     A[User opens FSDH registration page]
@@ -35,7 +35,7 @@ flowchart TD
     E ---> F
 ```
 
-## Login
+## Login Flow
 ```mermaid
 flowchart TD 
     A[User opens FSDH Login page]
@@ -51,7 +51,7 @@ flowchart TD
 
 ```
 
-## Create workspace
+## Create Workspace Flow
 
 ```mermaid
 flowchart TD
@@ -68,7 +68,7 @@ flowchart TD
     D ---> F
 ```
 
-## Invite workflow
+## Invite Flow
 ```mermaid
 flowchart TD
     A[Lead opens manage users]
