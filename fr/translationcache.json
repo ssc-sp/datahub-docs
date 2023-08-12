@@ -16186,5 +16186,505 @@
   {
     "English": "  }  ",
     "French": "  }  "
+  },
+  {
+    "English": "Demo Script Aug23",
+    "French": "Script de d\u00E9monstration Aug23"
+  },
+  {
+    "English": "# Demo Script",
+    "French": "# Script de d\u00E9monstration"
+  },
+  {
+    "English": "## What is DataHub?",
+    "French": "## Qu\u0027est-ce que DataHub ?"
+  },
+  {
+    "English": "- Platform to help scientists collaborate ",
+    "French": "- Une plateforme pour aider les scientifiques \u00E0 collaborer"
+  },
+  {
+    "English": "- Cloud infrastructure to run experiments",
+    "French": "- Infrastructure en nuage pour r\u00E9aliser des exp\u00E9riences"
+  },
+  {
+    "English": "![Alt text](image-1.png)",
+    "French": "![Texte Alt](image-1.png)"
+  },
+  {
+    "English": "## What are the key components",
+    "French": "## Quels sont les \u00E9l\u00E9ments cl\u00E9s ?"
+  },
+  {
+    "English": "- Portal = Workspaces \u002B Resources \u002B Support",
+    "French": "- Portail = Espaces de travail \u002B Ressources \u002B Assistance"
+  },
+  {
+    "English": "- Workspaces = Access to cloud resources (Storage, Docker, Databricks) \u002B Cost management",
+    "French": "- Espaces de travail = Acc\u00E8s aux ressources du cloud (Stockage, Docker, Databricks) \u002B Gestion des co\u00FBts"
+  },
+  {
+    "English": "![Workspaces](image-2.png)",
+    "French": "![Espaces de travail](image-2.png)"
+  },
+  {
+    "English": "- Resources = Tutorials to cover geospatial data processing, large data set processing, dashboards",
+    "French": "- Ressources = Tutoriels couvrant le traitement des donn\u00E9es g\u00E9ospatiales, le traitement de grands ensembles de donn\u00E9es, les tableaux de bord"
+  },
+  {
+    "English": "![Resources](image-3.png)",
+    "French": "![Ressources](image-3.png)"
+  },
+  {
+    "English": "- Onboarding = Simple form for anyone to join \u002B process to add collaborators",
+    "French": "- Onboarding = Formulaire simple pour l\u0027adh\u00E9sion de tout un chacun \u002B processus d\u0027ajout de collaborateurs"
+  },
+  {
+    "English": "![Registration](image-4.png)",
+    "French": "![Inscription](image-4.png)"
+  },
+  {
+    "English": "- Connect users with DataHub team = streamlined and user friendly user system",
+    "French": "- Connecter les utilisateurs \u00E0 l\u0027\u00E9quipe DataHub = syst\u00E8me d\u0027utilisation simplifi\u00E9 et convivial"
+  },
+  {
+    "English": "## Use Cases",
+    "French": "## Cas d\u0027utilisation"
+  },
+  {
+    "English": "What we want to communicate with use cases:",
+    "French": "Ce que nous voulons communiquer avec les cas d\u0027utilisation :"
+  },
+  {
+    "English": "- Breath of application types and scientific domains supported by Databricks ",
+    "French": "- Respiration des types d\u0027applications et des domaines scientifiques pris en charge par Databricks"
+  },
+  {
+    "English": "- Demonstrate DataHub infrastructure for Scientific applications",
+    "French": "- D\u00E9monstration de l\u0027infrastructure DataHub pour les applications scientifiques"
+  },
+  {
+    "English": "- Collaborative features that would not be possible otherwise",
+    "French": "- Des fonctionnalit\u00E9s collaboratives qui ne seraient pas possibles autrement"
+  },
+  {
+    "English": "Preferred",
+    "French": "Pr\u00E9f\u00E9r\u00E9"
+  },
+  {
+    "English": "- Canadian Host Pathogen Database:",
+    "French": "- Base de donn\u00E9es canadienne sur les h\u00F4tes et les pathog\u00E8nes :"
+  },
+  {
+    "English": "    - System = Database \u002B Forms",
+    "French": "    - Syst\u00E8me = Base de donn\u00E9es \u002B Formulaires"
+  },
+  {
+    "English": "    - Access Form accessed by other depts",
+    "French": "    - Acc\u00E8s Formulaire consult\u00E9 par d\u0027autres services"
+  },
+  {
+    "English": "    - Access file was exchanged through email in the past",
+    "French": "    - Le fichier d\u0027acc\u00E8s a \u00E9t\u00E9 \u00E9chang\u00E9 par courrier \u00E9lectronique dans le pass\u00E9"
+  },
+  {
+    "English": "    - 2 weeks to build initial version / $100",
+    "French": "    - 2 semaines pour construire la version initiale / 100"
+  },
+  {
+    "English": "- Use case from Richard?",
+    "French": "- Cas d\u0027utilisation de Richard ?"
+  },
+  {
+    "English": "- Use case from Anthony?",
+    "French": "- Cas d\u0027utilisation d\u0027Anthony ?"
+  },
+  {
+    "English": "- Use case from Yvan?",
+    "French": "- Cas d\u0027utilisation d\u0027Yvan ?"
+  },
+  {
+    "English": "Alternative",
+    "French": "Alternative"
+  },
+  {
+    "English": "- Google Earth integration demo",
+    "French": "- D\u00E9monstration de l\u0027int\u00E9gration de Google Earth"
+  },
+  {
+    "English": "    - Geospatial capabilities",
+    "French": "    - Capacit\u00E9s g\u00E9ospatiales"
+  },
+  {
+    "English": "- R Shiny web app",
+    "French": "- Application web R Shiny"
+  },
+  {
+    "English": "- Databricks Dashboards",
+    "French": "- Tableaux de bord Databricks"
+  },
+  {
+    "English": "## Backend",
+    "French": "## Backend"
+  },
+  {
+    "English": "- Cost and capacity management. All underlying costs are tracked per workspace",
+    "French": "- Gestion des co\u00FBts et des capacit\u00E9s. Tous les co\u00FBts sous-jacents sont suivis par espace de travail"
+  },
+  {
+    "English": "![Alt text](image-5.png)",
+    "French": "![Texte Alt](image-5.png)"
+  },
+  {
+    "English": "- Automation framework for resource provisioning for workspaces,comparable to commercial solutions",
+    "French": "- Cadre d\u0027automatisation pour l\u0027approvisionnement en ressources des espaces de travail, comparable aux solutions commerciales"
+  },
+  {
+    "English": "- Open source portal, extensible",
+    "French": "- Portail open source, extensible"
+  },
+  {
+    "English": "    - Mostly based on Azure",
+    "French": "    - Principalement bas\u00E9 sur Azure"
+  },
+  {
+    "English": "    - AWS and GCP storage connections",
+    "French": "    - Connexions de stockage AWS et GCP"
+  },
+  {
+    "English": "    - Bring your own code with Git integration",
+    "French": "    - Apportez votre propre code avec l\u0027int\u00E9gration de Git"
+  },
+  {
+    "English": "![User Friendly Interface](image.png)",
+    "French": "![Interface conviviale](image.png)"
+  },
+  {
+    "English": "    \u0022Enabled\u0022: true,",
+    "French": "    \u0022Activ\u00E9\u0022 : vrai,"
+  },
+  {
+    "English": "    \u0022UserHeaderName\u0022: \u0022dh-user\u0022",
+    "French": "    \u0022UserHeaderName\u0022 : \u0022dh-user\u0022"
+  },
+  {
+    "English": "## Questions",
+    "French": "## Questions"
+  },
+  {
+    "English": "### Registration",
+    "French": "### Enregistrement"
+  },
+  {
+    "English": "- [Text Input] Email address",
+    "French": "- [Saisie de texte] Adresse \u00E9lectronique"
+  },
+  {
+    "English": "- [Text Area] (Optional) How did you hear about FSDH and what are you hoping to achieve with it?",
+    "French": "- (Facultatif) Comment avez-vous entendu parler de la DHSF et qu\u0027esp\u00E9rez-vous obtenir gr\u00E2ce \u00E0 elle ?"
+  },
+  {
+    "English": "### Workspace",
+    "French": "### Espace de travail"
+  },
+  {
+    "English": "\u003E Note: A user can only be the Workspace Lead for up to 3 workspaces.",
+    "French": "\u003E Note : Un utilisateur ne peut \u00EAtre le responsable d\u0027un espace de travail que pour un maximum de 3 espaces de travail."
+  },
+  {
+    "English": "- [Text Input] Workspace name",
+    "French": "- Nom de l\u0027espace de travail"
+  },
+  {
+    "English": "- [Text Input] Workspace acronym",
+    "French": "- [Saisie de texte] Acronyme de l\u0027espace de travail"
+  },
+  {
+    "English": "- [Multi Select] Which features are of interest to you? (Select all that apply)",
+    "French": "- Quelles sont les caract\u00E9ristiques qui vous int\u00E9ressent ? (S\u00E9lectionnez tout ce qui s\u0027applique)"
+  },
+  {
+    "English": "  - [x] Storage",
+    "French": "  - [x] Stockage"
+  },
+  {
+    "English": "  - [ ] Analytics",
+    "French": "  - [ ] Analytique"
+  },
+  {
+    "English": "  - [x] Collaboration",
+    "French": "  - [x] Collaboration"
+  },
+  {
+    "English": "  - [ ] Other",
+    "French": "  - Autre"
+  },
+  {
+    "English": "## Registration Flow",
+    "French": "## Flux d\u0027inscription"
+  },
+  {
+    "English": "    C[User optionally answers how they heard about FSDH and what they hope to achieve with it]",
+    "French": "    C[L\u0027utilisateur r\u00E9pond \u00E9ventuellement \u00E0 la question de savoir comment il a entendu parler de la DHSF et ce qu\u0027il esp\u00E8re r\u00E9aliser avec elle]"
+  },
+  {
+    "English": "## Login Flow",
+    "French": "## Login Flow"
+  },
+  {
+    "English": "    A ---\u003E|First login| C",
+    "French": "    A ---\u003E|Premi\u00E8re connexion| C"
+  },
+  {
+    "English": "    A ---\u003E|Subsequent logins|F",
+    "French": "    A ---\u003E|Connexions ult\u00E9rieures|F"
+  },
+  {
+    "English": "## Create Workspace Flow",
+    "French": "## Cr\u00E9er un flux d\u0027espace de travail"
+  },
+  {
+    "English": "    B[User enters Name, Acronym, and optionally interested features]",
+    "French": "    B[L\u0027utilisateur saisit le nom, l\u0027acronyme et, \u00E9ventuellement, les caract\u00E9ristiques qui l\u0027int\u00E9ressent]."
+  },
+  {
+    "English": "    A ---\u003E |If below max number of workspaces|B",
+    "French": "    A ---\u003E |Si le nombre d\u0027espaces de travail est inf\u00E9rieur \u00E0 la limite maximale|B"
+  },
+  {
+    "English": "## Invite Flow",
+    "French": "## Invite Flow"
+  },
+  {
+    "English": "    B[Lead enters GC emails in invitation window]",
+    "French": "    B[Le chef de file saisit les courriels du GC dans la fen\u00EAtre d\u0027invitation]."
+  },
+  {
+    "English": "    C[Lead selects roles for new collaborators]",
+    "French": "    C[Le chef de file s\u00E9lectionne les r\u00F4les des nouveaux collaborateurs]."
+  },
+  {
+    "English": "    D[Lead clicks save changes]",
+    "French": "    D[L\u0027administrateur principal clique sur enregistrer les modifications]"
+  },
+  {
+    "English": "    E[Collaborators received welcome email]",
+    "French": "    E[Les collaborateurs ont re\u00E7u un courriel de bienvenue]"
+  },
+  {
+    "English": "    F[Collaborators can login and view workspace]",
+    "French": "    F[Les collaborateurs peuvent se connecter et voir l\u0027espace de travail]"
+  },
+  {
+    "English": "shiny app",
+    "French": "application brillante"
+  },
+  {
+    "English": "# Hosting Shiny App with FSDH",
+    "French": "# H\u00E9bergement d\u0027une application Shiny avec DHSF"
+  },
+  {
+    "English": "FSDH can host your interactive Shiny app that needs to be constantly running and serves a wider range of users; ",
+    "French": "DHSF peut h\u00E9berger votre application Shiny interactive qui doit fonctionner en permanence et qui s\u0027adresse \u00E0 un plus grand nombre d\u0027utilisateurs ;"
+  },
+  {
+    "English": "- Azure App Service is used for hosting your Shiny apps that run as a Docker container. The cost is typically \u003C $100 a month;",
+    "French": "- Azure App Service est utilis\u00E9 pour h\u00E9berger vos applications Shiny qui s\u0027ex\u00E9cutent dans un conteneur Docker. Le co\u00FBt est g\u00E9n\u00E9ralement inf\u00E9rieur \u00E0 100 $ par mois ;"
+  },
+  {
+    "English": "- You do not need to know Docker. However, if you have already docerized your Shiny app, FSDH can also host it. Pleae contact FSDH support.",
+    "French": "- Il n\u0027est pas n\u00E9cessaire de conna\u00EEtre Docker. Cependant, si vous avez d\u00E9j\u00E0 document\u00E9 votre application Shiny, DHSF peut \u00E9galement l\u0027h\u00E9berger. Veuillez contacter le support DHSF."
+  },
+  {
+    "English": "- FSDH provides authentication for your Shiny app without any code change. Optionally, you can still control user permissions inside your Shiny app code;",
+    "French": "- DHSF fournit l\u0027authentification pour votre application Shiny sans aucun changement de code. En option, vous pouvez toujours contr\u00F4ler les permissions des utilisateurs dans le code de votre application Shiny ;"
+  },
+  {
+    "English": "# Criteria",
+    "French": "# Crit\u00E8res"
+  },
+  {
+    "English": "- Your Shiny app only accesses files in your Azure storage account instead of other data sources such as databases;",
+    "French": "- Votre application Shiny n\u0027acc\u00E8de qu\u0027aux fichiers de votre compte de stockage Azure et non \u00E0 d\u0027autres sources de donn\u00E9es telles que les bases de donn\u00E9es ;"
+  },
+  {
+    "English": "- Your Shiny app requires no more than 8GB of memory to run smoothly;",
+    "French": "- Votre application Shiny ne n\u00E9cessite pas plus de 8 Go de m\u00E9moire pour fonctionner correctement ;"
+  },
+  {
+    "English": "- Your Shiny app is only open to registered FSDH users;",
+    "French": "- Votre application Shiny n\u0027est accessible qu\u0027aux utilisateurs enregistr\u00E9s de la DHSF ;"
+  },
+  {
+    "English": "# Develop Shiny App",
+    "French": "# D\u00E9velopper une application Shiny"
+  },
+  {
+    "English": "You can develop and test your Shiny app code on your local PC. To access your FSDH storage, login and generate an SAS token in FSDH. When deployed, your Shiny code has access to the following environment variables:",
+    "French": "Vous pouvez d\u00E9velopper et tester le code de votre application Shiny sur votre PC local. Pour acc\u00E9der \u00E0 votre stockage DHSF, connectez-vous et g\u00E9n\u00E9rez un jeton SAS dans DHSF. Une fois d\u00E9ploy\u00E9, votre code Shiny a acc\u00E8s aux variables d\u0027environnement suivantes :"
+  },
+  {
+    "English": "|Environment Variable Name| Type | Description |",
+    "French": "|Nom de la variable d\u0027environnement| Type | Description |"
+  },
+  {
+    "English": "| --- | --- | --------- |",
+    "French": "| --- | --- | --------- |"
+  },
+  {
+    "English": "|BLOB_ACCOUNT_NAME|string|Your FSDH storage account name (e.g. mysuperproject)|",
+    "French": "|Le nom de votre compte de stockage DHSF (par exemple, mysuperprojet)."
+  },
+  {
+    "English": "|BLOB_ACCOUNT_KEY|string|The access key for your FSDH storage account|",
+    "French": "|La cl\u00E9 d\u0027acc\u00E8s \u00E0 votre compte de stockage DHSF."
+  },
+  {
+    "English": "|BLOB_CONTAINER_NAME|string|The blob container used by FSDH (typically \u0022\u0060datahub\u0060\u0022)|",
+    "French": "|Le conteneur de blob utilis\u00E9 par DHSF (typiquement \u0022\u0060datahub\u0060\u0022)."
+  },
+  {
+    "English": "|BLOB_ACCOUNT_URL|string|The base URL for your FSDH storage and can be used in your code (e.g. https://mysuperproject.blob.core.windows.net) without container or folder|",
+    "French": "|L\u0027URL de base de votre stockage DHSF peut \u00EAtre utilis\u00E9e dans votre code (par exemple https://mysuperproject.blob.core.windows.net) sans conteneur ni dossier."
+  },
+  {
+    "English": "|BLOB_SAS_TOKEN|string|The SAS token can be used to initialize an Azure Blob API client (e.g. \u0060sv=2012-02-12\u0026st=2009-02-09\u0026se=2009-02-10\u0026sr=c\u0026sp=r\u0026si=YWJjZGVmZw%3d%3d\u0026sig=dD80ihBh5jfNpymO5Hg1IdiJIEvHcJpCMiCMnN%2fRnbI%3d\u0060)|",
+    "French": "|BLOB_SAS_TOKEN|string|Le jeton SAS peut \u00EAtre utilis\u00E9 pour initialiser un client Azure Blob API (par ex. \u0060sv=2012-02-12\u0026st=2009-02-09\u0026se=2009-02-10\u0026sr=c\u0026sp=r\u0026si=YWJjZGVmZw%3d%3d\u0026sig=dD80ihBh5jfNpymO5Hg1IdiJIEvHcJpCMiCMnN%2fRnbI%3d\u0060)|"
+  },
+  {
+    "English": "The following R code snippet illustrates how Shiny app connects to FSDH storage accounts and read a file:",
+    "French": "L\u0027extrait de code R suivant illustre comment l\u0027application Shiny se connecte aux comptes de stockage DHSF et lit un fichier :"
+  },
+  {
+    "English": "# Get Azure Storage Account details",
+    "French": "# Obtenir les d\u00E9tails du compte de stockage Azure"
+  },
+  {
+    "English": "storage_account_name \u003C- Sys.getenv(\u0022BLOB_ACCOUNT_NAME\u0022)",
+    "French": "storage_account_name \u003C- Sys.getenv(\u0022BLOB_ACCOUNT_NAME\u0022)"
+  },
+  {
+    "English": "storage_account_key \u003C- Sys.getenv(\u0022BLOB_ACCOUNT_KEY\u0022)",
+    "French": "storage_account_key \u003C- Sys.getenv(\u0022BLOB_ACCOUNT_KEY\u0022)"
+  },
+  {
+    "English": "container_name \u003C- Sys.getenv(\u0022BLOB_CONTAINER_NAME\u0022)",
+    "French": "nom_du_conteneur \u003C- Sys.getenv(\u0022BLOB_CONTAINER_NAME\u0022)"
+  },
+  {
+    "English": "# Read the CSV file from Azure Blob Storage",
+    "French": "# Lire le fichier CSV depuis Azure Blob Storage"
+  },
+  {
+    "English": "bl_endp_key \u003C- storage_endpoint(paste(\u0022https://\u0022, storage_account_name, \u0022.blob.core.windows.net\u0022, sep = \u0022\u0022), key=storage_account_key)",
+    "French": "bl_endp_key \u003C- storage_endpoint(paste(\u0022https://\u0022, storage_account_name, \u0022.blob.core.windows.net\u0022, sep = \u0022\u0022), key=storage_account_key)"
+  },
+  {
+    "English": "cont \u003C- storage_container(bl_endp_key, \u0022datahub\u0022)",
+    "French": "cont \u003C- storage_container(bl_endp_key, \u0022datahub\u0022)"
+  },
+  {
+    "English": "data \u003C- storage_read_csv(cont, \u0022myfile.csv\u0022)",
+    "French": "data \u003C- storage_read_csv(cont, \u0022myfile.csv\u0022)"
+  },
+  {
+    "English": "# Deploy Shiny App",
+    "French": "# D\u00E9ployer l\u0027application Shiny"
+  },
+  {
+    "English": "Once your Shiny app is ready to deploy, you can deploy by simply copying the files to your FSDH storage account under the folder \u0060shiny\u0060. (The folder name can be configured). The system will run \u0060app.R\u0060 file at launch.",
+    "French": "Une fois que votre application Shiny est pr\u00EAte \u00E0 \u00EAtre d\u00E9ploy\u00E9e, vous pouvez la d\u00E9ployer en copiant simplement les fichiers sur votre compte de stockage DHSF dans le dossier \u0060shiny\u0060. (Le nom du dossier peut \u00EAtre configur\u00E9). Le syst\u00E8me ex\u00E9cutera le fichier \u0060app.R\u0060 au lancement."
+  },
+  {
+    "English": "# Access Shiny App",
+    "French": "# Acc\u00E8s \u00E0 l\u0027application Shiny"
+  },
+  {
+    "English": "Once deployed, your Shiny app will be accessible at https://federal-science-datahub.canada.ca/wsapp/PROJ/shiny/ (\u0060PROJ\u0060 is your project acronym and \u0060shiny\u0060 is the folder name in your FSDH storage)",
+    "French": "Une fois d\u00E9ploy\u00E9e, votre application Shiny sera accessible \u00E0 https://federal-science-datahub.canada.ca/wsapp/PROJ/shiny/ (\u0060PROJ\u0060 est l\u0027acronyme de votre projet et \u0060shiny\u0060 est le nom du dossier dans votre stockage DHSF)."
+  },
+  {
+    "English": "geospatial workload",
+    "French": "charge de travail g\u00E9ospatiale"
+  },
+  {
+    "English": "# Prepare for Geospatial workload in Databricks",
+    "French": "# Pr\u00E9parer la charge de travail g\u00E9ospatiale dans Databricks"
+  },
+  {
+    "English": "This article explains how to prepare your Databricks for geospatial analysis. Also check https://medium.com/@milos.colic/unifying-raster-and-vector-data-with-mosaic-76b00a4d2b96",
+    "French": "Cet article explique comment pr\u00E9parer vos Databricks pour l\u0027analyse g\u00E9ospatiale. Consultez \u00E9galement le site https://medium.com/@milos.colic/unifying-raster-and-vector-data-with-mosaic-76b00a4d2b96"
+  },
+  {
+    "English": "## Prepare Cluster Manually",
+    "French": "## Pr\u00E9parer le cluster manuellement"
+  },
+  {
+    "English": "1. Go to Compute and create a new cluster or edit an existing cluster",
+    "French": "1. Allez dans Compute et cr\u00E9ez un nouveau cluster ou modifiez un cluster existant."
+  },
+  {
+    "English": "1. Click on \u0022Libraries\u0022 tab",
+    "French": "1. Cliquez sur l\u0027onglet \u0022Biblioth\u00E8ques"
+  },
+  {
+    "English": "1. Click \u0022Install new\u0022",
+    "French": "1. Cliquez sur \u0022Installer nouveau\u0022"
+  },
+  {
+    "English": "1. Library Source = PyPI, Package = databricks-mosaic",
+    "French": "1. Source de la biblioth\u00E8que = PyPI, Paquet = databricks-mosaic"
+  },
+  {
+    "English": "1. Click Install",
+    "French": "1. Cliquez sur Installer"
+  },
+  {
+    "English": "1. Run the following setup code (only once)",
+    "French": "1. Ex\u00E9cutez le code d\u0027installation suivant (une seule fois)"
+  },
+  {
+    "English": "    import mosaic as mos",
+    "French": "    Importation de mosa\u00EFque en tant que mos"
+  },
+  {
+    "English": "    mos.enable_mosaic(spark, dbutils)",
+    "French": "    mos.enable_mosaic(spark, dbutils)"
+  },
+  {
+    "English": "    mos.setup_gdal(spark)",
+    "French": "    mos.setup_gdal(spark)"
+  },
+  {
+    "English": "1. Edit the cluster and add the init script: \u0060dbfs:/FileStore/geospatial/mosaic/gdal/mosaic-gdal-init.sh\u0060",
+    "French": "1. Editez le cluster et ajoutez le script init : \u0060dbfs:/FileStore/geospatial/mosaic/gdal/mosaic-gdal-init.sh\u0060"
+  },
+  {
+    "English": "1. Restart the cluster",
+    "French": "1. Red\u00E9marrer le cluster"
+  },
+  {
+    "English": "1. Use the following code in a notebook",
+    "French": "1. Utilisez le code suivant dans un cahier"
+  },
+  {
+    "English": "    mos.enable_gdal(spark)",
+    "French": "    mos.enable_gdal(spark)"
+  },
+  {
+    "English": "## Create Cluster Using Policy (Evaluation only)",
+    "French": "## Cr\u00E9er un cluster \u00E0 l\u0027aide d\u0027une politique (\u00E9valuation uniquement)"
+  },
+  {
+    "English": "1. Create a new cluster using cluster policy \u0022Datahub Geo Cluster\u0022",
+    "French": "1. Cr\u00E9ez un nouveau cluster en utilisant la politique de cluster \u0022Datahub Geo Cluster\u0022"
+  },
+  {
+    "English": "1. Edit the cluster to add the init script: \u0060/init-geo.sh\u0060",
+    "French": "1. Editez le cluster pour ajouter le script init : \u0060/init-geo.sh\u0060"
+  },
+  {
+    "English": "1. Follow the same steps in manual mode to run the setup code",
+    "French": "1. Suivez les m\u00EAmes \u00E9tapes en mode manuel pour ex\u00E9cuter le code d\u0027installation."
   }
 ]

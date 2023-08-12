@@ -14,7 +14,8 @@ Seuls les membres et les administrateurs d'un espace de travail seront autorisé
 
 ```
 "ReverseProxy" : {
+    "Activé" : vrai,
     "BasePath" :  "wsapp",
-    "Activé" : vrai
+    "UserHeaderName" : "dh-user"
   }  
 ```
