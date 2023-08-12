@@ -16170,5 +16170,21 @@
   {
     "English": "    \u003Ctrack label=\u0022English\u0022 kind=\u0022subtitles\u0022 srclang=\u0022en\u0022 src=\u0022/api/media/sst-forecasting.vtt\u0022 default/\u003E",
     "French": "    \u003Ctrack label=\u0022English\u0022 kind=\u0022subtitles\u0022 srclang=\u0022en\u0022 src=\u0022/api/media/sst-forecasting.vtt\u0022 default/\u003E"
+  },
+  {
+    "English": "## Settings in the Portal",
+    "French": "## Param\u00E8tres du portail"
+  },
+  {
+    "English": "    \u0022BasePath\u0022:  \u0022wsapp\u0022,",
+    "French": "    \u0022BasePath\u0022 :  \u0022wsapp\u0022,"
+  },
+  {
+    "English": "    \u0022Enabled\u0022: true",
+    "French": "    \u0022Activ\u00E9\u0022 : vrai"
+  },
+  {
+    "English": "  }  ",
+    "French": "  }  "
   }
 ]

@@ -1,6 +1,6 @@
 ---
 remarks: Automatically translated with DeepL
-source: /AdminGuide/Databricks-Guest.md
+source: /DeveloperGuide/Databricks/Databricks-Guest.md
 draft: true
 ---
 
