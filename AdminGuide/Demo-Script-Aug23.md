@@ -20,6 +20,7 @@
 ## Use Cases
 
 What we want to communicate with use cases:
+- Experiments that scientists have been doing in the PoC
 - Breath of application types and scientific domains supported by Databricks 
 - Demonstrate DataHub infrastructure for Scientific applications
 - Collaborative features that would not be possible otherwise
