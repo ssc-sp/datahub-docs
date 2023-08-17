@@ -9,7 +9,7 @@
 
 ### Workspace
 
-> Note: A user can only be the Workspace Lead of up to 3 workspaces.
+> Note: A user can only be the Workspace Lead for up to 3 workspaces.
 
 - [Text Input] Workspace name
 - [Text Input] Workspace acronym
@@ -19,17 +19,12 @@
   - [x] Collaboration
   - [ ] Other
 
-- [Select] How many users do you anticipate to have in your workspace?
-  - [x] 1-3
-  - [ ] 4-10
-  - [ ] 11+
-
-## Registration workflow
+## Registration Flow
 ```mermaid
 flowchart TD
     A[User opens FSDH registration page]
     B[User enters valid GoC email address]
-    C[User selects department agency]
+    C[User optionally answers how they heard about FSDH and what they hope to achieve with it]
     D[User clicks Register]
     E[User is redirected to login page - see below]
     F[User receives welcome email]
@@ -40,71 +35,51 @@ flowchart TD
     E ---> F
 ```
 
-## Login
+## Login Flow
 ```mermaid
 flowchart TD 
     A[User opens FSDH Login page]
-    B[First time login]
     C[Microsoft MFA Setup]
     D[Select Language]
     E[User agrees to T&C]
     F[User arrives on DataHub homepage]
-    A ---> B
-    B ---> C
-    A ---> F
+    A --->|First login| C
+    A --->|Subsequent logins|F
     C ---> D
     D ---> E
     E ---> F
 
 ```
 
-## Create workspace
+## Create Workspace Flow
 
 ```mermaid
 flowchart TD
     A[User clicks Create Workspace]
-    B[User enters Name and Acronym]
+    B[User enters Name, Acronym, and optionally interested features]
     C[User is redirected to workspace]
     D[User completes metadata]
-    E[DataHub administrator approves workspace]
     F[User requests Storage and Databricks]
     G[User adds collaborators]
     A ---> |If below max number of workspaces|B
     B ---> C
     C ---> D
-    C ---> E
     C ---> G
     D ---> F
-    E ---> F
 ```
 
-## Invite workflow
+## Invite Flow
 ```mermaid
 flowchart TD
     A[Lead opens manage users]
-    B[Lead enters valid GoC email address]
-    C[Lead selects department agency]
-    D[Lead clicks send invite]
-    E[Collaborator received welcome email]
-    F[Collaborator can login and view workspace]
+    B[Lead enters GC emails in invitation window]
+    C[Lead selects roles for new collaborators]
+    D[Lead clicks save changes]
+    E[Collaborators received welcome email]
+    F[Collaborators can login and view workspace]
     A ---> B
     B ---> C
     C ---> D
     D ---> E
     E ---> F
-```
-
-### Datahub administrator approval workflow
-
-```mermaid
-flowchart TD 
-    A[DataHub admin opens Pull Request on Azure Devops]
-    B[DataHub admin compares email of PR Request with approved applicants]
-    C[User is in the list]
-    D[DataHub admin approves PR]
-    E[DataHub admin contacts users for clarification]
-    A ---> B
-    B ---> C
-    C ---> D
-    C ---> E
 ```

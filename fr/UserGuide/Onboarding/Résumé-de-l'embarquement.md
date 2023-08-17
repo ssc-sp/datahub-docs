@@ -6,12 +6,31 @@ draft: true
 
 # Onboarding
 
-## Flux d'enregistrement
+## Questions
+
+### Enregistrement
+
+- [Saisie de texte] Adresse électronique
+- (Facultatif) Comment avez-vous entendu parler de la DHSF et qu'espérez-vous obtenir grâce à elle ?
+
+### Espace de travail
+
+> Note : Un utilisateur ne peut être le responsable d'un espace de travail que pour un maximum de 3 espaces de travail.
+
+- Nom de l'espace de travail
+- [Saisie de texte] Acronyme de l'espace de travail
+- Quelles sont les caractéristiques qui vous intéressent ? (Sélectionnez tout ce qui s'applique)
+  - [x] Stockage
+  - [ ] Analytique
+  - [x] Collaboration
+  - Autre
+
+## Flux d'inscription
 ``mermaid``
 organigramme TD
     A [L'utilisateur ouvre la page d'enregistrement de la DHSF].
     B [L'utilisateur entre une adresse e-mail valide du GdC]
-    C [L'utilisateur sélectionne l'agence départementale]
+    C[L'utilisateur répond éventuellement à la question de savoir comment il a entendu parler de la DHSF et ce qu'il espère réaliser avec elle]
     D [Enregistrement des clics utilisateur]
     E [L'utilisateur est redirigé vers la page de connexion - voir ci-dessous].
     F [L'utilisateur reçoit un e-mail de bienvenue]
@@ -22,71 +41,51 @@ organigramme TD
     E ---> F
 ```
 
-## Connexion
+## Login Flow
 ``mermaid``
 organigramme TD
     A [L'utilisateur ouvre la page de connexion DHSF].
-    B [Première connexion]
     C [Configuration de Microsoft MFA]
     D [Sélectionner la langue]
     E [L'utilisateur accepte les T&C]
     F [L'utilisateur arrive sur la page d'accueil de DataHub]
-    A ---> B
-    B ---> C
-    A ---> F
+    A --->|Première connexion| C
+    A --->|Connexions ultérieures|F
     C ---> D
     D ---> E
     E ---> F
 
 ```
 
-## Créer un espace de travail
+## Créer un flux d'espace de travail
 
 ``mermaid``
 organigramme TD
     A [L'utilisateur clique sur Créer un espace de travail]
-    B [L'utilisateur entre le nom et l'acronyme]
+    B[L'utilisateur saisit le nom, l'acronyme et, éventuellement, les caractéristiques qui l'intéressent].
     C [L'utilisateur est redirigé vers l'espace de travail].
     D [L'utilisateur complète les métadonnées]
-    E[L'administrateur de DataHub approuve l'espace de travail]
     F[Demandes des utilisateurs Stockage et Databricks]
     G[L'utilisateur ajoute des collaborateurs]
-    A ---> B
+    A ---> |Si le nombre d'espaces de travail est inférieur à la limite maximale|B
     B ---> C
     C ---> D
-    C ---> E
     C ---> G
     D ---> F
-    E ---> F
 ```
 
-## Inviter le flux de travail
+## Invite Flow
 ``mermaid``
 organigramme TD
     A [Le chef ouvre la gestion des utilisateurs]
-    B [Le responsable entre une adresse e-mail valide du GdC]
-    C [Le responsable choisit l'agence départementale]
-    D [Le chef de file clique sur envoyer l'invitation]
-    E [Le collaborateur a reçu un courriel de bienvenue]
-    F [Le collaborateur peut se connecter et voir l'espace de travail].
+    B[Le chef de file saisit les courriels du GC dans la fenêtre d'invitation].
+    C[Le chef de file sélectionne les rôles des nouveaux collaborateurs].
+    D[L'administrateur principal clique sur enregistrer les modifications]
+    E[Les collaborateurs ont reçu un courriel de bienvenue]
+    F[Les collaborateurs peuvent se connecter et voir l'espace de travail]
     A ---> B
     B ---> C
     C ---> D
     D ---> E
     E ---> F
-```
-
-### Flux de travail d'approbation de l'administrateur de Datahub
-
-``mermaid``
-organigramme TD
-    A [L'administrateur de DataHub ouvre une Pull Request sur Azure Devops].
-    B[L'administrateur du DataHub compare l'e-mail de la demande de RP avec les candidats approuvés].
-    C [L'utilisateur est dans la liste]
-    D [L'administrateur de DataHub approuve le PR]
-    E[L'administrateur de DataHub contacte les utilisateurs pour obtenir des précisions].
-    A ---> B
-    B ---> C
-    C ---> D
-    C ---> E
 ```
