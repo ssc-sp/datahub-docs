@@ -11,7 +11,7 @@
 GitHub:
 - **Code:** Python, Djando web framework, Django ORM. Node.js app would be very similar
 - **Container repository:** Public container repository on GitHub. GitHub can provide private repositories.
-- **Actions:** Package application and deploy it in Github docker registry. Once there can be deployed on any system that supports docker compose.
+- **Actions:** Package application and deploy it in Github Packages (Container Registry). Once there can be deployed on any system that supports Docker Compose.
 
 PostgresSQL:
 - Standard database, supports geospatial extensions
@@ -56,7 +56,7 @@ Updating/Testing the application locally:
 
 - GitHub actions
     - When repository is changed, docker image will be built and deployed
-    - <Simon>
+    - FSDH Sample Github Actions workflow is available: https://github.com/ssc-sp/datahub-demos/blob/main/.github/workflows/azure-container-webapp.yml
     - Show how you can clone the repo and configure the action in your own
     - Validating the build
 
@@ -68,7 +68,7 @@ Updating/Testing the application locally:
 
 - Cost in Datahub
     - Plan limited to 7-8 Gb of RAM, 4 CPU cores
-    - Scaling not available
-    - All docker images will share resources
+    - Horizontal scaling not available
+    - All Docker containers will share resources
     - Basic B3 Plan
-    - ~ $66/month
+    - ~ CAD$66/month
