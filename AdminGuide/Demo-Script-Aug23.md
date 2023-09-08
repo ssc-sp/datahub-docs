@@ -13,7 +13,7 @@
 
 - Resources = Tutorials to cover geospatial data processing, large data set processing, dashboards
 ![Resources](image-3.png)
-- Onboarding = Simple form for anyone to join + process to add collaborators
+- Onboarding = Simple process for anyone to join + process to add collaborators
 ![Registration](image-4.png)
 - Connect users with DataHub team = streamlined and user friendly user system
 
