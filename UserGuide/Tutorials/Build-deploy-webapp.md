@@ -2,9 +2,9 @@
 
 ## Objectives
 
-Host web application
-Host database
-Custom search/science database application
+- Host web application
+- Host database
+- Custom search/science database application
 
 ## Architecture
 
@@ -46,6 +46,8 @@ Django:
     - WSL - a bit more to learn
     - Create virtual machine (HyperV or VirtualBox)
 - Deployment option needs to be discussed with Department Desktop Team. 
+- Memory statistics???
+    - Very small overhead for Docker
 
 Updating/Testing the application locally:
 <Sean>
@@ -63,3 +65,10 @@ Updating/Testing the application locally:
 - Application will be deployed in Azure behind a proxy
 - Link will be accessible in DataHub workspace
 - DataHub team to setup backend deployment in Azure Devops to automate deployment from Github to Azure
+
+- Cost in Datahub
+    - Plan limited to 7-8 Gb of RAM, 4 CPU cores
+    - Scaling not available
+    - All docker images will share resources
+    - Basic B3 Plan
+    - ~ $66/month
