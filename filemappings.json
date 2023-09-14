@@ -10,11 +10,6 @@
     "Fr": "/fr/AdminGuide/Approbation-des-espaces-de-travail.md"
   },
   {
-    "Id": "5a1fbf46-aaf7-dfb9-135e-982d8d4b3ace",
-    "En": "/AdminGuide/Databricks-Guest.md",
-    "Fr": "/fr/AdminGuide/Databricks-Invit\u00E9.md"
-  },
-  {
     "Id": "55ac5b98-839d-0c28-9a13-311d99e26061",
     "En": "/AdminGuide/Datahub-Artifacts-Naming-Standards.md",
     "Fr": "/fr/AdminGuide/Normes-de-nommage-des-artefacts-de-Datahub.md"
@@ -28,6 +23,11 @@
     "Id": "e0714b4b-6146-2c5a-8eb0-3ce13f19e488",
     "En": "/AdminGuide/Deleting-Workspaces.md",
     "Fr": "/fr/AdminGuide/Suppression-des-espaces-de-travail.md"
+  },
+  {
+    "Id": "ff69ca05-1c97-377e-c082-7b1a34d0af96",
+    "En": "/AdminGuide/Demo-Script-Aug23.md",
+    "Fr": "/fr/AdminGuide/Script-de-d\u00E9monstration-Aug23.md"
   },
   {
     "Id": "8c41194d-b063-4e3e-1da4-0caf500198c7",
@@ -168,6 +168,11 @@
     "Id": "0783e169-04d1-70eb-0e31-ac8d07915b4e",
     "En": "/DeveloperGuide/Costing/README.md",
     "Fr": "/fr/DeveloperGuide/Costing/README.md"
+  },
+  {
+    "Id": "75d7e980-b5b7-eddd-8da8-d7a1630a6722",
+    "En": "/DeveloperGuide/Databricks/Databricks-Guest.md",
+    "Fr": "/fr/DeveloperGuide/Databricks/Databricks-Invit\u00E9.md"
   },
   {
     "Id": "258edb80-701e-6756-98c0-fb0c2650388a",
@@ -445,6 +450,11 @@
     "Fr": "/fr/UserGuide/Storage/Utilisez-AzCopy.md"
   },
   {
+    "Id": "8fda8eac-f37e-4069-e64b-71d40a96f36b",
+    "En": "/UserGuide/Tutorials/shiny-app.md",
+    "Fr": "/fr/UserGuide/Tutorials/application-brillante.md"
+  },
+  {
     "Id": "99da697b-84c4-a4e7-9e21-64c3b8aa7ae0",
     "En": "/UserGuide/Tutorials/SST-Forecasting.md",
     "Fr": "/fr/UserGuide/Tutorials/Pr\u00E9visions-SST.md"
@@ -463,6 +473,11 @@
     "Id": "5e65a69b-2e8c-1778-b987-cafb9fee9524",
     "En": "/UserGuide/Workspace/data-visualization.md",
     "Fr": "/fr/UserGuide/Workspace/visualisation-des-donn\u00E9es.md"
+  },
+  {
+    "Id": "5ae94f30-cbef-8a6a-f719-5a93748ace0b",
+    "En": "/UserGuide/Workspace/geospatial-workload.md",
+    "Fr": "/fr/UserGuide/Workspace/charge-de-travail-g\u00E9ospatiale.md"
   },
   {
     "Id": "12a8db11-b5b0-6adc-c029-cd5886421015",

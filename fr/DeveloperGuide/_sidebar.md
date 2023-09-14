@@ -35,6 +35,10 @@
   - [Contribution à une demande de retrait](/fr/DeveloperGuide/Contributing/Contribution-à-une-demande-de-retrait.md)
 
 - [Calcul des coûts](/fr/Costing/)
+- Databricks
+
+  - [Databricks Invité](/fr/DeveloperGuide/Databricks/Databricks-Invité.md)
+
 - E2E
 
   - [De bout en bout](/fr/DeveloperGuide/E2E/EndToEnd.md)

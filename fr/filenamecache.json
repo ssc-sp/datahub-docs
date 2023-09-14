@@ -398,5 +398,17 @@
   {
     "English": "Overview.md",
     "French": "Vue-d\u0027ensemble.md"
+  },
+  {
+    "English": "Demo-Script-Aug23.md",
+    "French": "Script-de-d\u00E9monstration-Aug23.md"
+  },
+  {
+    "English": "shiny-app.md",
+    "French": "application-brillante.md"
+  },
+  {
+    "English": "geospatial-workload.md",
+    "French": "charge-de-travail-g\u00E9ospatiale.md"
   }
 ]
