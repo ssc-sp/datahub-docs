@@ -1,4 +1,6 @@
 - [Federal Science DataHub User Guide](/UserGuide/User-Guide.md)
+- Getting Started
+  - [Preregistration](/UserGuide/Preregistration/Preregistration.md)
 - Tutorials
   - [How to access your storage account in Databricks](/UserGuide/Databricks/Access-your-storage-account-in-Databricks.md)
   - [How to integrate Git in Databricks](/UserGuide/Databricks/Git-Integration.md)
