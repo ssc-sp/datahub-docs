@@ -27,19 +27,15 @@
     > *Note: If you have not registered, you can click the **Register instead** link to navigate to the registration page.*
 
 1. Select your Government of Canada account to login.
-
     ![Pick an account](pick-an-account.png)
 
 1. Read and accept the permissions required by the FSDH application in our Azure Tenant `163Oxygen`.
-
     ![Permissions](permissions.png)
 
 1. Wait for the next prmopt to appear.
-
     ![Just a moment](wait-for-prompt.png)
 
 1. Click `Next`
-
     ![More information required](click-next.png)
 
 1. Input your Government of Canada email address and your M365/Teams password.
@@ -54,27 +50,21 @@
 > *Note: If don't currently use the Microsoft Authenticator app, you can skip this section to setup alternative methods to verify your account.*
 
 1. Click `Next` to continue.
-
     ![MFA Next](mfa-01.png)
 
 1. Click `Next` to continue.
-
     ![MFA Next](mfa-02.png)
 
 1. Scan the QR code with the Microsoft Authenticator app.
-
     ![MFA Scan QR Code](mfa-03.png)
 
 1. Verify prompt in the Microsoft Authenticator app.
-
     ![MFA Verify Prompt](mfa-04.png)
 
 1. Click `Next` to continue.
-
     ![MFA Next](mfa-05.png)
 
 1. Click `Done` to complete Multi Factor Authentication setup.
-
     ![MFA Done](mfa-06.png)
 
 ### (Optional) Setup Alternate MFA Methods
