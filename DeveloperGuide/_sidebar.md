@@ -72,6 +72,8 @@
 
 - Storage
 
+  - [BYO Storage (AWS)](/Storage/BYO Storage (AWS).md)
+  - [BYO Storage (Azure)](/Storage/BYO Storage (Azure).md)
   - [Static Media](/Storage/Static_Media.md)
   - [Storage Limits](/Storage/Storage_Limits.md)
 

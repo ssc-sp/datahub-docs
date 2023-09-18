@@ -19,13 +19,14 @@ draft: true
 
 - Ressources = Tutoriels couvrant le traitement des données géospatiales, le traitement de grands ensembles de données, les tableaux de bord
 ![Ressources](image-3.png)
-- Onboarding = Formulaire simple pour l'adhésion de tout un chacun + processus d'ajout de collaborateurs
+- Onboarding = Processus simple pour l'adhésion de tout un chacun + processus d'ajout de collaborateurs
 ![Inscription](image-4.png)
 - Connecter les utilisateurs à l'équipe DataHub = système d'utilisation simplifié et convivial
 
 ## Cas d'utilisation
 
 Ce que nous voulons communiquer avec les cas d'utilisation :
+- Expériences menées par les scientifiques dans le VdP
 - Respiration des types d'applications et des domaines scientifiques pris en charge par Databricks
 - Démonstration de l'infrastructure DataHub pour les applications scientifiques
 - Des fonctionnalités collaboratives qui ne seraient pas possibles autrement
