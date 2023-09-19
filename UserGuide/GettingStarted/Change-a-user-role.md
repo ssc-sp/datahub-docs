@@ -1,5 +1,7 @@
 # Change a user role
 
+This guide will cover how to change a user's role in your workspace.
+
 > *Note:* Only users with the `Admin` or `Lead` roles can change another user's role.
 
 1. Navigate to your workspace

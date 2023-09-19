@@ -1,5 +1,7 @@
 # Invite a user
 
+This guide will cover how to invite a user to your workspace.
+
 > *Note:* Only users with the `Admin` or `Lead` roles can invite another collaborator.
 
 1. Navigate to your workspace
@@ -19,7 +21,7 @@
 
 1. Click on the dropdown role of the user you will be inviting into your workspace.
     ![invite role dropdown](invite-role-dropdown.png)
-    
+
 1. Select the new role from the dropdown
     ![select role](select-role.png)
 

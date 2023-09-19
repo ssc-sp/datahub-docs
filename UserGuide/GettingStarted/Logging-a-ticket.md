@@ -1,5 +1,7 @@
 # Logging a ticket
 
+This guide will cover how to log a ticket with the FSDH support team.
+
 1. Click on the `Help` button in the top right corner of the page.
     ![help button](help-button.png)
 

@@ -1,5 +1,7 @@
 # Complete metadata
 
+This guide will cover how to complete your workspace metadata.
+
 > **Note:** Only users with the `Admin` or `Lead` roles can complete metadata.
 
 1. Navigate to your workspace
