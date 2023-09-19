@@ -16686,5 +16686,801 @@
   {
     "English": "1. Follow the same steps in manual mode to run the setup code",
     "French": "1. Suivez les m\u00EAmes \u00E9tapes en mode manuel pour ex\u00E9cuter le code d\u0027installation."
+  },
+  {
+    "English": "- Onboarding = Simple process for anyone to join \u002B process to add collaborators",
+    "French": "- Onboarding = Processus simple pour l\u0027adh\u00E9sion de tout un chacun \u002B processus d\u0027ajout de collaborateurs"
+  },
+  {
+    "English": "- Experiments that scientists have been doing in the PoC",
+    "French": "- Exp\u00E9riences men\u00E9es par les scientifiques dans le VdP"
+  },
+  {
+    "English": "# Unlock Users in Azure Active Directory for Datahub Administrative Unit (AU)",
+    "French": "# D\u00E9verrouiller les utilisateurs dans Azure Active Directory pour l\u0027unit\u00E9 administrative Datahub (AU)"
+  },
+  {
+    "English": "User accounts may be disabled from time to time due to inactivity. This procedure outlines how to manually unlock them using PIM (Privileged Identity Management).",
+    "French": "Les comptes d\u0027utilisateurs peuvent \u00EAtre d\u00E9sactiv\u00E9s de temps \u00E0 autre pour cause d\u0027inactivit\u00E9. Cette proc\u00E9dure explique comment les d\u00E9verrouiller manuellement \u00E0 l\u0027aide de PIM (Privileged Identity Management)."
+  },
+  {
+    "English": "## Prerequisite",
+    "French": "## Pr\u00E9requis"
+  },
+  {
+    "English": "Your account must have been granted the following roles:",
+    "French": "Les r\u00F4les suivants doivent \u00EAtre attribu\u00E9s \u00E0 votre compte :"
+  },
+  {
+    "English": "- User Administrator for the AU",
+    "French": "- Administrateur des utilisateurs de l\u0027UA"
+  },
+  {
+    "English": "- Directory Reader for AAD",
+    "French": "- Lecteur de r\u00E9pertoire pour AAD"
+  },
+  {
+    "English": "## Activate PIM",
+    "French": "## Activer le PIM"
+  },
+  {
+    "English": "1. Login to Azure Portal (https://portal.azure.com) and switch to the correct tenant;",
+    "French": "1. Connectez-vous \u00E0 Azure Portal (https://portal.azure.com) et passez au bon locataire ;"
+  },
+  {
+    "English": "2. Find \u0022Privileged Identity Management\u0022 and start \u0022Activate just in time\u0022;",
+    "French": "2. Recherchez \u0022Privileged Identity Management\u0022 et lancez \u0022Activate just in time\u0022 ;"
+  },
+  {
+    "English": "3. Click on the \u0022Activate\u0022 link and specify the time (usually 1 hour). Wait until your PIM has been activated;",
+    "French": "3. Cliquez sur le lien \u0022Activer\u0022 et indiquez le d\u00E9lai (g\u00E9n\u00E9ralement 1 heure). Attendez que votre MIP soit activ\u00E9 ;"
+  },
+  {
+    "English": "## Re-enable Users",
+    "French": "## R\u00E9activer les utilisateurs"
+  },
+  {
+    "English": "4. From Azure Portal, go to \u0022Administrative units\u0022 -\u003E Azure Datahub",
+    "French": "4. Depuis Azure Portal, allez dans \u0022Administrative units\u0022 -\u003E Azure Datahub"
+  },
+  {
+    "English": "5. Go to Users and apply filter \u0022Account enabled == No\u0022",
+    "French": "5. Allez dans Utilisateurs et appliquez le filtre \u0022Compte activ\u00E9 == Non\u0022"
+  },
+  {
+    "English": "6. Re-enable every users",
+    "French": "6. R\u00E9activer tous les utilisateurs"
+  },
+  {
+    "English": "unlock users pim",
+    "French": "d\u00E9bloquer les utilisateurs pim"
+  },
+  {
+    "English": "## BYO Storage from AWS",
+    "French": "## Stockage BYO \u00E0 partir d\u0027AWS"
+  },
+  {
+    "English": "### Step 1",
+    "French": "### \u00C9tape 1"
+  },
+  {
+    "English": "Create an S3 Bucket and set the following bucket policy.",
+    "French": "Cr\u00E9ez un S3 Bucket et d\u00E9finissez la politique suivante pour le Bucket."
+  },
+  {
+    "English": "\u00A0 \u00A0 \u0022Version\u0022: \u00222012-10-17\u0022,",
+    "French": "    \u0022Version\u0022 : \u00222012-10-17\u0022,"
+  },
+  {
+    "English": "\u00A0 \u00A0 \u0022Statement\u0022: [",
+    "French": "    \u0022D\u00E9claration\u0022 : ["
+  },
+  {
+    "English": "\u00A0 \u00A0 \u00A0 \u00A0 {",
+    "French": "        {"
+  },
+  {
+    "English": "\u00A0 \u00A0 \u00A0 \u00A0 \u00A0 \u00A0 \u0022Effect\u0022: \u0022Allow\u0022,",
+    "French": "            \u0022Effet\u0022 : \u0022Autoriser\u0022,"
+  },
+  {
+    "English": "\u00A0 \u00A0 \u00A0 \u00A0 \u00A0 \u00A0 \u0022Principal\u0022: \u0022*\u0022,",
+    "French": "            \u0022Principal\u0022 : \u0022*\u0022,"
+  },
+  {
+    "English": "\u00A0 \u00A0 \u00A0 \u00A0 \u00A0 \u00A0 \u0022Action\u0022: [",
+    "French": "            \u0022Action\u0022 : ["
+  },
+  {
+    "English": "\u00A0 \u00A0 \u00A0 \u00A0 \u00A0 \u00A0 \u00A0 \u00A0 \u0022s3:GetObject\u0022,",
+    "French": "                \u0022s3:GetObject\u0022,"
+  },
+  {
+    "English": "\u00A0 \u00A0 \u00A0 \u00A0 \u00A0 \u00A0 \u00A0 \u00A0 \u0022s3:PutObject\u0022,",
+    "French": "                \u0022s3:PutObject\u0022,"
+  },
+  {
+    "English": "\u00A0 \u00A0 \u00A0 \u00A0 \u00A0 \u00A0 \u00A0 \u00A0 \u0022s3:DeleteObject\u0022,",
+    "French": "                \u0022s3:DeleteObject\u0022,"
+  },
+  {
+    "English": "\u00A0 \u00A0 \u00A0 \u00A0 \u00A0 \u00A0 \u00A0 \u00A0 \u0022s3:ListBucket\u0022",
+    "French": "                \u0022s3:ListBucket\u0022"
+  },
+  {
+    "English": "\u00A0 \u00A0 \u00A0 \u00A0 \u00A0 \u00A0 ],",
+    "French": "            ],"
+  },
+  {
+    "English": "\u00A0 \u00A0 \u00A0 \u00A0 \u00A0 \u00A0 \u0022Resource\u0022: [",
+    "French": "            \u0022Ressource\u0022 : ["
+  },
+  {
+    "English": "\u00A0 \u00A0 \u00A0 \u00A0 \u00A0 \u00A0 \u00A0 \u00A0 \u0022arn:aws:s3:::\u003Cyour-bucket-name\u003E/*\u0022,",
+    "French": "                \u0022arn:aws:s3:::\u003Cnom-de-votre-bucket\u003E/*\u0022,"
+  },
+  {
+    "English": "\u00A0 \u00A0 \u00A0 \u00A0 \u00A0 \u00A0 \u00A0 \u00A0 \u0022arn:aws:s3:::\u003Cyour-bucket-name\u003E\u0022",
+    "French": "                \u0022arn:aws:s3:::\u003Cvotre-nom-de-bucket\u003E\u0022"
+  },
+  {
+    "English": "\u00A0 \u00A0 \u00A0 \u00A0 \u00A0 \u00A0 ]",
+    "French": "            ]"
+  },
+  {
+    "English": "\u00A0 \u00A0 \u00A0 \u00A0 }",
+    "French": "        }"
+  },
+  {
+    "English": "\u00A0 \u00A0 ]",
+    "French": "    ]"
+  },
+  {
+    "English": "### Step 2",
+    "French": "### \u00C9tape 2"
+  },
+  {
+    "English": "Create an AIM user and assign a policy that would allow it to access the previous bucket. I\u0027ve tested adding the user to a group to which I added the **AmazonS3FullAccess** permission policy. I am sure there are better ways to do this.",
+    "French": "Cr\u00E9ez un utilisateur AIM et attribuez-lui une politique qui lui permette d\u0027acc\u00E9der au seau pr\u00E9c\u00E9dent. J\u0027ai essay\u00E9 d\u0027ajouter l\u0027utilisateur \u00E0 un groupe auquel j\u0027ai ajout\u00E9 la politique d\u0027autorisation **AmazonS3FullAccess**. Je suis s\u00FBr qu\u0027il y a de meilleures fa\u00E7ons de proc\u00E9der."
+  },
+  {
+    "English": "### Step 4",
+    "French": "### \u00C9tape 4"
+  },
+  {
+    "English": "Create an **Access key** for the user and save Key and Secret. ",
+    "French": "Cr\u00E9ez une **cl\u00E9 d\u0027acc\u00E8s** pour l\u0027utilisateur et enregistrez la cl\u00E9 et le secret."
+  },
+  {
+    "English": "Access Key: ###########",
+    "French": "Cl\u00E9 d\u0027acc\u00E8s : ###########"
+  },
+  {
+    "English": "Key Secret: ##################",
+    "French": "Secret de polichinelle : ##################"
+  },
+  {
+    "English": "### Step 5",
+    "French": "### \u00C9tape 5"
+  },
+  {
+    "English": "Configure the BYO AWS Storage in Datahub providing the **Access Key**, **Access Key Secret**, **Bucket AWSRegion** and **Bucket Name**.",
+    "French": "Configurez le BYO AWS Storage dans Datahub en fournissant les **Cl\u00E9 d\u0027acc\u00E8s**, **Secret de la cl\u00E9 d\u0027acc\u00E8s**, **Bucket AWSRegion** et **Nom du Bucket**."
+  },
+  {
+    "English": "## BYO Storage from Azure",
+    "French": "## Stockage BYO \u00E0 partir d\u0027Azure"
+  },
+  {
+    "English": "Create an Azure Storage and add at least one container. E.g.: **datahub**",
+    "French": "Cr\u00E9ez un stockage Azure et ajoutez au moins un conteneur. Par exemple : **datahub**"
+  },
+  {
+    "English": "Go to the Storage **Security \u002B Networking / Access Keys** and copy **Storage account name** and one of the keys e.g.: **Key1**.",
+    "French": "Allez dans le stockage **S\u00E9curit\u00E9 \u002B mise en r\u00E9seau / Cl\u00E9s d\u0027acc\u00E8s** et copiez **Nom du compte de stockage** et l\u0027une des cl\u00E9s, par exemple : **Cl\u00E91**."
+  },
+  {
+    "English": "### Step 3",
+    "French": "### \u00C9tape 3"
+  },
+  {
+    "English": "Configure the BYO Azure Storage in Datahub providing the **Storage account name** and **Account Key**.",
+    "French": "Configurez le BYO Azure Storage dans Datahub en fournissant le **Nom du compte de stockage** et la **Cl\u00E9 du compte**."
+  },
+  {
+    "English": "BYO Storage (AWS)",
+    "French": "Stockage BYO (AWS)"
+  },
+  {
+    "English": "BYO Storage  AWS ",
+    "French": "Stockage BYO AWS"
+  },
+  {
+    "English": "BYO Storage (Azure)",
+    "French": "Stockage BYO (Azure)"
+  },
+  {
+    "English": "BYO Storage  Azure ",
+    "French": "Stockage BYO Azure"
+  },
+  {
+    "English": "# Change a user role",
+    "French": "# Modifier le r\u00F4le d\u0027un utilisateur"
+  },
+  {
+    "English": "Dolor ipsum amet sit amet.",
+    "French": "Dolor ipsum amet sit amet."
+  },
+  {
+    "English": "# Complete metadata",
+    "French": "# M\u00E9tadonn\u00E9es compl\u00E8tes"
+  },
+  {
+    "English": "# Create a workspace",
+    "French": "# Cr\u00E9er un espace de travail"
+  },
+  {
+    "English": "# Invite a user",
+    "French": "# Inviter un utilisateur"
+  },
+  {
+    "English": "# Joining a workspace",
+    "French": "# Rejoindre un espace de travail"
+  },
+  {
+    "English": "# Logging a ticket",
+    "French": "# Enregistrement d\u0027un ticket"
+  },
+  {
+    "English": "# Request Databricks",
+    "French": "# Demande d\u0027acc\u00E8s \u00E0 la base de donn\u00E9es"
+  },
+  {
+    "English": "# Request storage",
+    "French": "# Demande de stockage"
+  },
+  {
+    "English": "# Register and Setup",
+    "French": "# Register and Setup (Enregistrement et configuration)"
+  },
+  {
+    "English": "## Account Registration",
+    "French": "## Enregistrement du compte"
+  },
+  {
+    "English": "![Registration Page](registration-page.png)",
+    "French": "![Page d\u0027inscription](registration-page.png)"
+  },
+  {
+    "English": "*View of the registration page.*",
+    "French": "*Vue de la page d\u0027enregistrement"
+  },
+  {
+    "English": "1. Using a modern browser (Edge or Chrome) navigate to the FSDH registration page at [https://federal-science-datahub.canada.ca/register](https://federal-science-datahub.canada.ca/register)",
+    "French": "1. En utilisant un navigateur moderne (Edge ou Chrome), acc\u00E9dez \u00E0 la page d\u0027inscription de la DHSF \u00E0 l\u0027adresse [https://federal-science-datahub.canada.ca/register](https://federal-science-datahub.canada.ca/register)."
+  },
+  {
+    "English": "1. Enter your Government of Canada email address to register.",
+    "French": "1. Saisissez votre adresse \u00E9lectronique du gouvernement du Canada pour vous inscrire."
+  },
+  {
+    "English": "1. Read the terms and conditions and click the checkbox to accept them.",
+    "French": "1. Lisez les conditions g\u00E9n\u00E9rales et cochez la case pour les accepter."
+  },
+  {
+    "English": "1. Click the **Register** button.",
+    "French": "1. Cliquez sur le bouton **Enregistrer**."
+  },
+  {
+    "English": "\u003E *Note: If you have already registered, you can click the **Login instead** link to navigate to the login page.*",
+    "French": "\u003E Note : Si vous \u00EAtes d\u00E9j\u00E0 enregistr\u00E9, vous pouvez cliquer sur le lien **Login instead** pour naviguer vers la page de connexion."
+  },
+  {
+    "English": "## Account Setup",
+    "French": "## Configuration du compte"
+  },
+  {
+    "English": "![Login Page](login-page.png)",
+    "French": "![Page de connexion](login-page.png)"
+  },
+  {
+    "English": "*View of the login page.*",
+    "French": "*Vue de la page de connexion"
+  },
+  {
+    "English": "1. If you have an FSDH account, click the **Login** button to be redirected to your departmental login page.",
+    "French": "1. Si vous avez un compte DHSF, cliquez sur le bouton **Login** pour \u00EAtre redirig\u00E9 vers la page de connexion de votre d\u00E9partement."
+  },
+  {
+    "English": "    \u003E *Note: If you have not registered, you can click the **Register instead** link to navigate to the registration page.*",
+    "French": "    \u003E Note : Si vous n\u0027\u00EAtes pas inscrit, vous pouvez cliquer sur le lien **Inscrire \u00E0 la place** pour acc\u00E9der \u00E0 la page d\u0027inscription."
+  },
+  {
+    "English": "1. Select your Government of Canada account to login.",
+    "French": "1. S\u00E9lectionnez votre compte du gouvernement du Canada pour vous connecter."
+  },
+  {
+    "English": "    ![Pick an account](pick-an-account.png)",
+    "French": "    ![Choisissez un compte](pick-an-account.png)"
+  },
+  {
+    "English": "1. Read and accept the permissions required by the FSDH application in our Azure Tenant \u0060163Oxygen\u0060.",
+    "French": "1. Lisez et acceptez les permissions requises par l\u0027application DHSF dans notre locataire Azure \u0060163Oxygen\u0060."
+  },
+  {
+    "English": "    ![Permissions](permissions.png)",
+    "French": "    ![Permissions](permissions.png)"
+  },
+  {
+    "English": "1. Wait for the next prmopt to appear.",
+    "French": "1. Attendez que le prochain prmopt apparaisse."
+  },
+  {
+    "English": "    ![Just a moment](wait-for-prompt.png)",
+    "French": "    ![Juste un instant](wait-for-prompt.png)"
+  },
+  {
+    "English": "1. Click \u0060Next\u0060",
+    "French": "1. Cliquez sur \u0060Suivant\u0060"
+  },
+  {
+    "English": "    ![More information required](click-next.png)",
+    "French": "    ![Plus d\u0027informations requises](click-next.png)"
+  },
+  {
+    "English": "1. Input your Government of Canada email address and your M365/Teams password.",
+    "French": "1. Saisissez votre adresse \u00E9lectronique du gouvernement du Canada et votre mot de passe M365/Teams."
+  },
+  {
+    "English": "    \u003E *Note: Some organizations use your network password as your M365/Teams password. If you are unsure, please contact your IT department.*",
+    "French": "    \u003E Note : Certaines organisations utilisent votre mot de passe r\u00E9seau comme mot de passe M365/Teams. En cas de doute, veuillez contacter votre service informatique."
+  },
+  {
+    "English": "    ![Password entry](password-entry.png)",
+    "French": "    ![Saisie du mot de passe](password-entry.png)"
+  },
+  {
+    "English": "## Multi-Factor Authentication",
+    "French": "## Authentification multifactorielle"
+  },
+  {
+    "English": "### Setup Microsoft Authenticator App",
+    "French": "### Configurer l\u0027application Microsoft Authenticator"
+  },
+  {
+    "English": "\u003E *Note: If don\u0027t currently use the Microsoft Authenticator app, you can skip this section to setup alternative methods to verify your account.*",
+    "French": "\u003E Note : Si vous n\u0027utilisez pas l\u0027application Microsoft Authenticator, vous pouvez sauter cette section pour configurer d\u0027autres m\u00E9thodes de v\u00E9rification de votre compte."
+  },
+  {
+    "English": "1. Click \u0060Next\u0060 to continue.",
+    "French": "1. Cliquez sur \u0022Suivant\u0022 pour continuer."
+  },
+  {
+    "English": "    ![MFA Next](mfa-01.png)",
+    "French": "    ![AMF Suivant](mfa-01.png)"
+  },
+  {
+    "English": "    ![MFA Next](mfa-02.png)",
+    "French": "    ![AMF Suivant](mfa-02.png)"
+  },
+  {
+    "English": "1. Scan the QR code with the Microsoft Authenticator app.",
+    "French": "1. Scannez le code QR avec l\u0027application Microsoft Authenticator."
+  },
+  {
+    "English": "    ![MFA Scan QR Code](mfa-03.png)",
+    "French": "    [Code QR de balayage de l\u0027AMF](mfa-03.png)"
+  },
+  {
+    "English": "1. Verify prompt in the Microsoft Authenticator app.",
+    "French": "1. V\u00E9rifier l\u0027invite dans l\u0027application Microsoft Authenticator."
+  },
+  {
+    "English": "    ![MFA Verify Prompt](mfa-04.png)",
+    "French": "    Invite de v\u00E9rification de l\u0027AMF](mfa-04.png)"
+  },
+  {
+    "English": "    ![MFA Next](mfa-05.png)",
+    "French": "    ![AMF Suivant](mfa-05.png)"
+  },
+  {
+    "English": "1. Click \u0060Done\u0060 to complete Multi Factor Authentication setup.",
+    "French": "1. Cliquez sur \u0022Termin\u00E9\u0022 pour terminer la configuration de l\u0027authentification multifactorielle."
+  },
+  {
+    "English": "    ![MFA Done](mfa-06.png)",
+    "French": "    ![AMF Termin\u00E9](mfa-06.png)"
+  },
+  {
+    "English": "### (Optional) Setup Alternate MFA Methods",
+    "French": "### (Facultatif) Configurer d\u0027autres m\u00E9thodes MFA"
+  },
+  {
+    "English": "1. Click the \u0060I want to use a different authenticator app\u0060 link.",
+    "French": "1. Cliquez sur le lien \u0022Je veux utiliser une autre application d\u0027authentification\u0022."
+  },
+  {
+    "English": "    ![MFA Alternate Methods](mfa-01.png)",
+    "French": "    M\u00E9thodes alternatives \u00E0 l\u0027AMF](mfa-01.png)"
+  },
+  {
+    "English": "1. Select your preferred method of MFA and click \u0060Next\u0060.",
+    "French": "1. S\u00E9lectionnez la m\u00E9thode d\u0027AMF que vous pr\u00E9f\u00E9rez et cliquez sur \u0060Suivant\u0060."
+  },
+  {
+    "English": "    ![Alternate MFA Methods](mfa-08.png)",
+    "French": "    Autres m\u00E9thodes d\u0027AMF](mfa-08.png)"
+  },
+  {
+    "English": "    \u003E *Note: This section will cover setting up MFA with a phone number. If you choose to use a different method, please follow the on-screen instructions.*",
+    "French": "    \u003E Remarque : cette section traite de la configuration de l\u0027AMF \u00E0 l\u0027aide d\u0027un num\u00E9ro de t\u00E9l\u00E9phone. Si vous choisissez d\u0027utiliser une autre m\u00E9thode, veuillez suivre les instructions \u00E0 l\u0027\u00E9cran."
+  },
+  {
+    "English": "1. Input a phone mobile number (work or personal) that can receive SMS messages and click \u0060Next\u0060.",
+    "French": "1. Saisissez un num\u00E9ro de t\u00E9l\u00E9phone mobile (professionnel ou personnel) qui peut recevoir des messages SMS et cliquez sur \u0060Suivant\u0060."
+  },
+  {
+    "English": "    ![Enter phone number](mfa-09.png)",
+    "French": "    ![Entrez le num\u00E9ro de t\u00E9l\u00E9phone](mfa-09.png)"
+  },
+  {
+    "English": "1. Input the code received via SMS to the phone number provided previously and click \u0060Next\u0060.",
+    "French": "1. Saisissez le code re\u00E7u par SMS au num\u00E9ro de t\u00E9l\u00E9phone indiqu\u00E9 pr\u00E9c\u00E9demment et cliquez sur \u0022Suivant\u0022."
+  },
+  {
+    "English": "    ![Enter SMS Code](mfa-10.png)",
+    "French": "    ![Entrez le code SMS](mfa-10.png)"
+  },
+  {
+    "English": "1. Confirm SMS verification and click \u0060Next\u0060.",
+    "French": "1. Confirmez la v\u00E9rification par SMS et cliquez sur \u0022Suivant\u0022."
+  },
+  {
+    "English": "    ![Confirm SMS verification](mfa-11.png)",
+    "French": "    ![Confirmer la v\u00E9rification du SMS](mfa-11.png)"
+  },
+  {
+    "English": "1. Phone MFA setup is complete. Click \u0060Done\u0060 to continue.",
+    "French": "1. La configuration du MFA par t\u00E9l\u00E9phone est termin\u00E9e. Cliquez sur \u0022Termin\u00E9\u0022 pour continuer."
+  },
+  {
+    "English": "    ![Phone MFA Complete](mfa-12.png)",
+    "French": "    T\u00E9l\u00E9phone AMF complet](mfa-12.png)"
+  },
+  {
+    "English": "## Sign In",
+    "French": "## S\u0027inscrire"
+  },
+  {
+    "English": "Once you have completed the registration and MFA setup process, you can sign in to the FSDH application.",
+    "French": "Une fois que vous avez termin\u00E9 le processus d\u0027enregistrement et de configuration de l\u0027AMF, vous pouvez vous connecter \u00E0 l\u0027application DHSF."
+  },
+  {
+    "English": "1. (Optional) Click \u0060Yes\u0060 to stay signed in.",
+    "French": "1) (Facultatif) Cliquez sur \u0022Oui\u0022 pour rester connect\u00E9."
+  },
+  {
+    "English": "    ![Stay signed in](stay-signed-in.png)",
+    "French": "    ![Restez connect\u00E9](stay-signed-in.png)"
+  },
+  {
+    "English": "1. Select your language of preference (English or French) from the dropdown and click \u0060Save\u0060.",
+    "French": "1. S\u00E9lectionnez la langue de votre choix (anglais ou fran\u00E7ais) dans la liste d\u00E9roulante et cliquez sur \u0022Sauvegarder\u0022."
+  },
+  {
+    "English": "    ![Language selection](language-selection.png)",
+    "French": "    ![S\u00E9lection de la langue](language-selection.png)"
+  },
+  {
+    "English": "1. Click on the \u0060Terms and Conditions\u0060 link to review the terms and conditions. Check the box to accept the terms and conditions and click \u0060Complete\u0060.",
+    "French": "1. Cliquez sur le lien \u0022Termes et conditions\u0022 pour consulter les termes et conditions. Cochez la case pour accepter les termes et conditions et cliquez sur \u0022Terminer\u0022."
+  },
+  {
+    "English": "    ![Terms and Conditions](terms-and-conditions.png)",
+    "French": "    ![Conditions g\u00E9n\u00E9rales](terms-and-conditions.png)"
+  },
+  {
+    "English": "\u003E *Note: Important reminder that the FSDH is only approved for **unclassified** data*.",
+    "French": "\u003E Note : Il est important de rappeler que la DHSF n\u0027est approuv\u00E9e que pour les donn\u00E9es **non classifi\u00E9es***."
+  },
+  {
+    "English": "# Develop, Build and deploy your web applications",
+    "French": "# D\u00E9veloppez, construisez et d\u00E9ployez vos applications web"
+  },
+  {
+    "English": "- Host web application",
+    "French": "- H\u00E9berger une application web"
+  },
+  {
+    "English": "- Host database",
+    "French": "- Base de donn\u00E9es de l\u0027h\u00F4te"
+  },
+  {
+    "English": "- Custom search/science database application",
+    "French": "- Application de recherche personnalis\u00E9e/base de donn\u00E9es scientifiques"
+  },
+  {
+    "English": "## Architecture",
+    "French": "## Architecture"
+  },
+  {
+    "English": "### GitHub",
+    "French": "### GitHub"
+  },
+  {
+    "English": "- **Code:** Python, Djando web framework, Django ORM. Node.js app would be very similar",
+    "French": "- **Code:** Python, Djando web framework, Django ORM. L\u0027application Node.js serait tr\u00E8s similaire."
+  },
+  {
+    "English": "- **Container repository:** Public container repository on GitHub. GitHub can provide private repositories.",
+    "French": "- **D\u00E9p\u00F4t de conteneurs:** D\u00E9p\u00F4t de conteneurs public sur GitHub. GitHub peut fournir des d\u00E9p\u00F4ts priv\u00E9s."
+  },
+  {
+    "English": "- **Actions:** Package application and deploy it in Github Packages (Container Registry). Once there can be deployed on any system that supports Docker Compose.",
+    "French": "- **Actions:** Empaqueter l\u0027application et la d\u00E9ployer dans Github Packages (Container Registry). Une fois l\u00E0, elle peut \u00EAtre d\u00E9ploy\u00E9e sur n\u0027importe quel syst\u00E8me qui supporte Docker Compose."
+  },
+  {
+    "English": "### PostgresSQL",
+    "French": "### PostgresSQL"
+  },
+  {
+    "English": "- Standard database, supports geospatial extensions",
+    "French": "- Base de donn\u00E9es standard, supporte les extensions g\u00E9ospatiales"
+  },
+  {
+    "English": "- Could be either SQL Server or MariaDB",
+    "French": "- Il peut s\u0027agir de SQL Server ou de MariaDB"
+  },
+  {
+    "English": "- SQLlite would be recommended when recommended because of performance and costs for small/medium datasets",
+    "French": "- SQLlite est recommand\u00E9 lorsqu\u0027il est recommand\u00E9 en raison des performances et des co\u00FBts pour les ensembles de donn\u00E9es de petite/moyenne taille."
+  },
+  {
+    "English": "### Django",
+    "French": "### Django"
+  },
+  {
+    "English": "- Python framework for development of web applications.",
+    "French": "- Cadre de travail Python pour le d\u00E9veloppement d\u0027applications web."
+  },
+  {
+    "English": "- Built-in tools and components for tasks like database management and URL routing.",
+    "French": "- Outils et composants int\u00E9gr\u00E9s pour des t\u00E2ches telles que la gestion de bases de donn\u00E9es et le routage d\u0027URL."
+  },
+  {
+    "English": "- Many frameworks, web hosting \u002B object mapper",
+    "French": "- Nombreux frameworks, h\u00E9bergement web \u002B mappeur d\u0027objets"
+  },
+  {
+    "English": "## Docker Compose",
+    "French": "## Docker Compose"
+  },
+  {
+    "English": "- Package ",
+    "French": "- Paquet"
+  },
+  {
+    "English": "- Extension of docker, provides docker orchestration",
+    "French": "- Extension de docker, fournit l\u0027orchestration de docker"
+  },
+  {
+    "English": "- Not an alternative to Kubernetes. Many features not supported today (scaling, distributed, etc.). ",
+    "French": "- Ce n\u0027est pas une alternative \u00E0 Kubernetes. De nombreuses fonctionnalit\u00E9s ne sont pas prises en charge aujourd\u0027hui (mise \u00E0 l\u0027\u00E9chelle, distribu\u00E9, etc.)."
+  },
+  {
+    "English": "- Simple model to package systems that cannot fit in a single docker",
+    "French": "- Mod\u00E8le simple pour empaqueter des syst\u00E8mes qui ne peuvent pas tenir dans un seul docker"
+  },
+  {
+    "English": "- Not first choice",
+    "French": "- Pas le premier choix"
+  },
+  {
+    "English": "    - Single docker preferred when possible",
+    "French": "    - Un seul docker est pr\u00E9f\u00E9rable si possible"
+  },
+  {
+    "English": "- Docker compose allows to build application with multiple images - aka multiple servers. Use template or contact Datahub",
+    "French": "- Docker compose permet de construire une application avec plusieurs images - aka plusieurs serveurs. Utilisez le mod\u00E8le ou contactez Datahub"
+  },
+  {
+    "English": "- Required background",
+    "French": "- Exp\u00E9rience requise"
+  },
+  {
+    "English": "    - Networking: all ports required need to specified",
+    "French": "    - R\u00E9seau : tous les ports n\u00E9cessaires doivent \u00EAtre sp\u00E9cifi\u00E9s"
+  },
+  {
+    "English": "    - Storage: persistent storage needs to be managed",
+    "French": "    - Stockage : le stockage persistant doit \u00EAtre g\u00E9r\u00E9"
+  },
+  {
+    "English": "    - Changes on images are not persisted after restart",
+    "French": "    - Les modifications apport\u00E9es aux images ne sont pas conserv\u00E9es apr\u00E8s le red\u00E9marrage."
+  },
+  {
+    "English": "## Running and working locally",
+    "French": "## Fonctionne localement"
+  },
+  {
+    "English": "- Docker desktop has limitations",
+    "French": "- Le bureau Docker a ses limites"
+  },
+  {
+    "English": "- Options",
+    "French": "- Options"
+  },
+  {
+    "English": "    - Docker desktop application - has possible license limitation",
+    "French": "    - Application de bureau Docker - risque de limitation de licence"
+  },
+  {
+    "English": "    - WSL - a bit more to learn",
+    "French": "    - WSL - un peu plus \u00E0 apprendre"
+  },
+  {
+    "English": "    - Create a virtual machine (HyperV or VirtualBox)",
+    "French": "    - Cr\u00E9er une machine virtuelle (HyperV ou VirtualBox)"
+  },
+  {
+    "English": "- Deployment option needs to be discussed with Department Desktop Team. ",
+    "French": "- L\u0027option de d\u00E9ploiement doit \u00EAtre discut\u00E9e avec l\u0027\u00E9quipe des ordinateurs de bureau du d\u00E9partement."
+  },
+  {
+    "English": "- Memory statistics???",
+    "French": "- Statistiques sur la m\u00E9moire ?"
+  },
+  {
+    "English": "    - Very small overhead for Docker",
+    "French": "    - Tr\u00E8s peu de frais g\u00E9n\u00E9raux pour Docker"
+  },
+  {
+    "English": "### Updating/Testing the application locally:",
+    "French": "### Mise \u00E0 jour/test de l\u0027application localement :"
+  },
+  {
+    "English": "1. Install Docker to your preferred environment. Docker Compose is included for Windows/Mac, but must be installed manually using \u0060pip install docker-compose\u0060 on Linux.",
+    "French": "1. Installez Docker dans votre environnement pr\u00E9f\u00E9r\u00E9. Docker Compose est inclus pour Windows/Mac, mais doit \u00EAtre install\u00E9 manuellement en utilisant \u0060pip install docker-compose\u0060 sur Linux."
+  },
+  {
+    "English": "    * You can confirm the installation using \u0060docker run hello-world\u0060 to pull a sample image.",
+    "French": "    * Vous pouvez confirmer l\u0027installation en utilisant \u0060docker run hello-world\u0060 pour obtenir une image d\u0027exemple."
+  },
+  {
+    "English": "2. To use Django, there are a few key commands:",
+    "French": "2. Pour utiliser Django, il y a quelques commandes cl\u00E9s :"
+  },
+  {
+    "English": "    * Create a project: \u0060django-admin startproject django_project\u0060",
+    "French": "    * Cr\u00E9er un projet : \u0060django-admin startproject django_project\u0060"
+  },
+  {
+    "English": "    * Create migrations: \u0060python manage.py makemigrations\u0060 (Must be done after model changes)",
+    "French": "    * Cr\u00E9er des migrations : \u0060python manage.py makemigrations\u0060 (Doit \u00EAtre fait apr\u00E8s les changements de mod\u00E8le)"
+  },
+  {
+    "English": "    * Migrate: \u0060python manage.py migrate\u0060 (Must be done after model changes)",
+    "French": "    * Migrer : \u0060python manage.py migrate\u0060 (Doit \u00EAtre fait apr\u00E8s les changements de mod\u00E8le)"
+  },
+  {
+    "English": "    * Run server: \u0060python manage.py runserver\u0060",
+    "French": "    * Ex\u00E9cuter le serveur : \u0060python manage.py runserver\u0060"
+  },
+  {
+    "English": "        * Allows you to visit the website locally at \u0060http://127.0.0.1:8000/\u0060",
+    "French": "        * Permet de visiter le site web localement \u00E0 l\u0027adresse \u0060http://127.0.0.1:8000/\u0060."
+  },
+  {
+    "English": "3. You should run \u0060pip freeze \u003E requirements.txt\u0060 after setting this up. This file allows Docker to install and use your Python packages.",
+    "French": "3. Vous devez lancer \u0060pip freeze \u003E requirements.txt\u0060 apr\u00E8s avoir configur\u00E9 ceci. Ce fichier permet \u00E0 Docker d\u0027installer et d\u0027utiliser vos paquets Python."
+  },
+  {
+    "English": "4. Create a \u0060Dockerfile\u0060, you can use the demo file on [datahub-demos](https://github.com/ssc-sp/datahub-demos/blob/main/docker/django-app/Dockerfile) as a starting point.",
+    "French": "4. Cr\u00E9ez un \u0060Dockerfile\u0060, vous pouvez utiliser le fichier de d\u00E9monstration sur [datahub-demos] (https://github.com/ssc-sp/datahub-demos/blob/main/docker/django-app/Dockerfile) comme point de d\u00E9part."
+  },
+  {
+    "English": "    * This file installs Python, your requirements, and sets your Django page as the working directory.",
+    "French": "    * Ce fichier installe Python, vos exigences, et d\u00E9finit votre page Django comme r\u00E9pertoire de travail."
+  },
+  {
+    "English": "5. Create a \u0060docker-compose.yml\u0060 file, you can use the demo file on [datahub-demos](https://github.com/ssc-sp/datahub-demos/blob/main/docker/django-app/docker-compose.yml) as a starting point.",
+    "French": "5. Cr\u00E9ez un fichier \u0060docker-compose.yml\u0060, vous pouvez utiliser le fichier de d\u00E9monstration sur [datahub-demos] (https://github.com/ssc-sp/datahub-demos/blob/main/docker/django-app/docker-compose.yml) comme point de d\u00E9part."
+  },
+  {
+    "English": "    * This file starts the web and database services for your project.",
+    "French": "    * Ce fichier d\u00E9marre les services web et de base de donn\u00E9es pour votre projet."
+  },
+  {
+    "English": "    * **Note:** If you use the sample file, you must update \u0060django_project/settings.py\u0060 to use PostgreSQL instead of SQLite.",
+    "French": "    * **Note:** Si vous utilisez le fichier d\u0027exemple, vous devez mettre \u00E0 jour \u0060django_project/settings.py\u0060 pour utiliser PostgreSQL au lieu de SQLite."
+  },
+  {
+    "English": "6. You can now use \u0060docker-compose up\u0060 to start the Docker container. If successful, you can visit it at \u0060http://127.0.0.1:8000/\u0060.",
+    "French": "6. Vous pouvez maintenant utiliser \u0060docker-compose up\u0060 pour d\u00E9marrer le conteneur Docker. Si vous r\u00E9ussissez, vous pouvez le visiter \u00E0 \u0060http://127.0.0.1:8000/\u0060."
+  },
+  {
+    "English": "    * You can also use \u0060docker-compose up -d --build\u0060 to run in detached mode, which means you can make changes without constantly starting/stopping the container.",
+    "French": "    * Vous pouvez \u00E9galement utiliser \u0060docker-compose up -d --build\u0060 pour fonctionner en mode d\u00E9tach\u00E9, ce qui signifie que vous pouvez faire des changements sans constamment d\u00E9marrer/arr\u00EAter le conteneur."
+  },
+  {
+    "English": "    * You can use \u0060docker-compose down\u0060 to stop the container.",
+    "French": "    * Vous pouvez utiliser \u0060docker-compose down\u0060 pour arr\u00EAter le conteneur."
+  },
+  {
+    "English": "    * When running this container, use \u0060docker-compose exec web python manage.py ...\u0060 to run the \u0060migrate\u0060 or \u0060makemigrations\u0060 scripts.",
+    "French": "    * Lors de l\u0027ex\u00E9cution de ce conteneur, utilisez \u0060docker-compose exec web python manage.py ...\u0060 pour ex\u00E9cuter les scripts \u0060migrate\u0060 ou \u0060makemigrations\u0060."
+  },
+  {
+    "English": "## Deploying the application in the cloud",
+    "French": "## D\u00E9ploiement de l\u0027application dans le nuage"
+  },
+  {
+    "English": "- GitHub actions",
+    "French": "- Actions GitHub"
+  },
+  {
+    "English": "    - When repository is changed, docker image will be built and deployed",
+    "French": "    - Lorsque le r\u00E9f\u00E9rentiel est modifi\u00E9, l\u0027image docker est construite et d\u00E9ploy\u00E9e."
+  },
+  {
+    "English": "    - FSDH Sample Github Actions workflow is available: https://github.com/ssc-sp/datahub-demos/blob/main/.github/workflows/azure-container-webapp.yml",
+    "French": "    - L\u0027exemple de workflow d\u0027actions Github de la DHSF est disponible \u00E0 l\u0027adresse suivante : https://github.com/ssc-sp/datahub-demos/blob/main/.github/workflows/azure-container-webapp.yml"
+  },
+  {
+    "English": "    - Show how you can clone the repo and configure the action in your own",
+    "French": "    - Montrez comment vous pouvez cloner le repo et configurer l\u0027action dans votre propre"
+  },
+  {
+    "English": "    - Validating the build",
+    "French": "    - Validation de la construction"
+  },
+  {
+    "English": "## Accessing the application in DataHub",
+    "French": "## Acc\u00E8s \u00E0 l\u0027application dans DataHub"
+  },
+  {
+    "English": "- Application will be deployed in Azure behind a proxy",
+    "French": "- L\u0027application sera d\u00E9ploy\u00E9e dans Azure derri\u00E8re un proxy"
+  },
+  {
+    "English": "- Link will be accessible in DataHub workspace",
+    "French": "- Le lien sera accessible dans l\u0027espace de travail DataHub"
+  },
+  {
+    "English": "- DataHub team to setup backend deployment in Azure Devops to automate deployment from Github to Azure",
+    "French": "- L\u0027\u00E9quipe de DataHub met en place un d\u00E9ploiement backend dans Azure Devops pour automatiser le d\u00E9ploiement de Github vers Azure"
+  },
+  {
+    "English": "- Cost in Datahub",
+    "French": "- Co\u00FBt dans Datahub"
+  },
+  {
+    "English": "    - Plan limited to 7-8 Gb of RAM, 4 CPU cores",
+    "French": "    - Plan limit\u00E9 \u00E0 7-8 Go de RAM, 4 c\u0153urs de CPU"
+  },
+  {
+    "English": "    - Horizontal scaling not available",
+    "French": "    - La mise \u00E0 l\u0027\u00E9chelle horizontale n\u0027est pas disponible"
+  },
+  {
+    "English": "    - All Docker containers will share resources",
+    "French": "    - Tous les conteneurs Docker partageront les ressources"
+  },
+  {
+    "English": "    - Basic B3 Plan",
+    "French": "    - Plan de base B3"
+  },
+  {
+    "English": "    - ~ CAD$66/month",
+    "French": "    - ~ CAD$66/mois"
+  },
+  {
+    "English": "- Getting Started",
+    "French": "- Pour commencer"
+  },
+  {
+    "English": "Preregistration",
+    "French": "Pr\u00E9inscription"
   }
 ]

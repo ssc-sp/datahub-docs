@@ -10,5 +10,6 @@
 - [Gestion des ressources du projet](/fr/AdminGuide/Gestion-des-ressources-du-projet.md)
 - [Gestion des budgets](/fr/AdminGuide/Gestion-des-budgets.md)
 - [Administration de Power BI](/fr/AdminGuide/Administration-de-Power-BI.md)
+- [débloquer les utilisateurs pim](/fr/débloquer-les-utilisateurs-pim.md)
 - [Gestion de l'identité des utilisateurs (scénario non classifié)](/fr/Gestion-de-l'identité-des-utilisateurs-Scénario-non-classifié.md)
 

@@ -410,5 +410,49 @@
   {
     "English": "geospatial-workload.md",
     "French": "charge-de-travail-g\u00E9ospatiale.md"
+  },
+  {
+    "English": "unlock-users-pim.md",
+    "French": "unlock-users-pim.md"
+  },
+  {
+    "English": "BYO Storage (AWS).md",
+    "French": "BYO Storage (AWS).md"
+  },
+  {
+    "English": "BYO Storage (Azure).md",
+    "French": "BYO Storage (Azure).md"
+  },
+  {
+    "English": "Change-a-user-role.md",
+    "French": "Change-a-user-role.md"
+  },
+  {
+    "English": "Complete-metadata.md",
+    "French": "Complete-metadata.md"
+  },
+  {
+    "English": "Creating-a-workspace.md",
+    "French": "Creating-a-workspace.md"
+  },
+  {
+    "English": "Invite-a-user.md",
+    "French": "Invite-a-user.md"
+  },
+  {
+    "English": "Joining-a-workspace.md",
+    "French": "Joining-a-workspace.md"
+  },
+  {
+    "English": "Logging-a-ticket.md",
+    "French": "Logging-a-ticket.md"
+  },
+  {
+    "English": "Preregistration.md",
+    "French": "Preregistration.md"
+  },
+  {
+    "English": "Build-deploy-webapp.md",
+    "French": "Build-deploy-webapp.md"
   }
 ]

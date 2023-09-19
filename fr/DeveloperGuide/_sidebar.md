@@ -72,6 +72,8 @@
 
 - Stockage
 
+  - [Stockage BYO (AWS)](/fr/Storage/Stockage-BYO-AWS.md)
+  - [Stockage BYO (Azure)](/fr/Storage/Stockage-BYO-Azure.md)
   - [Médias statiques](/fr/Storage/Médias-statiques.md)
   - [Limites de stockage](/fr/Storage/Limites-de-stockage.md)
 

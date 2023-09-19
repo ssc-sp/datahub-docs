@@ -1,4 +1,6 @@
 - [Guide de l'utilisateur du DataHub scientifique fédéral](/fr/UserGuide/Guide-de-l'utilisateur.md)
+- Pour commencer
+  - [Préinscription](/fr/UserGuide/Preregistration/Préinscription.md)
 - Tutoriels
   - [Comment accéder à votre compte de stockage dans Databricks ?](/fr/UserGuide/Databricks/Accédez-à-votre-compte-de-stockage-dans-Databricks.md)
   - [Comment intégrer Git dans Databricks](/fr/UserGuide/Databricks/Intégration-de-Git.md)

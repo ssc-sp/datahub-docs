@@ -8,17 +8,17 @@
 
 ## Architecture
 
-GitHub:
+### GitHub
 - **Code:** Python, Djando web framework, Django ORM. Node.js app would be very similar
 - **Container repository:** Public container repository on GitHub. GitHub can provide private repositories.
 - **Actions:** Package application and deploy it in Github Packages (Container Registry). Once there can be deployed on any system that supports Docker Compose.
 
-PostgresSQL:
+### PostgresSQL
 - Standard database, supports geospatial extensions
 - Could be either SQL Server or MariaDB
 - SQLlite would be recommended when recommended because of performance and costs for small/medium datasets
 
-Django:
+### Django
 - Python framework for development of web applications.
 - Built-in tools and components for tasks like database management and URL routing.
 - Many frameworks, web hosting + object mapper

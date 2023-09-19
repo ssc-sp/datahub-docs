@@ -65,6 +65,11 @@
     "Fr": "/fr/AdminGuide/README.md"
   },
   {
+    "Id": "c45293cc-c00d-14aa-7cea-835df2c52011",
+    "En": "/AdminGuide/unlock-users-pim.md",
+    "Fr": "/fr/AdminGuide/unlock-users-pim.md"
+  },
+  {
     "Id": "01930fdb-2db1-3751-e372-32afc04350b3",
     "En": "/AdminGuide/User-Identity-Management-(Unclassified-scenario).md",
     "Fr": "/fr/AdminGuide/Gestion-de-l\u0027identit\u00E9-des-utilisateurs-Sc\u00E9nario-non-classifi\u00E9.md"
@@ -240,6 +245,16 @@
     "Fr": "/fr/DeveloperGuide/Resourcing/Aper\u00E7u-des-ressources.md"
   },
   {
+    "Id": "d6330f91-ffb4-efe1-99d8-7876c6712282",
+    "En": "/DeveloperGuide/Storage/BYO Storage (AWS).md",
+    "Fr": "/fr/DeveloperGuide/Storage/BYO Storage (AWS).md"
+  },
+  {
+    "Id": "4cfe8b3e-65b6-6d64-b2bd-3e0ab17f2c6f",
+    "En": "/DeveloperGuide/Storage/BYO Storage (Azure).md",
+    "Fr": "/fr/DeveloperGuide/Storage/BYO Storage (Azure).md"
+  },
+  {
     "Id": "f02f295f-2d60-6ead-168c-a8ceb5c2ec62",
     "En": "/DeveloperGuide/Storage/Static_Media.md",
     "Fr": "/fr/DeveloperGuide/Storage/M\u00E9dias-statiques.md"
@@ -405,6 +420,46 @@
     "Fr": "/fr/UserGuide/Databricks/Flux-de-travail.md"
   },
   {
+    "Id": "05f36688-b0bf-05f8-c646-44afb241de1b",
+    "En": "/UserGuide/GettingStarted/Change-a-user-role.md",
+    "Fr": "/fr/UserGuide/GettingStarted/Change-a-user-role.md"
+  },
+  {
+    "Id": "bf8ac1c6-4a20-5715-97cf-4bff7ac21e09",
+    "En": "/UserGuide/GettingStarted/Complete-metadata.md",
+    "Fr": "/fr/UserGuide/GettingStarted/Complete-metadata.md"
+  },
+  {
+    "Id": "66141735-171c-bfba-2477-d01f7900cd2c",
+    "En": "/UserGuide/GettingStarted/Creating-a-workspace.md",
+    "Fr": "/fr/UserGuide/GettingStarted/Creating-a-workspace.md"
+  },
+  {
+    "Id": "b850b833-5ba3-43be-ced1-6f800ac908df",
+    "En": "/UserGuide/GettingStarted/Invite-a-user.md",
+    "Fr": "/fr/UserGuide/GettingStarted/Invite-a-user.md"
+  },
+  {
+    "Id": "b7d6dc39-ba6e-8645-239c-b1a7f4050cb7",
+    "En": "/UserGuide/GettingStarted/Joining-a-workspace.md",
+    "Fr": "/fr/UserGuide/GettingStarted/Joining-a-workspace.md"
+  },
+  {
+    "Id": "1658b4fe-7e6f-9d34-425e-af3265d22c01",
+    "En": "/UserGuide/GettingStarted/Logging-a-ticket.md",
+    "Fr": "/fr/UserGuide/GettingStarted/Logging-a-ticket.md"
+  },
+  {
+    "Id": "2f537cee-9701-0e67-9de0-9d384250e3c5",
+    "En": "/UserGuide/GettingStarted/Request-databricks.md",
+    "Fr": "/fr/UserGuide/GettingStarted/Demander-des-databricks.md"
+  },
+  {
+    "Id": "d4cd3187-b8e9-50b6-28ad-5f0e34e5b559",
+    "En": "/UserGuide/GettingStarted/Request-storage.md",
+    "Fr": "/fr/UserGuide/GettingStarted/Demande-de-stockage.md"
+  },
+  {
     "Id": "189c6115-9187-9175-5bb5-46abd8705286",
     "En": "/UserGuide/Office/2023-04-04.md",
     "Fr": "/fr/UserGuide/Office/2023-04-04.md"
@@ -435,6 +490,11 @@
     "Fr": "/fr/UserGuide/Onboarding/R\u00E9sum\u00E9-de-l\u0027embarquement.md"
   },
   {
+    "Id": "f0f5c0fc-8502-dc49-11fe-3c9002b352a0",
+    "En": "/UserGuide/Preregistration/Preregistration.md",
+    "Fr": "/fr/UserGuide/Preregistration/Preregistration.md"
+  },
+  {
     "Id": "7cd97127-13df-57a6-1517-f31296534cbe",
     "En": "/UserGuide/Storage/Datahub-AzureStorage.md",
     "Fr": "/fr/UserGuide/Storage/Datahub-AzureStorage.md"
@@ -448,6 +508,11 @@
     "Id": "6391e56a-0827-2dfb-ecb6-8830d72947c4",
     "En": "/UserGuide/Storage/Use-AzCopy.md",
     "Fr": "/fr/UserGuide/Storage/Utilisez-AzCopy.md"
+  },
+  {
+    "Id": "989cd017-4e2e-f116-4dde-9a31022ec420",
+    "En": "/UserGuide/Tutorials/Build-deploy-webapp.md",
+    "Fr": "/fr/UserGuide/Tutorials/Build-deploy-webapp.md"
   },
   {
     "Id": "8fda8eac-f37e-4069-e64b-71d40a96f36b",
