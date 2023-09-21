@@ -28,7 +28,8 @@ This will guide you through the process of registering and setting up your accou
 1. If you have an FSDH account, click the **Login** button to be redirected to your departmental login page.
     > *Note: If you have not registered, you can click the **Register instead** link to navigate to the registration page.*
 
-1. Select your Government of Canada account to login. <br /> ![Pick an account](pick-an-account.png)
+1. Select your Government of Canada account to login. 
+    ![Pick an account](pick-an-account.png)
 
 1. Read and accept the permissions required by the FSDH application in our Azure Tenant `163Oxygen`.
 
