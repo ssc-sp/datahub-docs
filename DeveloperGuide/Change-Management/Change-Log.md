@@ -3,7 +3,7 @@
 ## DataHub Core App
 | Version | [DEV](https://dev.fsdh-dhsf.science.cloud-nuage.canada.ca/) | [INT](https://int.fsdh-dhsf.science.cloud-nuage.canada.ca/) | [POC](https://federal-science-datahub.canada.ca/) | Notes |
 |---|---|---|---|---|
-|[Infra v2.12-rc1](https://github.com/ssc-sp/datahub-infra/tree/v2.12-rc1)|-|2023-09-21|-| [See below](##datahub-infra-v212-) |
+|[Infra v2.12-rc1](https://github.com/ssc-sp/datahub-infra/tree/v2.12-rc1)|-|2023-09-21|-| [See below](#datahub-infra-v212-) |
 
 ## Project Resource Modules
 | Version | Release Date | Changes |
