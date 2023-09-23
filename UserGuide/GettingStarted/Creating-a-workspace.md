@@ -1,5 +1,7 @@
 # Create a workspace
 
+This guide will cover how to create a workspace.
+
 > *Note:* You may only lead up to three workspaces. If you are already leading three workspaces, you will not be able to create a new workspace. You can, however, request to be added as a lead to an existing workspace. 
 
 1. Navigate to the `Home` or `Profile` page.
