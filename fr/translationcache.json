@@ -17482,5 +17482,313 @@
   {
     "English": "Preregistration",
     "French": "Pr\u00E9inscription"
+  },
+  {
+    "English": "\u003E *Note:* Only users with the \u0060Admin\u0060 or \u0060Lead\u0060 roles can change another user\u0027s role.",
+    "French": "\u003E Note:* Seuls les utilisateurs ayant le r\u00F4le \u0060Admin\u0060 ou \u0060Lead\u0060 peuvent changer le r\u00F4le d\u0027un autre utilisateur."
+  },
+  {
+    "English": "1. Navigate to your workspace",
+    "French": "1. Acc\u00E9dez \u00E0 votre espace de travail"
+  },
+  {
+    "English": "1. Click on the \u0060View Members\u0060 link in the top right corner of the page",
+    "French": "1. Cliquez sur le lien \u0022Voir les membres\u0022 dans le coin sup\u00E9rieur droit de la page."
+  },
+  {
+    "English": "    ![view members](view-members.png)",
+    "French": "    ![voir les membres](view-members.png)"
+  },
+  {
+    "English": "1. Click on the dropdown role of the user whose role you want to change",
+    "French": "1. Cliquez sur la liste d\u00E9roulante du r\u00F4le de l\u0027utilisateur dont vous souhaitez modifier le r\u00F4le."
+  },
+  {
+    "English": "    ![role dropdown](role-dropdown.png)",
+    "French": "    ![r\u00F4le dropdown](role-dropdown.png)"
+  },
+  {
+    "English": "1. Select the new role from the dropdown",
+    "French": "1. S\u00E9lectionnez le nouveau r\u00F4le dans la liste d\u00E9roulante"
+  },
+  {
+    "English": "    ![select role](select-role.png)",
+    "French": "    ![select role](select-role.png)"
+  },
+  {
+    "English": "1. Click \u0060Save Changes\u0060 at the top of the page",
+    "French": "1. Cliquez sur \u0022Enregistrer les modifications\u0022 en haut de la page."
+  },
+  {
+    "English": "    ![save changes](save-changes.png)",
+    "French": "    ![enregistrer les changements](save-changes.png)"
+  },
+  {
+    "English": "\u003E **Note:** Only users with the \u0060Admin\u0060 or \u0060Lead\u0060 roles can complete metadata.",
+    "French": "**Note:** Seuls les utilisateurs ayant le r\u00F4le \u0060Admin\u0060 ou \u0060Lead\u0060 peuvent compl\u00E9ter les m\u00E9tadonn\u00E9es."
+  },
+  {
+    "English": "1. Click on the \u0060Edit Metadata\u0060 button above the workspace title",
+    "French": "1. Cliquez sur le bouton \u0022\u00C9diter les m\u00E9tadonn\u00E9es\u0022 au-dessus du titre de l\u0027espace de travail."
+  },
+  {
+    "English": "    ![edit metadata](edit-metadata.png)",
+    "French": "    ![edit metadata](edit-metadata.png)"
+  },
+  {
+    "English": "1. Complete all the fields, including both English and French fields.",
+    "French": "1. Remplir tous les champs, y compris les champs en anglais et en fran\u00E7ais."
+  },
+  {
+    "English": "    \u003E *Note:* The auto-translation tool is only a suggested translation. It is the responsibility of the user to ensure that the translation is correct before submitting the metadata",
+    "French": "    *Note:* L\u0027outil de traduction automatique n\u0027est qu\u0027une suggestion de traduction. Il incombe \u00E0 l\u0027utilisateur de s\u0027assurer que la traduction est correcte avant de soumettre les m\u00E9tadonn\u00E9es."
+  },
+  {
+    "English": "1. Click \u0060Save Metadata\u0060 at the bottom of the page",
+    "French": "1. Cliquez sur \u0022Sauvegarder les m\u00E9tadonn\u00E9es\u0022 en bas de la page."
+  },
+  {
+    "English": "    ![save changes](save-changes-metadata.png)",
+    "French": "    ![save changes](save-changes-metadata.png)"
+  },
+  {
+    "English": "\u003E *Note:* You may only lead up to three workspaces. If you are already leading three workspaces, you will not be able to create a new workspace. You can, however, request to be added as a lead to an existing workspace. ",
+    "French": "\u003E Note:* Vous ne pouvez diriger que trois espaces de travail au maximum. Si vous dirigez d\u00E9j\u00E0 trois espaces de travail, vous ne pourrez pas en cr\u00E9er un nouveau. Vous pouvez cependant demander \u00E0 \u00EAtre ajout\u00E9 en tant que responsable d\u0027un espace de travail existant."
+  },
+  {
+    "English": "1. Navigate to the \u0060Home\u0060 or \u0060Profile\u0060 page.",
+    "French": "1. Naviguez vers la page \u0060Home\u0060 ou \u0060Profile\u0060."
+  },
+  {
+    "English": "1. Click on the \u0060Create Workspace\u0060 button.",
+    "French": "1. Cliquez sur le bouton \u0022Cr\u00E9er un espace de travail\u0022."
+  },
+  {
+    "English": "    ![create workspace](create-workspace.png)",
+    "French": "    ![cr\u00E9er un espace de travail](create-workspace.png)"
+  },
+  {
+    "English": "1. Enter a name for your workspace.",
+    "French": "1. Saisissez un nom pour votre espace de travail."
+  },
+  {
+    "English": "1. Use the generated acronym or enter your own.",
+    "French": "1. Utilisez l\u0027acronyme g\u00E9n\u00E9r\u00E9 ou saisissez le v\u00F4tre."
+  },
+  {
+    "English": "    \u003E *Note:* The acronym must be unique across all workspaces.",
+    "French": "    \u003E L\u0027acronyme doit \u00EAtre unique dans tous les espaces de travail."
+  },
+  {
+    "English": "1. (Optional) Select which features are of interest to you.",
+    "French": "1) (Facultatif) S\u00E9lectionnez les fonctionnalit\u00E9s qui vous int\u00E9ressent."
+  },
+  {
+    "English": "1. Click \u0060Create Workspace\u0060.",
+    "French": "1. Cliquez sur \u0022Cr\u00E9er un espace de travail\u0022."
+  },
+  {
+    "English": "    ![create workspace dialog](create-workspace-dialog.png)",
+    "French": "    ![dialogue de cr\u00E9ation d\u0027espace de travail](create-workspace-dialog.png)"
+  },
+  {
+    "English": "The page will redirect you to your new workspace. You will be the \u0060Lead\u0060 of this workspace. You can now add members to your workspace.",
+    "French": "La page vous redirigera vers votre nouvel espace de travail. Vous serez le \u0022chef\u0022 de cet espace de travail. Vous pouvez maintenant ajouter des membres \u00E0 votre espace de travail."
+  },
+  {
+    "English": "\u003E *Note:* Only users with the \u0060Admin\u0060 or \u0060Lead\u0060 roles can invite another collaborator.",
+    "French": "\u003E Note:* Seuls les utilisateurs ayant le r\u00F4le \u0060Admin\u0060 ou \u0060Lead\u0060 peuvent inviter un autre collaborateur."
+  },
+  {
+    "English": "1. Click on the \u0060Invite New User\u0060 button",
+    "French": "1. Cliquez sur le bouton \u0022Inviter un nouvel utilisateur\u0022."
+  },
+  {
+    "English": "    ![invite new user](invite-new-user.png)",
+    "French": "    ![inviter un nouvel utilisateur](invite-new-user.png)"
+  },
+  {
+    "English": "1. Enter the Government of Canada email address of the user you want to invite and click on the dropdown.",
+    "French": "1. Saisissez l\u0027adresse \u00E9lectronique du gouvernement du Canada de l\u0027utilisateur que vous souhaitez inviter et cliquez sur le menu d\u00E9roulant."
+  },
+  {
+    "English": "    ![click add new user](click-add-new-user.png)",
+    "French": "    ![cliquer pour ajouter un nouvel utilisateur](click-add-new-user.png)"
+  },
+  {
+    "English": "    \u003E *Note:* If the user already has an FSDH account they will show up in the dropdown and you can select them.",
+    "French": "    \u003E Note:* Si l\u0027utilisateur a d\u00E9j\u00E0 un compte DHSF, il appara\u00EEtra dans la liste d\u00E9roulante et vous pourrez le s\u00E9lectionner."
+  },
+  {
+    "English": "1. Click on the \u0060Add New Users\u0060 button once you have entered all the users you want to invite.",
+    "French": "1. Cliquez sur le bouton \u0022Ajouter de nouveaux utilisateurs\u0022 une fois que vous avez saisi tous les utilisateurs que vous souhaitez inviter."
+  },
+  {
+    "English": "    ![add new users ](add-new-users.png)",
+    "French": "    ![ajouter de nouveaux utilisateurs ](add-new-users.png)"
+  },
+  {
+    "English": "    \u003E *Note:* If you want to invite more users, you can always click on the \u0060Invite New User\u0060 button again and repeat the process.",
+    "French": "    \u003E Note : Si vous voulez inviter plus d\u0027utilisateurs, vous pouvez toujours cliquer sur le bouton \u0022Inviter un nouvel utilisateur\u0022 et r\u00E9p\u00E9ter le processus."
+  },
+  {
+    "English": "1. Click on the dropdown role of the user you will be inviting into your workspace.",
+    "French": "1. Cliquez sur le r\u00F4le d\u00E9roulant de l\u0027utilisateur que vous allez inviter dans votre espace de travail."
+  },
+  {
+    "English": "    ![invite role dropdown](invite-role-dropdown.png)",
+    "French": "    ![invite role dropdown](invite-role-dropdown.png)"
+  },
+  {
+    "English": "    ![invite save changes](invite-save-changes.png)",
+    "French": "    ![invite save changes](invite-save-changes.png)"
+  },
+  {
+    "English": "1. Click on the \u0060Help\u0060 button in the top right corner of the page.",
+    "French": "1. Cliquez sur le bouton \u0022Aide\u0022 dans le coin sup\u00E9rieur droit de la page."
+  },
+  {
+    "English": "    ![help button](help-button.png)",
+    "French": "    ![bouton d\u0027aide](help-button.png)"
+  },
+  {
+    "English": "1. Click on the \u0060Get Started\u0060 button in the FSDH Support Request section.",
+    "French": "1. Cliquez sur le bouton \u0022Get Started\u0022 dans la section DHSF Support Request."
+  },
+  {
+    "English": "    ![get started support](support-get-started.png)",
+    "French": "    ![aide au d\u00E9marrage](support-get-started.png)"
+  },
+  {
+    "English": "1. Select all the options that apply to your issue and click \u0060Next\u0060.",
+    "French": "1. S\u00E9lectionnez toutes les options qui s\u0027appliquent \u00E0 votre probl\u00E8me et cliquez sur \u0022Suivant\u0022."
+  },
+  {
+    "English": "    ![select area options](support-select-areas.png)",
+    "French": "    ![options de s\u00E9lection des zones](support-select-areas.png)"
+  },
+  {
+    "English": "1. Write a short description detailing your issue, select all workspaces that apply, and click \u0060Next\u0060.",
+    "French": "1. R\u00E9digez une br\u00E8ve description de votre probl\u00E8me, s\u00E9lectionnez tous les espaces de travail qui s\u0027appliquent et cliquez sur \u0060Suivant\u0060."
+  },
+  {
+    "English": "    ![write description](support-write-description.png)",
+    "French": "    ![\u00E9crire une description](support-write-description.png)"
+  },
+  {
+    "English": "1. Indicate the language you would like to receive support in and click \u0060Next\u0060.",
+    "French": "1. Indiquez la langue dans laquelle vous souhaitez recevoir de l\u0027aide et cliquez sur \u0022Suivant\u0022."
+  },
+  {
+    "English": "    ![select language](support-select-language.png)",
+    "French": "    ![s\u00E9lectionner la langue](support-select-language.png)"
+  },
+  {
+    "English": "1. Click \u0060Submit\u0060 to submit your request.",
+    "French": "1. Cliquez sur \u0022Soumettre\u0022 pour soumettre votre demande."
+  },
+  {
+    "English": "    ![submit request](support-submit-request.png)",
+    "French": "    ![submit request](support-submit-request.png)"
+  },
+  {
+    "English": "\u003E **Note:** You can only request cloud resources once you have completed your workspace metadata.",
+    "French": "**Note:** Vous ne pouvez demander des ressources cloud qu\u0027une fois que vous avez compl\u00E9t\u00E9 les m\u00E9tadonn\u00E9es de votre espace de travail."
+  },
+  {
+    "English": "1. Navigate to your workspace.",
+    "French": "1. Acc\u00E9dez \u00E0 votre espace de travail."
+  },
+  {
+    "English": "1. Click on the \u0060Request New\u0060 button in the Tools Catalogue section at the bottom of the page.",
+    "French": "1. Cliquez sur le bouton \u0022Demande de nouveau\u0022 dans la section Catalogue d\u0027outils au bas de la page."
+  },
+  {
+    "English": "    ![request databricks](request-new-databricks.png)",
+    "French": "    ![request databricks](request-new-databricks.png)"
+  },
+  {
+    "English": "1. Wait for the resource to be provisioned.",
+    "French": "1. Attendre que la ressource soit approvisionn\u00E9e."
+  },
+  {
+    "English": "    ![resource is being provisioned](resource-is-being-provisioned.png)",
+    "French": "    ![la ressource est en cours d\u0027approvisionnement](resource-is-being-provisioned.png)"
+  },
+  {
+    "English": "1. Once the resource is provisioned, click on the \u0060Open Databricks\u0060 button in your workspace tools section to open the resource.",
+    "French": "1. Une fois la ressource provisionn\u00E9e, cliquez sur le bouton \u0060Open Databricks\u0060 dans la section outils de votre espace de travail pour ouvrir la ressource."
+  },
+  {
+    "English": "    ![open databricks](open-databricks.png)",
+    "French": "    ![open databricks](open-databricks.png)"
+  },
+  {
+    "English": "    ![request storage](request-new-storage.png)",
+    "French": "    ![demande de stockage](demande-nouveau-stockage.png)"
+  },
+  {
+    "English": "1. Once the resource is provisioned, click on the \u0060View Storage\u0060 button in your workspace tools section to open the resource.",
+    "French": "1. Une fois la ressource provisionn\u00E9e, cliquez sur le bouton \u0022Voir le stockage\u0022 dans la section des outils de votre espace de travail pour ouvrir la ressource."
+  },
+  {
+    "English": "    ![view storage](view-storage.png)",
+    "French": "    ![voir stockage](view-storage.png)"
+  },
+  {
+    "English": "Create a Workspace",
+    "French": "Cr\u00E9er un espace de travail"
+  },
+  {
+    "English": "Creating a workspace",
+    "French": "Cr\u00E9er un espace de travail"
+  },
+  {
+    "English": "Complete Metadata",
+    "French": "M\u00E9tadonn\u00E9es compl\u00E8tes"
+  },
+  {
+    "English": "Complete metadata",
+    "French": "M\u00E9tadonn\u00E9es compl\u00E8tes"
+  },
+  {
+    "English": "Invite a User",
+    "French": "Inviter un utilisateur"
+  },
+  {
+    "English": "Invite a user",
+    "French": "Inviter un utilisateur"
+  },
+  {
+    "English": "Change a User\u0027s Role",
+    "French": "Modifier le r\u00F4le d\u0027un utilisateur"
+  },
+  {
+    "English": "Change a user role",
+    "French": "Modifier le r\u00F4le d\u0027un utilisateur"
+  },
+  {
+    "English": "Request Storage",
+    "French": "Demande de stockage"
+  },
+  {
+    "English": "Request Databricks",
+    "French": "Demande de Databricks"
+  },
+  {
+    "English": "Logging a support ticket",
+    "French": "Enregistrement d\u0027un ticket d\u0027assistance"
+  },
+  {
+    "English": "Logging a ticket",
+    "French": "Enregistrement d\u0027un ticket"
+  },
+  {
+    "English": "Develop, Build and deploy web applications in DataHub",
+    "French": "D\u00E9velopper, construire et d\u00E9ployer des applications web dans DataHub"
+  },
+  {
+    "English": "Build deploy webapp",
+    "French": "Construire d\u00E9ployer l\u0027application web"
   }
 ]

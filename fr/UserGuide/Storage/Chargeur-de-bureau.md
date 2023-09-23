@@ -6,6 +6,8 @@ draft: true
 
 # DataHub Desktop Uploader
 
+L'uploader de bureau est une simple application Windows native qui peut être utilisée pour télécharger des dossiers et des fichiers volumineux vers le DataHub sans outils ni paramètres de ligne de commande.
+
 ## Obtenir un code de téléchargement
 
 Appuyez sur le bouton ci-dessus pour générer un code de téléchargement. Un code de téléchargement est valable pendant un jour une fois qu'il a été généré.
