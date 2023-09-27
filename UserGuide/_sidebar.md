@@ -4,11 +4,12 @@
   - [Preregistration](/UserGuide/Preregistration/Preregistration.md)
   - [Create a Workspace](/UserGuide/GettingStarted/Creating-a-workspace.md)
   - [Complete Metadata](/UserGuide/GettingStarted/Complete-metadata.md)
-  - [Invite a User](/UserGuide/GettingStarted/Invite-a-user.md)
-  - [Change a User's Role](/UserGuide/GettingStarted/Change-a-user-role.md)
   - [Request Storage](/UserGuide/GettingStarted/Request-storage.md)
   - [Request Databricks](/UserGuide/GettingStarted/Request-databricks.md)
-  - [Logging a support ticket](/UserGuide/GettingStarted/Logging-a-ticket.md)
+  - [Invite a User](/UserGuide/GettingStarted/Invite-a-user.md)
+  - [Change a User's Role](/UserGuide/GettingStarted/Change-a-user-role.md)
+  - [Monitor Costs](/UserGuide/GettingStarted/Monitor-workspace-costs.md)
+  - [Request Support](/UserGuide/GettingStarted/Logging-a-ticket.md)
 
 - Tutorials
   - [How to access your storage account in Databricks](/UserGuide/Databricks/Access-your-storage-account-in-Databricks.md)
