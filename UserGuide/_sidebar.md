@@ -1,7 +1,7 @@
 - [Federal Science DataHub User Guide](/UserGuide/User-Guide.md)
 
 - Getting Started
-  - [Preregistration](/UserGuide/Preregistration/Preregistration.md)
+  - [Account Registration](/UserGuide/Preregistration/Preregistration.md)
   - [Create a Workspace](/UserGuide/GettingStarted/Creating-a-workspace.md)
   - [Complete Metadata](/UserGuide/GettingStarted/Complete-metadata.md)
   - [Request Storage](/UserGuide/GettingStarted/Request-storage.md)
