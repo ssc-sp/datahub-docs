@@ -1,18 +1,18 @@
-## Welcome to the FSDH PoC Phase 2
+## Welcome to the FSDH Trial
 
-Welcome to the Federal Science DataHub (FSDH) Proof-of-Concept (PoC), an initiative supported by the Data Solutions for Science Team within Shared Services Canada’s Science Program. 
+Welcome to the Federal Science DataHub (FSDH) trial, an initiative supported by the Data Solutions for Science Team within Shared Services Canada’s Science Program. 
 
-The scope of PoC Phase 2 includes: intuitive self-service; quick and temporary data storage; readily available digital tools for analytics, visualization, and machine learning models; collaboration with peers across GC; discovery metadata.
+The scope of the trial includes: intuitive self-service; quick and temporary data storage; readily available digital tools for analytics, visualization, and machine learning models; collaboration with peers across GC; discovery metadata.
 
-The objective of the PoC is to have active participation from scientists in as many Science-based Departments and Agencies as possible to ensure we have the right people to help evaluate, confirm, and prioritize capabilities and services for GC data storage, collaboration, and analysis.
+The objective of the trial is to have active participation from scientists in as many Science-based Departments and Agencies as possible to ensure we have the right people to help evaluate, confirm, and prioritize capabilities and services for GC data storage, collaboration, and analysis.
 
 ## Limited use
 
-The Federal Science DataHub is intended to support the advancement of science. As such, the FSDH PoC Phase 2 is limited to the use of GC scientists and collaborators that have specific science use cases and are willing and able to contribute to the evaluation of this Proof-of-Concept. Use of FSDH is not intended for a corporate/administrative project (e.g., Finance, HR).
+The Federal Science DataHub is intended to support the advancement of science. As such, the FSDH trial is limited to the use of GC scientists and collaborators that have specific science use cases and are willing and able to contribute to the evaluation of this trial. Use of FSDH is not intended for a corporate/administrative project (e.g., Finance, HR).
 
 ## Timeline  
 
-FSDH PoC Phase 2 will run from April 3 to September 30, 2023.  Participants requiring access to the environment and/or their data after that date can work with the DSS team to determine the approach for data migration, etc. 
+FSDH trial will run beginning September 30, 2023.  Participants requiring access to the environment and/or their data after the trial can work with the DSS team to determine the approach for data migration, etc. 
 
 ## Non-sensitive (unclassified) information
 
@@ -33,8 +33,8 @@ FSDH is meant to enable interdepartmental collaboration and thus when posting da
 
 ## Data Management 
 
-The FSDH PoC Phase 2 includes mandatory workspace metadata to enable discovery. Other data management capabilities will be addressed in future (e.g., cataloguing features and lifecycle management).  
+The FSDH trial includes mandatory workspace metadata to enable discovery. Other data management capabilities will be addressed in future (e.g., cataloguing features and lifecycle management).  
 
 ## Support
 
-FSDH PoC Phase 2 will be supported by the DSS Team on a best-effort basis. All questions/issues can be sent to the team via the [FSDH Support Request Form](https://forms.office.com/pages/responsepage.aspx?id=lMFb0L-U1kquLh2w8uOPXhksOXzZ73RCp9fVTz4vTU5UNTc1U00yNVUxWVg4SkJGMFVHN1RCTTdQRS4u).
+FSDH trial will be supported by the DSS Team on a best-effort basis. All questions/issues can be sent to the team via the [FSDH Support Request Form](https://forms.office.com/pages/responsepage.aspx?id=lMFb0L-U1kquLh2w8uOPXhksOXzZ73RCp9fVTz4vTU5UNTc1U00yNVUxWVg4SkJGMFVHN1RCTTdQRS4u).

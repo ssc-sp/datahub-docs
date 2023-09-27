@@ -23,6 +23,7 @@
   - [How to use AzCopy to transfer large files](/UserGuide/Databricks/AzCopy.md)
   - [Getting started with FSDH and File Sharing](/UserGuide/Tutorials/UseCase1.md)
   - [Torchvision for Dash Cam Video Analysis in Databricks](/UserGuide/Tutorials/Torchvision.md)
+  - [Develop, Build and deploy web applications in DataHub](/UserGuide/Tutorials/Build-deploy-webapp.md)
 
 - Storage
   - [What is Azure Storage Explorer?](/UserGuide/Storage/Datahub-AzureStorage.md)
