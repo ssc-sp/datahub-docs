@@ -8,11 +8,15 @@ draft: true
 
 Pour faciliter le cycle de vie d'un projet, la solution DataHub peut être déployée dans plusieurs environnements pour une mise en œuvre donnée. Le tableau suivant présente un exemple de différents environnements.
 
-| Les tests fonctionnels, les tests automatisés, les tests de performance et les tests d'url sont des éléments essentiels pour la mise en place d'un système de gestion de l'information et de la sécurité.
-| ---------------- | :--- : | ------------- | ------------------------------------------------------- | :------- : | :--- : | :---------------- : | :--------------- : | :----------------- : | :------------------------------------------------------: |
-| Développement | `dev` | `develop` | Pour l'équipe de développement | ✅ | ✅ | | ✅ | | https://dev.fsdh-dhsf.science.cloud-nuage.canada.ca/home |
-| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
-| Pour les tests d'intégration | ✅ | ✅ | ✅ | ✅ | ✅ | https://int.fsdh-dhsf.science.cloud-nuage.canada.ca/home |
-| Formation | `trn` | | Formation des utilisateurs | | | | | | | | | | | | | | | |
-| | Staging | `stg` | | | Pré-production et correction des problèmes de production | | | | ✅ | | | |
-| validation de principe | `poc` | | Live environment | ✅ | | | | | | https://federal-science-datahub.canada.ca/home |
+| Nom | Développement | Intégration | Preuve de concept |
+|---|---|---|---|
+| ID | `dev` | `int` | `poc` |
+| Branch | `develop` | | `integration` | | | |
+Version 2.13 | 2.12 | 2.12 | 2.12 | 2.12 | 2.12
+| Pour l'équipe de développement, pour les tests d'intégration, pour l'environnement réel, pour l'équipe de développement, pour l'équipe de développement.
+| Toujours activé ✅ ✅ ✅ ✅ ✅
+| ✅ | ✅ | | ✅ | ✅ | ✅
+| Tests fonctionnels | | ✅ | | | Tests fonctionnels
+| Tests automatisés | ✅ | ✅ | | | Tests automatisés
+Test des performances | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| Url | https://dev.fsdh-dhsf.science.cloud-nuage.canada.ca/home | https://int.fsdh-dhsf.science.cloud-nuage.canada.ca/home | https://federal-science-datahub.canada.ca/home |

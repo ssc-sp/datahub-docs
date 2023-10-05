@@ -4,21 +4,21 @@ source: /UserGuide/POC-Terms-And-Conditions.md
 draft: true
 ---
 
-## Bienvenue au VdP DHSF Phase 2
+## Bienvenue à l'essai de la DHSF
 
-Bienvenue à la démonstration de concept du DataHub scientifique fédéral (DHSF), une initiative soutenue par l'équipe Solutions de données pour la science au sein du programme scientifique de Services partagés Canada.
+Bienvenue à l'essai du DataHub scientifique fédéral (DHSF), une initiative soutenue par l'équipe Solutions de données pour la science au sein du programme scientifique de Services partagés Canada.
 
-Le champ d'application de la phase 2 du VdP comprend : un libre-service intuitif ; un stockage rapide et temporaire des données ; des outils numériques facilement accessibles pour l'analyse, la visualisation et les modèles d'apprentissage automatique ; la collaboration avec des pairs au sein du GC ; des métadonnées de découverte.
+La portée de l'essai comprend : un libre-service intuitif ; un stockage rapide et temporaire des données ; des outils numériques facilement accessibles pour l'analyse, la visualisation et les modèles d'apprentissage automatique ; la collaboration avec des pairs au sein du GC ; des métadonnées de découverte.
 
-L'objectif du VdP est d'obtenir la participation active de scientifiques dans le plus grand nombre possible de ministères et d'agences à vocation scientifique afin de s'assurer que nous disposons des bonnes personnes pour aider à évaluer, confirmer et hiérarchiser les capacités et les services pour le stockage, la collaboration et l'analyse des données du GC.
+L'objectif de l'essai est d'obtenir la participation active de scientifiques dans le plus grand nombre possible de ministères et d'agences à vocation scientifique, afin de s'assurer que nous disposons des bonnes personnes pour aider à évaluer, confirmer et hiérarchiser les capacités et les services de stockage, de collaboration et d'analyse des données du GC.
 
 ## Utilisation limitée
 
-Le DataHub scientifique fédéral est destiné à soutenir l'avancement de la science. En tant que tel, la phase 2 de la DHSF VdP est limitée à l'utilisation des scientifiques et des collaborateurs du GC qui ont des cas d'utilisation scientifique spécifiques et qui sont désireux et capables de contribuer à l'évaluation de cette preuve de concept. L'utilisation de la DHSF n'est pas destinée à un projet d'entreprise/administratif (par exemple, finances, RH).
+Le DataHub scientifique fédéral est destiné à soutenir l'avancement de la science. En tant que tel, l'essai du DHSF est limité à l'utilisation des scientifiques et des collaborateurs du gouvernement fédéral qui ont des cas d'utilisation scientifique spécifiques et qui sont désireux et capables de contribuer à l'évaluation de cet essai. L'utilisation de la DHSF n'est pas destinée à un projet d'entreprise ou d'administration (p. ex. finances, RH).
 
 ## Timeline
 
-La phase 2 du VdP DHSF se déroulera du 3 avril au 30 septembre 2023.  Les participants ayant besoin d'accéder à l'environnement et/ou à leurs données après cette date peuvent travailler avec l'équipe DSS pour déterminer l'approche à adopter pour la migration des données, etc.
+L'essai DHSF se déroulera à partir du 30 septembre 2023.  Les participants qui ont besoin d'accéder à l'environnement et/ou à leurs données après l'essai peuvent travailler avec l'équipe DSS pour déterminer l'approche à adopter pour la migration des données, etc.
 
 ## Informations non sensibles (non classifiées)
 
@@ -39,8 +39,8 @@ La DHSF a pour but de permettre une collaboration interdépartementale. Ainsi, l
 
 ## Gestion des données
 
-La phase 2 du VdP DHSF comprend des métadonnées obligatoires sur les espaces de travail pour permettre la découverte. D'autres capacités de gestion des données seront abordées ultérieurement (par exemple, les fonctions de catalogage et la gestion du cycle de vie).  
+L'essai DHSF comprend des métadonnées obligatoires sur l'espace de travail pour permettre la découverte. D'autres capacités de gestion des données seront abordées à l'avenir (par exemple, les fonctions de catalogage et la gestion du cycle de vie).  
 
 ## Support
 
-La phase 2 du VdP DHSF sera prise en charge par l'équipe DSS dans la mesure du possible. Toutes les questions/problèmes peuvent être envoyés à l'équipe via le [DHSF Support Request Form] (https://forms.office.com/pages/responsepage.aspx?id=lMFb0L-U1kquLh2w8uOPXhksOXzZ73RCp9fVTz4vTU5UNTc1U00yNVUxWVg4SkJGMFVHN1RCTTdQRS4u).
+L'essai de la DHSF sera pris en charge par l'équipe DSS dans la mesure du possible. Toutes les questions/problèmes peuvent être envoyés à l'équipe via le [DHSF Support Request Form] (https://forms.office.com/pages/responsepage.aspx?id=lMFb0L-U1kquLh2w8uOPXhksOXzZ73RCp9fVTz4vTU5UNTc1U00yNVUxWVg4SkJGMFVHN1RCTTdQRS4u).

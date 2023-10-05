@@ -6,6 +6,8 @@ draft: true
 
 # Créer un espace de travail
 
+Ce guide explique comment créer un espace de travail.
+
 > Note:* Vous ne pouvez diriger que trois espaces de travail au maximum. Si vous dirigez déjà trois espaces de travail, vous ne pourrez pas en créer un nouveau. Vous pouvez cependant demander à être ajouté en tant que responsable d'un espace de travail existant.
 
 1. Naviguez vers la page `Home` ou `Profile`.

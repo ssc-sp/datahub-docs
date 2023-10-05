@@ -6,6 +6,8 @@ draft: true
 
 # Demande d'accès à la base de données
 
+Ce guide explique comment demander une ressource Databricks dans votre espace de travail.
+
 **Note:** Vous ne pouvez demander des ressources cloud qu'une fois que vous avez complété les métadonnées de votre espace de travail.
 
 1. Accédez à votre espace de travail.

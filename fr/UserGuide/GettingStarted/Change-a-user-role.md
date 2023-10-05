@@ -6,6 +6,8 @@ draft: true
 
 # Modifier le rôle d'un utilisateur
 
+Ce guide explique comment modifier le rôle d'un utilisateur dans votre espace de travail.
+
 > Note:* Seuls les utilisateurs ayant le rôle `Admin` ou `Lead` peuvent changer le rôle d'un autre utilisateur.
 
 1. Accédez à votre espace de travail

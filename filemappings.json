@@ -135,6 +135,11 @@
     "Fr": "/fr/DeveloperGuide/Architecture/Architecture-microservice.md"
   },
   {
+    "Id": "6cdc42ec-239b-3015-e574-658302e91dbe",
+    "En": "/DeveloperGuide/Architecture/network-view.md",
+    "Fr": "/fr/DeveloperGuide/Architecture/vue-du-r\u00E9seau.md"
+  },
+  {
     "Id": "b0ba6ad0-771f-7ea0-c160-da52a420b1dc",
     "En": "/DeveloperGuide/Architecture/Overall_Architecture.md",
     "Fr": "/fr/DeveloperGuide/Architecture/Architecture-globale.md"
@@ -148,6 +153,11 @@
     "Id": "ae455a32-4f5d-eac6-4f89-316921fbb4e5",
     "En": "/DeveloperGuide/Azure/Storage_Limits.md",
     "Fr": "/fr/DeveloperGuide/Azure/Limites-de-stockage.md"
+  },
+  {
+    "Id": "ef20a2ee-3ac0-7044-8cbe-63911dafc094",
+    "En": "/DeveloperGuide/Change-Management/Change-Log.md",
+    "Fr": "/fr/DeveloperGuide/Change-Management/Journal-des-modifications.md"
   },
   {
     "Id": "b2af0378-1caf-1480-db9f-652b7303ab66",
@@ -443,6 +453,11 @@
     "Id": "1658b4fe-7e6f-9d34-425e-af3265d22c01",
     "En": "/UserGuide/GettingStarted/Logging-a-ticket.md",
     "Fr": "/fr/UserGuide/GettingStarted/Logging-a-ticket.md"
+  },
+  {
+    "Id": "8873dca3-c9e6-9529-51f4-b2801c0d88da",
+    "En": "/UserGuide/GettingStarted/Monitor-workspace-costs.md",
+    "Fr": "/fr/UserGuide/GettingStarted/Contr\u00F4ler-les-co\u00FBts-de-l\u0027espace-de-travail.md"
   },
   {
     "Id": "2f537cee-9701-0e67-9de0-9d384250e3c5",
