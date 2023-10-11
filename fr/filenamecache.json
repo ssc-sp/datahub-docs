@@ -454,5 +454,13 @@
   {
     "English": "Build-deploy-webapp.md",
     "French": "Build-deploy-webapp.md"
+  },
+  {
+    "English": "network-view.md",
+    "French": "vue-du-r\u00E9seau.md"
+  },
+  {
+    "English": "Change-Log.md",
+    "French": "Journal-des-modifications.md"
   }
 ]

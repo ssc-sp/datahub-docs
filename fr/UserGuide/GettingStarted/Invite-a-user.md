@@ -6,6 +6,8 @@ draft: true
 
 # Inviter un utilisateur
 
+Ce guide explique comment inviter un utilisateur dans votre espace de travail.
+
 > Note:* Seuls les utilisateurs ayant le rôle `Admin` ou `Lead` peuvent inviter un autre collaborateur.
 
 1. Accédez à votre espace de travail

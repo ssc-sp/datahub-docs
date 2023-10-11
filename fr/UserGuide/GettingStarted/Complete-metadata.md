@@ -6,6 +6,8 @@ draft: true
 
 # Métadonnées complètes
 
+Ce guide explique comment compléter les métadonnées de votre espace de travail.
+
 **Note:** Seuls les utilisateurs ayant le rôle `Admin` ou `Lead` peuvent compléter les métadonnées.
 
 1. Accédez à votre espace de travail

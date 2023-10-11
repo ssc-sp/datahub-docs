@@ -17790,5 +17790,313 @@
   {
     "English": "Build deploy webapp",
     "French": "Construire d\u00E9ployer l\u0027application web"
+  },
+  {
+    "English": "| Name | Development | Integration | Proof of Concept |",
+    "French": "| Nom | D\u00E9veloppement | Int\u00E9gration | Preuve de concept |"
+  },
+  {
+    "English": "|---|---|---|---|",
+    "French": "|---|---|---|---|"
+  },
+  {
+    "English": "| ID | \u0060dev\u0060 | \u0060int\u0060 | \u0060poc\u0060 |",
+    "French": "| ID | \u0060dev\u0060 | \u0060int\u0060 | \u0060poc\u0060 |"
+  },
+  {
+    "English": "| Branch | \u0060develop\u0060 | \u0060integration\u0060 |  |",
+    "French": "| Branch | \u0060develop\u0060 | | \u0060integration\u0060 | | | |"
+  },
+  {
+    "English": "| Version | 2.13 | 2.12 | 2.12 |",
+    "French": "Version 2.13 | 2.12 | 2.12 | 2.12 | 2.12 | 2.12"
+  },
+  {
+    "English": "| Purpose | For dev team | For Integration testing | Live environment |",
+    "French": "| Pour l\u0027\u00E9quipe de d\u00E9veloppement, pour les tests d\u0027int\u00E9gration, pour l\u0027environnement r\u00E9el, pour l\u0027\u00E9quipe de d\u00E9veloppement, pour l\u0027\u00E9quipe de d\u00E9veloppement."
+  },
+  {
+    "English": "| Always On | \u2705 | \u2705 | \u2705 |",
+    "French": "| Toujours activ\u00E9 \u2705 \u2705 \u2705 \u2705 \u2705"
+  },
+  {
+    "English": "| CI/CD | \u2705 | \u2705 |  |",
+    "French": "| \u2705 | \u2705 | | \u2705 | \u2705 | \u2705"
+  },
+  {
+    "English": "| Functional Testing |  | \u2705 |  |",
+    "French": "| Tests fonctionnels | | \u2705 | | | Tests fonctionnels"
+  },
+  {
+    "English": "| Automated Testing | \u2705 | \u2705 |  |",
+    "French": "| Tests automatis\u00E9s | \u2705 | \u2705 | | | Tests automatis\u00E9s"
+  },
+  {
+    "English": "| Performance Testing |  |  |  |",
+    "French": "Test des performances | | | | | | | | | | | | | | | | | | | | | | | | | | | | |"
+  },
+  {
+    "English": "| Url | https://dev.fsdh-dhsf.science.cloud-nuage.canada.ca/home | https://int.fsdh-dhsf.science.cloud-nuage.canada.ca/home | https://federal-science-datahub.canada.ca/home |",
+    "French": "| Url | https://dev.fsdh-dhsf.science.cloud-nuage.canada.ca/home | https://int.fsdh-dhsf.science.cloud-nuage.canada.ca/home | https://federal-science-datahub.canada.ca/home |"
+  },
+  {
+    "English": "network view",
+    "French": "vue du r\u00E9seau"
+  },
+  {
+    "English": "C4Container",
+    "French": "C4Container"
+  },
+  {
+    "English": "    title FSDH Network Design (PoC 2)",
+    "French": "    titre Conception du r\u00E9seau DHSF (VdP 2)"
+  },
+  {
+    "English": "    System_Ext(internet, \u0022Internet\u0022, \u0022Internet\u0022, $tags=\u0022v1.0\u0022)",
+    "French": "    System_Ext(internet, \u0022Internet\u0022, \u0022Internet\u0022, $tags=\u0022v1.0\u0022)"
+  },
+  {
+    "English": "    Person(customer, Customer, \u0022A customer of the bank, with personal bank accounts\u0022, $tags=\u0022v1.0\u0022)",
+    "French": "    Person(customer, Customer, \u0022Un client de la banque, avec des comptes bancaires personnels\u0022, $tags=\u0022v1.0\u0022)"
+  },
+  {
+    "English": "    Container_Boundary(c1, \u0022Internet Banking\u0022) {",
+    "French": "    Container_Boundary(c1, \u0022Internet Banking\u0022) {"
+  },
+  {
+    "English": "        Container(spa, \u0022Single-Page App\u0022, \u0022JavaScript, Angular\u0022, \u0022Provides all the Internet banking functionality to cutomers via their web browser\u0022)",
+    "French": "        Container(spa, \u0022Single-Page App\u0022, \u0022JavaScript, Angular\u0022, \u0022Fournit toutes les fonctionnalit\u00E9s bancaires sur Internet aux clients via leur navigateur web\u0022)"
+  },
+  {
+    "English": "        Container_Ext(mobile_app, \u0022Mobile App\u0022, \u0022C#, Xamarin\u0022, \u0022Provides a limited subset of the Internet banking functionality to customers via their mobile device\u0022)",
+    "French": "        Container_Ext(mobile_app, \u0022Mobile App\u0022, \u0022C#, Xamarin\u0022, \u0022Fournit un sous-ensemble limit\u00E9 de la fonctionnalit\u00E9 bancaire sur Internet aux clients via leur appareil mobile\u0022)"
+  },
+  {
+    "English": "        Container(web_app, \u0022Web Application\u0022, \u0022Java, Spring MVC\u0022, \u0022Delivers the static content and the Internet banking SPA\u0022)",
+    "French": "        Container(web_app, \u0022Web Application\u0022, \u0022Java, Spring MVC\u0022, \u0022Delivers the static content and the Internet banking SPA\u0022)"
+  },
+  {
+    "English": "        ContainerDb(database, \u0022Database\u0022, \u0022SQL Database\u0022, \u0022Stores user registration information, hashed auth credentials, access logs, etc.\u0022)",
+    "French": "        ContainerDb(database, \u0022Database\u0022, \u0022SQL Database\u0022, \u0022Stores user registration information, hashed auth credentials, access logs, etc.)"
+  },
+  {
+    "English": "        ContainerDb_Ext(backend_api, \u0022API Application\u0022, \u0022Java, Docker Container\u0022, \u0022Provides Internet banking functionality via API\u0022)",
+    "French": "        ContainerDb_Ext(backend_api, \u0022API Application\u0022, \u0022Java, Docker Container\u0022, \u0022Provides Internet banking functionality via API\u0022)"
+  },
+  {
+    "English": "    System_Ext(banking_system, \u0022Mainframe Banking System\u0022, \u0022Stores all of the core banking information about customers, accounts, transactions, etc.\u0022)",
+    "French": "    System_Ext(banking_system, \u0022Mainframe Banking System\u0022, \u0022Stores all of the core banking information about customers, accounts, transactions, etc.)"
+  },
+  {
+    "English": "    Rel(customer, web_app, \u0022Uses\u0022, \u0022HTTPS\u0022)",
+    "French": "    Rel(client, web_app, \u0022Uses\u0022, \u0022HTTPS\u0022)"
+  },
+  {
+    "English": "    UpdateRelStyle(customer, web_app, $offsetY=\u002260\u0022, $offsetX=\u002290\u0022)",
+    "French": "    UpdateRelStyle(customer, web_app, $offsetY=\u002260\u0022, $offsetX=\u002290\u0022)"
+  },
+  {
+    "English": "    Rel(customer, spa, \u0022Uses\u0022, \u0022HTTPS\u0022)",
+    "French": "    Rel(customer, spa, \u0022Uses\u0022, \u0022HTTPS\u0022)"
+  },
+  {
+    "English": "    UpdateRelStyle(customer, spa, $offsetY=\u0022-40\u0022)",
+    "French": "    UpdateRelStyle(customer, spa, $offsetY=\u0022-40\u0022)"
+  },
+  {
+    "English": "    Rel(customer, mobile_app, \u0022Uses\u0022)",
+    "French": "    Rel(customer, mobile_app, \u0022Uses\u0022)"
+  },
+  {
+    "English": "    UpdateRelStyle(customer, mobile_app, $offsetY=\u0022-30\u0022)",
+    "French": "    UpdateRelStyle(customer, mobile_app, $offsetY=\u0022-30\u0022)"
+  },
+  {
+    "English": "    Rel(web_app, spa, \u0022Delivers\u0022)",
+    "French": "    Rel(web_app, spa, \u0022D\u00E9livre\u0022)"
+  },
+  {
+    "English": "    UpdateRelStyle(web_app, spa, $offsetX=\u0022130\u0022)",
+    "French": "    UpdateRelStyle(web_app, spa, $offsetX=\u0022130\u0022)"
+  },
+  {
+    "English": "    Rel(spa, backend_api, \u0022Uses\u0022, \u0022async, JSON/HTTPS\u0022)",
+    "French": "    Rel(spa, backend_api, \u0022Uses\u0022, \u0022async, JSON/HTTPS\u0022)"
+  },
+  {
+    "English": "    Rel(mobile_app, backend_api, \u0022Uses\u0022, \u0022async, JSON/HTTPS\u0022)",
+    "French": "    Rel(mobile_app, backend_api, \u0022Uses\u0022, \u0022async, JSON/HTTPS\u0022)"
+  },
+  {
+    "English": "    Rel_Back(database, backend_api, \u0022Reads from and writes to\u0022, \u0022sync, JDBC\u0022)",
+    "French": "    Rel_Back(database, backend_api, \u0022Reads from and writes to\u0022, \u0022sync, JDBC\u0022)"
+  },
+  {
+    "English": "    Rel(internet, customer, \u0022Sends e-mails to\u0022)",
+    "French": "    Rel(internet, client, \u0022Envoie des e-mails \u00E0\u0022)"
+  },
+  {
+    "English": "    UpdateRelStyle(internet, customer, $offsetX=\u0022-45\u0022)",
+    "French": "    UpdateRelStyle(internet, customer, $offsetX=\u0022-45\u0022)"
+  },
+  {
+    "English": "    Rel(backend_api, internet, \u0022Sends e-mails using\u0022, \u0022sync, SMTP\u0022)",
+    "French": "    Rel(backend_api, internet, \u0022Envoie des e-mails en utilisant\u0022, \u0022sync, SMTP\u0022)"
+  },
+  {
+    "English": "    UpdateRelStyle(backend_api, internet, $offsetY=\u0022-60\u0022)",
+    "French": "    UpdateRelStyle(backend_api, internet, $offsetY=\u0022-60\u0022)"
+  },
+  {
+    "English": "    Rel(backend_api, banking_system, \u0022Uses\u0022, \u0022sync/async, XML/HTTPS\u0022)",
+    "French": "    Rel(backend_api, banking_system, \u0022Uses\u0022, \u0022sync/async, XML/HTTPS\u0022)"
+  },
+  {
+    "English": "    UpdateRelStyle(backend_api, banking_system, $offsetY=\u0022-50\u0022, $offsetX=\u0022-140\u0022)",
+    "French": "    UpdateRelStyle(backend_api, banking_system, $offsetY=\u0022-50\u0022, $offsetX=\u0022-140\u0022)"
+  },
+  {
+    "English": "Change Log",
+    "French": "Journal des modifications"
+  },
+  {
+    "English": "# Change Log",
+    "French": "# Journal des modifications"
+  },
+  {
+    "English": "## DataHub Core App",
+    "French": "## DataHub Core App"
+  },
+  {
+    "English": "| Version | [DEV](https://dev.fsdh-dhsf.science.cloud-nuage.canada.ca/) | [INT](https://int.fsdh-dhsf.science.cloud-nuage.canada.ca/) | [POC](https://federal-science-datahub.canada.ca/) | Notes |",
+    "French": "| Version | [DEV](https://dev.fsdh-dhsf.science.cloud-nuage.canada.ca/) | [INT](https://int.fsdh-dhsf.science.cloud-nuage.canada.ca/) | [POC](https://federal-science-datahub.canada.ca/) | Notes |"
+  },
+  {
+    "English": "|---|---|---|---|---|",
+    "French": "|---|---|---|---|---|"
+  },
+  {
+    "English": "|[Infra v2.12-rc1](https://github.com/ssc-sp/datahub-infra/tree/v2.12-rc1)|2023-09-21|2023-09-21|-| [See below](#datahub-infra-v212) |",
+    "French": "|[Infra v2.12-rc1](https://github.com/ssc-sp/datahub-infra/tree/v2.12-rc1)|2023-09-21|2023-09-21|-| [See below](#datahub-infra-v212) |"
+  },
+  {
+    "English": "## Project Resource Modules",
+    "French": "## Modules de ressources du projet"
+  },
+  {
+    "English": "| Version | Release Date | Changes |",
+    "French": "| Version | Date de sortie | Changements |"
+  },
+  {
+    "English": "|---|---|---|",
+    "French": "|---|---|---|"
+  },
+  {
+    "English": "|[v2.12.0](https://github.com/ssc-sp/datahub-resource-modules/tree/versioning/modules/v2.12.0)| 22-Sep-2023 |[See below](#project-resource-module-v212)|",
+    "French": "|[v2.12.0](https://github.com/ssc-sp/datahub-resource-modules/tree/versioning/modules/v2.12.0)| 22-Sep-2023 |[Voir ci-dessous](#projet-module-ressources-v212)|[Voir ci-dessous](#projet-module-ressources-v212)|[Voir ci-dessous](#projet-module-ressources-v212)"
+  },
+  {
+    "English": "|[v2.13.0](https://github.com/ssc-sp/datahub-resource-modules/tree/2.13.x/modules/v2.13.0)| Pending |[See below](#project-resource-module-v213)|",
+    "French": "|[v2.13.0](https://github.com/ssc-sp/datahub-resource-modules/tree/2.13.x/modules/v2.13.0)| En attente |[Voir ci-dessous](#projet-module-de-ressources-v213)|"
+  },
+  {
+    "English": "## Changes",
+    "French": "## Changements"
+  },
+  {
+    "English": "### DataHub Infra v2.12",
+    "French": "### DataHub Infra v2.12"
+  },
+  {
+    "English": "- Added automation account and currently to scale down app service plan at 8PM",
+    "French": "- Ajout d\u0027un compte d\u0027automatisation et r\u00E9duction en cours du plan de service de l\u0027application \u00E0 20h00"
+  },
+  {
+    "English": "- Add configuration \u0060DesktopFileUploader__DisplayDesktopUploaderTab\u0060",
+    "French": "- Ajouter la configuration \u0060DesktopFileUploader__DisplayDesktopUploaderTab\u0060"
+  },
+  {
+    "English": "- Add secrets \u0060ado-service-user-oid\u0060 and \u0060ado-service-user-pat\u0060",
+    "French": "- Ajouter les secrets \u0060ado-service-user-oid\u0060 et \u0060ado-service-user-pat\u0060."
+  },
+  {
+    "English": "### Project Resource Module v2.13",
+    "French": "### Module de ressources de projet v2.13"
+  },
+  {
+    "English": "- Added Azure file share (limit to 64GB) and map to app service ",
+    "French": "- Ajout du partage de fichiers Azure (limit\u00E9 \u00E0 64GB) et du service map to app"
+  },
+  {
+    "English": "- Grant secret scope permission to all Databricks users (except guests)",
+    "French": "- Accorder le droit d\u0027acc\u00E8s au secret \u00E0 tous les utilisateurs de Databricks (\u00E0 l\u0027exception des invit\u00E9s)"
+  },
+  {
+    "English": "### Project Resource Module v2.12",
+    "French": "### Module de ressources de projet v2.12"
+  },
+  {
+    "English": "- Removed user creation and group membership",
+    "French": "- Suppression de la cr\u00E9ation d\u0027utilisateurs et de l\u0027appartenance \u00E0 des groupes"
+  },
+  {
+    "English": "- Remove storage role assignment from Terraform",
+    "French": "- Supprimer l\u0027affectation des r\u00F4les de stockage dans Terraform"
+  },
+  {
+    "English": "- Both of the above are being delegated to a standalone function using Python to addresses the delays during user update",
+    "French": "- Les deux \u00E9l\u00E9ments ci-dessus sont d\u00E9l\u00E9gu\u00E9s \u00E0 une fonction autonome utilisant Python pour rem\u00E9dier aux retards lors de la mise \u00E0 jour par l\u0027utilisateur."
+  },
+  {
+    "English": "This guide will cover how to change a user\u0027s role in your workspace.",
+    "French": "Ce guide explique comment modifier le r\u00F4le d\u0027un utilisateur dans votre espace de travail."
+  },
+  {
+    "English": "This guide will cover how to complete your workspace metadata.",
+    "French": "Ce guide explique comment compl\u00E9ter les m\u00E9tadonn\u00E9es de votre espace de travail."
+  },
+  {
+    "English": "This guide will cover how to create a workspace.",
+    "French": "Ce guide explique comment cr\u00E9er un espace de travail."
+  },
+  {
+    "English": "This guide will cover how to invite a user to your workspace.",
+    "French": "Ce guide explique comment inviter un utilisateur dans votre espace de travail."
+  },
+  {
+    "English": "This guide will cover how to log a ticket with the FSDH support team.",
+    "French": "Ce guide explique comment enregistrer un ticket aupr\u00E8s de l\u0027\u00E9quipe de support de la DHSF."
+  },
+  {
+    "English": "This guide will cover how to request a Databricks resource in your workspace.",
+    "French": "Ce guide explique comment demander une ressource Databricks dans votre espace de travail."
+  },
+  {
+    "English": "This guide will cover how to request storage in your workspace.",
+    "French": "Ce guide explique comment demander un espace de rangement dans votre espace de travail."
+  },
+  {
+    "English": "This will guide you through the process of registering and setting up your account for the Federal Science Data Hub (FSDH).",
+    "French": "Il vous guidera dans le processus d\u0027enregistrement et de configuration de votre compte pour le Federal Science Data Hub (DHSF)."
+  },
+  {
+    "English": "1. Select your Government of Canada account to login. ",
+    "French": "1. S\u00E9lectionnez votre compte du gouvernement du Canada pour vous connecter."
+  },
+  {
+    "English": "1. Wait for the next prompt to appear.",
+    "French": "1. Attendez l\u0027apparition de l\u0027invite suivante."
+  },
+  {
+    "English": "## Install the Desktop Uploader",
+    "French": "## Installer le Desktop Uploader"
+  },
+  {
+    "English": "The link below will install the application and automatically update it on modern Windows 10 and Windows 11 desktops. The installation uses modern [msix packaging](https://learn.microsoft.com/en-ca/windows/msix/overview) and does not require administrative privileges.",
+    "French": "Le lien ci-dessous permet d\u0027installer l\u0027application et de la mettre \u00E0 jour automatiquement sur les ordinateurs de bureau modernes Windows 10 et Windows 11. L\u0027installation utilise un [msix packaging] moderne (https://learn.microsoft.com/en-ca/windows/msix/overview) et ne n\u00E9cessite pas de privil\u00E8ges administratifs."
+  },
+  {
+    "English": "[Install the DataHub Uploader](https://fsdhstoragedevpub.blob.core.windows.net/datahub-dist/fsdh-uploader.appinstaller)",
+    "French": "[Installer le DataHub Uploader](https://fsdhstoragedevpub.blob.core.windows.net/datahub-dist/fsdh-uploader.appinstaller)"
   }
 ]

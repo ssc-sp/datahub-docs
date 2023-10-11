@@ -6,6 +6,8 @@ draft: true
 
 # Demande de stockage
 
+Ce guide explique comment demander un espace de rangement dans votre espace de travail.
+
 **Note:** Vous ne pouvez demander des ressources cloud qu'une fois que vous avez complété les métadonnées de votre espace de travail.
 
 1. Accédez à votre espace de travail.
