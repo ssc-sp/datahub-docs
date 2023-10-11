@@ -18150,5 +18150,77 @@
   {
     "English": "Request Support",
     "French": "Demande de soutien"
+  },
+  {
+    "English": "|[Infra v2.13.1](https://github.com/ssc-sp/datahub-infra/tree/v2.13.1)|2023-10-03|2023-10-03|2023-10-04| [See below](#datahub-infra-v213) |",
+    "French": "|[Infra v2.13.1](https://github.com/ssc-sp/datahub-infra/tree/v2.13.1)|2023-10-03|2023-10-03|2023-10-04| [See below](#datahub-infra-v213) |"
+  },
+  {
+    "English": "|[v2.13.0](https://github.com/ssc-sp/datahub-resource-modules/tree/versioning/modules/v2.13.0)| 04-Oct-2023 |[See below](#project-resource-module-v213)|",
+    "French": "|[v2.13.0](https://github.com/ssc-sp/datahub-resource-modules/tree/versioning/modules/v2.13.0)| 04-Oct-2023 |[Voir ci-dessous](#projet-ressource-module-v213)|[Voir ci-dessous](#projet-ressource-module-v213)|[Voir ci-dessous](#projet-ressource-module-v213)"
+  },
+  {
+    "English": "### DataHub Infra v2.13",
+    "French": "### DataHub Infra v2.13"
+  },
+  {
+    "English": "- Updated MS SQL database LTR policy",
+    "French": "- Mise \u00E0 jour de la politique en mati\u00E8re de LTR pour les bases de donn\u00E9es MS SQL"
+  },
+  {
+    "English": "## Install the Desktop Uploader",
+    "French": "## Installer le  T\u00E9l\u00E9chargeur de bureau"
+  },
+  {
+    "English": "The link below will install the application and automatically update it on modern Windows 10 and Windows 11 desktops. The installation uses modern [msix packaging](https://learn.microsoft.com/en-ca/windows/msix/overview) and does not require administrative privileges.",
+    "French": "Le lien ci-dessous permet d\u0027installer l\u0027application et de la mettre \u00E0 jour automatiquement sur les ordinateurs de bureau modernes Windows 10 et Windows 11. L\u0027installation utilise un [msix packaging] moderne (https://learn.microsoft.com/en-ca/windows/msix/overview) et ne n\u00E9cessite pas de privil\u00E8ges administratifs."
+  },
+  {
+    "English": "[Install the DataHub Uploader](https://fsdhstoragedevpub.blob.core.windows.net/datahub-dist/fsdh-uploader.appinstaller)",
+    "French": "[Installer le DataHub Uploader](https://fsdhstoragedevpub.blob.core.windows.net/datahub-dist/fsdh-uploader.appinstaller)"
+  },
+  {
+    "English": "\u0060\u003Cdesktop_code\u003E\u0060",
+    "French": "\u0060\u003Cdesktop_code\u003E\u0060"
+  },
+  {
+    "English": "Monitor Cost",
+    "French": "Co\u00FBt du moniteur"
+  },
+  {
+    "English": "# FSDH Workspace Cost Monitoring",
+    "French": "# Contr\u00F4le des co\u00FBts de l\u0027espace de travail de la DHSF"
+  },
+  {
+    "English": "Your FSDH workspace contains a certain amount of credits that are consumed through storage or data analysis. It is important to monitor these costs.",
+    "French": "Votre espace de travail DHSF contient un certain nombre de cr\u00E9dits qui sont consomm\u00E9s par le stockage ou l\u0027analyse des donn\u00E9es. Il est important de surveiller ces co\u00FBts."
+  },
+  {
+    "English": "To monitor your credit use:",
+    "French": "Contr\u00F4ler l\u0027utilisation de votre cr\u00E9dit :"
+  },
+  {
+    "English": "1. Navigate to the workspace where you want to monitor costing.",
+    "French": "1. Naviguez jusqu\u0027\u00E0 l\u0027espace de travail dans lequel vous souhaitez contr\u00F4ler les co\u00FBts."
+  },
+  {
+    "English": "1. Near the top of the page, click the total spending indicator, as shown below.",
+    "French": "1. En haut de la page, cliquez sur l\u0027indicateur des d\u00E9penses totales, comme indiqu\u00E9 ci-dessous."
+  },
+  {
+    "English": "    ![Total Spending link on DataHub](./img/access_costing.png)",
+    "French": "    Lien vers les d\u00E9penses totales sur DataHub](./img/access_costing.png)"
+  },
+  {
+    "English": "1. You can now see a detailed breakdown of costing on your workspace, including current usage, daily usage, and your remaining credits (with estimates for how you can use them).",
+    "French": "1. Vous pouvez maintenant voir une r\u00E9partition d\u00E9taill\u00E9e des co\u00FBts sur votre espace de travail, y compris l\u0027utilisation actuelle, l\u0027utilisation quotidienne et vos cr\u00E9dits restants (avec des estimations sur la fa\u00E7on dont vous pouvez les utiliser)."
+  },
+  {
+    "English": "    ![Costing Analysis Page](./img/costing_page.png)",
+    "French": "    ![Page d\u0027analyse des co\u00FBts](./img/costing_page.png)"
+  },
+  {
+    "English": "\u003E **Note:** Whenever you run a new workload on DataHub, you should verify the credit consumption.",
+    "French": "**Note:** Chaque fois que vous ex\u00E9cutez une nouvelle charge de travail sur DataHub, vous devez v\u00E9rifier la consommation de cr\u00E9dits."
   }
 ]

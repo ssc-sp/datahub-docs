@@ -8,7 +8,7 @@ draft: true
 
 L'uploader de bureau est une simple application Windows native qui peut être utilisée pour télécharger des dossiers et des fichiers volumineux vers le DataHub sans outils ni paramètres de ligne de commande.
 
-## Installer le téléchargeur de bureau
+## Installer le  Téléchargeur de bureau
 
 Le lien ci-dessous permet d'installer l'application et de la mettre à jour automatiquement sur les ordinateurs de bureau modernes Windows 10 et Windows 11. L'installation utilise un [msix packaging] moderne (https://learn.microsoft.com/en-ca/windows/msix/overview) et ne nécessite pas de privilèges administratifs.
 
@@ -18,9 +18,7 @@ Le lien ci-dessous permet d'installer l'application et de la mettre à jour auto
 
 Appuyez sur le bouton ci-dessus pour générer un code de téléchargement. Un code de téléchargement est valable pendant un jour une fois qu'il a été généré.
 
-``
-<desktop_code>
-``
+`<desktop_code>`
 
 ## Qu'est-ce que le  Téléchargeur de bureau DataHub ?
 

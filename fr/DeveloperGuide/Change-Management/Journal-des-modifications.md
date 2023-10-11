@@ -10,12 +10,14 @@ draft: true
 | Version | [DEV](https://dev.fsdh-dhsf.science.cloud-nuage.canada.ca/) | [INT](https://int.fsdh-dhsf.science.cloud-nuage.canada.ca/) | [POC](https://federal-science-datahub.canada.ca/) | Notes |
 |---|---|---|---|---|
 |[Infra v2.12-rc1](https://github.com/ssc-sp/datahub-infra/tree/v2.12-rc1)|2023-09-21|2023-09-21|-| [See below](#datahub-infra-v212) |
+|[Infra v2.13.1](https://github.com/ssc-sp/datahub-infra/tree/v2.13.1)|2023-10-03|2023-10-03|2023-10-04| [See below](#datahub-infra-v213) |
+
 
 ## Modules de ressources du projet
 | Version | Date de sortie | Changements |
 |---|---|---|
 |[v2.12.0](https://github.com/ssc-sp/datahub-resource-modules/tree/versioning/modules/v2.12.0)| 22-Sep-2023 |[Voir ci-dessous](#projet-module-ressources-v212)|[Voir ci-dessous](#projet-module-ressources-v212)|[Voir ci-dessous](#projet-module-ressources-v212)
-|[v2.13.0](https://github.com/ssc-sp/datahub-resource-modules/tree/2.13.x/modules/v2.13.0)| En attente |[Voir ci-dessous](#projet-module-de-ressources-v213)|
+|[v2.13.0](https://github.com/ssc-sp/datahub-resource-modules/tree/versioning/modules/v2.13.0)| 04-Oct-2023 |[Voir ci-dessous](#projet-ressource-module-v213)|[Voir ci-dessous](#projet-ressource-module-v213)|[Voir ci-dessous](#projet-ressource-module-v213)
 
 ## Changements
 
@@ -23,6 +25,11 @@ draft: true
 - Ajout d'un compte d'automatisation et réduction en cours du plan de service de l'application à 20h00
 - Ajouter la configuration `DesktopFileUploader__DisplayDesktopUploaderTab`
 - Ajouter les secrets `ado-service-user-oid` et `ado-service-user-pat`.
+
+### DataHub Infra v2.13
+- Ajouter la configuration `DesktopFileUploader__DisplayDesktopUploaderTab`
+- Ajouter les secrets `ado-service-user-oid` et `ado-service-user-pat`.
+- Mise à jour de la politique en matière de LTR pour les bases de données MS SQL
 
 ### Module de ressources de projet v2.13
 - Ajout du partage de fichiers Azure (limité à 64GB) et du service map to app

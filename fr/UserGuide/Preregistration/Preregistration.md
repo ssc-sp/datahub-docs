@@ -8,8 +8,6 @@ draft: true
 
 Il vous guidera dans le processus d'enregistrement et de configuration de votre compte pour le Federal Science Data Hub (DHSF).
 
-Il vous guidera dans le processus d'enregistrement et de configuration de votre compte pour le Federal Science Data Hub (DHSF).
-
 ## Enregistrement du compte
 
 ![Page d'inscription](registration-page.png)

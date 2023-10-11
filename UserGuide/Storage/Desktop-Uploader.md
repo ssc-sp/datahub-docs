@@ -12,9 +12,7 @@ The link below will install the application and automatically update it on moder
 
 Press the button above to generate an upload code. An upload code is valid for 1 day once generated.
 
-``
-<desktop_code>
-``
+`<desktop_code>`
 
 ## What is the DataHub Desktop Uploader?
 

@@ -8,8 +8,6 @@ draft: true
 
 Ce guide explique comment enregistrer un ticket auprès de l'équipe de support de la DHSF.
 
-Ce guide explique comment enregistrer un ticket auprès de l'équipe de support de la DHSF.
-
 1. Cliquez sur le bouton "Aide" dans le coin supérieur droit de la page.
     ![bouton d'aide](help-button.png)
 
