@@ -1,4 +1,4 @@
-# Logging a ticket
+# Request Support
 
 This guide will cover how to log a ticket with the FSDH support team.
 

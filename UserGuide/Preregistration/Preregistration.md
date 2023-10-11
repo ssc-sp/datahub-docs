@@ -1,4 +1,4 @@
-# Register and Setup
+# Registration and Setup
 
 This will guide you through the process of registering and setting up your account for the Federal Science Data Hub (FSDH).
 

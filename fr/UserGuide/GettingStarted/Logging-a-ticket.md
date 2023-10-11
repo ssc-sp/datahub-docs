@@ -4,7 +4,9 @@ source: /UserGuide/GettingStarted/Logging-a-ticket.md
 draft: true
 ---
 
-# Enregistrement d'un ticket
+# Demande de soutien
+
+Ce guide explique comment enregistrer un ticket auprès de l'équipe de support de la DHSF.
 
 Ce guide explique comment enregistrer un ticket auprès de l'équipe de support de la DHSF.
 

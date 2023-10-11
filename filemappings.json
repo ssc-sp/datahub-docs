@@ -455,6 +455,11 @@
     "Fr": "/fr/UserGuide/GettingStarted/Logging-a-ticket.md"
   },
   {
+    "Id": "8873dca3-c9e6-9529-51f4-b2801c0d88da",
+    "En": "/UserGuide/GettingStarted/Monitor-workspace-costs.md",
+    "Fr": "/fr/UserGuide/GettingStarted/Contr\u00F4ler-les-co\u00FBts-de-l\u0027espace-de-travail.md"
+  },
+  {
     "Id": "2f537cee-9701-0e67-9de0-9d384250e3c5",
     "En": "/UserGuide/GettingStarted/Request-databricks.md",
     "Fr": "/fr/UserGuide/GettingStarted/Demander-des-databricks.md"

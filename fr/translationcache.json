@@ -18064,8 +18064,24 @@
     "French": "Ce guide explique comment inviter un utilisateur dans votre espace de travail."
   },
   {
+    "English": "# Request Support",
+    "French": "# Demande de soutien"
+  },
+  {
     "English": "This guide will cover how to log a ticket with the FSDH support team.",
     "French": "Ce guide explique comment enregistrer un ticket aupr\u00E8s de l\u0027\u00E9quipe de support de la DHSF."
+  },
+  {
+    "English": "Monitor workspace costs",
+    "French": "Contr\u00F4ler les co\u00FBts de l\u0027espace de travail"
+  },
+  {
+    "English": "# Monitor Workspace Costs",
+    "French": "# Contr\u00F4ler les co\u00FBts de l\u0027espace de travail"
+  },
+  {
+    "English": "dolor sit amet, consectetur adipiscing elit. Sed euismod, lorem sit amet",
+    "French": "dolor sit amet, consectetur adipiscing elit. Sed euismod, lorem sit amet"
   },
   {
     "English": "This guide will cover how to request a Databricks resource in your workspace.",
@@ -18074,6 +18090,10 @@
   {
     "English": "This guide will cover how to request storage in your workspace.",
     "French": "Ce guide explique comment demander un espace de rangement dans votre espace de travail."
+  },
+  {
+    "English": "# Registration and Setup",
+    "French": "# Inscription et mise en place"
   },
   {
     "English": "This will guide you through the process of registering and setting up your account for the Federal Science Data Hub (FSDH).",
@@ -18088,15 +18108,47 @@
     "French": "1. Attendez l\u0027apparition de l\u0027invite suivante."
   },
   {
-    "English": "## Install the Desktop Uploader",
-    "French": "## Installer le Desktop Uploader"
+    "English": "## Welcome to the FSDH Trial",
+    "French": "## Bienvenue \u00E0 l\u0027essai de la DHSF"
   },
   {
-    "English": "The link below will install the application and automatically update it on modern Windows 10 and Windows 11 desktops. The installation uses modern [msix packaging](https://learn.microsoft.com/en-ca/windows/msix/overview) and does not require administrative privileges.",
-    "French": "Le lien ci-dessous permet d\u0027installer l\u0027application et de la mettre \u00E0 jour automatiquement sur les ordinateurs de bureau modernes Windows 10 et Windows 11. L\u0027installation utilise un [msix packaging] moderne (https://learn.microsoft.com/en-ca/windows/msix/overview) et ne n\u00E9cessite pas de privil\u00E8ges administratifs."
+    "English": "Welcome to the Federal Science DataHub (FSDH) trial, an initiative supported by the Data Solutions for Science Team within Shared Services Canada\u2019s Science Program.\u00A0",
+    "French": "Bienvenue \u00E0 l\u0027essai du DataHub scientifique f\u00E9d\u00E9ral (DHSF), une initiative soutenue par l\u0027\u00E9quipe Solutions de donn\u00E9es pour la science au sein du programme scientifique de Services partag\u00E9s Canada."
   },
   {
-    "English": "[Install the DataHub Uploader](https://fsdhstoragedevpub.blob.core.windows.net/datahub-dist/fsdh-uploader.appinstaller)",
-    "French": "[Installer le DataHub Uploader](https://fsdhstoragedevpub.blob.core.windows.net/datahub-dist/fsdh-uploader.appinstaller)"
+    "English": "The scope of the trial includes:\u202Fintuitive self-service; quick\u202Fand temporary data storage; readily\u202Favailable digital tools for analytics, visualization, and machine learning models; collaboration with peers across GC; discovery metadata.",
+    "French": "La port\u00E9e de l\u0027essai comprend : un libre-service intuitif ; un stockage rapide et temporaire des donn\u00E9es ; des outils num\u00E9riques facilement accessibles pour l\u0027analyse, la visualisation et les mod\u00E8les d\u0027apprentissage automatique ; la collaboration avec des pairs au sein du GC ; des m\u00E9tadonn\u00E9es de d\u00E9couverte."
+  },
+  {
+    "English": "The objective of the trial is to have active participation from scientists in as many Science-based Departments and Agencies as possible to ensure\u202Fwe have the right people to help evaluate, confirm, and prioritize capabilities and services for\u202FGC data storage, collaboration, and analysis.",
+    "French": "L\u0027objectif de l\u0027essai est d\u0027obtenir la participation active de scientifiques dans le plus grand nombre possible de minist\u00E8res et d\u0027agences \u00E0 vocation scientifique, afin de s\u0027assurer que nous disposons des bonnes personnes pour aider \u00E0 \u00E9valuer, confirmer et hi\u00E9rarchiser les capacit\u00E9s et les services de stockage, de collaboration et d\u0027analyse des donn\u00E9es du GC."
+  },
+  {
+    "English": "The\u202FFederal Science DataHub\u202Fis intended to support the advancement of science. As such, the FSDH trial is limited to the use of GC scientists and collaborators that have specific science\u202Fuse cases and are willing and able to contribute to the evaluation of this trial. Use of FSDH is not intended for a corporate/administrative\u202Fproject (e.g., Finance, HR).",
+    "French": "Le DataHub scientifique f\u00E9d\u00E9ral est destin\u00E9 \u00E0 soutenir l\u0027avancement de la science. En tant que tel, l\u0027essai du DHSF est limit\u00E9 \u00E0 l\u0027utilisation des scientifiques et des collaborateurs du gouvernement f\u00E9d\u00E9ral qui ont des cas d\u0027utilisation scientifique sp\u00E9cifiques et qui sont d\u00E9sireux et capables de contribuer \u00E0 l\u0027\u00E9valuation de cet essai. L\u0027utilisation de la DHSF n\u0027est pas destin\u00E9e \u00E0 un projet d\u0027entreprise ou d\u0027administration (p. ex. finances, RH)."
+  },
+  {
+    "English": "FSDH trial will run beginning September 30, 2023. \u00A0Participants requiring access to the environment and/or their data after the trial can work with the DSS team to determine the approach for data migration, etc.\u00A0",
+    "French": "L\u0027essai DHSF se d\u00E9roulera \u00E0 partir du 30 septembre 2023.  Les participants qui ont besoin d\u0027acc\u00E9der \u00E0 l\u0027environnement et/ou \u00E0 leurs donn\u00E9es apr\u00E8s l\u0027essai peuvent travailler avec l\u0027\u00E9quipe DSS pour d\u00E9terminer l\u0027approche \u00E0 adopter pour la migration des donn\u00E9es, etc."
+  },
+  {
+    "English": "The FSDH trial includes mandatory workspace metadata to enable discovery. Other data management capabilities will be addressed in future (e.g., cataloguing features and lifecycle management).\u00A0\u00A0",
+    "French": "L\u0027essai DHSF comprend des m\u00E9tadonn\u00E9es obligatoires sur l\u0027espace de travail pour permettre la d\u00E9couverte. D\u0027autres capacit\u00E9s de gestion des donn\u00E9es seront abord\u00E9es \u00E0 l\u0027avenir (par exemple, les fonctions de catalogage et la gestion du cycle de vie).  "
+  },
+  {
+    "English": "FSDH trial will be supported by the DSS Team on a best-effort basis. All questions/issues can be sent to the team via the [FSDH Support Request Form](https://forms.office.com/pages/responsepage.aspx?id=lMFb0L-U1kquLh2w8uOPXhksOXzZ73RCp9fVTz4vTU5UNTc1U00yNVUxWVg4SkJGMFVHN1RCTTdQRS4u).",
+    "French": "L\u0027essai de la DHSF sera pris en charge par l\u0027\u00E9quipe DSS dans la mesure du possible. Toutes les questions/probl\u00E8mes peuvent \u00EAtre envoy\u00E9s \u00E0 l\u0027\u00E9quipe via le [DHSF Support Request Form] (https://forms.office.com/pages/responsepage.aspx?id=lMFb0L-U1kquLh2w8uOPXhksOXzZ73RCp9fVTz4vTU5UNTc1U00yNVUxWVg4SkJGMFVHN1RCTTdQRS4u)."
+  },
+  {
+    "English": "Account Registration",
+    "French": "Enregistrement du compte"
+  },
+  {
+    "English": "Monitor Costs",
+    "French": "Contr\u00F4le des co\u00FBts"
+  },
+  {
+    "English": "Request Support",
+    "French": "Demande de soutien"
   }
 ]

@@ -4,7 +4,9 @@ source: /UserGuide/Preregistration/Preregistration.md
 draft: true
 ---
 
-# Register and Setup (Enregistrement et configuration)
+# Inscription et mise en place
+
+Il vous guidera dans le processus d'enregistrement et de configuration de votre compte pour le Federal Science Data Hub (DHSF).
 
 Il vous guidera dans le processus d'enregistrement et de configuration de votre compte pour le Federal Science Data Hub (DHSF).
 
