@@ -10,9 +10,15 @@ L'uploader de bureau est une simple application Windows native qui peut être ut
 
 ## Installer le  Téléchargeur de bureau
 
-Le lien ci-dessous permet d'installer l'application et de la mettre à jour automatiquement sur les ordinateurs de bureau modernes Windows 10 et Windows 11. L'installation utilise un [msix packaging] moderne (https://learn.microsoft.com/en-ca/windows/msix/overview) et ne nécessite pas de privilèges administratifs.
+L'appinstaller ci-dessous installera l'application et la mettra automatiquement à jour sur les ordinateurs de bureau modernes Windows 10 et Windows 11. L'installation utilise un [msix packaging] moderne (https://learn.microsoft.com/en-ca/windows/msix/overview) et ne nécessite pas de privilèges administratifs.
 
-[Installer le DataHub Uploader](https://fsdhstoragedevpub.blob.core.windows.net/datahub-dist/fsdh-uploader.appinstaller)
+### Étape 1 : Télécharger le fichier d'installation de l'application
+
+<a class="mud-typography mud-link mud-primary-text mud-link-underline-hover mud-typography-body1" href="https://fsdhstoragedevpub.blob.core.windows.net/datahub-dist/fsdh-uploader.appinstaller">Installer le DataHub Uploader</a>
+
+### Étape 2 : Ouvrir le fichier d'installation de l'application pour l'installer
+
+Ouvrez les fichiers téléchargés et double-cliquez sur le fichier `fsdh-uploader.appinstaller`. Cela installera l'application et permettra les mises à jour de l'uploader.
 
 ## Obtenir un code de téléchargement
 

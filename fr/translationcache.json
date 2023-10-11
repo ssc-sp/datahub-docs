@@ -18222,5 +18222,25 @@
   {
     "English": "\u003E **Note:** Whenever you run a new workload on DataHub, you should verify the credit consumption.",
     "French": "**Note:** Chaque fois que vous ex\u00E9cutez une nouvelle charge de travail sur DataHub, vous devez v\u00E9rifier la consommation de cr\u00E9dits."
+  },
+  {
+    "English": "The appinstaller below will install the application and automatically update it on modern Windows 10 and Windows 11 desktops. The installation uses modern [msix packaging](https://learn.microsoft.com/en-ca/windows/msix/overview) and does not require administrative privileges.",
+    "French": "L\u0027appinstaller ci-dessous installera l\u0027application et la mettra automatiquement \u00E0 jour sur les ordinateurs de bureau modernes Windows 10 et Windows 11. L\u0027installation utilise un [msix packaging] moderne (https://learn.microsoft.com/en-ca/windows/msix/overview) et ne n\u00E9cessite pas de privil\u00E8ges administratifs."
+  },
+  {
+    "English": "### Step 1: Download the appinstaller file",
+    "French": "### \u00C9tape 1 : T\u00E9l\u00E9charger le fichier d\u0027installation de l\u0027application"
+  },
+  {
+    "English": "\u003Ca class=\u0022mud-typography mud-link mud-primary-text mud-link-underline-hover mud-typography-body1\u0022 href=\u0022https://fsdhstoragedevpub.blob.core.windows.net/datahub-dist/fsdh-uploader.appinstaller\u0022\u003EInstall the DataHub Uploader\u003C/a\u003E",
+    "French": "\u003Ca class=\u0022mud-typography mud-link mud-primary-text mud-link-underline-hover mud-typography-body1\u0022 href=\u0022https://fsdhstoragedevpub.blob.core.windows.net/datahub-dist/fsdh-uploader.appinstaller\u0022\u003EInstaller le DataHub Uploader\u003C/a\u003E"
+  },
+  {
+    "English": "### Step 2: Open the appinstaller file to install",
+    "French": "### \u00C9tape 2 : Ouvrir le fichier d\u0027installation de l\u0027application pour l\u0027installer"
+  },
+  {
+    "English": "Open your downloaded files and double click the \u0060fsdh-uploader.appinstaller\u0060. This will install the application and enable updates of the uploader.",
+    "French": "Ouvrez les fichiers t\u00E9l\u00E9charg\u00E9s et double-cliquez sur le fichier \u0060fsdh-uploader.appinstaller\u0060. Cela installera l\u0027application et permettra les mises \u00E0 jour de l\u0027uploader."
   }
 ]

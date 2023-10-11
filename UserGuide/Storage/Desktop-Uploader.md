@@ -4,13 +4,15 @@ The desktop uploader is a simple native Windows application that can be used to 
 
 ## Install the Desktop Uploader
 
-The link below will install the application and automatically update it on modern Windows 10 and Windows 11 desktops. The installation uses modern [msix packaging](https://learn.microsoft.com/en-ca/windows/msix/overview) and does not require administrative privileges.
+The appinstaller below will install the application and automatically update it on modern Windows 10 and Windows 11 desktops. The installation uses modern [msix packaging](https://learn.microsoft.com/en-ca/windows/msix/overview) and does not require administrative privileges.
 
-<details>
-<summary>
-<a href="ms-appinstaller:?source=https://fsdhstoragedevpub.blob.core.windows.net/datahub-dist/fsdh-uploader.appinstaller">Install the DataHub Uploader</a>
-</summary>
-</details>
+### Step 1: Download the appinstaller file
+
+<a class="mud-typography mud-link mud-primary-text mud-link-underline-hover mud-typography-body1" href="https://fsdhstoragedevpub.blob.core.windows.net/datahub-dist/fsdh-uploader.appinstaller">Install the DataHub Uploader</a>
+
+### Step 2: Open the appinstaller file to install
+
+Open your downloaded files and double click the `fsdh-uploader.appinstaller`. This will install the application and enable updates of the uploader.
 
 ## Get an upload code
 
