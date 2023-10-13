@@ -6,7 +6,7 @@ draft: true
 
 # Databricks VS Code Extension
 
-## Pourquoi l'utiliser ?
+## Pourquoi l'utiliser?
 
 Visual Studio Code est un éditeur de code extrêmement populaire. En tant que système open source, il dispose d'une large communauté de contributeurs et d'utilisateurs. Il est également très extensible, ce qui permet aux utilisateurs d'installer une grande variété d'extensions pour prendre en charge différents langages de programmation, le débogage, etc.
 
@@ -48,11 +48,11 @@ jobs-api-version = 2.1
 **token** est votre jeton d'accès personnel. Pour générer un jeton, voir [Databricks personal access token authentication](https://docs.databricks.com/en/dev-tools/auth.html#databricks-personal-access-token-authentication)
 **jobs-api-version** doit rester inchangé.
 
-Après avoir effectué ces étapes, cliquez à nouveau sur **Configure** et accédez à votre profil **[DEFAULT]** sauvegardé. Databricks se connectera automatiquement.
+Après avoir effectué ces étapes, cliquez à nouveau sur **Configurer** et accédez à votre profil **[DEFAULT]** sauvegardé. Databricks se connectera automatiquement.
 
 ## Exécuter le code local
 
-> **NOTE:** Vous devez ouvrir un dossier pour utiliser cette partie de l'extension. Pour ce faire, cliquez sur Fichier > Ouvrir un dossier et sélectionnez le dossier dans lequel vous conservez votre code.
+**NOTE:** Vous devez ouvrir un dossier pour utiliser cette partie de l'extension. Pour ce faire, cliquez sur Fichier > Ouvrir un dossier et sélectionnez le dossier dans lequel vous conservez votre code.
 
 ### Attacher un cluster
 
@@ -65,7 +65,7 @@ Avant d'exécuter le code, vous devez attacher un cluster.
 ![Extension Databricks](./vscode_databricks_4.png)
 1. Vous pouvez maintenant démarrer le cluster à partir de l'extension.
 
-> **NOTE:** Vous ne pouvez pas créer un cluster dans l'extension. Vous devez le créer dans Databricks lui-même.
+**NOTE:** Vous ne pouvez pas créer un cluster dans l'extension. Vous devez le créer dans Databricks lui-même.
 
 ### Écrire votre code
 
@@ -80,16 +80,16 @@ Pour utiliser un notebook, ajoutez `# Databricks notebook source` au début de v
 * `# MAGIC %r` crée une cellule R.
 * `# MAGIC %python` crée une cellule Python.
 
-> **NOTE:** Vous devez vous assurer que toutes les bibliothèques que vous importez sont installées sur le cluster. Vous pouvez le faire en incluant la commande `pip install` dans votre code ou en installant les bibliothèques sur le cluster lui-même.
+**NOTE:** Vous devez vous assurer que toutes les bibliothèques que vous importez sont installées sur le cluster. Vous pouvez le faire en incluant la commande `pip install` dans votre code ou en installant les bibliothèques sur le cluster lui-même.
 
 ### Exécuter du code local sur un cluster
 
-1. Ouvrez le menu **Explore** dans la barre de navigation gauche.
+1. Ouvrez le menu **Explorer** dans la barre de navigation gauche.
 1. Naviguez jusqu'au fichier que vous souhaitez exécuter. Vous pouvez utiliser n'importe quel fichier que vous pouvez exécuter dans Databricks (R, Python, etc.).
 1. Assurez-vous que le cluster est démarré, puis faites un clic droit sur le fichier et sélectionnez **Run File as Workflow in Databricks**, comme indiqué dans la capture d'écran ci-dessous.
 ![Extension Databricks](./vscode_databricks_5.png)
 1. Le fichier sera exécuté sur le cluster. Vous pouvez voir les résultats dans la fenêtre **Sortie**.
 ![Extension Databricks](./vscode_databricks_6.png)
 
-> **NOTE:** Votre code sera copié dans Databricks sous le dossier `.ide` dans votre espace de travail.
+**NOTE:** Votre code sera copié dans Databricks sous le dossier `.ide` dans votre espace de travail.
 
