@@ -14,6 +14,7 @@
 - Tutoriels
   - [Comment accéder à votre compte de stockage dans Databricks ?](/fr/UserGuide/Databricks/Accédez-à-votre-compte-de-stockage-dans-Databricks.md)
   - [Comment intégrer Git dans Databricks](/fr/UserGuide/Databricks/Intégration-de-Git.md)
+  - [Comment utiliser l'extension VS Code avec Databricks](/fr/UserGuide/Databricks/extension-vscode.md)
   - [Comment construire des tableaux de bord avec Databricks](/fr/UserGuide/Databricks/Tableau-de-bord.md)
   - [Comment connecter les API de Google avec Databricks](/fr/UserGuide/Databricks/Connexion-à-l'API-Google.md)
   - [Comment utiliser les paquets Conda avec Databricks](/fr/UserGuide/Databricks/Paquets-Conda.md)  
