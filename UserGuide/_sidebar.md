@@ -14,6 +14,7 @@
 - Tutorials
   - [How to access your storage account in Databricks](/UserGuide/Databricks/Access-your-storage-account-in-Databricks.md)
   - [How to integrate Git in Databricks](/UserGuide/Databricks/Git-Integration.md)
+  - [How to use the VS Code Extension with Databricks](/UserGuide/Databricks/vscode_extension.md)
   - [How to build Dashboards with Databricks](/UserGuide/Databricks/Dashboarding.md)
   - [How to connect Google APIs with Databricks](/UserGuide/Databricks/Connecting-Google-API.md)
   - [How to use Conda packages with Databricks](/UserGuide/Databricks/Conda-Packages.md)  
