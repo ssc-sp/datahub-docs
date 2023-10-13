@@ -18242,5 +18242,221 @@
   {
     "English": "Open your downloaded files and double click the \u0060fsdh-uploader.appinstaller\u0060. This will install the application and enable updates of the uploader.",
     "French": "Ouvrez les fichiers t\u00E9l\u00E9charg\u00E9s et double-cliquez sur le fichier \u0060fsdh-uploader.appinstaller\u0060. Cela installera l\u0027application et permettra les mises \u00E0 jour de l\u0027uploader."
+  },
+  {
+    "English": "Update documentation",
+    "French": "Mise \u00E0 jour de la documentation"
+  },
+  {
+    "English": "# Updating the documentation",
+    "French": "# Mise \u00E0 jour de la documentation"
+  },
+  {
+    "English": "This document covers the process ofr update the documentation in FSDH DataHub.",
+    "French": "Ce document couvre le processus de mise \u00E0 jour de la documentation dans DHSF DataHub."
+  },
+  {
+    "English": "## More pages",
+    "French": "## Plus de pages"
+  },
+  {
+    "English": "If you need more pages, you can simply create more markdown files in the datahub-docs directory. ",
+    "French": "Si vous avez besoin de plus de pages, vous pouvez simplement cr\u00E9er plus de fichiers markdown dans le r\u00E9pertoire datahub-docs."
+  },
+  {
+    "English": "The directory structure has the main documentation guides:",
+    "French": "La structure du r\u00E9pertoire contient les principaux guides de documentation :"
+  },
+  {
+    "English": "- **DeveloperGuide:** Covers the .net DataHub solution and terraform",
+    "French": "- Guide du d\u00E9veloppeur:** Couvre la solution DataHub .net et terraform"
+  },
+  {
+    "English": "- **UserGuide:** Contains the files visible in \u0022Resources\u0022 in the portal",
+    "French": "- Guide de l\u0027utilisateur:** Contient les fichiers visibles dans la rubrique \u0022Ressources\u0022 du portail."
+  },
+  {
+    "English": "- **AdminGuide:** This guide is for the FSDH Team and provides documentation for common tasks.",
+    "French": "- **AdminGuide:** Ce guide est destin\u00E9 \u00E0 l\u0027\u00E9quipe DHSF et fournit de la documentation pour les t\u00E2ches courantes."
+  },
+  {
+    "English": "## Docsify Style",
+    "French": "## Docsify Style"
+  },
+  {
+    "English": "DataHub follow the same markdown and structure as Docsify. The documentation is rendered in the portal and also can be exported as HTML using Docsify.",
+    "French": "DataHub suit la m\u00EAme structure que Docsify. La documentation est rendue dans le portail et peut \u00E9galement \u00EAtre export\u00E9e au format HTML \u00E0 l\u0027aide de Docsify."
+  },
+  {
+    "English": "## Sidebars",
+    "French": "## Encadr\u00E9s"
+  },
+  {
+    "English": "The navigation and structure in docsify and in the portal leverages files called \u0060_sidebar.md\u0060",
+    "French": "La navigation et la structure dans docsify et dans le portail s\u0027appuient sur des fichiers appel\u00E9s \u0060_sidebar.md\u0060"
+  },
+  {
+    "English": "### Manually generated sidebars",
+    "French": "### Barres lat\u00E9rales g\u00E9n\u00E9r\u00E9es manuellement"
+  },
+  {
+    "English": "To curate the content inside the resources, the sidebar is manually generated and organized. \u0060UserGuide\u0060 has a manually generated \u0060_sidebar.md\u0060",
+    "French": "Pour conserver le contenu des ressources, la barre lat\u00E9rale est g\u00E9n\u00E9r\u00E9e et organis\u00E9e manuellement. \u0060UserGuide\u0060 a un \u0060_sidebar.md\u0060 g\u00E9n\u00E9r\u00E9 manuellement"
+  },
+  {
+    "English": "\u0060\u0060\u0060md",
+    "French": "\u0060\u0060md"
+  },
+  {
+    "English": "- [Federal Science DataHub User Guide](/UserGuide/User-Guide.md)",
+    "French": "- Guide de l\u0027utilisateur du DataHub scientifique f\u00E9d\u00E9ral](/UserGuide/User-Guide.md)"
+  },
+  {
+    "English": "  - [Account Registration](/UserGuide/Preregistration/Preregistration.md)",
+    "French": "  - [Enregistrement du compte](/UserGuide/Preregistration/Preregistration.md)"
+  },
+  {
+    "English": "  - [Create a Workspace](/UserGuide/GettingStarted/Creating-a-workspace.md)",
+    "French": "  - Cr\u00E9er un espace de travail](/UserGuide/GettingStarted/Creating-a-workspace.md)"
+  },
+  {
+    "English": "...",
+    "French": "..."
+  },
+  {
+    "English": "  - [How to access your storage account in Databricks](/UserGuide/Databricks/Access-your-storage-account-in-Databricks.md)",
+    "French": "  - Comment acc\u00E9der \u00E0 votre compte de stockage dans Databricks](/UserGuide/Databricks/Access-your-storage-account-in-Databricks.md)"
+  },
+  {
+    "English": "  ...",
+    "French": "  ..."
+  },
+  {
+    "English": "this is rendered in the portal as",
+    "French": "ce qui est rendu dans le portail sous la forme"
+  },
+  {
+    "English": "![In Portal](image-4.png)",
+    "French": "![Dans le portail](image-4.png)"
+  },
+  {
+    "English": "To prevent automatic generation of the sidebar, a file called \u0060_sidebar.md.yaml\u0060 contains ",
+    "French": "Pour emp\u00EAcher la g\u00E9n\u00E9ration automatique de la barre lat\u00E9rale, un fichier appel\u00E9 \u0060_sidebar.md.yaml\u0060 contient"
+  },
+  {
+    "English": "## SyncDocs Project",
+    "French": "## Projet SyncDocs"
+  },
+  {
+    "English": "The SyncDoc project in the visual studio solution is used to:",
+    "French": "Le projet SyncDoc dans la solution visual studio est utilis\u00E9 pour :"
+  },
+  {
+    "English": "- Auto generate sidebars (for sidebars that have \u0060autogenerate: true\u0060 in yaml)",
+    "French": "- G\u00E9n\u00E9rer automatiquement les sidebars (pour les sidebars qui ont \u0060autogenerate : true\u0060 dans yaml)"
+  },
+  {
+    "English": "- Generate suggested translation",
+    "French": "- G\u00E9n\u00E9rer une proposition de traduction"
+  },
+  {
+    "English": "### Running SyncDocs ",
+    "French": "### Ex\u00E9cution de SyncDocs"
+  },
+  {
+    "English": "This can be executed from the command line but the pre-defined launch settings can be used.",
+    "French": "Il peut \u00EAtre ex\u00E9cut\u00E9 \u00E0 partir de la ligne de commande, mais les param\u00E8tres de lancement pr\u00E9d\u00E9finis peuvent \u00EAtre utilis\u00E9s."
+  },
+  {
+    "English": "Right click project and select \u0022Set as Startup Project\u0022",
+    "French": "Cliquez avec le bouton droit de la souris sur le projet et s\u00E9lectionnez \u0022Setup as Startup Project\u0022."
+  },
+  {
+    "English": "![Setup as startup project](image.png)",
+    "French": "![Configuration en tant que projet de d\u00E9marrage](image.png)"
+  },
+  {
+    "English": "The pre-defined launch settings assume that the folder structure is the following:",
+    "French": "Les param\u00E8tres de lancement pr\u00E9d\u00E9finis supposent que la structure des dossiers est la suivante :"
+  },
+  {
+    "English": "![Folder structure](image-5.png)",
+    "French": "![Structure du dossier](image-5.png)"
+  },
+  {
+    "English": "### Step 1: Update sidebars",
+    "French": "### \u00C9tape 1 : Mise \u00E0 jour des barres lat\u00E9rales"
+  },
+  {
+    "English": "Select the configuration \u0022SyncDocs (sidebars)\u0022 in the toolbar and execute it. ",
+    "French": "S\u00E9lectionnez la configuration \u0022SyncDocs (sidebars)\u0022 dans la barre d\u0027outils et ex\u00E9cutez-la."
+  },
+  {
+    "English": "![Sidebars](image-1.png)",
+    "French": "![Encadr\u00E9s](image-1.png)"
+  },
+  {
+    "English": "### Step 2: Update suggested translations",
+    "French": "### \u00C9tape 2 : Mise \u00E0 jour des traductions propos\u00E9es"
+  },
+  {
+    "English": "To update the translations, select the configuration \u0022SyncDocs (translate)\u0022 in the toolbar and execute it. This relies on the config.deepl.json file.",
+    "French": "Pour mettre \u00E0 jour les traductions, s\u00E9lectionnez la configuration \u0022SyncDocs (translate)\u0022 dans la barre d\u0027outils et ex\u00E9cutez-la. Cette configuration s\u0027appuie sur le fichier config.deepl.json."
+  },
+  {
+    "English": "It is important to pull all changes from the documentation site, because a cache and manually edited translations are saved in \u0060fr/translationcache.json\u0060",
+    "French": "Il est important d\u0027extraire toutes les modifications du site de documentation, car un cache et les traductions \u00E9dit\u00E9es manuellement sont sauvegard\u00E9s dans \u0060fr/translationcache.json\u0060"
+  },
+  {
+    "English": "The tool will delete all files in the \u0060fr\u0060 directory and regenerate them.",
+    "French": "L\u0027outil supprimera tous les fichiers du r\u00E9pertoire \u0060fr\u0060 et les r\u00E9g\u00E9n\u00E9rera."
+  },
+  {
+    "English": "### Glossary.csv",
+    "French": "### Glossaire.csv"
+  },
+  {
+    "English": "Custom translations can be added by editing \u0060glossary.csv\u0060 in the main folder. This is where acronyms and other translations should be saved.",
+    "French": "Des traductions personnalis\u00E9es peuvent \u00EAtre ajout\u00E9es en \u00E9ditant le fichier \u0060glossary.csv\u0060 dans le dossier principal. C\u0027est l\u00E0 que les acronymes et autres traductions doivent \u00EAtre sauvegard\u00E9s."
+  },
+  {
+    "English": "![Translate](image-2.png)",
+    "French": "![Traduire](image-2.png)"
+  },
+  {
+    "English": "## config.deepl.json",
+    "French": "## config.deepl.json"
+  },
+  {
+    "English": "\u0060\u0060json",
+    "French": "\u0060\u0060json"
+  },
+  {
+    "English": "  \u0022deepl\u0022: {",
+    "French": "  \u0022deepl\u0022 : {"
+  },
+  {
+    "English": "    \u0022Key\u0022: \u0022\u003Ckey\u003E\u0022,",
+    "French": "    \u0022Key\u0022 : \u0022\u003Ckey\u003E\u0022,"
+  },
+  {
+    "English": "    \u0022UseFreeAPI\u0022:  true/false",
+    "French": "    \u0022UseFreeAPI\u0022 : true/false"
+  },
+  {
+    "English": "## Review process",
+    "French": "## Processus d\u0027examen"
+  },
+  {
+    "English": "DataHub follows the GoC language official guidelines and no changes to the documentation site should be done without proper review either through commit review or pull request.",
+    "French": "DataHub suit les directives officielles du GoC en mati\u00E8re de langues et aucune modification du site de documentation ne doit \u00EAtre effectu\u00E9e sans un examen appropri\u00E9, que ce soit par le biais d\u0027un commit review ou d\u0027une pull request."
+  },
+  {
+    "English": "- Documentation",
+    "French": "- Documentation"
+  },
+  {
+    "English": "[Download the DataHub Uploader AppInstaller](https://fsdhstoragedevpub.blob.core.windows.net/datahub-dist/fsdh-uploader.appinstaller)",
+    "French": "[T\u00E9l\u00E9charger le DataHub Uploader AppInstaller] (https://fsdhstoragedevpub.blob.core.windows.net/datahub-dist/fsdh-uploader.appinstaller)"
   }
 ]

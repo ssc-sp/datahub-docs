@@ -12,6 +12,7 @@
   - [Cloud environments](/DeveloperGuide/Architecture/Cloud-environments.md)
   - [Cloud Team Requirement for Running Data hub Terraform](/DeveloperGuide/Architecture/Cloud-Team-Requirement-for-Running-DataHub-Terraform.md)
   - [Microservice Architecture](/DeveloperGuide/Architecture/Microservice_Architecture.md)
+  - [network view](/DeveloperGuide/Architecture/network-view.md)
   - [Overall Architecture](/DeveloperGuide/Architecture/Overall_Architecture.md)
   - Services
 
@@ -25,6 +26,7 @@
 
 - Change Management
 
+  - [Change Log](/DeveloperGuide/Change-Management/Change-Log.md)
   - [Change Management Overview](/DeveloperGuide/Change-Management/Change-Management-Overview.md)
 
 - [Configuration options](/DeveloperGuide/Configuration-options.md)
@@ -38,6 +40,10 @@
 - Databricks
 
   - [Databricks Guest](/DeveloperGuide/Databricks/Databricks-Guest.md)
+
+- Documentation
+
+  - [Update documentation](/DeveloperGuide/Documentation/Update-documentation.md)
 
 - E2E
 

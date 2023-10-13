@@ -12,6 +12,7 @@
   - [Environnements en nuage](/fr/DeveloperGuide/Architecture/Environnements-en-nuage.md)
   - [Exigences de l'équipe Cloud pour l'exécution de Data Hub Terraform](/fr/DeveloperGuide/Architecture/Exigence-de-l'équipe-Cloud-pour-exécuter-DataHub-Terraform.md)
   - [Architecture microservice](/fr/DeveloperGuide/Architecture/Architecture-microservice.md)
+  - [vue du réseau](/fr/DeveloperGuide/Architecture/vue-du-réseau.md)
   - [Architecture globale](/fr/DeveloperGuide/Architecture/Architecture-globale.md)
   - Services
 
@@ -25,6 +26,7 @@
 
 - Gestion du changement
 
+  - [Journal des modifications](/fr/DeveloperGuide/Change-Management/Journal-des-modifications.md)
   - [Vue d'ensemble de la gestion du changement](/fr/DeveloperGuide/Change-Management/Vue-d'ensemble-de-la-gestion-du-changement.md)
 
 - [Options de configuration](/fr/DeveloperGuide/Options-de-configuration.md)
@@ -38,6 +40,10 @@
 - Databricks
 
   - [Databricks Invité](/fr/DeveloperGuide/Databricks/Databricks-Invité.md)
+
+- Documentation
+
+  - [Mise à jour de la documentation](/fr/DeveloperGuide/Documentation/Mise-à-jour-de-la-documentation.md)
 
 - E2E
 

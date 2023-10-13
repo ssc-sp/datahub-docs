@@ -14,7 +14,7 @@ L'appinstaller ci-dessous installera l'application et la mettra automatiquement 
 
 ### Étape 1 : Télécharger le fichier d'installation de l'application
 
-<a class="mud-typography mud-link mud-primary-text mud-link-underline-hover mud-typography-body1" href="https://fsdhstoragedevpub.blob.core.windows.net/datahub-dist/fsdh-uploader.appinstaller">Installer le DataHub Uploader</a>
+[Télécharger le DataHub Uploader AppInstaller] (https://fsdhstoragedevpub.blob.core.windows.net/datahub-dist/fsdh-uploader.appinstaller)
 
 ### Étape 2 : Ouvrir le fichier d'installation de l'application pour l'installer
 
