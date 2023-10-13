@@ -1,14 +1,14 @@
 # Databricks VS Code Extension
 
-## Why use it?
-
-Visual Studio Code is an extremely popular code editor. As an open source system, it has a large community of contributors and users. It is also highly extensible, allowing users to install a wide variety of extensions to support for different programming languages, debugging, and more.
-
 Using the Databricks VS Code extension, you can connect to a Databricks workspace from within VS Code. This allows you to:
 
 * Write your code locally in VS Code, and then run it remotely on a Databricks cluster.
 * Run SQL queries on a Databricks cluster and see the results directly in VS Code.
 * Manage your Databricks clusters.
+
+## Why use it?
+
+Visual Studio Code is an extremely popular code editor. As an open source system, it has a large community of contributors and users. It is also highly extensible, allowing users to install a wide variety of extensions to support for different programming languages, debugging, and more.
 
 ## Prerequisites
 
