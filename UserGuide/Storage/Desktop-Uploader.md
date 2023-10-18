@@ -1,5 +1,7 @@
 # DataHub Desktop Uploader
 
+[Open the uploader (if already installed)][fsdhdh://storage]
+
 The desktop uploader is a simple native Windows application that can be used to upload large folders and large files to the DataHub without any command line tools and parameters. 
 
 ## Install the Desktop Uploader
