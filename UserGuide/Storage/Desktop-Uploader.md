@@ -1,6 +1,6 @@
 # DataHub Desktop Uploader
 
-[Open the uploader (if already installed)][fsdhdh://storage]
+<a href="fsdhdh://storage" class="mud-button-root mud-button mud-button-filled mud-button-filled-primary mud-button-filled-size-small mud-ripple">Open the uploader (if already installed)</a>
 
 The desktop uploader is a simple native Windows application that can be used to upload large folders and large files to the DataHub without any command line tools and parameters. 
 
