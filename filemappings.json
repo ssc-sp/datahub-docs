@@ -55,6 +55,11 @@
     "Fr": "/fr/AdminGuide/Gestion-des-budgets.md"
   },
   {
+    "Id": "04dc1317-6f1b-78e5-fdce-3a5b6dd3123f",
+    "En": "/AdminGuide/migrate-to-versioning.md",
+    "Fr": "/fr/AdminGuide/migrer-vers-le-versionnage.md"
+  },
+  {
     "Id": "b0317a6f-5364-964d-b7c6-43214ba49006",
     "En": "/AdminGuide/Power-BI-Administration.md",
     "Fr": "/fr/AdminGuide/Administration-de-Power-BI.md"
@@ -428,6 +433,11 @@
     "Id": "11ebdf71-e82c-644d-8801-14d08b4e54a1",
     "En": "/UserGuide/Databricks/Request-databricks.md",
     "Fr": "/fr/UserGuide/Databricks/Demander-des-databricks.md"
+  },
+  {
+    "Id": "e22c11e6-467f-0c87-6b4a-868ddd2d6620",
+    "En": "/UserGuide/Databricks/vscode_extension.md",
+    "Fr": "/fr/UserGuide/Databricks/extension-vscode.md"
   },
   {
     "Id": "823dbad4-acd5-c144-9bec-36407aea57c4",
