@@ -1,5 +1,7 @@
 # Example Usage: Forecasting Sea Surface Temperature with Databricks
 
+This tutorial details how to forecast sea surface temperatures using AutoML and Databricks.
+
 <video width="600" height="350" controls>
     <source src="/api/media/sst-forecasting.mp4" type="video/mp4" />
     <track label="English" kind="subtitles" srclang="en" src="/api/media/sst-forecasting.vtt" default/>
