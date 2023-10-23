@@ -6,6 +6,8 @@ draft: true
 
 #  Téléchargeur de bureau DataHub
 
+<a href="fsdhdh://storage" class="mud-button-root mud-button mud-button-filled mud-button-filled-primary mud-button-filled-size-small mud-ripple">Ouvrir l'uploader (s'il est déjà installé)</a>
+
 L'uploader de bureau est une simple application Windows native qui peut être utilisée pour télécharger des dossiers et des fichiers volumineux vers le DataHub sans outils ni paramètres de ligne de commande.
 
 ## Installer le  Téléchargeur de bureau

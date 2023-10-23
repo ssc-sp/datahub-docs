@@ -6,6 +6,8 @@ draft: true
 
 # Exemple d'utilisation : Prévision de la température de surface de la mer avec Databricks
 
+Ce tutoriel explique comment prévoir les températures de surface de la mer à l'aide d'AutoML et de Databricks.
+
 <video width="600" height="350" controls>
     <source src="/api/media/sst-forecasting.mp4" type="video/mp4" />
     <track label="English" kind="subtitles" srclang="en" src="/api/media/sst-forecasting.vtt" default/>
