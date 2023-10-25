@@ -6,15 +6,15 @@ draft: true
 
 # Databricks VS Code Extension
 
-## Pourquoi l'utiliser?
-
-Visual Studio Code est un éditeur de code extrêmement populaire. En tant que système open source, il dispose d'une large communauté de contributeurs et d'utilisateurs. Il est également très extensible, ce qui permet aux utilisateurs d'installer une grande variété d'extensions pour prendre en charge différents langages de programmation, le débogage, etc.
-
 Grâce à l'extension Databricks VS Code, vous pouvez vous connecter à un espace de travail Databricks à partir de VS Code. Cela vous permet de :
 
 * Ecrivez votre code localement dans VS Code, puis exécutez-le à distance sur un cluster Databricks.
 * Exécuter des requêtes SQL sur un cluster Databricks et voir les résultats directement dans VS Code.
 * Gérer vos clusters Databricks.
+
+## Pourquoi l'utiliser ?
+
+Visual Studio Code est un éditeur de code extrêmement populaire. En tant que système open source, il dispose d'une large communauté de contributeurs et d'utilisateurs. Il est également très extensible, ce qui permet aux utilisateurs d'installer une grande variété d'extensions pour prendre en charge différents langages de programmation, le débogage, etc.
 
 ## Conditions préalables
 
@@ -26,20 +26,20 @@ Grâce à l'extension Databricks VS Code, vous pouvez vous connecter à un espac
 1. Ouvrez Visual Studio Code.
 1. Cliquez sur l'icône **Extensions** dans la barre de navigation de gauche.
 1. Recherchez **Databricks**.
-1. Cliquez sur **Install**. L'extension correcte est indiquée dans la capture d'écran ci-dessous.
+1. Cliquez sur **Installer**. L'extension correcte est indiquée dans la capture d'écran ci-dessous.
 ![Extension Databricks](./vscode_databricks_1.png)
 
 ## Se connecter à un espace de travail Databricks
 
 1. Cliquez sur l'icône **Databricks** dans la barre de navigation de gauche.
-1. Cliquez sur **Configure**.
+1. Cliquez sur **Configurer**.
 1. Entrez l'URL de votre espace de travail Databricks dans l'espace indiqué ci-dessous, jusqu'à `.net/`. Par exemple, si l'URL de votre espace de travail est `https://sample.azuredatabricks.net/?o=111111111111#`, entrez `https://sample.azuredatabricks.net/`.
 ![Extension Databricks](./vscode_databricks_2.png)
 1. Sur l'écran suivant, sélectionnez **Editer les profils Databricks**
 1. Dans l'écran qui s'ouvre, complétez les éléments suivants et enregistrez le fichier :
 ```
-[DEFAULT]
-host = https://sample.azuredatabricks.net/
+[PAR DÉFAUT]
+hôte = https://sample.azuredatabricks.net/
 token = votre_token
 jobs-api-version = 2.1
 ```

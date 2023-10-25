@@ -18458,5 +18458,365 @@
   {
     "English": "[Download the DataHub Uploader AppInstaller](https://fsdhstoragedevpub.blob.core.windows.net/datahub-dist/fsdh-uploader.appinstaller)",
     "French": "[T\u00E9l\u00E9charger le DataHub Uploader AppInstaller] (https://fsdhstoragedevpub.blob.core.windows.net/datahub-dist/fsdh-uploader.appinstaller)"
+  },
+  {
+    "English": "migrate to versioning",
+    "French": "migrer vers le versionnage"
+  },
+  {
+    "English": "# Migrate FSDH workspaces to versioned modules",
+    "French": "# Migration des espaces de travail DHSF vers des modules versionn\u00E9s"
+  },
+  {
+    "English": "# Prepare",
+    "French": "# Pr\u00E9parer"
+  },
+  {
+    "English": "1. Login to Azure",
+    "French": "1. Se connecter \u00E0 Azure"
+  },
+  {
+    "English": "2. Change directory to the project directory",
+    "French": "2. Changer de r\u00E9pertoire pour le r\u00E9pertoire du projet"
+  },
+  {
+    "English": "3. Run the following:",
+    "French": "3. Ex\u00E9cutez les op\u00E9rations suivantes :"
+  },
+  {
+    "English": "    terraform state rm module.azure_databricks_module.databricks_user.datahub_dbk_user",
+    "French": "    terraform state rm module.azure_databricks_module.databricks_user.datahub_dbk_user"
+  },
+  {
+    "English": "    terraform state rm module.azure_databricks_module.databricks_group_member.datahub_dbk_admin_member",
+    "French": "    terraform state rm module.azure_databricks_module.databricks_group_member.datahub_dbk_admin_member"
+  },
+  {
+    "English": "    terraform state rm module.azure_databricks_module.databricks_group_member.datahub_dbk_lead_member",
+    "French": "    terraform state rm module.azure_databricks_module.databricks_group_member.datahub_dbk_lead_member"
+  },
+  {
+    "English": "    terraform state rm module.azure_databricks_module.databricks_group_member.datahub_dbk_all_member",
+    "French": "    terraform state rm module.azure_databricks_module.databricks_group_member.datahub_dbk_all_member"
+  },
+  {
+    "English": "    terraform state rm module.azure_storage_blob_module.azurerm_role_assignment.storage_contributor_assignment",
+    "French": "    terraform state rm module.azure_storage_blob_module.azurerm_role_assignment.storage_contributor_assignment"
+  },
+  {
+    "English": "    terraform state rm module.azure_storage_blob_module.azurerm_role_assignment.storage_reader_assignment     ",
+    "French": "    terraform state rm module.azure_storage_blob_module.azurerm_role_assignment.storage_reader_assignment"
+  },
+  {
+    "English": "# Upgrade",
+    "French": "# Mise \u00E0 niveau"
+  },
+  {
+    "English": "1. Get the old project config (FSDH \u003E Workspaces \u003E search for and open workspace \u003E View commands)",
+    "French": "1. Obtenir la configuration de l\u0027ancien projet (DHSF \u003E Espaces de travail \u003E rechercher et ouvrir l\u0027espace de travail \u003E Afficher les commandes)."
+  },
+  {
+    "English": "2. Update version to the desired version: (e.g. \u0060\u0022Version\u0022: \u0022v2.13.0\u0022,\u0060)",
+    "French": "2. Mettre \u00E0 jour la version \u00E0 la version souhait\u00E9e : (par exemple \u0060\u0022Version\u0022 : \u0022v2.13.0\u0022,\u0060)"
+  },
+  {
+    "English": "3. Enqueue the updated config to the queue: \u0060resource-run-request\u0060",
+    "French": "3. Mettre en file d\u0027attente la configuration mise \u00E0 jour dans la file d\u0027attente : \u0060resource-run-request\u0060"
+  },
+  {
+    "English": "4. Monitor the ADO release pipeline poc-fsdh-rp",
+    "French": "4. Surveiller le pipeline des versions de l\u0027OAD poc-fsdh-rp"
+  },
+  {
+    "English": "AWS storage Databricks",
+    "French": "Stockage AWS Databricks"
+  },
+  {
+    "English": "df \u003C- read.df(\u0022dbfs:/mnt/fsdh-dbk-main-mount/sample.csv\u0022, source = \u0022csv\u0022)",
+    "French": "df \u003C- read.df(\u0022dbfs:/mnt/fsdh-dbk-main-mount/sample.csv\u0022, source = \u0022csv\u0022)"
+  },
+  {
+    "English": "## Learn More",
+    "French": "## En savoir plus"
+  },
+  {
+    "English": "See [Access your storage account](/UserGuide/Databricks/Access-your-storage-account-in-Databricks.md) for more details",
+    "French": "Voir [Acc\u00E9der \u00E0 votre compte de stockage] (/UserGuide/Databricks/Access-your-storage-account-in-Databricks.md) pour plus de d\u00E9tails."
+  },
+  {
+    "English": "Azure storage Databricks",
+    "French": "Stockage Azure Databricks"
+  },
+  {
+    "English": "GCP storage Databricks",
+    "French": "Stockage GCP Databricks"
+  },
+  {
+    "English": "vscode extension",
+    "French": "extension vscode"
+  },
+  {
+    "English": "# Databricks VS Code Extension",
+    "French": "# Databricks VS Code Extension"
+  },
+  {
+    "English": "Using the Databricks VS Code extension, you can connect to a Databricks workspace from within VS Code. This allows you to:",
+    "French": "Gr\u00E2ce \u00E0 l\u0027extension Databricks VS Code, vous pouvez vous connecter \u00E0 un espace de travail Databricks \u00E0 partir de VS Code. Cela vous permet de :"
+  },
+  {
+    "English": "* Write your code locally in VS Code, and then run it remotely on a Databricks cluster.",
+    "French": "* Ecrivez votre code localement dans VS Code, puis ex\u00E9cutez-le \u00E0 distance sur un cluster Databricks."
+  },
+  {
+    "English": "* Run SQL queries on a Databricks cluster and see the results directly in VS Code.",
+    "French": "* Ex\u00E9cuter des requ\u00EAtes SQL sur un cluster Databricks et voir les r\u00E9sultats directement dans VS Code."
+  },
+  {
+    "English": "* Manage your Databricks clusters.",
+    "French": "* G\u00E9rer vos clusters Databricks."
+  },
+  {
+    "English": "## Why use it?",
+    "French": "## Pourquoi l\u0027utiliser ?"
+  },
+  {
+    "English": "Visual Studio Code is an extremely popular code editor. As an open source system, it has a large community of contributors and users. It is also highly extensible, allowing users to install a wide variety of extensions to support for different programming languages, debugging, and more.",
+    "French": "Visual Studio Code est un \u00E9diteur de code extr\u00EAmement populaire. En tant que syst\u00E8me open source, il dispose d\u0027une large communaut\u00E9 de contributeurs et d\u0027utilisateurs. Il est \u00E9galement tr\u00E8s extensible, ce qui permet aux utilisateurs d\u0027installer une grande vari\u00E9t\u00E9 d\u0027extensions pour prendre en charge diff\u00E9rents langages de programmation, le d\u00E9bogage, etc."
+  },
+  {
+    "English": "* [Visual Studio Code](https://code.visualstudio.com/).",
+    "French": "* [Visual Studio Code](https://code.visualstudio.com/)."
+  },
+  {
+    "English": "* A Databricks workspace on the Federal Science DataHub.",
+    "French": "* Un espace de travail Databricks sur le DataHub scientifique f\u00E9d\u00E9ral."
+  },
+  {
+    "English": "## Install the extension",
+    "French": "## Installer l\u0027extension"
+  },
+  {
+    "English": "1. Open Visual Studio Code.",
+    "French": "1. Ouvrez Visual Studio Code."
+  },
+  {
+    "English": "1. Click the **Extensions** icon in the left navigation bar.",
+    "French": "1. Cliquez sur l\u0027ic\u00F4ne **Extensions** dans la barre de navigation de gauche."
+  },
+  {
+    "English": "1. Search for **Databricks**.",
+    "French": "1. Recherchez **Databricks**."
+  },
+  {
+    "English": "1. Click **Install**. The correct extension is shown in the screenshot below.",
+    "French": "1. Cliquez sur **Installer**. L\u0027extension correcte est indiqu\u00E9e dans la capture d\u0027\u00E9cran ci-dessous."
+  },
+  {
+    "English": "![Databricks extension](./vscode_databricks_1.png)",
+    "French": "![Extension Databricks](./vscode_databricks_1.png)"
+  },
+  {
+    "English": "## Connect to a Databricks workspace",
+    "French": "## Se connecter \u00E0 un espace de travail Databricks"
+  },
+  {
+    "English": "1. Click the **Databricks** icon in the left navigation bar.",
+    "French": "1. Cliquez sur l\u0027ic\u00F4ne **Databricks** dans la barre de navigation de gauche."
+  },
+  {
+    "English": "1. Click **Configure**.",
+    "French": "1. Cliquez sur **Configurer**."
+  },
+  {
+    "English": "1. Enter the URL of your Databricks workspace in the space shown below, up until \u0060.net/\u0060. For example, if your workspace URL is \u0060https://sample.azuredatabricks.net/?o=111111111111#\u0060, enter \u0060https://sample.azuredatabricks.net/\u0060.",
+    "French": "1. Entrez l\u0027URL de votre espace de travail Databricks dans l\u0027espace indiqu\u00E9 ci-dessous, jusqu\u0027\u00E0 \u0060.net/\u0060. Par exemple, si l\u0027URL de votre espace de travail est \u0060https://sample.azuredatabricks.net/?o=111111111111#\u0060, entrez \u0060https://sample.azuredatabricks.net/\u0060."
+  },
+  {
+    "English": "![Databricks extension](./vscode_databricks_2.png)",
+    "French": "![Extension Databricks](./vscode_databricks_2.png)"
+  },
+  {
+    "English": "1. On the next screen, select **Edit Databricks profiles**",
+    "French": "1. Sur l\u0027\u00E9cran suivant, s\u00E9lectionnez **Editer les profils Databricks**"
+  },
+  {
+    "English": "1. On the screen that opens, complete the following and save the file: ",
+    "French": "1. Dans l\u0027\u00E9cran qui s\u0027ouvre, compl\u00E9tez les \u00E9l\u00E9ments suivants et enregistrez le fichier :"
+  },
+  {
+    "English": "[DEFAULT]",
+    "French": "[PAR D\u00C9FAUT]"
+  },
+  {
+    "English": "host = https://sample.azuredatabricks.net/",
+    "French": "h\u00F4te = https://sample.azuredatabricks.net/"
+  },
+  {
+    "English": "token = your_token",
+    "French": "token = votre_token"
+  },
+  {
+    "English": "jobs-api-version = 2.1",
+    "French": "jobs-api-version = 2.1"
+  },
+  {
+    "English": "* **[DEFAULT]** is the name of the profile. You can change it to anything you want.",
+    "French": "**[DEFAULT]** est le nom du profil. Vous pouvez le modifier \u00E0 votre guise."
+  },
+  {
+    "English": "* **host** is the same that you entered in the previous step.",
+    "French": "**host** est le m\u00EAme que celui que vous avez saisi \u00E0 l\u0027\u00E9tape pr\u00E9c\u00E9dente."
+  },
+  {
+    "English": "* **token** is your personal access token. To generate a token, see [Databricks personal access token authentication](https://docs.databricks.com/en/dev-tools/auth.html#databricks-personal-access-token-authentication)",
+    "French": "**token** est votre jeton d\u0027acc\u00E8s personnel. Pour g\u00E9n\u00E9rer un jeton, voir [Databricks personal access token authentication](https://docs.databricks.com/en/dev-tools/auth.html#databricks-personal-access-token-authentication)"
+  },
+  {
+    "English": "* **jobs-api-version** should remain unchanged.",
+    "French": "**jobs-api-version** doit rester inchang\u00E9."
+  },
+  {
+    "English": "After completing these steps, click **Configure** again and access your saved **[DEFAULT]** profile. Databricks will connect automatically.",
+    "French": "Apr\u00E8s avoir effectu\u00E9 ces \u00E9tapes, cliquez \u00E0 nouveau sur **Configurer** et acc\u00E9dez \u00E0 votre profil **[DEFAULT]** sauvegard\u00E9. Databricks se connectera automatiquement."
+  },
+  {
+    "English": "## Run Local Code",
+    "French": "## Ex\u00E9cuter le code local"
+  },
+  {
+    "English": "\u003E **NOTE:** You must open a folder to use this part of the extension. To do so, click File \u003E Open Folder and select the folder where you keep your code.",
+    "French": "**NOTE:** Vous devez ouvrir un dossier pour utiliser cette partie de l\u0027extension. Pour ce faire, cliquez sur Fichier \u003E Ouvrir un dossier et s\u00E9lectionnez le dossier dans lequel vous conservez votre code."
+  },
+  {
+    "English": "### Attach a Cluster",
+    "French": "### Attacher un cluster"
+  },
+  {
+    "English": "Before running code, you must attach a cluster.",
+    "French": "Avant d\u0027ex\u00E9cuter le code, vous devez attacher un cluster."
+  },
+  {
+    "English": "1. Open the **Databricks** icon in the left navigation bar.",
+    "French": "1. Ouvrez l\u0027ic\u00F4ne **Databricks** dans la barre de navigation de gauche."
+  },
+  {
+    "English": "1. If no cluster is attached, hover over the **Cluster** bar and click **Configure Cluster**, as shown in the screenshot below.",
+    "French": "1. Si aucun cluster n\u0027est attach\u00E9, survolez la barre **Cluster** et cliquez sur **Configure Cluster**, comme indiqu\u00E9 dans la capture d\u0027\u00E9cran ci-dessous."
+  },
+  {
+    "English": "![Databricks extension](./vscode_databricks_3.png)",
+    "French": "![Extension Databricks](./vscode_databricks_3.png)"
+  },
+  {
+    "English": "1. From the dropdown, select the cluster you want to attach, as shown in the screenshot below.",
+    "French": "1. Dans la liste d\u00E9roulante, s\u00E9lectionnez le cluster que vous souhaitez attacher, comme indiqu\u00E9 dans la capture d\u0027\u00E9cran ci-dessous."
+  },
+  {
+    "English": "![Databricks extension](./vscode_databricks_4.png)",
+    "French": "![Extension Databricks](./vscode_databricks_4.png)"
+  },
+  {
+    "English": "1. You can now start the cluster from the extension.",
+    "French": "1. Vous pouvez maintenant d\u00E9marrer le cluster \u00E0 partir de l\u0027extension."
+  },
+  {
+    "English": "\u003E **NOTE:** You cannot create a cluster in the extension. You must create it in Databricks itself.",
+    "French": "**NOTE:** Vous ne pouvez pas cr\u00E9er un cluster dans l\u0027extension. Vous devez le cr\u00E9er dans Databricks lui-m\u00EAme."
+  },
+  {
+    "English": "### Writing Your Code",
+    "French": "### \u00C9crire votre code"
+  },
+  {
+    "English": "Any \u0060.py\u0060 file works, but you can format them to leverage the notebook functionality of Databricks.",
+    "French": "N\u0027importe quel fichier \u0060.py\u0060 fonctionne, mais vous pouvez les formater pour tirer parti de la fonctionnalit\u00E9 notebook de Databricks."
+  },
+  {
+    "English": "To use a notebook, put \u0060# Databricks notebook source\u0060 at the top of your \u0060.py\u0060 file. This tells Databricks to treat the file as a notebook. You can then use the following commands to control the notebook:",
+    "French": "Pour utiliser un notebook, ajoutez \u0060# Databricks notebook source\u0060 au d\u00E9but de votre fichier \u0060.py\u0060. Cela indique \u00E0 Databricks de traiter le fichier comme un notebook. Vous pouvez alors utiliser les commandes suivantes pour contr\u00F4ler le notebook :"
+  },
+  {
+    "English": "* \u0060# COMMAND ----------\u0060 creates a new cell.",
+    "French": "* \u0060# COMMAND ----------\u0060 cr\u00E9e une nouvelle cellule."
+  },
+  {
+    "English": "* \u0060# MAGIC %md\u0060 creates a markdown cell.",
+    "French": "* \u0060# MAGIC %md\u0060 cr\u00E9e une cellule markdown."
+  },
+  {
+    "English": "* \u0060# MAGIC %sql\u0060 creates a SQL cell.",
+    "French": "* \u0060# MAGIC %sql\u0060 cr\u00E9e une cellule SQL."
+  },
+  {
+    "English": "* \u0060# MAGIC %scala\u0060 creates a Scala cell.",
+    "French": "* \u0060# MAGIC %scala\u0060 cr\u00E9e une cellule Scala."
+  },
+  {
+    "English": "* \u0060# MAGIC %r\u0060 creates an R cell.",
+    "French": "* \u0060# MAGIC %r\u0060 cr\u00E9e une cellule R."
+  },
+  {
+    "English": "* \u0060# MAGIC %python\u0060 creates a Python cell.",
+    "French": "* \u0060# MAGIC %python\u0060 cr\u00E9e une cellule Python."
+  },
+  {
+    "English": "\u003E **NOTE:** You should ensure that any libraries you import are installed on the cluster. You can do this by including the \u0060pip install\u0060 command in your code or by installing the libraries on the cluster itself.",
+    "French": "**NOTE:** Vous devez vous assurer que toutes les biblioth\u00E8ques que vous importez sont install\u00E9es sur le cluster. Vous pouvez le faire en incluant la commande \u0060pip install\u0060 dans votre code ou en installant les biblioth\u00E8ques sur le cluster lui-m\u00EAme."
+  },
+  {
+    "English": "### Run Local Code on a Cluster",
+    "French": "### Ex\u00E9cuter du code local sur un cluster"
+  },
+  {
+    "English": "1. Open the **Explorer** menu in the left navigation bar.",
+    "French": "1. Ouvrez le menu **Explorer** dans la barre de navigation gauche."
+  },
+  {
+    "English": "1. Navigate to the file you want to run. You can use any time of file that you can run in Databricks (R, Python, etc).",
+    "French": "1. Naviguez jusqu\u0027au fichier que vous souhaitez ex\u00E9cuter. Vous pouvez utiliser n\u0027importe quel fichier que vous pouvez ex\u00E9cuter dans Databricks (R, Python, etc.)."
+  },
+  {
+    "English": "1. Ensure the cluster is started, then right-click the file and select **Run File as Workflow in Databricks**, as shown in the screenshot below.",
+    "French": "1. Assurez-vous que le cluster est d\u00E9marr\u00E9, puis faites un clic droit sur le fichier et s\u00E9lectionnez **Run File as Workflow in Databricks**, comme indiqu\u00E9 dans la capture d\u0027\u00E9cran ci-dessous."
+  },
+  {
+    "English": "![Databricks extension](./vscode_databricks_5.png)",
+    "French": "![Extension Databricks](./vscode_databricks_5.png)"
+  },
+  {
+    "English": "1. The file will run on the cluster. You can see the results in the **Output** window.",
+    "French": "1. Le fichier sera ex\u00E9cut\u00E9 sur le cluster. Vous pouvez voir les r\u00E9sultats dans la fen\u00EAtre **Sortie**."
+  },
+  {
+    "English": "![Databricks extension](./vscode_databricks_6.png)",
+    "French": "![Extension Databricks](./vscode_databricks_6.png)"
+  },
+  {
+    "English": "\u003E **NOTE:** Your code will get copied to Databricks under the \u0060.ide\u0060 folder in your workspace.",
+    "French": "**NOTE:** Votre code sera copi\u00E9 dans Databricks sous le dossier \u0060.ide\u0060 dans votre espace de travail."
+  },
+  {
+    "English": "\u003Ca href=\u0022fsdhdh://storage\u0022 class=\u0022mud-button-root mud-button mud-button-filled mud-button-filled-primary mud-button-filled-size-small mud-ripple\u0022\u003EOpen the uploader (if already installed)\u003C/a\u003E",
+    "French": "\u003Ca href=\u0022fsdhdh://storage\u0022 class=\u0022mud-button-root mud-button mud-button-filled mud-button-filled-primary mud-button-filled-size-small mud-ripple\u0022\u003EOuvrir l\u0027uploader (s\u0027il est d\u00E9j\u00E0 install\u00E9)\u003C/a\u003E"
+  },
+  {
+    "English": "This tutorial details how to forecast sea surface temperatures using AutoML and Databricks.",
+    "French": "Ce tutoriel explique comment pr\u00E9voir les temp\u00E9ratures de surface de la mer \u00E0 l\u0027aide d\u0027AutoML et de Databricks."
+  },
+  {
+    "English": "How to use the VS Code Extension with Databricks",
+    "French": "Comment utiliser l\u0027extension VS Code avec Databricks"
+  },
+  {
+    "English": "AzCopy is a Microsoft tool designed for transfering large files using the command line.",
+    "French": "AzCopy est un outil Microsoft con\u00E7u pour transf\u00E9rer des fichiers volumineux \u00E0 l\u0027aide de la ligne de commande."
+  },
+  {
+    "English": "Torchvision is a python package for image recognition and transformations.",
+    "French": "Torchvision est un paquetage python pour la reconnaissance et la transformation d\u0027images."
+  },
+  {
+    "English": "This tutorial shows how to leverage FSDH for sharing files with multiple GoC members and departments.",
+    "French": "Ce tutoriel montre comment tirer parti de la DHSF pour partager des fichiers avec plusieurs membres et d\u00E9partements du GC."
   }
 ]

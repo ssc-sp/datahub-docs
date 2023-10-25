@@ -474,5 +474,25 @@
   {
     "English": "Update-documentation.md",
     "French": "Mise-\u00E0-jour-de-la-documentation.md"
+  },
+  {
+    "English": "migrate-to-versioning.md",
+    "French": "migrer-vers-le-versionnage.md"
+  },
+  {
+    "English": "AWS-storage-Databricks.md",
+    "French": "Stockage-AWS-Databricks.md"
+  },
+  {
+    "English": "Azure-storage-Databricks.md",
+    "French": "Stockage-Azure-Databricks.md"
+  },
+  {
+    "English": "GCP-storage-Databricks.md",
+    "French": "Stockage-GCP-Databricks.md"
+  },
+  {
+    "English": "vscode_extension.md",
+    "French": "extension-vscode.md"
   }
 ]

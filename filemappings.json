@@ -85,6 +85,21 @@
     "Fr": "/fr/AdminGuide/_sidebar.md"
   },
   {
+    "Id": "074adc76-cedc-f829-bbc3-812c1f1d9aa4",
+    "En": "/Banners/AWS-storage-Databricks.md",
+    "Fr": "/fr/Banners/Stockage-AWS-Databricks.md"
+  },
+  {
+    "Id": "87138284-0422-67ab-700b-14bbd32c8ab5",
+    "En": "/Banners/Azure-storage-Databricks.md",
+    "Fr": "/fr/Banners/Stockage-Azure-Databricks.md"
+  },
+  {
+    "Id": "17cf993e-a99d-14ee-5a06-d4bc32c8a497",
+    "En": "/Banners/GCP-storage-Databricks.md",
+    "Fr": "/fr/Banners/Stockage-GCP-Databricks.md"
+  },
+  {
     "Id": "c263639f-efee-a913-dbde-5710b896eabd",
     "En": "/Banners/Landing.md",
     "Fr": "/fr/Banners/Atterrissage.md"
@@ -430,11 +445,6 @@
     "Fr": "/fr/UserGuide/Databricks/Demande-de-session-databricks.md"
   },
   {
-    "Id": "11ebdf71-e82c-644d-8801-14d08b4e54a1",
-    "En": "/UserGuide/Databricks/Request-databricks.md",
-    "Fr": "/fr/UserGuide/Databricks/Demander-des-databricks.md"
-  },
-  {
     "Id": "e22c11e6-467f-0c87-6b4a-868ddd2d6620",
     "En": "/UserGuide/Databricks/vscode_extension.md",
     "Fr": "/fr/UserGuide/Databricks/extension-vscode.md"
@@ -568,11 +578,6 @@
     "Id": "5ae94f30-cbef-8a6a-f719-5a93748ace0b",
     "En": "/UserGuide/Workspace/geospatial-workload.md",
     "Fr": "/fr/UserGuide/Workspace/charge-de-travail-g\u00E9ospatiale.md"
-  },
-  {
-    "Id": "12a8db11-b5b0-6adc-c029-cd5886421015",
-    "En": "/UserGuide/Workspace/Monitor-Cloud-Consumption.md",
-    "Fr": "/fr/UserGuide/Workspace/Surveiller-la-consommation-des-nuages.md"
   },
   {
     "Id": "e2f1d03b-45ed-f38d-f362-88512341b437",
