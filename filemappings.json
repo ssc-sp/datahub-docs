@@ -540,6 +540,26 @@
     "Fr": "/fr/UserGuide/Storage/Chargeur-de-bureau.md"
   },
   {
+    "Id": "b12c9172-e131-4c8d-8e05-ffeb333de1d2",
+    "En": "/UserGuide/Storage/Import-AWS-Storage.md",
+    "Fr": "/fr/UserGuide/Storage/Importer-le-stockage-AWS.md"
+  },
+  {
+    "Id": "61559cec-05c1-0a78-ce35-89fcd58a4267",
+    "En": "/UserGuide/Storage/Import-Azure-Storage.md",
+    "Fr": "/fr/UserGuide/Storage/Importer-le-stockage-Azure.md"
+  },
+  {
+    "Id": "8876f9a6-750b-88a5-a348-f0ba904d1680",
+    "En": "/UserGuide/Storage/Import-GCP-Storage.md",
+    "Fr": "/fr/UserGuide/Storage/Importer-le-stockage-GCP.md"
+  },
+  {
+    "Id": "9539172c-ad75-7603-66fe-99eddd2bc124",
+    "En": "/UserGuide/Storage/Import-Storage.md",
+    "Fr": "/fr/UserGuide/Storage/Stockage-des-importations.md"
+  },
+  {
     "Id": "6391e56a-0827-2dfb-ecb6-8830d72947c4",
     "En": "/UserGuide/Storage/Use-AzCopy.md",
     "Fr": "/fr/UserGuide/Storage/Utilisez-AzCopy.md"
