@@ -29,6 +29,7 @@
 - Stockage
   - [Qu'est-ce que Azure Storage Explorer ?](/fr/UserGuide/Storage/Datahub-AzureStorage.md)
   - [Utiliser AzCopy pour interagir avec le compte de stockage Azure](/fr/UserGuide/Storage/Utilisez-AzCopy.md)
+  - [Stockage des importations](/fr/UserGuide/Storage/Stockage-des-importations.md)
 
 - Databricks
   - [Qu'est-ce qu'Azure Databricks ?](/fr/UserGuide/Databricks/Databricks.md)
