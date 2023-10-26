@@ -12,29 +12,29 @@ To import an AWS S3 bucket, you will need to create a user with the appropriate 
 
 3. In the **Set permissions** step of user creation, assign an appropriate policy to the user. **AmazonS3FullAccess** will give full rights to the user, but a more restrictive policy such as the example below may be more appropriate for your organization.  
 ![Assign policy](import_aws-05.png)  
-    ```
-    {
-        "Version": "2012-10-17",
-        "Statement": [
-            {
-                "Effect": "Allow",
-                "Principal": "*",
-                "Action": [
-                    "s3:GetObject",
-                    "s3:PutObject",
-                    "s3:DeleteObject",
-                    "s3:ListBucket"
-                ],
-                "Resource": [
-                    "arn:aws:s3:::<your-bucket-name>/*",
-                    "arn:aws:s3:::<your-bucket-name>"
-                ]
-            }
-        ]
-    }
-    ```
-    After reviewing the information, click **Create user** to complete this step.  
-    ![Review and create](import_aws-06.png)
+```
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": [
+                "s3:GetObject",
+                "s3:PutObject",
+                "s3:DeleteObject",
+                "s3:ListBucket"
+            ],
+            "Resource": [
+                "arn:aws:s3:::<your-bucket-name>/*",
+                "arn:aws:s3:::<your-bucket-name>"
+            ]
+        }
+    ]
+}
+```
+After reviewing the information, click **Create user** to complete this step.  
+![Review and create](import_aws-06.png)
 
 4. Once the user is created, find it in the Users list and click on the username. In  the **Summary** section, under **Access key 1**, click **Create access key**  
 ![Find user in list](import_aws-07.png)

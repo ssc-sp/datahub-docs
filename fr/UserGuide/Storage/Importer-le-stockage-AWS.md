@@ -18,29 +18,29 @@ Pour importer un seau AWS S3, vous devez créer un utilisateur disposant des aut
 
 3. Dans l'étape **Set permissions** de la création d'un utilisateur, attribuez une politique appropriée à l'utilisateur. **AmazonS3FullAccess** donnera tous les droits à l'utilisateur, mais une politique plus restrictive, telle que l'exemple ci-dessous, peut être plus appropriée pour votre organisation.  
 ![Politique d'affectation](import_aws-05.png)
-    ```
-    {
-        "Version": "2012-10-17",
-        "Statement": [
-            {
-                "Effect": "Allow",
-                "Principal": "*",
-                "Action": [
-                    "s3:GetObject",
-                    "s3:PutObject",
-                    "s3:DeleteObject",
-                    "s3:ListBucket"
-                ],
-                "Resource": [
-                    "arn:aws:s3:::<nom-de-votre-bucket>/*",
-                    "arn:aws:s3:::<nom-de-votre-bucket>"
-                ]
-            }
-        ]
-    }
-    ```
-    Après avoir examiné les informations, cliquez sur **Créer un utilisateur** pour terminer cette étape.  
-    ![Réviser et créer](import_aws-06.png)
+```
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": [
+                "s3:GetObject",
+                "s3:PutObject",
+                "s3:DeleteObject",
+                "s3:ListBucket"
+            ],
+            "Resource": [
+                "arn:aws:s3:::<nom-de-votre-bucket>/*",
+                "arn:aws:s3:::<nom-de-votre-bucket>"
+            ]
+        }
+    ]
+}
+```
+Après avoir examiné les informations, cliquez sur **Créer un utilisateur** pour terminer cette étape.  
+![Réviser et créer](import_aws-06.png)
 
 4. Une fois l'utilisateur créé, trouvez-le dans la liste des utilisateurs et cliquez sur le nom d'utilisateur. Dans la section **Résumé**, sous **Clé d'accès 1**, cliquez sur **Créer une clé d'accès**.
 ![Trouver un utilisateur dans la liste](import_aws-07.png)

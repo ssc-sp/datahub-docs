@@ -21,8 +21,5 @@ Lorsque vous ajoutez ou modifiez un compte de stockage, cette boîte de dialogue
 
 1. Le **Nom convivial** s'affichera dans le sélecteur de stockage s'il est défini. Sinon, le sélecteur de stockage et le menu afficheront le nom du compte (Azure, GCP) ou le nom du bucket (AWS).
 2. Le compte doit être **activé** pour pouvoir être utilisé dans l'explorateur de fichiers. Les comptes nouvellement ajoutés sont activés par défaut, mais s'il y a une erreur d'accès au compte, ils seront automatiquement désactivés et devront être réactivés par un administrateur.
-3. Les identifiants de connexion sont spécifiques à chaque fournisseur de services en nuage. Pour plus de détails, veuillez consulter les pages suivantes :
-    - [Importation du stockage Azure](/fr/UserGuide/Storage/Importer-le-stockage-Azure.md)
-    - [Importation du stockage AWS](/fr/UserGuide/Storage/Importer-le-stockage-AWS.md)
-    - [Importation du stockage Google Cloud Platform](/fr/UserGuide/Storage/Importer-le-stockage-GCP.md)
+3. Les identifiants de connexion sont spécifiques à chaque fournisseur de services en nuage. Pour plus de détails, veuillez sélectionner les guides spécifiques à chaque fournisseur de cloud dans la barre latérale.
 4. Avant d'ajouter un fournisseur de stockage en nuage, vous devez vous assurer qu'il ne contient pas de données classifiées en cochant cette case.
