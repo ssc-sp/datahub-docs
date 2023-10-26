@@ -30,6 +30,9 @@
   - [What is Azure Storage Explorer?](/UserGuide/Storage/Datahub-AzureStorage.md)
   - [Use AzCopy to Interact with Azure Storage Account](/UserGuide/Storage/Use-AzCopy.md)
   - [Import Storage](/UserGuide/Storage/Import-Storage.md)
+    - [Import Azure Storage](/UserGuide/Storage/Import-Azure-Storage.md)
+    - [Import AWS Storage](/UserGuide/Storage/Import-AWS-Storage.md)
+    - [Import Google Cloud Platform Storage](/UserGuide/Storage/Import-GCP-Storage.md)
 
 - Databricks
   - [What is Azure Databricks?](/UserGuide/Databricks/Databricks.md)
