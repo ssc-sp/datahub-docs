@@ -1,6 +1,6 @@
 - [Federal Science DataHub User Guide](/UserGuide/User-Guide.md)
 
-- Learn
+- Learn [](Icon:LibraryBooks)
   - Load and Share Data
     - [How to access your storage account in Databricks](/UserGuide/Databricks/Access-your-storage-account-in-Databricks.md)
     - [How to use AzCopy to transfer large files](/UserGuide/Databricks/AzCopy.md)      
@@ -49,7 +49,7 @@
     - [Digital Elevation Models (DEM) Tools and Raster Calculator](https://www.statcan.gc.ca/en/wtc/online-lectures/qgis/2020020)
 
 
-- Workspaces
+- Workspaces [](Icon:Workspaces)
   - [Account Registration](/UserGuide/Preregistration/Preregistration.md)
   - [Create a Workspace](/UserGuide/GettingStarted/Creating-a-workspace.md)
   - [Complete Metadata](/UserGuide/GettingStarted/Complete-metadata.md)
@@ -61,7 +61,7 @@
   - [Request Support](/UserGuide/GettingStarted/Logging-a-ticket.md)
   - [Metadata Profile Details](/UserGuide/Workspace/Workspace-Profile-Metadata.md)
 
-- Support
+- Support [](Icon:HelpOutline)
   - [FSDH Support Request Form](/UserGuide/FSDH-Support-Request-Form.md)
   - [Request a Session with a Databricks Expert](/UserGuide/Databricks/Request-databricks-session.md)
   - [Request Support](/UserGuide/GettingStarted/Logging-a-ticket.md)
