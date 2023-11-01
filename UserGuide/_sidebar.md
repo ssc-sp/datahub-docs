@@ -33,7 +33,7 @@
   - Working in R
     - [Working with R and Python Modules](/UserGuide/Databricks/Modules.md)
 
-  - Integrate Machine Learning
+  - Machine Learning
     - [How to use MLFlow and AutoML for Experiments](/UserGuide/Databricks/Experiments-Automl.md)
     - [Temperature Forecasting with Databricks Example](/UserGuide/Tutorials/SST-Forecasting.md)
     - [Torchvision for Dash Cam Video Analysis in Databricks](/UserGuide/Tutorials/Torchvision.md)
@@ -41,11 +41,8 @@
   - Scheduling Jobs
     - [How to schedule Jobs in Databricks](/UserGuide/Databricks/Workflows.md)
 
-  - Web Applications and DataHub
+  - Web Applications
     - [Develop, Build and deploy web applications in DataHub](/UserGuide/Tutorials/Build-deploy-webapp.md)
-
-  - Additional help
-    - [Request a Session with a Databricks Expert](/UserGuide/Databricks/Request-databricks-session.md)
   
   - Geospatial
     - [QGIS](https://www.statcan.gc.ca/en/wtc/online-lectures/qgis/2020020)
@@ -63,8 +60,9 @@
   - [Request Support](/UserGuide/GettingStarted/Logging-a-ticket.md)
   - [Metadata Profile Details](/UserGuide/Workspace/Workspace-Profile-Metadata.md)
 
-- [Frequently Asked Questions (FAQs)](/UserGuide/FSDH-FAQs.md)
-
-- [FSDH Support Request Form](/UserGuide/FSDH-Support-Request-Form.md)
-
-- [DataHub Release Notes](/UserGuide/Release-Notes.md)
+- Support
+  - [FSDH Support Request Form](/UserGuide/FSDH-Support-Request-Form.md)
+  - [Request a Session with a Databricks Expert](/UserGuide/Databricks/Request-databricks-session.md)
+  - [Request Support](/UserGuide/GettingStarted/Logging-a-ticket.md)
+  - [Frequently Asked Questions (FAQs)](/UserGuide/FSDH-FAQs.md)
+  - [DataHub Release Notes](/UserGuide/Release-Notes.md)
