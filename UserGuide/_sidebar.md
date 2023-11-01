@@ -1,17 +1,6 @@
 - [Federal Science DataHub User Guide](/UserGuide/User-Guide.md)
 
-- Navigating in DataHub
-  - [Account Registration](/UserGuide/Preregistration/Preregistration.md)
-  - [Create a Workspace](/UserGuide/GettingStarted/Creating-a-workspace.md)
-  - [Complete Metadata](/UserGuide/GettingStarted/Complete-metadata.md)
-  - [Request Storage](/UserGuide/GettingStarted/Request-storage.md)
-  - [Request Databricks](/UserGuide/GettingStarted/Request-databricks.md)
-  - [Invite a User](/UserGuide/GettingStarted/Invite-a-user.md)
-  - [Change a User's Role](/UserGuide/GettingStarted/Change-a-user-role.md)
-  - [Monitor Costs](/UserGuide/GettingStarted/Monitor-workspace-costs.md)
-  - [Request Support](/UserGuide/GettingStarted/Logging-a-ticket.md)
-
-- Working in DataHub
+- Learn
   - Load and Share Data
     - [How to access your storage account in Databricks](/UserGuide/Databricks/Access-your-storage-account-in-Databricks.md)
     - [How to use AzCopy to transfer large files](/UserGuide/Databricks/AzCopy.md)      
@@ -52,7 +41,7 @@
   - Scheduling Jobs
     - [How to schedule Jobs in Databricks](/UserGuide/Databricks/Workflows.md)
 
-  - Web Applications
+  - Web Applications and DataHub
     - [Develop, Build and deploy web applications in DataHub](/UserGuide/Tutorials/Build-deploy-webapp.md)
 
   - Additional help
@@ -61,7 +50,17 @@
   - Geospatial
     - [QGIS](https://www.statcan.gc.ca/en/wtc/online-lectures/qgis/2020020)
 
-- Workspace
+
+- Workspaces
+  - [Account Registration](/UserGuide/Preregistration/Preregistration.md)
+  - [Create a Workspace](/UserGuide/GettingStarted/Creating-a-workspace.md)
+  - [Complete Metadata](/UserGuide/GettingStarted/Complete-metadata.md)
+  - [Request Storage](/UserGuide/GettingStarted/Request-storage.md)
+  - [Request Databricks](/UserGuide/GettingStarted/Request-databricks.md)
+  - [Invite a User](/UserGuide/GettingStarted/Invite-a-user.md)
+  - [Change a User's Role](/UserGuide/GettingStarted/Change-a-user-role.md)
+  - [Monitor Costs](/UserGuide/GettingStarted/Monitor-workspace-costs.md)
+  - [Request Support](/UserGuide/GettingStarted/Logging-a-ticket.md)
   - [Metadata Profile Details](/UserGuide/Workspace/Workspace-Profile-Metadata.md)
 
 - [Frequently Asked Questions (FAQs)](/UserGuide/FSDH-FAQs.md)
