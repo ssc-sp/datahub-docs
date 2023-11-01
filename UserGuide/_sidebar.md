@@ -12,6 +12,7 @@
     - [Import AWS Storage](/UserGuide/Storage/Import-AWS-Storage.md)
     - [Import Google Cloud Platform Storage](/UserGuide/Storage/Import-GCP-Storage.md)
     - [Access your storage account in Databricks](/UserGuide/Databricks/Access-your-storage-account-in-Databricks.md)
+    - [Add data UI in Databricks](https://learn.microsoft.com/en-us/azure/databricks/ingestion/add-data/)
 
   - Databricks and Python Notebooks  
     - [What is Azure Databricks?](/UserGuide/Databricks/Databricks.md)
@@ -45,7 +46,7 @@
     - [Develop, Build and deploy web applications in DataHub](/UserGuide/Tutorials/Build-deploy-webapp.md)
   
   - Geospatial
-    - [QGIS](https://www.statcan.gc.ca/en/wtc/online-lectures/qgis/2020020)
+    - [Digital Elevation Models (DEM) Tools and Raster Calculator](https://www.statcan.gc.ca/en/wtc/online-lectures/qgis/2020020)
 
 
 - Workspaces
