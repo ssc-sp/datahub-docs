@@ -9,7 +9,7 @@ draft: true
 Pour importer un seau AWS S3, vous devez créer un utilisateur disposant des autorisations appropriées sur le seau et générer une clé d'accès pour cet utilisateur.
 
 1. Dans le menu **Services** de la console AWS, naviguez jusqu'à **Sécurité, identité et conformité**, et **IAM** dans cette section.  
-![IAM dans le menu de service](import_aws-01.png)
+IAM dans le menu de service](import_aws-01.png)
 
 2. Dans la section **Utilisateurs**, créez un nouvel utilisateur.  
 ![Section utilisateurs](import_aws-02.png)
@@ -20,20 +20,20 @@ Pour importer un seau AWS S3, vous devez créer un utilisateur disposant des aut
 ![Politique d'affectation](import_aws-05.png)
 ```
 {
-    "Version": "2012-10-17",
-    "Statement": [
+    "Version" : "2012-10-17",
+    "Déclaration" : [
         {
-            "Effect": "Allow",
-            "Principal": "*",
-            "Action": [
+            "Effet" : "Autoriser",
+            "Principal" : "*",
+            "Action" : [
                 "s3:GetObject",
                 "s3:PutObject",
                 "s3:DeleteObject",
                 "s3:ListBucket"
             ],
-            "Resource": [
+            "Ressource" : [
                 "arn:aws:s3:::<nom-de-votre-bucket>/*",
-                "arn:aws:s3:::<nom-de-votre-bucket>"
+                "arn:aws:s3:::<votre-nom-de-bucket>"
             ]
         }
     ]

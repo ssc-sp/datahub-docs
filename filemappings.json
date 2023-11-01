@@ -440,6 +440,11 @@
     "Fr": "/fr/UserGuide/Databricks/Int\u00E9gration-de-Git.md"
   },
   {
+    "Id": "0849d3c5-1de1-dfbf-19c3-f59d2c0bbfaa",
+    "En": "/UserGuide/Databricks/Modules.md",
+    "Fr": "/fr/UserGuide/Databricks/Modules.md"
+  },
+  {
     "Id": "0e3ec29e-d830-839b-b107-b8ae79740931",
     "En": "/UserGuide/Databricks/Request-databricks-session.md",
     "Fr": "/fr/UserGuide/Databricks/Demande-de-session-databricks.md"
@@ -540,22 +545,22 @@
     "Fr": "/fr/UserGuide/Storage/Chargeur-de-bureau.md"
   },
   {
-    "Id": "b12c9172-e131-4c8d-8e05-ffeb333de1d2",
+    "Id": "d00f66cb-faa9-2d21-e956-81f9710e0330",
     "En": "/UserGuide/Storage/Import-AWS-Storage.md",
     "Fr": "/fr/UserGuide/Storage/Importer-le-stockage-AWS.md"
   },
   {
-    "Id": "61559cec-05c1-0a78-ce35-89fcd58a4267",
+    "Id": "7ede589c-6bc4-8945-39d5-080f1d6e7d97",
     "En": "/UserGuide/Storage/Import-Azure-Storage.md",
-    "Fr": "/fr/UserGuide/Storage/Importer-le-stockage-Azure.md"
+    "Fr": "/fr/UserGuide/Storage/Importer-Azure-Storage.md"
   },
   {
-    "Id": "8876f9a6-750b-88a5-a348-f0ba904d1680",
+    "Id": "40a8036f-95d8-faaf-5275-b69a5e3f9985",
     "En": "/UserGuide/Storage/Import-GCP-Storage.md",
     "Fr": "/fr/UserGuide/Storage/Importer-le-stockage-GCP.md"
   },
   {
-    "Id": "9539172c-ad75-7603-66fe-99eddd2bc124",
+    "Id": "acc96308-6b8c-0812-6a88-1938ab7337c3",
     "En": "/UserGuide/Storage/Import-Storage.md",
     "Fr": "/fr/UserGuide/Storage/Stockage-des-importations.md"
   },

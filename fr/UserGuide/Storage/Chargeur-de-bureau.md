@@ -12,7 +12,7 @@ L'uploader de bureau est une simple application Windows native qui peut être ut
 
 ## Installer le  Téléchargeur de bureau
 
-L'appinstaller ci-dessous installera l'application et la mettra automatiquement à jour sur les ordinateurs de bureau modernes Windows 10 et Windows 11. L'installation utilise un [msix packaging] moderne (https://learn.microsoft.com/en-ca/windows/msix/overview) et ne nécessite pas de privilèges administratifs.
+L'appinstaller ci-dessous installera l'application et la mettra automatiquement à jour sur les ordinateurs de bureau modernes Windows 10 et Windows 11. L'installation utilise un [msix packaging] moderne (https://learn.microsoft.com/fr-ca/windows/msix/overview) et ne nécessite pas de privilèges administratifs.
 
 ### Étape 1 : Télécharger le fichier d'installation de l'application
 

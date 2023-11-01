@@ -18818,5 +18818,437 @@
   {
     "English": "This tutorial shows how to leverage FSDH for sharing files with multiple GoC members and departments.",
     "French": "Ce tutoriel montre comment tirer parti de la DHSF pour partager des fichiers avec plusieurs membres et d\u00E9partements du GC."
+  },
+  {
+    "English": "Modules",
+    "French": "Modules"
+  },
+  {
+    "English": "https://learn.microsoft.com/en-us/azure/databricks/files/workspace-modules",
+    "French": "https://learn.microsoft.com/en-us/azure/databricks/files/workspace-modules"
+  },
+  {
+    "English": "Import AWS Storage",
+    "French": "Importer le stockage AWS"
+  },
+  {
+    "English": "# Importing an Existing AWS S3 Bucket",
+    "French": "# Importation d\u0027un Bucket AWS S3 existant"
+  },
+  {
+    "English": "To import an AWS S3 bucket, you will need to create a user with the appropriate permissions on the bucket, and generate an access key for that user.",
+    "French": "Pour importer un seau AWS S3, vous devez cr\u00E9er un utilisateur disposant des autorisations appropri\u00E9es sur le seau et g\u00E9n\u00E9rer une cl\u00E9 d\u0027acc\u00E8s pour cet utilisateur."
+  },
+  {
+    "English": "1. Using the **Services** menu in the AWS console, navigate to **Security, Identity \u0026 Compliance**, and **IAM** under that section.  ",
+    "French": "1. Dans le menu **Services** de la console AWS, naviguez jusqu\u0027\u00E0 **S\u00E9curit\u00E9, identit\u00E9 et conformit\u00E9**, et **IAM** dans cette section.  "
+  },
+  {
+    "English": "![IAM in service menu](import_aws-01.png)",
+    "French": "IAM dans le menu de service](import_aws-01.png)"
+  },
+  {
+    "English": "2. In the **Users** section, create a new user.  ",
+    "French": "2. Dans la section **Utilisateurs**, cr\u00E9ez un nouvel utilisateur.  "
+  },
+  {
+    "English": "![Users section](import_aws-02.png)",
+    "French": "![Section utilisateurs](import_aws-02.png)"
+  },
+  {
+    "English": "![Create user](import_aws-03.png)",
+    "French": "![Cr\u00E9er un utilisateur](import_aws-03.png)"
+  },
+  {
+    "English": "![Assign user name](import_aws-04.png)",
+    "French": "![Attribuer un nom d\u0027utilisateur](import_aws-04.png)"
+  },
+  {
+    "English": "3. In the **Set permissions** step of user creation, assign an appropriate policy to the user. **AmazonS3FullAccess** will give full rights to the user, but a more restrictive policy such as the example below may be more appropriate for your organization.  ",
+    "French": "3. Dans l\u0027\u00E9tape **Set permissions** de la cr\u00E9ation d\u0027un utilisateur, attribuez une politique appropri\u00E9e \u00E0 l\u0027utilisateur. **AmazonS3FullAccess** donnera tous les droits \u00E0 l\u0027utilisateur, mais une politique plus restrictive, telle que l\u0027exemple ci-dessous, peut \u00EAtre plus appropri\u00E9e pour votre organisation.  "
+  },
+  {
+    "English": "![Assign policy](import_aws-05.png)  ",
+    "French": "![Politique d\u0027affectation](import_aws-05.png)"
+  },
+  {
+    "English": "    \u0022Version\u0022: \u00222012-10-17\u0022,",
+    "French": "    \u0022Version\u0022 : \u00222012-10-17\u0022,"
+  },
+  {
+    "English": "    \u0022Statement\u0022: [",
+    "French": "    \u0022D\u00E9claration\u0022 : ["
+  },
+  {
+    "English": "            \u0022Effect\u0022: \u0022Allow\u0022,",
+    "French": "            \u0022Effet\u0022 : \u0022Autoriser\u0022,"
+  },
+  {
+    "English": "            \u0022Principal\u0022: \u0022*\u0022,",
+    "French": "            \u0022Principal\u0022 : \u0022*\u0022,"
+  },
+  {
+    "English": "            \u0022Action\u0022: [",
+    "French": "            \u0022Action\u0022 : ["
+  },
+  {
+    "English": "                \u0022s3:GetObject\u0022,",
+    "French": "                \u0022s3:GetObject\u0022,"
+  },
+  {
+    "English": "                \u0022s3:PutObject\u0022,",
+    "French": "                \u0022s3:PutObject\u0022,"
+  },
+  {
+    "English": "                \u0022s3:DeleteObject\u0022,",
+    "French": "                \u0022s3:DeleteObject\u0022,"
+  },
+  {
+    "English": "                \u0022s3:ListBucket\u0022",
+    "French": "                \u0022s3:ListBucket\u0022"
+  },
+  {
+    "English": "            ],",
+    "French": "            ],"
+  },
+  {
+    "English": "            \u0022Resource\u0022: [",
+    "French": "            \u0022Ressource\u0022 : ["
+  },
+  {
+    "English": "                \u0022arn:aws:s3:::\u003Cyour-bucket-name\u003E/*\u0022,",
+    "French": "                \u0022arn:aws:s3:::\u003Cnom-de-votre-bucket\u003E/*\u0022,"
+  },
+  {
+    "English": "                \u0022arn:aws:s3:::\u003Cyour-bucket-name\u003E\u0022",
+    "French": "                \u0022arn:aws:s3:::\u003Cvotre-nom-de-bucket\u003E\u0022"
+  },
+  {
+    "English": "            ]",
+    "French": "            ]"
+  },
+  {
+    "English": "    ]",
+    "French": "    ]"
+  },
+  {
+    "English": "After reviewing the information, click **Create user** to complete this step.  ",
+    "French": "Apr\u00E8s avoir examin\u00E9 les informations, cliquez sur **Cr\u00E9er un utilisateur** pour terminer cette \u00E9tape.  "
+  },
+  {
+    "English": "![Review and create](import_aws-06.png)",
+    "French": "![R\u00E9viser et cr\u00E9er](import_aws-06.png)"
+  },
+  {
+    "English": "4. Once the user is created, find it in the Users list and click on the username. In  the **Summary** section, under **Access key 1**, click **Create access key**  ",
+    "French": "4. Une fois l\u0027utilisateur cr\u00E9\u00E9, trouvez-le dans la liste des utilisateurs et cliquez sur le nom d\u0027utilisateur. Dans la section **R\u00E9sum\u00E9**, sous **Cl\u00E9 d\u0027acc\u00E8s 1**, cliquez sur **Cr\u00E9er une cl\u00E9 d\u0027acc\u00E8s**."
+  },
+  {
+    "English": "![Find user in list](import_aws-07.png)",
+    "French": "![Trouver un utilisateur dans la liste](import_aws-07.png)"
+  },
+  {
+    "English": "![Create access key](import_aws-08.png)",
+    "French": "![Cr\u00E9er une cl\u00E9 d\u0027acc\u00E8s](import_aws-08.png)"
+  },
+  {
+    "English": "5. Select **Other** as the use case. Optionally, set a description for the key to easily identify it, and click **Create access key**  ",
+    "French": "5. S\u00E9lectionnez **Autre** comme cas d\u0027utilisation. Si vous le souhaitez, d\u00E9finissez une description pour la cl\u00E9 afin de l\u0027identifier facilement, puis cliquez sur **Cr\u00E9er une cl\u00E9 d\u0027acc\u00E8s**"
+  },
+  {
+    "English": "![Access key use case](import_aws-09.png)",
+    "French": "![Cas d\u0027utilisation de la cl\u00E9 d\u0027acc\u00E8s](import_aws-09.png)"
+  },
+  {
+    "English": "![Key description](import_aws-10.png)",
+    "French": "![Description de la cl\u00E9](import_aws-10.png)"
+  },
+  {
+    "English": "6. Once the key is created, make sure to copy the **Access key** and **Secret access key**. You will not be able to retrieve the secret key after exiting from this screen and will have to create a new one if you lose it.  ",
+    "French": "6. Une fois la cl\u00E9 cr\u00E9\u00E9e, veillez \u00E0 copier la **cl\u00E9 d\u0027acc\u00E8s** et la **cl\u00E9 d\u0027acc\u00E8s secr\u00E8te**. Vous ne pourrez pas r\u00E9cup\u00E9rer la cl\u00E9 secr\u00E8te apr\u00E8s avoir quitt\u00E9 cet \u00E9cran et devrez en cr\u00E9er une nouvelle si vous la perdez.  "
+  },
+  {
+    "English": "![Access key](import_aws-11.png)",
+    "French": "![Cl\u00E9 d\u0027acc\u00E8s](import_aws-11.png)"
+  },
+  {
+    "English": "You can now enter this information, along with the bucket name and region, into the configuration dialog in Datahub.  ",
+    "French": "Vous pouvez maintenant saisir ces informations, ainsi que le nom du seau et la r\u00E9gion, dans la bo\u00EEte de dialogue de configuration de Datahub.  "
+  },
+  {
+    "English": "![AWS configuration dialog](import_aws-12.png)",
+    "French": "![Dialogue de configuration AWS](import_aws-12.png)"
+  },
+  {
+    "English": "Import Azure Storage",
+    "French": "Importer Azure Storage"
+  },
+  {
+    "English": "# Importing an Existing Azure Storage Account",
+    "French": "# Importation d\u0027un compte de stockage Azure existant"
+  },
+  {
+    "English": "Importing your own Azure Storage account in Datahub\u0027s File Explorer interface is quite simple. You only need the account name and an access key to set it up. To get this information, use the following steps.",
+    "French": "L\u0027importation de votre propre compte Azure Storage dans l\u0027interface de l\u0027explorateur de fichiers de Datahub est assez simple. Vous avez seulement besoin du nom du compte et d\u0027une cl\u00E9 d\u0027acc\u00E8s pour le configurer. Pour obtenir ces informations, suivez les \u00E9tapes suivantes."
+  },
+  {
+    "English": "1. Navigate to the storage account in your Azure Portal, and select **Access keys** under the **Security \u002B networking** section in the left menu.  ",
+    "French": "1. Naviguez jusqu\u0027au compte de stockage dans votre portail Azure et s\u00E9lectionnez **Cl\u00E9 d\u0027acc\u00E8s** dans la section **S\u00E9curit\u00E9 \u002B r\u00E9seau** du menu de gauche.  "
+  },
+  {
+    "English": "![Access keys in menu](import_azure-01.png)",
+    "French": "![Touches d\u0027acc\u00E8s au menu](import_azure-01.png)"
+  },
+  {
+    "English": "2. Note the **Storage account name** - this will need to be entered into the account configuration dialog in Datahub. For the access key, you can use either of the keys. If the key being used gets rotated (i.e. a new one is generated to replace it), the setting in Datahub will need to be updated. Click on the **Show** button beside the key you wish to use.  ",
+    "French": "2. Notez le **Nom du compte de stockage** - il devra \u00EAtre saisi dans la bo\u00EEte de dialogue de configuration du compte dans Datahub. Pour la cl\u00E9 d\u0027acc\u00E8s, vous pouvez utiliser l\u0027une ou l\u0027autre des cl\u00E9s. Si la cl\u00E9 utilis\u00E9e fait l\u0027objet d\u0027une rotation (c\u0027est-\u00E0-dire qu\u0027une nouvelle cl\u00E9 est g\u00E9n\u00E9r\u00E9e pour la remplacer), la configuration dans Datahub devra \u00EAtre mise \u00E0 jour. Cliquez sur le bouton **Afficher** \u00E0 c\u00F4t\u00E9 de la cl\u00E9 que vous souhaitez utiliser.  "
+  },
+  {
+    "English": "![Access keys page](import_azure-02.png)",
+    "French": "![Page des cl\u00E9s d\u0027acc\u00E8s](import_azure-02.png)"
+  },
+  {
+    "English": "3. When the key is revealed, you can use the **Copy to clipboard** button to copy the key.  ",
+    "French": "3. Lorsque la cl\u00E9 est r\u00E9v\u00E9l\u00E9e, vous pouvez utiliser le bouton **Copier dans le presse-papiers** pour copier la cl\u00E9.  "
+  },
+  {
+    "English": "![Copy access key](import_azure-03.png)",
+    "French": "![Copier la cl\u00E9 d\u0027acc\u00E8s](import_azure-03.png)"
+  },
+  {
+    "English": "The **Storage Account Name** and **Account Key** can now be entered into the Azure storage dialogue.  ",
+    "French": "Le **nom du compte de stockage** et la **cl\u00E9 du compte** peuvent maintenant \u00EAtre saisis dans le dialogue de stockage Azure.  "
+  },
+  {
+    "English": "![Azure storage dialogue](import_azure-04.png)",
+    "French": "![Dialogue sur le stockage Azure](import_azure-04.png)"
+  },
+  {
+    "English": "Import GCP Storage",
+    "French": "Importer le stockage GCP"
+  },
+  {
+    "English": "# Importing an Existing Google Cloud Platform Account",
+    "French": "# Importation d\u0027un compte Google Cloud Platform existant"
+  },
+  {
+    "English": "To import a GCP storage account, you will need to create a service account with access to the storage and create a key pair for the account.",
+    "French": "Pour importer un compte de stockage GCP, vous devez cr\u00E9er un compte de service ayant acc\u00E8s au stockage et cr\u00E9er une paire de cl\u00E9s pour le compte."
+  },
+  {
+    "English": "1. From the main Google Cloud menu, under the **IAM \u0026 Admin** section, navigate to **Service Accounts**.  ",
+    "French": "1. Dans le menu principal de Google Cloud, sous la section **IAM \u0026 Admin**, naviguez jusqu\u0027\u00E0 **Comptes de service**.  "
+  },
+  {
+    "English": "![Service accounts in menu](import_gcp-01.png)",
+    "French": "![Comptes de service dans le menu](import_gcp-01.png)"
+  },
+  {
+    "English": "2. At the top of the screen, click **Create Service Account** and fill in the information for the account. The Service Account ID will be auto-generated by default, but you can re-generate it or manually enter your own desired value.  ",
+    "French": "2. En haut de l\u0027\u00E9cran, cliquez sur **Cr\u00E9er un compte de service** et remplissez les informations relatives au compte. L\u0027identifiant du compte de service est g\u00E9n\u00E9r\u00E9 automatiquement par d\u00E9faut, mais vous pouvez le g\u00E9n\u00E9rer \u00E0 nouveau ou saisir manuellement la valeur de votre choix.  "
+  },
+  {
+    "English": "![Create account button](import_gcp-02.png)",
+    "French": "![Bouton de cr\u00E9ation de compte](import_gcp-02.png)"
+  },
+  {
+    "English": "![Service account details](import_gcp-03.png)",
+    "French": "![D\u00E9tails du compte de service](import_gcp-03.png)"
+  },
+  {
+    "English": "3. After creating the user, click on its username in the list, and navigate to the **Keys** tab. From here, click the **Add Key** button and select **Create new key**. At the prompt, make sure **JSON** is selected and click the **Create** button. This will create a .json file and download it to your computer.  ",
+    "French": "3. Apr\u00E8s avoir cr\u00E9\u00E9 l\u0027utilisateur, cliquez sur son nom d\u0027utilisateur dans la liste et acc\u00E9dez \u00E0 l\u0027onglet **Keys**. \u00C0 partir de l\u00E0, cliquez sur le bouton **Add Key** (Ajouter une cl\u00E9) et s\u00E9lectionnez **Create new key** (Cr\u00E9er une nouvelle cl\u00E9). \u00C0 l\u0027invite, assurez-vous que **JSON** est s\u00E9lectionn\u00E9 et cliquez sur le bouton **Cr\u00E9er**. Cela cr\u00E9era un fichier .json et le t\u00E9l\u00E9chargera sur votre ordinateur.  "
+  },
+  {
+    "English": "![Service account user page](import_gcp-04.png)",
+    "French": "![Page utilisateur du compte de service](import_gcp-04.png)"
+  },
+  {
+    "English": "![Create private key dialog](import_gcp-05.png)",
+    "French": "![Bo\u00EEte de dialogue Cr\u00E9er une cl\u00E9 priv\u00E9e](import_gcp-05.png)"
+  },
+  {
+    "English": "To import the GCP account into Datahub, open the .json file in a text editor and paste the contents into the **Service Account Credentials (JSON)** text box in Datahub.  ",
+    "French": "Pour importer le compte GCP dans Datahub, ouvrez le fichier .json dans un \u00E9diteur de texte et collez le contenu dans la zone de texte **Service Account Credentials (JSON)** dans Datahub.  "
+  },
+  {
+    "English": "![Import GCP storage dialog](import_gcp-06.png)",
+    "French": "![Dialogue d\u0027importation du stockage des BPC](import_gcp-06.png)"
+  },
+  {
+    "English": "Import Storage",
+    "French": "Stockage des importations"
+  },
+  {
+    "English": "# Import Storage",
+    "French": "# Stockage d\u0027importation"
+  },
+  {
+    "English": "In addition to the default Azure storage account generated for each workspace, external storage accounts can be imported. This allows users to access those resources in Datahub using Storage Explorer.",
+    "French": "Outre le compte de stockage Azure par d\u00E9faut g\u00E9n\u00E9r\u00E9 pour chaque espace de travail, des comptes de stockage externes peuvent \u00EAtre import\u00E9s. Cela permet aux utilisateurs d\u0027acc\u00E9der \u00E0 ces ressources dans Datahub \u00E0 l\u0027aide de Storage Explorer."
+  },
+  {
+    "English": "Workspace administrators have access to menu options in the storage selector to add, edit and delete cloud storage accounts in addition to the default Azure storage container for the workspace.  ",
+    "French": "Les administrateurs de l\u0027espace de travail ont acc\u00E8s \u00E0 des options de menu dans le s\u00E9lecteur de stockage pour ajouter, modifier et supprimer des comptes de stockage en nuage en plus du conteneur de stockage Azure par d\u00E9faut pour l\u0027espace de travail.  "
+  },
+  {
+    "English": "![Admin storage selector](storage-selector-01.png)",
+    "French": "![S\u00E9lecteur de stockage administratif](storage-selector-01.png)"
+  },
+  {
+    "English": "Non-admin users will see a similar menu if the workspace has more than one storage container available. They can navigate between storage containers, but do not have the ability to manage them. If only the default container is available in the workspace, the menu is omitted.  ",
+    "French": "Les utilisateurs non administrateurs verront un menu similaire si l\u0027espace de travail a plus d\u0027un conteneur de stockage disponible. Ils peuvent naviguer entre les conteneurs de stockage, mais n\u0027ont pas la possibilit\u00E9 de les g\u00E9rer. Si seul le conteneur par d\u00E9faut est disponible dans l\u0027espace de travail, le menu est omis.  "
+  },
+  {
+    "English": "![Non-admin storage selector](storage-selector-02.png)",
+    "French": "![S\u00E9lecteur de stockage non administrateur](storage-selector-02.png)"
+  },
+  {
+    "English": "## Storage Account Configuration",
+    "French": "## Configuration du compte de stockage"
+  },
+  {
+    "English": "When you add or edit a storage account, you will see this dialog:  ",
+    "French": "Lorsque vous ajoutez ou modifiez un compte de stockage, cette bo\u00EEte de dialogue s\u0027affiche :  "
+  },
+  {
+    "English": "![Storage dialog](storage-dialog.png)",
+    "French": "![Dialogue de stockage](storage-dialog.png)"
+  },
+  {
+    "English": "1. The **Friendly Name** will show in the storage selector if it is set. Otherwise, the storage selector and menu will show the account name (Azure, GCP) or bucket name (AWS).",
+    "French": "1. Le **Nom convivial** s\u0027affichera dans le s\u00E9lecteur de stockage s\u0027il est d\u00E9fini. Sinon, le s\u00E9lecteur de stockage et le menu afficheront le nom du compte (Azure, GCP) ou le nom du bucket (AWS)."
+  },
+  {
+    "English": "2. The account must be **Enabled** in order to use it in the file explorer. Newly added accounts are enabled by default, but if there is an error accessing the account they will be automatically disabled and must be re-enabled by an administrator.",
+    "French": "2. Le compte doit \u00EAtre **activ\u00E9** pour pouvoir \u00EAtre utilis\u00E9 dans l\u0027explorateur de fichiers. Les comptes nouvellement ajout\u00E9s sont activ\u00E9s par d\u00E9faut, mais s\u0027il y a une erreur d\u0027acc\u00E8s au compte, ils seront automatiquement d\u00E9sactiv\u00E9s et devront \u00EAtre r\u00E9activ\u00E9s par un administrateur."
+  },
+  {
+    "English": "3. The connection credentials are specific to each cloud service provider. Please select the specific guides for each cloud provider from the sidebar for details.",
+    "French": "3. Les identifiants de connexion sont sp\u00E9cifiques \u00E0 chaque fournisseur de services en nuage. Pour plus de d\u00E9tails, veuillez s\u00E9lectionner les guides sp\u00E9cifiques \u00E0 chaque fournisseur de services d\u00E9mat\u00E9rialis\u00E9s dans la barre lat\u00E9rale."
+  },
+  {
+    "English": "4. Before adding a cloud storage provider, you must affirm that it does not contain any classified data by checking this checkbox.",
+    "French": "4. Avant d\u0027ajouter un fournisseur de stockage en nuage, vous devez vous assurer qu\u0027il ne contient pas de donn\u00E9es classifi\u00E9es en cochant cette case."
+  },
+  {
+    "English": "Import Google Cloud Platform Storage",
+    "French": "Importer le stockage de Google Cloud Platform"
+  },
+  {
+    "English": "Working with R and Python Modules",
+    "French": "Travailler avec les modules R et Python"
+  },
+  {
+    "English": "https://learn.microsoft.com/fr-ca/rest/api/consumption/usage-details/list?tabs=HTTP",
+    "French": "https://learn.microsoft.com/fr-ca/rest/api/consumption/usage-details/list?tabs=HTTP"
+  },
+  {
+    "English": "The current authentication of the application is leveraging [MS Identity](https://learn.microsoft.com/fr-ca/azure/active-directory/develop/v2-app-types#web-apps) with OIDC.",
+    "French": "L\u0027authentification actuelle de l\u0027application s\u0027appuie sur [MS Identity] (https://learn.microsoft.com/fr-ca/azure/active-directory/develop/v2-app-types#web-apps) avec OIDC."
+  },
+  {
+    "English": "For more information on how to create clusters, please refer to the [Databricks documentation](https://learn.microsoft.com/fr-ca/azure/databricks/clusters/configure).",
+    "French": "Pour plus d\u0027informations sur la cr\u00E9ation de clusters, veuillez vous r\u00E9f\u00E9rer \u00E0 la [documentation Databricks] (https://learn.microsoft.com/fr-ca/azure/databricks/clusters/configure)."
+  },
+  {
+    "English": "## [More information on Databricks Dashboards](https://learn.microsoft.com/fr-ca/azure/databricks/lakehouse/data-objects)",
+    "French": "## [Plus d\u0027informations sur les tableaux de bord Databricks](https://learn.microsoft.com/fr-ca/azure/databricks/lakehouse/data-objects)"
+  },
+  {
+    "English": "The first step to using AutoML is to upload your training data to Databricks. You can do so by following [this guide](https://learn.microsoft.com/fr-ca/azure/databricks/ingestion/add-data/upload-data). You will also need a cluster with a ML runtime.",
+    "French": "La premi\u00E8re \u00E9tape de l\u0027utilisation d\u0027AutoML consiste \u00E0 t\u00E9l\u00E9charger vos donn\u00E9es de formation vers Databricks. Vous pouvez le faire en suivant [ce guide] (https://learn.microsoft.com/fr-ca/azure/databricks/ingestion/add-data/upload-data). Vous aurez \u00E9galement besoin d\u0027un cluster avec un runtime ML."
+  },
+  {
+    "English": "Above is an example of how to use experiments from within Python notebooks. This example is taken from the [Databricks documentation](https://learn.microsoft.com/fr-ca/azure/databricks/mlflow/end-to-end-example).",
+    "French": "Voici un exemple d\u0027utilisation d\u0027exp\u00E9riences \u00E0 partir de carnets Python. Cet exemple est tir\u00E9 de la [documentation Databricks] (https://learn.microsoft.com/fr-ca/azure/databricks/mlflow/end-to-end-example)."
+  },
+  {
+    "English": "Again, make sure to check out the [end-to-end ML example notebook](https://learn.microsoft.com/fr-ca/azure/databricks/mlflow/end-to-end-example) as well as the [MLFlow databricks API documentation](https://docs.databricks.com/api/azure/workspace/experiments) to learn more about how to run experiments from within notebooks.",
+    "French": "Une fois encore, n\u0027oubliez pas de consulter le [cahier d\u0027exemples de ML de bout en bout] (https://learn.microsoft.com/fr-ca/azure/databricks/mlflow/end-to-end-example) ainsi que la [documentation de l\u0027API MLFlow] (https://docs.databricks.com/api/azure/workspace/experiments) pour en savoir plus sur la mani\u00E8re d\u0027ex\u00E9cuter des exp\u00E9riences \u00E0 partir des cahiers d\u0027exp\u00E9riences."
+  },
+  {
+    "English": "- [Databricks MLFlow documentation](https://learn.microsoft.com/fr-ca/azure/databricks/mlflow/)",
+    "French": "- [Documentation Databricks MLFlow] (https://learn.microsoft.com/fr-ca/azure/databricks/mlflow/)"
+  },
+  {
+    "English": "- [Notebook experiment example](https://learn.microsoft.com/fr-ca/azure/databricks/mlflow/end-to-end-example)",
+    "French": "- [Exemple d\u0027exp\u00E9rience dans un carnet de notes] (https://learn.microsoft.com/fr-ca/azure/databricks/mlflow/end-to-end-example)"
+  },
+  {
+    "English": "https://learn.microsoft.com/fr-ca/azure/databricks/files/workspace-modules",
+    "French": "https://learn.microsoft.com/fr-ca/azure/databricks/files/workspace-modules"
+  },
+  {
+    "English": "- [Using spark to work with data files](https://learn.microsoft.com/fr-ca/training/modules/use-apache-spark-azure-databricks/05-write-spark-code)",
+    "French": "- [Utiliser spark pour travailler avec des fichiers de donn\u00E9es](https://learn.microsoft.com/fr-ca/training/modules/use-apache-spark-azure-databricks/05-write-spark-code)"
+  },
+  {
+    "English": "- [Using spark to vizualize data](https://learn.microsoft.com/fr-ca/training/modules/use-apache-spark-azure-databricks/06-visualize-spark-data)",
+    "French": "- [Utiliser spark pour visualiser des donn\u00E9es] (https://learn.microsoft.com/fr-ca/training/modules/use-apache-spark-azure-databricks/06-visualize-spark-data)"
+  },
+  {
+    "English": "The appinstaller below will install the application and automatically update it on modern Windows 10 and Windows 11 desktops. The installation uses modern [msix packaging](https://learn.microsoft.com/fr-ca/windows/msix/overview) and does not require administrative privileges.",
+    "French": "L\u0027appinstaller ci-dessous installera l\u0027application et la mettra automatiquement \u00E0 jour sur les ordinateurs de bureau modernes Windows 10 et Windows 11. L\u0027installation utilise un [msix packaging] moderne (https://learn.microsoft.com/fr-ca/windows/msix/overview) et ne n\u00E9cessite pas de privil\u00E8ges administratifs."
+  },
+  {
+    "English": "- Navigating in DataHub",
+    "French": "- Naviguer dans DataHub"
+  },
+  {
+    "English": "- Working in DataHub",
+    "French": "- Travailler dans DataHub"
+  },
+  {
+    "English": "  - Load and Share Data",
+    "French": "  - Charger et partager des donn\u00E9es"
+  },
+  {
+    "English": "  - Databricks and Python Notebooks  ",
+    "French": "  - Databricks et Notebooks Python"
+  },
+  {
+    "English": "  - Visualize My data",
+    "French": "  - Visualiser mes donn\u00E9es"
+  },
+  {
+    "English": "  - Connect APIs",
+    "French": "  - Connecter les API"
+  },
+  {
+    "English": "  - Working in Python",
+    "French": "  - Travailler en Python"
+  },
+  {
+    "English": "  - Working in R",
+    "French": "  - Travailler en R"
+  },
+  {
+    "English": "  - Integrate Machine Learning",
+    "French": "  - Int\u00E9grer l\u0027apprentissage automatique"
+  },
+  {
+    "English": "  - Scheduling Jobs",
+    "French": "  - Emplois dans le domaine de l\u0027ordonnancement"
+  },
+  {
+    "English": "  - Web Applications",
+    "French": "  - Applications Web"
+  },
+  {
+    "English": "  - Additional help",
+    "French": "  - Aide suppl\u00E9mentaire"
+  },
+  {
+    "English": "  - Geospatial",
+    "French": "  - G\u00E9ospatial"
+  },
+  {
+    "English": "QGIS",
+    "French": "QGIS"
+  },
+  {
+    "English": "2020020",
+    "French": "2020020"
   }
 ]
