@@ -19250,5 +19250,137 @@
   {
     "English": "2020020",
     "French": "2020020"
+  },
+  {
+    "English": "Hotfix",
+    "French": "Correctif"
+  },
+  {
+    "English": "# Deploying Hotfixes in PoC environment",
+    "French": "# D\u00E9ploiement des correctifs dans l\u0027environnement VdP"
+  },
+  {
+    "English": "## What\u2019s a hotfix?",
+    "French": "## Qu\u0027est-ce qu\u0027un correctif ?"
+  },
+  {
+    "English": "Hotfixes are applied to the PoC environment to fix an issue:",
+    "French": "Les correctifs sont appliqu\u00E9s \u00E0 l\u0027environnement VdP pour r\u00E9soudre un probl\u00E8me :"
+  },
+  {
+    "English": "- Immediately",
+    "French": "- Imm\u00E9diatement"
+  },
+  {
+    "English": "- Without creating system downtimes or outages.",
+    "French": "- Sans cr\u00E9er de temps d\u0027arr\u00EAt ou de panne du syst\u00E8me."
+  },
+  {
+    "English": "Hotfixes are also known as QFE updates, short for quick-fix engineering updates.",
+    "French": "Les hotfixes sont \u00E9galement connus sous le nom de mises \u00E0 jour QFE, abr\u00E9viation de quick-fix engineering updates (mises \u00E0 jour techniques rapides)."
+  },
+  {
+    "English": "Normally, hotfixes are created as an urgent measure against issues that need to be fixed immediately and outside of your normal development flow. ",
+    "French": "Normalement, les hotfixes sont cr\u00E9\u00E9s comme une mesure d\u0027urgence contre les probl\u00E8mes qui doivent \u00EAtre corrig\u00E9s imm\u00E9diatement et en dehors de votre flux de d\u00E9veloppement normal."
+  },
+  {
+    "English": "Hotfixes address specific issues like:",
+    "French": "Les correctifs traitent des probl\u00E8mes sp\u00E9cifiques tels que"
+  },
+  {
+    "English": "- Adding a new feature, bug, or security fix",
+    "French": "- Ajout d\u0027une nouvelle fonctionnalit\u00E9, d\u0027un bogue ou d\u0027un correctif de s\u00E9curit\u00E9"
+  },
+  {
+    "English": "- Correcting data or translations",
+    "French": "- Correction des donn\u00E9es ou des traductions"
+  },
+  {
+    "English": "## Git process",
+    "French": "## Processus Git"
+  },
+  {
+    "English": "- checkout \u0060proof-of-concept\u0060 and create a new \u0060hotfix/\u003Cname\u003E\u0060 branch for the changes",
+    "French": "- checkout \u0060proof-of-concept\u0060 et cr\u00E9er une nouvelle branche \u0060hotfix/\u003Cnom\u003E\u0060 pour les changements"
+  },
+  {
+    "English": "- validate the fix locally in \u0060hotfix/\u003Cname\u003E\u0060",
+    "French": "- valider le correctif localement dans \u0060hotfix/\u003Cnom\u003E\u0060"
+  },
+  {
+    "English": "- create a pull request from \u0060hotfix/\u003Cname\u003E\u0060 into \u0060proof-of-concept\u0060",
+    "French": "- cr\u00E9er une pull request de \u0060hotfix/\u003Cnom\u003E\u0060 vers \u0060preuve-de-concept\u0060"
+  },
+  {
+    "English": "## Deploying code from \u0060proof-of-concept\u0060 branch into INT",
+    "French": "## D\u00E9ploiement du code de la branche \u0060proof-of-concept\u0060 dans INT"
+  },
+  {
+    "English": "- Pipeline is similar to dev environment",
+    "French": "- Le pipeline est similaire \u00E0 l\u0027environnement de d\u00E9veloppement"
+  },
+  {
+    "English": "- Changes from \u0060proof-of-concept\u0060 branch will trigger a build in the DevOps pipeline",
+    "French": "- Les modifications de la branche \u0060proof-of-concept\u0060 d\u00E9clencheront une construction dans le pipeline DevOps."
+  },
+  {
+    "English": "![Devops Pipeline](image.png)",
+    "French": "![Devops Pipeline](image.png)"
+  },
+  {
+    "English": "- Successful builds will deploy a successful build from the pipeline into the PoC environment",
+    "French": "- Les constructions r\u00E9ussies d\u00E9ploieront une construction r\u00E9ussie du pipeline dans l\u0027environnement VdP."
+  },
+  {
+    "English": "![Deployment](image-1.png)",
+    "French": "![D\u00E9ploiement](image-1.png)"
+  },
+  {
+    "English": "## Push changes from INT to POC",
+    "French": "## Passer de INT \u00E0 POC"
+  },
+  {
+    "English": "- Changes needs to validated and regression testing needs to be done in INT",
+    "French": "- Les modifications doivent \u00EAtre valid\u00E9es et les tests de r\u00E9gression doivent \u00EAtre effectu\u00E9s dans INT."
+  },
+  {
+    "English": "- Once regression testing is completed, the Devops approvers need to be notified",
+    "French": "- Une fois les tests de r\u00E9gression termin\u00E9s, les approbateurs Devops doivent \u00EAtre inform\u00E9s."
+  },
+  {
+    "English": "- The approvers will approve the Devops pipeline and it will trigger deployment of the code from \u0060proof-of-concept\u0060 into the PoC environment",
+    "French": "- Les approbateurs approuveront le pipeline Devops, ce qui d\u00E9clenchera le d\u00E9ploiement du code de la \u0022preuve de concept\u0022 dans l\u0027environnement VdP."
+  },
+  {
+    "English": "https://learn.microsoft.com/en-ca/azure/databricks/files/workspace-modules",
+    "French": "https://learn.microsoft.com/en-ca/azure/databricks/files/workspace-modules"
+  },
+  {
+    "English": "Icon LibraryBooks",
+    "French": "Icon LibraryBooks"
+  },
+  {
+    "English": "Add data UI in Databricks",
+    "French": "Ajouter une interface utilisateur dans Databricks"
+  },
+  {
+    "English": "  - Machine Learning",
+    "French": "  - Apprentissage automatique"
+  },
+  {
+    "English": "Digital Elevation Models (DEM) Tools and Raster Calculator",
+    "French": "Outils pour les mod\u00E8les num\u00E9riques d\u0027\u00E9l\u00E9vation (MNE) et calculateur de donn\u00E9es matricielles"
+  },
+  {
+    "English": "Icon Workspaces",
+    "French": "Espaces de travail \u00E0 ic\u00F4nes"
+  },
+  {
+    "English": "  - Getting Started",
+    "French": "  - Pour commencer"
+  },
+  {
+    "English": "Icon HelpOutline",
+    "French": "Ic\u00F4ne HelpOutline"
   }
 ]

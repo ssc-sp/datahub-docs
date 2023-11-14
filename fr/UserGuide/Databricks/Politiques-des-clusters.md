@@ -61,7 +61,7 @@ Cette politique de cluster est conçue pour les charges de travail de production
 
 ## Création d'un cluster
 
-Pour plus d'informations sur la création de clusters, veuillez vous référer à la [documentation Databricks] (https://learn.microsoft.com/fr-ca/azure/databricks/clusters/configure).
+Pour plus d'informations sur la création de clusters, veuillez vous référer à la [documentation Databricks] (https://learn.microsoft.com/en-us/azure/databricks/clusters/configure).
 
 ## A l'avenir
 

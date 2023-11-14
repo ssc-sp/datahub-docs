@@ -185,6 +185,11 @@
     "Fr": "/fr/DeveloperGuide/Change-Management/Vue-d\u0027ensemble-de-la-gestion-du-changement.md"
   },
   {
+    "Id": "2dbeacdf-a31f-96b8-ec01-9ea7190871d2",
+    "En": "/DeveloperGuide/Change-Management/Hotfix.md",
+    "Fr": "/fr/DeveloperGuide/Change-Management/Correctif.md"
+  },
+  {
     "Id": "5239fcd6-f50a-0bb6-c5be-d5b8858e5a91",
     "En": "/DeveloperGuide/Contributing/Authoring-Documentation.md",
     "Fr": "/fr/DeveloperGuide/Contributing/Cr\u00E9ation-de-la-documentation.md"
