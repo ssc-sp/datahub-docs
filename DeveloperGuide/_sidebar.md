@@ -28,6 +28,7 @@
 
   - [Change Log](/DeveloperGuide/Change-Management/Change-Log.md)
   - [Change Management Overview](/DeveloperGuide/Change-Management/Change-Management-Overview.md)
+  - [HotFix](/DeveloperGuide/Change-Management/Hotfix.md)
 
 - [Configuration options](/DeveloperGuide/Configuration-options.md)
 - Contributing
