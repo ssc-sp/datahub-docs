@@ -10,7 +10,7 @@ draft: true
 
 Le site web du Federal Science Datahub est divisé en 3 parties :
 1. **Barre supérieure** : Accès à la page d'accueil, à la page d'actualités, à l'exploration et à la recherche d'espaces de travail ou d'utilisateurs.
-2. **Barre latérale** : Accès à vos espaces de travail, à vos ressources récentes ou à votre profil
+2. **Encadré** : Accès à vos espaces de travail, à vos ressources récentes ou à votre profil
 3. **Contenu** : Là où l'on fait de la science !
 
 Les pages suivantes vous montreront comment utiliser cette mise en page et créer votre propre espace de travail !
