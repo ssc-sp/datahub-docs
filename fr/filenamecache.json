@@ -494,5 +494,37 @@
   {
     "English": "vscode_extension.md",
     "French": "extension-vscode.md"
+  },
+  {
+    "English": "Layout.md",
+    "French": "Mise-en-page.md"
+  },
+  {
+    "English": "NewWorkspace.md",
+    "French": "Nouvel-espace-de-travail.md"
+  },
+  {
+    "English": "Sidebar.md",
+    "French": "Encadr\u00E9.md"
+  },
+  {
+    "English": "Topbar.md",
+    "French": "Barre-sup\u00E9rieure.md"
+  },
+  {
+    "English": "Import-AWS-Storage.md",
+    "French": "Importer-le-stockage-AWS.md"
+  },
+  {
+    "English": "Import-Azure-Storage.md",
+    "French": "Importer-Azure-Storage.md"
+  },
+  {
+    "English": "Import-GCP-Storage.md",
+    "French": "Importer-le-stockage-GCP.md"
+  },
+  {
+    "English": "Import-Storage.md",
+    "French": "Stockage-des-importations.md"
   }
 ]

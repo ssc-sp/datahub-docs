@@ -105,6 +105,26 @@
     "Fr": "/fr/Banners/Atterrissage.md"
   },
   {
+    "Id": "2388ecfa-820a-0d14-be58-abb2d6038486",
+    "En": "/Banners/Layout.md",
+    "Fr": "/fr/Banners/Mise-en-page.md"
+  },
+  {
+    "Id": "7278a469-4e89-90dd-ab9b-2d1683d921f0",
+    "En": "/Banners/NewWorkspace.md",
+    "Fr": "/fr/Banners/Nouvel-espace-de-travail.md"
+  },
+  {
+    "Id": "8bf23909-34fe-9347-87a2-d2a2dfd5c204",
+    "En": "/Banners/Sidebar.md",
+    "Fr": "/fr/Banners/Encadr\u00E9.md"
+  },
+  {
+    "Id": "5c84cd40-85f1-145f-d8f5-806717055b44",
+    "En": "/Banners/Topbar.md",
+    "Fr": "/fr/Banners/Barre-sup\u00E9rieure.md"
+  },
+  {
     "Id": "aa537446-7b82-cde6-0ad1-15cdd1813c31",
     "En": "/Banners/Workspace-Storage.md",
     "Fr": "/fr/Banners/Rangement-de-l\u0027espace-de-travail.md"
@@ -540,22 +560,22 @@
     "Fr": "/fr/UserGuide/Storage/Chargeur-de-bureau.md"
   },
   {
-    "Id": "b12c9172-e131-4c8d-8e05-ffeb333de1d2",
+    "Id": "d00f66cb-faa9-2d21-e956-81f9710e0330",
     "En": "/UserGuide/Storage/Import-AWS-Storage.md",
     "Fr": "/fr/UserGuide/Storage/Importer-le-stockage-AWS.md"
   },
   {
-    "Id": "61559cec-05c1-0a78-ce35-89fcd58a4267",
+    "Id": "7ede589c-6bc4-8945-39d5-080f1d6e7d97",
     "En": "/UserGuide/Storage/Import-Azure-Storage.md",
-    "Fr": "/fr/UserGuide/Storage/Importer-le-stockage-Azure.md"
+    "Fr": "/fr/UserGuide/Storage/Importer-Azure-Storage.md"
   },
   {
-    "Id": "8876f9a6-750b-88a5-a348-f0ba904d1680",
+    "Id": "40a8036f-95d8-faaf-5275-b69a5e3f9985",
     "En": "/UserGuide/Storage/Import-GCP-Storage.md",
     "Fr": "/fr/UserGuide/Storage/Importer-le-stockage-GCP.md"
   },
   {
-    "Id": "9539172c-ad75-7603-66fe-99eddd2bc124",
+    "Id": "acc96308-6b8c-0812-6a88-1938ab7337c3",
     "En": "/UserGuide/Storage/Import-Storage.md",
     "Fr": "/fr/UserGuide/Storage/Stockage-des-importations.md"
   },

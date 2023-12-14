@@ -126,7 +126,7 @@ avec mlflow.start_run(run_name='untuned_random_forest') :
   mlflow.pyfunc.log_model("random_forest_model", python_model=wrappedModel, conda_env=conda_env, signature=signature)
 ```
 
-Voici un exemple d'utilisation d'expériences à partir de carnets Python. Cet exemple est tiré de la [documentation Databricks] (https://learn.microsoft.com/en-us/azure/databricks/mlflow/end-to-end-example).
+Voici un exemple d'utilisation d'expériences à partir de carnets Python. Cet exemple est tiré de la [documentation Databricks] (https://learn.microsoft.com/fr-ca/azure/databricks/mlflow/end-to-end-example).
 
 En ouvrant le contexte `mlflow.start_run`, vous pouvez enregistrer les paramètres et les métriques de l'expérience. Vous pouvez également enregistrer le modèle lui-même ! Cela vous permettra d'enregistrer le modèle pour une utilisation future, comme indiqué dans la section "Expériences du cahier de travail".
 
@@ -138,9 +138,9 @@ L'exécution de ce code créera automatiquement une expérience pour vous, à la
 
 ![Alt text](LoggedRuns.png)
 
-Une fois encore, n'oubliez pas de consulter le [cahier d'exemples de ML de bout en bout] (https://learn.microsoft.com/en-us/azure/databricks/mlflow/end-to-end-example) ainsi que la [documentation de l'API MLFlow] (https://docs.databricks.com/api/azure/workspace/experiments) pour en savoir plus sur la manière d'exécuter des expériences à partir des cahiers d'expériences.
+Une fois encore, n'oubliez pas de consulter le [cahier d'exemples de ML de bout en bout] (https://learn.microsoft.com/fr-ca/azure/databricks/mlflow/end-to-end-example) ainsi que la [documentation de l'API MLFlow] (https://docs.databricks.com/api/azure/workspace/experiments) pour en savoir plus sur la manière d'exécuter des expériences à partir des cahiers d'expériences.
 
 ## En savoir plus
 
-- [Documentation Databricks MLFlow] (https://learn.microsoft.com/en-us/azure/databricks/mlflow/)
-- [Exemple d'expérience dans un carnet de notes] (https://learn.microsoft.com/en-us/azure/databricks/mlflow/end-to-end-example)
+- [Documentation Databricks MLFlow] (https://learn.microsoft.com/fr-ca/azure/databricks/mlflow/)
+- [Exemple d'expérience dans un carnet de notes] (https://learn.microsoft.com/fr-ca/azure/databricks/mlflow/end-to-end-example)
