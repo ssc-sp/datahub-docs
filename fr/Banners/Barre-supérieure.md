@@ -10,8 +10,8 @@ draft: true
 
 La barre supérieure contient les principaux itinéraires de navigation :
 - **Accueil** : Un tableau de bord de vos espaces de travail et de vos ressources.
-- Actualités** : Vous y trouverez des informations sur les nouvelles fonctionnalités du DHSF ainsi que sur les éventuelles interruptions de service.
-- Explorer** : Découvrez ce que font vos pairs en parcourant les espaces de travail présentés.
+- **Actualités** : Vous y trouverez des informations sur les nouvelles fonctionnalités du DHSF ainsi que sur les éventuelles interruptions de service.
+- **Explorer** : Découvrez ce que font vos pairs en parcourant les espaces de travail présentés.
 - **Apprendre** : Lire des guides et des tutoriels sur l'utilisation de notre plateforme et de ses nombreux outils.
 
 ![TopbarSearch](https://github.com/ssc-sp/datahub-docs/assets/56747050/28203417-79f6-4b27-a5d5-a0fb947dad56)
@@ -20,4 +20,4 @@ La barre supérieure contient les principaux itinéraires de navigation :
 
 ![TopbarHelpProfile](https://github.com/ssc-sp/datahub-docs/assets/56747050/9e991080-4d65-4a3b-8ed9-5fd00ac9e29f)
 
-- Aide et profil** : Vous pouvez demander de l'aide en utilisant le bouton d'aide, ou accéder aux paramètres de votre profil.
+- **Aide et profil** : Vous pouvez demander de l'aide en utilisant le bouton d'aide, ou accéder aux paramètres de votre profil.
