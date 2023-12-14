@@ -10,8 +10,8 @@ The topbar contains the major navigation routes:
 
 ![TopbarSearch](https://github.com/ssc-sp/datahub-docs/assets/56747050/28203417-79f6-4b27-a5d5-a0fb947dad56)
 
-You can also search for workspaces, resources or users on the platform using the search box in the topbar
+- **Search**: You can also search for workspaces, resources or users on the platform using the search box in the topbar
 
 ![TopbarHelpProfile](https://github.com/ssc-sp/datahub-docs/assets/56747050/9e991080-4d65-4a3b-8ed9-5fd00ac9e29f)
 
-Finally, you can request for support using the help button, or access your profile settings.
+- **Help & Profile**: You can request for support using the help button, or access your profile settings.
