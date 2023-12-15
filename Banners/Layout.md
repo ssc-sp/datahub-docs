@@ -5,6 +5,6 @@
 The Federal Science Datahub website is divided into 3 parts:
 1. **Topbar**: Accessing the home page, the news page, exploring and searching for workspaces or users.
 2. **Sidebar**: Accessing your workspaces, your recent resources or your profile
-3. **Content**: Where science is done!
+3. **Content**: Where science is done! Wherever you go, this section will display the page's main content, and in the case of the home page, you will see your personal dashboard, where your profile, achievements and workspaces are displayed.
 
 The next few pages will show you how to use this layout and create your very own workspace!
