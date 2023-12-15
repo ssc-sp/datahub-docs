@@ -135,6 +135,31 @@
     "Fr": "/fr/Banners/Espace-de-travail.md"
   },
   {
+    "Id": "71e4b18d-ea17-ae44-485f-7751c0c39426",
+    "En": "/Banners/WorkspaceLayout.md",
+    "Fr": "/fr/Banners/Structure-de-l\u0027espace-de-travail.md"
+  },
+  {
+    "Id": "bafef7cd-e060-67d6-475d-6f4210c2b3f1",
+    "En": "/Banners/WorkspaceMembers.md",
+    "Fr": "/fr/Banners/Membres-de-l\u0027espace-de-travail.md"
+  },
+  {
+    "Id": "0ba28336-5927-b573-90c5-8976442379bb",
+    "En": "/Banners/WorkspaceMetadata.md",
+    "Fr": "/fr/Banners/M\u00E9tadonn\u00E9es-de-l\u0027espace-de-travail.md"
+  },
+  {
+    "Id": "9d4e22ea-99a9-179e-aa07-bc91e81396ad",
+    "En": "/Banners/WorkspaceSidebar.md",
+    "Fr": "/fr/Banners/Encadr\u00E9-de-l\u0027espace-de-travail.md"
+  },
+  {
+    "Id": "830f005d-6dae-6c2b-1dfa-51aeb19af778",
+    "En": "/Banners/WorkspaceToolbox.md",
+    "Fr": "/fr/Banners/Bo\u00EEte-\u00E0-outils-de-l\u0027espace-de-travail.md"
+  },
+  {
     "Id": "9e93e584-ebf5-1824-6e81-835acf8040a6",
     "En": "/Banners/_sidebar.md",
     "Fr": "/fr/Banners/_sidebar.md"

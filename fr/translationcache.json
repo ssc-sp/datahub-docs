@@ -19298,5 +19298,217 @@
   {
     "English": "Import Google Cloud Platform Storage",
     "French": "Importer le stockage de Google Cloud Platform"
+  },
+  {
+    "English": "3. **Content**: Where science is done! Wherever you go, this section will display the page\u0027s main content, and in the case of the home page, you will see your personal dashboard, where your profile, achievements and workspaces are displayed.",
+    "French": "3. **Contenu** : L\u00E0 o\u00F9 l\u0027on fait de la science ! O\u00F9 que vous alliez, cette section affichera le contenu principal de la page et, dans le cas de la page d\u0027accueil, vous verrez votre tableau de bord personnel, o\u00F9 sont affich\u00E9s votre profil, vos r\u00E9alisations et vos espaces de travail."
+  },
+  {
+    "English": "A workspace in the Federal Science Datahub is a collection of cloud resources along with a list of members. The cloud",
+    "French": "Un espace de travail dans le Federal Science Datahub est une collection de ressources en nuage avec une liste de membres. Le nuage"
+  },
+  {
+    "English": "resources within your workspace (e.g. storage accounts, etc.) are only accessible by the members of your workspace and",
+    "French": "les ressources de votre espace de travail (par exemple les comptes de stockage, etc.) ne sont accessibles qu\u0027aux membres de votre espace de travail et"
+  },
+  {
+    "English": "can",
+    "French": "peut"
+  },
+  {
+    "English": "only be managed by workspace admins or leads.",
+    "French": "ne peuvent \u00EAtre g\u00E9r\u00E9s que par les administrateurs de l\u0027espace de travail ou les responsables."
+  },
+  {
+    "English": "A FSDH workspace is the perfect place to collaborate with GC colleagues, share data and analytics, and build research or",
+    "French": "Un espace de travail DHSF est l\u0027endroit id\u00E9al pour collaborer avec des coll\u00E8gues du GC, partager des donn\u00E9es et des analyses, et construire des projets de recherche ou de d\u00E9veloppement."
+  },
+  {
+    "English": "business projects.",
+    "French": "des projets d\u0027entreprise."
+  },
+  {
+    "English": "WorkspaceLayout",
+    "French": "Structure de l\u0027espace de travail"
+  },
+  {
+    "English": "# Navigating your workspace",
+    "French": "# Naviguer dans l\u0027espace de travail"
+  },
+  {
+    "English": "![WorkspaceLayout](https://github.com/ssc-sp/datahub-docs/assets/56747050/e0bf3303-5c31-44a2-aa5a-a1b013783565)",
+    "French": "![WorkspaceLayout](https://github.com/ssc-sp/datahub-docs/assets/56747050/e0bf3303-5c31-44a2-aa5a-a1b013783565)"
+  },
+  {
+    "English": "There are two important sections of the page when working within a workspace:",
+    "French": "La page comporte deux sections importantes lorsque l\u0027on travaille dans un espace de travail :"
+  },
+  {
+    "English": "1. **Sidebar**: This is where you can navigate to the different tools in your workspace, as well as manage the workspace itself. As we are just getting started, there may not be any available tools in your brand new workspace but we will get there!",
+    "French": "1. **Barre lat\u00E9rale** : C\u0027est ici que vous pouvez naviguer vers les diff\u00E9rents outils de votre espace de travail, ainsi que g\u00E9rer l\u0027espace de travail lui-m\u00EAme. Comme nous ne faisons que commencer, il se peut qu\u0027il n\u0027y ait pas d\u0027outils disponibles dans votre tout nouvel espace de travail, mais nous y arriverons !"
+  },
+  {
+    "English": "2. **Content**: This is where your selected tool will be displayed and where you will do your work! In the picture above, the workspace dashboard is displayed, where you can see an overview of your workspace, its tools, its members and its incurred costs",
+    "French": "2. **Contenu** : C\u0027est ici que votre outil s\u00E9lectionn\u00E9 sera affich\u00E9 et que vous ferez votre travail ! Dans l\u0027image ci-dessus, le tableau de bord de l\u0027espace de travail est affich\u00E9, o\u00F9 vous pouvez voir une vue d\u0027ensemble de votre espace de travail, de ses outils, de ses membres et de ses co\u00FBts."
+  },
+  {
+    "English": "WorkspaceMembers",
+    "French": "Membres de l\u0027espace de travail"
+  },
+  {
+    "English": "# Inviting your colleagues to your workspace",
+    "French": "# Inviter ses coll\u00E8gues dans son espace de travail"
+  },
+  {
+    "English": "![ezgif-5-d67c30bfce](https://github.com/ssc-sp/datahub-docs/assets/56747050/525383db-6a82-46a0-b323-f62211d07c11)",
+    "French": "![ezgif-5-d67c30bfce](https://github.com/ssc-sp/datahub-docs/assets/56747050/525383db-6a82-46a0-b323-f62211d07c11)"
+  },
+  {
+    "English": "Once you have filled your metadata, it is a great time to start inviting your colleagues. To do so, navigate to the \u0022Users\u0022 tab of your workspace from the sidebar, where you will see all of the current members of your workspace",
+    "French": "Une fois que vous avez rempli vos m\u00E9tadonn\u00E9es, il est temps de commencer \u00E0 inviter vos coll\u00E8gues. Pour ce faire, acc\u00E9dez \u00E0 l\u0027onglet \u0022Utilisateurs\u0022 de votre espace de travail \u00E0 partir de la barre lat\u00E9rale, o\u00F9 vous verrez tous les membres actuels de votre espace de travail."
+  },
+  {
+    "English": "and their roles. Then click \u0022Invite new user\u0022, enter their email and select \u0022Add new user\u0022 (if they are not already part of FSDH) or their FSDH account (if they are existing users). Once you have selected all the users you want to add",
+    "French": "et leur r\u00F4le. Cliquez ensuite sur \u0022Inviter un nouvel utilisateur\u0022, entrez son adresse \u00E9lectronique et s\u00E9lectionnez \u0022Ajouter un nouvel utilisateur\u0022 (s\u0027il ne fait pas encore partie de DHSF) ou son compte DHSF (s\u0027il s\u0027agit d\u0027un utilisateur existant). Une fois que vous avez s\u00E9lectionn\u00E9 tous les utilisateurs que vous souhaitez ajouter"
+  },
+  {
+    "English": "click the \u0022Add new users\u0022 button in purple, then select the roles of the members you are going to invite!",
+    "French": "cliquez sur le bouton \u0022Ajouter de nouveaux utilisateurs\u0022 en violet, puis s\u00E9lectionnez les r\u00F4les des membres que vous allez inviter !"
+  },
+  {
+    "English": "- **Guest** is the default role and has only read access to all resources within your project.",
+    "French": "- **Guest** est le r\u00F4le par d\u00E9faut et n\u0027a qu\u0027un acc\u00E8s en lecture \u00E0 toutes les ressources de votre projet."
+  },
+  {
+    "English": "- **Collaborators** is the role that you will want to give to most of your colleagues. It gives them read/write access to most of your resources.",
+    "French": "- **Collaborateurs** est le r\u00F4le que vous voudrez donner \u00E0 la plupart de vos coll\u00E8gues. Il leur donne un acc\u00E8s en lecture/\u00E9criture \u00E0 la plupart de vos ressources."
+  },
+  {
+    "English": "- **Admin** users have read/write access to your resources and can also manage other peoples permissions as well as your workspace tools.",
+    "French": "- Les utilisateurs **Admin** ont un acc\u00E8s en lecture/\u00E9criture \u00E0 vos ressources et peuvent \u00E9galement g\u00E9rer les autorisations d\u0027autres personnes ainsi que les outils de votre espace de travail."
+  },
+  {
+    "English": "- **Workspace lead** should be given to as little people as possible. They have all permissions on the workspace and are also the business representative for the workspace for potential communications and issues.",
+    "French": "- Le r\u00F4le de **responsable de l\u0027espace de travail** doit \u00EAtre confi\u00E9 \u00E0 un nombre aussi r\u00E9duit que possible de personnes. Il dispose de toutes les autorisations sur l\u0027espace de travail et est \u00E9galement le repr\u00E9sentant de l\u0027entreprise pour l\u0027espace de travail en ce qui concerne les communications et les probl\u00E8mes potentiels."
+  },
+  {
+    "English": "Once you have decided a role for all your colleagues, ensure that you click the \u0022Save Changes\u0022 button, which will send all the required invitations.",
+    "French": "Une fois que vous avez d\u00E9fini un r\u00F4le pour tous vos coll\u00E8gues, cliquez sur le bouton \u0022Enregistrer les modifications\u0022, ce qui enverra toutes les invitations n\u00E9cessaires."
+  },
+  {
+    "English": "Note that workspace leads and admins can remove members by selecting their role and selecting \u0022Remove User\u0022.",
+    "French": "Notez que les responsables et les administrateurs de l\u0027espace de travail peuvent supprimer des membres en s\u00E9lectionnant leur r\u00F4le et en choisissant \u0022Supprimer l\u0027utilisateur\u0022."
+  },
+  {
+    "English": "WorkspaceMetadata",
+    "French": "M\u00E9tadonn\u00E9es de l\u0027espace de travail"
+  },
+  {
+    "English": "# The first step towards success: metadata",
+    "French": "# Le premier pas vers le succ\u00E8s : les m\u00E9tadonn\u00E9es"
+  },
+  {
+    "English": "![ezgif-5-b2e51901cc](https://github.com/ssc-sp/datahub-docs/assets/56747050/7aecf6c0-5758-4663-a65d-fe41e5e9ed73)",
+    "French": "![ezgif-5-b2e51901cc](https://github.com/ssc-sp/datahub-docs/assets/56747050/7aecf6c0-5758-4663-a65d-fe41e5e9ed73)"
+  },
+  {
+    "English": "In order to do anything in your workspace, it is required that you fill out your project metadata. Metadata is information about the project, such as a description, keywords and organization, that allow us to have a better idea",
+    "French": "Pour pouvoir faire quoi que ce soit dans votre espace de travail, vous devez remplir les m\u00E9tadonn\u00E9es de votre projet. Les m\u00E9tadonn\u00E9es sont des informations sur le projet, telles qu\u0027une description, des mots-cl\u00E9s et une organisation, qui nous permettent d\u0027avoir une meilleure id\u00E9e de la situation."
+  },
+  {
+    "English": "of your needs and that will allow peers outside of your workspace to get an idea of what you\u0027re doing!",
+    "French": "de vos besoins et qui permettra aux personnes ext\u00E9rieures \u00E0 votre espace de travail de se faire une id\u00E9e de ce que vous faites !"
+  },
+  {
+    "English": "Make sure you fill out all of the required information and that you **click \u0022Save Metadata\u0022** at the bottom! You are asked to provide information in both official languages for some of the fields, but you can use the \u0022Google translate\u0022 button to",
+    "French": "Veillez \u00E0 remplir toutes les informations requises et \u00E0 **cliquer sur \u0022Enregistrer les m\u00E9tadonn\u00E9es \u0022** en bas de page ! Vous devez fournir des informations dans les deux langues officielles pour certains champs, mais vous pouvez utiliser le bouton \u0022Google translate\u0022 pour"
+  },
+  {
+    "English": "automatically populate the missing language.",
+    "French": "remplissent automatiquement la langue manquante."
+  },
+  {
+    "English": "WorkspaceSidebar",
+    "French": "Espace de travail"
+  },
+  {
+    "English": "# Using the workspace sidebar",
+    "French": "# Utilisation de la barre lat\u00E9rale de l\u0027espace de travail"
+  },
+  {
+    "English": "![WorkspaceSidebar](https://github.com/ssc-sp/datahub-docs/assets/56747050/d0537632-9520-4110-b7d6-3771bfc2fd95)",
+    "French": "![WorkspaceSidebar](https://github.com/ssc-sp/datahub-docs/assets/56747050/d0537632-9520-4110-b7d6-3771bfc2fd95)"
+  },
+  {
+    "English": "The first section of our workspace sidebar displays the different tools that are built within our workspace. A new workspace will only have the dashboard available, but as your project grows, you will have several tools available to you,",
+    "French": "La premi\u00E8re section de la barre lat\u00E9rale de notre espace de travail affiche les diff\u00E9rents outils qui sont int\u00E9gr\u00E9s \u00E0 notre espace de travail. Un nouvel espace de travail ne disposera que du tableau de bord, mais au fur et \u00E0 mesure que votre projet se d\u00E9veloppera, vous disposerez de plusieurs outils,"
+  },
+  {
+    "English": "such as Databricks, file storage, databases, web applications and more!",
+    "French": "comme Databricks, le stockage de fichiers, les bases de donn\u00E9es, les applications web et plus encore !"
+  },
+  {
+    "English": "The second section of the sidebar is where you manage your workspace:",
+    "French": "La deuxi\u00E8me section de la barre lat\u00E9rale vous permet de g\u00E9rer votre espace de travail :"
+  },
+  {
+    "English": "- **Toolbox**: Request new tools for your workspace.",
+    "French": "- Bo\u00EEte \u00E0 outils** : Demandez de nouveaux outils pour votre espace de travail."
+  },
+  {
+    "English": "- **Users**: Manage workspace users and their roles and permissions.",
+    "French": "- **Utilisateurs** : G\u00E9rer les utilisateurs de l\u0027espace de travail ainsi que leurs r\u00F4les et autorisations."
+  },
+  {
+    "English": "- **Metadata**: Provide additional information regarding your workspace.",
+    "French": "- **M\u00E9tadonn\u00E9es** : Fournissez des informations suppl\u00E9mentaires sur votre espace de travail."
+  },
+  {
+    "English": "- **Reports**: Access costing and storage information of your workspace.",
+    "French": "- Rapports** : Acc\u00E9dez aux informations sur le co\u00FBt et le stockage de votre espace de travail."
+  },
+  {
+    "English": "- **Settings**: Define other settings pertaining to your workspace.",
+    "French": "- **Param\u00E8tres** : D\u00E9finissez d\u0027autres param\u00E8tres relatifs \u00E0 votre espace de travail."
+  },
+  {
+    "English": "**NOTE**: The first step of a new workspace is always to fill out the metadata! Without having filled your workspace metadata you _cannot_ request new tools from the toolbox. Let us have a look at metadata!",
+    "French": "**NOTE** : La premi\u00E8re \u00E9tape d\u0027un nouvel espace de travail est toujours de remplir les m\u00E9tadonn\u00E9es ! Sans avoir rempli les m\u00E9tadonn\u00E9es de votre espace de travail, vous ne pouvez pas demander de nouveaux outils dans la bo\u00EEte \u00E0 outils. Jetons un coup d\u0027\u0153il aux m\u00E9tadonn\u00E9es !"
+  },
+  {
+    "English": "WorkspaceToolbox",
+    "French": "Bo\u00EEte \u00E0 outils de l\u0027espace de travail"
+  },
+  {
+    "English": "# Requesting tools in the toolbox",
+    "French": "# Demander des outils dans la bo\u00EEte \u00E0 outils"
+  },
+  {
+    "English": "![ezgif-5-a4f368af5f](https://github.com/ssc-sp/datahub-docs/assets/56747050/6176805d-573e-4a6a-9641-d704a6beb02f)",
+    "French": "![ezgif-5-a4f368af5f](https://github.com/ssc-sp/datahub-docs/assets/56747050/6176805d-573e-4a6a-9641-d704a6beb02f)"
+  },
+  {
+    "English": "Once your metadata is complete and you have invited your colleagues in your workspace, the final step is to request the tools necessary to your project!",
+    "French": "Une fois que vos m\u00E9tadonn\u00E9es sont compl\u00E8tes et que vous avez invit\u00E9 vos coll\u00E8gues dans votre espace de travail, la derni\u00E8re \u00E9tape consiste \u00E0 demander les outils n\u00E9cessaires \u00E0 votre projet !"
+  },
+  {
+    "English": "To do so, navigate to the toolbox, where you will see all of the tools currently available in FSDH, ensure you read and understand the description of each tool and request the ones you need simply by clicking the \u0022Add to workspace\u0022",
+    "French": "Pour ce faire, naviguez jusqu\u0027\u00E0 la bo\u00EEte \u00E0 outils, o\u00F9 vous verrez tous les outils actuellement disponibles dans DHSF, assurez-vous de lire et de comprendre la description de chaque outil et demandez ceux dont vous avez besoin en cliquant simplement sur le bouton \u0022Ajouter \u00E0 l\u0027espace de travail\u0022"
+  },
+  {
+    "English": "button!",
+    "French": "bouton !"
+  },
+  {
+    "English": "Once you add a tool to your workspace, it may take up to 30 minutes before it appears in your sidebar, at which point you will be able to use it by simply clicking on it. If you have any issues or concerns regarding requesting tools,",
+    "French": "Une fois que vous avez ajout\u00E9 un outil \u00E0 votre espace de travail, il peut s\u0027\u00E9couler jusqu\u0027\u00E0 30 minutes avant qu\u0027il n\u0027apparaisse dans votre barre lat\u00E9rale, apr\u00E8s quoi vous pourrez l\u0027utiliser en cliquant simplement dessus. Si vous avez des questions ou des inqui\u00E9tudes concernant la demande d\u0027outils,"
+  },
+  {
+    "English": "feel free to contact us.",
+    "French": "n\u0027h\u00E9sitez pas \u00E0 nous contacter."
+  },
+  {
+    "English": "**Congratulations on creating your workspace!**",
+    "French": "**F\u00E9licitations pour la cr\u00E9ation de votre espace de travail !"
   }
 ]

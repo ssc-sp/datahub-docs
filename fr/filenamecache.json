@@ -526,5 +526,25 @@
   {
     "English": "Import-Storage.md",
     "French": "Stockage-des-importations.md"
+  },
+  {
+    "English": "WorkspaceLayout.md",
+    "French": "Structure-de-l\u0027espace-de-travail.md"
+  },
+  {
+    "English": "WorkspaceMembers.md",
+    "French": "Membres-de-l\u0027espace-de-travail.md"
+  },
+  {
+    "English": "WorkspaceMetadata.md",
+    "French": "M\u00E9tadonn\u00E9es-de-l\u0027espace-de-travail.md"
+  },
+  {
+    "English": "WorkspaceSidebar.md",
+    "French": "Encadr\u00E9-de-l\u0027espace-de-travail.md"
+  },
+  {
+    "English": "WorkspaceToolbox.md",
+    "French": "Bo\u00EEte-\u00E0-outils-de-l\u0027espace-de-travail.md"
   }
 ]
