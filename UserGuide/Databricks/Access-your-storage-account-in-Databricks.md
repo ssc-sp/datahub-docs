@@ -1,4 +1,4 @@
-# Access your storage account in Databricks
+# Access Azure storage account in Databricks
 
 When your Databricks workspace is created for your project, an Azure Storage Account has already been created. DataHub also mounts the Blob storage of the Storage Account with the pre-created Databricks cluster (main_cluster). This mount is for your convenience and access to the Blob data is subject to your identity. At the time of writing, all project members have full access to the Blob storage.
 
