@@ -1,9 +1,9 @@
 # Access AWS storage account in Databricks
 
 ```
-bucket_name = dbutils.secrets.get(scope = "dh-workspace", key = "st-17-BucketName") 
-access_key = dbutils.secrets.get(scope = "dh-workspace", key = "st-17-AccessKeyId") 
-secret_key = dbutils.secrets.get(scope = "dh-workspace", key = "st-17-AccessKeySecret") 
+bucket_name = dbutils.secrets.get(scope = "dh-workspace", key = "<aws_s3_bucket>") 
+access_key = dbutils.secrets.get(scope = "dh-workspace", key = "<aws_access_key>") 
+secret_key = dbutils.secrets.get(scope = "dh-workspace", key = "<aws_access_key_secret>") 
 
 #Mount bucket on databricks
 encoded_secret_key = secret_key.replace("/", "%2F")
