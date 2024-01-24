@@ -19510,5 +19510,45 @@
   {
     "English": "**Congratulations on creating your workspace!**",
     "French": "**F\u00E9licitations pour la cr\u00E9ation de votre espace de travail !"
+  },
+  {
+    "English": "New workspace",
+    "French": "Nouvel espace de travail"
+  },
+  {
+    "English": "Workspace layout",
+    "French": "Disposition de l\u0027espace de travail"
+  },
+  {
+    "English": "Workspace members",
+    "French": "Membres de l\u0027espace de travail"
+  },
+  {
+    "English": "Workspace metadata",
+    "French": "M\u00E9tadonn\u00E9es de l\u0027espace de travail"
+  },
+  {
+    "English": "Workspace sidebar",
+    "French": "Barre lat\u00E9rale de l\u0027espace de travail"
+  },
+  {
+    "English": "Workspace toolbox",
+    "French": "Bo\u00EEte \u00E0 outils de l\u0027espace de travail"
+  },
+  {
+    "English": "2024 01 23",
+    "French": "2024 01 23"
+  },
+  {
+    "English": "# Office Hours - January 23rd, 2024",
+    "French": "# Heures de bureau - 23 janvier 2024"
+  },
+  {
+    "English": "An overview of the new UI as well as the new services that are coming up soon!",
+    "French": "Un aper\u00E7u de la nouvelle interface utilisateur et des nouveaux services qui seront bient\u00F4t disponibles !"
+  },
+  {
+    "English": "    \u003Csource src=\u0022/api/media/new-ui.mp4\u0022 type=\u0022video/mp4\u0022\u003E",
+    "French": "    \u003Csource src=\u0022/api/media/new-ui.mp4\u0022 type=\u0022video/mp4\u0022\u003E"
   }
 ]
