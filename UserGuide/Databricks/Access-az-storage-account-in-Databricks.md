@@ -1,4 +1,4 @@
-# Access AWS storage account in Databricks
+# Access Azure storage account in Databricks
 
 ## Databricks Mount Point
 
