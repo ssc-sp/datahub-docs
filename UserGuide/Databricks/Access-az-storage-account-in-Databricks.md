@@ -10,7 +10,7 @@ account_key = dbutils.secrets.get(scope = "dh-workspace", key = "<az_key>")
 storage_account = dbutils.secrets.get(scope = "dh-workspace", key = "<az_name>") 
 
 spark.conf.set(
-    ("fs.azure.account.auth.type.%s.dfs.core.windows.net" % storage_account),"sas_token")
+    ("fs.azure.account.key.%s.blob.core.windows.net" % storage_account),account_key)
 
 access_path = ("wasbs://<container_name>@%s.blob.core.windows.net/" % storage_account)
 
