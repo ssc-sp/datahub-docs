@@ -65,6 +65,6 @@
 - Support [](Icon:HelpOutline)
   - [Formulaire de demande de soutien DHSF](/fr/UserGuide/Formulaire-de-demande-de-soutien-DHSF.md)
   - [Demander une session avec un expert Databricks](/fr/UserGuide/Databricks/Demande-de-session-databricks.md)
-  - [Demande de soutien](/fr/UserGuide/GettingStarted/Enregistrement-d'un-ticket.md)
+  - [Demande de soutien](/fr/UserGuide/GettingStarted/Logging-a-ticket.md)
   - [Foire aux questions (FAQ)](/fr/UserGuide/DHSF-FAQs.md)
   - [Notes de mise à jour de DataHub](/fr/UserGuide/Notes-de-mise-à-jour.md)
