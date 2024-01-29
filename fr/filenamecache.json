@@ -518,5 +518,17 @@
   {
     "English": "Hotfix.md",
     "French": "Correctif.md"
+  },
+  {
+    "English": "Access-aws-storage-account-in-Databricks.md",
+    "French": "Acc\u00E9der-au-compte-de-stockage-aws-dans-Databricks.md"
+  },
+  {
+    "English": "Access-az-storage-account-in-Databricks.md",
+    "French": "Acc\u00E9der-\u00E0-un-compte-de-stockage-dans-Databricks.md"
+  },
+  {
+    "English": "Access-gcp-storage-account-in-Databricks.md",
+    "French": "Acc\u00E9der-au-compte-de-stockage-gcp-dans-Databricks.md"
   }
 ]

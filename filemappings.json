@@ -385,6 +385,21 @@
     "Fr": "/fr/InstallationGuide/_sidebar.md"
   },
   {
+    "Id": "138dd3b6-021d-b4cb-d371-35573fdb93c7",
+    "En": "/UserGuide/Databricks/Access-aws-storage-account-in-Databricks.md",
+    "Fr": "/fr/UserGuide/Databricks/Acc\u00E9der-au-compte-de-stockage-aws-dans-Databricks.md"
+  },
+  {
+    "Id": "d498fb1e-de7d-42ee-71fb-425bba0c465a",
+    "En": "/UserGuide/Databricks/Access-az-storage-account-in-Databricks.md",
+    "Fr": "/fr/UserGuide/Databricks/Acc\u00E9der-\u00E0-un-compte-de-stockage-dans-Databricks.md"
+  },
+  {
+    "Id": "a64ce205-6674-35e4-0e3c-4b6c829f7a61",
+    "En": "/UserGuide/Databricks/Access-gcp-storage-account-in-Databricks.md",
+    "Fr": "/fr/UserGuide/Databricks/Acc\u00E9der-au-compte-de-stockage-gcp-dans-Databricks.md"
+  },
+  {
     "Id": "348e1d95-1ee4-b4c6-8a52-bca7f331bb89",
     "En": "/UserGuide/Databricks/Access-your-storage-account-in-Databricks.md",
     "Fr": "/fr/UserGuide/Databricks/Acc\u00E9dez-\u00E0-votre-compte-de-stockage-dans-Databricks.md"

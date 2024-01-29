@@ -28,6 +28,7 @@
 
   - [Journal des modifications](/fr/DeveloperGuide/Change-Management/Journal-des-modifications.md)
   - [Vue d'ensemble de la gestion du changement](/fr/DeveloperGuide/Change-Management/Vue-d'ensemble-de-la-gestion-du-changement.md)
+  - [Correctif](/fr/DeveloperGuide/Change-Management/Correctif.md)
 
 - [Options de configuration](/fr/DeveloperGuide/Options-de-configuration.md)
 - Contribuer

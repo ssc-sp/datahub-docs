@@ -14,7 +14,7 @@ L'objectif des tests E2E est de tester l'application du point de vue de l'utilis
 
 ## Authentification
 
-L'authentification actuelle de l'application s'appuie sur [MS Identity] (https://learn.microsoft.com/en-us/azure/active-directory/develop/v2-app-types#web-apps) avec OIDC.
+L'authentification actuelle de l'application s'appuie sur [MS Identity] (https://learn.microsoft.com/fr-ca/azure/active-directory/develop/v2-app-types#web-apps) avec OIDC.
 
 
 ### Étapes d'authentification

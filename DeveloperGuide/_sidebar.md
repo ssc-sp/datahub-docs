@@ -28,7 +28,7 @@
 
   - [Change Log](/DeveloperGuide/Change-Management/Change-Log.md)
   - [Change Management Overview](/DeveloperGuide/Change-Management/Change-Management-Overview.md)
-  - [HotFix](/DeveloperGuide/Change-Management/Hotfix.md)
+  - [Hotfix](/DeveloperGuide/Change-Management/Hotfix.md)
 
 - [Configuration options](/DeveloperGuide/Configuration-options.md)
 - Contributing
@@ -52,7 +52,7 @@
 
 - Keycloak
 
-  - [Multi cloud security](/DeveloperGuide/Keycloak/Multi-cloud%20security.md)
+  - [Multi cloud security](/DeveloperGuide/Keycloak/Multi-cloud security.md)
 
 - Localization
 
@@ -79,6 +79,8 @@
 
 - Storage
 
+  - [BYO Storage (AWS)](/Storage/BYO Storage (AWS).md)
+  - [BYO Storage (Azure)](/Storage/BYO Storage (Azure).md)
   - [Static Media](/Storage/Static_Media.md)
   - [Storage Limits](/Storage/Storage_Limits.md)
 
