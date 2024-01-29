@@ -12,7 +12,7 @@
     - [Importer le stockage AWS](/fr/UserGuide/Storage/Importer-le-stockage-AWS.md)
     - [Importer le stockage de Google Cloud Platform](/fr/UserGuide/Storage/Importer-le-stockage-GCP.md)
     - [Accédez à votre compte de stockage dans Databricks](/fr/UserGuide/Databricks/Accédez-à-votre-compte-de-stockage-dans-Databricks.md)
-    - [Ajouter une interface utilisateur dans Databricks](/fr/https://learn.microsoft.com/en-us/azure/databricks/ingestion/add-data/)
+    - [Ajouter une interface utilisateur dans Databricks](https://learn.microsoft.com/en-us/azure/databricks/ingestion/add-data/)
 
   - Databricks et Notebooks Python
     - [Qu'est-ce qu'Azure Databricks ?](/fr/UserGuide/Databricks/Databricks.md)
@@ -39,14 +39,14 @@
     - [Prévision des températures avec Databricks Exemple](/fr/UserGuide/Tutorials/Prévisions-SST.md)
     - [Torchvision pour l'analyse des vidéos de Dash Cam dans Databricks](/fr/UserGuide/Tutorials/Torchvision.md)
 
-  - Emplois dans le domaine de l'ordonnancement
+  - Planification des tâches
     - [Comment planifier des tâches dans Databricks](/fr/UserGuide/Databricks/Flux-de-travail.md)
 
   - Applications Web
     - [Développer, construire et déployer des applications web dans DataHub](/fr/UserGuide/Tutorials/Build-deploy-webapp.md)
 
   - Géospatial
-    - [Outils pour les modèles numériques d'élévation (MNE) et calculateur de données matricielles](/fr/https://www.statcan.gc.ca/en/wtc/online-lectures/qgis/2020020)
+    - [Outils pour les modèles numériques d'élévation (MNE) et calculateur de données matricielles](https://www.statcan.gc.ca/en/wtc/online-lectures/qgis/2020020)
 
 
 - Espace de travail [](Icon:Workspaces)
