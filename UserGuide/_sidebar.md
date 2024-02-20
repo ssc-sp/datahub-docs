@@ -27,6 +27,7 @@
   - [Develop, Build and deploy web applications in DataHub](/UserGuide/Tutorials/Build-deploy-webapp.md)
 
 - Storage
+  - [Create and use a PostgreSQL Database on FSDH](/UserGuide/Storage/Postgres.md)
   - [What is Azure Storage Explorer?](/UserGuide/Storage/Datahub-AzureStorage.md)
   - [Use AzCopy to Interact with Azure Storage Account](/UserGuide/Storage/Use-AzCopy.md)
   - [Import Storage](/UserGuide/Storage/Import-Storage.md)

@@ -27,6 +27,7 @@
   - [Développer, construire et déployer des applications web dans DataHub](/fr/UserGuide/Tutorials/Construire-déployer-l'application-web.md)
 
 - Stockage
+  - [Créer et utiliser une base de données PostgreSQL sur le DHSF](/UserGuide/Storage/Postgres.md)
   - [Qu'est-ce que Azure Storage Explorer ?](/fr/UserGuide/Storage/Datahub-AzureStorage.md)
   - [Utiliser AzCopy pour interagir avec le compte de stockage Azure](/fr/UserGuide/Storage/Utilisez-AzCopy.md)
   - [Stockage des importations](/fr/UserGuide/Storage/Stockage-des-importations.md)
