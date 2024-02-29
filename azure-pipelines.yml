@@ -21,7 +21,7 @@ steps:
 - task: AzureFileCopy@4
   inputs:
     SourcePath: '$(Build.ArtifactStagingDirectory)/docs'
-    azureSubscription: 'fsdh-static-assets-service-credential'
+    azureSubscription: 'fsdh-docs-service-credential'
     Destination: 'AzureBlob'
     storage: 'fsdhstaticassetstorage'
     ContainerName: 'docs' # e.g., '$web' for static website hosting
