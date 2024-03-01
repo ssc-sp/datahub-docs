@@ -7,7 +7,7 @@ pool:
   vmImage: 'ubuntu-latest'
  
 steps:
-- checkout: git://ssc-sp/datahub-docs.git@main
+- checkout: self
  
 - task: AzureCLI@2
   inputs:
