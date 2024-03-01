@@ -1,27 +1,31 @@
-# Starter pipeline
-# Start with a minimal pipeline that you can customize to build and deploy your code.
-# Add steps that build, run tests, deploy, and more:
-# https://aka.ms/yaml
-
 trigger:
   branches:
     include:
     - main
-
+ 
 pool:
-  vmImage: windows-latest
-
+  vmImage: 'ubuntu-latest'
+ 
 steps:
-- checkout: self
-- task: CopyFiles@2
+- checkout: git://ssc-sp/datahub-docs.git@main
+ 
+- task: AzureCLI@2
   inputs:
-    Contents: '**'
-    TargetFolder: '$(Build.ArtifactStagingDirectory)/docs'
+    azureSubscription: 'fsdh-static-assets-service-credential'
+    scriptType: 'bash'
+    scriptLocation: 'inlineScript'
+    inlineScript: |
+      storageAccountName='fsdhstaticassetstorage'
+      containerName='docs'
+      sourceFolder='$(Build.SourcesDirectory)'
 
-- task: AzureFileCopy@4
-  inputs:
-    SourcePath: '$(Build.ArtifactStagingDirectory)/docs'
-    azureSubscription: 'fsdh-docs-service-credential'
-    Destination: 'AzureBlob'
-    storage: 'fsdhstaticassetstorage'
-    ContainerName: 'docs' # e.g., '$web' for static website hosting
+      fileList=$(mktemp)
+      find $sourceFolder -type f > $fileList
+      
+      while IFS= read -r file; do
+        relativePath="${file#$sourceFolder/}"
+        echo "Uploading $file to $containerName/$relativePath"
+        az storage blob upload --account-name $storageAccountName --container-name $containerName --file "$file" --name "$relativePath"
+      done < $fileList
+      
+      rm $fileList
