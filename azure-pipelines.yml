@@ -1,0 +1,32 @@
+trigger:
+  branches:
+    include:
+    - next
+    - main
+ 
+pool:
+  vmImage: 'ubuntu-latest'
+ 
+steps:
+- checkout: self
+ 
+- task: AzureCLI@2
+  inputs:
+    azureSubscription: 'fsdh-static-assets-service-credential'
+    scriptType: 'bash'
+    scriptLocation: 'inlineScript'
+    inlineScript: |
+      storageAccountName='fsdhstaticassetstorage'
+      containerName='docs'
+      sourceFolder='$(Build.SourcesDirectory)'
+
+      fileList=$(mktemp)
+      find $sourceFolder -type f > $fileList
+      
+      while IFS= read -r file; do
+        relativePath="${file#$sourceFolder/}"
+        echo "Uploading $file to $containerName/$relativePath"
+        az storage blob upload --account-name $storageAccountName --container-name $containerName --file "$file" --name "$relativePath"
+      done < $fileList
+      
+      rm $fileList
