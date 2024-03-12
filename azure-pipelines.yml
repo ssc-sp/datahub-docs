@@ -10,6 +10,7 @@ steps:
 - checkout: self
  
 - task: AzureCLI@2
+  displayName: 'Upload Files to Azure Blob Storage'
   inputs:
     azureSubscription: 'fsdh-static-assets-service-credential'
     scriptType: 'bash'
@@ -25,7 +26,28 @@ steps:
       while IFS= read -r file; do
         relativePath="${file#$sourceFolder/}"
         echo "Uploading $file to $containerName/$relativePath"
-        az storage blob upload --account-name $storageAccountName --container-name $containerName --file "$file" --name "$relativePath" --overwrite
+        az storage blob upload --account-name $storageAccountName --container-name $containerName --file "$file" --name "$relativePath"
       done < $fileList
       
       rm $fileList
+
+- task: AzureCLI@2
+  displayName: 'Post-upload Validation of Blobs'
+  inputs:
+    azureSubscription: 'fsdh-static-assets-service-credential'
+    scriptType: 'bash'
+    scriptLocation: 'inlineScript'
+    inlineScript: |
+      storageAccountName="fsdhstaticassetstorage"
+      containerName="docs"
+      blobName="_sidebar.md"
+      
+      echo "Checking if the blob exists..."
+      exists=$(az storage blob exists --account-name $storageAccountName --container-name $containerName --name $blobName --output tsv)
+      
+      if [ "$exists" = "True" ]; then
+        echo "Validation successful: Blob exists in container."
+      else
+        echo "Validation failed: Blob does not exist in container."
+        exit 1
+      fi
