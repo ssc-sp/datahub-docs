@@ -15,7 +15,7 @@ PostgreSQL is a fully managed database service that allows you to deploy Postgre
 - Support for advanced PostgreSQL features such as JSONB, full-text search, and spatial data types
 - Seamless integration with other services like web apps or APIs
 
-## Azure Databricks Database Features
+## Azure Databricks Database Features (Hive)
 
 Azure Databricks is an analytics platform that combines Apache Spark with a collaborative environment for data science and machine learning. While it is primarily known for its big data processing capabilities, Azure Databricks also provides powerful database features. Some of the key database features offered by Azure Databricks include:
 
@@ -24,17 +24,46 @@ Azure Databricks is an analytics platform that combines Apache Spark with a coll
 - Delta Live Tables: A real-time change data capture (CDC) feature that allows you to capture and process real-time data changes from various sources.
 - Data Lakehouse Architecture: Azure Databricks promotes a unified architecture that combines the best of data lakes and data warehouses, enabling efficient data storage, processing, and analytics.
 
+Databricks leverages the standard [Apache Hive](https://hive.apache.org/) project which enables to leverage standard storage and query data using SQL. The underlying model is quite different from a traditional database.
+- Databricks SQL requires the cluster to be enabled to run SQL queries
+- Large datasets can be easily accomodated by simply scaling the cluster size
+- There is only storage costs for data that is not used
+- Large datasets are cost efficient because standard Azure storage is used.
+
 ## Comparison
 
 This chart outlines the key differences between PostgreSQL and Azure Databricks Database Features:
 
-| Feature                 | PostgreSQL                     | Azure Databricks Database Features |
-|-------------------------|--------------------------------|-----------------------------------|
-| Database Model          | Relational Database            | Unified data analytics platform based on Lakehouse architecture  |
-| Primary Use Case        | General-purpose database. Web app / API integration. Complex SQL queries. | Big data analytics and real-time processing. Machine Learning. Collaborative data exploration. |
-| Performance           | Good for OLTP workloads.       | Optimized for OLAP and big data processing. |
-| Scalability             | Vertical and horizontal scaling. | Horizontal scaling with Delta Engine. |
-| Integration             | Seamless integration with web apps and APIs. | Integration with big data processing and machine learning workflows. |
+| Feature          | PostgreSQL                                                                | Azure Databricks Database Features (Hive Tables)                                               |
+| ---------------- | ------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| Database Model   | Traditional Relational Database                                           | Unified data analytics platform based on Lakehouse architecture                                |
+| Primary Use Case | General-purpose database. Web app / API integration. Complex SQL queries. | Big data analytics and real-time processing. Machine Learning. Collaborative data exploration. |
+| Performance      | Good for OLTP workloads.                                                  | Optimized for big data processing.                                                             |
+| Scalability      | Limited scaling in current setup                                          | Horizontal scaling with Delta Engine.                                                          |
+| Integration      | Seamless integration with web apps and APIs.                              | Integration with big data processing and machine learning workflows.                           |
+
+## Costing Difference
+
+### On-Demand Databricks
+
+- Databricks costing is _pay for what you use_ aka it depends on the cluster size and how long the cluster has been running
+- With light usage, it is possible to keep databricks under $100 in a month and that includes Hive tables
+- It is recommended to perform some small experiments and monitor the costs to precisely estimate the cost
+
+### Postgresql Cost
+
+- Postgresql in FSDH uses the [Azure Flexible Server](https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/quickstart-create-server-portal) model which is also based on consumption (burstable model)
+- With very light usage, it costs about $30/month
+- It is recommended to perform experiments as well and monitor the cost to determine more precisely the cost for a specific application
+
+## Connectivity
+
+| Feature                      | PostgreSQL | Azure Databricks Database Features     |
+| ---------------------------- | ---------- | -------------------------------------- |
+| Connect from Web Application | X          | Not possible                           |
+| Connect from Power BI        | X          | X                                      |
+| Connect from Tableau         | X          | X                                      |
+| Connect from Python          | X          | Possible but requires cluster to be on |
 
 ## Conclusion
 
