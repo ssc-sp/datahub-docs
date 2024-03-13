@@ -9,6 +9,7 @@
 - [Manage Services In Initiatives Admin Page](/AdminGuide/Manage-Services-In-Initiatives-Admin-Page.md)
 - [Management of Project Resources](/AdminGuide/Management-of-Project-Resources.md)
 - [Managing Budgets](/AdminGuide/Managing-Budgets.md)
+- [migrate to versioning](/AdminGuide/migrate-to-versioning.md)
 - [Power BI Administration](/AdminGuide/Power-BI-Administration.md)
 - [unlock users pim](/unlock-users-pim.md)
 - [User Identity Management (Unclassified scenario)](/User-Identity-Management-(Unclassified-scenario).md)
