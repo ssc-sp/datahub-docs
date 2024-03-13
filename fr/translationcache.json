@@ -19806,5 +19806,57 @@
   {
     "English": "Compare PostgreSQL and Databricks",
     "French": "Comparer PostgreSQL et Databricks"
+  },
+  {
+    "English": "| Schema           | Strict traditional SQL Schema                                             | Flexible and auto-schema management                                                            |",
+    "French": "| Sch\u00E9ma SQL traditionnel strict | Gestion flexible et auto-schema | Sch\u00E9ma SQL traditionnel strict"
+  },
+  {
+    "English": "## Recommende use cases",
+    "French": "## Recommende use cases"
+  },
+  {
+    "English": "### PostgreSQL",
+    "French": "### PostgreSQL"
+  },
+  {
+    "English": "- Web Application",
+    "French": "- Application Web"
+  },
+  {
+    "English": "- Interactive Form",
+    "French": "- Formulaire interactif"
+  },
+  {
+    "English": "- API integration",
+    "French": "- Int\u00E9gration de l\u0027API"
+  },
+  {
+    "English": "- Connection to existing application",
+    "French": "- Connexion \u00E0 une application existante"
+  },
+  {
+    "English": "### Databricks SQL Hive Tables",
+    "French": "### Databricks SQL Hive Tables"
+  },
+  {
+    "English": "- Science experiment data",
+    "French": "- Donn\u00E9es d\u0027exp\u00E9riences scientifiques"
+  },
+  {
+    "English": "- Evolving data that requires flexible schemas",
+    "French": "- Des donn\u00E9es \u00E9volutives qui n\u00E9cessitent des sch\u00E9mas flexibles"
+  },
+  {
+    "English": "- ETL pipeline intermediary data",
+    "French": "- Donn\u00E9es interm\u00E9diaires du pipeline ETL"
+  },
+  {
+    "English": "### Postgresql Cost",
+    "French": "### Co\u00FBt de Postgresql"
+  },
+  {
+    "English": "- Postgresql in FSDH uses the [Azure Flexible Server](https://learn.microsoft.com/fr-ca/azure/postgresql/flexible-server/quickstart-create-server-portal) model which is also based on consumption (burstable model)",
+    "French": "- Postgresql dans DHSF utilise le mod\u00E8le [Azure Flexible Server] (https://learn.microsoft.com/fr-ca/azure/postgresql/flexible-server/quickstart-create-server-portal) qui est aussi bas\u00E9 sur la consommation (mod\u00E8le burstable)."
   }
 ]

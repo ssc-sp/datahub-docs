@@ -1,6 +1,6 @@
 - [Guide de l'utilisateur du DataHub scientifique fédéral](/fr/UserGuide/Guide-de-l'utilisateur.md)
 
-- Learn [](/fr/Icon-LibraryBooks)
+- Apprendre [](Icon:LibraryBooks)
   - Charger et partager des données
     - [Comment accéder à votre compte de stockage dans Databricks ?](/fr/UserGuide/Databricks/Accédez-à-votre-compte-de-stockage-dans-Databricks.md)
     - [Comment utiliser AzCopy pour transférer des fichiers volumineux ?](/fr/UserGuide/Databricks/AzCopy.md)      
@@ -22,7 +22,7 @@
 
   - Utiliser PostgreSQL sur DHSF
     - [Créer et utiliser une base de données PostgreSQL sur DHSF](/fr/UserGuide/Database/Postgres.md)
-    - [Comparer PostgreSQL et Databricks](/fr/UserGuide/Database/Comparaison-des-banques-de-données-psql.md)
+    - [Comparer PostgreSQL et Databricks](/fr/UserGuide/Database/Comparaison-des-bases-de-données-psql.md)
 
   - Visualiser mes données
     - [Comment construire des tableaux de bord avec Databricks](/fr/UserGuide/Databricks/Tableau-de-bord.md)
@@ -52,7 +52,7 @@
     - [Outils pour les modèles numériques d'élévation (MNE) et calculateur de données matricielles](/fr/https://www.statcan.gc.ca/en/wtc/online-lectures/qgis/2020020)
 
 
-- Workspaces [](/fr/Espaces-de-travail-à-icônes)
+- Espace de travail [](Icon:Workspaces)
   - Pour commencer
     - [Enregistrement du compte](/fr/UserGuide/Preregistration/Préinscription.md)
     - [Créer un espace de travail](/fr/UserGuide/GettingStarted/Créer-un-espace-de-travail.md)
@@ -65,7 +65,7 @@
     - [Demande de soutien](/fr/UserGuide/GettingStarted/Enregistrement-d'un-ticket.md)
     - [Détails du profil de métadonnées](/fr/UserGuide/Workspace/Métadonnées-du-profil-de-l'espace-de-travail.md)
 
-- Support [](/fr/Icône-HelpOutline)
+- Support [](Icon:HelpOutline)
   - [Formulaire de demande de soutien DHSF](/fr/UserGuide/Formulaire-de-demande-de-soutien-DHSF.md)
   - [Demander une session avec un expert Databricks](/fr/UserGuide/Databricks/Demande-de-session-databricks.md)
   - [Demande de soutien](/fr/UserGuide/GettingStarted/Enregistrement-d'un-ticket.md)

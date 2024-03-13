@@ -43,7 +43,7 @@ This chart outlines the key differences between PostgreSQL and Azure Databricks 
 | Scalability      | Limited scaling in current setup                                          | Horizontal scaling with Delta Engine.                                                          |
 | Integration      | Seamless integration with web apps and APIs.                              | Integration with big data processing and machine learning workflows.                           |
 
-## Recommende use cases
+## Recommended use cases
 
 ### PostgreSQL
 
@@ -67,9 +67,9 @@ This chart outlines the key differences between PostgreSQL and Azure Databricks 
 - With light usage, it is possible to keep databricks under $100 in a month and that includes Hive tables
 - It is recommended to perform some small experiments and monitor the costs to precisely estimate the cost
 
-### Postgresql Cost
+### PostgreSQL Cost
 
-- Postgresql in FSDH uses the [Azure Flexible Server](https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/quickstart-create-server-portal) model which is also based on consumption (burstable model)
+- PostgreSQL in FSDH uses the [Azure Flexible Server](https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/quickstart-create-server-portal) model which is also based on consumption (burstable model)
 - With very light usage, it costs about $30/month
 - It is recommended to perform experiments as well and monitor the cost to determine more precisely the cost for a specific application
 
