@@ -1,5 +1,10 @@
 [
   {
+    "Id": "0a2fa4d2-be89-a1d3-42d4-75f42fef4604",
+    "En": "/AdminGuide/Demo/Demo-Script.md",
+    "Fr": "/fr/AdminGuide/Demo/Script-de-d\u00E9monstration.md"
+  },
+  {
     "Id": "e7572e20-00d6-0a0a-aa0a-13eff36879c4",
     "En": "/AdminGuide/AppInsights-Auditing.md",
     "Fr": "/fr/AdminGuide/Audit-AppInsights.md"
@@ -23,16 +28,6 @@
     "Id": "e0714b4b-6146-2c5a-8eb0-3ce13f19e488",
     "En": "/AdminGuide/Deleting-Workspaces.md",
     "Fr": "/fr/AdminGuide/Suppression-des-espaces-de-travail.md"
-  },
-  {
-    "Id": "ff69ca05-1c97-377e-c082-7b1a34d0af96",
-    "En": "/AdminGuide/Demo-Script-Aug23.md",
-    "Fr": "/fr/AdminGuide/Script-de-d\u00E9monstration-Aug23.md"
-  },
-  {
-    "Id": "8c41194d-b063-4e3e-1da4-0caf500198c7",
-    "En": "/AdminGuide/Demo-Script.md",
-    "Fr": "/fr/AdminGuide/Script-de-d\u00E9monstration.md"
   },
   {
     "Id": "1c2debae-fdb9-c0ac-7d78-32d1b6873ade",

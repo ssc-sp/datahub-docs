@@ -45,11 +45,11 @@ Ce tableau présente les principales différences entre PostgreSQL et les foncti
 | Modèle de base de données | Base de données relationnelle traditionnelle | Plate-forme d'analyse de données unifiée basée sur l'architecture Lakehouse |
 | Cas d'utilisation principal | Base de données généraliste. Intégration d'applications Web / API. Requêtes SQL complexes. | Analyse des big data et traitement en temps réel. Apprentissage automatique. Exploration collaborative des données. 
 | Schéma SQL traditionnel strict | Gestion flexible et auto-schema | Schéma SQL traditionnel strict
-| Performances | Bon pour les charges de travail OLTP.                                                  | Optimisé pour le traitement des données volumineuses (big data).                                                             |
-| Mise à l'échelle | Mise à l'échelle limitée dans la configuration actuelle | Mise à l'échelle horizontale avec le moteur Delta.                                                          
+| Performances - Bon pour les charges de travail OLTP.                                                  | Optimisé pour le traitement des données volumineuses (big data).                                                             |
+| Mise à l'échelle limitée dans la configuration actuelle | Mise à l'échelle horizontale avec le moteur Delta.                                                          
 | Intégration | Intégration transparente avec les applications web et les API.                              | Intégration avec les flux de travail de traitement des big data et d'apprentissage automatique.                           |
 
-## Recommende use cases
+## Cas d'utilisation recommandés
 
 ### PostgreSQL
 
@@ -75,18 +75,18 @@ Ce tableau présente les principales différences entre PostgreSQL et les foncti
 
 ### Coût de PostgreSQL
 
-- PostgreSQL dans DHSF utilise le modèle [Azure Flexible Server] (https://learn.microsoft.com/fr-ca/azure/postgresql/flexible-server/quickstart-create-server-portal) qui est aussi basé sur la consommation (modèle burstable).
+- PostgreSQL dans DHSF utilise le modèle [Azure Flexible Server] (https://learn.microsoft.com/fr-ca/azure/postgresql/flexible-server/quickstart-create-server-portal) qui est également basé sur la consommation (modèle burstable).
 - En cas d'utilisation très légère, le coût est d'environ 30 dollars par mois.
 - Il est recommandé d'effectuer également des expériences et de contrôler le coût afin de déterminer plus précisément le coût d'une application spécifique.
 
 ## Connectivité
 
-| Fonctionnalité | PostgreSQL | Azure Databricks |
+| Fonctionnalité | PostgreSQL | Fonctionnalités de la base de données Azure Databricks | Fonctionnalités de la base de données Azure Databricks
 | ---------------------------- | ---------- | -------------------------------------- |
 | Connexion à partir d'une application Web | X | Impossible |
 | Connecter à partir de Power BI | X | X |
 | Connecter à partir de Tableau | X | X |
-| Connecter à partir de Tableau | X | Possible mais nécessite que le cluster soit activé |
+| X | Possible mais nécessite que le cluster soit activé |
 
 ## Conclusion
 

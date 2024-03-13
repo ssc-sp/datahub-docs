@@ -3,7 +3,10 @@
 - [Datahub Artifacts Naming Standards](/AdminGuide/Datahub-Artifacts-Naming-Standards.md)
 - [Data hub Initiative Tracker](/AdminGuide/DataHub-Initiative-Tracker.md)
 - [Deleting Workspaces](/AdminGuide/Deleting-Workspaces.md)
-- [Demo Script](/AdminGuide/Demo/Demo-Script.md)
+- Demo
+
+  - [Demo Script](/AdminGuide/Demo/Demo-Script.md)
+
 - [Manage Initiatives Admin Page](/AdminGuide/Manage-Initiatives-Admin-Page.md)
 - [Manage Services In Initiatives Admin Page](/AdminGuide/Manage-Services-In-Initiatives-Admin-Page.md)
 - [Management of Project Resources](/AdminGuide/Management-of-Project-Resources.md)

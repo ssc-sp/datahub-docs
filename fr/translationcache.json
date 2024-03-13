@@ -19858,5 +19858,213 @@
   {
     "English": "- Postgresql in FSDH uses the [Azure Flexible Server](https://learn.microsoft.com/fr-ca/azure/postgresql/flexible-server/quickstart-create-server-portal) model which is also based on consumption (burstable model)",
     "French": "- Postgresql dans DHSF utilise le mod\u00E8le [Azure Flexible Server] (https://learn.microsoft.com/fr-ca/azure/postgresql/flexible-server/quickstart-create-server-portal) qui est aussi bas\u00E9 sur la consommation (mod\u00E8le burstable)."
+  },
+  {
+    "English": "# Demo Script ",
+    "French": "# Script de d\u00E9monstration"
+  },
+  {
+    "English": "![Not sure why we have this picture](image.png)",
+    "French": "[Je ne sais pas trop pourquoi nous avons cette image](image.png)"
+  },
+  {
+    "English": "## User Experience Slide",
+    "French": "## Diapositive sur l\u0027exp\u00E9rience utilisateur"
+  },
+  {
+    "English": "Before jumping into the demo, I want to highlight that agility for the end users is our primary driver for both the technical and business side.  Within minutes you can get access to cloud-based resources available and able to collaborate with your colleagues across GC.",
+    "French": "Avant de passer \u00E0 la d\u00E9monstration, je tiens \u00E0 souligner que l\u0027agilit\u00E9 pour les utilisateurs finaux est notre principal moteur, tant du point de vue technique que du point de vue commercial.  En quelques minutes, vous pouvez acc\u00E9der \u00E0 des ressources bas\u00E9es sur le nuage et collaborer avec vos coll\u00E8gues au sein du GC."
+  },
+  {
+    "English": "So, let us start with the onboarding process.",
+    "French": "Commen\u00E7ons donc par le processus d\u0027int\u00E9gration."
+  },
+  {
+    "English": "## Show registration page https://federal-science-datahub.canada.ca/register ",
+    "French": "## Afficher la page d\u0027enregistrement https://federal-science-datahub.canada.ca/register"
+  },
+  {
+    "English": "We have an easy onboarding process:",
+    "French": "Nous avons un processus d\u0027int\u00E9gration facile :"
+  },
+  {
+    "English": "- Click on the registration link and enter their email address.  ",
+    "French": "- Cliquez sur le lien d\u0027inscription et saisissez leur adresse \u00E9lectronique.  "
+  },
+  {
+    "English": "- they will receive an email to confirm their email address",
+    "French": "- ils recevront un courriel pour confirmer leur adresse \u00E9lectronique"
+  },
+  {
+    "English": "- they can immediately access the portal.",
+    "French": "- ils peuvent imm\u00E9diatement acc\u00E9der au portail."
+  },
+  {
+    "English": "## Show home page",
+    "French": "## Afficher la page d\u0027accueil"
+  },
+  {
+    "English": "![FSDH Home Page](image-1.png)",
+    "French": "Page d\u0027accueil de la DHSF](image-1.png)"
+  },
+  {
+    "English": "Once logged in, you arrive at the home page, where you can access your Workspace. A workspace is a private area where you can access services (analytics, compute), store data, and invite collaborators",
+    "French": "Une fois connect\u00E9, vous arrivez sur la page d\u0027accueil, o\u00F9 vous pouvez acc\u00E9der \u00E0 votre espace de travail. Un espace de travail est une zone priv\u00E9e o\u00F9 vous pouvez acc\u00E9der \u00E0 des services (analyse, calcul), stocker des donn\u00E9es et inviter des collaborateurs."
+  },
+  {
+    "English": "## Show Explore page \u2013 other work of interest",
+    "French": "## Afficher la page Explorer - autres travaux d\u0027int\u00E9r\u00EAt"
+  },
+  {
+    "English": "![Explore Page](image-2.png)",
+    "French": "![Page d\u0027exploration](image-2.png)"
+  },
+  {
+    "English": "All resources are available through the workspaces. This view lets you browse all workspaces and researchers can see if there is other work of interest taking place ",
+    "French": "Toutes les ressources sont disponibles dans les espaces de travail. Cette vue vous permet de parcourir tous les espaces de travail et les chercheurs peuvent voir si d\u0027autres travaux int\u00E9ressants sont en cours."
+  },
+  {
+    "English": "## What is a workspace? Go into the Demo workspace DW1",
+    "French": "## Qu\u0027est-ce qu\u0027un espace de travail ? Aller dans l\u0027espace de travail de d\u00E9monstration DW1"
+  },
+  {
+    "English": "What we call a workspace is a private area where you can ",
+    "French": "Ce que nous appelons un espace de travail est un espace priv\u00E9 o\u00F9 vous pouvez"
+  },
+  {
+    "English": "- access services (analytics, compute, storage), ",
+    "French": "- les services d\u0027acc\u00E8s (analyse, calcul, stockage),"
+  },
+  {
+    "English": "- open \u201CView Members\u201D invite collaborators, to either contribute to the analytics or simply read your data as a guest. ",
+    "French": "- ouvrir \u0022Voir les membres\u0022 pour inviter les collaborateurs \u00E0 contribuer \u00E0 l\u0027analyse ou simplement \u00E0 lire vos donn\u00E9es en tant qu\u0027invit\u00E9s."
+  },
+  {
+    "English": "## Storage",
+    "French": "## Stockage"
+  },
+  {
+    "English": "- Open __Storage explorer__ Store data: common interface where collaborators can work independently to upload, download, share and access data across departments",
+    "French": "- Ouvrir __Explorateur de stockage__ Stocker des donn\u00E9es : interface commune o\u00F9 les collaborateurs peuvent travailler ind\u00E9pendamment pour charger, t\u00E9l\u00E9charger, partager et acc\u00E9der aux donn\u00E9es entre les d\u00E9partements"
+  },
+  {
+    "English": "The tool box in datahub supports analytics, compute and working with data (long term storage not in scope yet).",
+    "French": "La bo\u00EEte \u00E0 outils du datahub prend en charge l\u0027analyse, le calcul et le traitement des donn\u00E9es (le stockage \u00E0 long terme n\u0027est pas encore pr\u00E9vu)."
+  },
+  {
+    "English": "Main tool we provide for Analytics \u0026 Compute is DataBricks",
+    "French": "Le principal outil que nous fournissons pour l\u0027analyse et l\u0027informatique est DataBricks."
+  },
+  {
+    "English": "- [Open Example notebook](https://adb-1078013913864941.1.azuredatabricks.net/?o=1078013913864941#notebook/3052776818088804/command/3052776818088818)",
+    "French": "- [Open Example notebook](https://adb-1078013913864941.1.azuredatabricks.net/?o=1078013913864941#notebook/3052776818088804/command/3052776818088818)"
+  },
+  {
+    "English": "Databricks is an industry standard tool where users can",
+    "French": "Databricks est un outil standard de l\u0027industrie o\u00F9 les utilisateurs peuvent"
+  },
+  {
+    "English": "\u2022\twork on structured \u0026 unstructured data to do advanced analytics, ",
+    "French": "- travailler sur des donn\u00E9es structur\u00E9es et non structur\u00E9es pour effectuer des analyses avanc\u00E9es,"
+  },
+  {
+    "English": "\u2022\tco-develop python scripts,",
+    "French": "- cod\u00E9velopper des scripts en python,"
+  },
+  {
+    "English": "\u2022\tConduct data engineering, ",
+    "French": "- Mener des travaux d\u0027ing\u00E9nierie des donn\u00E9es,"
+  },
+  {
+    "English": "\u2022\tand machine learning",
+    "French": "- et l\u0027apprentissage automatique"
+  },
+  {
+    "English": "## Show cluster config screen",
+    "French": "## Afficher l\u0027\u00E9cran de configuration du cluster"
+  },
+  {
+    "English": "![Create cluster screen](image-3.png)",
+    "French": "![Cr\u00E9er un \u00E9cran cluster](image-3.png)"
+  },
+  {
+    "English": "To give more flexibility to users, in Databricks, you can choose the size and configuration of the cluster, and set guardrails on how long it runs for, and incurred costs.",
+    "French": "Pour donner plus de flexibilit\u00E9 aux utilisateurs, dans Databricks, vous pouvez choisir la taille et la configuration de la grappe, et fixer des garde-fous sur la dur\u00E9e de fonctionnement et les co\u00FBts encourus."
+  },
+  {
+    "English": "__With great power comes great responsibility__ (Spiderman quote) - Show costing page",
+    "French": "La loi sur les droits de l\u0027homme et les libert\u00E9s fondamentales (loi sur les droits de l\u0027homme) - Montrer la page de co\u00FBt"
+  },
+  {
+    "English": "To prevent unexpected costs running away, FSDH provides near real-time costing reports on costs incurred as well as budget limits and usage warnings. ",
+    "French": "Pour \u00E9viter les d\u00E9penses impr\u00E9vues, DHSF fournit des rapports en temps quasi r\u00E9el sur les co\u00FBts encourus, ainsi que des limites budg\u00E9taires et des avertissements sur l\u0027utilisation."
+  },
+  {
+    "English": "## Learn Section",
+    "French": "## Apprendre la section"
+  },
+  {
+    "English": "How to use the resources efficiently? How to use all the databricks or SQL capabilities? Make a dashboard? Show resources page",
+    "French": "Comment utiliser efficacement les ressources ? Comment utiliser toutes les capacit\u00E9s des bases de donn\u00E9es ou de SQL ? Cr\u00E9er un tableau de bord ? Afficher la page des ressources"
+  },
+  {
+    "English": "-\tShowcase ML section",
+    "French": "- Section \u0022Showcase ML"
+  },
+  {
+    "English": "-\tML tools are available for exploration or also more advanced users",
+    "French": "- Des outils de ML sont disponibles pour l\u0027exploration ou pour les utilisateurs plus avanc\u00E9s."
+  },
+  {
+    "English": "-\tCovers ML Flow \u2013 make experiments, provides traceability ",
+    "French": "- Couvre le ML Flow - fait des exp\u00E9riences, fournit la tra\u00E7abilit\u00E9"
+  },
+  {
+    "English": "To illustrate how the DataHub can be used in scientific applications, we are going to quickly show two examples of projects hosted in DataHub:",
+    "French": "Pour illustrer comment le DataHub peut \u00EAtre utilis\u00E9 dans des applications scientifiques, nous allons rapidement montrer deux exemples de projets h\u00E9berg\u00E9s dans le DataHub :"
+  },
+  {
+    "English": "1. The first Project is Host Pathogen dashboard: AAFC approached the DataHub for a solution to share a Pathogen database. Database has provincial data on all pathogens and maintaining and sharing it is a key to their research. They are currently using an MS Access database, exchanging it through email with no straightforward way to share it or modernize it.  We were able to convert \u0026 migrate the data into datahub.  Using modern python tools in Databricks, we developed forms that let users search through to existing database. Proof of Concept was developed in two weeks of effort and costs about $100/month",
+    "French": "1. Le premier projet est le tableau de bord des pathog\u00E8nes de l\u0027h\u00F4te : AAC a demand\u00E9 au DataHub une solution pour partager une base de donn\u00E9es sur les agents pathog\u00E8nes. Cette base de donn\u00E9es contient des donn\u00E9es provinciales sur tous les agents pathog\u00E8nes et sa mise \u00E0 jour et son partage sont essentiels pour leurs recherches. Ils utilisent actuellement une base de donn\u00E9es MS Access, qu\u0027ils \u00E9changent par courrier \u00E9lectronique, sans moyen direct de la partager ou de la moderniser.  Nous avons pu convertir et migrer les donn\u00E9es dans Datahub.  En utilisant des outils modernes en python dans Databricks, nous avons d\u00E9velopp\u00E9 des formulaires qui permettent aux utilisateurs de faire des recherches dans la base de donn\u00E9es existante. La preuve de concept a \u00E9t\u00E9 d\u00E9velopp\u00E9e en deux semaines d\u0027efforts et co\u00FBte environ 100$/mois."
+  },
+  {
+    "English": "1. Show web app: NRC collaboration with Canadian Transportation Agency. To illustrate solutions to a text analytics problem, the team developed their own web application to provide interactive results. Application was developed R Shiny (widely used tool in the data science community).  They could not collaborate with it.  We can host it in FSDH and they can now collaborate, upload datasets and update dashboards when they could not before.  This is all in a secure environment.",
+    "French": "1. Montrer l\u0027application web : Collaboration entre le CNRC et l\u0027Office des transports du Canada. Pour illustrer les solutions \u00E0 un probl\u00E8me d\u0027analyse de texte, l\u0027\u00E9quipe a d\u00E9velopp\u00E9 sa propre application web pour fournir des r\u00E9sultats interactifs. L\u0027application a \u00E9t\u00E9 d\u00E9velopp\u00E9e en R Shiny (outil largement utilis\u00E9 dans la communaut\u00E9 de la science des donn\u00E9es).  Ils n\u0027ont pas pu collaborer avec elle.  Nous pouvons l\u0027h\u00E9berger dans DHSF et ils peuvent maintenant collaborer, t\u00E9l\u00E9charger des ensembles de donn\u00E9es et mettre \u00E0 jour des tableaux de bord alors qu\u0027ils ne le pouvaient pas auparavant.  Le tout dans un environnement s\u00E9curis\u00E9."
+  },
+  {
+    "English": "## New features",
+    "French": "## Nouvelles fonctionnalit\u00E9s"
+  },
+  {
+    "English": "-\tDatabases",
+    "French": "- Bases de donn\u00E9es"
+  },
+  {
+    "English": "## Stop screen share ",
+    "French": "## Arr\u00EAter le partage d\u0027\u00E9cran"
+  },
+  {
+    "English": "To summarize, Datahub provides 3 key features",
+    "French": "En r\u00E9sum\u00E9, Datahub offre 3 fonctions cl\u00E9s"
+  },
+  {
+    "English": "- access to modern cloud-based toolsets, ",
+    "French": "- l\u0027acc\u00E8s \u00E0 des outils modernes bas\u00E9s sur l\u0027informatique en nuage,"
+  },
+  {
+    "English": "- access to storage in an agile manner.  ",
+    "French": "- l\u0027acc\u00E8s au stockage de mani\u00E8re agile.  "
+  },
+  {
+    "English": "- ability to collaborate broadly across GC",
+    "French": "- capacit\u00E9 \u00E0 collaborer largement au sein du CG"
+  },
+  {
+    "English": "- Demo",
+    "French": "- D\u00E9monstration"
+  },
+  {
+    "English": "## Recommended use cases",
+    "French": "## Cas d\u0027utilisation recommand\u00E9s"
   }
 ]
