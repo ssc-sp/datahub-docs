@@ -22,7 +22,7 @@ steps:
       # fileList=$(mktemp)
       # find $sourceFolder -type f > $fileList
 
-      az storage blob upload-batch --destination $containerName --source $sourceFolder --account-name $storageAccountName --account-key $(storageAccountKey)
+      az storage blob upload-batch --destination $containerName --source $sourceFolder --account-name $storageAccountName --account-key $(storageAccountKey) --overwrite
       
       # while IFS= read -r file; do
       #   relativePath="${file#$sourceFolder/}"
