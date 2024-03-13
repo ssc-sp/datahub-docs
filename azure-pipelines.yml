@@ -14,19 +14,20 @@ steps:
     azureSubscription: 'fsdh-static-assets-service-credential'
     scriptType: 'bash'
     scriptLocation: 'inlineScript'
-    addSpnToEnvironment: true
     inlineScript: |
       storageAccountName='fsdhstaticassetstorage'
       containerName='docs'
       sourceFolder='$(Build.SourcesDirectory)'
 
-      fileList=$(mktemp)
-      find $sourceFolder -type f > $fileList
+      # fileList=$(mktemp)
+      # find $sourceFolder -type f > $fileList
+
+      az storage blob upload-batch --destination $containerName --source $sourceFolder --account-name $storageAccountName --account-key $(storageAccountKey)
       
-      while IFS= read -r file; do
-        relativePath="${file#$sourceFolder/}"
-        echo "Uploading $file to $containerName/$relativePath"
-        az storage blob upload --account-name $storageAccountName --container-name $containerName --file "$file" --name "$relativePath" --overwrite
-      done < $fileList
+      # while IFS= read -r file; do
+      #   relativePath="${file#$sourceFolder/}"
+      #   echo "Uploading $file to $containerName/$relativePath"
+      #   az storage blob upload --account-name $storageAccountName --container-name $containerName --file "$file" --name "$relativePath" --overwrite
+      # done < $fileList
       
-      rm $fileList
+      # rm $fileList
