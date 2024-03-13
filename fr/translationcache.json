@@ -19522,5 +19522,289 @@
   {
     "English": "                    })",
     "French": "                    })"
+  },
+  {
+    "English": "Postgres",
+    "French": "Postgres"
+  },
+  {
+    "English": "# Create and use a PostgreSQL Database on FSDH",
+    "French": "# Cr\u00E9er et utiliser une base de donn\u00E9es PostgreSQL sur DHSF"
+  },
+  {
+    "English": "The Federal Science DataHub provides the ability to provision a PostgreSQL database for your workspace. This guide will walk you through the process of creating a PostgreSQL database and using it in code.",
+    "French": "Le DataHub scientifique f\u00E9d\u00E9ral permet de provisionner une base de donn\u00E9es PostgreSQL pour votre espace de travail. Ce guide vous guidera \u00E0 travers le processus de cr\u00E9ation d\u0027une base de donn\u00E9es PostgreSQL et son utilisation dans le code."
+  },
+  {
+    "English": "## How to provision a PostgreSQL Database",
+    "French": "## Comment provisionner une base de donn\u00E9es PostgreSQL"
+  },
+  {
+    "English": "1. Navigate to the workspace you want to create a PostgreSQL database in.",
+    "French": "1. Naviguez vers l\u0027espace de travail dans lequel vous souhaitez cr\u00E9er une base de donn\u00E9es PostgreSQL."
+  },
+  {
+    "English": "2. Navigate to the \u0060Toolbox\u0060 tab under the \u0060Administration\u0060 category.",
+    "French": "2. Naviguez vers l\u0027onglet \u0022Bo\u00EEte \u00E0 outils\u0022 dans la cat\u00E9gorie \u0022Administration\u0022."
+  },
+  {
+    "English": "![](database-1.png)",
+    "French": "![](database-1.png)"
+  },
+  {
+    "English": "3. Within a few minutes, the database will be provisioned and you will see it in the \u0060Toolbox\u0060 tab. If the database does not provision, please fill out a support request.",
+    "French": "3. Dans quelques minutes, la base de donn\u00E9es sera provisionn\u00E9e et vous la verrez dans l\u0027onglet \u0060Toolbox\u0060. Si la base de donn\u00E9es n\u0027est pas provisionn\u00E9e, veuillez remplir une demande de support."
+  },
+  {
+    "English": "## How to use your PostgreSQL Database",
+    "French": "## Comment utiliser votre base de donn\u00E9es PostgreSQL"
+  },
+  {
+    "English": "1. Navigate to the workspace you want to use the PostgreSQL database in.",
+    "French": "1. Naviguez vers l\u0027espace de travail dans lequel vous souhaitez utiliser la base de donn\u00E9es PostgreSQL."
+  },
+  {
+    "English": "2. Navigate to the \u0060SQL Database\u0060 tab under the \u0060Workspace Tools\u0060 category. This page provides you with the needed information to connect to your database.",
+    "French": "2. Naviguez jusqu\u0027\u00E0 l\u0027onglet \u0022Base de donn\u00E9es SQL\u0022 dans la cat\u00E9gorie \u0022Outils de l\u0027espace de travail\u0022. Cette page vous fournit les informations n\u00E9cessaires pour vous connecter \u00E0 votre base de donn\u00E9es."
+  },
+  {
+    "English": "3. **Before trying to use the database**, you must add your IP address to the firewall rules. ",
+    "French": "3. **Avant d\u0027essayer d\u0027utiliser la base de donn\u00E9es**, vous devez ajouter votre adresse IP aux r\u00E8gles du pare-feu."
+  },
+  {
+    "English": "    * Navigate to the bottom of the page and click \u0060Add Current IP Address\u0060 to add your local IP address to the firewall rules.",
+    "French": "    * Naviguez jusqu\u0027au bas de la page et cliquez sur \u0022Ajouter l\u0027adresse IP actuelle\u0022 pour ajouter votre adresse IP locale aux r\u00E8gles du pare-feu."
+  },
+  {
+    "English": "    * If you switch networks or toggle your VPN, you will need to add your new IP address to the firewall rules.",
+    "French": "    * Si vous changez de r\u00E9seau ou basculez votre RPV, vous devrez ajouter votre nouvelle adresse IP aux r\u00E8gles du pare-feu."
+  },
+  {
+    "English": "    * To give Databricks access to the database, you will need to add the address \u00600.0.0.0\u0060 to the firewall rules.",
+    "French": "    * Pour permettre \u00E0 Databricks d\u0027acc\u00E9der \u00E0 la base de donn\u00E9es, vous devrez ajouter l\u0027adresse \u00600.0.0.0\u0060 aux r\u00E8gles du pare-feu."
+  },
+  {
+    "English": "    * **NOTE:** Changes can take up to 15 minutes to apply.",
+    "French": "    **NOTE:** L\u0027application des modifications peut prendre jusqu\u0027\u00E0 15 minutes."
+  },
+  {
+    "English": "![](database-2.png)",
+    "French": "![](database-2.png)"
+  },
+  {
+    "English": "4. After adding your IP address to the firewall rules, you can use the connection info provided for Databricks, Python, R, Java, and C#.",
+    "French": "4. Apr\u00E8s avoir ajout\u00E9 votre adresse IP aux r\u00E8gles du pare-feu, vous pouvez utiliser les informations de connexion fournies pour Databricks, Python, R, Java et C#."
+  },
+  {
+    "English": "![](database-3.png)",
+    "French": "![](database-3.png)"
+  },
+  {
+    "English": "psql databricks comparison",
+    "French": "Comparaison des banques de donn\u00E9es psql"
+  },
+  {
+    "English": "# PostgreSQL vs Azure Databricks Database Features",
+    "French": "# PostgreSQL vs Azure Databricks Fonctionnalit\u00E9s des bases de donn\u00E9es"
+  },
+  {
+    "English": "The Federal Science DataHub offers multiple ways to use database functionality. This guide will compare the use of a PostgreSQL database on FSDH with the database features provided by Azure Databricks.",
+    "French": "Le DataHub scientifique f\u00E9d\u00E9ral offre plusieurs fa\u00E7ons d\u0027utiliser la fonctionnalit\u00E9 de base de donn\u00E9es. Ce guide compare l\u0027utilisation d\u0027une base de donn\u00E9es PostgreSQL sur le DHSF avec les fonctionnalit\u00E9s de base de donn\u00E9es fournies par Azure Databricks."
+  },
+  {
+    "English": "When it comes to hosting a database with FSDH, there are multiple options available. One popular choice is using PostgreSQL, while another option is leveraging the database features provided by Azure Databricks. In this comparison, we will explore the key differences and benefits of each approach.",
+    "French": "Lorsqu\u0027il s\u0027agit d\u0027h\u00E9berger une base de donn\u00E9es avec DHSF, plusieurs options sont disponibles. L\u0027un des choix les plus populaires est l\u0027utilisation de PostgreSQL, tandis qu\u0027une autre option consiste \u00E0 tirer parti des fonctionnalit\u00E9s de base de donn\u00E9es fournies par Azure Databricks. Dans cette comparaison, nous allons explorer les principales diff\u00E9rences et les avantages de chaque approche."
+  },
+  {
+    "English": "## PostgreSQL",
+    "French": "## PostgreSQL"
+  },
+  {
+    "English": "PostgreSQL is a fully managed database service that allows you to deploy PostgreSQL databases in the cloud. It provides high availability, automatic backups, and integration with other services. Some of the key features of PostgreSQL include:",
+    "French": "PostgreSQL est un service de base de donn\u00E9es enti\u00E8rement g\u00E9r\u00E9 qui vous permet de d\u00E9ployer des bases de donn\u00E9es PostgreSQL dans le nuage. Il offre une haute disponibilit\u00E9, des sauvegardes automatiques et une int\u00E9gration avec d\u0027autres services. Voici quelques-unes des principales caract\u00E9ristiques de PostgreSQL :"
+  },
+  {
+    "English": "- Easy deployment of PostgreSQL databases",
+    "French": "- D\u00E9ploiement facile des bases de donn\u00E9es PostgreSQL"
+  },
+  {
+    "English": "- Built-in high availability and automatic backups",
+    "French": "- Haute disponibilit\u00E9 int\u00E9gr\u00E9e et sauvegardes automatiques"
+  },
+  {
+    "English": "- Support for advanced PostgreSQL features such as JSONB, full-text search, and spatial data types",
+    "French": "- Prise en charge des fonctionnalit\u00E9s avanc\u00E9es de PostgreSQL telles que JSONB, la recherche plein texte et les types de donn\u00E9es spatiales"
+  },
+  {
+    "English": "- Seamless integration with other services like web apps or APIs",
+    "French": "- Int\u00E9gration transparente avec d\u0027autres services tels que les applications web ou les API"
+  },
+  {
+    "English": "## Azure Databricks Database Features (Hive)",
+    "French": "## Fonctionnalit\u00E9s de la base de donn\u00E9es Azure Databricks (Hive)"
+  },
+  {
+    "English": "Azure Databricks is an analytics platform that combines Apache Spark with a collaborative environment for data science and machine learning. While it is primarily known for its big data processing capabilities, Azure Databricks also provides powerful database features. Some of the key database features offered by Azure Databricks include:",
+    "French": "Azure Databricks est une plateforme analytique qui associe Apache Spark \u00E0 un environnement collaboratif pour la science des donn\u00E9es et l\u0027apprentissage automatique. Bien qu\u0027il soit principalement connu pour ses capacit\u00E9s de traitement des big data, Azure Databricks offre \u00E9galement de puissantes fonctionnalit\u00E9s de base de donn\u00E9es. Parmi les principales fonctionnalit\u00E9s de base de donn\u00E9es offertes par Azure Databricks, citons :"
+  },
+  {
+    "English": "- Delta Lake: A transactional storage layer that provides ACID transactions, schema enforcement, and data versioning for data lakes.",
+    "French": "- Delta Lake : Une couche de stockage transactionnel qui fournit des transactions ACID, l\u0027application du sch\u00E9ma et le versionnage des donn\u00E9es pour les lacs de donn\u00E9es."
+  },
+  {
+    "English": "- Delta Engine: A high-performance query engine optimized for Delta Lake, enabling fast and scalable SQL queries on large datasets.",
+    "French": "- Moteur Delta : Un moteur de requ\u00EAte haute performance optimis\u00E9 pour Delta Lake, permettant des requ\u00EAtes SQL rapides et \u00E9volutives sur de grands ensembles de donn\u00E9es."
+  },
+  {
+    "English": "- Delta Live Tables: A real-time change data capture (CDC) feature that allows you to capture and process real-time data changes from various sources.",
+    "French": "- Delta Live Tables : Une fonction de capture des donn\u00E9es de changement en temps r\u00E9el (CDC) qui vous permet de capturer et de traiter les changements de donn\u00E9es en temps r\u00E9el \u00E0 partir de diverses sources."
+  },
+  {
+    "English": "- Data Lakehouse Architecture: Azure Databricks promotes a unified architecture that combines the best of data lakes and data warehouses, enabling efficient data storage, processing, and analytics.",
+    "French": "- Architecture de lac de donn\u00E9es : Azure Databricks promeut une architecture unifi\u00E9e qui combine le meilleur des lacs de donn\u00E9es et des entrep\u00F4ts de donn\u00E9es, permettant un stockage, un traitement et une analyse efficaces des donn\u00E9es."
+  },
+  {
+    "English": "Databricks leverages the standard [Apache Hive](https://hive.apache.org/) project which enables to leverage standard storage and query data using SQL. The underlying model is quite different from a traditional database.",
+    "French": "Databricks s\u0027appuie sur le projet standard [Apache Hive] (https://hive.apache.org/) qui permet d\u0027exploiter le stockage standard et d\u0027interroger les donn\u00E9es \u00E0 l\u0027aide de SQL. Le mod\u00E8le sous-jacent est tr\u00E8s diff\u00E9rent d\u0027une base de donn\u00E9es traditionnelle."
+  },
+  {
+    "English": "- Databricks SQL requires the cluster to be enabled to run SQL queries",
+    "French": "- Databricks SQL n\u00E9cessite que le cluster soit activ\u00E9 pour ex\u00E9cuter des requ\u00EAtes SQL."
+  },
+  {
+    "English": "- Large datasets can be easily accomodated by simply scaling the cluster size",
+    "French": "- Les grands ensembles de donn\u00E9es peuvent \u00EAtre facilement pris en charge en augmentant simplement la taille des grappes."
+  },
+  {
+    "English": "- There is only storage costs for data that is not used",
+    "French": "- Il n\u0027y a que des co\u00FBts de stockage pour les donn\u00E9es qui ne sont pas utilis\u00E9es"
+  },
+  {
+    "English": "- Large datasets are cost efficient because standard Azure storage is used.",
+    "French": "- Les grands ensembles de donn\u00E9es sont rentables car le stockage standard Azure est utilis\u00E9."
+  },
+  {
+    "English": "## Comparison",
+    "French": "## Comparaison"
+  },
+  {
+    "English": "This chart outlines the key differences between PostgreSQL and Azure Databricks Database Features:",
+    "French": "Ce tableau pr\u00E9sente les principales diff\u00E9rences entre PostgreSQL et les fonctionnalit\u00E9s de la base de donn\u00E9es Azure Databricks :"
+  },
+  {
+    "English": "| Feature          | PostgreSQL                                                                | Azure Databricks Database Features (Hive Tables)                                               |",
+    "French": "| Fonctionnalit\u00E9 | PostgreSQL | Fonctionnalit\u00E9s de la base de donn\u00E9es Azure Databricks (Hive Tables) |"
+  },
+  {
+    "English": "| ---------------- | ------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |",
+    "French": "| ---------------- | ------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |"
+  },
+  {
+    "English": "| Database Model   | Traditional Relational Database                                           | Unified data analytics platform based on Lakehouse architecture                                |",
+    "French": "| Mod\u00E8le de base de donn\u00E9es | Base de donn\u00E9es relationnelle traditionnelle | Plate-forme d\u0027analyse de donn\u00E9es unifi\u00E9e bas\u00E9e sur l\u0027architecture Lakehouse |"
+  },
+  {
+    "English": "| Primary Use Case | General-purpose database. Web app / API integration. Complex SQL queries. | Big data analytics and real-time processing. Machine Learning. Collaborative data exploration. |",
+    "French": "| Cas d\u0027utilisation principal | Base de donn\u00E9es g\u00E9n\u00E9raliste. Int\u00E9gration d\u0027applications Web / API. Requ\u00EAtes SQL complexes. | Analyse des big data et traitement en temps r\u00E9el. Apprentissage automatique. Exploration collaborative des donn\u00E9es. "
+  },
+  {
+    "English": "| Performance      | Good for OLTP workloads.                                                  | Optimized for big data processing.                                                             |",
+    "French": "| Performances - Bon pour les charges de travail OLTP.                                                  | Optimis\u00E9 pour le traitement des donn\u00E9es volumineuses (big data).                                                             |"
+  },
+  {
+    "English": "| Scalability      | Limited scaling in current setup                                          | Horizontal scaling with Delta Engine.                                                          |",
+    "French": "| Mise \u00E0 l\u0027\u00E9chelle limit\u00E9e dans la configuration actuelle | Mise \u00E0 l\u0027\u00E9chelle horizontale avec le moteur Delta.                                                          "
+  },
+  {
+    "English": "| Integration      | Seamless integration with web apps and APIs.                              | Integration with big data processing and machine learning workflows.                           |",
+    "French": "| Int\u00E9gration | Int\u00E9gration transparente avec les applications web et les API.                              | Int\u00E9gration avec les flux de travail de traitement des big data et d\u0027apprentissage automatique.                           |"
+  },
+  {
+    "English": "## Costing Difference",
+    "French": "## Diff\u00E9rence de co\u00FBt"
+  },
+  {
+    "English": "### On-Demand Databricks",
+    "French": "### Les banques de donn\u00E9es \u00E0 la demande"
+  },
+  {
+    "English": "- Databricks costing is _pay for what you use_ aka it depends on the cluster size and how long the cluster has been running",
+    "French": "- Le co\u00FBt de Databricks est _pay\u00E9 pour ce que vous utilisez_, c\u0027est-\u00E0-dire qu\u0027il d\u00E9pend de la taille du cluster et de sa dur\u00E9e de fonctionnement."
+  },
+  {
+    "English": "- With light usage, it is possible to keep databricks under $100 in a month and that includes Hive tables",
+    "French": "- En cas d\u0027utilisation l\u00E9g\u00E8re, il est possible de maintenir les bases de donn\u00E9es \u00E0 moins de 100 dollars par mois, y compris les tables Hive."
+  },
+  {
+    "English": "- It is recommended to perform some small experiments and monitor the costs to precisely estimate the cost",
+    "French": "- Il est recommand\u00E9 d\u0027effectuer quelques petites exp\u00E9riences et de contr\u00F4ler les co\u00FBts afin d\u0027estimer pr\u00E9cis\u00E9ment le co\u00FBt."
+  },
+  {
+    "English": "### PostgreSQL Cost",
+    "French": "### Co\u00FBt de PostgreSQL"
+  },
+  {
+    "English": "- PostgreSQL in FSDH uses the [Azure Flexible Server](https://learn.microsoft.com/fr-ca/azure/postgresql/flexible-server/quickstart-create-server-portal) model which is also based on consumption (burstable model)",
+    "French": "- PostgreSQL dans DHSF utilise le mod\u00E8le [Azure Flexible Server] (https://learn.microsoft.com/fr-ca/azure/postgresql/flexible-server/quickstart-create-server-portal) qui est \u00E9galement bas\u00E9 sur la consommation (mod\u00E8le burstable)."
+  },
+  {
+    "English": "- With very light usage, it costs about $30/month",
+    "French": "- En cas d\u0027utilisation tr\u00E8s l\u00E9g\u00E8re, le co\u00FBt est d\u0027environ 30 dollars par mois."
+  },
+  {
+    "English": "- It is recommended to perform experiments as well and monitor the cost to determine more precisely the cost for a specific application",
+    "French": "- Il est recommand\u00E9 d\u0027effectuer \u00E9galement des exp\u00E9riences et de contr\u00F4ler le co\u00FBt afin de d\u00E9terminer plus pr\u00E9cis\u00E9ment le co\u00FBt d\u0027une application sp\u00E9cifique."
+  },
+  {
+    "English": "## Connectivity",
+    "French": "## Connectivit\u00E9"
+  },
+  {
+    "English": "| Feature                      | PostgreSQL | Azure Databricks Database Features     |",
+    "French": "| Fonctionnalit\u00E9 | PostgreSQL | Fonctionnalit\u00E9s de la base de donn\u00E9es Azure Databricks | Fonctionnalit\u00E9s de la base de donn\u00E9es Azure Databricks"
+  },
+  {
+    "English": "| ---------------------------- | ---------- | -------------------------------------- |",
+    "French": "| ---------------------------- | ---------- | -------------------------------------- |"
+  },
+  {
+    "English": "| Connect from Web Application | X          | Not possible                           |",
+    "French": "| Connexion \u00E0 partir d\u0027une application Web | X | Impossible |"
+  },
+  {
+    "English": "| Connect from Power BI        | X          | X                                      |",
+    "French": "| Connecter \u00E0 partir de Power BI | X | X |"
+  },
+  {
+    "English": "| Connect from Tableau         | X          | X                                      |",
+    "French": "| Connecter \u00E0 partir de Tableau | X | X |"
+  },
+  {
+    "English": "| Connect from Python          | X          | Possible but requires cluster to be on |",
+    "French": "| X | Possible mais n\u00E9cessite que le cluster soit activ\u00E9 |"
+  },
+  {
+    "English": "## Conclusion",
+    "French": "## Conclusion"
+  },
+  {
+    "English": "In conclusion, PostgreSQL and Azure Databricks Database Features offer different strengths and use cases. PostgreSQL is well-suited for general-purpose database workloads, web app integration, and complex SQL queries. On the other hand, Azure Databricks database features are optimized for big data analytics, real-time processing, and collaborative data exploration. Depending on your specific use case and requirements, you can choose the database solution that best fits your needs.",
+    "French": "En conclusion, PostgreSQL et Azure Databricks Database Features offrent des atouts et des cas d\u0027utilisation diff\u00E9rents. PostgreSQL est bien adapt\u00E9 aux charges de travail des bases de donn\u00E9es g\u00E9n\u00E9rales, \u00E0 l\u0027int\u00E9gration des applications web et aux requ\u00EAtes SQL complexes. En revanche, les fonctionnalit\u00E9s de base de donn\u00E9es d\u0027Azure Databricks sont optimis\u00E9es pour l\u0027analyse des big data, le traitement en temps r\u00E9el et l\u0027exploration collaborative des donn\u00E9es. En fonction de votre cas d\u0027utilisation sp\u00E9cifique et de vos exigences, vous pouvez choisir la solution de base de donn\u00E9es qui r\u00E9pond le mieux \u00E0 vos besoins."
+  },
+  {
+    "English": "# Modules in databricks",
+    "French": "# Modules dans les tableaux de donn\u00E9es"
+  },
+  {
+    "English": "  - Use PostgreSQL on FSDH",
+    "French": "  - Utiliser PostgreSQL sur DHSF"
+  },
+  {
+    "English": "Create and use a PostgreSQL Database on FSDH",
+    "French": "Cr\u00E9er et utiliser une base de donn\u00E9es PostgreSQL sur DHSF"
+  },
+  {
+    "English": "Compare PostgreSQL and Databricks",
+    "French": "Comparer PostgreSQL et Databricks"
   }
 ]

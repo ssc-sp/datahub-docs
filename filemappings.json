@@ -385,6 +385,16 @@
     "Fr": "/fr/InstallationGuide/_sidebar.md"
   },
   {
+    "Id": "30f3e16f-edff-8e7f-bfe9-0d43f0d001f7",
+    "En": "/UserGuide/Database/Postgres.md",
+    "Fr": "/fr/UserGuide/Database/Postgres.md"
+  },
+  {
+    "Id": "ee919b9e-fb67-9b92-798a-e2a28fd93dd6",
+    "En": "/UserGuide/Database/psql-databricks-comparison.md",
+    "Fr": "/fr/UserGuide/Database/Comparaison-des-banques-de-donn\u00E9es-psql.md"
+  },
+  {
     "Id": "138dd3b6-021d-b4cb-d371-35573fdb93c7",
     "En": "/UserGuide/Databricks/Access-aws-storage-account-in-Databricks.md",
     "Fr": "/fr/UserGuide/Databricks/Acc\u00E9der-au-compte-de-stockage-aws-dans-Databricks.md"
