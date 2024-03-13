@@ -1,5 +1,12 @@
 # Create and use a PostgreSQL Database on FSDH
 
+## Video
+
+<video width="600" height="350" controls>
+    <source src="/api/media/postgres.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
 The Federal Science DataHub provides the ability to provision a PostgreSQL database for your workspace. This guide will walk you through the process of creating a PostgreSQL database and using it in code.
 
 ## How to provision a PostgreSQL Database

@@ -1,10 +1,11 @@
----
-remarks: Automatically translated with DeepL
-source: /UserGuide/Database/Postgres.md
-draft: true
----
-
 # Créer et utiliser une base de données PostgreSQL sur DHSF
+
+## Vidéo
+
+<video width="600" height="350" controls>
+    <source src="/api/media/postgres.mp4" type="video/mp4">
+    Votre navigateur ne supporte pas la vidéo.
+</video>
 
 Le DataHub scientifique fédéral permet de provisionner une base de données PostgreSQL pour votre espace de travail. Ce guide vous guidera à travers le processus de création d'une base de données PostgreSQL et son utilisation dans le code.
 
