@@ -18,8 +18,11 @@
     - [What is Azure Databricks?](/UserGuide/Databricks/Databricks.md)
     - [How to integrate Git in Databricks](/UserGuide/Databricks/Git-Integration.md)
     - [How to use the VS Code Extension with Databricks](/UserGuide/Databricks/vscode_extension.md)
-    - [Integrating Git in Databricks](/UserGuide/Databricks/Git-Integration.md)
     - [Understanding Cluster Policies](/UserGuide/Databricks/Cluster-Policies.md)
+
+  - Use PostgreSQL on FSDH
+    - [Create and use a PostgreSQL Database on FSDH](/UserGuide/Database/Postgres.md)
+    - [Compare PostgreSQL and Databricks](/UserGuide/Database/psql-databricks-comparison.md)
 
   - Visualize My data
     - [How to build Dashboards with Databricks](/UserGuide/Databricks/Dashboarding.md)

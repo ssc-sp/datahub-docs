@@ -12,14 +12,17 @@
     - [Importer le stockage AWS](/fr/UserGuide/Storage/Importer-le-stockage-AWS.md)
     - [Importer le stockage de Google Cloud Platform](/fr/UserGuide/Storage/Importer-le-stockage-GCP.md)
     - [Accédez à votre compte de stockage dans Databricks](/fr/UserGuide/Databricks/Accédez-à-votre-compte-de-stockage-dans-Databricks.md)
-    - [Ajouter une interface utilisateur dans Databricks](https://learn.microsoft.com/en-us/azure/databricks/ingestion/add-data/)
+    - [Ajouter une interface utilisateur dans Databricks](https://learn.microsoft.com/fr-ca/azure/databricks/ingestion/add-data/)
 
   - Databricks et Notebooks Python
     - [Qu'est-ce qu'Azure Databricks ?](/fr/UserGuide/Databricks/Databricks.md)
     - [Comment intégrer Git dans Databricks](/fr/UserGuide/Databricks/Intégration-de-Git.md)
     - [Comment utiliser l'extension VS Code avec Databricks](/fr/UserGuide/Databricks/extension-vscode.md)
-    - [Intégrer Git dans Databricks](/fr/UserGuide/Databricks/Intégration-de-Git.md)
     - [Comprendre les politiques de cluster](/fr/UserGuide/Databricks/Politiques-des-clusters.md)
+
+  - Utiliser PostgreSQL sur DHSF
+    - [Créer et utiliser une base de données PostgreSQL sur DHSF](/fr/UserGuide/Database/Postgres.md)
+    - [Comparer PostgreSQL et Databricks](/fr/UserGuide/Database/Comparaison-des-bases-de-données-psql.md)
 
   - Visualiser mes données
     - [Comment construire des tableaux de bord avec Databricks](/fr/UserGuide/Databricks/Tableau-de-bord.md)
@@ -39,14 +42,14 @@
     - [Prévision des températures avec Databricks Exemple](/fr/UserGuide/Tutorials/Prévisions-SST.md)
     - [Torchvision pour l'analyse des vidéos de Dash Cam dans Databricks](/fr/UserGuide/Tutorials/Torchvision.md)
 
-  - Planification des tâches
+  - Emplois dans le domaine de l'ordonnancement
     - [Comment planifier des tâches dans Databricks](/fr/UserGuide/Databricks/Flux-de-travail.md)
 
   - Applications Web
     - [Développer, construire et déployer des applications web dans DataHub](/fr/UserGuide/Tutorials/Build-deploy-webapp.md)
 
   - Géospatial
-    - [Outils pour les modèles numériques d'élévation (MNE) et calculateur de données matricielles](https://www.statcan.gc.ca/en/wtc/online-lectures/qgis/2020020)
+    - [Outils pour les modèles numériques d'élévation (MNE) et calculateur de données matricielles](https://www.statcan.gc.ca/fr/afc/cours-en-ligne/qgis/2020020)
 
 
 - Espace de travail [](Icon:Workspaces)
@@ -57,7 +60,7 @@
     - [Demande de stockage](/fr/UserGuide/GettingStarted/Demande-de-stockage.md)
     - [Demande de Databricks](/fr/UserGuide/GettingStarted/Demander-des-databricks.md)
     - [Inviter un utilisateur](/fr/UserGuide/GettingStarted/Invite-a-user.md)
-    - [Modifier le rôle d'un utilisateur](/fr/UserGuide/GettingStarted/Change-a-user-role.md)
+    - [Modifier le rôle d'un utilisateur](/fr/UserGuide/GettingStarted/Change-a-user-role.md.md)
     - [Contrôle des coûts](/fr/UserGuide/GettingStarted/Contrôler-les-coûts-de-l'espace-de-travail.md)
     - [Demande de soutien](/fr/UserGuide/GettingStarted/Logging-a-ticket.md)
     - [Détails du profil de métadonnées](/fr/UserGuide/Workspace/Métadonnées-du-profil-de-l'espace-de-travail.md)
@@ -65,6 +68,6 @@
 - Support [](Icon:HelpOutline)
   - [Formulaire de demande de soutien DHSF](/fr/UserGuide/Formulaire-de-demande-de-soutien-DHSF.md)
   - [Demander une session avec un expert Databricks](/fr/UserGuide/Databricks/Demande-de-session-databricks.md)
-  - [Demande de soutien](/fr/UserGuide/GettingStarted/Logging-a-ticket.md)
+  - [Demande de soutien](/fr/UserGuide/GettingStarted/Enregistrement-d'un-ticket.md)
   - [Foire aux questions (FAQ)](/fr/UserGuide/DHSF-FAQs.md)
   - [Notes de mise à jour de DataHub](/fr/UserGuide/Notes-de-mise-à-jour.md)

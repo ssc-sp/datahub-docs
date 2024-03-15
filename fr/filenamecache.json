@@ -530,5 +530,13 @@
   {
     "English": "Access-gcp-storage-account-in-Databricks.md",
     "French": "Acc\u00E9der-au-compte-de-stockage-gcp-dans-Databricks.md"
+  },
+  {
+    "English": "Postgres.md",
+    "French": "Postgres.md"
+  },
+  {
+    "English": "psql-databricks-comparison.md",
+    "French": "Comparaison-des-banques-de-donn\u00E9es-psql.md"
   }
 ]
