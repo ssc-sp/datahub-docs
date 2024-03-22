@@ -13,7 +13,7 @@ The Federal Science DataHub provides the ability to provision a PostgreSQL datab
 
 1. Navigate to the workspace you want to create a PostgreSQL database in.
 2. Navigate to the `Toolbox` tab under the `Administration` category.
-![](database-1.png)
+![](/api/media/UserGuide/Database/database-1.png)
 3. Within a few minutes, the database will be provisioned and you will see it in the `Toolbox` tab. If the database does not provision, please fill out a support request.
 
 ## How to use your PostgreSQL Database
@@ -25,6 +25,6 @@ The Federal Science DataHub provides the ability to provision a PostgreSQL datab
     * If you switch networks or toggle your VPN, you will need to add your new IP address to the firewall rules.
     * To give Databricks access to the database, you will need to add the address `0.0.0.0` to the firewall rules.
     * **NOTE:** Changes can take up to 15 minutes to apply.
-![](database-2.png)
+![](/api/media/UserGuide/Database/database-2.png)
 4. After adding your IP address to the firewall rules, you can use the connection info provided for Databricks, Python, R, Java, and C#.
-![](database-3.png)
+![](/api/media/UserGuide/Database/database-3.png)
