@@ -27,6 +27,7 @@
   - Visualize My data
     - [How to build Dashboards with Databricks](/UserGuide/Databricks/Dashboarding.md)
     - [Building Dashboards](/UserGuide/Databricks/Dashboarding.md)
+    - [Compare Dashboarding Tools](/UserGuide/Databricks/Dashboarding-Tool-Comparison.md)
 
   - Connect APIs
     - [How to connect Google APIs with Databricks](/UserGuide/Databricks/Connecting-Google-API.md)
