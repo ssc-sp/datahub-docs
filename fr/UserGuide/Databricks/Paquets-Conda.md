@@ -50,7 +50,7 @@ docker push ghcr.io/ssc-sp/fsdh-sample:latest
 2. Créez un cluster avec le mode d'accès "No Isolation Shared" (pas d'isolation partagée)
 3. Choisissez une durée d'exécution de 10.4-LTS, 9.1-LTS ou 7.3-LTS.
 4. Sous Advance -> Docker, utilisez l'image `ghcr.io/ssc-sp/fsdh-sample:latest`
-![image](https://user-images.githubusercontent.com/3179656/236491765-2dc12ee1-4106-42eb-9462-76accf8b3621.png)
+![image](/api/media/UserGuide/Databricks/Conda-Packages-1.bmp)
 
 ## Étape 4. Valider le cluster
 
