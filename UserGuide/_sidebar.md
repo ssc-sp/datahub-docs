@@ -11,7 +11,6 @@
     - [Import Azure Storage](/UserGuide/Storage/Import-Azure-Storage.md)
     - [Import AWS Storage](/UserGuide/Storage/Import-AWS-Storage.md)
     - [Import Google Cloud Platform Storage](/UserGuide/Storage/Import-GCP-Storage.md)
-    - [Access your storage account in Databricks](/UserGuide/Databricks/Access-your-storage-account-in-Databricks.md)
     - [Add data UI in Databricks](https://learn.microsoft.com/en-us/azure/databricks/ingestion/add-data/)
 
   - Databricks and Python Notebooks  
@@ -26,7 +25,6 @@
 
   - Visualize My data
     - [How to build Dashboards with Databricks](/UserGuide/Databricks/Dashboarding.md)
-    - [Building Dashboards](/UserGuide/Databricks/Dashboarding.md)
     - [Compare Dashboarding Tools](/UserGuide/Databricks/Dashboarding-Tool-Comparison.md)
 
   - Connect APIs
@@ -51,7 +49,6 @@
   
   - Geospatial
     - [Digital Elevation Models (DEM) Tools and Raster Calculator](https://www.statcan.gc.ca/en/wtc/online-lectures/qgis/2020020)
-
 
 - Workspaces [](Icon:Workspaces)
   - Getting Started
