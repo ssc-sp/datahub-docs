@@ -21,14 +21,14 @@ Visual Studio Code is an extremely popular code editor. As an open source system
 1. Click the **Extensions** icon in the left navigation bar.
 1. Search for **Databricks**.
 1. Click **Install**. The correct extension is shown in the screenshot below.
-![Databricks extension](./vscode_databricks_1.png)
+![Databricks extension](/api/docs/UserGuide/Databricks/vscode_databricks_1.png)
 
 ## Connect to a Databricks workspace
 
 1. Click the **Databricks** icon in the left navigation bar.
 1. Click **Configure**.
 1. Enter the URL of your Databricks workspace in the space shown below, up until `.net/`. For example, if your workspace URL is `https://sample.azuredatabricks.net/?o=111111111111#`, enter `https://sample.azuredatabricks.net/`.
-![Databricks extension](./vscode_databricks_2.png)
+![Databricks extension](/api/docs/UserGuide/Databricks/vscode_databricks_2.png)
 1. On the next screen, select **Edit Databricks profiles**
 1. On the screen that opens, complete the following and save the file: 
 ```
@@ -54,9 +54,9 @@ Before running code, you must attach a cluster.
 
 1. Open the **Databricks** icon in the left navigation bar.
 1. If no cluster is attached, hover over the **Cluster** bar and click **Configure Cluster**, as shown in the screenshot below.
-![Databricks extension](./vscode_databricks_3.png)
+![Databricks extension](/api/docs/UserGuide/Databricks/vscode_databricks_3.png)
 1. From the dropdown, select the cluster you want to attach, as shown in the screenshot below.
-![Databricks extension](./vscode_databricks_4.png)
+![Databricks extension](/api/docs/UserGuide/Databricks/vscode_databricks_4.png)
 1. You can now start the cluster from the extension.
 
 > **NOTE:** You cannot create a cluster in the extension. You must create it in Databricks itself.
@@ -81,9 +81,9 @@ To use a notebook, put `# Databricks notebook source` at the top of your `.py` f
 1. Open the **Explorer** menu in the left navigation bar.
 1. Navigate to the file you want to run. You can use any time of file that you can run in Databricks (R, Python, etc).
 1. Ensure the cluster is started, then right-click the file and select **Run File as Workflow in Databricks**, as shown in the screenshot below.
-![Databricks extension](./vscode_databricks_5.png)
+![Databricks extension](/api/docs/UserGuide/Databricks/vscode_databricks_5.png)
 1. The file will run on the cluster. You can see the results in the **Output** window.
-![Databricks extension](./vscode_databricks_6.png)
+![Databricks extension](/api/docs/UserGuide/Databricks/vscode_databricks_6.png)
 
 > **NOTE:** Your code will get copied to Databricks under the `.ide` folder in your workspace.
 
