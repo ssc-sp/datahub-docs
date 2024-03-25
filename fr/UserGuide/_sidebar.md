@@ -7,7 +7,7 @@
     - [Premiers pas avec DHSF et le partage de fichiers](/fr/UserGuide/Tutorials/Cas-d'utilisation-1.md)
     - [Qu'est-ce que Azure Storage Explorer ?](/fr/UserGuide/Storage/Datahub-AzureStorage.md)
     - [Utiliser AzCopy pour interagir avec le compte de stockage Azure](/fr/UserGuide/Storage/Utilisez-AzCopy.md)
-    - [Stockage des importations](/fr/UserGuide/Storage/Stockage-des-importations.md)
+    - [Importer du stockage](/fr/UserGuide/Storage/Stockage-des-importations.md)
     - [Importer Azure Storage](/fr/UserGuide/Storage/Importer-Azure-Storage.md)
     - [Importer le stockage AWS](/fr/UserGuide/Storage/Importer-le-stockage-AWS.md)
     - [Importer le stockage de Google Cloud Platform](/fr/UserGuide/Storage/Importer-le-stockage-GCP.md)
