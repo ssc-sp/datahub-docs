@@ -11,7 +11,6 @@
     - [Importer Azure Storage](/fr/UserGuide/Storage/Importer-Azure-Storage.md)
     - [Importer le stockage AWS](/fr/UserGuide/Storage/Importer-le-stockage-AWS.md)
     - [Importer le stockage de Google Cloud Platform](/fr/UserGuide/Storage/Importer-le-stockage-GCP.md)
-    - [Accédez à votre compte de stockage dans Databricks](/fr/UserGuide/Databricks/Accédez-à-votre-compte-de-stockage-dans-Databricks.md)
     - [Ajouter une interface utilisateur dans Databricks](https://learn.microsoft.com/fr-ca/azure/databricks/ingestion/add-data/)
 
   - Databricks et Notebooks Python
@@ -26,7 +25,7 @@
 
   - Visualiser mes données
     - [Comment construire des tableaux de bord avec Databricks](/fr/UserGuide/Databricks/Tableau-de-bord.md)
-    - [Construire des tableaux de bord](/fr/UserGuide/Databricks/Tableau-de-bord.md)
+    - [Compare Dashboarding Tools](/fr/UserGuide/Databricks/Comparaison-des-outils-de-tableau-de-bord.md)
 
   - Connecter les API
     - [Comment connecter les API de Google avec Databricks](/fr/UserGuide/Databricks/Connexion-à-l'API-Google.md)
@@ -42,7 +41,7 @@
     - [Prévision des températures avec Databricks Exemple](/fr/UserGuide/Tutorials/Prévisions-SST.md)
     - [Torchvision pour l'analyse des vidéos de Dash Cam dans Databricks](/fr/UserGuide/Tutorials/Torchvision.md)
 
-  - Emplois dans le domaine de l'ordonnancement
+  - Planification des tâches
     - [Comment planifier des tâches dans Databricks](/fr/UserGuide/Databricks/Flux-de-travail.md)
 
   - Applications Web
