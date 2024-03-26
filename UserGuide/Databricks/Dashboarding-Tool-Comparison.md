@@ -12,11 +12,11 @@ Databricks, PowerBI, and Tableau are all powerful tools used for data analysis a
 * Real-time Data: Because of its Spark-based architecture, Databricks can handle real-time data processing and display live data on dashboards.
 * Collaboration: Allows for collaborative work on notebooks, which can then be shared as dashboards within a team or organization.
 * Customizability: Limited compared to dedicated BI tools; however, it supports various visualization libraries that can be used within notebooks (e.g., Matplotlib or Plotly).
-* Interactivity: Dashboards can be interactive to an extent, but the interactivity is typically more limited than in PowerBI or Tableau.
+* Interactivity: Dashboards can be interactive to an extent, but the interactivity is typically more limited than in PowerBI or Tableau. Dashboards can leverage Python Widgets for interactive inputs.
 
 ## PowerBI
 
-**Focus:** A business analytics service by Microsoft that provides non-technical business users with tools for aggregating, analyzing, visualizing, and sharing data.
+**Focus:** A business analytics service by Microsoft that provides business users with tools for aggregating, analyzing, visualizing, and sharing data.
 
 **Dashboarding:**
 
@@ -40,17 +40,18 @@ Databricks, PowerBI, and Tableau are all powerful tools used for data analysis a
 
 ## Comparison
 
-| **Feature** | **Databricks** | **PowerBI** | **Tableau** |
-| -------------------------- | -------------------------------------- | -------------------------------------- | -------------------------------------- |
-| **Primary Focus** | Data science & big data analytics | Business intelligence & data analytics | Data visualization & business intelligence |
-| **Ease of Use** | Requires coding knowledge | User-friendly, intuitive drag-and-drop interface | User-friendly, intuitive drag-and-drop interface |
-| **Real-time Data** | Handles real-time data processing | Supports real-time dashboards | Supports real-time dashboards with some limitations |
-| **Data Connectivity** | Connects to various data sources | Extensive data connectivity, strong Microsoft integration | Wide range of data connection options |
-| **Interactivity** | Limited interactivity in dashboards | Highly interactive dashboards | Highly interactive dashboards |
-| **Visualization Libraries** | Large collection of visualizations. Supports libraries like Matplotlib or Plotly. | Large library of visuals, custom visuals can be imported | Extensive visualization options, strong in data storytelling |
-| **Collaboration** | Collaborative notebook environment | Collaboration features within Microsoft ecosystem | Collaboration features, strong community support |
-| **Customizability** | Limited compared to BI tools, customizable through code | High customizability with visuals and reports | High customizability with a focus on visual appeal |
-| **User Base** | Scientists, data engineers | Business analysts, non-technical users | Data analysts, business users |
+| **Feature**                 | **Databricks**                                                                    | **PowerBI**                                               | **Tableau**                                                  |
+| --------------------------- | --------------------------------------------------------------------------------- | --------------------------------------------------------- | ------------------------------------------------------------ |
+| **Primary Focus**           | Data science & big data analytics                                                 | Business intelligence & data analytics                    | Data visualization & business intelligence                   |
+| **Ease of Use**             | Requires coding knowledge                                                         | User-friendly, intuitive drag-and-drop interface          | User-friendly, intuitive drag-and-drop interface             |
+| **Real-time Data**          | Handles real-time data processing                                                 | Supports real-time dashboards                             | Supports real-time dashboards with some limitations          |
+| **Data Connectivity**       | Connects to various data sources                                                  | Extensive data connectivity, strong Microsoft integration | Wide range of data connection options                        |
+| **Interactivity**           | Limited interactivity in dashboards                                               | Highly interactive dashboards                             | Highly interactive dashboards                                |
+| **Visualization Libraries** | Large collection of visualizations. Supports libraries like Matplotlib or Plotly. | Large library of visuals, custom visuals can be imported  | Extensive visualization options, strong in data storytelling |
+| **Collaboration**           | Collaborative notebook environment                                                | Collaboration features within Microsoft ecosystem         | Collaboration features, strong community support             |
+| **Customizability**         | Limited compared to BI tools, customizable through code                           | High customizability with visuals and reports             | High customizability with a focus on visual appeal           |
+| **Geospatial**              | Map visualization is available but limited (no layers, basic geocoding)           | Fully featured with layers and ESRI maps                  | Fully featured with layers and ESRI maps                     |
+| **User Base**               | Scientists, data engineers                                                        | Data analysts, business users                             | Data analysts, business users                                |
 
 ## Conclusion
 
