@@ -40,18 +40,18 @@ Databricks, PowerBI et Tableau sont tous des outils puissants utilisés pour l'a
 
 ## Comparaison
 
-| **Feature** | **Databricks** | | **PowerBI** | **Tableau** |
+| **Feature** | **Databricks** | **PowerBI** | **Tableau** |
 | --------------------------- | --------------------------------------------------------------------------------- | --------------------------------------------------------- | ------------------------------------------------------------ |
-| Vous êtes un professionnel de l'informatique, de la finance et de l'industrie, et vous avez besoin d'une assistance technique.
-| L'interface utilisateur est conviviale, intuitive et permet de glisser-déposer.
-| Les données en temps réel **Les données en temps réel** | Traite les données en temps réel | Prend en charge les tableaux de bord en temps réel | Prend en charge les tableaux de bord en temps réel avec certaines limites |
-| Connectivité des données ** Connectivité des données** | Connexion à diverses sources de données | Connectivité des données étendue, forte intégration de Microsoft | Large éventail d'options de connexion des données
-| Interactivité limitée dans les tableaux de bord | Tableaux de bord hautement interactifs | Tableaux de bord hautement interactifs | Tableaux de bord hautement interactifs | Tableaux de bord hautement interactifs
-| Bibliothèques de visualisation** | Grande collection de visualisations. Prend en charge des bibliothèques comme Matplotlib ou Plotly. | Les options de visualisation sont nombreuses et permettent de raconter des histoires à partir de données.
-| Collaboration** | Environnement de travail collaboratif | Fonctionnalités de collaboration au sein de l'écosystème Microsoft | Fonctionnalités de collaboration, soutien important de la part de la communauté
-| Les outils d'aide à la décision peuvent être personnalisés par le biais d'un code, mais la personnalisation est limitée par rapport aux outils de BI.
-| La visualisation des cartes est disponible mais limitée (pas de couches, géocodage de base).
-| Les utilisateurs sont des scientifiques, des ingénieurs de données, des analystes de données, des utilisateurs professionnels, des analystes de données et des utilisateurs professionnels.
+| **Objectif principal** | Science des données et analyse des grandes données | Intelligence économique et analyse des données | Visualisation des données et intelligence économique |
+| **Facilité d'utilisation** | Nécessite des connaissances en programmation | Interface conviviale, intuitive et fonctionnalités de glisser-déposer | Interface conviviale, intuitive et fonctionnalités de glisser-déposer |
+| **Données en temps réel** | Gère le traitement des données en temps réel | Prend en charge les tableaux de bord en temps réel | Prend en charge les tableaux de bord en temps réel avec certaines limitations |
+| **Connectivité des données** | Se connecte à diverses sources de données | Connectivité étendue des données, forte intégration de Microsoft | Large gamme d'options de connexion de données |
+| **Interactivité** | Interactivité limitée dans les tableaux de bord | Tableaux de bord hautement interactifs | Tableaux de bord hautement interactifs |
+| **Bibliothèques de visualisation** | Grande collection de visualisations. Prend en charge des bibliothèques comme Matplotlib ou Plotly. | Grande bibliothèque de visuels, visuels personnalisés importables | Options de visualisation étendues, forte en narration de données |
+| **Collaboration** | Environnement de carnet de notes collaboratif | Fonctionnalités de collaboration au sein de l'écosystème Microsoft | Fonctionnalités de collaboration, support communautaire fort |
+| **Personnalisation** | Limitée par rapport aux outils de BI, personnalisable par le code | Grande personnalisation avec des visuels et des rapports | Grande personnalisation avec un accent sur l'attrait visuel |
+| **Géospatial** | La visualisation cartographique est disponible mais limitée (pas de couches, géocodage de base) | Entièrement équipé avec des couches et des cartes ESRI | Entièrement équipé avec des couches et des cartes ESRI |
+| **Base d'utilisateurs** | Scientifiques, ingénieurs de données | Analystes de données, utilisateurs commerciaux | Analystes de données, utilisateurs commerciaux |
 
 ## Conclusion
 

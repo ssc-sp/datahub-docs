@@ -25,7 +25,7 @@
 
   - Visualiser mes données
     - [Comment construire des tableaux de bord avec Databricks](/fr/UserGuide/Databricks/Tableau-de-bord.md)
-    - [Compare Dashboarding Tools](/fr/UserGuide/Databricks/Comparaison-des-outils-de-tableau-de-bord.md)
+    - [Comparer les outils de tableau de bord](/fr/UserGuide/Databricks/Comparaison-des-outils-de-tableau-de-bord.md)
 
   - Connecter les API
     - [Comment connecter les API de Google avec Databricks](/fr/UserGuide/Databricks/Connexion-à-l'API-Google.md)
