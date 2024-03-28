@@ -29,18 +29,18 @@ The first step to using AutoML is to upload your training data to Databricks. Yo
 Once you have your data uploaded, you can create a new experiment by clicking on the `Experiments` tab on the left side of the screen. If you are using the old UI, you need to select "Machine Learning" from the top left dropdown menu.
 
 Old UI:
-![Alt text](OldUIExp.png)
+![Alt text](/api/docs/UserGuide/Databricks/OldUIExp.png)
 
 New UI:
-![Alt text](NewUIExp.png)
+![Alt text](/api/docs/UserGuide/Databricks/NewUIExp.png)
 
 Once you've accessed the experiment page, you can click on the `New Experiment` button to create a new experiment:
 
-![Alt text](CreateExp.png)
+![Alt text](/api/docs/UserGuide/Databricks/CreateExp.png)
 
 This will open the experiment creation menu:
 
-![Alt text](ExpMenu.png)
+![Alt text](/api/docs/UserGuide/Databricks/ExpMenu.png)
 
 From there, you can configure your experiment. Certain configurations will be available only for certain ML problem types. The configurations are as follows:
 
@@ -52,7 +52,7 @@ From there, you can configure your experiment. Certain configurations will be av
 
 There are also advanced configurations where you can specify the following:
 
-![Alt text](AdvancedConfig.png)
+![Alt text](/api/docs/UserGuide/Databricks/AdvancedConfig.png)
 
 - **Evaluation metric**: the metric you want to use to evaluate your model. This will be used to compare models and select the best one. The metric you choose must be available for the problem type you selected.
 - **Training frameworks**: the frameworks you want to use for training. Depending on your problem type, you will be able to choose from the list given above. Note that you can select several frameworks at once.
@@ -62,23 +62,23 @@ As well as other configurations.
 
 Once you have configured your experiment, you can click on the `Start AutoML` button to create it. This will take you to overview page, where you can see the progress of your experiment:
 
-![Alt text](ExpOverview.png)
+![Alt text](/api/docs/UserGuide/Databricks/ExpOverview.png)
 
 At the top, you can see general information about your experiment, you can view an auto-generated data exploration notebook and you can view the best model's notebook. You can also see the status of your experiment and the number of models that have been trained so far. At the bottom, you can see more information about the models that have been trained, including the model's name, the framework used, the training time, the metric value and the status.
 
 Once your experiment is over, your models will be sorted by the error metric you chose, and as such you can then select the best model from the list. By clicking on it, you can register the model:
 
-![Alt text](RegisterModel.png)
+![Alt text](/api/docs/UserGuide/Databricks/RegisterModel.png)
 
 You will be prompted to select a name for your model, then you can click on `Create`.
 
 From this point onward, the model you have created will be available to whoever you give permissions to from the `Models` tab on the left side of the screen:
 
-![Alt text](ModelTab.png)
+![Alt text](/api/docs/UserGuide/Databricks/ModelTab.png)
 
 Upon clicking on a registered model, you will be able to see its details:
 
-![Alt text](RegisteredModel.png)
+![Alt text](/api/docs/UserGuide/Databricks/RegisteredModel.png)
 
 From there you can set it's stage, such as `Production`, `Staging` or `Archived`. You can also view the model's version history, which will show you the different versions of the model that have been created. You can also view the model's lineage, which will show you the different experiments that have been used to create the model.
 
@@ -126,11 +126,11 @@ By opening the `mlflow.start_run` context, you can log parameters and metrics to
 
 Running this code will automatically create an experiment for you, which you can access in the `Experiments` tab on the left side of the screen, and each run you create will be added to that experiment. You can also view all the runs you have created in a notebook by clicking the `MLFlow experiments` icon on the right hand side:
 
-![Alt text](ExpIcon.png)
+![Alt text](/api/docs/UserGuide/Databricks/ExpIcon.png)
 
 From there, you can view your runs, their associated models, their logged parameters and metrics:
 
-![Alt text](LoggedRuns.png)
+![Alt text](/api/docs/UserGuide/Databricks/LoggedRuns.png)
 
 Again, make sure to check out the [end-to-end ML example notebook](https://learn.microsoft.com/en-us/azure/databricks/mlflow/end-to-end-example) as well as the [MLFlow databricks API documentation](https://docs.databricks.com/api/azure/workspace/experiments) to learn more about how to run experiments from within notebooks.
 

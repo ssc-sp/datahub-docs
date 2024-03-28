@@ -43,7 +43,7 @@ Pour GitHub, les jetons d'accès peuvent être créés dans Settings / Personal 
 Pour des raisons de sécurité, nous recommandons de configurer une date d'expiration inférieure à un an. Les jetons peuvent être facilement régénérés après expiration en suivant les étapes suivantes.
 
 Les scopes requis sont `repo` et `workflow` (optionnel pour les workflows GitHub Actions).
-![image](TokenScopes.png)
+![image](/api/docs/UserGuide/Databricks/TokenScopes.png)
 
 Si le jeton et les autorisations d'accès sont correctement configurés, vous devriez voir une marque verte dans la page des paramètres.
 
@@ -56,27 +56,27 @@ Pour cloner un dépôt, vous aurez besoin de son lien d'accès HTTPS et de sa br
 ![image](https://user-images.githubusercontent.com/3179656/236485166-3ed15a99-2ad6-4a97-9d17-8f46bbf1c111.png)
 
 Une fois la configuration effectuée, vous pouvez voir les fichiers contenus dans le référentiel
-![image](GitMenu.png)
+![image](/api/docs/UserGuide/Databricks/GitMenu.png)
 
 Les changements effectués à partir de Databricks peuvent être poussés vers le dépôt en utilisant le menu Git intégré. Pour y accéder, cliquez avec le bouton droit de la souris sur les fichiers de votre dépôt et cliquez sur "Git...".
 
 Cet écran vous permet de valider et d'introduire des modifications, ainsi que d'extraire des modifications existantes.
 
-![image](GitMenu2.png)
+![image](/api/docs/UserGuide/Databricks/GitMenu2.png)
 
 ## Résoudre les conflits
 
 Si plusieurs commits impactent le même code, il peut y avoir un problème de conflit. Le message suivant apparaîtra lors d'une tentative d'extraction de code :
 
-![image](MergeConflict.png)
+![image](/api/docs/UserGuide/Databricks/MergeConflict.png)
 
 Sélectionnez "Résoudre le conflit à l'aide de la RP", ce qui ouvre la fenêtre suivante :
 
-![image](MergeConflict2.png)
+![image](/api/docs/UserGuide/Databricks/MergeConflict2.png)
 
 Cette étape vous demandera de créer une nouvelle branche dans laquelle vos modifications seront validées. Saisissez un nom de branche et un message de validation, puis validez à nouveau les messages. En cas de succès, le message suivant s'affichera. Vous pouvez suivre le lien contenu dans ce message pour effectuer vos modifications.
 
-![image](MergeConflict3.png)
+![image](/api/docs/UserGuide/Databricks/MergeConflict3.png)
 
 <!-- ## Automatiser les extractions Git
 

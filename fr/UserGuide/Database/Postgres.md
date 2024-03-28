@@ -13,7 +13,7 @@ Le DataHub scientifique fédéral permet de provisionner une base de données Po
 
 1. Naviguez vers l'espace de travail dans lequel vous souhaitez créer une base de données PostgreSQL.
 2. Naviguez vers l'onglet "Boîte à outils" dans la catégorie "Administration".
-![](database-1.png)
+![](/api/docs/UserGuide/Database/database-1.png)
 3. Dans quelques minutes, la base de données sera provisionnée et vous la verrez dans l'onglet `Toolbox`. Si la base de données n'est pas provisionnée, veuillez remplir une demande de support.
 
 ## Comment utiliser votre base de données PostgreSQL
@@ -25,6 +25,6 @@ Le DataHub scientifique fédéral permet de provisionner une base de données Po
     * Si vous changez de réseau ou basculez votre RPV, vous devrez ajouter votre nouvelle adresse IP aux règles du pare-feu.
     * Pour permettre à Databricks d'accéder à la base de données, vous devrez ajouter l'adresse `0.0.0.0` aux règles du pare-feu.
     **NOTE:** L'application des modifications peut prendre jusqu'à 15 minutes.
-![](database-2.png)
+![](/api/docs/UserGuide/Database/database-2.png)
 4. Après avoir ajouté votre adresse IP aux règles du pare-feu, vous pouvez utiliser les informations de connexion fournies pour Databricks, Python, R, Java et C#.
-![](database-3.png)
+![](/api/docs/UserGuide/Database/database-3.png)

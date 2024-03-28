@@ -6,12 +6,12 @@ This guide will cover how to create a workspace.
 
 1. Navigate to the `Home` or `Profile` page.
 1. Click on the `Create Workspace` button.
-    ![create workspace](create-workspace.png)
+    ![create workspace](/api/docs/UserGuide/GettingStarted/create-workspace.png)
 1. Enter a name for your workspace.
 1. Use the generated acronym or enter your own.
     > *Note:* The acronym must be unique across all workspaces.
 1. (Optional) Select which features are of interest to you.
 1. Click `Create Workspace`.
-    ![create workspace dialog](create-workspace-dialog.png)
+    ![create workspace dialog](/api/docs/UserGuide/GettingStarted/create-workspace-dialog.png)
 
 The page will redirect you to your new workspace. You will be the `Lead` of this workspace. You can now add members to your workspace.

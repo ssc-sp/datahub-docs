@@ -22,9 +22,9 @@
 
 Here is a sample dashboard created using Databricks' built-in dashboarding tool for the analysis of the [National Oceanic and Atmospheric Administration's International Comprehensive Ocean-Atmosphere DataSet](https://icoads.noaa.gov/).
 
-![Preview 1](Dashboard1.png)
-![Preview 2](Dashboard2.png)
-![Preview 3](Dashboard3.png)
+![Preview 1](/api/docs/UserGuide/Databricks/Dashboard1.png)
+![Preview 2](/api/docs/UserGuide/Databricks/Dashboard2.png)
+![Preview 3](/api/docs/UserGuide/Databricks/Dashboard3.png)
 
 This sample dashboard can also be seen as an [exported PDF](https://github.com/ssc-sp/datahub-docs/blob/main/UserGuide/Databricks/SampleDashboard.pdf).
 
@@ -35,13 +35,13 @@ As part of this tutorial, we will be going through the process of creating one b
 Before you can create a dashboard, you need to have your data stored as a table within Databricks. If you have not done so already, you can follow the steps in the [Databricks documentation](https://docs.databricks.com/data/tables.html#create-a-table) to create a table from your data.
 
 Your data should visible in the "Data" tab of your workspace:
-![Data tab](Tables.png)
+![Data tab](/api/docs/UserGuide/Databricks/Tables.png)
 
 ## 2. Creating a dashboard
 
 After setting your environment to "SQL" in the top left corner of your workspace, click on the "Dashboard" tab. Then click on the "Create dashboard" button to create a new dashboard:
 
-![Create dashboard](CreateDashboard.png)
+![Create dashboard](/api/docs/UserGuide/Databricks/CreateDashboard.png)
 
 Select a proper name for your dashboard and click "Save". Dashboards in Databricks are made up of "blocks". Each block is either a visualization, a text box or a filter. You can add a new block by clicking on the "Add" button on the top right corner of your dashboard.
 
@@ -55,7 +55,7 @@ At the core of each block is a SQL query. This query is used to retrieve the dat
 
 On the navigation bar, click on the "Queries" tab and then click on the "Create" button to create a new query:
 
-![Create query](CreateQuery.png)
+![Create query](/api/docs/UserGuide/Databricks/CreateQuery.png)
 
 This will open the SQL editor. Here you can write your SQL query. For this tutorial, we will be creating a bar chart that displays the number of observations for each year. The query for this is as follows:
 
@@ -93,7 +93,7 @@ By clicking on the 3 dots at the top right, you may also export your dashboard t
 
 Here is another fun example of a dashboard created using Databricks' built-in dashboarding tool:
 
-![ChatGPT](ChatGPT.png)
+![ChatGPT](/api/docs/UserGuide/Databricks/ChatGPT.png)
 
 This is a word cloud visualization of the most common words used in tweets containing the word "ChatGPT" on twitter on a given day. Data taken from [Kaggle datasets](https://www.kaggle.com/datasets/edomingo/chatgpt-1000-daily-tweets).
 
