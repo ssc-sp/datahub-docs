@@ -4,7 +4,7 @@ Databricks, PowerBI et Tableau sont tous des outils puissants utilisés pour l'a
 
 ## Databricks
 
-**L'objectif est de créer une plateforme d'analyse de données avec un accent particulier sur le traitement des données massives, l'apprentissage automatique et la science des données collaborative.
+**Objectif:** Il s'agit principalement d'une plateforme d'analyse de données axée sur le traitement des données volumineuses, l'apprentissage automatique et la science des données en collaboration.
 
 **Dashboarding:**
 
@@ -16,7 +16,7 @@ Databricks, PowerBI et Tableau sont tous des outils puissants utilisés pour l'a
 
 ## PowerBI
 
-**Focus:** Un service d'analyse commerciale de Microsoft qui fournit aux utilisateurs professionnels des outils d'agrégation, d'analyse, de visualisation et de partage des données.
+**Objectif:** Un service d'analyse commerciale de Microsoft qui fournit aux utilisateurs professionnels des outils d'agrégation, d'analyse, de visualisation et de partage des données.
 
 **Dashboarding:**
 
@@ -28,7 +28,7 @@ Databricks, PowerBI et Tableau sont tous des outils puissants utilisés pour l'a
 
 ## Tableau
 
-**Le but est d'aider les utilisateurs à créer des tableaux de bord interactifs et faciles à partager.
+**Objectif:** Un outil de visualisation de données de premier plan conçu pour aider les utilisateurs à créer des tableaux de bord interactifs et partageables.
 
 **Dashboarding:**
 
