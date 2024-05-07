@@ -537,6 +537,10 @@
   },
   {
     "English": "psql-databricks-comparison.md",
-    "French": "Comparaison-des-banques-de-donn\u00E9es-psql.md"
+    "French": "Comparaison-des-bases-de-donn\u00E9es-psql.md"
+  },
+  {
+    "English": "Dashboarding-Tool-Comparison.md",
+    "French": "Comparaison-des-outils-de-tableau-de-bord.md"
   }
 ]

@@ -435,6 +435,11 @@
     "Fr": "/fr/UserGuide/Databricks/Connexion-\u00E0-l\u0027API-Google.md"
   },
   {
+    "Id": "a6234420-06c3-cbf7-f6d8-380415d4b9f8",
+    "En": "/UserGuide/Databricks/Dashboarding-Tool-Comparison.md",
+    "Fr": "/fr/UserGuide/Databricks/Comparaison-des-outils-de-tableau-de-bord.md"
+  },
+  {
     "Id": "38ddb7c4-3617-2aa5-69bb-45b665f122b4",
     "En": "/UserGuide/Databricks/Dashboarding.md",
     "Fr": "/fr/UserGuide/Databricks/Tableau-de-bord.md"

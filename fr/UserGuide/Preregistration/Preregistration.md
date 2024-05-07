@@ -26,7 +26,7 @@ Il vous guidera dans le processus d'enregistrement et de configuration de votre 
 
 ## Configuration du compte
 
-![Page de connexion](/api/docs/UserGuide/Preregistration/login-page.png)
+![Page de connexion](../../../UserGuide/Preregistration/login-page.png)
 *Vue de la page de connexion
 
 
@@ -100,13 +100,15 @@ Il vous guidera dans le processus d'enregistrement et de configuration de votre 
 
 Une fois que vous avez terminé le processus d'enregistrement et de configuration de l'AMF, vous pouvez vous connecter à l'application DHSF.
 
-1) (Facultatif) Cliquez sur "Oui" pour rester connecté.
-    ![Restez connecté](/api/docs/UserGuide/Preregistration/stay-signed-in.png)
+1) (Facultatif) Cliquez sur "Oui" pour rester connecté.   
+    ![Restez connecté](../../../UserGuide/Preregistration/stay-signed-in.png)
 
 1. Sélectionnez la langue de votre choix (anglais ou français) dans la liste déroulante et cliquez sur "Sauvegarder".
-    ![Sélection de la langue](/api/docs/UserGuide/Preregistration/language-selection.png)
+   
+    ![Sélection de la langue](../../../UserGuide/Preregistration/language-selection.png)
 
 1. Cliquez sur le lien "Termes et conditions" pour consulter les termes et conditions. Cochez la case pour accepter les termes et conditions et cliquez sur "Terminer".
-    ![Conditions générales](/api/docs/UserGuide/Preregistration/terms-and-conditions.png)
+   
+    ![Conditions générales](../../../UserGuide/Preregistration/terms-and-conditions.png)
 
 > Note : Il est important de rappeler que la DHSF n'est approuvée que pour les données **non classifiées**.
