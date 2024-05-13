@@ -1,11 +1,7 @@
-# Welcome to DataHub
+# Welcome to FSDH
 
-> User portal and workspaces for Data and Analytics
+> Infra and Portal docs
 
-- Terraform resource provisioner
-- Open Source Data Catalog
-- Storage Explorer
-- Integrated analytics with Power BI
 
 [GitHub](https://github.com/ssc-sp/datahub-portal)
 [Get Started](#welcome)
