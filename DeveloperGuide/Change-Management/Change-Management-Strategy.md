@@ -73,11 +73,11 @@ This document outlines the Agile procedures and guidelines for managing changes 
 
 ### 3.5. Compliance and Auditing
 
-<TBD>
+`<TBD>`
 
 ### 3.6. Incident Response Plan
 
-<TBD>
+`<TBD>`
 
 ## 4. Roles and Responsibilities in Agile Environment
 
