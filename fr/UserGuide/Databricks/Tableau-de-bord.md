@@ -28,9 +28,9 @@ draft: true
 
 Voici un exemple de tableau de bord créé à l'aide de l'outil de tableau de bord intégré de Databricks pour l'analyse du [National Oceanic and Atmospheric Administration's International Comprehensive Ocean-Atmosphere DataSet] (https://icoads.noaa.gov/).
 
-![Aperçu 1](Dashboard1.png)
-![Aperçu 2](Dashboard2.png)
-![Aperçu 3](Dashboard3.png)
+![Aperçu 1](/api/docs/UserGuide/Databricks/Dashboard1.png)
+![Aperçu 2](/api/docs/UserGuide/Databricks/Dashboard2.png)
+![Aperçu 3](/api/docs/UserGuide/Databricks/Dashboard3.png)
 
 Cet exemple de tableau de bord peut également être visualisé sous forme de [PDF exporté] (https://github.com/ssc-sp/datahub-docs/blob/main/UserGuide/Databricks/SampleDashboard.pdf).
 
@@ -41,13 +41,13 @@ Dans le cadre de ce tutoriel, nous allons suivre le processus de création d'un 
 Avant de pouvoir créer un tableau de bord, vos données doivent être stockées sous forme de tableau dans Databricks. Si vous ne l'avez pas encore fait, vous pouvez suivre les étapes de la [documentation Databricks] (https://docs.databricks.com/data/tables.html#create-a-table) pour créer une table à partir de vos données.
 
 Vos données devraient être visibles dans l'onglet "Données" de votre espace de travail :
-![Onglet Données](Tables.png)
+![Onglet Données](/api/docs/UserGuide/Databricks/Tables.png)
 
 ## 2. Création d'un tableau de bord
 
 Après avoir défini votre environnement sur "SQL" dans le coin supérieur gauche de votre espace de travail, cliquez sur l'onglet "Tableau de bord". Cliquez ensuite sur le bouton "Créer un tableau de bord" pour créer un nouveau tableau de bord :
 
-![Créer un tableau de bord](CreateDashboard.png)
+![Créer un tableau de bord](/api/docs/UserGuide/Databricks/CreateDashboard.png)
 
 Sélectionnez un nom approprié pour votre tableau de bord et cliquez sur "Enregistrer". Les tableaux de bord dans Databricks sont constitués de "blocs". Chaque bloc est soit une visualisation, soit une zone de texte, soit un filtre. Vous pouvez ajouter un nouveau bloc en cliquant sur le bouton "Ajouter" dans le coin supérieur droit de votre tableau de bord.
 
@@ -61,7 +61,7 @@ Au cœur de chaque bloc se trouve une requête SQL. Cette requête est utilisée
 
 Dans la barre de navigation, cliquez sur l'onglet "Requêtes", puis sur le bouton "Créer" pour créer une nouvelle requête :
 
-![Créer une requête](CreateQuery.png)
+![Créer une requête](/api/docs/UserGuide/Databricks/CreateQuery.png)
 
 L'éditeur SQL s'ouvre alors. Vous pouvez y écrire votre requête SQL. Pour ce tutoriel, nous allons créer un diagramme à barres qui affiche le nombre d'observations pour chaque année. La requête est la suivante :
 
@@ -99,7 +99,7 @@ En cliquant sur les 3 points en haut à droite, vous pouvez également exporter 
 
 Voici un autre exemple amusant de tableau de bord créé à l'aide de l'outil de tableau de bord intégré de Databricks :
 
-![ChatGPT](ChatGPT.png)
+![ChatGPT](/api/docs/UserGuide/Databricks/ChatGPT.png)
 
 Il s'agit d'un nuage de mots visualisant les mots les plus utilisés dans les tweets contenant le mot "ChatGPT" sur twitter un jour donné. Les données proviennent de [Kaggle datasets] (https://www.kaggle.com/datasets/edomingo/chatgpt-1000-daily-tweets).
 

@@ -37,7 +37,7 @@ For GitHub, the access tokens can be created in Settings / Personal Access Token
 As a security best practice, we do recommend configuring an expiration date of less than a year. Tokens can easily be regenerated following expiration by following these steps.
 
 The scopes required are `repo` and `workflow` (optional for GitHub Actions workflows)
-![image](TokenScopes.png)
+![image](/api/docs/UserGuide/Databricks/TokenScopes.png)
 
 If the token and access permissions are correctly configured - you should see a green mark in the settings page
 
@@ -50,27 +50,27 @@ To clone a repository, you will need its HTTPS access link, and its branch.
 ![image](https://user-images.githubusercontent.com/3179656/236485166-3ed15a99-2ad6-4a97-9d17-8f46bbf1c111.png)
 
 Once this is configured, you can see the files inside the repository
-![image](GitMenu.png)
+![image](/api/docs/UserGuide/Databricks/GitMenu.png)
 
 Changes done from Databricks can be pushed to the repository using the built-in Git menu. Access it by right clicking in your repo files and clicking "Git...".
 
 This screen will allow you to commit and push changes, as well as pull existing changes.
 
-![image](GitMenu2.png)
+![image](/api/docs/UserGuide/Databricks/GitMenu2.png)
 
 ## Resolving Conflicts
 
 If multiple commits impact the same code, there could be a conflict issue. The following message will appear while attempting to pull code:
 
-![image](MergeConflict.png)
+![image](/api/docs/UserGuide/Databricks/MergeConflict.png)
 
 Select "Resolve conflict using PR", which opens the following:
 
-![image](MergeConflict2.png)
+![image](/api/docs/UserGuide/Databricks/MergeConflict2.png)
 
 This step will ask you to create a new branch where your changes will be committed. Enter a branch name and a commit message then commit the messages again. If successful, you'll see the following message. You can follow the link in that message to make your changes.
 
-![image](MergeConflict3.png)
+![image](/api/docs/UserGuide/Databricks/MergeConflict3.png)
 
 <!-- ## Automating Git pulls
 

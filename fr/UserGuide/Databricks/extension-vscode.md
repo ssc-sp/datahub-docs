@@ -27,14 +27,14 @@ Visual Studio Code est un éditeur de code extrêmement populaire. En tant que s
 1. Cliquez sur l'icône **Extensions** dans la barre de navigation de gauche.
 1. Recherchez **Databricks**.
 1. Cliquez sur **Installer**. L'extension correcte est indiquée dans la capture d'écran ci-dessous.
-![Extension Databricks](./vscode_databricks_1.png)
+![Extension Databricks](/api/docs/UserGuide/Databricks/vscode_databricks_1.png)
 
 ## Se connecter à un espace de travail Databricks
 
 1. Cliquez sur l'icône **Databricks** dans la barre de navigation de gauche.
 1. Cliquez sur **Configurer**.
 1. Entrez l'URL de votre espace de travail Databricks dans l'espace indiqué ci-dessous, jusqu'à `.net/`. Par exemple, si l'URL de votre espace de travail est `https://sample.azuredatabricks.net/?o=111111111111#`, entrez `https://sample.azuredatabricks.net/`.
-![Extension Databricks](./vscode_databricks_2.png)
+![Extension Databricks](/api/docs/UserGuide/Databricks/vscode_databricks_2.png)
 1. Sur l'écran suivant, sélectionnez **Editer les profils Databricks**
 1. Dans l'écran qui s'ouvre, complétez les éléments suivants et enregistrez le fichier :
 ```
@@ -60,9 +60,9 @@ Avant d'exécuter le code, vous devez attacher un cluster.
 
 1. Ouvrez l'icône **Databricks** dans la barre de navigation de gauche.
 1. Si aucun cluster n'est attaché, survolez la barre **Cluster** et cliquez sur **Configure Cluster**, comme indiqué dans la capture d'écran ci-dessous.
-![Extension Databricks](./vscode_databricks_3.png)
+![Extension Databricks](/api/docs/UserGuide/Databricks/vscode_databricks_3.png)
 1. Dans la liste déroulante, sélectionnez le cluster que vous souhaitez attacher, comme indiqué dans la capture d'écran ci-dessous.
-![Extension Databricks](./vscode_databricks_4.png)
+![Extension Databricks](/api/docs/UserGuide/Databricks/vscode_databricks_4.png)
 1. Vous pouvez maintenant démarrer le cluster à partir de l'extension.
 
 **NOTE:** Vous ne pouvez pas créer un cluster dans l'extension. Vous devez le créer dans Databricks lui-même.
@@ -87,9 +87,9 @@ Pour utiliser un notebook, ajoutez `# Databricks notebook source` au début de v
 1. Ouvrez le menu **Explorer** dans la barre de navigation gauche.
 1. Naviguez jusqu'au fichier que vous souhaitez exécuter. Vous pouvez utiliser n'importe quel fichier que vous pouvez exécuter dans Databricks (R, Python, etc.).
 1. Assurez-vous que le cluster est démarré, puis faites un clic droit sur le fichier et sélectionnez **Run File as Workflow in Databricks**, comme indiqué dans la capture d'écran ci-dessous.
-![Extension Databricks](./vscode_databricks_5.png)
+![Extension Databricks](/api/docs/UserGuide/Databricks/vscode_databricks_5.png)
 1. Le fichier sera exécuté sur le cluster. Vous pouvez voir les résultats dans la fenêtre **Sortie**.
-![Extension Databricks](./vscode_databricks_6.png)
+![Extension Databricks](/api/docs/UserGuide/Databricks/vscode_databricks_6.png)
 
 **NOTE:** Votre code sera copié dans Databricks sous le dossier `.ide` dans votre espace de travail.
 
