@@ -6,12 +6,14 @@
 - Go to the **Admin** page.
 - Find the **Metadata Management** card and click **Open Page**
 - On the Metadata page navigate to the bottom.
+- *OR* Navigate to the URI `/metadata/definitions`
 - Click **Download** and save the JSON to a file.
 
 **On the seeding enviroment**
 - Open the **Admin** page.
 - Find the **Metadata Management** card and click **Open Page**
 - On the Metadata page navigate to the bottom.
+- *OR* Navigate to the URI `/metadata/definitions`
 - Click **Upload** and select the file you just downloaded.
 
 ### Option 2

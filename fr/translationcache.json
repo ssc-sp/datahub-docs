@@ -18820,12 +18820,176 @@
     "French": "Ce tutoriel montre comment tirer parti de la DHSF pour partager des fichiers avec plusieurs membres et d\u00E9partements du GC."
   },
   {
-    "English": "Modules",
-    "French": "Modules"
+    "English": "Layout",
+    "French": "Mise en page"
   },
   {
-    "English": "https://learn.microsoft.com/en-us/azure/databricks/files/workspace-modules",
-    "French": "https://learn.microsoft.com/en-us/azure/databricks/files/workspace-modules"
+    "English": "# Layout",
+    "French": "# Mise en page"
+  },
+  {
+    "English": "![Layout](https://github.com/ssc-sp/datahub-docs/assets/56747050/838daca4-be3a-4cbd-91a1-5ebf536fb3c6)",
+    "French": "![Layout](https://github.com/ssc-sp/datahub-docs/assets/56747050/838daca4-be3a-4cbd-91a1-5ebf536fb3c6)"
+  },
+  {
+    "English": "The Federal Science Datahub website is divided into 3 parts:",
+    "French": "Le site web du Federal Science Datahub est divis\u00E9 en 3 parties :"
+  },
+  {
+    "English": "1. **Topbar**: Accessing the home page, the news page, exploring and searching for workspaces or users.",
+    "French": "1. **Barre sup\u00E9rieure** : Acc\u00E8s \u00E0 la page d\u0027accueil, \u00E0 la page d\u0027actualit\u00E9s, \u00E0 l\u0027exploration et \u00E0 la recherche d\u0027espaces de travail ou d\u0027utilisateurs."
+  },
+  {
+    "English": "2. **Sidebar**: Accessing your workspaces, your recent resources or your profile",
+    "French": "2. **Barre lat\u00E9rale** : Acc\u00E8s \u00E0 vos espaces de travail, \u00E0 vos ressources r\u00E9centes ou \u00E0 votre profil"
+  },
+  {
+    "English": "3. **Content**: Where science is done!",
+    "French": "3. **Contenu** : L\u00E0 o\u00F9 l\u0027on fait de la science !"
+  },
+  {
+    "English": "The next few pages will show you how to use this layout and create your very own workspace!",
+    "French": "Les pages suivantes vous montreront comment utiliser cette mise en page et cr\u00E9er votre propre espace de travail !"
+  },
+  {
+    "English": "NewWorkspace",
+    "French": "Nouvel espace de travail"
+  },
+  {
+    "English": "# Creating a workspace",
+    "French": "# Cr\u00E9ation d\u0027un espace de travail"
+  },
+  {
+    "English": "![NewWorkspace](https://github.com/ssc-sp/datahub-docs/assets/56747050/b7b2ebd3-567f-4c1e-8096-7e471090d7cb)",
+    "French": "![NewWorkspace](https://github.com/ssc-sp/datahub-docs/assets/56747050/b7b2ebd3-567f-4c1e-8096-7e471090d7cb)"
+  },
+  {
+    "English": "Clicking the \u0022New\u0022 button in the workspace section of the sidebar will open a pop-up which will guide you in the creation of your very own workspace! Once you are done selecting a name, an acronym will be auto-generated for you, but you may change it! ",
+    "French": "En cliquant sur le bouton \u0022Nouveau\u0022 dans la section Espace de travail de la barre lat\u00E9rale, vous ouvrirez une fen\u00EAtre contextuelle qui vous guidera dans la cr\u00E9ation de votre propre espace de travail ! Une fois que vous aurez choisi un nom, un acronyme sera g\u00E9n\u00E9r\u00E9 automatiquement pour vous, mais vous pourrez le modifier !"
+  },
+  {
+    "English": "Happy with your workspace name and acronym? Click on \u0022Create workspace\u0022 and your new workspace will soon appear in the sidebar!",
+    "French": "Vous \u00EAtes satisfait du nom et de l\u0027acronyme de votre espace de travail ? Cliquez sur \u0022Cr\u00E9er un espace de travail\u0022 et votre nouvel espace de travail appara\u00EEtra bient\u00F4t dans la barre lat\u00E9rale !"
+  },
+  {
+    "English": "Sidebar",
+    "French": "Encadr\u00E9"
+  },
+  {
+    "English": "# Using the sidebar",
+    "French": "# Utilisation de la barre lat\u00E9rale"
+  },
+  {
+    "English": "![Sidebar](https://github.com/ssc-sp/datahub-docs/assets/56747050/c42ae472-acce-4016-b29b-ea703e083953)",
+    "French": "![Sidebar](https://github.com/ssc-sp/datahub-docs/assets/56747050/c42ae472-acce-4016-b29b-ea703e083953)"
+  },
+  {
+    "English": "In the first section, you will find the workspaces you are a part of, as well as the button to create a new workspace. As you are just getting started, we recommend you create a workpace!",
+    "French": "Dans la premi\u00E8re section, vous trouverez les espaces de travail dont vous faites partie, ainsi que le bouton permettant de cr\u00E9er un nouvel espace de travail. Comme vous d\u00E9butez, nous vous recommandons de cr\u00E9er un espace de travail !"
+  },
+  {
+    "English": "In the second section, you will find a list of the recent resources you have accessed. From there, you can quickly multitask by jumping back and forth between different resources.",
+    "French": "Dans la deuxi\u00E8me section, vous trouverez une liste des ressources auxquelles vous avez r\u00E9cemment acc\u00E9d\u00E9. \u00C0 partir de l\u00E0, vous pouvez rapidement faire du multit\u00E2che en passant d\u0027une ressource \u00E0 l\u0027autre."
+  },
+  {
+    "English": "In the third section, you will find your profile settings, ranging from appearance and customization to your notification settings!",
+    "French": "Dans la troisi\u00E8me section, vous trouverez les param\u00E8tres de votre profil, allant de l\u0027apparence et de la personnalisation \u00E0 vos param\u00E8tres de notification !"
+  },
+  {
+    "English": "Topbar",
+    "French": "Barre sup\u00E9rieure"
+  },
+  {
+    "English": "# Using the topbar",
+    "French": "# Utilisation de la barre sup\u00E9rieure"
+  },
+  {
+    "English": "![TopbarHeaders](https://github.com/ssc-sp/datahub-docs/assets/56747050/3c6e5878-250e-4ac3-b2f9-d40240fb8e77)",
+    "French": "![TopbarHeaders](https://github.com/ssc-sp/datahub-docs/assets/56747050/3c6e5878-250e-4ac3-b2f9-d40240fb8e77)"
+  },
+  {
+    "English": "The topbar contains the major navigation routes:",
+    "French": "La barre sup\u00E9rieure contient les principaux itin\u00E9raires de navigation :"
+  },
+  {
+    "English": "- **Home**: A dashboard of your workspaces and resources.",
+    "French": "- **Accueil** : Un tableau de bord de vos espaces de travail et de vos ressources."
+  },
+  {
+    "English": "- **News**: Where you can find information pertaining to new features of the FSDH as well as potential service disruptions.",
+    "French": "- Actualit\u00E9s** : Vous y trouverez des informations sur les nouvelles fonctionnalit\u00E9s du DHSF ainsi que sur les \u00E9ventuelles interruptions de service."
+  },
+  {
+    "English": "- **Explore**: Find what your peers are doing by browsing featured workspaces.",
+    "French": "- Explorer** : D\u00E9couvrez ce que font vos pairs en parcourant les espaces de travail pr\u00E9sent\u00E9s."
+  },
+  {
+    "English": "- **Learn**: Read guides and tutorials on how to use our platform and its many tools.",
+    "French": "- **Apprendre** : Lire des guides et des tutoriels sur l\u0027utilisation de notre plateforme et de ses nombreux outils."
+  },
+  {
+    "English": "![TopbarSearch](https://github.com/ssc-sp/datahub-docs/assets/56747050/28203417-79f6-4b27-a5d5-a0fb947dad56)",
+    "French": "![TopbarSearch](https://github.com/ssc-sp/datahub-docs/assets/56747050/28203417-79f6-4b27-a5d5-a0fb947dad56)"
+  },
+  {
+    "English": "- **Search**: You can also search for workspaces, resources or users on the platform using the search box in the topbar",
+    "French": "- **Recherche** : Vous pouvez \u00E9galement rechercher des espaces de travail, des ressources ou des utilisateurs sur la plateforme en utilisant la bo\u00EEte de recherche dans la barre sup\u00E9rieure."
+  },
+  {
+    "English": "![TopbarHelpProfile](https://github.com/ssc-sp/datahub-docs/assets/56747050/9e991080-4d65-4a3b-8ed9-5fd00ac9e29f)",
+    "French": "![TopbarHelpProfile](https://github.com/ssc-sp/datahub-docs/assets/56747050/9e991080-4d65-4a3b-8ed9-5fd00ac9e29f)"
+  },
+  {
+    "English": "- **Help \u0026 Profile**: You can request for support using the help button, or access your profile settings.",
+    "French": "- Aide et profil** : Vous pouvez demander de l\u0027aide en utilisant le bouton d\u0027aide, ou acc\u00E9der aux param\u00E8tres de votre profil."
+  },
+  {
+    "English": "https://learn.microsoft.com/fr-ca/rest/api/consumption/usage-details/list?tabs=HTTP",
+    "French": "https://learn.microsoft.com/fr-ca/rest/api/consumption/usage-details/list?tabs=HTTP"
+  },
+  {
+    "English": "The current authentication of the application is leveraging [MS Identity](https://learn.microsoft.com/fr-ca/azure/active-directory/develop/v2-app-types#web-apps) with OIDC.",
+    "French": "L\u0027authentification actuelle de l\u0027application s\u0027appuie sur [MS Identity] (https://learn.microsoft.com/fr-ca/azure/active-directory/develop/v2-app-types#web-apps) avec OIDC."
+  },
+  {
+    "English": "For more information on how to create clusters, please refer to the [Databricks documentation](https://learn.microsoft.com/fr-ca/azure/databricks/clusters/configure).",
+    "French": "Pour plus d\u0027informations sur la cr\u00E9ation de clusters, veuillez vous r\u00E9f\u00E9rer \u00E0 la [documentation Databricks] (https://learn.microsoft.com/fr-ca/azure/databricks/clusters/configure)."
+  },
+  {
+    "English": "## [More information on Databricks Dashboards](https://learn.microsoft.com/fr-ca/azure/databricks/lakehouse/data-objects)",
+    "French": "## [Plus d\u0027informations sur les tableaux de bord Databricks](https://learn.microsoft.com/fr-ca/azure/databricks/lakehouse/data-objects)"
+  },
+  {
+    "English": "The first step to using AutoML is to upload your training data to Databricks. You can do so by following [this guide](https://learn.microsoft.com/fr-ca/azure/databricks/ingestion/add-data/upload-data). You will also need a cluster with a ML runtime.",
+    "French": "La premi\u00E8re \u00E9tape de l\u0027utilisation d\u0027AutoML consiste \u00E0 t\u00E9l\u00E9charger vos donn\u00E9es de formation vers Databricks. Vous pouvez le faire en suivant [ce guide] (https://learn.microsoft.com/fr-ca/azure/databricks/ingestion/add-data/upload-data). Vous aurez \u00E9galement besoin d\u0027un cluster avec un runtime ML."
+  },
+  {
+    "English": "Above is an example of how to use experiments from within Python notebooks. This example is taken from the [Databricks documentation](https://learn.microsoft.com/fr-ca/azure/databricks/mlflow/end-to-end-example).",
+    "French": "Voici un exemple d\u0027utilisation d\u0027exp\u00E9riences \u00E0 partir de carnets Python. Cet exemple est tir\u00E9 de la [documentation Databricks] (https://learn.microsoft.com/fr-ca/azure/databricks/mlflow/end-to-end-example)."
+  },
+  {
+    "English": "Again, make sure to check out the [end-to-end ML example notebook](https://learn.microsoft.com/fr-ca/azure/databricks/mlflow/end-to-end-example) as well as the [MLFlow databricks API documentation](https://docs.databricks.com/api/azure/workspace/experiments) to learn more about how to run experiments from within notebooks.",
+    "French": "Une fois encore, n\u0027oubliez pas de consulter le [cahier d\u0027exemples de ML de bout en bout] (https://learn.microsoft.com/fr-ca/azure/databricks/mlflow/end-to-end-example) ainsi que la [documentation de l\u0027API MLFlow] (https://docs.databricks.com/api/azure/workspace/experiments) pour en savoir plus sur la mani\u00E8re d\u0027ex\u00E9cuter des exp\u00E9riences \u00E0 partir des cahiers d\u0027exp\u00E9riences."
+  },
+  {
+    "English": "- [Databricks MLFlow documentation](https://learn.microsoft.com/fr-ca/azure/databricks/mlflow/)",
+    "French": "- [Documentation Databricks MLFlow] (https://learn.microsoft.com/fr-ca/azure/databricks/mlflow/)"
+  },
+  {
+    "English": "- [Notebook experiment example](https://learn.microsoft.com/fr-ca/azure/databricks/mlflow/end-to-end-example)",
+    "French": "- [Exemple d\u0027exp\u00E9rience dans un carnet de notes] (https://learn.microsoft.com/fr-ca/azure/databricks/mlflow/end-to-end-example)"
+  },
+  {
+    "English": "- [Using spark to work with data files](https://learn.microsoft.com/fr-ca/training/modules/use-apache-spark-azure-databricks/05-write-spark-code)",
+    "French": "- [Utiliser spark pour travailler avec des fichiers de donn\u00E9es](https://learn.microsoft.com/fr-ca/training/modules/use-apache-spark-azure-databricks/05-write-spark-code)"
+  },
+  {
+    "English": "- [Using spark to vizualize data](https://learn.microsoft.com/fr-ca/training/modules/use-apache-spark-azure-databricks/06-visualize-spark-data)",
+    "French": "- [Utiliser spark pour visualiser des donn\u00E9es] (https://learn.microsoft.com/fr-ca/training/modules/use-apache-spark-azure-databricks/06-visualize-spark-data)"
+  },
+  {
+    "English": "The appinstaller below will install the application and automatically update it on modern Windows 10 and Windows 11 desktops. The installation uses modern [msix packaging](https://learn.microsoft.com/fr-ca/windows/msix/overview) and does not require administrative privileges.",
+    "French": "L\u0027appinstaller ci-dessous installera l\u0027application et la mettra automatiquement \u00E0 jour sur les ordinateurs de bureau modernes Windows 10 et Windows 11. L\u0027installation utilise un [msix packaging] moderne (https://learn.microsoft.com/fr-ca/windows/msix/overview) et ne n\u00E9cessite pas de privil\u00E8ges administratifs."
   },
   {
     "English": "Import AWS Storage",
@@ -18841,7 +19005,7 @@
   },
   {
     "English": "1. Using the **Services** menu in the AWS console, navigate to **Security, Identity \u0026 Compliance**, and **IAM** under that section.  ",
-    "French": "1. Dans le menu **Services** de la console AWS, naviguez jusqu\u0027\u00E0 **S\u00E9curit\u00E9, identit\u00E9 et conformit\u00E9**, et **IAM** dans cette section.  "
+    "French": "1. Dans le menu **Services** de la console AWS, acc\u00E9dez \u00E0 **S\u00E9curit\u00E9, Identit\u00E9 et Conformit\u00E9** et **IAM** dans cette section.  "
   },
   {
     "English": "![IAM in service menu](import_aws-01.png)",
@@ -19136,935 +19300,255 @@
     "French": "Importer le stockage de Google Cloud Platform"
   },
   {
-    "English": "Working with R and Python Modules",
-    "French": "Travailler avec les modules R et Python"
+    "English": "3. **Content**: Where science is done! Wherever you go, this section will display the page\u0027s main content, and in the case of the home page, you will see your personal dashboard, where your profile, achievements and workspaces are displayed.",
+    "French": "3. **Contenu** : L\u00E0 o\u00F9 l\u0027on fait de la science ! O\u00F9 que vous alliez, cette section affichera le contenu principal de la page et, dans le cas de la page d\u0027accueil, vous verrez votre tableau de bord personnel, o\u00F9 sont affich\u00E9s votre profil, vos r\u00E9alisations et vos espaces de travail."
   },
   {
-    "English": "https://learn.microsoft.com/fr-ca/rest/api/consumption/usage-details/list?tabs=HTTP",
-    "French": "https://learn.microsoft.com/fr-ca/rest/api/consumption/usage-details/list?tabs=HTTP"
+    "English": "A workspace in the Federal Science Datahub is a collection of cloud resources along with a list of members. The cloud",
+    "French": "Un espace de travail dans le Federal Science Datahub est une collection de ressources en nuage avec une liste de membres. Le nuage"
   },
   {
-    "English": "The current authentication of the application is leveraging [MS Identity](https://learn.microsoft.com/fr-ca/azure/active-directory/develop/v2-app-types#web-apps) with OIDC.",
-    "French": "L\u0027authentification actuelle de l\u0027application s\u0027appuie sur [MS Identity] (https://learn.microsoft.com/fr-ca/azure/active-directory/develop/v2-app-types#web-apps) avec OIDC."
+    "English": "resources within your workspace (e.g. storage accounts, etc.) are only accessible by the members of your workspace and",
+    "French": "les ressources de votre espace de travail (par exemple les comptes de stockage, etc.) ne sont accessibles qu\u0027aux membres de votre espace de travail et"
   },
   {
-    "English": "For more information on how to create clusters, please refer to the [Databricks documentation](https://learn.microsoft.com/fr-ca/azure/databricks/clusters/configure).",
-    "French": "Pour plus d\u0027informations sur la cr\u00E9ation de clusters, veuillez vous r\u00E9f\u00E9rer \u00E0 la [documentation Databricks] (https://learn.microsoft.com/fr-ca/azure/databricks/clusters/configure)."
+    "English": "can",
+    "French": "peut"
   },
   {
-    "English": "## [More information on Databricks Dashboards](https://learn.microsoft.com/fr-ca/azure/databricks/lakehouse/data-objects)",
-    "French": "## [Plus d\u0027informations sur les tableaux de bord Databricks](https://learn.microsoft.com/fr-ca/azure/databricks/lakehouse/data-objects)"
+    "English": "only be managed by workspace admins or leads.",
+    "French": "ne peuvent \u00EAtre g\u00E9r\u00E9s que par les administrateurs de l\u0027espace de travail ou les responsables."
   },
   {
-    "English": "The first step to using AutoML is to upload your training data to Databricks. You can do so by following [this guide](https://learn.microsoft.com/fr-ca/azure/databricks/ingestion/add-data/upload-data). You will also need a cluster with a ML runtime.",
-    "French": "La premi\u00E8re \u00E9tape de l\u0027utilisation d\u0027AutoML consiste \u00E0 t\u00E9l\u00E9charger vos donn\u00E9es de formation vers Databricks. Vous pouvez le faire en suivant [ce guide] (https://learn.microsoft.com/fr-ca/azure/databricks/ingestion/add-data/upload-data). Vous aurez \u00E9galement besoin d\u0027un cluster avec un runtime ML."
+    "English": "A FSDH workspace is the perfect place to collaborate with GC colleagues, share data and analytics, and build research or",
+    "French": "Un espace de travail DHSF est l\u0027endroit id\u00E9al pour collaborer avec des coll\u00E8gues du GC, partager des donn\u00E9es et des analyses, et construire des projets de recherche ou de d\u00E9veloppement."
   },
   {
-    "English": "Above is an example of how to use experiments from within Python notebooks. This example is taken from the [Databricks documentation](https://learn.microsoft.com/fr-ca/azure/databricks/mlflow/end-to-end-example).",
-    "French": "Voici un exemple d\u0027utilisation d\u0027exp\u00E9riences \u00E0 partir de carnets Python. Cet exemple est tir\u00E9 de la [documentation Databricks] (https://learn.microsoft.com/fr-ca/azure/databricks/mlflow/end-to-end-example)."
+    "English": "business projects.",
+    "French": "des projets d\u0027entreprise."
   },
   {
-    "English": "Again, make sure to check out the [end-to-end ML example notebook](https://learn.microsoft.com/fr-ca/azure/databricks/mlflow/end-to-end-example) as well as the [MLFlow databricks API documentation](https://docs.databricks.com/api/azure/workspace/experiments) to learn more about how to run experiments from within notebooks.",
-    "French": "Une fois encore, n\u0027oubliez pas de consulter le [cahier d\u0027exemples de ML de bout en bout] (https://learn.microsoft.com/fr-ca/azure/databricks/mlflow/end-to-end-example) ainsi que la [documentation de l\u0027API MLFlow] (https://docs.databricks.com/api/azure/workspace/experiments) pour en savoir plus sur la mani\u00E8re d\u0027ex\u00E9cuter des exp\u00E9riences \u00E0 partir des cahiers d\u0027exp\u00E9riences."
+    "English": "WorkspaceLayout",
+    "French": "Structure de l\u0027espace de travail"
   },
   {
-    "English": "- [Databricks MLFlow documentation](https://learn.microsoft.com/fr-ca/azure/databricks/mlflow/)",
-    "French": "- [Documentation Databricks MLFlow] (https://learn.microsoft.com/fr-ca/azure/databricks/mlflow/)"
+    "English": "# Navigating your workspace",
+    "French": "# Naviguer dans l\u0027espace de travail"
   },
   {
-    "English": "- [Notebook experiment example](https://learn.microsoft.com/fr-ca/azure/databricks/mlflow/end-to-end-example)",
-    "French": "- [Exemple d\u0027exp\u00E9rience dans un carnet de notes] (https://learn.microsoft.com/fr-ca/azure/databricks/mlflow/end-to-end-example)"
+    "English": "![WorkspaceLayout](https://github.com/ssc-sp/datahub-docs/assets/56747050/e0bf3303-5c31-44a2-aa5a-a1b013783565)",
+    "French": "![WorkspaceLayout](https://github.com/ssc-sp/datahub-docs/assets/56747050/e0bf3303-5c31-44a2-aa5a-a1b013783565)"
   },
   {
-    "English": "https://learn.microsoft.com/fr-ca/azure/databricks/files/workspace-modules",
-    "French": "https://learn.microsoft.com/fr-ca/azure/databricks/files/workspace-modules"
+    "English": "There are two important sections of the page when working within a workspace:",
+    "French": "La page comporte deux sections importantes lorsque l\u0027on travaille dans un espace de travail :"
   },
   {
-    "English": "- [Using spark to work with data files](https://learn.microsoft.com/fr-ca/training/modules/use-apache-spark-azure-databricks/05-write-spark-code)",
-    "French": "- [Utiliser spark pour travailler avec des fichiers de donn\u00E9es](https://learn.microsoft.com/fr-ca/training/modules/use-apache-spark-azure-databricks/05-write-spark-code)"
+    "English": "1. **Sidebar**: This is where you can navigate to the different tools in your workspace, as well as manage the workspace itself. As we are just getting started, there may not be any available tools in your brand new workspace but we will get there!",
+    "French": "1. **Barre lat\u00E9rale** : C\u0027est ici que vous pouvez naviguer vers les diff\u00E9rents outils de votre espace de travail, ainsi que g\u00E9rer l\u0027espace de travail lui-m\u00EAme. Comme nous ne faisons que commencer, il se peut qu\u0027il n\u0027y ait pas d\u0027outils disponibles dans votre tout nouvel espace de travail, mais nous y arriverons !"
   },
   {
-    "English": "- [Using spark to vizualize data](https://learn.microsoft.com/fr-ca/training/modules/use-apache-spark-azure-databricks/06-visualize-spark-data)",
-    "French": "- [Utiliser spark pour visualiser des donn\u00E9es] (https://learn.microsoft.com/fr-ca/training/modules/use-apache-spark-azure-databricks/06-visualize-spark-data)"
+    "English": "2. **Content**: This is where your selected tool will be displayed and where you will do your work! In the picture above, the workspace dashboard is displayed, where you can see an overview of your workspace, its tools, its members and its incurred costs",
+    "French": "2. **Contenu** : C\u0027est ici que votre outil s\u00E9lectionn\u00E9 sera affich\u00E9 et que vous ferez votre travail ! Dans l\u0027image ci-dessus, le tableau de bord de l\u0027espace de travail est affich\u00E9, o\u00F9 vous pouvez voir une vue d\u0027ensemble de votre espace de travail, de ses outils, de ses membres et de ses co\u00FBts."
   },
   {
-    "English": "The appinstaller below will install the application and automatically update it on modern Windows 10 and Windows 11 desktops. The installation uses modern [msix packaging](https://learn.microsoft.com/fr-ca/windows/msix/overview) and does not require administrative privileges.",
-    "French": "L\u0027appinstaller ci-dessous installera l\u0027application et la mettra automatiquement \u00E0 jour sur les ordinateurs de bureau modernes Windows 10 et Windows 11. L\u0027installation utilise un [msix packaging] moderne (https://learn.microsoft.com/fr-ca/windows/msix/overview) et ne n\u00E9cessite pas de privil\u00E8ges administratifs."
+    "English": "WorkspaceMembers",
+    "French": "Membres de l\u0027espace de travail"
   },
   {
-    "English": "- Navigating in DataHub",
-    "French": "- Naviguer dans DataHub"
+    "English": "# Inviting your colleagues to your workspace",
+    "French": "# Inviter ses coll\u00E8gues dans son espace de travail"
   },
   {
-    "English": "- Working in DataHub",
-    "French": "- Travailler dans DataHub"
+    "English": "![ezgif-5-d67c30bfce](https://github.com/ssc-sp/datahub-docs/assets/56747050/525383db-6a82-46a0-b323-f62211d07c11)",
+    "French": "![ezgif-5-d67c30bfce](https://github.com/ssc-sp/datahub-docs/assets/56747050/525383db-6a82-46a0-b323-f62211d07c11)"
   },
   {
-    "English": "  - Load and Share Data",
-    "French": "  - Charger et partager des donn\u00E9es"
+    "English": "Once you have filled your metadata, it is a great time to start inviting your colleagues. To do so, navigate to the \u0022Users\u0022 tab of your workspace from the sidebar, where you will see all of the current members of your workspace",
+    "French": "Une fois que vous avez rempli vos m\u00E9tadonn\u00E9es, il est temps de commencer \u00E0 inviter vos coll\u00E8gues. Pour ce faire, acc\u00E9dez \u00E0 l\u0027onglet \u0022Utilisateurs\u0022 de votre espace de travail \u00E0 partir de la barre lat\u00E9rale, o\u00F9 vous verrez tous les membres actuels de votre espace de travail."
   },
   {
-    "English": "  - Databricks and Python Notebooks  ",
-    "French": "  - Databricks et Notebooks Python"
+    "English": "and their roles. Then click \u0022Invite new user\u0022, enter their email and select \u0022Add new user\u0022 (if they are not already part of FSDH) or their FSDH account (if they are existing users). Once you have selected all the users you want to add",
+    "French": "et leur r\u00F4le. Cliquez ensuite sur \u0022Inviter un nouvel utilisateur\u0022, entrez son adresse \u00E9lectronique et s\u00E9lectionnez \u0022Ajouter un nouvel utilisateur\u0022 (s\u0027il ne fait pas encore partie de DHSF) ou son compte DHSF (s\u0027il s\u0027agit d\u0027un utilisateur existant). Une fois que vous avez s\u00E9lectionn\u00E9 tous les utilisateurs que vous souhaitez ajouter"
   },
   {
-    "English": "  - Visualize My data",
-    "French": "  - Visualiser mes donn\u00E9es"
+    "English": "click the \u0022Add new users\u0022 button in purple, then select the roles of the members you are going to invite!",
+    "French": "cliquez sur le bouton \u0022Ajouter de nouveaux utilisateurs\u0022 en violet, puis s\u00E9lectionnez les r\u00F4les des membres que vous allez inviter !"
   },
   {
-    "English": "  - Connect APIs",
-    "French": "  - Connecter les API"
+    "English": "- **Guest** is the default role and has only read access to all resources within your project.",
+    "French": "- **Guest** est le r\u00F4le par d\u00E9faut et n\u0027a qu\u0027un acc\u00E8s en lecture \u00E0 toutes les ressources de votre projet."
   },
   {
-    "English": "  - Working in Python",
-    "French": "  - Travailler en Python"
+    "English": "- **Collaborators** is the role that you will want to give to most of your colleagues. It gives them read/write access to most of your resources.",
+    "French": "- **Collaborateurs** est le r\u00F4le que vous voudrez donner \u00E0 la plupart de vos coll\u00E8gues. Il leur donne un acc\u00E8s en lecture/\u00E9criture \u00E0 la plupart de vos ressources."
   },
   {
-    "English": "  - Working in R",
-    "French": "  - Travailler en R"
+    "English": "- **Admin** users have read/write access to your resources and can also manage other peoples permissions as well as your workspace tools.",
+    "French": "- Les utilisateurs **Admin** ont un acc\u00E8s en lecture/\u00E9criture \u00E0 vos ressources et peuvent \u00E9galement g\u00E9rer les autorisations d\u0027autres personnes ainsi que les outils de votre espace de travail."
   },
   {
-    "English": "  - Integrate Machine Learning",
-    "French": "  - Int\u00E9grer l\u0027apprentissage automatique"
+    "English": "- **Workspace lead** should be given to as little people as possible. They have all permissions on the workspace and are also the business representative for the workspace for potential communications and issues.",
+    "French": "- Le r\u00F4le de **responsable de l\u0027espace de travail** doit \u00EAtre confi\u00E9 \u00E0 un nombre aussi r\u00E9duit que possible de personnes. Il dispose de toutes les autorisations sur l\u0027espace de travail et est \u00E9galement le repr\u00E9sentant de l\u0027entreprise pour l\u0027espace de travail en ce qui concerne les communications et les probl\u00E8mes potentiels."
   },
   {
-    "English": "  - Scheduling Jobs",
-    "French": "  - Emplois dans le domaine de l\u0027ordonnancement"
+    "English": "Once you have decided a role for all your colleagues, ensure that you click the \u0022Save Changes\u0022 button, which will send all the required invitations.",
+    "French": "Une fois que vous avez d\u00E9fini un r\u00F4le pour tous vos coll\u00E8gues, cliquez sur le bouton \u0022Enregistrer les modifications\u0022, ce qui enverra toutes les invitations n\u00E9cessaires."
   },
   {
-    "English": "  - Web Applications",
-    "French": "  - Applications Web"
+    "English": "Note that workspace leads and admins can remove members by selecting their role and selecting \u0022Remove User\u0022.",
+    "French": "Notez que les responsables et les administrateurs de l\u0027espace de travail peuvent supprimer des membres en s\u00E9lectionnant leur r\u00F4le et en choisissant \u0022Supprimer l\u0027utilisateur\u0022."
   },
   {
-    "English": "  - Additional help",
-    "French": "  - Aide suppl\u00E9mentaire"
+    "English": "WorkspaceMetadata",
+    "French": "M\u00E9tadonn\u00E9es de l\u0027espace de travail"
   },
   {
-    "English": "  - Geospatial",
-    "French": "  - G\u00E9ospatial"
+    "English": "# The first step towards success: metadata",
+    "French": "# Le premier pas vers le succ\u00E8s : les m\u00E9tadonn\u00E9es"
   },
   {
-    "English": "QGIS",
-    "French": "QGIS"
+    "English": "![ezgif-5-b2e51901cc](https://github.com/ssc-sp/datahub-docs/assets/56747050/7aecf6c0-5758-4663-a65d-fe41e5e9ed73)",
+    "French": "![ezgif-5-b2e51901cc](https://github.com/ssc-sp/datahub-docs/assets/56747050/7aecf6c0-5758-4663-a65d-fe41e5e9ed73)"
   },
   {
-    "English": "2020020",
-    "French": "2020020"
+    "English": "In order to do anything in your workspace, it is required that you fill out your project metadata. Metadata is information about the project, such as a description, keywords and organization, that allow us to have a better idea",
+    "French": "Pour pouvoir faire quoi que ce soit dans votre espace de travail, vous devez remplir les m\u00E9tadonn\u00E9es de votre projet. Les m\u00E9tadonn\u00E9es sont des informations sur le projet, telles qu\u0027une description, des mots-cl\u00E9s et une organisation, qui nous permettent d\u0027avoir une meilleure id\u00E9e de la situation."
   },
   {
-    "English": "Hotfix",
-    "French": "Correctif"
+    "English": "of your needs and that will allow peers outside of your workspace to get an idea of what you\u0027re doing!",
+    "French": "de vos besoins et qui permettra aux personnes ext\u00E9rieures \u00E0 votre espace de travail de se faire une id\u00E9e de ce que vous faites !"
   },
   {
-    "English": "# Deploying Hotfixes in PoC environment",
-    "French": "# D\u00E9ploiement des correctifs dans l\u0027environnement VdP"
+    "English": "Make sure you fill out all of the required information and that you **click \u0022Save Metadata\u0022** at the bottom! You are asked to provide information in both official languages for some of the fields, but you can use the \u0022Google translate\u0022 button to",
+    "French": "Veillez \u00E0 remplir toutes les informations requises et \u00E0 **cliquer sur \u0022Enregistrer les m\u00E9tadonn\u00E9es \u0022** en bas de page ! Vous devez fournir des informations dans les deux langues officielles pour certains champs, mais vous pouvez utiliser le bouton \u0022Google translate\u0022 pour"
   },
   {
-    "English": "## What\u2019s a hotfix?",
-    "French": "## Qu\u0027est-ce qu\u0027un correctif ?"
+    "English": "automatically populate the missing language.",
+    "French": "remplissent automatiquement la langue manquante."
   },
   {
-    "English": "Hotfixes are applied to the PoC environment to fix an issue:",
-    "French": "Les correctifs sont appliqu\u00E9s \u00E0 l\u0027environnement VdP pour r\u00E9soudre un probl\u00E8me :"
+    "English": "WorkspaceSidebar",
+    "French": "Espace de travail"
   },
   {
-    "English": "- Immediately",
-    "French": "- Imm\u00E9diatement"
+    "English": "# Using the workspace sidebar",
+    "French": "# Utilisation de la barre lat\u00E9rale de l\u0027espace de travail"
   },
   {
-    "English": "- Without creating system downtimes or outages.",
-    "French": "- Sans cr\u00E9er de temps d\u0027arr\u00EAt ou de panne du syst\u00E8me."
+    "English": "![WorkspaceSidebar](https://github.com/ssc-sp/datahub-docs/assets/56747050/d0537632-9520-4110-b7d6-3771bfc2fd95)",
+    "French": "![WorkspaceSidebar](https://github.com/ssc-sp/datahub-docs/assets/56747050/d0537632-9520-4110-b7d6-3771bfc2fd95)"
   },
   {
-    "English": "Hotfixes are also known as QFE updates, short for quick-fix engineering updates.",
-    "French": "Les hotfixes sont \u00E9galement connus sous le nom de mises \u00E0 jour QFE, abr\u00E9viation de quick-fix engineering updates (mises \u00E0 jour techniques rapides)."
+    "English": "The first section of our workspace sidebar displays the different tools that are built within our workspace. A new workspace will only have the dashboard available, but as your project grows, you will have several tools available to you,",
+    "French": "La premi\u00E8re section de la barre lat\u00E9rale de notre espace de travail affiche les diff\u00E9rents outils qui sont int\u00E9gr\u00E9s \u00E0 notre espace de travail. Un nouvel espace de travail ne disposera que du tableau de bord, mais au fur et \u00E0 mesure que votre projet se d\u00E9veloppera, vous disposerez de plusieurs outils,"
   },
   {
-    "English": "Normally, hotfixes are created as an urgent measure against issues that need to be fixed immediately and outside of your normal development flow. ",
-    "French": "Normalement, les hotfixes sont cr\u00E9\u00E9s comme une mesure d\u0027urgence contre les probl\u00E8mes qui doivent \u00EAtre corrig\u00E9s imm\u00E9diatement et en dehors de votre flux de d\u00E9veloppement normal."
+    "English": "such as Databricks, file storage, databases, web applications and more!",
+    "French": "comme Databricks, le stockage de fichiers, les bases de donn\u00E9es, les applications web et plus encore !"
   },
   {
-    "English": "Hotfixes address specific issues like:",
-    "French": "Les correctifs traitent des probl\u00E8mes sp\u00E9cifiques tels que"
+    "English": "The second section of the sidebar is where you manage your workspace:",
+    "French": "La deuxi\u00E8me section de la barre lat\u00E9rale vous permet de g\u00E9rer votre espace de travail :"
   },
   {
-    "English": "- Adding a new feature, bug, or security fix",
-    "French": "- Ajout d\u0027une nouvelle fonctionnalit\u00E9, d\u0027un bogue ou d\u0027un correctif de s\u00E9curit\u00E9"
+    "English": "- **Toolbox**: Request new tools for your workspace.",
+    "French": "- Bo\u00EEte \u00E0 outils** : Demandez de nouveaux outils pour votre espace de travail."
   },
   {
-    "English": "- Correcting data or translations",
-    "French": "- Correction des donn\u00E9es ou des traductions"
+    "English": "- **Users**: Manage workspace users and their roles and permissions.",
+    "French": "- **Utilisateurs** : G\u00E9rer les utilisateurs de l\u0027espace de travail ainsi que leurs r\u00F4les et autorisations."
   },
   {
-    "English": "## Git process",
-    "French": "## Processus Git"
+    "English": "- **Metadata**: Provide additional information regarding your workspace.",
+    "French": "- **M\u00E9tadonn\u00E9es** : Fournissez des informations suppl\u00E9mentaires sur votre espace de travail."
   },
   {
-    "English": "- checkout \u0060proof-of-concept\u0060 and create a new \u0060hotfix/\u003Cname\u003E\u0060 branch for the changes",
-    "French": "- checkout \u0060proof-of-concept\u0060 et cr\u00E9er une nouvelle branche \u0060hotfix/\u003Cnom\u003E\u0060 pour les changements"
+    "English": "- **Reports**: Access costing and storage information of your workspace.",
+    "French": "- Rapports** : Acc\u00E9dez aux informations sur le co\u00FBt et le stockage de votre espace de travail."
   },
   {
-    "English": "- validate the fix locally in \u0060hotfix/\u003Cname\u003E\u0060",
-    "French": "- valider le correctif localement dans \u0060hotfix/\u003Cnom\u003E\u0060"
+    "English": "- **Settings**: Define other settings pertaining to your workspace.",
+    "French": "- **Param\u00E8tres** : D\u00E9finissez d\u0027autres param\u00E8tres relatifs \u00E0 votre espace de travail."
   },
   {
-    "English": "- create a pull request from \u0060hotfix/\u003Cname\u003E\u0060 into \u0060proof-of-concept\u0060",
-    "French": "- cr\u00E9er une pull request de \u0060hotfix/\u003Cnom\u003E\u0060 vers \u0060preuve-de-concept\u0060"
+    "English": "**NOTE**: The first step of a new workspace is always to fill out the metadata! Without having filled your workspace metadata you _cannot_ request new tools from the toolbox. Let us have a look at metadata!",
+    "French": "**NOTE** : La premi\u00E8re \u00E9tape d\u0027un nouvel espace de travail est toujours de remplir les m\u00E9tadonn\u00E9es ! Sans avoir rempli les m\u00E9tadonn\u00E9es de votre espace de travail, vous ne pouvez pas demander de nouveaux outils dans la bo\u00EEte \u00E0 outils. Jetons un coup d\u0027\u0153il aux m\u00E9tadonn\u00E9es !"
   },
   {
-    "English": "## Deploying code from \u0060proof-of-concept\u0060 branch into INT",
-    "French": "## D\u00E9ploiement du code de la branche \u0060proof-of-concept\u0060 dans INT"
+    "English": "WorkspaceToolbox",
+    "French": "Bo\u00EEte \u00E0 outils de l\u0027espace de travail"
   },
   {
-    "English": "- Pipeline is similar to dev environment",
-    "French": "- Le pipeline est similaire \u00E0 l\u0027environnement de d\u00E9veloppement"
+    "English": "# Requesting tools in the toolbox",
+    "French": "# Demander des outils dans la bo\u00EEte \u00E0 outils"
   },
   {
-    "English": "- Changes from \u0060proof-of-concept\u0060 branch will trigger a build in the DevOps pipeline",
-    "French": "- Les modifications de la branche \u0060proof-of-concept\u0060 d\u00E9clencheront une construction dans le pipeline DevOps."
+    "English": "![ezgif-5-a4f368af5f](https://github.com/ssc-sp/datahub-docs/assets/56747050/6176805d-573e-4a6a-9641-d704a6beb02f)",
+    "French": "![ezgif-5-a4f368af5f](https://github.com/ssc-sp/datahub-docs/assets/56747050/6176805d-573e-4a6a-9641-d704a6beb02f)"
   },
   {
-    "English": "![Devops Pipeline](image.png)",
-    "French": "![Devops Pipeline](image.png)"
+    "English": "Once your metadata is complete and you have invited your colleagues in your workspace, the final step is to request the tools necessary to your project!",
+    "French": "Une fois que vos m\u00E9tadonn\u00E9es sont compl\u00E8tes et que vous avez invit\u00E9 vos coll\u00E8gues dans votre espace de travail, la derni\u00E8re \u00E9tape consiste \u00E0 demander les outils n\u00E9cessaires \u00E0 votre projet !"
   },
   {
-    "English": "- Successful builds will deploy a successful build from the pipeline into the PoC environment",
-    "French": "- Les constructions r\u00E9ussies d\u00E9ploieront une construction r\u00E9ussie du pipeline dans l\u0027environnement VdP."
+    "English": "To do so, navigate to the toolbox, where you will see all of the tools currently available in FSDH, ensure you read and understand the description of each tool and request the ones you need simply by clicking the \u0022Add to workspace\u0022",
+    "French": "Pour ce faire, naviguez jusqu\u0027\u00E0 la bo\u00EEte \u00E0 outils, o\u00F9 vous verrez tous les outils actuellement disponibles dans DHSF, assurez-vous de lire et de comprendre la description de chaque outil et demandez ceux dont vous avez besoin en cliquant simplement sur le bouton \u0022Ajouter \u00E0 l\u0027espace de travail\u0022"
   },
   {
-    "English": "![Deployment](image-1.png)",
-    "French": "![D\u00E9ploiement](image-1.png)"
+    "English": "button!",
+    "French": "bouton !"
   },
   {
-    "English": "## Push changes from INT to POC",
-    "French": "## Passer de INT \u00E0 POC"
+    "English": "Once you add a tool to your workspace, it may take up to 30 minutes before it appears in your sidebar, at which point you will be able to use it by simply clicking on it. If you have any issues or concerns regarding requesting tools,",
+    "French": "Une fois que vous avez ajout\u00E9 un outil \u00E0 votre espace de travail, il peut s\u0027\u00E9couler jusqu\u0027\u00E0 30 minutes avant qu\u0027il n\u0027apparaisse dans votre barre lat\u00E9rale, apr\u00E8s quoi vous pourrez l\u0027utiliser en cliquant simplement dessus. Si vous avez des questions ou des inqui\u00E9tudes concernant la demande d\u0027outils,"
   },
   {
-    "English": "- Changes needs to validated and regression testing needs to be done in INT",
-    "French": "- Les modifications doivent \u00EAtre valid\u00E9es et les tests de r\u00E9gression doivent \u00EAtre effectu\u00E9s dans INT."
+    "English": "feel free to contact us.",
+    "French": "n\u0027h\u00E9sitez pas \u00E0 nous contacter."
   },
   {
-    "English": "- Once regression testing is completed, the Devops approvers need to be notified",
-    "French": "- Une fois les tests de r\u00E9gression termin\u00E9s, les approbateurs Devops doivent \u00EAtre inform\u00E9s."
+    "English": "**Congratulations on creating your workspace!**",
+    "French": "**F\u00E9licitations pour la cr\u00E9ation de votre espace de travail !"
   },
   {
-    "English": "- The approvers will approve the Devops pipeline and it will trigger deployment of the code from \u0060proof-of-concept\u0060 into the PoC environment",
-    "French": "- Les approbateurs approuveront le pipeline Devops, ce qui d\u00E9clenchera le d\u00E9ploiement du code de la \u0022preuve de concept\u0022 dans l\u0027environnement VdP."
+    "English": "New workspace",
+    "French": "Nouvel espace de travail"
   },
   {
-    "English": "https://learn.microsoft.com/en-ca/azure/databricks/files/workspace-modules",
-    "French": "https://learn.microsoft.com/en-ca/azure/databricks/files/workspace-modules"
+    "English": "Workspace layout",
+    "French": "Disposition de l\u0027espace de travail"
   },
   {
-    "English": "Icon LibraryBooks",
-    "French": "Icon LibraryBooks"
+    "English": "Workspace members",
+    "French": "Membres de l\u0027espace de travail"
   },
   {
-    "English": "Add data UI in Databricks",
-    "French": "Ajouter une interface utilisateur dans Databricks"
+    "English": "Workspace metadata",
+    "French": "M\u00E9tadonn\u00E9es de l\u0027espace de travail"
   },
   {
-    "English": "  - Machine Learning",
-    "French": "  - Apprentissage automatique"
+    "English": "Workspace sidebar",
+    "French": "Barre lat\u00E9rale de l\u0027espace de travail"
   },
   {
-    "English": "Digital Elevation Models (DEM) Tools and Raster Calculator",
-    "French": "Outils pour les mod\u00E8les num\u00E9riques d\u0027\u00E9l\u00E9vation (MNE) et calculateur de donn\u00E9es matricielles"
+    "English": "Workspace toolbox",
+    "French": "Bo\u00EEte \u00E0 outils de l\u0027espace de travail"
   },
   {
-    "English": "Icon Workspaces",
-    "French": "Espaces de travail \u00E0 ic\u00F4nes"
+    "English": "2024 01 23",
+    "French": "2024 01 23"
   },
   {
-    "English": "  - Getting Started",
-    "French": "  - Pour commencer"
+    "English": "# Office Hours - January 23rd, 2024",
+    "French": "# Heures de bureau - 23 janvier 2024"
   },
   {
-    "English": "Icon HelpOutline",
-    "French": "Ic\u00F4ne HelpOutline"
+    "English": "An overview of the new UI as well as the new services that are coming up soon!",
+    "French": "Un aper\u00E7u de la nouvelle interface utilisateur et des nouveaux services qui seront bient\u00F4t disponibles !"
   },
   {
-    "English": "Access aws storage account in Databricks",
-    "French": "Acc\u00E9der au compte de stockage aws dans Databricks"
-  },
-  {
-    "English": "# Access AWS storage account in Databricks",
-    "French": "# Acc\u00E9der au compte de stockage AWS dans Databricks"
-  },
-  {
-    "English": "## Databricks Mount Point",
-    "French": "## Databricks Mount Point"
-  },
-  {
-    "English": "The most common way to cloud storage in Databricks is through mount points. ",
-    "French": "Le moyen le plus courant d\u0027acc\u00E9der au stockage en nuage dans Databricks est d\u0027utiliser des points de montage."
-  },
-  {
-    "English": "The following code will mount the AWS account in databricks in mount point \u0060/mnt/aws\u0060 and make it available to the notebook (See [this for more details on Databricks mount points](https://docs.databricks.com/en/dbfs/mounts.html)).",
-    "French": "Le code suivant va monter le compte AWS dans databricks dans le point de montage \u0060/mnt/aws\u0060 et le rendre disponible pour le notebook (Voir [ceci pour plus de d\u00E9tails sur les points de montage Databricks](https://docs.databricks.com/en/dbfs/mounts.html))."
-  },
-  {
-    "English": "bucket_name = dbutils.secrets.get(scope = \u0022dh-workspace\u0022, key = \u0022\u003Caws_s3_bucket\u003E\u0022) ",
-    "French": "bucket_name = dbutils.secrets.get(scope = \u0022dh-workspace\u0022, key = \u0022\u003Caws_s3_bucket\u003E\u0022)"
-  },
-  {
-    "English": "access_key = dbutils.secrets.get(scope = \u0022dh-workspace\u0022, key = \u0022\u003Caws_access_key\u003E\u0022) ",
-    "French": "access_key = dbutils.secrets.get(scope = \u0022dh-workspace\u0022, key = \u0022\u003Caws_access_key\u003E\u0022)"
-  },
-  {
-    "English": "secret_key = dbutils.secrets.get(scope = \u0022dh-workspace\u0022, key = \u0022\u003Caws_access_key_secret\u003E\u0022) ",
-    "French": "secret_key = dbutils.secrets.get(scope = \u0022dh-workspace\u0022, key = \u0022\u003Caws_access_key_secret\u003E\u0022)"
-  },
-  {
-    "English": "#Mount bucket on databricks",
-    "French": "#Mount bucket on databricks"
-  },
-  {
-    "English": "encoded_secret_key = secret_key.replace(\u0022/\u0022, \u0022%2F\u0022)",
-    "French": "encoded_secret_key = secret_key.replace(\u0022/\u0022, \u0022%2F\u0022)"
-  },
-  {
-    "English": "mount_name = \u0022aws\u0022",
-    "French": "mount_name = \u0022aws\u0022"
-  },
-  {
-    "English": "dbutils.fs.mount(\u0022s3a://%s:%s@%s\u0022 % (access_key, encoded_secret_key, bucket_name), \u0022/mnt/%s\u0022 % mount_name)",
-    "French": "dbutils.fs.mount(\u0022s3a://%s:%s@%s\u0022 % (access_key, encoded_secret_key, bucket_name), \u0022/mnt/%s\u0022 % mount_name)"
-  },
-  {
-    "English": "Access az storage account in Databricks",
-    "French": "Acc\u00E9der \u00E0 un compte de stockage dans Databricks"
-  },
-  {
-    "English": "# Access Azure storage account in Databricks",
-    "French": "# Acc\u00E9der au compte de stockage Azure dans Databricks"
-  },
-  {
-    "English": "The following code will mount the AWS account in databricks in mount point \u0060/mnt/az\u0060 and make it available to the notebook (See [this for more details on Databricks mount points](https://docs.databricks.com/en/dbfs/mounts.html)).",
-    "French": "Le code suivant va monter le compte AWS dans databricks dans le point de montage \u0060/mnt/az\u0060 et le rendre disponible pour le notebook (Voir [ceci pour plus de d\u00E9tails sur les points de montage Databricks](https://docs.databricks.com/en/dbfs/mounts.html))."
-  },
-  {
-    "English": "account_key = dbutils.secrets.get(scope = \u0022dh-workspace\u0022, key = \u0022\u003Caz_key\u003E\u0022) ",
-    "French": "account_key = dbutils.secrets.get(scope = \u0022dh-workspace\u0022, key = \u0022\u003Caz_key\u003E\u0022)"
-  },
-  {
-    "English": "storage_account = dbutils.secrets.get(scope = \u0022dh-workspace\u0022, key = \u0022\u003Caz_name\u003E\u0022) ",
-    "French": "storage_account = dbutils.secrets.get(scope = \u0022dh-workspace\u0022, key = \u0022\u003Caz_name\u003E\u0022)"
-  },
-  {
-    "English": "spark.conf.set(",
-    "French": "spark.conf.set("
-  },
-  {
-    "English": "    (\u0022fs.azure.account.key.%s.blob.core.windows.net\u0022 % storage_account),account_key)",
-    "French": "    (\u0022fs.azure.account.key.%s.blob.core.windows.net\u0022 % storage_account),account_key)"
-  },
-  {
-    "English": "access_path = (\u0022wasbs://\u003Ccontainer_name\u003E@%s.blob.core.windows.net/\u0022 % storage_account)",
-    "French": "access_path = (\u0022wasbs://\u003Cnom_du_conteneur\u003E@%s.blob.core.windows.net/\u0022 % storage_account)"
-  },
-  {
-    "English": "mount_name = \u0022az\u0022",
-    "French": "mount_name = \u0022az\u0022"
-  },
-  {
-    "English": "dbutils.fs.mount(access_path, \u0022/mnt/%s\u0022 % mount_name)",
-    "French": "dbutils.fs.mount(access_path, \u0022/mnt/%s\u0022 % mount_name)"
-  },
-  {
-    "English": "Access gcp storage account in Databricks",
-    "French": "Acc\u00E9der au compte de stockage gcp dans Databricks"
-  },
-  {
-    "English": "The following code will mount the GCP account in databricks in mount point \u0060/mnt/gcp\u0060 and make it available to the notebook (See [this for more details on Databricks mount points](https://docs.databricks.com/en/dbfs/mounts.html)).",
-    "French": "Le code suivant va monter le compte GCP dans databricks dans le point de montage \u0060/mnt/gcp\u0060 et le rendre disponible pour le notebook (Voir [ceci pour plus de d\u00E9tails sur les points de montage Databricks](https://docs.databricks.com/en/dbfs/mounts.html))."
-  },
-  {
-    "English": "gcp_account = dbutils.secrets.get(scope = \u0022dh-workspace\u0022, key = \u0022\u003Cgcp_account_key\u003E\u0022) ",
-    "French": "gcp_account = dbutils.secrets.get(scope = \u0022dh-workspace\u0022, key = \u0022\u003Cgcp_account_key\u003E\u0022)"
-  },
-  {
-    "English": "gcp-project-id = dbutils.secrets.get(scope = \u0022dh-workspace\u0022, key = \u0022\u003Cgcp_project_id\u003E\u0022)",
-    "French": "gcp-project-id = dbutils.secrets.get(scope = \u0022dh-workspace\u0022, key = \u0022\u003Cgcp_project_id\u003E\u0022)"
-  },
-  {
-    "English": "values = json.load(gcp_account)",
-    "French": "values = json.load(gcp_account)"
-  },
-  {
-    "English": "    \u0022google.cloud.auth.service.account.enable\u0022,\u0022true\u0022)",
-    "French": "    \u0022google.cloud.auth.service.account.enable\u0022, \u0022true\u0022)"
-  },
-  {
-    "English": "mount_name = \u0022gcp\u0022",
-    "French": "mount_name = \u0022gcp\u0022"
-  },
-  {
-    "English": "dbutils.fs.mount(\u0022gs://\u003Ccontainer_name\u003E\u0022, \u0022/mnt/gcp\u0022 % mount_name, ,",
-    "French": "dbutils.fs.mount(\u0022gs://\u003Cnom_du_conteneur\u003E\u0022, \u0022/mnt/gcp\u0022 % nom_du_montage, ,"
-  },
-  {
-    "English": "  extra_configs = {\u0022fs.gs.project.id\u0022: gcp-project-id, ",
-    "French": "  extra_configs = {\u0022fs.gs.project.id\u0022 : gcp-project-id,"
-  },
-  {
-    "English": "                   \u0022fs.gs.auth.service.account.email\u0022:\u003Cemail\u003E,",
-    "French": "                   \u0022fs.gs.auth.service.account.email\u0022:\u003Cemail\u003E,"
-  },
-  {
-    "English": "                   \u0022fs.gs.auth.service.account.private.key\u0022:values[\u0022private_key\u0022],",
-    "French": "                   \u0022fs.gs.auth.service.account.private.key\u0022:values[\u0022private_key\u0022],"
-  },
-  {
-    "English": "                   \u0022fs.gs.auth.service.account.private.key.id\u0022: values[\u0022private_key_id\u0022]",
-    "French": "                   \u0022fs.gs.auth.service.account.private.key.id\u0022 : values[\u0022private_key_id\u0022]"
-  },
-  {
-    "English": "                    })",
-    "French": "                    })"
-  },
-  {
-    "English": "Postgres",
-    "French": "Postgres"
-  },
-  {
-    "English": "# Create and use a PostgreSQL Database on FSDH",
-    "French": "# Cr\u00E9er et utiliser une base de donn\u00E9es PostgreSQL sur DHSF"
-  },
-  {
-    "English": "The Federal Science DataHub provides the ability to provision a PostgreSQL database for your workspace. This guide will walk you through the process of creating a PostgreSQL database and using it in code.",
-    "French": "Le DataHub scientifique f\u00E9d\u00E9ral permet de provisionner une base de donn\u00E9es PostgreSQL pour votre espace de travail. Ce guide vous guidera \u00E0 travers le processus de cr\u00E9ation d\u0027une base de donn\u00E9es PostgreSQL et son utilisation dans le code."
-  },
-  {
-    "English": "## How to provision a PostgreSQL Database",
-    "French": "## Comment provisionner une base de donn\u00E9es PostgreSQL"
-  },
-  {
-    "English": "1. Navigate to the workspace you want to create a PostgreSQL database in.",
-    "French": "1. Naviguez vers l\u0027espace de travail dans lequel vous souhaitez cr\u00E9er une base de donn\u00E9es PostgreSQL."
-  },
-  {
-    "English": "2. Navigate to the \u0060Toolbox\u0060 tab under the \u0060Administration\u0060 category.",
-    "French": "2. Naviguez vers l\u0027onglet \u0022Bo\u00EEte \u00E0 outils\u0022 dans la cat\u00E9gorie \u0022Administration\u0022."
-  },
-  {
-    "English": "![](database-1.png)",
-    "French": "![](database-1.png)"
-  },
-  {
-    "English": "3. Within a few minutes, the database will be provisioned and you will see it in the \u0060Toolbox\u0060 tab. If the database does not provision, please fill out a support request.",
-    "French": "3. Dans quelques minutes, la base de donn\u00E9es sera provisionn\u00E9e et vous la verrez dans l\u0027onglet \u0060Toolbox\u0060. Si la base de donn\u00E9es n\u0027est pas provisionn\u00E9e, veuillez remplir une demande de support."
-  },
-  {
-    "English": "## How to use your PostgreSQL Database",
-    "French": "## Comment utiliser votre base de donn\u00E9es PostgreSQL"
-  },
-  {
-    "English": "1. Navigate to the workspace you want to use the PostgreSQL database in.",
-    "French": "1. Naviguez vers l\u0027espace de travail dans lequel vous souhaitez utiliser la base de donn\u00E9es PostgreSQL."
-  },
-  {
-    "English": "2. Navigate to the \u0060SQL Database\u0060 tab under the \u0060Workspace Tools\u0060 category. This page provides you with the needed information to connect to your database.",
-    "French": "2. Naviguez jusqu\u0027\u00E0 l\u0027onglet \u0022Base de donn\u00E9es SQL\u0022 dans la cat\u00E9gorie \u0022Outils de l\u0027espace de travail\u0022. Cette page vous fournit les informations n\u00E9cessaires pour vous connecter \u00E0 votre base de donn\u00E9es."
-  },
-  {
-    "English": "3. **Before trying to use the database**, you must add your IP address to the firewall rules. ",
-    "French": "3. **Avant d\u0027essayer d\u0027utiliser la base de donn\u00E9es**, vous devez ajouter votre adresse IP aux r\u00E8gles du pare-feu."
-  },
-  {
-    "English": "    * Navigate to the bottom of the page and click \u0060Add Current IP Address\u0060 to add your local IP address to the firewall rules.",
-    "French": "    * Naviguez jusqu\u0027au bas de la page et cliquez sur \u0022Ajouter l\u0027adresse IP actuelle\u0022 pour ajouter votre adresse IP locale aux r\u00E8gles du pare-feu."
-  },
-  {
-    "English": "    * If you switch networks or toggle your VPN, you will need to add your new IP address to the firewall rules.",
-    "French": "    * Si vous changez de r\u00E9seau ou basculez votre RPV, vous devrez ajouter votre nouvelle adresse IP aux r\u00E8gles du pare-feu."
-  },
-  {
-    "English": "    * To give Databricks access to the database, you will need to add the address \u00600.0.0.0\u0060 to the firewall rules.",
-    "French": "    * Pour permettre \u00E0 Databricks d\u0027acc\u00E9der \u00E0 la base de donn\u00E9es, vous devrez ajouter l\u0027adresse \u00600.0.0.0\u0060 aux r\u00E8gles du pare-feu."
-  },
-  {
-    "English": "    * **NOTE:** Changes can take up to 15 minutes to apply.",
-    "French": "    **NOTE:** L\u0027application des modifications peut prendre jusqu\u0027\u00E0 15 minutes."
-  },
-  {
-    "English": "![](database-2.png)",
-    "French": "![](database-2.png)"
-  },
-  {
-    "English": "4. After adding your IP address to the firewall rules, you can use the connection info provided for Databricks, Python, R, Java, and C#.",
-    "French": "4. Apr\u00E8s avoir ajout\u00E9 votre adresse IP aux r\u00E8gles du pare-feu, vous pouvez utiliser les informations de connexion fournies pour Databricks, Python, R, Java et C#."
-  },
-  {
-    "English": "![](database-3.png)",
-    "French": "![](database-3.png)"
-  },
-  {
-    "English": "psql databricks comparison",
-    "French": "Comparaison des banques de donn\u00E9es psql"
-  },
-  {
-    "English": "# PostgreSQL vs Azure Databricks Database Features",
-    "French": "# PostgreSQL vs Azure Databricks Fonctionnalit\u00E9s des bases de donn\u00E9es"
-  },
-  {
-    "English": "The Federal Science DataHub offers multiple ways to use database functionality. This guide will compare the use of a PostgreSQL database on FSDH with the database features provided by Azure Databricks.",
-    "French": "Le DataHub scientifique f\u00E9d\u00E9ral offre plusieurs fa\u00E7ons d\u0027utiliser la fonctionnalit\u00E9 de base de donn\u00E9es. Ce guide compare l\u0027utilisation d\u0027une base de donn\u00E9es PostgreSQL sur le DHSF avec les fonctionnalit\u00E9s de base de donn\u00E9es fournies par Azure Databricks."
-  },
-  {
-    "English": "When it comes to hosting a database with FSDH, there are multiple options available. One popular choice is using PostgreSQL, while another option is leveraging the database features provided by Azure Databricks. In this comparison, we will explore the key differences and benefits of each approach.",
-    "French": "Lorsqu\u0027il s\u0027agit d\u0027h\u00E9berger une base de donn\u00E9es avec DHSF, plusieurs options sont disponibles. L\u0027un des choix les plus populaires est l\u0027utilisation de PostgreSQL, tandis qu\u0027une autre option consiste \u00E0 tirer parti des fonctionnalit\u00E9s de base de donn\u00E9es fournies par Azure Databricks. Dans cette comparaison, nous allons explorer les principales diff\u00E9rences et les avantages de chaque approche."
-  },
-  {
-    "English": "## PostgreSQL",
-    "French": "## PostgreSQL"
-  },
-  {
-    "English": "PostgreSQL is a fully managed database service that allows you to deploy PostgreSQL databases in the cloud. It provides high availability, automatic backups, and integration with other services. Some of the key features of PostgreSQL include:",
-    "French": "PostgreSQL est un service de base de donn\u00E9es enti\u00E8rement g\u00E9r\u00E9 qui vous permet de d\u00E9ployer des bases de donn\u00E9es PostgreSQL dans le nuage. Il offre une haute disponibilit\u00E9, des sauvegardes automatiques et une int\u00E9gration avec d\u0027autres services. Voici quelques-unes des principales caract\u00E9ristiques de PostgreSQL :"
-  },
-  {
-    "English": "- Easy deployment of PostgreSQL databases",
-    "French": "- D\u00E9ploiement facile des bases de donn\u00E9es PostgreSQL"
-  },
-  {
-    "English": "- Built-in high availability and automatic backups",
-    "French": "- Haute disponibilit\u00E9 int\u00E9gr\u00E9e et sauvegardes automatiques"
-  },
-  {
-    "English": "- Support for advanced PostgreSQL features such as JSONB, full-text search, and spatial data types",
-    "French": "- Prise en charge des fonctionnalit\u00E9s avanc\u00E9es de PostgreSQL telles que JSONB, la recherche plein texte et les types de donn\u00E9es spatiales"
-  },
-  {
-    "English": "- Seamless integration with other services like web apps or APIs",
-    "French": "- Int\u00E9gration transparente avec d\u0027autres services tels que les applications web ou les API"
-  },
-  {
-    "English": "## Azure Databricks Database Features (Hive)",
-    "French": "## Fonctionnalit\u00E9s de la base de donn\u00E9es Azure Databricks (Hive)"
-  },
-  {
-    "English": "Azure Databricks is an analytics platform that combines Apache Spark with a collaborative environment for data science and machine learning. While it is primarily known for its big data processing capabilities, Azure Databricks also provides powerful database features. Some of the key database features offered by Azure Databricks include:",
-    "French": "Azure Databricks est une plateforme analytique qui associe Apache Spark \u00E0 un environnement collaboratif pour la science des donn\u00E9es et l\u0027apprentissage automatique. Bien qu\u0027il soit principalement connu pour ses capacit\u00E9s de traitement des big data, Azure Databricks offre \u00E9galement de puissantes fonctionnalit\u00E9s de base de donn\u00E9es. Parmi les principales fonctionnalit\u00E9s de base de donn\u00E9es offertes par Azure Databricks, citons :"
-  },
-  {
-    "English": "- Delta Lake: A transactional storage layer that provides ACID transactions, schema enforcement, and data versioning for data lakes.",
-    "French": "- Delta Lake : Une couche de stockage transactionnel qui fournit des transactions ACID, l\u0027application du sch\u00E9ma et le versionnage des donn\u00E9es pour les lacs de donn\u00E9es."
-  },
-  {
-    "English": "- Delta Engine: A high-performance query engine optimized for Delta Lake, enabling fast and scalable SQL queries on large datasets.",
-    "French": "- Moteur Delta : Un moteur de requ\u00EAte haute performance optimis\u00E9 pour Delta Lake, permettant des requ\u00EAtes SQL rapides et \u00E9volutives sur de grands ensembles de donn\u00E9es."
-  },
-  {
-    "English": "- Delta Live Tables: A real-time change data capture (CDC) feature that allows you to capture and process real-time data changes from various sources.",
-    "French": "- Delta Live Tables : Une fonction de capture des donn\u00E9es de changement en temps r\u00E9el (CDC) qui vous permet de capturer et de traiter les changements de donn\u00E9es en temps r\u00E9el \u00E0 partir de diverses sources."
-  },
-  {
-    "English": "- Data Lakehouse Architecture: Azure Databricks promotes a unified architecture that combines the best of data lakes and data warehouses, enabling efficient data storage, processing, and analytics.",
-    "French": "- Architecture de lac de donn\u00E9es : Azure Databricks promeut une architecture unifi\u00E9e qui combine le meilleur des lacs de donn\u00E9es et des entrep\u00F4ts de donn\u00E9es, permettant un stockage, un traitement et une analyse efficaces des donn\u00E9es."
-  },
-  {
-    "English": "Databricks leverages the standard [Apache Hive](https://hive.apache.org/) project which enables to leverage standard storage and query data using SQL. The underlying model is quite different from a traditional database.",
-    "French": "Databricks s\u0027appuie sur le projet standard [Apache Hive] (https://hive.apache.org/) qui permet d\u0027exploiter le stockage standard et d\u0027interroger les donn\u00E9es \u00E0 l\u0027aide de SQL. Le mod\u00E8le sous-jacent est tr\u00E8s diff\u00E9rent d\u0027une base de donn\u00E9es traditionnelle."
-  },
-  {
-    "English": "- Databricks SQL requires the cluster to be enabled to run SQL queries",
-    "French": "- Databricks SQL n\u00E9cessite que le cluster soit activ\u00E9 pour ex\u00E9cuter des requ\u00EAtes SQL."
-  },
-  {
-    "English": "- Large datasets can be easily accomodated by simply scaling the cluster size",
-    "French": "- Les grands ensembles de donn\u00E9es peuvent \u00EAtre facilement pris en charge en augmentant simplement la taille des grappes."
-  },
-  {
-    "English": "- There is only storage costs for data that is not used",
-    "French": "- Il n\u0027y a que des co\u00FBts de stockage pour les donn\u00E9es qui ne sont pas utilis\u00E9es"
-  },
-  {
-    "English": "- Large datasets are cost efficient because standard Azure storage is used.",
-    "French": "- Les grands ensembles de donn\u00E9es sont rentables car le stockage standard Azure est utilis\u00E9."
-  },
-  {
-    "English": "## Comparison",
-    "French": "## Comparaison"
-  },
-  {
-    "English": "This chart outlines the key differences between PostgreSQL and Azure Databricks Database Features:",
-    "French": "Ce tableau pr\u00E9sente les principales diff\u00E9rences entre PostgreSQL et les fonctionnalit\u00E9s de la base de donn\u00E9es Azure Databricks :"
-  },
-  {
-    "English": "| Feature          | PostgreSQL                                                                | Azure Databricks Database Features (Hive Tables)                                               |",
-    "French": "| Fonctionnalit\u00E9 | PostgreSQL | Fonctionnalit\u00E9s de la base de donn\u00E9es Azure Databricks (Hive Tables) |"
-  },
-  {
-    "English": "| ---------------- | ------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |",
-    "French": "| ---------------- | ------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |"
-  },
-  {
-    "English": "| Database Model   | Traditional Relational Database                                           | Unified data analytics platform based on Lakehouse architecture                                |",
-    "French": "| Mod\u00E8le de base de donn\u00E9es | Base de donn\u00E9es relationnelle traditionnelle | Plate-forme d\u0027analyse de donn\u00E9es unifi\u00E9e bas\u00E9e sur l\u0027architecture Lakehouse |"
-  },
-  {
-    "English": "| Primary Use Case | General-purpose database. Web app / API integration. Complex SQL queries. | Big data analytics and real-time processing. Machine Learning. Collaborative data exploration. |",
-    "French": "| Cas d\u0027utilisation principal | Base de donn\u00E9es g\u00E9n\u00E9raliste. Int\u00E9gration d\u0027applications Web / API. Requ\u00EAtes SQL complexes. | Analyse des big data et traitement en temps r\u00E9el. Apprentissage automatique. Exploration collaborative des donn\u00E9es. "
-  },
-  {
-    "English": "| Performance      | Good for OLTP workloads.                                                  | Optimized for big data processing.                                                             |",
-    "French": "| Performances - Bon pour les charges de travail OLTP.                                                  | Optimis\u00E9 pour le traitement des donn\u00E9es volumineuses (big data).                                                             |"
-  },
-  {
-    "English": "| Scalability      | Limited scaling in current setup                                          | Horizontal scaling with Delta Engine.                                                          |",
-    "French": "| Mise \u00E0 l\u0027\u00E9chelle limit\u00E9e dans la configuration actuelle | Mise \u00E0 l\u0027\u00E9chelle horizontale avec le moteur Delta.                                                          "
-  },
-  {
-    "English": "| Integration      | Seamless integration with web apps and APIs.                              | Integration with big data processing and machine learning workflows.                           |",
-    "French": "| Int\u00E9gration | Int\u00E9gration transparente avec les applications web et les API.                              | Int\u00E9gration avec les flux de travail de traitement des big data et d\u0027apprentissage automatique.                           |"
-  },
-  {
-    "English": "## Costing Difference",
-    "French": "## Diff\u00E9rence de co\u00FBt"
-  },
-  {
-    "English": "### On-Demand Databricks",
-    "French": "### Les banques de donn\u00E9es \u00E0 la demande"
-  },
-  {
-    "English": "- Databricks costing is _pay for what you use_ aka it depends on the cluster size and how long the cluster has been running",
-    "French": "- Le co\u00FBt de Databricks est _pay\u00E9 pour ce que vous utilisez_, c\u0027est-\u00E0-dire qu\u0027il d\u00E9pend de la taille du cluster et de sa dur\u00E9e de fonctionnement."
-  },
-  {
-    "English": "- With light usage, it is possible to keep databricks under $100 in a month and that includes Hive tables",
-    "French": "- En cas d\u0027utilisation l\u00E9g\u00E8re, il est possible de maintenir les bases de donn\u00E9es \u00E0 moins de 100 dollars par mois, y compris les tables Hive."
-  },
-  {
-    "English": "- It is recommended to perform some small experiments and monitor the costs to precisely estimate the cost",
-    "French": "- Il est recommand\u00E9 d\u0027effectuer quelques petites exp\u00E9riences et de contr\u00F4ler les co\u00FBts afin d\u0027estimer pr\u00E9cis\u00E9ment le co\u00FBt."
-  },
-  {
-    "English": "### PostgreSQL Cost",
-    "French": "### Co\u00FBt de PostgreSQL"
-  },
-  {
-    "English": "- PostgreSQL in FSDH uses the [Azure Flexible Server](https://learn.microsoft.com/fr-ca/azure/postgresql/flexible-server/quickstart-create-server-portal) model which is also based on consumption (burstable model)",
-    "French": "- PostgreSQL dans DHSF utilise le mod\u00E8le [Azure Flexible Server] (https://learn.microsoft.com/fr-ca/azure/postgresql/flexible-server/quickstart-create-server-portal) qui est \u00E9galement bas\u00E9 sur la consommation (mod\u00E8le burstable)."
-  },
-  {
-    "English": "- With very light usage, it costs about $30/month",
-    "French": "- En cas d\u0027utilisation tr\u00E8s l\u00E9g\u00E8re, le co\u00FBt est d\u0027environ 30 dollars par mois."
-  },
-  {
-    "English": "- It is recommended to perform experiments as well and monitor the cost to determine more precisely the cost for a specific application",
-    "French": "- Il est recommand\u00E9 d\u0027effectuer \u00E9galement des exp\u00E9riences et de contr\u00F4ler le co\u00FBt afin de d\u00E9terminer plus pr\u00E9cis\u00E9ment le co\u00FBt d\u0027une application sp\u00E9cifique."
-  },
-  {
-    "English": "## Connectivity",
-    "French": "## Connectivit\u00E9"
-  },
-  {
-    "English": "| Feature                      | PostgreSQL | Azure Databricks Database Features     |",
-    "French": "| Fonctionnalit\u00E9 | PostgreSQL | Fonctionnalit\u00E9s de la base de donn\u00E9es Azure Databricks | Fonctionnalit\u00E9s de la base de donn\u00E9es Azure Databricks"
-  },
-  {
-    "English": "| ---------------------------- | ---------- | -------------------------------------- |",
-    "French": "| ---------------------------- | ---------- | -------------------------------------- |"
-  },
-  {
-    "English": "| Connect from Web Application | X          | Not possible                           |",
-    "French": "| Connexion \u00E0 partir d\u0027une application Web | X | Impossible |"
-  },
-  {
-    "English": "| Connect from Power BI        | X          | X                                      |",
-    "French": "| Connecter \u00E0 partir de Power BI | X | X |"
-  },
-  {
-    "English": "| Connect from Tableau         | X          | X                                      |",
-    "French": "| Connecter \u00E0 partir de Tableau | X | X |"
-  },
-  {
-    "English": "| Connect from Python          | X          | Possible but requires cluster to be on |",
-    "French": "| X | Possible mais n\u00E9cessite que le cluster soit activ\u00E9 |"
-  },
-  {
-    "English": "## Conclusion",
-    "French": "## Conclusion"
-  },
-  {
-    "English": "In conclusion, PostgreSQL and Azure Databricks Database Features offer different strengths and use cases. PostgreSQL is well-suited for general-purpose database workloads, web app integration, and complex SQL queries. On the other hand, Azure Databricks database features are optimized for big data analytics, real-time processing, and collaborative data exploration. Depending on your specific use case and requirements, you can choose the database solution that best fits your needs.",
-    "French": "En conclusion, PostgreSQL et Azure Databricks Database Features offrent des atouts et des cas d\u0027utilisation diff\u00E9rents. PostgreSQL est bien adapt\u00E9 aux charges de travail des bases de donn\u00E9es g\u00E9n\u00E9rales, \u00E0 l\u0027int\u00E9gration des applications web et aux requ\u00EAtes SQL complexes. En revanche, les fonctionnalit\u00E9s de base de donn\u00E9es d\u0027Azure Databricks sont optimis\u00E9es pour l\u0027analyse des big data, le traitement en temps r\u00E9el et l\u0027exploration collaborative des donn\u00E9es. En fonction de votre cas d\u0027utilisation sp\u00E9cifique et de vos exigences, vous pouvez choisir la solution de base de donn\u00E9es qui r\u00E9pond le mieux \u00E0 vos besoins."
-  },
-  {
-    "English": "# Modules in databricks",
-    "French": "# Modules dans les tableaux de donn\u00E9es"
-  },
-  {
-    "English": "  - Use PostgreSQL on FSDH",
-    "French": "  - Utiliser PostgreSQL sur DHSF"
-  },
-  {
-    "English": "Create and use a PostgreSQL Database on FSDH",
-    "French": "Cr\u00E9er et utiliser une base de donn\u00E9es PostgreSQL sur DHSF"
-  },
-  {
-    "English": "Compare PostgreSQL and Databricks",
-    "French": "Comparer PostgreSQL et Databricks"
-  },
-  {
-    "English": "| Schema           | Strict traditional SQL Schema                                             | Flexible and auto-schema management                                                            |",
-    "French": "| Sch\u00E9ma SQL traditionnel strict | Gestion flexible et auto-schema | Sch\u00E9ma SQL traditionnel strict"
-  },
-  {
-    "English": "## Recommende use cases",
-    "French": "## Recommende use cases"
-  },
-  {
-    "English": "### PostgreSQL",
-    "French": "### PostgreSQL"
-  },
-  {
-    "English": "- Web Application",
-    "French": "- Application Web"
-  },
-  {
-    "English": "- Interactive Form",
-    "French": "- Formulaire interactif"
-  },
-  {
-    "English": "- API integration",
-    "French": "- Int\u00E9gration de l\u0027API"
-  },
-  {
-    "English": "- Connection to existing application",
-    "French": "- Connexion \u00E0 une application existante"
-  },
-  {
-    "English": "### Databricks SQL Hive Tables",
-    "French": "### Databricks SQL Hive Tables"
-  },
-  {
-    "English": "- Science experiment data",
-    "French": "- Donn\u00E9es d\u0027exp\u00E9riences scientifiques"
-  },
-  {
-    "English": "- Evolving data that requires flexible schemas",
-    "French": "- Des donn\u00E9es \u00E9volutives qui n\u00E9cessitent des sch\u00E9mas flexibles"
-  },
-  {
-    "English": "- ETL pipeline intermediary data",
-    "French": "- Donn\u00E9es interm\u00E9diaires du pipeline ETL"
-  },
-  {
-    "English": "### Postgresql Cost",
-    "French": "### Co\u00FBt de Postgresql"
-  },
-  {
-    "English": "- Postgresql in FSDH uses the [Azure Flexible Server](https://learn.microsoft.com/fr-ca/azure/postgresql/flexible-server/quickstart-create-server-portal) model which is also based on consumption (burstable model)",
-    "French": "- Postgresql dans DHSF utilise le mod\u00E8le [Azure Flexible Server] (https://learn.microsoft.com/fr-ca/azure/postgresql/flexible-server/quickstart-create-server-portal) qui est aussi bas\u00E9 sur la consommation (mod\u00E8le burstable)."
-  },
-  {
-    "English": "# Demo Script ",
-    "French": "# Script de d\u00E9monstration"
-  },
-  {
-    "English": "![Not sure why we have this picture](image.png)",
-    "French": "[Je ne sais pas trop pourquoi nous avons cette image](image.png)"
-  },
-  {
-    "English": "## User Experience Slide",
-    "French": "## Diapositive sur l\u0027exp\u00E9rience utilisateur"
-  },
-  {
-    "English": "Before jumping into the demo, I want to highlight that agility for the end users is our primary driver for both the technical and business side.  Within minutes you can get access to cloud-based resources available and able to collaborate with your colleagues across GC.",
-    "French": "Avant de passer \u00E0 la d\u00E9monstration, je tiens \u00E0 souligner que l\u0027agilit\u00E9 pour les utilisateurs finaux est notre principal moteur, tant du point de vue technique que du point de vue commercial.  En quelques minutes, vous pouvez acc\u00E9der \u00E0 des ressources bas\u00E9es sur le nuage et collaborer avec vos coll\u00E8gues au sein du GC."
-  },
-  {
-    "English": "So, let us start with the onboarding process.",
-    "French": "Commen\u00E7ons donc par le processus d\u0027int\u00E9gration."
-  },
-  {
-    "English": "## Show registration page https://federal-science-datahub.canada.ca/register ",
-    "French": "## Afficher la page d\u0027enregistrement https://federal-science-datahub.canada.ca/register"
-  },
-  {
-    "English": "We have an easy onboarding process:",
-    "French": "Nous avons un processus d\u0027int\u00E9gration facile :"
-  },
-  {
-    "English": "- Click on the registration link and enter their email address.  ",
-    "French": "- Cliquez sur le lien d\u0027inscription et saisissez leur adresse \u00E9lectronique.  "
-  },
-  {
-    "English": "- they will receive an email to confirm their email address",
-    "French": "- ils recevront un courriel pour confirmer leur adresse \u00E9lectronique"
-  },
-  {
-    "English": "- they can immediately access the portal.",
-    "French": "- ils peuvent imm\u00E9diatement acc\u00E9der au portail."
-  },
-  {
-    "English": "## Show home page",
-    "French": "## Afficher la page d\u0027accueil"
-  },
-  {
-    "English": "![FSDH Home Page](image-1.png)",
-    "French": "Page d\u0027accueil de la DHSF](image-1.png)"
-  },
-  {
-    "English": "Once logged in, you arrive at the home page, where you can access your Workspace. A workspace is a private area where you can access services (analytics, compute), store data, and invite collaborators",
-    "French": "Une fois connect\u00E9, vous arrivez sur la page d\u0027accueil, o\u00F9 vous pouvez acc\u00E9der \u00E0 votre espace de travail. Un espace de travail est une zone priv\u00E9e o\u00F9 vous pouvez acc\u00E9der \u00E0 des services (analyse, calcul), stocker des donn\u00E9es et inviter des collaborateurs."
-  },
-  {
-    "English": "## Show Explore page \u2013 other work of interest",
-    "French": "## Afficher la page Explorer - autres travaux d\u0027int\u00E9r\u00EAt"
-  },
-  {
-    "English": "![Explore Page](image-2.png)",
-    "French": "![Page d\u0027exploration](image-2.png)"
-  },
-  {
-    "English": "All resources are available through the workspaces. This view lets you browse all workspaces and researchers can see if there is other work of interest taking place ",
-    "French": "Toutes les ressources sont disponibles dans les espaces de travail. Cette vue vous permet de parcourir tous les espaces de travail et les chercheurs peuvent voir si d\u0027autres travaux int\u00E9ressants sont en cours."
-  },
-  {
-    "English": "## What is a workspace? Go into the Demo workspace DW1",
-    "French": "## Qu\u0027est-ce qu\u0027un espace de travail ? Aller dans l\u0027espace de travail de d\u00E9monstration DW1"
-  },
-  {
-    "English": "What we call a workspace is a private area where you can ",
-    "French": "Ce que nous appelons un espace de travail est un espace priv\u00E9 o\u00F9 vous pouvez"
-  },
-  {
-    "English": "- access services (analytics, compute, storage), ",
-    "French": "- les services d\u0027acc\u00E8s (analyse, calcul, stockage),"
-  },
-  {
-    "English": "- open \u201CView Members\u201D invite collaborators, to either contribute to the analytics or simply read your data as a guest. ",
-    "French": "- ouvrir \u0022Voir les membres\u0022 pour inviter les collaborateurs \u00E0 contribuer \u00E0 l\u0027analyse ou simplement \u00E0 lire vos donn\u00E9es en tant qu\u0027invit\u00E9s."
-  },
-  {
-    "English": "## Storage",
-    "French": "## Stockage"
-  },
-  {
-    "English": "- Open __Storage explorer__ Store data: common interface where collaborators can work independently to upload, download, share and access data across departments",
-    "French": "- Ouvrir __Explorateur de stockage__ Stocker des donn\u00E9es : interface commune o\u00F9 les collaborateurs peuvent travailler ind\u00E9pendamment pour charger, t\u00E9l\u00E9charger, partager et acc\u00E9der aux donn\u00E9es entre les d\u00E9partements"
-  },
-  {
-    "English": "The tool box in datahub supports analytics, compute and working with data (long term storage not in scope yet).",
-    "French": "La bo\u00EEte \u00E0 outils du datahub prend en charge l\u0027analyse, le calcul et le traitement des donn\u00E9es (le stockage \u00E0 long terme n\u0027est pas encore pr\u00E9vu)."
-  },
-  {
-    "English": "Main tool we provide for Analytics \u0026 Compute is DataBricks",
-    "French": "Le principal outil que nous fournissons pour l\u0027analyse et l\u0027informatique est DataBricks."
-  },
-  {
-    "English": "- [Open Example notebook](https://adb-1078013913864941.1.azuredatabricks.net/?o=1078013913864941#notebook/3052776818088804/command/3052776818088818)",
-    "French": "- [Open Example notebook](https://adb-1078013913864941.1.azuredatabricks.net/?o=1078013913864941#notebook/3052776818088804/command/3052776818088818)"
-  },
-  {
-    "English": "Databricks is an industry standard tool where users can",
-    "French": "Databricks est un outil standard de l\u0027industrie o\u00F9 les utilisateurs peuvent"
-  },
-  {
-    "English": "\u2022\twork on structured \u0026 unstructured data to do advanced analytics, ",
-    "French": "- travailler sur des donn\u00E9es structur\u00E9es et non structur\u00E9es pour effectuer des analyses avanc\u00E9es,"
-  },
-  {
-    "English": "\u2022\tco-develop python scripts,",
-    "French": "- cod\u00E9velopper des scripts en python,"
-  },
-  {
-    "English": "\u2022\tConduct data engineering, ",
-    "French": "- Mener des travaux d\u0027ing\u00E9nierie des donn\u00E9es,"
-  },
-  {
-    "English": "\u2022\tand machine learning",
-    "French": "- et l\u0027apprentissage automatique"
-  },
-  {
-    "English": "## Show cluster config screen",
-    "French": "## Afficher l\u0027\u00E9cran de configuration du cluster"
-  },
-  {
-    "English": "![Create cluster screen](image-3.png)",
-    "French": "![Cr\u00E9er un \u00E9cran cluster](image-3.png)"
-  },
-  {
-    "English": "To give more flexibility to users, in Databricks, you can choose the size and configuration of the cluster, and set guardrails on how long it runs for, and incurred costs.",
-    "French": "Pour donner plus de flexibilit\u00E9 aux utilisateurs, dans Databricks, vous pouvez choisir la taille et la configuration de la grappe, et fixer des garde-fous sur la dur\u00E9e de fonctionnement et les co\u00FBts encourus."
-  },
-  {
-    "English": "__With great power comes great responsibility__ (Spiderman quote) - Show costing page",
-    "French": "La loi sur les droits de l\u0027homme et les libert\u00E9s fondamentales (loi sur les droits de l\u0027homme) - Montrer la page de co\u00FBt"
-  },
-  {
-    "English": "To prevent unexpected costs running away, FSDH provides near real-time costing reports on costs incurred as well as budget limits and usage warnings. ",
-    "French": "Pour \u00E9viter les d\u00E9penses impr\u00E9vues, DHSF fournit des rapports en temps quasi r\u00E9el sur les co\u00FBts encourus, ainsi que des limites budg\u00E9taires et des avertissements sur l\u0027utilisation."
-  },
-  {
-    "English": "## Learn Section",
-    "French": "## Apprendre la section"
-  },
-  {
-    "English": "How to use the resources efficiently? How to use all the databricks or SQL capabilities? Make a dashboard? Show resources page",
-    "French": "Comment utiliser efficacement les ressources ? Comment utiliser toutes les capacit\u00E9s des bases de donn\u00E9es ou de SQL ? Cr\u00E9er un tableau de bord ? Afficher la page des ressources"
-  },
-  {
-    "English": "-\tShowcase ML section",
-    "French": "- Section \u0022Showcase ML"
-  },
-  {
-    "English": "-\tML tools are available for exploration or also more advanced users",
-    "French": "- Des outils de ML sont disponibles pour l\u0027exploration ou pour les utilisateurs plus avanc\u00E9s."
-  },
-  {
-    "English": "-\tCovers ML Flow \u2013 make experiments, provides traceability ",
-    "French": "- Couvre le ML Flow - fait des exp\u00E9riences, fournit la tra\u00E7abilit\u00E9"
-  },
-  {
-    "English": "To illustrate how the DataHub can be used in scientific applications, we are going to quickly show two examples of projects hosted in DataHub:",
-    "French": "Pour illustrer comment le DataHub peut \u00EAtre utilis\u00E9 dans des applications scientifiques, nous allons rapidement montrer deux exemples de projets h\u00E9berg\u00E9s dans le DataHub :"
-  },
-  {
-    "English": "1. The first Project is Host Pathogen dashboard: AAFC approached the DataHub for a solution to share a Pathogen database. Database has provincial data on all pathogens and maintaining and sharing it is a key to their research. They are currently using an MS Access database, exchanging it through email with no straightforward way to share it or modernize it.  We were able to convert \u0026 migrate the data into datahub.  Using modern python tools in Databricks, we developed forms that let users search through to existing database. Proof of Concept was developed in two weeks of effort and costs about $100/month",
-    "French": "1. Le premier projet est le tableau de bord des pathog\u00E8nes de l\u0027h\u00F4te : AAC a demand\u00E9 au DataHub une solution pour partager une base de donn\u00E9es sur les agents pathog\u00E8nes. Cette base de donn\u00E9es contient des donn\u00E9es provinciales sur tous les agents pathog\u00E8nes et sa mise \u00E0 jour et son partage sont essentiels pour leurs recherches. Ils utilisent actuellement une base de donn\u00E9es MS Access, qu\u0027ils \u00E9changent par courrier \u00E9lectronique, sans moyen direct de la partager ou de la moderniser.  Nous avons pu convertir et migrer les donn\u00E9es dans Datahub.  En utilisant des outils modernes en python dans Databricks, nous avons d\u00E9velopp\u00E9 des formulaires qui permettent aux utilisateurs de faire des recherches dans la base de donn\u00E9es existante. La preuve de concept a \u00E9t\u00E9 d\u00E9velopp\u00E9e en deux semaines d\u0027efforts et co\u00FBte environ 100$/mois."
-  },
-  {
-    "English": "1. Show web app: NRC collaboration with Canadian Transportation Agency. To illustrate solutions to a text analytics problem, the team developed their own web application to provide interactive results. Application was developed R Shiny (widely used tool in the data science community).  They could not collaborate with it.  We can host it in FSDH and they can now collaborate, upload datasets and update dashboards when they could not before.  This is all in a secure environment.",
-    "French": "1. Montrer l\u0027application web : Collaboration entre le CNRC et l\u0027Office des transports du Canada. Pour illustrer les solutions \u00E0 un probl\u00E8me d\u0027analyse de texte, l\u0027\u00E9quipe a d\u00E9velopp\u00E9 sa propre application web pour fournir des r\u00E9sultats interactifs. L\u0027application a \u00E9t\u00E9 d\u00E9velopp\u00E9e en R Shiny (outil largement utilis\u00E9 dans la communaut\u00E9 de la science des donn\u00E9es).  Ils n\u0027ont pas pu collaborer avec elle.  Nous pouvons l\u0027h\u00E9berger dans DHSF et ils peuvent maintenant collaborer, t\u00E9l\u00E9charger des ensembles de donn\u00E9es et mettre \u00E0 jour des tableaux de bord alors qu\u0027ils ne le pouvaient pas auparavant.  Le tout dans un environnement s\u00E9curis\u00E9."
-  },
-  {
-    "English": "## New features",
-    "French": "## Nouvelles fonctionnalit\u00E9s"
-  },
-  {
-    "English": "-\tDatabases",
-    "French": "- Bases de donn\u00E9es"
-  },
-  {
-    "English": "## Stop screen share ",
-    "French": "## Arr\u00EAter le partage d\u0027\u00E9cran"
-  },
-  {
-    "English": "To summarize, Datahub provides 3 key features",
-    "French": "En r\u00E9sum\u00E9, Datahub offre 3 fonctions cl\u00E9s"
-  },
-  {
-    "English": "- access to modern cloud-based toolsets, ",
-    "French": "- l\u0027acc\u00E8s \u00E0 des outils modernes bas\u00E9s sur l\u0027informatique en nuage,"
-  },
-  {
-    "English": "- access to storage in an agile manner.  ",
-    "French": "- l\u0027acc\u00E8s au stockage de mani\u00E8re agile.  "
-  },
-  {
-    "English": "- ability to collaborate broadly across GC",
-    "French": "- capacit\u00E9 \u00E0 collaborer largement au sein du CG"
-  },
-  {
-    "English": "- Demo",
-    "French": "- D\u00E9monstration"
-  },
-  {
-    "English": "## Recommended use cases",
-    "French": "## Cas d\u0027utilisation recommand\u00E9s"
+    "English": "    \u003Csource src=\u0022/api/media/new-ui.mp4\u0022 type=\u0022video/mp4\u0022\u003E",
+    "French": "    \u003Csource src=\u0022/api/media/new-ui.mp4\u0022 type=\u0022video/mp4\u0022\u003E"
   }
 ]

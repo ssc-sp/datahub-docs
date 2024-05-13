@@ -496,8 +496,20 @@
     "French": "extension-vscode.md"
   },
   {
-    "English": "Modules.md",
-    "French": "Modules.md"
+    "English": "Layout.md",
+    "French": "Mise-en-page.md"
+  },
+  {
+    "English": "NewWorkspace.md",
+    "French": "Nouvel-espace-de-travail.md"
+  },
+  {
+    "English": "Sidebar.md",
+    "French": "Encadr\u00E9.md"
+  },
+  {
+    "English": "Topbar.md",
+    "French": "Barre-sup\u00E9rieure.md"
   },
   {
     "English": "Import-AWS-Storage.md",
@@ -516,31 +528,27 @@
     "French": "Stockage-des-importations.md"
   },
   {
-    "English": "Hotfix.md",
-    "French": "Correctif.md"
+    "English": "WorkspaceLayout.md",
+    "French": "Structure-de-l\u0027espace-de-travail.md"
   },
   {
-    "English": "Access-aws-storage-account-in-Databricks.md",
-    "French": "Acc\u00E9der-au-compte-de-stockage-aws-dans-Databricks.md"
+    "English": "WorkspaceMembers.md",
+    "French": "Membres-de-l\u0027espace-de-travail.md"
   },
   {
-    "English": "Access-az-storage-account-in-Databricks.md",
-    "French": "Acc\u00E9der-\u00E0-un-compte-de-stockage-dans-Databricks.md"
+    "English": "WorkspaceMetadata.md",
+    "French": "M\u00E9tadonn\u00E9es-de-l\u0027espace-de-travail.md"
   },
   {
-    "English": "Access-gcp-storage-account-in-Databricks.md",
-    "French": "Acc\u00E9der-au-compte-de-stockage-gcp-dans-Databricks.md"
+    "English": "WorkspaceSidebar.md",
+    "French": "Encadr\u00E9-de-l\u0027espace-de-travail.md"
   },
   {
-    "English": "Postgres.md",
-    "French": "Postgres.md"
+    "English": "WorkspaceToolbox.md",
+    "French": "Bo\u00EEte-\u00E0-outils-de-l\u0027espace-de-travail.md"
   },
   {
-    "English": "psql-databricks-comparison.md",
-    "French": "Comparaison-des-bases-de-donn\u00E9es-psql.md"
-  },
-  {
-    "English": "Dashboarding-Tool-Comparison.md",
-    "French": "Comparaison-des-outils-de-tableau-de-bord.md"
+    "English": "2024-01-23.md",
+    "French": "2024-01-23.md"
   }
 ]
