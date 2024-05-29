@@ -14,6 +14,7 @@
     - [Add data UI in Databricks](https://learn.microsoft.com/en-us/azure/databricks/ingestion/add-data/)
 
   - Databricks and Python Notebooks  
+    - [Intro to Databricks](/UserGuide/Databricks/Databricks-101.md)
     - [What is Azure Databricks?](/UserGuide/Databricks/Databricks.md)
     - [How to integrate Git in Databricks](/UserGuide/Databricks/Git-Integration.md)
     - [How to use the VS Code Extension with Databricks](/UserGuide/Databricks/vscode_extension.md)
