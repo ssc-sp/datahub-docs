@@ -65,8 +65,10 @@
     - [Détails du profil de métadonnées](/fr/UserGuide/Workspace/Métadonnées-du-profil-de-l'espace-de-travail.md)
 
 - Support [](Icon:HelpOutline)
-  - [Formulaire de demande de soutien DHSF](/fr/UserGuide/Formulaire-de-demande-de-soutien-DHSF.md)
-  - [Demander une session avec un expert Databricks](/fr/UserGuide/Databricks/Demande-de-session-databricks.md)
-  - [Demande de soutien](/fr/UserGuide/GettingStarted/Enregistrement-d'un-ticket.md)
-  - [Foire aux questions (FAQ)](/fr/UserGuide/DHSF-FAQs.md)
-  - [Notes de mise à jour de DataHub](/fr/UserGuide/Notes-de-mise-à-jour.md)
+  - Demandes de soutien
+    - [Demande de soutien](/fr/UserGuide/GettingStarted/Enregistrement-d'un-ticket.md)
+    - [Demander une session avec un expert Databricks](/fr/UserGuide/Databricks/Demande-de-session-databricks.md)
+  - Foire aux questions (FAQ)
+    - [Foire aux questions (FAQ)](/fr/UserGuide/DHSF-FAQs.md)
+  - Mises à jour
+    - [Notes de mise à jour de DataHub](/fr/UserGuide/Notes-de-mise-à-jour.md)

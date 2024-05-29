@@ -64,8 +64,10 @@
     - [Metadata Profile Details](/UserGuide/Workspace/Workspace-Profile-Metadata.md)
 
 - Support [](Icon:HelpOutline)
-  - [FSDH Support Request Form](/UserGuide/FSDH-Support-Request-Form.md)
-  - [Request a Session with a Databricks Expert](/UserGuide/Databricks/Request-databricks-session.md)
-  - [Request Support](/UserGuide/GettingStarted/Logging-a-ticket.md)
-  - [Frequently Asked Questions (FAQs)](/UserGuide/FSDH-FAQs.md)
-  - [DataHub Release Notes](/UserGuide/Release-Notes.md)
+  - Request Support
+    - [Request Support](/UserGuide/GettingStarted/Logging-a-ticket.md)
+    - [Request a Session with a Databricks Expert](/UserGuide/Databricks/Request-databricks-session.md)
+  - Frequently Asked Questions
+    - [Frequently Asked Questions (FAQs)](/UserGuide/FSDH-FAQs.md)
+  - Updates 
+    - [DataHub Release Notes](/UserGuide/Release-Notes.md)
