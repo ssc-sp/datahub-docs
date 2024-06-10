@@ -47,7 +47,7 @@ Une fois que votre application est déployée sur le DataHub, vous pouvez démar
 
 Une fois le service démarré, vous pouvez accéder à votre application web en cliquant sur le lien `Proxy URL` dans l'App Service.
 
-[Accès à l'URL du proxy pour votre application web](/api/docs/UserGuide/WebApps/proxy-url.png)
+[Accès à l'URL du proxy pour votre application web](/api/docs/UserGuide/WebApps/configure-2.png)
 
 > **Note:** Après avoir démarré le service, l'application peut prendre quelques minutes pour être accessible via l'URL du proxy. Si vous rencontrez des problèmes, veuillez contacter l'équipe de support de DataHub pour obtenir de l'aide.
 
@@ -57,9 +57,8 @@ L'équipe DataHub a créé quelques applications de démonstration pour vous aid
 
 Ces applications sont disponibles sur GitHub :
 
-* [Django (Python)] (https://github.com/ssc-sp/datahub-demos/tree/main/docker/django-app)
+* [Django (Python)](https://github.com/ssc-sp/datahub-demos/tree/main/docker/django-app)
 * [Dash (Python)](https://github.com/Sean-Stilwell/sample-dashapp)
-* [Flask (APIs with Python)](https://github.com/Sean-Stilwell/celestial-bodies-api)
 
 Ces applications sont conçues pour être facilement déployées sur le DataHub à l'aide de Docker Compose.
 
