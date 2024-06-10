@@ -13,16 +13,21 @@
     - [Import Google Cloud Platform Storage](/UserGuide/Storage/Import-GCP-Storage.md)
     - [Add data UI in Databricks](https://learn.microsoft.com/en-us/azure/databricks/ingestion/add-data/)
 
-  - Databricks and Python Notebooks  
+  - Databricks and Notebooks  
     - [Intro to Databricks](/UserGuide/Databricks/Databricks-101.md)
     - [What is Azure Databricks?](/UserGuide/Databricks/Databricks.md)
     - [How to integrate Git in Databricks](/UserGuide/Databricks/Git-Integration.md)
     - [How to use the VS Code Extension with Databricks](/UserGuide/Databricks/vscode_extension.md)
     - [Understanding Cluster Policies](/UserGuide/Databricks/Cluster-Policies.md)
+    - [How to schedule Jobs in Databricks](/UserGuide/Databricks/Workflows.md)
 
   - Use PostgreSQL on FSDH
     - [Create and use a PostgreSQL Database on FSDH](/UserGuide/Database/Postgres.md)
     - [Compare PostgreSQL and Databricks](/UserGuide/Database/psql-databricks-comparison.md)
+
+  - Web Applications
+    - [Hosting Web Apps on DataHub](/UserGuide/WebApps/WebApps.md)
+    - [Technical Info - Develop, Build and deploy web applications in DataHub](/UserGuide/Tutorials/Build-deploy-webapp.md)
 
   - Visualize My data
     - [How to build Dashboards with Databricks](/UserGuide/Databricks/Dashboarding.md)
@@ -41,15 +46,12 @@
     - [How to use MLFlow and AutoML for Experiments](/UserGuide/Databricks/Experiments-Automl.md)
     - [Temperature Forecasting with Databricks Example](/UserGuide/Tutorials/SST-Forecasting.md)
     - [Torchvision for Dash Cam Video Analysis in Databricks](/UserGuide/Tutorials/Torchvision.md)
-
-  - Scheduling Jobs
-    - [How to schedule Jobs in Databricks](/UserGuide/Databricks/Workflows.md)
-
-  - Web Applications
-    - [Develop, Build and deploy web applications in DataHub](/UserGuide/Tutorials/Build-deploy-webapp.md)
   
   - Geospatial
     - [Digital Elevation Models (DEM) Tools and Raster Calculator](https://www.statcan.gc.ca/en/wtc/online-lectures/qgis/2020020)
+
+  - DataTalks
+    - [DataTalks - Exploring the Power of the Federal Science DataHub](/UserGuide/Tutorials/DataTalks.md)
 
 - Workspaces [](Icon:Workspaces)
   - Getting Started
