@@ -25,9 +25,9 @@
     - [Créer et utiliser une base de données PostgreSQL sur DHSF](/fr/UserGuide/Database/Postgres.md)
     - [Comparer PostgreSQL et Databricks](/fr/UserGuide/Database/Comparaison-des-bases-de-données-psql.md)
 
-    - Applications Web
-      - [Hébergement d'applications Web sur DataHub](/fr/UserGuide/WebApps/WebApps.md)
-      - [Informations techniques - Développer, construire et déployer des applications Web sur DataHub](/fr/UserGuide/Tutorials/Build-deploy-webapp.md)
+  - Applications Web
+    - [Hébergement d'applications Web sur DataHub](/fr/UserGuide/WebApps/WebApps.md)
+    - [Informations techniques - Développer, construire et déployer des applications Web sur DataHub](/fr/UserGuide/Tutorials/Build-deploy-webapp.md)
 
   - Visualiser mes données
     - [Comment construire des tableaux de bord avec Databricks](/fr/UserGuide/Databricks/Tableau-de-bord.md)
