@@ -19,6 +19,7 @@
     - [Comment intégrer Git dans Databricks](/fr/UserGuide/Databricks/Intégration-de-Git.md)
     - [Comment utiliser l'extension VS Code avec Databricks](/fr/UserGuide/Databricks/extension-vscode.md)
     - [Comprendre les politiques de cluster](/fr/UserGuide/Databricks/Politiques-des-clusters.md)
+    - [Comment planifier des tâches dans Databricks](/fr/UserGuide/Databricks/Flux-de-travail.md)
 
   - Utiliser PostgreSQL sur DHSF
     - [Créer et utiliser une base de données PostgreSQL sur DHSF](/fr/UserGuide/Database/Postgres.md)
@@ -42,15 +43,11 @@
     - [Prévision des températures avec Databricks Exemple](/fr/UserGuide/Tutorials/Prévisions-SST.md)
     - [Torchvision pour l'analyse des vidéos de Dash Cam dans Databricks](/fr/UserGuide/Tutorials/Torchvision.md)
 
-  - Planification des tâches
-    - [Comment planifier des tâches dans Databricks](/fr/UserGuide/Databricks/Flux-de-travail.md)
-
-  - Applications Web
-    - [Développer, construire et déployer des applications web dans DataHub](/fr/UserGuide/Tutorials/Build-deploy-webapp.md)
-
   - Géospatial
     - [Outils pour les modèles numériques d'élévation (MNE) et calculateur de données matricielles](https://www.statcan.gc.ca/fr/afc/cours-en-ligne/qgis/2020020)
 
+  - Discussions sur les données
+    - [DataTalks - Explorer la puissance du DataHub scientifique fédéral](/fr/UserGuide/Tutorials/Discussions-sur-les-données.md)
 
 - Espace de travail [](Icon:Workspaces)
   - Pour commencer

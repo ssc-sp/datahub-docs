@@ -670,6 +670,11 @@
     "Fr": "/fr/UserGuide/Tutorials/Build-deploy-webapp.md"
   },
   {
+    "Id": "46a6e964-40fb-9f2a-a2ac-4536cb4ac490",
+    "En": "/UserGuide/Tutorials/DataTalks.md",
+    "Fr": "/fr/UserGuide/Tutorials/Discussions-sur-les-donn\u00E9es.md"
+  },
+  {
     "Id": "8fda8eac-f37e-4069-e64b-71d40a96f36b",
     "En": "/UserGuide/Tutorials/shiny-app.md",
     "Fr": "/fr/UserGuide/Tutorials/application-brillante.md"
@@ -688,6 +693,11 @@
     "Id": "c8b18db1-d7e1-fff0-99fc-35bbf4f85371",
     "En": "/UserGuide/Tutorials/UseCase1.md",
     "Fr": "/fr/UserGuide/Tutorials/Cas-d\u0027utilisation-1.md"
+  },
+  {
+    "Id": "0ca6ba0c-9c97-e2bd-66a3-b48108fe5bfb",
+    "En": "/UserGuide/WebApps/WebApps.md",
+    "Fr": "/fr/UserGuide/WebApps/WebApps.md"
   },
   {
     "Id": "5e65a69b-2e8c-1778-b987-cafb9fee9524",
