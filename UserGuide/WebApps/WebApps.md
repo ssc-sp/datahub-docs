@@ -10,7 +10,13 @@ The Federal Science DataHub allows you to host web applications on the platform.
 
 Before you can host web applications on the DataHub, you will need to create an image of your application using Docker. Docker is a platform for developing, shipping, and running applications in containers. Containers allow a developer to package up an application with all of the parts it needs, such as libraries and other dependencies, and ship it all out as one package. These containers are used by the DataHub to host your web applications.
 
-If you are unfamiliar with Docker, you can contact the DataHub support team for assistance in creating a Docker image of your application.
+To create an image of your application, we recommend using GitHub Actions to build and push the image to a container registry. To start, create a folder called `.github` inside your repo. Then, add a folder called `workflows` inside the `.github` folder. You can now create a `.yml` file (for example, `build-image.yml`) inside that folder to define the GitHub Actions workflow.
+
+A sample GitHub Actions workflow to build and push a Docker image to a container registry is [available here](https://github.com/Sean-Stilwell/sample-dashapp/blob/master/.github/workflows/build-dash-app.yml). You will need to update the image name to match your desired image name.
+
+> **Note:** Do not push sensitive information, such as your GitHub token, to your repository. GitHub Actions can retrieve many secrets automatically, such as the `GITHUB_TOKEN` secret. You can also create your own secrets in the repository settings and use them in your workflows to avoid exposing sensitive information.
+
+If you are unfamiliar with Docker or GitHub Actions, you can contact the DataHub support team for assistance in creating a Docker image of your application.
 
 **App Service in Your Workspace**
 

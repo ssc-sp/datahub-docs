@@ -10,7 +10,13 @@ Le DataHub scientifique fédéral vous permet d'héberger des applications web s
 
 Avant de pouvoir héberger des applications web sur le DataHub, vous devrez créer une image de votre application à l'aide de Docker. Docker est une plateforme permettant de développer, d'expédier et d'exécuter des applications dans des conteneurs. Les conteneurs permettent à un développeur d'emballer une application avec toutes les parties dont elle a besoin, telles que les bibliothèques et autres dépendances, et de l'expédier en un seul paquet. Ces conteneurs sont utilisés par le DataHub pour héberger vos applications web.
 
-Si vous n'êtes pas familier avec Docker, vous pouvez contacter l'équipe d'assistance de DataHub pour obtenir de l'aide dans la création d'une image Docker de votre application.
+Pour créer une image de votre application, nous recommandons d'utiliser les GitHub Actions pour construire et pousser l'image vers un registre de conteneurs. Pour commencer, créez un dossier appelé `.github` à l'intérieur de votre repo. Ensuite, ajoutez un dossier appelé `workflows` à l'intérieur du dossier `.github`. Vous pouvez maintenant créer un fichier `.yml` (par exemple, `build-image.yml`) à l'intérieur de ce dossier pour définir le flux de travail des GitHub Actions.
+
+Un exemple de workflow GitHub Actions pour construire et pousser une image Docker vers un registre de conteneurs est [disponible ici] (https://github.com/Sean-Stilwell/sample-dashapp/blob/master/.github/workflows/build-dash-app.yml). Vous devrez mettre à jour le nom de l'image pour qu'il corresponde à celui que vous souhaitez.
+
+**Note:** N'envoyez pas d'informations sensibles, telles que votre jeton GitHub, à votre dépôt. Les actions GitHub peuvent récupérer de nombreux secrets automatiquement, comme le secret `GITHUB_TOKEN`. Vous pouvez également créer vos propres secrets dans les paramètres du dépôt et les utiliser dans vos flux de travail pour éviter d'exposer des informations sensibles.
+
+Si vous n'êtes pas familier avec Docker ou GitHub Actions, vous pouvez contacter l'équipe de support de DataHub pour obtenir de l'aide dans la création d'une image Docker de votre application.
 
 **App Service dans votre espace de travail**
 
