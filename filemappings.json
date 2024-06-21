@@ -225,6 +225,11 @@
     "Fr": "/fr/DeveloperGuide/Change-Management/Vue-d\u0027ensemble-de-la-gestion-du-changement.md"
   },
   {
+    "Id": "823d028c-68e9-bde9-eca6-b937adeb69bd",
+    "En": "/DeveloperGuide/Change-Management/Change-Management-Strategy.md",
+    "Fr": "/fr/DeveloperGuide/Change-Management/Strat\u00E9gie-de-gestion-du-changement.md"
+  },
+  {
     "Id": "2dbeacdf-a31f-96b8-ec01-9ea7190871d2",
     "En": "/DeveloperGuide/Change-Management/Hotfix.md",
     "Fr": "/fr/DeveloperGuide/Change-Management/Correctif.md"
@@ -490,6 +495,11 @@
     "Fr": "/fr/UserGuide/Databricks/Tableau-de-bord.md"
   },
   {
+    "Id": "48a3e896-7106-3af7-60da-86d051b40a9c",
+    "En": "/UserGuide/Databricks/Databricks-101.md",
+    "Fr": "/fr/UserGuide/Databricks/Databricks-101.md"
+  },
+  {
     "Id": "94ab44e0-6da0-fd36-4fe7-121aca921b0e",
     "En": "/UserGuide/Databricks/Databricks-FAQ.md",
     "Fr": "/fr/UserGuide/Databricks/FAQ-Databricks.md"
@@ -645,6 +655,11 @@
     "Fr": "/fr/UserGuide/Storage/Stockage-des-importations.md"
   },
   {
+    "Id": "c24a4a67-d7a2-04ef-99ae-06a0541f7609",
+    "En": "/UserGuide/Storage/Postgres.md",
+    "Fr": "/fr/UserGuide/Storage/Postgres.md"
+  },
+  {
     "Id": "6391e56a-0827-2dfb-ecb6-8830d72947c4",
     "En": "/UserGuide/Storage/Use-AzCopy.md",
     "Fr": "/fr/UserGuide/Storage/Utilisez-AzCopy.md"
@@ -653,6 +668,11 @@
     "Id": "989cd017-4e2e-f116-4dde-9a31022ec420",
     "En": "/UserGuide/Tutorials/Build-deploy-webapp.md",
     "Fr": "/fr/UserGuide/Tutorials/Build-deploy-webapp.md"
+  },
+  {
+    "Id": "46a6e964-40fb-9f2a-a2ac-4536cb4ac490",
+    "En": "/UserGuide/Tutorials/DataTalks.md",
+    "Fr": "/fr/UserGuide/Tutorials/Discussions-sur-les-donn\u00E9es.md"
   },
   {
     "Id": "8fda8eac-f37e-4069-e64b-71d40a96f36b",
@@ -673,6 +693,11 @@
     "Id": "c8b18db1-d7e1-fff0-99fc-35bbf4f85371",
     "En": "/UserGuide/Tutorials/UseCase1.md",
     "Fr": "/fr/UserGuide/Tutorials/Cas-d\u0027utilisation-1.md"
+  },
+  {
+    "Id": "0ca6ba0c-9c97-e2bd-66a3-b48108fe5bfb",
+    "En": "/UserGuide/WebApps/WebApps.md",
+    "Fr": "/fr/UserGuide/WebApps/WebApps.md"
   },
   {
     "Id": "5e65a69b-2e8c-1778-b987-cafb9fee9524",

@@ -19550,5 +19550,2065 @@
   {
     "English": "    \u003Csource src=\u0022/api/media/new-ui.mp4\u0022 type=\u0022video/mp4\u0022\u003E",
     "French": "    \u003Csource src=\u0022/api/media/new-ui.mp4\u0022 type=\u0022video/mp4\u0022\u003E"
+  },
+  {
+    "English": "# Demo Script ",
+    "French": "# Script de d\u00E9monstration"
+  },
+  {
+    "English": "![Not sure why we have this picture](image.png)",
+    "French": "[Je ne sais pas trop pourquoi nous avons cette image](image.png)"
+  },
+  {
+    "English": "## User Experience Slide",
+    "French": "## Diapositive sur l\u0027exp\u00E9rience utilisateur"
+  },
+  {
+    "English": "Before jumping into the demo, I want to highlight that agility for the end users is our primary driver for both the technical and business side.  Within minutes you can get access to cloud-based resources available and able to collaborate with your colleagues across GC.",
+    "French": "Avant de passer \u00E0 la d\u00E9monstration, je tiens \u00E0 souligner que l\u0027agilit\u00E9 pour les utilisateurs finaux est notre principal moteur, tant du point de vue technique que du point de vue commercial.  En quelques minutes, vous pouvez acc\u00E9der \u00E0 des ressources bas\u00E9es sur le nuage et collaborer avec vos coll\u00E8gues au sein du GC."
+  },
+  {
+    "English": "So, let us start with the onboarding process.",
+    "French": "Commen\u00E7ons donc par le processus d\u0027int\u00E9gration."
+  },
+  {
+    "English": "## Show registration page https://federal-science-datahub.canada.ca/register ",
+    "French": "## Afficher la page d\u0027enregistrement https://federal-science-datahub.canada.ca/register"
+  },
+  {
+    "English": "We have an easy onboarding process:",
+    "French": "Nous avons un processus d\u0027int\u00E9gration facile :"
+  },
+  {
+    "English": "- Click on the registration link and enter their email address.  ",
+    "French": "- Cliquez sur le lien d\u0027inscription et saisissez leur adresse \u00E9lectronique.  "
+  },
+  {
+    "English": "- they will receive an email to confirm their email address",
+    "French": "- ils recevront un courriel pour confirmer leur adresse \u00E9lectronique"
+  },
+  {
+    "English": "- they can immediately access the portal.",
+    "French": "- ils peuvent imm\u00E9diatement acc\u00E9der au portail."
+  },
+  {
+    "English": "## Show home page",
+    "French": "## Afficher la page d\u0027accueil"
+  },
+  {
+    "English": "![FSDH Home Page](image-1.png)",
+    "French": "Page d\u0027accueil de la DHSF](image-1.png)"
+  },
+  {
+    "English": "Once logged in, you arrive at the home page, where you can access your Workspace. A workspace is a private area where you can access services (analytics, compute), store data, and invite collaborators",
+    "French": "Une fois connect\u00E9, vous arrivez sur la page d\u0027accueil, o\u00F9 vous pouvez acc\u00E9der \u00E0 votre espace de travail. Un espace de travail est une zone priv\u00E9e o\u00F9 vous pouvez acc\u00E9der \u00E0 des services (analyse, calcul), stocker des donn\u00E9es et inviter des collaborateurs."
+  },
+  {
+    "English": "## Show Explore page \u2013 other work of interest",
+    "French": "## Afficher la page Explorer - autres travaux d\u0027int\u00E9r\u00EAt"
+  },
+  {
+    "English": "![Explore Page](image-2.png)",
+    "French": "![Page d\u0027exploration](image-2.png)"
+  },
+  {
+    "English": "All resources are available through the workspaces. This view lets you browse all workspaces and researchers can see if there is other work of interest taking place ",
+    "French": "Toutes les ressources sont disponibles dans les espaces de travail. Cette vue vous permet de parcourir tous les espaces de travail et les chercheurs peuvent voir si d\u0027autres travaux int\u00E9ressants sont en cours."
+  },
+  {
+    "English": "## What is a workspace? Go into the Demo workspace DW1",
+    "French": "## Qu\u0027est-ce qu\u0027un espace de travail ? Aller dans l\u0027espace de travail de d\u00E9monstration DW1"
+  },
+  {
+    "English": "What we call a workspace is a private area where you can ",
+    "French": "Ce que nous appelons un espace de travail est un espace priv\u00E9 o\u00F9 vous pouvez"
+  },
+  {
+    "English": "- access services (analytics, compute, storage), ",
+    "French": "- les services d\u0027acc\u00E8s (analyse, calcul, stockage),"
+  },
+  {
+    "English": "- open \u201CView Members\u201D invite collaborators, to either contribute to the analytics or simply read your data as a guest. ",
+    "French": "- ouvrir \u0022Voir les membres\u0022 pour inviter les collaborateurs \u00E0 contribuer \u00E0 l\u0027analyse ou simplement \u00E0 lire vos donn\u00E9es en tant qu\u0027invit\u00E9s."
+  },
+  {
+    "English": "## Storage",
+    "French": "## Stockage"
+  },
+  {
+    "English": "- Open __Storage explorer__ Store data: common interface where collaborators can work independently to upload, download, share and access data across departments",
+    "French": "- Ouvrir __Explorateur de stockage__ Stocker des donn\u00E9es : interface commune o\u00F9 les collaborateurs peuvent travailler ind\u00E9pendamment pour charger, t\u00E9l\u00E9charger, partager et acc\u00E9der aux donn\u00E9es entre les d\u00E9partements"
+  },
+  {
+    "English": "The tool box in datahub supports analytics, compute and working with data (long term storage not in scope yet).",
+    "French": "La bo\u00EEte \u00E0 outils du datahub prend en charge l\u0027analyse, le calcul et le traitement des donn\u00E9es (le stockage \u00E0 long terme n\u0027est pas encore pr\u00E9vu)."
+  },
+  {
+    "English": "Main tool we provide for Analytics \u0026 Compute is DataBricks",
+    "French": "Le principal outil que nous fournissons pour l\u0027analyse et l\u0027informatique est DataBricks."
+  },
+  {
+    "English": "- [Open Example notebook](https://adb-1078013913864941.1.azuredatabricks.net/?o=1078013913864941#notebook/3052776818088804/command/3052776818088818)",
+    "French": "- [Open Example notebook](https://adb-1078013913864941.1.azuredatabricks.net/?o=1078013913864941#notebook/3052776818088804/command/3052776818088818)"
+  },
+  {
+    "English": "Databricks is an industry standard tool where users can",
+    "French": "Databricks est un outil standard de l\u0027industrie o\u00F9 les utilisateurs peuvent"
+  },
+  {
+    "English": "\u2022\twork on structured \u0026 unstructured data to do advanced analytics, ",
+    "French": "- travailler sur des donn\u00E9es structur\u00E9es et non structur\u00E9es pour effectuer des analyses avanc\u00E9es,"
+  },
+  {
+    "English": "\u2022\tco-develop python scripts,",
+    "French": "- cod\u00E9velopper des scripts en python,"
+  },
+  {
+    "English": "\u2022\tConduct data engineering, ",
+    "French": "- Mener des travaux d\u0027ing\u00E9nierie des donn\u00E9es,"
+  },
+  {
+    "English": "\u2022\tand machine learning",
+    "French": "- et l\u0027apprentissage automatique"
+  },
+  {
+    "English": "## Show cluster config screen",
+    "French": "## Afficher l\u0027\u00E9cran de configuration du cluster"
+  },
+  {
+    "English": "![Create cluster screen](image-3.png)",
+    "French": "![Cr\u00E9er un \u00E9cran cluster](image-3.png)"
+  },
+  {
+    "English": "To give more flexibility to users, in Databricks, you can choose the size and configuration of the cluster, and set guardrails on how long it runs for, and incurred costs.",
+    "French": "Pour donner plus de flexibilit\u00E9 aux utilisateurs, dans Databricks, vous pouvez choisir la taille et la configuration de la grappe, et fixer des garde-fous sur la dur\u00E9e de fonctionnement et les co\u00FBts encourus."
+  },
+  {
+    "English": "__With great power comes great responsibility__ (Spiderman quote) - Show costing page",
+    "French": "La loi sur les droits de l\u0027homme et les libert\u00E9s fondamentales (loi sur les droits de l\u0027homme) - Montrer la page de co\u00FBt"
+  },
+  {
+    "English": "To prevent unexpected costs running away, FSDH provides near real-time costing reports on costs incurred as well as budget limits and usage warnings. ",
+    "French": "Pour \u00E9viter les d\u00E9penses impr\u00E9vues, DHSF fournit des rapports en temps quasi r\u00E9el sur les co\u00FBts encourus, ainsi que des limites budg\u00E9taires et des avertissements sur l\u0027utilisation."
+  },
+  {
+    "English": "## Learn Section",
+    "French": "## Apprendre la section"
+  },
+  {
+    "English": "How to use the resources efficiently? How to use all the databricks or SQL capabilities? Make a dashboard? Show resources page",
+    "French": "Comment utiliser efficacement les ressources ? Comment utiliser toutes les capacit\u00E9s des bases de donn\u00E9es ou de SQL ? Cr\u00E9er un tableau de bord ? Afficher la page des ressources"
+  },
+  {
+    "English": "-\tShowcase ML section",
+    "French": "- Section \u0022Showcase ML"
+  },
+  {
+    "English": "-\tML tools are available for exploration or also more advanced users",
+    "French": "- Des outils de ML sont disponibles pour l\u0027exploration ou pour les utilisateurs plus avanc\u00E9s."
+  },
+  {
+    "English": "-\tCovers ML Flow \u2013 make experiments, provides traceability ",
+    "French": "- Couvre le ML Flow - fait des exp\u00E9riences, fournit la tra\u00E7abilit\u00E9"
+  },
+  {
+    "English": "To illustrate how the DataHub can be used in scientific applications, we are going to quickly show two examples of projects hosted in DataHub:",
+    "French": "Pour illustrer comment le DataHub peut \u00EAtre utilis\u00E9 dans des applications scientifiques, nous allons rapidement montrer deux exemples de projets h\u00E9berg\u00E9s dans le DataHub :"
+  },
+  {
+    "English": "1. The first Project is Host Pathogen dashboard: AAFC approached the DataHub for a solution to share a Pathogen database. Database has provincial data on all pathogens and maintaining and sharing it is a key to their research. They are currently using an MS Access database, exchanging it through email with no straightforward way to share it or modernize it.  We were able to convert \u0026 migrate the data into datahub.  Using modern python tools in Databricks, we developed forms that let users search through to existing database. Proof of Concept was developed in two weeks of effort and costs about $100/month",
+    "French": "1. Le premier projet est le tableau de bord des pathog\u00E8nes de l\u0027h\u00F4te : AAC a demand\u00E9 au DataHub une solution pour partager une base de donn\u00E9es sur les agents pathog\u00E8nes. Cette base de donn\u00E9es contient des donn\u00E9es provinciales sur tous les agents pathog\u00E8nes et sa mise \u00E0 jour et son partage sont essentiels pour leurs recherches. Ils utilisent actuellement une base de donn\u00E9es MS Access, qu\u0027ils \u00E9changent par courrier \u00E9lectronique, sans moyen direct de la partager ou de la moderniser.  Nous avons pu convertir et migrer les donn\u00E9es dans Datahub.  En utilisant des outils modernes en python dans Databricks, nous avons d\u00E9velopp\u00E9 des formulaires qui permettent aux utilisateurs de faire des recherches dans la base de donn\u00E9es existante. La preuve de concept a \u00E9t\u00E9 d\u00E9velopp\u00E9e en deux semaines d\u0027efforts et co\u00FBte environ 100$/mois."
+  },
+  {
+    "English": "1. Show web app: NRC collaboration with Canadian Transportation Agency. To illustrate solutions to a text analytics problem, the team developed their own web application to provide interactive results. Application was developed R Shiny (widely used tool in the data science community).  They could not collaborate with it.  We can host it in FSDH and they can now collaborate, upload datasets and update dashboards when they could not before.  This is all in a secure environment.",
+    "French": "1. Montrer l\u0027application web : Collaboration entre le CNRC et l\u0027Office des transports du Canada. Pour illustrer les solutions \u00E0 un probl\u00E8me d\u0027analyse de texte, l\u0027\u00E9quipe a d\u00E9velopp\u00E9 sa propre application web pour fournir des r\u00E9sultats interactifs. L\u0027application a \u00E9t\u00E9 d\u00E9velopp\u00E9e en R Shiny (outil largement utilis\u00E9 dans la communaut\u00E9 de la science des donn\u00E9es).  Ils n\u0027ont pas pu collaborer avec elle.  Nous pouvons l\u0027h\u00E9berger dans DHSF et ils peuvent maintenant collaborer, t\u00E9l\u00E9charger des ensembles de donn\u00E9es et mettre \u00E0 jour des tableaux de bord alors qu\u0027ils ne le pouvaient pas auparavant.  Le tout dans un environnement s\u00E9curis\u00E9."
+  },
+  {
+    "English": "## New features",
+    "French": "## Nouvelles fonctionnalit\u00E9s"
+  },
+  {
+    "English": "-\tDatabases",
+    "French": "- Bases de donn\u00E9es"
+  },
+  {
+    "English": "## Stop screen share ",
+    "French": "## Arr\u00EAter le partage d\u0027\u00E9cran"
+  },
+  {
+    "English": "To summarize, Datahub provides 3 key features",
+    "French": "En r\u00E9sum\u00E9, Datahub offre 3 fonctions cl\u00E9s"
+  },
+  {
+    "English": "- access to modern cloud-based toolsets, ",
+    "French": "- l\u0027acc\u00E8s \u00E0 des outils modernes bas\u00E9s sur l\u0027informatique en nuage,"
+  },
+  {
+    "English": "- access to storage in an agile manner.  ",
+    "French": "- l\u0027acc\u00E8s au stockage de mani\u00E8re agile.  "
+  },
+  {
+    "English": "- ability to collaborate broadly across GC",
+    "French": "- capacit\u00E9 \u00E0 collaborer largement au sein du CG"
+  },
+  {
+    "English": "- Demo",
+    "French": "- D\u00E9monstration"
+  },
+  {
+    "English": "## Portal",
+    "French": "## Portail"
+  },
+  {
+    "English": "|[v2.9.0](https://github.com/ssc-sp/datahub-resource-modules/tree/versioning/modules/v2.12.0)| 22-Sep-2023 |[See below](#project-resource-module-v212)|",
+    "French": "|[v2.9.0](https://github.com/ssc-sp/datahub-resource-modules/tree/versioning/modules/v2.12.0)| 22-Sep-2023 |[Voir ci-dessous](#projet-module-ressources-v212)|[Voir ci-dessous](#projet-module-ressources-v212)|[Voir ci-dessous](#projet-module-ressources-v212)"
+  },
+  {
+    "English": "|[v2.8.0](https://github.com/ssc-sp/datahub-resource-modules/tree/versioning/modules/v2.13.0)| 04-Oct-2023 |[See below](#project-resource-module-v213)|",
+    "French": "|[v2.8.0](https://github.com/ssc-sp/datahub-resource-modules/tree/versioning/modules/v2.13.0)| 04-Oct-2023 |[Voir ci-dessous](#projet-ressource-module-v213)|[Voir ci-dessous](#projet-ressource-module-v213)|[Voir ci-dessous](#projet-ressource-module-v213)"
+  },
+  {
+    "English": "## Portal v2.11",
+    "French": "## Portal v2.11"
+  },
+  {
+    "English": "- Prototype of enhanced search: You can now use the search bar to find users, workspaces, tutorials, etc.",
+    "French": "- Prototype de recherche am\u00E9lior\u00E9e : Vous pouvez maintenant utiliser la barre de recherche pour trouver des utilisateurs, des espaces de travail, des tutoriels, etc."
+  },
+  {
+    "English": "- In-portal support: Support requests can be submitted directly through the Help button in FSDH. You no longer need to fill out a separate form.",
+    "French": "- Support dans le portail : Les demandes de support peuvent \u00EAtre soumises directement via le bouton Aide de DHSF. Vous n\u0027avez plus besoin de remplir un formulaire s\u00E9par\u00E9."
+  },
+  {
+    "English": "- Improved Accessibility to ensure everyone can benefit from FSDH: Changed page hierarchies to improve results from screen readers.",
+    "French": "- Am\u00E9lioration de l\u0027accessibilit\u00E9 pour que tout le monde puisse b\u00E9n\u00E9ficier de la DHSF : modification de la hi\u00E9rarchie des pages pour am\u00E9liorer les r\u00E9sultats des lecteurs d\u0027\u00E9cran."
+  },
+  {
+    "English": "- Bug fixes",
+    "French": "- Correction de bugs"
+  },
+  {
+    "English": "## Portal v2.8",
+    "French": "## Portal v2.8"
+  },
+  {
+    "English": "- Storage usage and cost reporting per workspace. Users can now see how much storage each workspace is using and what the total spend is.",
+    "French": "- Rapports sur l\u0027utilisation du stockage et les co\u00FBts par espace de travail. Les utilisateurs peuvent d\u00E9sormais voir la quantit\u00E9 de stockage utilis\u00E9e par chaque espace de travail et le montant total des d\u00E9penses."
+  },
+  {
+    "English": "- Featured workspaces are now on display and accessible for viewing on the Workspaces page. These are selected and posted by the FSDH team.",
+    "French": "- Les espaces de travail pr\u00E9sent\u00E9s sont d\u00E9sormais affich\u00E9s et accessibles sur la page Espaces de travail. Ils sont s\u00E9lectionn\u00E9s et affich\u00E9s par l\u0027\u00E9quipe de la DHSF."
+  },
+  {
+    "English": "- Additional details have been to each workspace to display information about how many collaborators there are and to identify if there is any shared content.",
+    "French": "- Des d\u00E9tails suppl\u00E9mentaires ont \u00E9t\u00E9 ajout\u00E9s \u00E0 chaque espace de travail afin d\u0027afficher des informations sur le nombre de collaborateurs et d\u0027identifier s\u0027il y a du contenu partag\u00E9."
+  },
+  {
+    "English": "- Hosting for R Shiny apps can be enabled in the workspaces and is available upon request.",
+    "French": "- L\u0027h\u00E9bergement des applications R Shiny peut \u00EAtre activ\u00E9 dans les espaces de travail et est disponible sur demande."
+  },
+  {
+    "English": "Change Management Strategy",
+    "French": "Strat\u00E9gie de gestion du changement"
+  },
+  {
+    "English": "# Agile Change Management and Configuration Monitoring Document",
+    "French": "# Document de gestion du changement et de suivi de la configuration"
+  },
+  {
+    "English": "## 1. Introduction",
+    "French": "## 1. Introduction"
+  },
+  {
+    "English": "This document outlines the Agile procedures and guidelines for managing changes and monitoring configurations within FSDH using Azure DevOps. Effective change management and configuration monitoring are essential for maintaining the stability, security, and reliability of our systems and infrastructure in an Agile environment.",
+    "French": "Ce document d\u00E9crit les proc\u00E9dures et les lignes directrices Agile pour la gestion des changements et le suivi des configurations au sein de DHSF en utilisant Azure DevOps. Une gestion efficace des changements et un suivi des configurations sont essentiels pour maintenir la stabilit\u00E9, la s\u00E9curit\u00E9 et la fiabilit\u00E9 de nos syst\u00E8mes et de notre infrastructure dans un environnement Agile."
+  },
+  {
+    "English": "## 2. Change Management Process with Azure DevOps in Agile",
+    "French": "## 2. Processus de gestion des changements avec Azure DevOps dans Agile"
+  },
+  {
+    "English": "### 2.1 User Stories for Change Requests",
+    "French": "### 2.1 Histoires d\u0027utilisateurs pour les demandes de changement"
+  },
+  {
+    "English": "- Proposed changes will be captured as User Stories in Azure DevOps using the designated template.",
+    "French": "- Les changements propos\u00E9s seront captur\u00E9s en tant que User Stories dans Azure DevOps en utilisant le mod\u00E8le d\u00E9sign\u00E9."
+  },
+  {
+    "English": "- User Stories should include details such as the desired functionality, acceptance criteria, and potential impact on system configurations.",
+    "French": "- Les histoires d\u0027utilisateurs doivent inclure des d\u00E9tails tels que la fonctionnalit\u00E9 souhait\u00E9e, les crit\u00E8res d\u0027acceptation et l\u0027impact potentiel sur les configurations du syst\u00E8me."
+  },
+  {
+    "English": "### 2.2 Backlog Grooming and Prioritization",
+    "French": "### 2.2 Toilettage du carnet de commandes et hi\u00E9rarchisation des priorit\u00E9s"
+  },
+  {
+    "English": "- The Product Owner, in collaboration with stakeholders, will prioritize User Stories based on business value and urgency during backlog grooming sessions.",
+    "French": "- Le Product Owner, en collaboration avec les parties prenantes, priorisera les User Stories en fonction de la valeur m\u00E9tier et de l\u0027urgence lors des sessions de toilettage du backlog."
+  },
+  {
+    "English": "- Changes with the highest priority will be selected for implementation in upcoming iterations.",
+    "French": "- Les changements les plus prioritaires seront s\u00E9lectionn\u00E9s pour \u00EAtre mis en \u0153uvre dans les prochaines it\u00E9rations."
+  },
+  {
+    "English": "### 2.3 Sprint Planning and Commitment",
+    "French": "### 2.3 Planification du sprint et engagement"
+  },
+  {
+    "English": "- During sprint planning sessions, the development team will commit to implementing selected User Stories within the upcoming sprint.",
+    "French": "- Lors des sessions de planification de sprint, l\u0027\u00E9quipe de d\u00E9veloppement s\u0027engage \u00E0 mettre en \u0153uvre les User Stories s\u00E9lectionn\u00E9es au cours du prochain sprint."
+  },
+  {
+    "English": "- The team will estimate the effort required for each User Story and allocate resources accordingly.",
+    "French": "- L\u0027\u00E9quipe estimera l\u0027effort requis pour chaque histoire d\u0027utilisateur et allouera les ressources en cons\u00E9quence."
+  },
+  {
+    "English": "### 2.4 Iterative Development with Azure DevOps",
+    "French": "### 2.4 D\u00E9veloppement it\u00E9ratif avec Azure DevOps"
+  },
+  {
+    "English": "- Changes will be implemented iteratively using Azure DevOps Agile Boards and Sprint Backlogs.",
+    "French": "- Les changements seront mis en \u0153uvre de mani\u00E8re it\u00E9rative \u00E0 l\u0027aide des Azure DevOps Agile Boards et des Sprint Backlogs."
+  },
+  {
+    "English": "- The development team will break down User Stories into tasks and track their progress using Azure DevOps Boards and Dashboards.",
+    "French": "- L\u0027\u00E9quipe de d\u00E9veloppement d\u00E9composera les User Stories en t\u00E2ches et suivra leur progression \u00E0 l\u0027aide des Azure DevOps Boards et Dashboards."
+  },
+  {
+    "English": "### 2.5 Continuous Integration and Deployment",
+    "French": "### 2.5 Int\u00E9gration et d\u00E9ploiement continus"
+  },
+  {
+    "English": "- Azure DevOps Pipelines will be configured for continuous integration and deployment to facilitate the rapid and reliable delivery of changes.",
+    "French": "- Les pipelines Azure DevOps seront configur\u00E9s pour l\u0027int\u00E9gration et le d\u00E9ploiement continus afin de faciliter la livraison rapide et fiable des changements."
+  },
+  {
+    "English": "- Automated tests will be integrated into pipelines to ensure the quality and stability of deployments.",
+    "French": "- Des tests automatis\u00E9s seront int\u00E9gr\u00E9s dans les pipelines afin de garantir la qualit\u00E9 et la stabilit\u00E9 des d\u00E9ploiements."
+  },
+  {
+    "English": "### 2.6 Sprint Review and Retrospective",
+    "French": "### 2.6 Revue de sprint et r\u00E9trospective"
+  },
+  {
+    "English": "- At the end of each sprint, a sprint review meeting will be held to demonstrate completed changes to stakeholders and gather feedback.",
+    "French": "- \u00C0 la fin de chaque sprint, une r\u00E9union de revue de sprint sera organis\u00E9e pour pr\u00E9senter les changements r\u00E9alis\u00E9s aux parties prenantes et recueillir leurs commentaires."
+  },
+  {
+    "English": "- The team will conduct a sprint retrospective to reflect on the sprint\u0027s successes and areas for improvement, including the change management process.",
+    "French": "- L\u0027\u00E9quipe effectuera une r\u00E9trospective du sprint pour r\u00E9fl\u00E9chir aux r\u00E9ussites et aux domaines \u00E0 am\u00E9liorer, y compris le processus de gestion du changement."
+  },
+  {
+    "English": "## 3. Configuration Monitoring with Azure DevOps",
+    "French": "## 3. Surveillance de la configuration avec Azure DevOps"
+  },
+  {
+    "English": "### 3.1. Version Control with Git",
+    "French": "### 3.1. Contr\u00F4le de version avec Git"
+  },
+  {
+    "English": "- **Purpose**: Git serves as the central repository for storing Terraform configuration files and tracking changes.",
+    "French": "- Objectif** : Git est le r\u00E9f\u00E9rentiel central pour le stockage des fichiers de configuration de Terraform et le suivi des modifications."
+  },
+  {
+    "English": "- **Strategy**: ",
+    "French": "- **Strat\u00E9gie** :"
+  },
+  {
+    "English": "  - **Utilization**: Git is utilized for version control, facilitating comprehensive tracking of configuration changes.",
+    "French": "  - **Utilisation** : Git est utilis\u00E9 pour le contr\u00F4le des versions, facilitant le suivi complet des changements de configuration."
+  },
+  {
+    "English": "  - **Review Mechanism**: Branch protection and pull request reviews are enforced to ensure changes are reviewed and approved before merging.",
+    "French": "  - M\u00E9canisme de r\u00E9vision** : La protection des branches et les r\u00E9visions des demandes d\u0027extraction sont appliqu\u00E9es pour s\u0027assurer que les changements sont revus et approuv\u00E9s avant d\u0027\u00EAtre fusionn\u00E9s."
+  },
+  {
+    "English": "  - **Documentation**: Commit messages provide detailed documentation for each configuration change, enhancing traceability and accountability.",
+    "French": "  - **Documentation** : Les messages d\u0027engagement fournissent une documentation d\u00E9taill\u00E9e pour chaque changement de configuration, am\u00E9liorant ainsi la tra\u00E7abilit\u00E9 et la responsabilit\u00E9."
+  },
+  {
+    "English": "  - **Versioning**: Git tags and releases are utilized for versioning and auditing purposes, enabling precise management of configuration revisions.",
+    "French": "  - **Versioning** : Les \u00E9tiquettes et les versions Git sont utilis\u00E9es \u00E0 des fins de versionnement et d\u0027audit, ce qui permet une gestion pr\u00E9cise des r\u00E9visions de la configuration."
+  },
+  {
+    "English": "### 3.2. Terraform State Management",
+    "French": "### 3.2. Gestion de l\u0027\u00E9tat de Terraform"
+  },
+  {
+    "English": "- **Purpose**: Terraform state files store critical information about managed infrastructure resources.",
+    "French": "- **Objectif** : Les fichiers d\u0027\u00E9tat Terraform stockent des informations critiques sur les ressources de l\u0027infrastructure g\u00E9r\u00E9e."
+  },
+  {
+    "English": "- **Strategy**:",
+    "French": "- **Strat\u00E9gie** :"
+  },
+  {
+    "English": "  - **Centralization**: Remote state backends (Azure Blob) are utilized for centralized state management. Both core and workspaces have separate states.",
+    "French": "  - **Centralisation** : Les backends d\u0027\u00E9tat distants (Azure Blob) sont utilis\u00E9s pour la gestion centralis\u00E9e de l\u0027\u00E9tat. Le noyau et les espaces de travail ont des \u00E9tats distincts."
+  },
+  {
+    "English": "  - **Concurrency Control**: State locking mechanisms prevent concurrent modifications, ensuring data consistency and integrity.",
+    "French": "  - **Concurrency Control** : Les m\u00E9canismes de verrouillage des \u00E9tats emp\u00EAchent les modifications simultan\u00E9es, garantissant ainsi la coh\u00E9rence et l\u0027int\u00E9grit\u00E9 des donn\u00E9es."
+  },
+  {
+    "English": "  - **Backup and Recovery**: Regular backups of state files are maintained to prevent data loss and facilitate recovery in case of emergencies, safeguarding against potential disruptions.",
+    "French": "  - Sauvegarde et r\u00E9cup\u00E9ration** : Des sauvegardes r\u00E9guli\u00E8res des fichiers de l\u0027\u00C9tat sont effectu\u00E9es pour pr\u00E9venir la perte de donn\u00E9es et faciliter la r\u00E9cup\u00E9ration en cas d\u0027urgence, afin de se pr\u00E9munir contre d\u0027\u00E9ventuelles perturbations."
+  },
+  {
+    "English": "### 3.3. Continuous Integration/Continuous Deployment (CI/CD)",
+    "French": "### 3.3. Int\u00E9gration continue/d\u00E9ploiement continu (CI/CD)"
+  },
+  {
+    "English": "- **Purpose**: CI/CD pipelines automate configuration deployment and validation processes.",
+    "French": "- **Objectif** : Les pipelines CI/CD automatisent les processus de d\u00E9ploiement et de validation des configurations."
+  },
+  {
+    "English": "  - **Automation**: Terraform is integrated into CI/CD pipelines to automate deployment workflows, reducing manual intervention and enhancing efficiency.",
+    "French": "  - **Automatisation** : Terraform est int\u00E9gr\u00E9 aux pipelines CI/CD pour automatiser les flux de d\u00E9ploiement, r\u00E9duire les interventions manuelles et am\u00E9liorer l\u0027efficacit\u00E9."
+  },
+  {
+    "English": "  - **Validation**: Automated tests and checks are incorporated into the pipeline to validate configurations against predefined standards and policies, minimizing the risk of misconfigurations.",
+    "French": "  - **Validation** : Des tests et des contr\u00F4les automatis\u00E9s sont incorpor\u00E9s dans le pipeline pour valider les configurations par rapport \u00E0 des normes et des politiques pr\u00E9d\u00E9finies, minimisant ainsi le risque de mauvaises configurations."
+  },
+  {
+    "English": "  - **Infrastructure as Code (IaC)**: Infrastructure validation steps are embedded within the deployment pipeline to ensure adherence to IaC principles and best practices.",
+    "French": "  - **Infrastructure as Code (IaC)** : Les \u00E9tapes de validation de l\u0027infrastructure sont int\u00E9gr\u00E9es dans le pipeline de d\u00E9ploiement afin de garantir le respect des principes et des meilleures pratiques de l\u0027IaC."
+  },
+  {
+    "English": "### 3.4. Configuration Monitoring Tools",
+    "French": "### 3.4. Outils de surveillance de la configuration"
+  },
+  {
+    "English": "- **Purpose**: Configuration monitoring tools track changes to infrastructure configurations and detect anomalies.",
+    "French": "- Objectif** : Les outils de surveillance de la configuration suivent les modifications apport\u00E9es aux configurations de l\u0027infrastructure et d\u00E9tectent les anomalies."
+  },
+  {
+    "English": "  - **Centralization**: Terraform Enterprise or Terraform Cloud serve as centralized platforms for configuration monitoring and governance, providing comprehensive visibility and control.",
+    "French": "  - **Centralisation** : Terraform Enterprise ou Terraform Cloud servent de plateformes centralis\u00E9es pour la surveillance et la gouvernance de la configuration, offrant une visibilit\u00E9 et un contr\u00F4le complets."
+  },
+  {
+    "English": "  - **Compliance Enforcement**: Custom scripts are utilized to enforce compliance with organizational policies and regulatory requirements.",
+    "French": "  - Application de la conformit\u00E9** : Des scripts personnalis\u00E9s sont utilis\u00E9s pour assurer la conformit\u00E9 avec les politiques de l\u0027organisation et les exigences r\u00E9glementaires."
+  },
+  {
+    "English": "  - **Alerting Mechanisms**: Alerts and notifications are configured to promptly notify stakeholders about unauthorized or unexpected configuration changes, enabling timely response and mitigation.",
+    "French": "  - M\u00E9canismes d\u0027alerte** : Les alertes et les notifications sont configur\u00E9es pour informer rapidement les parties prenantes des changements de configuration non autoris\u00E9s ou inattendus, ce qui permet de r\u00E9agir rapidement et d\u0027att\u00E9nuer les effets."
+  },
+  {
+    "English": "### 3.5. Compliance and Auditing",
+    "French": "### 3.5. Conformit\u00E9 et audit"
+  },
+  {
+    "English": "\u0060\u003CTBD\u003E\u0060",
+    "French": "\u0060\u003CTBD\u003E\u0060"
+  },
+  {
+    "English": "### 3.6. Incident Response Plan",
+    "French": "### 3.6. Plan de r\u00E9ponse aux incidents"
+  },
+  {
+    "English": "## 4. Roles and Responsibilities in Agile Environment",
+    "French": "## 4. R\u00F4les et responsabilit\u00E9s dans un environnement agile"
+  },
+  {
+    "English": "- Product Owner: Responsible for prioritizing User Stories and defining acceptance criteria.",
+    "French": "- Propri\u00E9taire du produit : Responsable de la hi\u00E9rarchisation des histoires d\u0027utilisateurs et de la d\u00E9finition des crit\u00E8res d\u0027acceptation."
+  },
+  {
+    "English": "- Development Team: Responsible for implementing changes within the sprint, including configuration updates.",
+    "French": "- \u00C9quipe de d\u00E9veloppement : Responsable de la mise en \u0153uvre des changements au cours du sprint, y compris les mises \u00E0 jour de la configuration."
+  },
+  {
+    "English": "- Scrum Master: Facilitates Agile ceremonies and ensures the Agile process is followed effectively.",
+    "French": "- Scrum Master : Facilite les c\u00E9r\u00E9monies Agile et s\u0027assure que le processus Agile est suivi de mani\u00E8re efficace."
+  },
+  {
+    "English": "- Stakeholders: Provide feedback on implemented changes during sprint reviews and participate in the change management process.",
+    "French": "- Les parties prenantes : Fournir un retour d\u0027information sur les changements mis en \u0153uvre lors des r\u00E9visions de sprint et participer au processus de gestion du changement."
+  },
+  {
+    "English": "Hotfix",
+    "French": "Correctif"
+  },
+  {
+    "English": "# Deploying Hotfixes in PoC environment",
+    "French": "# D\u00E9ploiement des correctifs dans l\u0027environnement VdP"
+  },
+  {
+    "English": "## What\u2019s a hotfix?",
+    "French": "## Qu\u0027est-ce qu\u0027un correctif ?"
+  },
+  {
+    "English": "Hotfixes are applied to the PoC environment to fix an issue:",
+    "French": "Les correctifs sont appliqu\u00E9s \u00E0 l\u0027environnement VdP pour r\u00E9soudre un probl\u00E8me :"
+  },
+  {
+    "English": "- Immediately",
+    "French": "- Imm\u00E9diatement"
+  },
+  {
+    "English": "- Without creating system downtimes or outages.",
+    "French": "- Sans cr\u00E9er de temps d\u0027arr\u00EAt ou de panne du syst\u00E8me."
+  },
+  {
+    "English": "Hotfixes are also known as QFE updates, short for quick-fix engineering updates.",
+    "French": "Les hotfixes sont \u00E9galement connus sous le nom de mises \u00E0 jour QFE, abr\u00E9viation de quick-fix engineering updates (mises \u00E0 jour techniques rapides)."
+  },
+  {
+    "English": "Normally, hotfixes are created as an urgent measure against issues that need to be fixed immediately and outside of your normal development flow. ",
+    "French": "Normalement, les hotfixes sont cr\u00E9\u00E9s comme une mesure d\u0027urgence contre les probl\u00E8mes qui doivent \u00EAtre corrig\u00E9s imm\u00E9diatement et en dehors de votre flux de d\u00E9veloppement normal."
+  },
+  {
+    "English": "Hotfixes address specific issues like:",
+    "French": "Les correctifs traitent des probl\u00E8mes sp\u00E9cifiques tels que"
+  },
+  {
+    "English": "- Adding a new feature, bug, or security fix",
+    "French": "- Ajout d\u0027une nouvelle fonctionnalit\u00E9, d\u0027un bogue ou d\u0027un correctif de s\u00E9curit\u00E9"
+  },
+  {
+    "English": "- Correcting data or translations",
+    "French": "- Correction des donn\u00E9es ou des traductions"
+  },
+  {
+    "English": "## Git process",
+    "French": "## Processus Git"
+  },
+  {
+    "English": "- checkout \u0060proof-of-concept\u0060 and create a new \u0060hotfix/\u003Cname\u003E\u0060 branch for the changes",
+    "French": "- checkout \u0060proof-of-concept\u0060 et cr\u00E9er une nouvelle branche \u0060hotfix/\u003Cnom\u003E\u0060 pour les changements"
+  },
+  {
+    "English": "- validate the fix locally in \u0060hotfix/\u003Cname\u003E\u0060",
+    "French": "- valider le correctif localement dans \u0060hotfix/\u003Cnom\u003E\u0060"
+  },
+  {
+    "English": "- create a pull request from \u0060hotfix/\u003Cname\u003E\u0060 into \u0060proof-of-concept\u0060",
+    "French": "- cr\u00E9er une pull request de \u0060hotfix/\u003Cnom\u003E\u0060 vers \u0060preuve-de-concept\u0060"
+  },
+  {
+    "English": "## Deploying code from \u0060proof-of-concept\u0060 branch into INT",
+    "French": "## D\u00E9ploiement du code de la branche \u0060proof-of-concept\u0060 dans INT"
+  },
+  {
+    "English": "- Pipeline is similar to dev environment",
+    "French": "- Le pipeline est similaire \u00E0 l\u0027environnement de d\u00E9veloppement"
+  },
+  {
+    "English": "- Changes from \u0060proof-of-concept\u0060 branch will trigger a build in the DevOps pipeline",
+    "French": "- Les modifications de la branche \u0060proof-of-concept\u0060 d\u00E9clencheront une construction dans le pipeline DevOps."
+  },
+  {
+    "English": "![Devops Pipeline](image.png)",
+    "French": "![Devops Pipeline](image.png)"
+  },
+  {
+    "English": "- Successful builds will deploy a successful build from the pipeline into the PoC environment",
+    "French": "- Les constructions r\u00E9ussies d\u00E9ploieront une construction r\u00E9ussie du pipeline dans l\u0027environnement VdP."
+  },
+  {
+    "English": "![Deployment](image-1.png)",
+    "French": "![D\u00E9ploiement](image-1.png)"
+  },
+  {
+    "English": "## Push changes from INT to POC",
+    "French": "## Passer de INT \u00E0 POC"
+  },
+  {
+    "English": "- Changes needs to validated and regression testing needs to be done in INT",
+    "French": "- Les modifications doivent \u00EAtre valid\u00E9es et les tests de r\u00E9gression doivent \u00EAtre effectu\u00E9s dans INT."
+  },
+  {
+    "English": "- Once regression testing is completed, the Devops approvers need to be notified",
+    "French": "- Une fois les tests de r\u00E9gression termin\u00E9s, les approbateurs Devops doivent \u00EAtre inform\u00E9s."
+  },
+  {
+    "English": "- The approvers will approve the Devops pipeline and it will trigger deployment of the code from \u0060proof-of-concept\u0060 into the PoC environment",
+    "French": "- Les approbateurs approuveront le pipeline Devops, ce qui d\u00E9clenchera le d\u00E9ploiement du code de la \u0022preuve de concept\u0022 dans l\u0027environnement VdP."
+  },
+  {
+    "English": "- *OR* Navigate to the URI \u0060/metadata/definitions\u0060",
+    "French": "- *OR* Naviguer vers l\u0027URI \u0060/metadata/definitions\u0060"
+  },
+  {
+    "English": "Postgres",
+    "French": "Postgres"
+  },
+  {
+    "English": "# Create and use a PostgreSQL Database on FSDH",
+    "French": "# Cr\u00E9er et utiliser une base de donn\u00E9es PostgreSQL sur DHSF"
+  },
+  {
+    "English": "## Video",
+    "French": "## Vid\u00E9o"
+  },
+  {
+    "English": "    \u003Csource src=\u0022/api/media/postgres.mp4\u0022 type=\u0022video/mp4\u0022\u003E",
+    "French": "    \u003Csource src=\u0022/api/media/postgres.mp4\u0022 type=\u0022video/mp4\u0022\u003E"
+  },
+  {
+    "English": "The Federal Science DataHub provides the ability to provision a PostgreSQL database for your workspace. This guide will walk you through the process of creating a PostgreSQL database and using it in code.",
+    "French": "Le DataHub scientifique f\u00E9d\u00E9ral permet de provisionner une base de donn\u00E9es PostgreSQL pour votre espace de travail. Ce guide vous guidera \u00E0 travers le processus de cr\u00E9ation d\u0027une base de donn\u00E9es PostgreSQL et son utilisation dans le code."
+  },
+  {
+    "English": "## How to provision a PostgreSQL Database",
+    "French": "## Comment provisionner une base de donn\u00E9es PostgreSQL"
+  },
+  {
+    "English": "1. Navigate to the workspace you want to create a PostgreSQL database in.",
+    "French": "1. Naviguez vers l\u0027espace de travail dans lequel vous souhaitez cr\u00E9er une base de donn\u00E9es PostgreSQL."
+  },
+  {
+    "English": "2. Navigate to the \u0060Toolbox\u0060 tab under the \u0060Administration\u0060 category.",
+    "French": "2. Naviguez vers l\u0027onglet \u0022Bo\u00EEte \u00E0 outils\u0022 dans la cat\u00E9gorie \u0022Administration\u0022."
+  },
+  {
+    "English": "![](/api/docs/UserGuide/Database/database-1.png)",
+    "French": "![](/api/docs/UserGuide/Database/database-1.png)"
+  },
+  {
+    "English": "3. Within a few minutes, the database will be provisioned and you will see it in the \u0060Toolbox\u0060 tab. If the database does not provision, please fill out a support request.",
+    "French": "3. Dans quelques minutes, la base de donn\u00E9es sera provisionn\u00E9e et vous la verrez dans l\u0027onglet \u0060Toolbox\u0060. Si la base de donn\u00E9es n\u0027est pas provisionn\u00E9e, veuillez remplir une demande de support."
+  },
+  {
+    "English": "## How to use your PostgreSQL Database",
+    "French": "## Comment utiliser votre base de donn\u00E9es PostgreSQL"
+  },
+  {
+    "English": "1. Navigate to the workspace you want to use the PostgreSQL database in.",
+    "French": "1. Naviguez vers l\u0027espace de travail dans lequel vous souhaitez utiliser la base de donn\u00E9es PostgreSQL."
+  },
+  {
+    "English": "2. Navigate to the \u0060SQL Database\u0060 tab under the \u0060Workspace Tools\u0060 category. This page provides you with the needed information to connect to your database.",
+    "French": "2. Naviguez jusqu\u0027\u00E0 l\u0027onglet \u0022Base de donn\u00E9es SQL\u0022 dans la cat\u00E9gorie \u0022Outils de l\u0027espace de travail\u0022. Cette page vous fournit les informations n\u00E9cessaires pour vous connecter \u00E0 votre base de donn\u00E9es."
+  },
+  {
+    "English": "3. **Before trying to use the database**, you must add your IP address to the firewall rules. ",
+    "French": "3. **Avant d\u0027essayer d\u0027utiliser la base de donn\u00E9es**, vous devez ajouter votre adresse IP aux r\u00E8gles du pare-feu."
+  },
+  {
+    "English": "    * Navigate to the bottom of the page and click \u0060Add Current IP Address\u0060 to add your local IP address to the firewall rules.",
+    "French": "    * Naviguez jusqu\u0027au bas de la page et cliquez sur \u0022Ajouter l\u0027adresse IP actuelle\u0022 pour ajouter votre adresse IP locale aux r\u00E8gles du pare-feu."
+  },
+  {
+    "English": "    * If you switch networks or toggle your VPN, you will need to add your new IP address to the firewall rules.",
+    "French": "    * Si vous changez de r\u00E9seau ou basculez votre RPV, vous devrez ajouter votre nouvelle adresse IP aux r\u00E8gles du pare-feu."
+  },
+  {
+    "English": "    * To give Databricks access to the database, you will need to add the address \u00600.0.0.0\u0060 to the firewall rules.",
+    "French": "    * Pour permettre \u00E0 Databricks d\u0027acc\u00E9der \u00E0 la base de donn\u00E9es, vous devrez ajouter l\u0027adresse \u00600.0.0.0\u0060 aux r\u00E8gles du pare-feu."
+  },
+  {
+    "English": "    * **NOTE:** Changes can take up to 15 minutes to apply.",
+    "French": "    **NOTE:** L\u0027application des modifications peut prendre jusqu\u0027\u00E0 15 minutes."
+  },
+  {
+    "English": "![](/api/docs/UserGuide/Database/database-2.png)",
+    "French": "![](/api/docs/UserGuide/Database/database-2.png)"
+  },
+  {
+    "English": "4. After adding your IP address to the firewall rules, you can use the connection info provided for Databricks, Python, R, Java, and C#.",
+    "French": "4. Apr\u00E8s avoir ajout\u00E9 votre adresse IP aux r\u00E8gles du pare-feu, vous pouvez utiliser les informations de connexion fournies pour Databricks, Python, R, Java et C#."
+  },
+  {
+    "English": "![](/api/docs/UserGuide/Database/database-3.png)",
+    "French": "![](/api/docs/UserGuide/Database/database-3.png)"
+  },
+  {
+    "English": "psql databricks comparison",
+    "French": "Comparaison des banques de donn\u00E9es psql"
+  },
+  {
+    "English": "# PostgreSQL vs Azure Databricks Database Features",
+    "French": "# PostgreSQL vs Azure Databricks Fonctionnalit\u00E9s des bases de donn\u00E9es"
+  },
+  {
+    "English": "The Federal Science DataHub offers multiple ways to use database functionality. This guide will compare the use of a PostgreSQL database on FSDH with the database features provided by Azure Databricks.",
+    "French": "Le DataHub scientifique f\u00E9d\u00E9ral offre plusieurs fa\u00E7ons d\u0027utiliser la fonctionnalit\u00E9 de base de donn\u00E9es. Ce guide compare l\u0027utilisation d\u0027une base de donn\u00E9es PostgreSQL sur le DHSF avec les fonctionnalit\u00E9s de base de donn\u00E9es fournies par Azure Databricks."
+  },
+  {
+    "English": "When it comes to hosting a database with FSDH, there are multiple options available. One popular choice is using PostgreSQL, while another option is leveraging the database features provided by Azure Databricks. In this comparison, we will explore the key differences and benefits of each approach.",
+    "French": "Lorsqu\u0027il s\u0027agit d\u0027h\u00E9berger une base de donn\u00E9es avec DHSF, plusieurs options sont disponibles. L\u0027un des choix les plus populaires est l\u0027utilisation de PostgreSQL, tandis qu\u0027une autre option consiste \u00E0 tirer parti des fonctionnalit\u00E9s de base de donn\u00E9es fournies par Azure Databricks. Dans cette comparaison, nous allons explorer les principales diff\u00E9rences et les avantages de chaque approche."
+  },
+  {
+    "English": "## PostgreSQL",
+    "French": "## PostgreSQL"
+  },
+  {
+    "English": "PostgreSQL is a fully managed database service that allows you to deploy PostgreSQL databases in the cloud. It provides high availability, automatic backups, and integration with other services. Some of the key features of PostgreSQL include:",
+    "French": "PostgreSQL est un service de base de donn\u00E9es enti\u00E8rement g\u00E9r\u00E9 qui vous permet de d\u00E9ployer des bases de donn\u00E9es PostgreSQL dans le nuage. Il offre une haute disponibilit\u00E9, des sauvegardes automatiques et une int\u00E9gration avec d\u0027autres services. Voici quelques-unes des principales caract\u00E9ristiques de PostgreSQL :"
+  },
+  {
+    "English": "- Easy deployment of PostgreSQL databases",
+    "French": "- D\u00E9ploiement facile des bases de donn\u00E9es PostgreSQL"
+  },
+  {
+    "English": "- Built-in high availability and automatic backups",
+    "French": "- Haute disponibilit\u00E9 int\u00E9gr\u00E9e et sauvegardes automatiques"
+  },
+  {
+    "English": "- Support for advanced PostgreSQL features such as JSONB, full-text search, and spatial data types",
+    "French": "- Prise en charge des fonctionnalit\u00E9s avanc\u00E9es de PostgreSQL telles que JSONB, la recherche plein texte et les types de donn\u00E9es spatiales"
+  },
+  {
+    "English": "- Seamless integration with other services like web apps or APIs",
+    "French": "- Int\u00E9gration transparente avec d\u0027autres services tels que les applications web ou les API"
+  },
+  {
+    "English": "## Azure Databricks Database Features (Hive)",
+    "French": "## Fonctionnalit\u00E9s de la base de donn\u00E9es Azure Databricks (Hive)"
+  },
+  {
+    "English": "Azure Databricks is an analytics platform that combines Apache Spark with a collaborative environment for data science and machine learning. While it is primarily known for its big data processing capabilities, Azure Databricks also provides powerful database features. Some of the key database features offered by Azure Databricks include:",
+    "French": "Azure Databricks est une plateforme analytique qui associe Apache Spark \u00E0 un environnement collaboratif pour la science des donn\u00E9es et l\u0027apprentissage automatique. Bien qu\u0027il soit principalement connu pour ses capacit\u00E9s de traitement des big data, Azure Databricks offre \u00E9galement de puissantes fonctionnalit\u00E9s de base de donn\u00E9es. Parmi les principales fonctionnalit\u00E9s de base de donn\u00E9es offertes par Azure Databricks, citons :"
+  },
+  {
+    "English": "- Delta Lake: A transactional storage layer that provides ACID transactions, schema enforcement, and data versioning for data lakes.",
+    "French": "- Delta Lake : Une couche de stockage transactionnel qui fournit des transactions ACID, l\u0027application du sch\u00E9ma et le versionnage des donn\u00E9es pour les lacs de donn\u00E9es."
+  },
+  {
+    "English": "- Delta Engine: A high-performance query engine optimized for Delta Lake, enabling fast and scalable SQL queries on large datasets.",
+    "French": "- Moteur Delta : Un moteur de requ\u00EAte haute performance optimis\u00E9 pour Delta Lake, permettant des requ\u00EAtes SQL rapides et \u00E9volutives sur de grands ensembles de donn\u00E9es."
+  },
+  {
+    "English": "- Delta Live Tables: A real-time change data capture (CDC) feature that allows you to capture and process real-time data changes from various sources.",
+    "French": "- Delta Live Tables : Une fonction de capture des donn\u00E9es de changement en temps r\u00E9el (CDC) qui vous permet de capturer et de traiter les changements de donn\u00E9es en temps r\u00E9el \u00E0 partir de diverses sources."
+  },
+  {
+    "English": "- Data Lakehouse Architecture: Azure Databricks promotes a unified architecture that combines the best of data lakes and data warehouses, enabling efficient data storage, processing, and analytics.",
+    "French": "- Architecture de lac de donn\u00E9es : Azure Databricks promeut une architecture unifi\u00E9e qui combine le meilleur des lacs de donn\u00E9es et des entrep\u00F4ts de donn\u00E9es, permettant un stockage, un traitement et une analyse efficaces des donn\u00E9es."
+  },
+  {
+    "English": "Databricks leverages the standard [Apache Hive](https://hive.apache.org/) project which enables to leverage standard storage and query data using SQL. The underlying model is quite different from a traditional database.",
+    "French": "Databricks s\u0027appuie sur le projet standard [Apache Hive] (https://hive.apache.org/) qui permet d\u0027exploiter le stockage standard et d\u0027interroger les donn\u00E9es \u00E0 l\u0027aide de SQL. Le mod\u00E8le sous-jacent est tr\u00E8s diff\u00E9rent d\u0027une base de donn\u00E9es traditionnelle."
+  },
+  {
+    "English": "- Databricks SQL requires the cluster to be enabled to run SQL queries",
+    "French": "- Databricks SQL n\u00E9cessite que le cluster soit activ\u00E9 pour ex\u00E9cuter des requ\u00EAtes SQL."
+  },
+  {
+    "English": "- Large datasets can be easily accomodated by simply scaling the cluster size",
+    "French": "- Les grands ensembles de donn\u00E9es peuvent \u00EAtre facilement pris en charge en augmentant simplement la taille des grappes."
+  },
+  {
+    "English": "- There is only storage costs for data that is not used",
+    "French": "- Il n\u0027y a que des co\u00FBts de stockage pour les donn\u00E9es qui ne sont pas utilis\u00E9es"
+  },
+  {
+    "English": "- Large datasets are cost efficient because standard Azure storage is used.",
+    "French": "- Les grands ensembles de donn\u00E9es sont rentables car le stockage standard Azure est utilis\u00E9."
+  },
+  {
+    "English": "## Comparison",
+    "French": "## Comparaison"
+  },
+  {
+    "English": "This chart outlines the key differences between PostgreSQL and Azure Databricks Database Features:",
+    "French": "Ce tableau pr\u00E9sente les principales diff\u00E9rences entre PostgreSQL et les fonctionnalit\u00E9s de la base de donn\u00E9es Azure Databricks :"
+  },
+  {
+    "English": "| Feature          | PostgreSQL                                                                | Azure Databricks Database Features (Hive Tables)                                               |",
+    "French": "| Fonctionnalit\u00E9 | PostgreSQL | Fonctionnalit\u00E9s de la base de donn\u00E9es Azure Databricks (Hive Tables) |"
+  },
+  {
+    "English": "| ---------------- | ------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |",
+    "French": "| ---------------- | ------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |"
+  },
+  {
+    "English": "| Database Model   | Traditional Relational Database                                           | Unified data analytics platform based on Lakehouse architecture                                |",
+    "French": "| Mod\u00E8le de base de donn\u00E9es | Base de donn\u00E9es relationnelle traditionnelle | Plate-forme d\u0027analyse de donn\u00E9es unifi\u00E9e bas\u00E9e sur l\u0027architecture Lakehouse |"
+  },
+  {
+    "English": "| Primary Use Case | General-purpose database. Web app / API integration. Complex SQL queries. | Big data analytics and real-time processing. Machine Learning. Collaborative data exploration. |",
+    "French": "| Cas d\u0027utilisation principal | Base de donn\u00E9es g\u00E9n\u00E9raliste. Int\u00E9gration d\u0027applications Web / API. Requ\u00EAtes SQL complexes. | Analyse des big data et traitement en temps r\u00E9el. Apprentissage automatique. Exploration collaborative des donn\u00E9es. "
+  },
+  {
+    "English": "| Schema           | Strict traditional SQL Schema                                             | Flexible and auto-schema management                                                            |",
+    "French": "| Sch\u00E9ma SQL traditionnel strict | Gestion flexible et auto-schema | Sch\u00E9ma SQL traditionnel strict"
+  },
+  {
+    "English": "| Performance      | Good for OLTP workloads.                                                  | Optimized for big data processing.                                                             |",
+    "French": "| Performances - Bon pour les charges de travail OLTP.                                                  | Optimis\u00E9 pour le traitement des donn\u00E9es volumineuses (big data).                                                             |"
+  },
+  {
+    "English": "| Scalability      | Limited scaling in current setup                                          | Horizontal scaling with Delta Engine.                                                          |",
+    "French": "| Mise \u00E0 l\u0027\u00E9chelle limit\u00E9e dans la configuration actuelle | Mise \u00E0 l\u0027\u00E9chelle horizontale avec le moteur Delta.                                                          "
+  },
+  {
+    "English": "| Integration      | Seamless integration with web apps and APIs.                              | Integration with big data processing and machine learning workflows.                           |",
+    "French": "| Int\u00E9gration | Int\u00E9gration transparente avec les applications web et les API.                              | Int\u00E9gration avec les flux de travail de traitement des big data et d\u0027apprentissage automatique.                           |"
+  },
+  {
+    "English": "## Recommended use cases",
+    "French": "## Cas d\u0027utilisation recommand\u00E9s"
+  },
+  {
+    "English": "### PostgreSQL",
+    "French": "### PostgreSQL"
+  },
+  {
+    "English": "- Web Application",
+    "French": "- Application Web"
+  },
+  {
+    "English": "- Interactive Form",
+    "French": "- Formulaire interactif"
+  },
+  {
+    "English": "- API integration",
+    "French": "- Int\u00E9gration de l\u0027API"
+  },
+  {
+    "English": "- Connection to existing application",
+    "French": "- Connexion \u00E0 une application existante"
+  },
+  {
+    "English": "### Databricks SQL Hive Tables",
+    "French": "### Databricks SQL Hive Tables"
+  },
+  {
+    "English": "- Science experiment data",
+    "French": "- Donn\u00E9es d\u0027exp\u00E9riences scientifiques"
+  },
+  {
+    "English": "- Evolving data that requires flexible schemas",
+    "French": "- Des donn\u00E9es \u00E9volutives qui n\u00E9cessitent des sch\u00E9mas flexibles"
+  },
+  {
+    "English": "- ETL pipeline intermediary data",
+    "French": "- Donn\u00E9es interm\u00E9diaires du pipeline ETL"
+  },
+  {
+    "English": "## Costing Difference",
+    "French": "## Diff\u00E9rence de co\u00FBt"
+  },
+  {
+    "English": "### On-Demand Databricks",
+    "French": "### Les banques de donn\u00E9es \u00E0 la demande"
+  },
+  {
+    "English": "- Databricks costing is _pay for what you use_ aka it depends on the cluster size and how long the cluster has been running",
+    "French": "- Le co\u00FBt de Databricks est _pay\u00E9 pour ce que vous utilisez_, c\u0027est-\u00E0-dire qu\u0027il d\u00E9pend de la taille du cluster et de sa dur\u00E9e de fonctionnement."
+  },
+  {
+    "English": "- With light usage, it is possible to keep databricks under $100 in a month and that includes Hive tables",
+    "French": "- En cas d\u0027utilisation l\u00E9g\u00E8re, il est possible de maintenir les bases de donn\u00E9es \u00E0 moins de 100 dollars par mois, y compris les tables Hive."
+  },
+  {
+    "English": "- It is recommended to perform some small experiments and monitor the costs to precisely estimate the cost",
+    "French": "- Il est recommand\u00E9 d\u0027effectuer quelques petites exp\u00E9riences et de contr\u00F4ler les co\u00FBts afin d\u0027estimer pr\u00E9cis\u00E9ment le co\u00FBt."
+  },
+  {
+    "English": "### PostgreSQL Cost",
+    "French": "### Co\u00FBt de PostgreSQL"
+  },
+  {
+    "English": "- PostgreSQL in FSDH uses the [Azure Flexible Server](https://learn.microsoft.com/fr-ca/azure/postgresql/flexible-server/quickstart-create-server-portal) model which is also based on consumption (burstable model)",
+    "French": "- PostgreSQL dans DHSF utilise le mod\u00E8le [Azure Flexible Server] (https://learn.microsoft.com/fr-ca/azure/postgresql/flexible-server/quickstart-create-server-portal) qui est \u00E9galement bas\u00E9 sur la consommation (mod\u00E8le burstable)."
+  },
+  {
+    "English": "- With very light usage, it costs about $30/month",
+    "French": "- En cas d\u0027utilisation tr\u00E8s l\u00E9g\u00E8re, le co\u00FBt est d\u0027environ 30 dollars par mois."
+  },
+  {
+    "English": "- It is recommended to perform experiments as well and monitor the cost to determine more precisely the cost for a specific application",
+    "French": "- Il est recommand\u00E9 d\u0027effectuer \u00E9galement des exp\u00E9riences et de contr\u00F4ler le co\u00FBt afin de d\u00E9terminer plus pr\u00E9cis\u00E9ment le co\u00FBt d\u0027une application sp\u00E9cifique."
+  },
+  {
+    "English": "## Connectivity",
+    "French": "## Connectivit\u00E9"
+  },
+  {
+    "English": "| Feature                      | PostgreSQL | Azure Databricks Database Features     |",
+    "French": "| Fonctionnalit\u00E9 | PostgreSQL | Fonctionnalit\u00E9s de la base de donn\u00E9es Azure Databricks | Fonctionnalit\u00E9s de la base de donn\u00E9es Azure Databricks"
+  },
+  {
+    "English": "| ---------------------------- | ---------- | -------------------------------------- |",
+    "French": "| ---------------------------- | ---------- | -------------------------------------- |"
+  },
+  {
+    "English": "| Connect from Web Application | X          | Not possible                           |",
+    "French": "| Connexion \u00E0 partir d\u0027une application Web | X | Impossible |"
+  },
+  {
+    "English": "| Connect from Power BI        | X          | X                                      |",
+    "French": "| Connecter \u00E0 partir de Power BI | X | X |"
+  },
+  {
+    "English": "| Connect from Tableau         | X          | X                                      |",
+    "French": "| Connecter \u00E0 partir de Tableau | X | X |"
+  },
+  {
+    "English": "| Connect from Python          | X          | Possible but requires cluster to be on |",
+    "French": "| X | Possible mais n\u00E9cessite que le cluster soit activ\u00E9 |"
+  },
+  {
+    "English": "## Conclusion",
+    "French": "## Conclusion"
+  },
+  {
+    "English": "In conclusion, PostgreSQL and Azure Databricks Database Features offer different strengths and use cases. PostgreSQL is well-suited for general-purpose database workloads, web app integration, and complex SQL queries. On the other hand, Azure Databricks database features are optimized for big data analytics, real-time processing, and collaborative data exploration. Depending on your specific use case and requirements, you can choose the database solution that best fits your needs.",
+    "French": "En conclusion, PostgreSQL et Azure Databricks Database Features offrent des atouts et des cas d\u0027utilisation diff\u00E9rents. PostgreSQL est bien adapt\u00E9 aux charges de travail des bases de donn\u00E9es g\u00E9n\u00E9rales, \u00E0 l\u0027int\u00E9gration des applications web et aux requ\u00EAtes SQL complexes. En revanche, les fonctionnalit\u00E9s de base de donn\u00E9es d\u0027Azure Databricks sont optimis\u00E9es pour l\u0027analyse des big data, le traitement en temps r\u00E9el et l\u0027exploration collaborative des donn\u00E9es. En fonction de votre cas d\u0027utilisation sp\u00E9cifique et de vos exigences, vous pouvez choisir la solution de base de donn\u00E9es qui r\u00E9pond le mieux \u00E0 vos besoins."
+  },
+  {
+    "English": "Access aws storage account in Databricks",
+    "French": "Acc\u00E9der au compte de stockage aws dans Databricks"
+  },
+  {
+    "English": "# Access AWS storage account in Databricks",
+    "French": "# Acc\u00E9der au compte de stockage AWS dans Databricks"
+  },
+  {
+    "English": "## Databricks Mount Point",
+    "French": "## Databricks Mount Point"
+  },
+  {
+    "English": "The most common way to cloud storage in Databricks is through mount points. ",
+    "French": "Le moyen le plus courant d\u0027acc\u00E9der au stockage en nuage dans Databricks est d\u0027utiliser des points de montage."
+  },
+  {
+    "English": "The following code will mount the AWS account in databricks in mount point \u0060/mnt/aws\u0060 and make it available to the notebook (See [this for more details on Databricks mount points](https://docs.databricks.com/en/dbfs/mounts.html)).",
+    "French": "Le code suivant va monter le compte AWS dans databricks dans le point de montage \u0060/mnt/aws\u0060 et le rendre disponible pour le notebook (Voir [ceci pour plus de d\u00E9tails sur les points de montage Databricks](https://docs.databricks.com/en/dbfs/mounts.html))."
+  },
+  {
+    "English": "bucket_name = dbutils.secrets.get(scope = \u0022dh-workspace\u0022, key = \u0022\u003Caws_s3_bucket\u003E\u0022) ",
+    "French": "bucket_name = dbutils.secrets.get(scope = \u0022dh-workspace\u0022, key = \u0022\u003Caws_s3_bucket\u003E\u0022)"
+  },
+  {
+    "English": "access_key = dbutils.secrets.get(scope = \u0022dh-workspace\u0022, key = \u0022\u003Caws_access_key\u003E\u0022) ",
+    "French": "access_key = dbutils.secrets.get(scope = \u0022dh-workspace\u0022, key = \u0022\u003Caws_access_key\u003E\u0022)"
+  },
+  {
+    "English": "secret_key = dbutils.secrets.get(scope = \u0022dh-workspace\u0022, key = \u0022\u003Caws_access_key_secret\u003E\u0022) ",
+    "French": "secret_key = dbutils.secrets.get(scope = \u0022dh-workspace\u0022, key = \u0022\u003Caws_access_key_secret\u003E\u0022)"
+  },
+  {
+    "English": "#Mount bucket on databricks",
+    "French": "#Mount bucket on databricks"
+  },
+  {
+    "English": "encoded_secret_key = secret_key.replace(\u0022/\u0022, \u0022%2F\u0022)",
+    "French": "encoded_secret_key = secret_key.replace(\u0022/\u0022, \u0022%2F\u0022)"
+  },
+  {
+    "English": "mount_name = \u0022aws\u0022",
+    "French": "mount_name = \u0022aws\u0022"
+  },
+  {
+    "English": "dbutils.fs.mount(\u0022s3a://%s:%s@%s\u0022 % (access_key, encoded_secret_key, bucket_name), \u0022/mnt/%s\u0022 % mount_name)",
+    "French": "dbutils.fs.mount(\u0022s3a://%s:%s@%s\u0022 % (access_key, encoded_secret_key, bucket_name), \u0022/mnt/%s\u0022 % mount_name)"
+  },
+  {
+    "English": "Access az storage account in Databricks",
+    "French": "Acc\u00E9der \u00E0 un compte de stockage dans Databricks"
+  },
+  {
+    "English": "# Access Azure storage account in Databricks",
+    "French": "# Acc\u00E9der au compte de stockage Azure dans Databricks"
+  },
+  {
+    "English": "The following code will mount the AWS account in databricks in mount point \u0060/mnt/az\u0060 and make it available to the notebook (See [this for more details on Databricks mount points](https://docs.databricks.com/en/dbfs/mounts.html)).",
+    "French": "Le code suivant va monter le compte AWS dans databricks dans le point de montage \u0060/mnt/az\u0060 et le rendre disponible pour le notebook (Voir [ceci pour plus de d\u00E9tails sur les points de montage Databricks](https://docs.databricks.com/en/dbfs/mounts.html))."
+  },
+  {
+    "English": "account_key = dbutils.secrets.get(scope = \u0022dh-workspace\u0022, key = \u0022\u003Caz_key\u003E\u0022) ",
+    "French": "account_key = dbutils.secrets.get(scope = \u0022dh-workspace\u0022, key = \u0022\u003Caz_key\u003E\u0022)"
+  },
+  {
+    "English": "storage_account = dbutils.secrets.get(scope = \u0022dh-workspace\u0022, key = \u0022\u003Caz_name\u003E\u0022) ",
+    "French": "storage_account = dbutils.secrets.get(scope = \u0022dh-workspace\u0022, key = \u0022\u003Caz_name\u003E\u0022)"
+  },
+  {
+    "English": "spark.conf.set(",
+    "French": "spark.conf.set("
+  },
+  {
+    "English": "    (\u0022fs.azure.account.key.%s.blob.core.windows.net\u0022 % storage_account),account_key)",
+    "French": "    (\u0022fs.azure.account.key.%s.blob.core.windows.net\u0022 % storage_account),account_key)"
+  },
+  {
+    "English": "access_path = (\u0022wasbs://\u003Ccontainer_name\u003E@%s.blob.core.windows.net/\u0022 % storage_account)",
+    "French": "access_path = (\u0022wasbs://\u003Cnom_du_conteneur\u003E@%s.blob.core.windows.net/\u0022 % storage_account)"
+  },
+  {
+    "English": "mount_name = \u0022az\u0022",
+    "French": "mount_name = \u0022az\u0022"
+  },
+  {
+    "English": "dbutils.fs.mount(access_path, \u0022/mnt/%s\u0022 % mount_name)",
+    "French": "dbutils.fs.mount(access_path, \u0022/mnt/%s\u0022 % mount_name)"
+  },
+  {
+    "English": "Access gcp storage account in Databricks",
+    "French": "Acc\u00E9der au compte de stockage gcp dans Databricks"
+  },
+  {
+    "English": "The following code will mount the GCP account in databricks in mount point \u0060/mnt/gcp\u0060 and make it available to the notebook (See [this for more details on Databricks mount points](https://docs.databricks.com/en/dbfs/mounts.html)).",
+    "French": "Le code suivant va monter le compte GCP dans databricks dans le point de montage \u0060/mnt/gcp\u0060 et le rendre disponible pour le notebook (Voir [ceci pour plus de d\u00E9tails sur les points de montage Databricks](https://docs.databricks.com/en/dbfs/mounts.html))."
+  },
+  {
+    "English": "gcp_account = dbutils.secrets.get(scope = \u0022dh-workspace\u0022, key = \u0022\u003Cgcp_account_key\u003E\u0022) ",
+    "French": "gcp_account = dbutils.secrets.get(scope = \u0022dh-workspace\u0022, key = \u0022\u003Cgcp_account_key\u003E\u0022)"
+  },
+  {
+    "English": "gcp-project-id = dbutils.secrets.get(scope = \u0022dh-workspace\u0022, key = \u0022\u003Cgcp_project_id\u003E\u0022)",
+    "French": "gcp-project-id = dbutils.secrets.get(scope = \u0022dh-workspace\u0022, key = \u0022\u003Cgcp_project_id\u003E\u0022)"
+  },
+  {
+    "English": "values = json.load(gcp_account)",
+    "French": "values = json.load(gcp_account)"
+  },
+  {
+    "English": "    \u0022google.cloud.auth.service.account.enable\u0022,\u0022true\u0022)",
+    "French": "    \u0022google.cloud.auth.service.account.enable\u0022, \u0022true\u0022)"
+  },
+  {
+    "English": "mount_name = \u0022gcp\u0022",
+    "French": "mount_name = \u0022gcp\u0022"
+  },
+  {
+    "English": "dbutils.fs.mount(\u0022gs://\u003Ccontainer_name\u003E\u0022, \u0022/mnt/gcp\u0022 % mount_name, ,",
+    "French": "dbutils.fs.mount(\u0022gs://\u003Cnom_du_conteneur\u003E\u0022, \u0022/mnt/gcp\u0022 % nom_du_montage, ,"
+  },
+  {
+    "English": "  extra_configs = {\u0022fs.gs.project.id\u0022: gcp-project-id, ",
+    "French": "  extra_configs = {\u0022fs.gs.project.id\u0022 : gcp-project-id,"
+  },
+  {
+    "English": "                   \u0022fs.gs.auth.service.account.email\u0022:\u003Cemail\u003E,",
+    "French": "                   \u0022fs.gs.auth.service.account.email\u0022:\u003Cemail\u003E,"
+  },
+  {
+    "English": "                   \u0022fs.gs.auth.service.account.private.key\u0022:values[\u0022private_key\u0022],",
+    "French": "                   \u0022fs.gs.auth.service.account.private.key\u0022:values[\u0022private_key\u0022],"
+  },
+  {
+    "English": "                   \u0022fs.gs.auth.service.account.private.key.id\u0022: values[\u0022private_key_id\u0022]",
+    "French": "                   \u0022fs.gs.auth.service.account.private.key.id\u0022 : values[\u0022private_key_id\u0022]"
+  },
+  {
+    "English": "                    })",
+    "French": "                    })"
+  },
+  {
+    "English": "![image](/api/media/UserGuide/Databricks/Conda-Packages-1.bmp)",
+    "French": "![image](/api/media/UserGuide/Databricks/Conda-Packages-1.bmp)"
+  },
+  {
+    "English": "Dashboarding Tool Comparison",
+    "French": "Comparaison des outils de tableau de bord"
+  },
+  {
+    "English": "# Dashboards on Databricks Compared to Other Tools",
+    "French": "# Les tableaux de bord sur Databricks compar\u00E9s \u00E0 d\u0027autres outils"
+  },
+  {
+    "English": "Databricks, PowerBI, and Tableau are all powerful tools used for data analysis and visualization, but they have different focuses and capabilities, particularly when it comes to dashboarding. This article will compare the dashboarding capabilities of Databricks on the FSDH, PowerBI, and Tableau.",
+    "French": "Databricks, PowerBI et Tableau sont tous des outils puissants utilis\u00E9s pour l\u0027analyse et la visualisation des donn\u00E9es, mais ils ont des objectifs et des capacit\u00E9s diff\u00E9rents, en particulier en ce qui concerne les tableaux de bord. Cet article compare les capacit\u00E9s de Databricks sur le DHSF, PowerBI et Tableau en mati\u00E8re de tableaux de bord."
+  },
+  {
+    "English": "**Focus:** Primarily a data analytics platform with a focus on big data processing, machine learning, and collaborative data science.",
+    "French": "**L\u0027objectif est de cr\u00E9er une plateforme d\u0027analyse de donn\u00E9es avec un accent particulier sur le traitement des donn\u00E9es massives, l\u0027apprentissage automatique et la science des donn\u00E9es collaborative."
+  },
+  {
+    "English": "**Dashboarding:**",
+    "French": "**Dashboarding:**"
+  },
+  {
+    "English": "* Integration with Notebooks: Dashboards are created from notebooks, which can contain a mix of code, visualizations, and narrative text.",
+    "French": "* Int\u00E9gration avec les carnets de notes : Les tableaux de bord sont cr\u00E9\u00E9s \u00E0 partir de carnets de notes, qui peuvent contenir un m\u00E9lange de code, de visualisations et de texte narratif."
+  },
+  {
+    "English": "* Real-time Data: Because of its Spark-based architecture, Databricks can handle real-time data processing and display live data on dashboards.",
+    "French": "* Donn\u00E9es en temps r\u00E9el : Gr\u00E2ce \u00E0 son architecture bas\u00E9e sur Spark, Databricks peut g\u00E9rer le traitement des donn\u00E9es en temps r\u00E9el et afficher des donn\u00E9es en direct sur des tableaux de bord."
+  },
+  {
+    "English": "* Collaboration: Allows for collaborative work on notebooks, which can then be shared as dashboards within a team or organization.",
+    "French": "* Collaboration : Permet de travailler en collaboration sur des carnets de notes, qui peuvent ensuite \u00EAtre partag\u00E9s en tant que tableaux de bord au sein d\u0027une \u00E9quipe ou d\u0027une organisation."
+  },
+  {
+    "English": "* Customizability: Limited compared to dedicated BI tools; however, it supports various visualization libraries that can be used within notebooks (e.g., Matplotlib or Plotly).",
+    "French": "* Personnalisation : Limit\u00E9e par rapport aux outils de BI sp\u00E9cialis\u00E9s ; cependant, elle prend en charge diverses biblioth\u00E8ques de visualisation qui peuvent \u00EAtre utilis\u00E9es dans les carnets (par exemple, Matplotlib ou Plotly)."
+  },
+  {
+    "English": "* Interactivity: Dashboards can be interactive to an extent, but the interactivity is typically more limited than in PowerBI or Tableau. Dashboards can leverage Python Widgets for interactive inputs.",
+    "French": "* Interactivit\u00E9 : Les tableaux de bord peuvent \u00EAtre interactifs dans une certaine mesure, mais l\u0027interactivit\u00E9 est g\u00E9n\u00E9ralement plus limit\u00E9e que dans PowerBI ou Tableau. Les tableaux de bord peuvent utiliser des widgets Python pour des entr\u00E9es interactives."
+  },
+  {
+    "English": "## PowerBI",
+    "French": "## PowerBI"
+  },
+  {
+    "English": "**Focus:** A business analytics service by Microsoft that provides business users with tools for aggregating, analyzing, visualizing, and sharing data.",
+    "French": "**Focus:** Un service d\u0027analyse commerciale de Microsoft qui fournit aux utilisateurs professionnels des outils d\u0027agr\u00E9gation, d\u0027analyse, de visualisation et de partage des donn\u00E9es."
+  },
+  {
+    "English": "* Ease of Use: Known for its user-friendly interface and drag-and-drop features that make it easy to create dashboards.",
+    "French": "* Facilit\u00E9 d\u0027utilisation : Connu pour son interface conviviale et ses fonctions de glisser-d\u00E9poser qui facilitent la cr\u00E9ation de tableaux de bord."
+  },
+  {
+    "English": "* Data Connectivity: Offers robust data connectivity options to various data sources and has strong integration with other Microsoft products.",
+    "French": "* Connectivit\u00E9 des donn\u00E9es : Offre de solides options de connectivit\u00E9 avec diverses sources de donn\u00E9es et une forte int\u00E9gration avec d\u0027autres produits Microsoft."
+  },
+  {
+    "English": "* Interactivity: Highly interactive dashboards with drill-down capabilities and extensive filtering options.",
+    "French": "* Interactivit\u00E9 : Tableaux de bord hautement interactifs avec des capacit\u00E9s d\u0027exploration et des options de filtrage \u00E9tendues."
+  },
+  {
+    "English": "* Real-time Data: Supports real-time dashboards with streaming datasets.",
+    "French": "* Donn\u00E9es en temps r\u00E9el : Prend en charge les tableaux de bord en temps r\u00E9el avec des ensembles de donn\u00E9es en continu."
+  },
+  {
+    "English": "* Custom Visuals: A large library of visuals and the ability to import custom visuals from the marketplace or create your own.",
+    "French": "* Visuels personnalis\u00E9s : Une vaste biblioth\u00E8que de visuels et la possibilit\u00E9 d\u0027importer des visuels personnalis\u00E9s du march\u00E9 ou de cr\u00E9er les v\u00F4tres."
+  },
+  {
+    "English": "## Tableau",
+    "French": "## Tableau"
+  },
+  {
+    "English": "**Focus:** A leading data visualization tool that is designed to help users create interactive and shareable dashboards.",
+    "French": "**Le but est d\u0027aider les utilisateurs \u00E0 cr\u00E9er des tableaux de bord interactifs et faciles \u00E0 partager."
+  },
+  {
+    "English": "* Visualization Capabilities: Known for its strong data visualization capabilities with a wide array of charts and graphs.",
+    "French": "* Capacit\u00E9s de visualisation : Connu pour ses fortes capacit\u00E9s de visualisation de donn\u00E9es avec un large \u00E9ventail de diagrammes et de graphiques."
+  },
+  {
+    "English": "* User Experience: Intuitive and user-friendly interface that supports drag-and-drop functionalities.",
+    "French": "* Exp\u00E9rience utilisateur : Interface intuitive et conviviale qui prend en charge les fonctionnalit\u00E9s de glisser-d\u00E9poser."
+  },
+  {
+    "English": "* Data Handling: Can handle large volumes of data and connect to various data sources.",
+    "French": "* Traitement des donn\u00E9es : Peut traiter de grands volumes de donn\u00E9es et se connecter \u00E0 diverses sources de donn\u00E9es."
+  },
+  {
+    "English": "* Interactivity: Offers high interactivity with features like tooltips, filters, and parameters that can be used to create highly dynamic dashboards.",
+    "French": "* Interactivit\u00E9 : Offre une grande interactivit\u00E9 gr\u00E2ce \u00E0 des fonctionnalit\u00E9s telles que les infobulles, les filtres et les param\u00E8tres qui peuvent \u00EAtre utilis\u00E9s pour cr\u00E9er des tableaux de bord tr\u00E8s dynamiques."
+  },
+  {
+    "English": "* Community and Resources: Has a large and active community with a wealth of resources, templates, and forums for support.",
+    "French": "* Communaut\u00E9 et ressources : La communaut\u00E9 est vaste et active et propose une multitude de ressources, de mod\u00E8les et de forums d\u0027assistance."
+  },
+  {
+    "English": "| **Feature**                 | **Databricks**                                                                    | **PowerBI**                                               | **Tableau**                                                  |",
+    "French": "| **Feature** | **Databricks** | | **PowerBI** | **Tableau** |"
+  },
+  {
+    "English": "| --------------------------- | --------------------------------------------------------------------------------- | --------------------------------------------------------- | ------------------------------------------------------------ |",
+    "French": "| --------------------------- | --------------------------------------------------------------------------------- | --------------------------------------------------------- | ------------------------------------------------------------ |"
+  },
+  {
+    "English": "| **Primary Focus**           | Data science \u0026 big data analytics                                                 | Business intelligence \u0026 data analytics                    | Data visualization \u0026 business intelligence                   |",
+    "French": "| Vous \u00EAtes un professionnel de l\u0027informatique, de la finance et de l\u0027industrie, et vous avez besoin d\u0027une assistance technique."
+  },
+  {
+    "English": "| **Ease of Use**             | Requires coding knowledge                                                         | User-friendly, intuitive drag-and-drop interface          | User-friendly, intuitive drag-and-drop interface             |",
+    "French": "| L\u0027interface utilisateur est conviviale, intuitive et permet de glisser-d\u00E9poser."
+  },
+  {
+    "English": "| **Real-time Data**          | Handles real-time data processing                                                 | Supports real-time dashboards                             | Supports real-time dashboards with some limitations          |",
+    "French": "| Les donn\u00E9es en temps r\u00E9el **Les donn\u00E9es en temps r\u00E9el** | Traite les donn\u00E9es en temps r\u00E9el | Prend en charge les tableaux de bord en temps r\u00E9el | Prend en charge les tableaux de bord en temps r\u00E9el avec certaines limites |"
+  },
+  {
+    "English": "| **Data Connectivity**       | Connects to various data sources                                                  | Extensive data connectivity, strong Microsoft integration | Wide range of data connection options                        |",
+    "French": "| Connectivit\u00E9 des donn\u00E9es ** Connectivit\u00E9 des donn\u00E9es** | Connexion \u00E0 diverses sources de donn\u00E9es | Connectivit\u00E9 des donn\u00E9es \u00E9tendue, forte int\u00E9gration de Microsoft | Large \u00E9ventail d\u0027options de connexion des donn\u00E9es"
+  },
+  {
+    "English": "| **Interactivity**           | Limited interactivity in dashboards                                               | Highly interactive dashboards                             | Highly interactive dashboards                                |",
+    "French": "| Interactivit\u00E9 limit\u00E9e dans les tableaux de bord | Tableaux de bord hautement interactifs | Tableaux de bord hautement interactifs | Tableaux de bord hautement interactifs | Tableaux de bord hautement interactifs"
+  },
+  {
+    "English": "| **Visualization Libraries** | Large collection of visualizations. Supports libraries like Matplotlib or Plotly. | Large library of visuals, custom visuals can be imported  | Extensive visualization options, strong in data storytelling |",
+    "French": "| Biblioth\u00E8ques de visualisation** | Grande collection de visualisations. Prend en charge des biblioth\u00E8ques comme Matplotlib ou Plotly. | Les options de visualisation sont nombreuses et permettent de raconter des histoires \u00E0 partir de donn\u00E9es."
+  },
+  {
+    "English": "| **Collaboration**           | Collaborative notebook environment                                                | Collaboration features within Microsoft ecosystem         | Collaboration features, strong community support             |",
+    "French": "| Collaboration** | Environnement de travail collaboratif | Fonctionnalit\u00E9s de collaboration au sein de l\u0027\u00E9cosyst\u00E8me Microsoft | Fonctionnalit\u00E9s de collaboration, soutien important de la part de la communaut\u00E9"
+  },
+  {
+    "English": "| **Customizability**         | Limited compared to BI tools, customizable through code                           | High customizability with visuals and reports             | High customizability with a focus on visual appeal           |",
+    "French": "| Les outils d\u0027aide \u00E0 la d\u00E9cision peuvent \u00EAtre personnalis\u00E9s par le biais d\u0027un code, mais la personnalisation est limit\u00E9e par rapport aux outils de BI."
+  },
+  {
+    "English": "| **Geospatial**              | Map visualization is available but limited (no layers, basic geocoding)           | Fully featured with layers and ESRI maps                  | Fully featured with layers and ESRI maps                     |",
+    "French": "| La visualisation des cartes est disponible mais limit\u00E9e (pas de couches, g\u00E9ocodage de base)."
+  },
+  {
+    "English": "| **User Base**               | Scientists, data engineers                                                        | Data analysts, business users                             | Data analysts, business users                                |",
+    "French": "| Les utilisateurs sont des scientifiques, des ing\u00E9nieurs de donn\u00E9es, des analystes de donn\u00E9es, des utilisateurs professionnels, des analystes de donn\u00E9es et des utilisateurs professionnels."
+  },
+  {
+    "English": "In summary, Databricks, PowerBI, and Tableau offer unique dashboarding capabilities tailored to different user need: ",
+    "French": "En r\u00E9sum\u00E9, Databricks, PowerBI et Tableau offrent des capacit\u00E9s uniques de cr\u00E9ation de tableaux de bord adapt\u00E9es aux diff\u00E9rents besoins des utilisateurs :"
+  },
+  {
+    "English": "* Databricks is ideal for scientists and engineers focused on big data and collaboration, offering real-time processing within a coding environment. ",
+    "French": "* Databricks est id\u00E9al pour les scientifiques et les ing\u00E9nieurs qui se concentrent sur le big data et la collaboration, offrant un traitement en temps r\u00E9el dans un environnement de codage."
+  },
+  {
+    "English": "* PowerBI caters to business analysts and non-technical users with its intuitive interface and strong Microsoft integration, enabling the creation of highly interactive dashboards with ease. ",
+    "French": "* PowerBI s\u0027adresse aux analystes commerciaux et aux utilisateurs non techniques gr\u00E2ce \u00E0 son interface intuitive et \u00E0 la forte int\u00E9gration de Microsoft, ce qui permet de cr\u00E9er facilement des tableaux de bord hautement interactifs."
+  },
+  {
+    "English": "* Tableau is useful for users who prioritize advanced data visualization and storytelling with its user-friendly design and dynamic interactivity. ",
+    "French": "* Tableau est utile pour les utilisateurs qui privil\u00E9gient la visualisation avanc\u00E9e des donn\u00E9es et la narration gr\u00E2ce \u00E0 sa conception conviviale et \u00E0 son interactivit\u00E9 dynamique."
+  },
+  {
+    "English": "The selection among these tools depends on the user\u0027s technical proficiency, data requirements, and the desired level of dashboard interactivity and customization.",
+    "French": "Le choix de ces outils d\u00E9pend des comp\u00E9tences techniques de l\u0027utilisateur, des exigences en mati\u00E8re de donn\u00E9es et du niveau souhait\u00E9 d\u0027interactivit\u00E9 et de personnalisation du tableau de bord."
+  },
+  {
+    "English": "![Preview 1](/api/docs/UserGuide/Databricks/Dashboard1.png)",
+    "French": "![Aper\u00E7u 1](/api/docs/UserGuide/Databricks/Dashboard1.png)"
+  },
+  {
+    "English": "![Preview 2](/api/docs/UserGuide/Databricks/Dashboard2.png)",
+    "French": "![Aper\u00E7u 2](/api/docs/UserGuide/Databricks/Dashboard2.png)"
+  },
+  {
+    "English": "![Preview 3](/api/docs/UserGuide/Databricks/Dashboard3.png)",
+    "French": "![Aper\u00E7u 3](/api/docs/UserGuide/Databricks/Dashboard3.png)"
+  },
+  {
+    "English": "![Data tab](/api/docs/UserGuide/Databricks/Tables.png)",
+    "French": "![Onglet de donn\u00E9es](/api/docs/UserGuide/Databricks/Tables.png)"
+  },
+  {
+    "English": "![Create dashboard](/api/docs/UserGuide/Databricks/CreateDashboard.png)",
+    "French": "![Cr\u00E9er un tableau de bord](/api/docs/UserGuide/Databricks/CreateDashboard.png)"
+  },
+  {
+    "English": "![Create query](/api/docs/UserGuide/Databricks/CreateQuery.png)",
+    "French": "![Cr\u00E9er une requ\u00EAte](/api/docs/UserGuide/Databricks/CreateQuery.png)"
+  },
+  {
+    "English": "![ChatGPT](/api/docs/UserGuide/Databricks/ChatGPT.png)",
+    "French": "![ChatGPT](/api/docs/UserGuide/Databricks/ChatGPT.png)"
+  },
+  {
+    "English": "Databricks 101",
+    "French": "Databricks 101"
+  },
+  {
+    "English": "# Getting Started with Databricks on the Federal Science DataHub",
+    "French": "# D\u00E9marrer avec Databricks sur le DataHub scientifique f\u00E9d\u00E9ral"
+  },
+  {
+    "English": "Databricks is a unified data analytics platform that combines the power of Apache Spark with a collaborative environment for data science and machine learning. It provides a fully managed, scalable, and secure cloud-based environment for data processing, analytics, and machine learning workloads. ",
+    "French": "Databricks est une plateforme unifi\u00E9e d\u0027analyse de donn\u00E9es qui combine la puissance d\u0027Apache Spark avec un environnement collaboratif pour la science des donn\u00E9es et l\u0027apprentissage automatique. Elle fournit un environnement cloud enti\u00E8rement g\u00E9r\u00E9, \u00E9volutif et s\u00E9curis\u00E9 pour le traitement des donn\u00E9es, l\u0027analyse et les charges de travail d\u0027apprentissage automatique."
+  },
+  {
+    "English": "This guide will help you get started with Databricks on the Federal Science DataHub. It will focus on:",
+    "French": "Ce guide vous aidera \u00E0 d\u00E9marrer avec Databricks sur le DataHub scientifique f\u00E9d\u00E9ral. Il se concentre sur :"
+  },
+  {
+    "English": "* Provisioning and accessing Databricks from the DataHub",
+    "French": "* Provisionnement et acc\u00E8s aux Databricks \u00E0 partir du DataHub"
+  },
+  {
+    "English": "* Managing Databricks clusters",
+    "French": "* Gestion des clusters Databricks"
+  },
+  {
+    "English": "* Creating and running notebooks",
+    "French": "* Cr\u00E9er et g\u00E9rer des carnets de notes"
+  },
+  {
+    "English": "## Provisioning and Accessing Databricks from the DataHub",
+    "French": "## Approvisionnement et acc\u00E8s aux banques de donn\u00E9es \u00E0 partir du DataHub"
+  },
+  {
+    "English": "To get started with Databricks on the Federal Science DataHub, you will need to provision a Databricks workspace and access it from the DataHub portal.",
+    "French": "Pour commencer \u00E0 utiliser Databricks sur le DataHub scientifique f\u00E9d\u00E9ral, vous devez provisionner un espace de travail Databricks et y acc\u00E9der depuis le portail DataHub."
+  },
+  {
+    "English": "### Provisioning a Databricks Workspace",
+    "French": "### Provisionnement d\u0027un espace de travail Databricks"
+  },
+  {
+    "English": "\u003E **Note:** Only a DataHub workspace administrator or workspace lead can provision a Databricks workspace.",
+    "French": "**Note:** Seul un administrateur d\u0027espace de travail DataHub ou un responsable d\u0027espace de travail peut approvisionner un espace de travail Databricks."
+  },
+  {
+    "English": "To provision a Databricks workspace:",
+    "French": "Pour approvisionner un espace de travail Databricks :"
+  },
+  {
+    "English": "1. Navigate to your DataHub workspace.",
+    "French": "1. Acc\u00E9dez \u00E0 votre espace de travail DataHub."
+  },
+  {
+    "English": "2. Click on the \u0060Toolbox\u0060 tab on the left-hand side.",
+    "French": "2. Cliquez sur l\u0027onglet \u0022Bo\u00EEte \u00E0 outils\u0022 sur le c\u00F4t\u00E9 gauche."
+  },
+  {
+    "English": "3. Under the Databricks card, click on \u0060Add to Workspace\u0060.",
+    "French": "3. Sous la carte Databricks, cliquez sur \u0060Add to Workspace\u0060."
+  },
+  {
+    "English": "After a few minutes, the Databricks workspace will be provisioned and added to your DataHub workspace.",
+    "French": "Apr\u00E8s quelques minutes, l\u0027espace de travail Databricks sera provisionn\u00E9 et ajout\u00E9 \u00E0 votre espace de travail DataHub."
+  },
+  {
+    "English": "![Add Databricks to Workspace](/api/docs/UserGuide/Databricks/databricks-101-1.png)",
+    "French": "![Ajouter Databricks \u00E0 l\u0027espace de travail](/api/docs/UserGuide/Databricks/databricks-101-1.png)"
+  },
+  {
+    "English": "### Accessing Databricks from the DataHub",
+    "French": "### Acc\u00E8s aux bases de donn\u00E9es \u00E0 partir du DataHub"
+  },
+  {
+    "English": "Once the Databricks workspace is provisioned, you can access it from the DataHub portal by two ways:",
+    "French": "Une fois l\u0027espace de travail Databricks provisionn\u00E9, vous pouvez y acc\u00E9der depuis le portail DataHub de deux mani\u00E8res :"
+  },
+  {
+    "English": "* Click on \u0060Databricks\u0060 in the left-hand sidebar, or",
+    "French": "* Cliquez sur \u0060Databricks\u0060 dans la barre lat\u00E9rale gauche, ou"
+  },
+  {
+    "English": "* From the dashboard, click \u0060Open Databricks\u0060 under the Databricks card.",
+    "French": "* Depuis le tableau de bord, cliquez sur \u0060Open Databricks\u0060 sous la carte Databricks."
+  },
+  {
+    "English": "\u003E **Note:** You will be prompted to sign in again using your M365 credentials (the same credentials used to sign in to the DataHub portal).",
+    "French": "**Note:** Il vous sera demand\u00E9 de vous connecter \u00E0 nouveau en utilisant vos identifiants M365 (les m\u00EAmes que ceux utilis\u00E9s pour se connecter au portail DataHub)."
+  },
+  {
+    "English": "![Open Databricks](/api/docs/UserGuide/Databricks/databricks-101-2.png)",
+    "French": "Open Databricks](/api/docs/UserGuide/Databricks/databricks-101-2.png)"
+  },
+  {
+    "English": "## Managing Databricks Clusters",
+    "French": "## Gestion des clusters Databricks"
+  },
+  {
+    "English": "Databricks clusters are groups of virtual machines that power your data processing and analytics workloads. You can create, manage, and terminate clusters from the Databricks workspace.",
+    "French": "Les clusters Databricks sont des groupes de machines virtuelles qui alimentent vos charges de travail de traitement des donn\u00E9es et d\u0027analyse. Vous pouvez cr\u00E9er, g\u00E9rer et mettre fin \u00E0 des clusters \u00E0 partir de l\u0027espace de travail Databricks."
+  },
+  {
+    "English": "By default, we create the \u0060main_cluster\u0060 that we recommend you use for your workloads. It is already configured to access your storage account. Sometimes, you may need to create different clusters for other workloads.",
+    "French": "Par d\u00E9faut, nous cr\u00E9ons le \u0060main_cluster\u0060 que nous vous recommandons d\u0027utiliser pour vos charges de travail. Il est d\u00E9j\u00E0 configur\u00E9 pour acc\u00E9der \u00E0 votre compte de stockage. Parfois, vous pouvez avoir besoin de cr\u00E9er diff\u00E9rents clusters pour d\u0027autres charges de travail."
+  },
+  {
+    "English": "### Creating a Databricks Cluster",
+    "French": "### Cr\u00E9ation d\u0027un cluster Databricks"
+  },
+  {
+    "English": "To create a new Databricks cluster:",
+    "French": "Pour cr\u00E9er un nouveau cluster Databricks :"
+  },
+  {
+    "English": "1. Navigate to the Databricks workspace.",
+    "French": "1. Naviguez vers l\u0027espace de travail Databricks."
+  },
+  {
+    "English": "2. Click on the \u0060Compute\u0060 tab on the left-hand sidebar.",
+    "French": "2. Cliquez sur l\u0027onglet \u0060Compute\u0060 dans la barre lat\u00E9rale de gauche."
+  },
+  {
+    "English": "3. Click on either \u0060Create with Personal Compute\u0060 or choose one of the pre-configured cluster types from the dropdown.",
+    "French": "3. Cliquez sur \u0060Create with Personal Compute\u0060 ou choisissez l\u0027un des types de clusters pr\u00E9configur\u00E9s dans la liste d\u00E9roulante."
+  },
+  {
+    "English": "4. Configure the cluster settings, such as the cluster name, instance type, and number of worker nodes.",
+    "French": "4. Configurez les param\u00E8tres du cluster, tels que le nom du cluster, le type d\u0027instance et le nombre de n\u0153uds de travail."
+  },
+  {
+    "English": "5. Click \u0060Create Cluster\u0060.",
+    "French": "5. Cliquez sur \u0060Create Cluster\u0060."
+  },
+  {
+    "English": "The new cluster will be created and ready for use.",
+    "French": "Le nouveau cluster sera cr\u00E9\u00E9 et pr\u00EAt \u00E0 \u00EAtre utilis\u00E9."
+  },
+  {
+    "English": "\u003E **Note:** We provide a detailed guide on different clusters. You can refer to the [Databricks Cluster Policies](./Cluster-Policies.md) guide for more information.",
+    "French": "**Note:** Nous fournissons un guide d\u00E9taill\u00E9 sur les diff\u00E9rents clusters. Vous pouvez vous r\u00E9f\u00E9rer au guide [Databricks Cluster Policies](./Cluster-Policies.md) pour plus d\u0027informations."
+  },
+  {
+    "English": "![Create Databricks Cluster](/api/docs/UserGuide/Databricks/databricks-101-3.png)",
+    "French": "![Cr\u00E9er un cluster Databricks](/api/docs/UserGuide/Databricks/databricks-101-3.png)"
+  },
+  {
+    "English": "### Starting and Terminating a Databricks Cluster",
+    "French": "### D\u00E9marrage et arr\u00EAt d\u0027un cluster Databricks"
+  },
+  {
+    "English": "To start or terminate a Databricks cluster:",
+    "French": "Pour d\u00E9marrer ou arr\u00EAter un cluster Databricks :"
+  },
+  {
+    "English": "3. Click on the cluster you want to start or terminate.",
+    "French": "3. Cliquez sur le cluster que vous souhaitez d\u00E9marrer ou arr\u00EAter."
+  },
+  {
+    "English": "4. Click on \u0060Start\u0060 or \u0060Terminate\u0060 to manage the cluster.",
+    "French": "4. Cliquez sur \u0060Start\u0060 ou \u0060Terminate\u0060 pour g\u00E9rer le cluster."
+  },
+  {
+    "English": "## Creating and Running Notebooks",
+    "French": "## Cr\u00E9er et g\u00E9rer des carnets de notes"
+  },
+  {
+    "English": "Databricks notebooks are interactive documents that contain code, visualizations, and narrative text. You can create, edit, and run notebooks in the Databricks workspace.",
+    "French": "Les carnets de notes Databricks sont des documents interactifs qui contiennent du code, des visualisations et du texte narratif. Vous pouvez cr\u00E9er, modifier et ex\u00E9cuter des notebooks dans l\u0027espace de travail Databricks."
+  },
+  {
+    "English": "If you\u0027re familiar with Jupyter notebooks, Databricks notebooks are similar but with additional features and integrations.",
+    "French": "Si vous connaissez les notebooks Jupyter, les notebooks Databricks sont similaires, mais avec des fonctionnalit\u00E9s et des int\u00E9grations suppl\u00E9mentaires."
+  },
+  {
+    "English": "### Creating a Databricks Notebook",
+    "French": "### Cr\u00E9ation d\u0027un carnet de notes Databricks"
+  },
+  {
+    "English": "To create a new Databricks notebook:",
+    "French": "Pour cr\u00E9er un nouveau carnet Databricks :"
+  },
+  {
+    "English": "2. Click on the \u0060Workspace\u0060 tab on the left-hand sidebar.",
+    "French": "2. Cliquez sur l\u0027onglet \u0022Espace de travail\u0022 dans la barre lat\u00E9rale de gauche."
+  },
+  {
+    "English": "3. Click on the folder where you want to create the notebook.",
+    "French": "3. Cliquez sur le dossier dans lequel vous souhaitez cr\u00E9er le carnet."
+  },
+  {
+    "English": "4. Click on \u0060Create\u0060 and select \u0060Notebook\u0060.",
+    "French": "4. Cliquez sur \u0022Cr\u00E9er\u0022 et s\u00E9lectionnez \u0022Carnet de notes\u0022."
+  },
+  {
+    "English": "At the top of the notebook, you can select which type of code you want to write. You can choose between Python, Scala, SQL, and R.",
+    "French": "En haut du carnet, vous pouvez s\u00E9lectionner le type de code que vous souhaitez \u00E9crire. Vous avez le choix entre Python, Scala, SQL et R."
+  },
+  {
+    "English": "You can now start writing code, adding visualizations, and documenting your work in the notebook. You should give your notebook a meaningful name to help you identify its purpose.",
+    "French": "Vous pouvez maintenant commencer \u00E0 \u00E9crire du code, \u00E0 ajouter des visualisations et \u00E0 documenter votre travail dans le carnet. Vous devriez donner \u00E0 votre carnet un nom significatif pour vous aider \u00E0 identifier son objectif."
+  },
+  {
+    "English": "### Writing Code in a Databricks Notebook",
+    "French": "### \u00C9crire du code dans un carnet de notes Databricks"
+  },
+  {
+    "English": "Databricks notebooks support multiple programming languages, including Python, Scala, SQL, and R. You can write code in different cells and execute them interactively.",
+    "French": "Les notebooks Databricks prennent en charge plusieurs langages de programmation, notamment Python, Scala, SQL et R. Vous pouvez \u00E9crire du code dans diff\u00E9rentes cellules et les ex\u00E9cuter de mani\u00E8re interactive."
+  },
+  {
+    "English": "Notebooks are split into different cells. You can run each cell individually or run the entire notebook. This allows you to test and iterate on your code easily.",
+    "French": "Les carnets sont divis\u00E9s en diff\u00E9rentes cellules. Vous pouvez ex\u00E9cuter chaque cellule individuellement ou ex\u00E9cuter l\u0027ensemble du carnet. Cela vous permet de tester et d\u0027it\u00E9rer sur votre code facilement."
+  },
+  {
+    "English": "You can also include text cells with Markdown. This allows you to document your code, explain your thought process, and add visualizations to your notebook.",
+    "French": "Vous pouvez \u00E9galement inclure des cellules de texte avec Markdown. Cela vous permet de documenter votre code, d\u0027expliquer votre processus de r\u00E9flexion et d\u0027ajouter des visualisations \u00E0 votre carnet."
+  },
+  {
+    "English": "![A sample Databricks Notebook](/api/docs/UserGuide/Databricks/databricks-101-4.png)",
+    "French": "![Un exemple de carnet de notes Databricks](/api/docs/UserGuide/Databricks/databricks-101-4.png)"
+  },
+  {
+    "English": "### Accessing your Storage Account in Databricks",
+    "French": "### Acc\u00E8s \u00E0 votre compte de stockage dans Databricks"
+  },
+  {
+    "English": "The default cluster \u0060main_cluster\u0060 is already configured to access your storage account. You can access your data stored in Azure Blob Storage, AWS S3, or Google Cloud Storage directly from your Databricks notebook.",
+    "French": "Le cluster par d\u00E9faut \u0060main_cluster\u0060 est d\u00E9j\u00E0 configur\u00E9 pour acc\u00E9der \u00E0 votre compte de stockage. Vous pouvez acc\u00E9der \u00E0 vos donn\u00E9es stock\u00E9es dans Azure Blob Storage, AWS S3, ou Google Cloud Storage directement depuis votre notebook Databricks."
+  },
+  {
+    "English": "With Python, use the following code to access a file in your storage account:",
+    "French": "Avec Python, utilisez le code suivant pour acc\u00E9der \u00E0 un fichier dans votre compte de stockage :"
+  },
+  {
+    "English": "With R, use the following code to access a file in your storage account:",
+    "French": "Avec R, utilisez le code suivant pour acc\u00E9der \u00E0 un fichier dans votre compte de stockage :"
+  },
+  {
+    "English": "\u0060\u0060\u0060r",
+    "French": "\u0060\u0060\u0060r"
+  },
+  {
+    "English": "Replace \u0060sample.csv\u0060 with the path to your file in the storage account.",
+    "French": "Remplacez \u0060sample.csv\u0060 par le chemin de votre fichier dans le compte de stockage."
+  },
+  {
+    "English": "### Running a Databricks Notebook",
+    "French": "### Ex\u00E9cuter un Notebook Databricks"
+  },
+  {
+    "English": "To run a Databricks notebook:",
+    "French": "Pour ex\u00E9cuter un carnet Databricks :"
+  },
+  {
+    "English": "1. Write your code in the notebook cells.",
+    "French": "1. \u00C9crivez votre code dans les cellules du carnet."
+  },
+  {
+    "English": "2. Click on the \u0060Run\u0060 button at the top of the notebook to execute the code in the current cell.",
+    "French": "2. Cliquez sur le bouton \u0022Ex\u00E9cuter\u0022 en haut du bloc-notes pour ex\u00E9cuter le code dans la cellule actuelle."
+  },
+  {
+    "English": "3. You can also use the keyboard shortcut \u0060Shift \u002B Enter\u0060 to run the current cell and move to the next one.",
+    "French": "3. Vous pouvez \u00E9galement utiliser le raccourci clavier \u0060Shift \u002B Enter\u0060 pour ex\u00E9cuter la cellule en cours et passer \u00E0 la suivante."
+  },
+  {
+    "English": "You can run individual cells or the entire notebook. Running a cell will display the output below the cell.",
+    "French": "Vous pouvez ex\u00E9cuter des cellules individuelles ou l\u0027ensemble du cahier. L\u0027ex\u00E9cution d\u0027une cellule affiche la sortie sous la cellule."
+  },
+  {
+    "English": "This guide provided an overview of getting started with Databricks on the Federal Science DataHub. It covered provisioning and accessing Databricks from the DataHub, managing Databricks clusters, and creating and running notebooks.",
+    "French": "Ce guide fournit une vue d\u0027ensemble de la mise en route de Databricks sur le DataHub scientifique f\u00E9d\u00E9ral. Il couvre le provisionnement et l\u0027acc\u00E8s \u00E0 Databricks depuis le DataHub, la gestion des clusters Databricks, et la cr\u00E9ation et l\u0027ex\u00E9cution de notebooks."
+  },
+  {
+    "English": "Databricks provides a powerful environment for data processing, analytics, and machine learning. By leveraging Databricks on the DataHub, you can collaborate with your team, analyze data, and build machine learning models in a secure and scalable cloud-based environment.",
+    "French": "Databricks fournit un environnement puissant pour le traitement des donn\u00E9es, l\u0027analyse et l\u0027apprentissage automatique. En exploitant Databricks sur le DataHub, vous pouvez collaborer avec votre \u00E9quipe, analyser des donn\u00E9es et construire des mod\u00E8les d\u0027apprentissage automatique dans un environnement s\u00E9curis\u00E9 et \u00E9volutif bas\u00E9 sur le cloud."
+  },
+  {
+    "English": "For more advanced topics and in-depth guides, you can explore our Learn section or refer to the official Databricks documentation.",
+    "French": "Pour des sujets plus avanc\u00E9s et des guides approfondis, vous pouvez explorer notre section Learn ou vous r\u00E9f\u00E9rer \u00E0 la documentation officielle de Databricks."
+  },
+  {
+    "English": "![Alt text](/api/docs/UserGuide/Databricks/OldUIExp.png)",
+    "French": "![Alt text](/api/docs/UserGuide/Databricks/OldUIExp.png)"
+  },
+  {
+    "English": "![Alt text](/api/docs/UserGuide/Databricks/NewUIExp.png)",
+    "French": "![Alt text](/api/docs/UserGuide/Databricks/NewUIExp.png)"
+  },
+  {
+    "English": "![Alt text](/api/docs/UserGuide/Databricks/CreateExp.png)",
+    "French": "![Alt text](/api/docs/UserGuide/Databricks/CreateExp.png)"
+  },
+  {
+    "English": "![Alt text](/api/docs/UserGuide/Databricks/ExpMenu.png)",
+    "French": "![Alt text](/api/docs/UserGuide/Databricks/ExpMenu.png)"
+  },
+  {
+    "English": "![Alt text](/api/docs/UserGuide/Databricks/AdvancedConfig.png)",
+    "French": "![Alt text](/api/docs/UserGuide/Databricks/AdvancedConfig.png)"
+  },
+  {
+    "English": "![Alt text](/api/docs/UserGuide/Databricks/ExpOverview.png)",
+    "French": "![Alt text](/api/docs/UserGuide/Databricks/ExpOverview.png)"
+  },
+  {
+    "English": "![Alt text](/api/docs/UserGuide/Databricks/RegisterModel.png)",
+    "French": "![Alt text](/api/docs/UserGuide/Databricks/RegisterModel.png)"
+  },
+  {
+    "English": "![Alt text](/api/docs/UserGuide/Databricks/ModelTab.png)",
+    "French": "![Alt text](/api/docs/UserGuide/Databricks/ModelTab.png)"
+  },
+  {
+    "English": "![Alt text](/api/docs/UserGuide/Databricks/RegisteredModel.png)",
+    "French": "![Alt text](/api/docs/UserGuide/Databricks/RegisteredModel.png)"
+  },
+  {
+    "English": "![Alt text](/api/docs/UserGuide/Databricks/ExpIcon.png)",
+    "French": "![Alt text](/api/docs/UserGuide/Databricks/ExpIcon.png)"
+  },
+  {
+    "English": "![Alt text](/api/docs/UserGuide/Databricks/LoggedRuns.png)",
+    "French": "![Alt text](/api/docs/UserGuide/Databricks/LoggedRuns.png)"
+  },
+  {
+    "English": "![image](/api/docs/UserGuide/Databricks/TokenScopes.png)",
+    "French": "![image](/api/docs/UserGuide/Databricks/TokenScopes.png)"
+  },
+  {
+    "English": "![image](/api/docs/UserGuide/Databricks/GitMenu.png)",
+    "French": "![image](/api/docs/UserGuide/Databricks/GitMenu.png)"
+  },
+  {
+    "English": "![image](/api/docs/UserGuide/Databricks/GitMenu2.png)",
+    "French": "![image](/api/docs/UserGuide/Databricks/GitMenu2.png)"
+  },
+  {
+    "English": "![image](/api/docs/UserGuide/Databricks/MergeConflict.png)",
+    "French": "![image](/api/docs/UserGuide/Databricks/MergeConflict.png)"
+  },
+  {
+    "English": "![image](/api/docs/UserGuide/Databricks/MergeConflict2.png)",
+    "French": "![image](/api/docs/UserGuide/Databricks/MergeConflict2.png)"
+  },
+  {
+    "English": "![image](/api/docs/UserGuide/Databricks/MergeConflict3.png)",
+    "French": "![image](/api/docs/UserGuide/Databricks/MergeConflict3.png)"
+  },
+  {
+    "English": "Modules",
+    "French": "Modules"
+  },
+  {
+    "English": "# Modules in databricks",
+    "French": "# Modules dans les tableaux de donn\u00E9es"
+  },
+  {
+    "English": "https://learn.microsoft.com/fr-ca/azure/databricks/files/workspace-modules",
+    "French": "https://learn.microsoft.com/fr-ca/azure/databricks/files/workspace-modules"
+  },
+  {
+    "English": "![Databricks extension](/api/docs/UserGuide/Databricks/vscode_databricks_1.png)",
+    "French": "![Extension Databricks](/api/docs/UserGuide/Databricks/vscode_databricks_1.png)"
+  },
+  {
+    "English": "![Databricks extension](/api/docs/UserGuide/Databricks/vscode_databricks_2.png)",
+    "French": "![Extension Databricks](/api/docs/UserGuide/Databricks/vscode_databricks_2.png)"
+  },
+  {
+    "English": "![Databricks extension](/api/docs/UserGuide/Databricks/vscode_databricks_3.png)",
+    "French": "![Extension Databricks](/api/docs/UserGuide/Databricks/vscode_databricks_3.png)"
+  },
+  {
+    "English": "![Databricks extension](/api/docs/UserGuide/Databricks/vscode_databricks_4.png)",
+    "French": "![Extension Databricks](/api/docs/UserGuide/Databricks/vscode_databricks_4.png)"
+  },
+  {
+    "English": "![Databricks extension](/api/docs/UserGuide/Databricks/vscode_databricks_5.png)",
+    "French": "![Extension Databricks](/api/docs/UserGuide/Databricks/vscode_databricks_5.png)"
+  },
+  {
+    "English": "![Databricks extension](/api/docs/UserGuide/Databricks/vscode_databricks_6.png)",
+    "French": "![Extension Databricks](/api/docs/UserGuide/Databricks/vscode_databricks_6.png)"
+  },
+  {
+    "English": "    ![view members](/api/docs/UserGuide/GettingStarted/view-members.png)",
+    "French": "    ![voir les membres](/api/docs/UserGuide/GettingStarted/view-members.png)"
+  },
+  {
+    "English": "    ![role dropdown](/api/docs/UserGuide/GettingStarted/role-dropdown.png)",
+    "French": "    ![r\u00F4le dropdown](/api/docs/UserGuide/GettingStarted/role-dropdown.png)"
+  },
+  {
+    "English": "    ![select role](/api/docs/UserGuide/GettingStarted/select-role.png)",
+    "French": "    ![select role](/api/docs/UserGuide/GettingStarted/select-role.png)"
+  },
+  {
+    "English": "    ![save changes](/api/docs/UserGuide/GettingStarted/save-changes.png)",
+    "French": "    ![enregistrer les changements](/api/docs/UserGuide/GettingStarted/save-changes.png)"
+  },
+  {
+    "English": "    ![edit metadata](/api/docs/UserGuide/GettingStarted/edit-metadata.png)",
+    "French": "    ![edit metadata](/api/docs/UserGuide/GettingStarted/edit-metadata.png)"
+  },
+  {
+    "English": "    ![save changes](/api/docs/UserGuide/GettingStarted/save-changes-metadata.png)",
+    "French": "    ![save changes](/api/docs/UserGuide/GettingStarted/save-changes-metadata.png)"
+  },
+  {
+    "English": "    ![create workspace](/api/docs/UserGuide/GettingStarted/create-workspace.png)",
+    "French": "    ![cr\u00E9er un espace de travail](/api/docs/UserGuide/GettingStarted/create-workspace.png)"
+  },
+  {
+    "English": "    ![create workspace dialog](/api/docs/UserGuide/GettingStarted/create-workspace-dialog.png)",
+    "French": "    ![dialogue de cr\u00E9ation d\u0027espace de travail](/api/docs/UserGuide/GettingStarted/create-workspace-dialog.png)"
+  },
+  {
+    "English": "    ![invite new user](/api/docs/UserGuide/GettingStarted/invite-new-user.png)",
+    "French": "    ![inviter un nouvel utilisateur](/api/docs/UserGuide/GettingStarted/invite-new-user.png)"
+  },
+  {
+    "English": "    ![click add new user](/api/docs/UserGuide/GettingStarted/click-add-new-user.png)",
+    "French": "    ![cliquez sur ajouter un nouvel utilisateur](/api/docs/UserGuide/GettingStarted/click-add-new-user.png)"
+  },
+  {
+    "English": "    ![add new users ](/api/docs/UserGuide/GettingStarted/add-new-users.png)",
+    "French": "    ![ajouter de nouveaux utilisateurs ](/api/docs/UserGuide/GettingStarted/add-new-users.png)"
+  },
+  {
+    "English": "    ![invite role dropdown](/api/docs/UserGuide/GettingStarted/invite-role-dropdown.png)",
+    "French": "    ![invite role dropdown](/api/docs/UserGuide/GettingStarted/invite-role-dropdown.png)"
+  },
+  {
+    "English": "    ![invite save changes](/api/docs/UserGuide/GettingStarted/invite-save-changes.png)",
+    "French": "    ![inviter \u00E0 sauvegarder les changements](/api/docs/UserGuide/GettingStarted/invite-save-changes.png)"
+  },
+  {
+    "English": "    ![help button](/api/docs/UserGuide/GettingStarted/help-button.png)",
+    "French": "    ![bouton d\u0027aide](/api/docs/UserGuide/GettingStarted/help-button.png)"
+  },
+  {
+    "English": "    ![get started support](/api/docs/UserGuide/GettingStarted/support-get-started.png)",
+    "French": "    ![aide au d\u00E9marrage](/api/docs/UserGuide/GettingStarted/support-get-started.png)"
+  },
+  {
+    "English": "    ![select area options](/api/docs/UserGuide/GettingStarted/support-select-areas.png)",
+    "French": "    ![options de s\u00E9lection de zones](/api/docs/UserGuide/GettingStarted/support-select-areas.png)"
+  },
+  {
+    "English": "    ![write description](/api/docs/UserGuide/GettingStarted/support-write-description.png)",
+    "French": "    ![write description](/api/docs/UserGuide/GettingStarted/support-write-description.png)"
+  },
+  {
+    "English": "    ![select language](/api/docs/UserGuide/GettingStarted/support-select-language.png)",
+    "French": "    ![s\u00E9lectionner la langue](/api/docs/UserGuide/GettingStarted/support-select-language.png)"
+  },
+  {
+    "English": "    ![submit request](/api/docs/UserGuide/GettingStarted/support-submit-request.png)",
+    "French": "    ![demande de soumission](/api/docs/UserGuide/GettingStarted/support-submit-request.png)"
+  },
+  {
+    "English": "    ![request databricks](/api/docs/UserGuide/GettingStarted/request-new-databricks.png)",
+    "French": "    ![demande de donn\u00E9es](/api/docs/UserGuide/GettingStarted/request-new-databricks.png)"
+  },
+  {
+    "English": "    ![resource is being provisioned](/api/docs/UserGuide/GettingStarted/resource-is-being-provisioned.png)",
+    "French": "    ![la ressource est en cours de provisionnement](/api/docs/UserGuide/GettingStarted/resource-is-being-provisioned.png)"
+  },
+  {
+    "English": "    ![open databricks](/api/docs/UserGuide/GettingStarted/open-databricks.png)",
+    "French": "    ![open databricks](/api/docs/UserGuide/GettingStarted/open-databricks.png)"
+  },
+  {
+    "English": "    ![request storage](/api/docs/UserGuide/GettingStarted/request-new-storage.png)",
+    "French": "    ![demande de stockage](/api/docs/UserGuide/GettingStarted/request-new-storage.png)"
+  },
+  {
+    "English": "    ![view storage](/api/docs/UserGuide/GettingStarted/view-storage.png)",
+    "French": "    ![view storage](/api/docs/UserGuide/GettingStarted/view-storage.png)"
+  },
+  {
+    "English": "![image](/api/docs/UserGuide/Onboarding/0-email-invitation.png)",
+    "French": "![image](/api/docs/UserGuide/Onboarding/0-email-invitation.png)"
+  },
+  {
+    "English": "![image](/api/docs/UserGuide/Onboarding/1-aad-permission.png)",
+    "French": "![image](/api/docs/UserGuide/Onboarding/1-aad-permission.png)"
+  },
+  {
+    "English": "![image](/api/docs/UserGuide/Onboarding/2-mfa-request.png)",
+    "French": "![image](/api/docs/UserGuide/Onboarding/2-mfa-request.png)"
+  },
+  {
+    "English": "![image](/api/docs/UserGuide/Onboarding/4-mfa-validation.png)",
+    "French": "![image](/api/docs/UserGuide/Onboarding/4-mfa-validation.png)"
+  },
+  {
+    "English": "![image](/api/docs/UserGuide/Onboarding/5-language-selection.png)",
+    "French": "![image](/api/docs/UserGuide/Onboarding/5-language-selection.png)"
+  },
+  {
+    "English": "![image](/api/docs/UserGuide/Onboarding/6-Terms-and-Conditions.png)",
+    "French": "![image](/api/docs/UserGuide/Onboarding/6-Terms-and-Conditions.png)"
+  },
+  {
+    "English": "![Registration Page](/api/docs/UserGuide/Preregistration/registration-page.png)",
+    "French": "![Page d\u0027inscription](/api/docs/UserGuide/Preregistration/registration-page.png)"
+  },
+  {
+    "English": "![Login Page](/api/docs/UserGuide/Preregistration/login-page.png)",
+    "French": "![Page de connexion](/api/docs/UserGuide/Preregistration/login-page.png)"
+  },
+  {
+    "English": "    ![Pick an account](/api/docs/UserGuide/Preregistration/pick-an-account.png)",
+    "French": "    Choisissez un compte](/api/docs/UserGuide/Preregistration/pick-an-account.png)"
+  },
+  {
+    "English": "    ![Permissions](/api/docs/UserGuide/Preregistration/permissions.png)",
+    "French": "    ![Permissions](/api/docs/UserGuide/Preregistration/permissions.png)"
+  },
+  {
+    "English": "    ![Just a moment](/api/docs/UserGuide/Preregistration/wait-for-prompt.png)",
+    "French": "    ![Un instant](/api/docs/UserGuide/Preregistration/wait-for-prompt.png)"
+  },
+  {
+    "English": "    ![More information required](/api/docs/UserGuide/Preregistration/click-next.png)",
+    "French": "    Plus d\u0027informations requises](/api/docs/UserGuide/Peregistration/click-next.png)"
+  },
+  {
+    "English": "    ![Password entry](/api/docs/UserGuide/Preregistration/password-entry.png)",
+    "French": "    ![Entr\u00E9e du mot de passe](/api/docs/UserGuide/Preregistration/password-entry.png)"
+  },
+  {
+    "English": "    ![MFA Next](/api/docs/UserGuide/Preregistration/mfa-01.png)",
+    "French": "    ![AMF Suivant](/api/docs/UserGuide/Peregistration/mfa-01.png)"
+  },
+  {
+    "English": "    ![MFA Next](/api/docs/UserGuide/Preregistration/mfa-02.png)",
+    "French": "    ![AMF Suivant](/api/docs/UserGuide/Preregistration/mfa-02.png)"
+  },
+  {
+    "English": "    ![MFA Scan QR Code](/api/docs/UserGuide/Preregistration/mfa-03.png)",
+    "French": "    Code QR de balayage de l\u0027AMF](/api/docs/UserGuide/Preregistration/mfa-03.png)"
+  },
+  {
+    "English": "    ![MFA Verify Prompt](/api/docs/UserGuide/Preregistration/mfa-04.png)",
+    "French": "    Invite de v\u00E9rification de l\u0027AMF](/api/docs/UserGuide/Preregistration/mfa-04.png)"
+  },
+  {
+    "English": "    ![MFA Next](/api/docs/UserGuide/Preregistration/mfa-05.png)",
+    "French": "    MFA Next](/api/docs/UserGuide/Peregistration/mfa-05.png)"
+  },
+  {
+    "English": "    ![MFA Done](/api/docs/UserGuide/Preregistration/mfa-06.png)",
+    "French": "    MFA Done](/api/docs/UserGuide/Peregistration/mfa-06.png)"
+  },
+  {
+    "English": "    ![MFA Alternate Methods](/api/docs/UserGuide/Preregistration/mfa-01.png)",
+    "French": "    M\u00E9thodes alternatives d\u0027AMF](/api/docs/UserGuide/Peregistration/mfa-01.png)"
+  },
+  {
+    "English": "    ![Alternate MFA Methods](/api/docs/UserGuide/Preregistration/mfa-08.png)",
+    "French": "    Autres m\u00E9thodes d\u0027AMF](/api/docs/UserGuide/Peregistration/mfa-08.png)"
+  },
+  {
+    "English": "    ![Enter phone number](/api/docs/UserGuide/Preregistration/mfa-09.png)",
+    "French": "    ![Entrez le num\u00E9ro de t\u00E9l\u00E9phone](/api/docs/UserGuide/Preregistration/mfa-09.png)"
+  },
+  {
+    "English": "    ![Enter SMS Code](/api/docs/UserGuide/Preregistration/mfa-10.png)",
+    "French": "    Entrez le code SMS](/api/docs/UserGuide/Peregistration/mfa-10.png)"
+  },
+  {
+    "English": "    ![Confirm SMS verification](/api/docs/UserGuide/Preregistration/mfa-11.png)",
+    "French": "    ![Confirmer la v\u00E9rification par SMS](/api/docs/UserGuide/Preregistration/mfa-11.png)"
+  },
+  {
+    "English": "    ![Phone MFA Complete](/api/docs/UserGuide/Preregistration/mfa-12.png)",
+    "French": "    Phone MFA Complete](/api/docs/UserGuide/Preregistration/mfa-12.png)"
+  },
+  {
+    "English": "    ![Stay signed in](/api/docs/UserGuide/Preregistration/stay-signed-in.png)",
+    "French": "    Restez connect\u00E9](/api/docs/UserGuide/Peregistration/stay-signed-in.png)"
+  },
+  {
+    "English": "    ![Language selection](/api/docs/UserGuide/Preregistration/language-selection.png)",
+    "French": "    ![S\u00E9lection de la langue](/api/docs/UserGuide/Peregistration/language-selection.png)"
+  },
+  {
+    "English": "    ![Terms and Conditions](/api/docs/UserGuide/Preregistration/terms-and-conditions.png)",
+    "French": "    ![Conditions g\u00E9n\u00E9rales](/api/docs/UserGuide/Peregistration/terms-and-conditions.png)"
+  },
+  {
+    "English": "![IAM in service menu](/api/docs/UserGuide/Storage/import_aws-01.png)",
+    "French": "IAM dans le menu service](/api/docs/UserGuide/Storage/import_aws-01.png)"
+  },
+  {
+    "English": "![Users section](/api/docs/UserGuide/Storage/import_aws-02.png)",
+    "French": "Section utilisateurs](/api/docs/UserGuide/Storage/import_aws-02.png)"
+  },
+  {
+    "English": "![Create user](/api/docs/UserGuide/Storage/import_aws-03.png)",
+    "French": "![Cr\u00E9er un utilisateur](/api/docs/UserGuide/Storage/import_aws-03.png)"
+  },
+  {
+    "English": "![Assign user name](/api/docs/UserGuide/Storage/import_aws-04.png)",
+    "French": "![Attribuer un nom d\u0027utilisateur](/api/docs/UserGuide/Storage/import_aws-04.png)"
+  },
+  {
+    "English": "![Assign policy](/api/docs/UserGuide/Storage/import_aws-05.png)  ",
+    "French": "![Assigner une politique](/api/docs/UserGuide/Storage/import_aws-05.png)"
+  },
+  {
+    "English": "![Review and create](/api/docs/UserGuide/Storage/import_aws-06.png)",
+    "French": "![R\u00E9viser et cr\u00E9er](/api/docs/UserGuide/Storage/import_aws-06.png)"
+  },
+  {
+    "English": "![Find user in list](/api/docs/UserGuide/Storage/import_aws-07.png)",
+    "French": "![Trouver un utilisateur dans la liste](/api/docs/UserGuide/Storage/import_aws-07.png)"
+  },
+  {
+    "English": "![Create access key](/api/docs/UserGuide/Storage/import_aws-08.png)",
+    "French": "![Cr\u00E9er une cl\u00E9 d\u0027acc\u00E8s](/api/docs/UserGuide/Storage/import_aws-08.png)"
+  },
+  {
+    "English": "![Access key use case](/api/docs/UserGuide/Storage/import_aws-09.png)",
+    "French": "![Cas d\u0027utilisation de la cl\u00E9 d\u0027acc\u00E8s](/api/docs/UserGuide/Storage/import_aws-09.png)"
+  },
+  {
+    "English": "![Key description](/api/docs/UserGuide/Storage/import_aws-10.png)",
+    "French": "![Description de la cl\u00E9](/api/docs/UserGuide/Storage/import_aws-10.png)"
+  },
+  {
+    "English": "![Access key](/api/docs/UserGuide/Storage/import_aws-11.png)",
+    "French": "![Cl\u00E9 d\u0027acc\u00E8s](/api/docs/UserGuide/Storage/import_aws-11.png)"
+  },
+  {
+    "English": "![AWS configuration dialog](/api/docs/UserGuide/Storage/import_aws-12.png)",
+    "French": "![Dialogue de configuration AWS](/api/docs/UserGuide/Storage/import_aws-12.png)"
+  },
+  {
+    "English": "![Access keys in menu](/api/docs/UserGuide/Storage/import_azure-01.png)",
+    "French": "![Touches d\u0027acc\u00E8s au menu](/api/docs/UserGuide/Storage/import_azure-01.png)"
+  },
+  {
+    "English": "![Access keys page](/api/docs/UserGuide/Storage/import_azure-02.png)",
+    "French": "Page des cl\u00E9s d\u0027acc\u00E8s](/api/docs/UserGuide/Storage/import_azure-02.png)"
+  },
+  {
+    "English": "![Copy access key](/api/docs/UserGuide/Storage/import_azure-03.png)",
+    "French": "Copier la cl\u00E9 d\u0027acc\u00E8s](/api/docs/UserGuide/Storage/import_azure-03.png)"
+  },
+  {
+    "English": "![Azure storage dialogue](/api/docs/UserGuide/Storage/import_azure-04.png)",
+    "French": "Dialogue sur le stockage Azure](/api/docs/UserGuide/Storage/import_azure-04.png)"
+  },
+  {
+    "English": "![Service accounts in menu](/api/docs/UserGuide/Storage/import_gcp-01.png)",
+    "French": "![Comptes de service dans le menu](/api/docs/UserGuide/Storage/import_gcp-01.png)"
+  },
+  {
+    "English": "![Create account button](/api/docs/UserGuide/Storage/import_gcp-02.png)",
+    "French": "Bouton de cr\u00E9ation de compte](/api/docs/UserGuide/Storage/import_gcp-02.png)"
+  },
+  {
+    "English": "![Service account details](/api/docs/UserGuide/Storage/import_gcp-03.png)",
+    "French": "![D\u00E9tails du compte de service](/api/docs/UserGuide/Storage/import_gcp-03.png)"
+  },
+  {
+    "English": "![Service account user page](/api/docs/UserGuide/Storage/import_gcp-04.png)",
+    "French": "![Page utilisateur du compte de service](/api/docs/UserGuide/Storage/import_gcp-04.png)"
+  },
+  {
+    "English": "![Create private key dialog](/api/docs/UserGuide/Storage/import_gcp-05.png)",
+    "French": "![Bo\u00EEte de dialogue Cr\u00E9er une cl\u00E9 priv\u00E9e](/api/docs/UserGuide/Storage/import_gcp-05.png)"
+  },
+  {
+    "English": "![Import GCP storage dialog](/api/docs/UserGuide/Storage/import_gcp-06.png)",
+    "French": "![Dialogue d\u0027importation du stockage GCP](/api/docs/UserGuide/Storage/import_gcp-06.png)"
+  },
+  {
+    "English": "![Admin storage selector](/api/docs/UserGuide/Storage/storage-selector-01.png)",
+    "French": "![S\u00E9lecteur de stockage administrateur](/api/docs/UserGuide/Storage/storage-selector-01.png)"
+  },
+  {
+    "English": "![Non-admin storage selector](/api/docs/UserGuide/Storage/storage-selector-02.png)",
+    "French": "![S\u00E9lecteur de stockage non administrateur](/api/docs/UserGuide/Storage/storage-selector-02.png)"
+  },
+  {
+    "English": "![Storage dialog](/api/docs/UserGuide/Storage/storage-dialog.png)",
+    "French": "![Dialogue sur le stockage](/api/docs/UserGuide/Storage/storage-dialog.png)"
+  },
+  {
+    "English": "![](database-1.png)",
+    "French": "![](database-1.png)"
+  },
+  {
+    "English": "![](database-2.png)",
+    "French": "![](database-2.png)"
+  },
+  {
+    "English": "![](database-3.png)",
+    "French": "![](database-3.png)"
+  },
+  {
+    "English": "    ![Total Spending link on DataHub](/api/docs/UserGuide/Workspace/img/access_costing.png)",
+    "French": "    Lien vers les d\u00E9penses totales sur DataHub](/api/docs/UserGuide/Workspace/img/access_costing.png)"
+  },
+  {
+    "English": "    ![Costing Analysis Page](/api/docs/UserGuide/Workspace/img/costing_page.png)",
+    "French": "    Page d\u0027analyse des co\u00FBts](/api/docs/UserGuide/Workspace/img/costing_page.png)"
+  },
+  {
+    "English": "Icon LibraryBooks",
+    "French": "Icon LibraryBooks"
+  },
+  {
+    "English": "  - Load and Share Data",
+    "French": "  - Charger et partager des donn\u00E9es"
+  },
+  {
+    "English": "Add data UI in Databricks",
+    "French": "Ajouter une interface utilisateur dans Databricks"
+  },
+  {
+    "English": "  - Databricks and Python Notebooks  ",
+    "French": "  - Databricks et Notebooks Python"
+  },
+  {
+    "English": "Intro to Databricks",
+    "French": "Intro \u00E0 Databricks"
+  },
+  {
+    "English": "  - Use PostgreSQL on FSDH",
+    "French": "  - Utiliser PostgreSQL sur DHSF"
+  },
+  {
+    "English": "Create and use a PostgreSQL Database on FSDH",
+    "French": "Cr\u00E9er et utiliser une base de donn\u00E9es PostgreSQL sur DHSF"
+  },
+  {
+    "English": "Compare PostgreSQL and Databricks",
+    "French": "Comparer PostgreSQL et Databricks"
+  },
+  {
+    "English": "  - Visualize My data",
+    "French": "  - Visualiser mes donn\u00E9es"
+  },
+  {
+    "English": "Compare Dashboarding Tools",
+    "French": "Comparer les outils de tableau de bord"
+  },
+  {
+    "English": "  - Connect APIs",
+    "French": "  - Connecter les API"
+  },
+  {
+    "English": "  - Working in Python",
+    "French": "  - Travailler en Python"
+  },
+  {
+    "English": "  - Working in R",
+    "French": "  - Travailler en R"
+  },
+  {
+    "English": "Working with R and Python Modules",
+    "French": "Travailler avec les modules R et Python"
+  },
+  {
+    "English": "  - Machine Learning",
+    "French": "  - Apprentissage automatique"
+  },
+  {
+    "English": "  - Scheduling Jobs",
+    "French": "  - Planification des tâches"
+  },
+  {
+    "English": "  - Web Applications",
+    "French": "  - Applications Web"
+  },
+  {
+    "English": "  - Geospatial",
+    "French": "  - G\u00E9ospatial"
+  },
+  {
+    "English": "Digital Elevation Models (DEM) Tools and Raster Calculator",
+    "French": "Outils pour les mod\u00E8les num\u00E9riques d\u0027\u00E9l\u00E9vation (MNE) et calculateur de donn\u00E9es matricielles"
+  },
+  {
+    "English": "2020020",
+    "French": "2020020"
+  },
+  {
+    "English": "Icon Workspaces",
+    "French": "Espaces de travail \u00E0 ic\u00F4nes"
+  },
+  {
+    "English": "  - Getting Started",
+    "French": "  - Pour commencer"
+  },
+  {
+    "English": "Icon HelpOutline",
+    "French": "Ic\u00F4ne HelpOutline"
+  },
+  {
+    "English": "  - Request Support",
+    "French": "  - Demande de soutien"
+  },
+  {
+    "English": "  - Frequently Asked Questions",
+    "French": "  - Questions fr\u00E9quemment pos\u00E9es"
+  },
+  {
+    "English": "  - Updates ",
+    "French": "  - Mises \u00E0 jour"
+  },
+  {
+    "English": "# Welcome to FSDH",
+    "French": "# Bienvenue \u00E0 la DHSF"
+  },
+  {
+    "English": "\u003E Infra and Portal docs",
+    "French": "\u003E Documents sur l\u0027infrastructure et le portail"
   }
 ]
