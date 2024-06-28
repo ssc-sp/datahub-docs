@@ -1,9 +1,11 @@
 # Git/GitHub Integration with Databricks
 
+<!---removed due to accessibility requirements
 <video width="600" height="350" controls>
     <source src="/api/media/git-integration.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
+-->
 
 ## Pre-requisites
 
