@@ -83,6 +83,10 @@
   - [Stockage BYO (Azure)](/fr/Storage/Stockage-BYO-Azure.md)
   - [Médias statiques](/fr/Storage/Médias-statiques.md)
   - [Limites de stockage](/fr/Storage/Limites-de-stockage.md)
+ 
+- Teams
+
+  - [Configuration du canal Teams](/fr/TeamsSetup/TeamsChannelSetup.md)
 
 - Applications pour l'espace de travail
 
