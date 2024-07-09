@@ -1,6 +1,18 @@
 - [Federal Science DataHub User Guide](/UserGuide/User-Guide.md)
 
 - Learn [](Icon:LibraryBooks)
+  - Getting Started
+    - [Account Registration](/UserGuide/Preregistration/Preregistration.md)
+    - [Create a Workspace](/UserGuide/GettingStarted/Creating-a-workspace.md)
+    - [Complete Metadata](/UserGuide/GettingStarted/Complete-metadata.md)
+    - [Request Storage](/UserGuide/GettingStarted/Request-storage.md)
+    - [Request Databricks](/UserGuide/GettingStarted/Request-databricks.md)
+    - [Invite a User](/UserGuide/GettingStarted/Invite-a-user.md)
+    - [Change a User's Role](/UserGuide/GettingStarted/Change-a-user-role.md)
+    - [Monitor Costs](/UserGuide/GettingStarted/Monitor-workspace-costs.md)
+    - [Request Support](/UserGuide/GettingStarted/Logging-a-ticket.md)
+    - [Metadata Profile Details](/UserGuide/Workspace/Workspace-Profile-Metadata.md)
+
   - Load and Share Data
     - [How to access your storage account in Databricks](/UserGuide/Databricks/Access-your-storage-account-in-Databricks.md)
     - [How to use AzCopy to transfer large files](/UserGuide/Databricks/AzCopy.md)      
@@ -52,19 +64,6 @@
 
   - DataTalks
     - [DataTalks - Exploring the Power of the Federal Science DataHub](/UserGuide/Tutorials/DataTalks.md)
-
-- Workspaces [](Icon:Workspaces)
-  - Getting Started
-    - [Account Registration](/UserGuide/Preregistration/Preregistration.md)
-    - [Create a Workspace](/UserGuide/GettingStarted/Creating-a-workspace.md)
-    - [Complete Metadata](/UserGuide/GettingStarted/Complete-metadata.md)
-    - [Request Storage](/UserGuide/GettingStarted/Request-storage.md)
-    - [Request Databricks](/UserGuide/GettingStarted/Request-databricks.md)
-    - [Invite a User](/UserGuide/GettingStarted/Invite-a-user.md)
-    - [Change a User's Role](/UserGuide/GettingStarted/Change-a-user-role.md)
-    - [Monitor Costs](/UserGuide/GettingStarted/Monitor-workspace-costs.md)
-    - [Request Support](/UserGuide/GettingStarted/Logging-a-ticket.md)
-    - [Metadata Profile Details](/UserGuide/Workspace/Workspace-Profile-Metadata.md)
 
 - Support [](Icon:HelpOutline)
   - Request Support

@@ -1,6 +1,18 @@
 - [Guide de l'utilisateur du DataHub scientifique fédéral](/fr/UserGuide/Guide-de-l'utilisateur.md)
 
 - Apprendre [](Icon:LibraryBooks)
+  - Pour commencer
+    - [Enregistrement du compte](/fr/UserGuide/Preregistration/Preregistration.md)
+    - [Créer un espace de travail](/fr/UserGuide/GettingStarted/Creating-a-workspace.md)
+    - [Métadonnées complètes](/fr/UserGuide/GettingStarted/Complete-metadata.md)
+    - [Demande de stockage](/fr/UserGuide/GettingStarted/Demande-de-stockage.md)
+    - [Demande de Databricks](/fr/UserGuide/GettingStarted/Demander-des-databricks.md)
+    - [Inviter un utilisateur](/fr/UserGuide/GettingStarted/Invite-a-user.md)
+    - [Modifier le rôle d'un utilisateur](/fr/UserGuide/GettingStarted/Change-a-user-role.md.md)
+    - [Contrôle des coûts](/fr/UserGuide/GettingStarted/Contrôler-les-coûts-de-l'espace-de-travail.md)
+    - [Demande de soutien](/fr/UserGuide/GettingStarted/Logging-a-ticket.md)
+    - [Détails du profil de métadonnées](/fr/UserGuide/Workspace/Métadonnées-du-profil-de-l'espace-de-travail.md)
+
   - Charger et partager des données
     - [Comment accéder à votre compte de stockage dans Databricks ?](/fr/UserGuide/Databricks/Accédez-à-votre-compte-de-stockage-dans-Databricks.md)
     - [Comment utiliser AzCopy pour transférer des fichiers volumineux ?](/fr/UserGuide/Databricks/AzCopy.md)      
@@ -52,19 +64,6 @@
 
   - Discussions sur les données
     - [DataTalks - Explorer la puissance du DataHub scientifique fédéral](/fr/UserGuide/Tutorials/Discussions-sur-les-données.md)
-
-- Espace de travail [](Icon:Workspaces)
-  - Pour commencer
-    - [Enregistrement du compte](/fr/UserGuide/Preregistration/Preregistration.md)
-    - [Créer un espace de travail](/fr/UserGuide/GettingStarted/Creating-a-workspace.md)
-    - [Métadonnées complètes](/fr/UserGuide/GettingStarted/Complete-metadata.md)
-    - [Demande de stockage](/fr/UserGuide/GettingStarted/Demande-de-stockage.md)
-    - [Demande de Databricks](/fr/UserGuide/GettingStarted/Demander-des-databricks.md)
-    - [Inviter un utilisateur](/fr/UserGuide/GettingStarted/Invite-a-user.md)
-    - [Modifier le rôle d'un utilisateur](/fr/UserGuide/GettingStarted/Change-a-user-role.md.md)
-    - [Contrôle des coûts](/fr/UserGuide/GettingStarted/Contrôler-les-coûts-de-l'espace-de-travail.md)
-    - [Demande de soutien](/fr/UserGuide/GettingStarted/Logging-a-ticket.md)
-    - [Détails du profil de métadonnées](/fr/UserGuide/Workspace/Métadonnées-du-profil-de-l'espace-de-travail.md)
 
 - Support [](Icon:HelpOutline)
   - Demandes de soutien
