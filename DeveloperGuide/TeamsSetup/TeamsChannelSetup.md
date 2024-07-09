@@ -4,8 +4,10 @@ In order to receive alerts through Teams, a Teams channel must be setup with an 
 
 ## Creating the Channel
 
-1. Select the **Teams** tab from the menu on the left. 			![Teams tab](setup-1-1.png)
-1. Click the **More options** (three dots) menu next to the desired team.			![More options](setup-1-2.png)
+1. Select the **Teams** tab from the menu on the left.
+	![Teams tab](setup-1-1.png)
+1. Click the **More options** (three dots) menu next to the desired team.
+	![More options](setup-1-2.png)
 1. From the menu, select **Add channel**.
 	![Add channel](setup-1-3.png)
 1. Enter the information for the new channel, and click **Create** when finished.
