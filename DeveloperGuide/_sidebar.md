@@ -84,10 +84,6 @@
   - [Static Media](/Storage/Static_Media.md)
   - [Storage Limits](/Storage/Storage_Limits.md)
 
-- Teams
-
-  - [Teams Channel Setup](/TeamsSetup/TeamsChannelSetup.md)
-
 - Workspace Apps
 
   - [Configuration](/Workspace-Apps/Configuration.md)
