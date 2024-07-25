@@ -6,11 +6,13 @@ draft: true
 
 # Databricks Workflows
 
+<!---removed due to accessibility requirements
 <video width="600" height="350" controls>
     <source src="/api/media/workflows.mp4" type="video/mp4" />
     <track label="English" kind="subtitles" srclang="en" src="/api/media/workflows.vtt" default/>
     Votre navigateur ne prend pas en charge la balise vidéo.
 </video>
+-->
 
 Les workflows dans Databricks sont un moyen d'orchestrer les notebooks dans votre environnement. Ils vous fournissent une interface de haut niveau qui vous permet de concevoir des charges de travail de bout en bout, telles que l'apprentissage automatique.
 

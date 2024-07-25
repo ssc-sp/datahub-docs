@@ -8,11 +8,13 @@ draft: true
 
 Ce tutoriel explique comment prévoir les températures de surface de la mer à l'aide d'AutoML et de Databricks.
 
+<!---removed due to accessibility requirements
 <video width="600" height="350" controls>
     <source src="/api/media/sst-forecasting.mp4" type="video/mp4" />
     <track label="English" kind="subtitles" srclang="en" src="/api/media/sst-forecasting.vtt" default/>
     Votre navigateur ne prend pas en charge la balise vidéo.
 </video>
+-->
 
 ## Ressources utilisées :
 
