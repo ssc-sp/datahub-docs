@@ -51,18 +51,23 @@ gh repo clone <repo>
 
 The example demo scripts require Powershell to connect with Azure and load the secrets. Powershell can be installed on linux through APT, see [Installing PowerShell on Ubuntu](https://learn.microsoft.com/en-us/powershell/scripting/install/install-ubuntu?view=powershell-7.4)
 
-Also WSL utilities might be required to let you login in Azure. See [utilities for WSL](https://wslutiliti.es/wslu/install.html#ubuntu)
+#### WSL Utilities
+
+Also WSL utilities might be required to let you login in Azure. See [utilities for WSL](https://wslutiliti.es/wslu/install.html#ubuntu). Without this, the linux WSL system won't be able to open a browser window to let you authenticate.
+
 ```bash
 sudo add-apt-repository ppa:wslutilities/wslu
 sudo apt update
 sudo apt install wslu
 ```
 
+#### Copy cloud secrets into local vault
+
 ```bash
 ./load-secrets.ps1
 ```
 
-This script will require your authentication in Azure and will load into environment variables the secrets from the FSDH Azure Keyvault to enable your local application to connect to databases and storage accounts.
+This script will authenticate in FSDH Azure and will load into environment variables the secrets from the FSDH Azure Keyvault which will enable your local application to connect to databases and storage accounts.
 
 ### Run the web application
 
