@@ -4,7 +4,7 @@ This will guide you through the process of registering and setting up your accou
 
 ## Account Registration
 
-![Registration Page](/api/docs/UserGuide/Preregistration/registration-page.png)
+![Registration Page](https://github.com/ssc-sp/datahub-docs/blob/next/UserGuide/Preregistration/registration-page.png?raw=true)
 *View of the registration page.*
 
 1. Using a modern browser (Edge or Chrome) navigate to the FSDH registration page at [https://federal-science-datahub.canada.ca/register](https://federal-science-datahub.canada.ca/register)
@@ -20,7 +20,7 @@ This will guide you through the process of registering and setting up your accou
 
 ## Account Setup
 
-![Login Page](/api/docs/UserGuide/Preregistration/login-page.png)
+![Login Page](https://github.com/ssc-sp/datahub-docs/blob/next/UserGuide/Preregistration/login-page.png?raw=true)
 *View of the login page.*
 
 
@@ -29,20 +29,20 @@ This will guide you through the process of registering and setting up your accou
     > *Note: If you have not registered, you can click the **Register instead** link to navigate to the registration page.*
 
 1. Select your Government of Canada account to login. 
-    ![Pick an account](/api/docs/UserGuide/Preregistration/pick-an-account.png)
+    ![Pick an account](https://github.com/ssc-sp/datahub-docs/blob/next/UserGuide/Preregistration/pick-an-account.png?raw=true)
 
 1. Read and accept the permissions required by the FSDH application in our Azure Tenant `163Oxygen`.
-    ![Permissions](/api/docs/UserGuide/Preregistration/permissions.png)
+    ![Permissions](https://github.com/ssc-sp/datahub-docs/blob/next/UserGuide/Preregistration/permissions.png?raw=true)
 
 1. Wait for the next prompt to appear.
-    ![Just a moment](/api/docs/UserGuide/Preregistration/wait-for-prompt.png)
+    ![Just a moment](https://github.com/ssc-sp/datahub-docs/blob/next/UserGuide/Preregistration/wait-for-prompt.png?raw=true)
 
 1. Click `Next`
-    ![More information required](/api/docs/UserGuide/Preregistration/click-next.png)
+    ![More information required](https://github.com/ssc-sp/datahub-docs/blob/next/UserGuide/Preregistration/click-next.png?raw=true)
 
 1. Input your Government of Canada email address and your M365/Teams password.
     > *Note: Some organizations use your network password as your M365/Teams password. If you are unsure, please contact your IT department.*
-    ![Password entry](/api/docs/UserGuide/Preregistration/password-entry.png)
+    ![Password entry](https://github.com/ssc-sp/datahub-docs/blob/next/UserGuide/Preregistration/password-entry.png?raw=true)
 
 ## Multi-Factor Authentication
 
@@ -51,56 +51,56 @@ This will guide you through the process of registering and setting up your accou
 > *Note: If don't currently use the Microsoft Authenticator app, you can skip this section to setup alternative methods to verify your account.*
 
 1. Click `Next` to continue.
-    ![MFA Next](/api/docs/UserGuide/Preregistration/mfa-01.png)
+    ![MFA Next](https://github.com/ssc-sp/datahub-docs/blob/next/UserGuide/Preregistration/mfa-01.png?raw=true)
 
 1. Click `Next` to continue.
-    ![MFA Next](/api/docs/UserGuide/Preregistration/mfa-02.png)
+    ![MFA Next](https://github.com/ssc-sp/datahub-docs/blob/next/UserGuide/Preregistration/mfa-02.png?raw=true)
 
 1. Scan the QR code with the Microsoft Authenticator app.
-    ![MFA Scan QR Code](/api/docs/UserGuide/Preregistration/mfa-03.png)
+    ![MFA Scan QR Code](https://github.com/ssc-sp/datahub-docs/blob/next/UserGuide/Preregistration/mfa-03.png?raw=true)
 
 1. Verify prompt in the Microsoft Authenticator app.
-    ![MFA Verify Prompt](/api/docs/UserGuide/Preregistration/mfa-04.png)
+    ![MFA Verify Prompt](https://github.com/ssc-sp/datahub-docs/blob/next/UserGuide/Preregistration/mfa-04.png?raw=true)
 
 1. Click `Next` to continue.
-    ![MFA Next](/api/docs/UserGuide/Preregistration/mfa-05.png)
+    ![MFA Next](https://github.com/ssc-sp/datahub-docs/blob/next/UserGuide/Preregistration/mfa-05.png?raw=true)
 
 1. Click `Done` to complete Multi Factor Authentication setup.
-    ![MFA Done](/api/docs/UserGuide/Preregistration/mfa-06.png)
+    ![MFA Done](https://github.com/ssc-sp/datahub-docs/blob/next/UserGuide/Preregistration/mfa-06.png?raw=true)
 
 ### (Optional) Setup Alternate MFA Methods
 
 1. Click the `I want to use a different authenticator app` link.
-    ![MFA Alternate Methods](/api/docs/UserGuide/Preregistration/mfa-01.png)
+    ![MFA Alternate Methods](https://github.com/ssc-sp/datahub-docs/blob/next/UserGuide/Preregistration/mfa-01.png?raw=true)
 
 1. Select your preferred method of MFA and click `Next`.
-    ![Alternate MFA Methods](/api/docs/UserGuide/Preregistration/mfa-08.png)
+    ![Alternate MFA Methods](https://github.com/ssc-sp/datahub-docs/blob/next/UserGuide/Preregistration/mfa-08.png?raw=true)
 
     > *Note: This section will cover setting up MFA with a phone number. If you choose to use a different method, please follow the on-screen instructions.*
 
 1. Input a phone mobile number (work or personal) that can receive SMS messages and click `Next`.
-    ![Enter phone number](/api/docs/UserGuide/Preregistration/mfa-09.png)
+    ![Enter phone number](https://github.com/ssc-sp/datahub-docs/blob/next/UserGuide/Preregistration/mfa-09.png?raw=true)
 
 1. Input the code received via SMS to the phone number provided previously and click `Next`.
-    ![Enter SMS Code](/api/docs/UserGuide/Preregistration/mfa-10.png)
+    ![Enter SMS Code](https://github.com/ssc-sp/datahub-docs/blob/next/UserGuide/Preregistration/mfa-10.png?raw=true)
 
 1. Confirm SMS verification and click `Next`.
-    ![Confirm SMS verification](/api/docs/UserGuide/Preregistration/mfa-11.png)
+    ![Confirm SMS verification](https://github.com/ssc-sp/datahub-docs/blob/next/UserGuide/Preregistration/mfa-11.png?raw=true)
 
 1. Phone MFA setup is complete. Click `Done` to continue.
-    ![Phone MFA Complete](/api/docs/UserGuide/Preregistration/mfa-12.png)
+    ![Phone MFA Complete](https://github.com/ssc-sp/datahub-docs/blob/next/UserGuide/Preregistration/mfa-12.png?raw=true)
 
 ## Sign In
 
 Once you have completed the registration and MFA setup process, you can sign in to the FSDH application.
 
 1. (Optional) Click `Yes` to stay signed in.
-    ![Stay signed in](/api/docs/UserGuide/Preregistration/stay-signed-in.png)
+    ![Stay signed in](https://github.com/ssc-sp/datahub-docs/blob/next/UserGuide/Preregistration/stay-signed-in.png?raw=true)
 
 1. Select your language of preference (English or French) from the dropdown and click `Save`.
-    ![Language selection](/api/docs/UserGuide/Preregistration/language-selection.png)
+    ![Language selection](https://github.com/ssc-sp/datahub-docs/blob/next/UserGuide/Preregistration/language-selection.png?raw=true)
 
 1. Click on the `Terms and Conditions` link to review the terms and conditions. Check the box to accept the terms and conditions and click `Complete`.
-    ![Terms and Conditions](/api/docs/UserGuide/Preregistration/terms-and-conditions.png)
+    ![Terms and Conditions](https://github.com/ssc-sp/datahub-docs/blob/next/UserGuide/Preregistration/terms-and-conditions.png?raw=true)
 
 > *Note: Important reminder that the FSDH is only approved for **unclassified** data*.
