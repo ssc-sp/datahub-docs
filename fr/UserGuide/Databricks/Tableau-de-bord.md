@@ -6,10 +6,12 @@ draft: true
 
 # Comment créer un tableau de bord dans Databricks
 
+<!---removed due to accessibility requirements
 <video width="600" height="350" controls>
     <source src="/api/media/dashboard.mp4" type="video/mp4">
     Votre navigateur ne prend pas en charge la balise vidéo.
 </video>
+-->
 
 ## Conditions préalables
 

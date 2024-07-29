@@ -1,10 +1,12 @@
 # Databricks Workflows
 
+<!---removed due to accessibility requirements
 <video width="600" height="350" controls>
     <source src="/api/media/workflows.mp4" type="video/mp4" />
     <track label="English" kind="subtitles" srclang="en" src="/api/media/workflows.vtt" default/>
     Your browser does not support the video tag.
 </video>
+-->
 
 Workflows in Databricks are a way to orchestrate notebooks in your environment. They provide you with a high-level interface that allows you to design end-to-end workloads, such as machine learning.
 
