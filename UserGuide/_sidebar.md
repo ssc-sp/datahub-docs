@@ -12,6 +12,7 @@
     <!-- - [Monitor Costs](/UserGuide/GettingStarted/Monitor-workspace-costs.md) -->
     - [Request Support](/UserGuide/GettingStarted/Logging-a-ticket.md)
     - [Metadata Profile Details](/UserGuide/Workspace/Workspace-Profile-Metadata.md)
+    - [Terms and Conditions](/UserGuide/POC-Terms-And-Conditions.md)
 
   - Load and Share Data
     - [How to access your storage account in Databricks](/UserGuide/Databricks/Access-your-storage-account-in-Databricks.md)
