@@ -11,3 +11,7 @@ To migrate your web apps from the POC environment to the PROD environment, you c
 ## B. Offboard Web Apps from POC
 
 To offboard your web apps from the POC environment, you can simply stop your web app using the FSDH portal. The app can then be redeployed on a different platform or environment using your images.
+
+## C. Support
+
+If you encounter any issues during the migration process, please contact the Federal Science DataHub support team by submitting a Support Request. Our team is happy to assist with migration or offboarding your web app.
