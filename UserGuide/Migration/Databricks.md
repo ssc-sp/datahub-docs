@@ -1,22 +1,32 @@
-# Databricks Migration Instructions
+# Migrating or Offboarding Your Databricks Resources
 
-This document provides instructions on how to migrate your Databricks workspaces from the proof-of-concept (POC) environment to the production (PROD) environment or to offboard your Databricks work from the POC environment.
+This document provides instructions for:
 
-## A. Migrate Databricks from POC to PROD
+* migrating your Databricks resources from the proof-of-concept (POC) environment to your new FSDH workspace in the production (PROD) environment
+* offboarding your Databricks resources from the POC environment should you not be shifting your research to the PROD environment
 
-To migrate your Databricks work from the POC environment to the PROD environment, please contact the Federal Science DataHub support team by submitting a Support Request. Our team will assist you with migrating your Databricks workspaces to the PROD environment.
+## A. Migrating from POC to PROD
 
-Please note, only the following Databricks resources can be migrated from the POC environment to the PROD environment:
+The Federal Science DataHub support team will assist you with migrating your Databricks resources to your new workspace in the the PROD environment. Please submit a Support Request to get started.
+
+Please note, only the following Databricks resources can be migrated from the POC environment to the PROD environment: 
+
+//What resources cannot be migrated?
+//What actions can people take for the resources that cannot be migrated?
 
 * Notebooks
 * Repositories
 * Jobs
 * Secrets
 * Table ACLs
-* ML Models
+* ML models
 
 For more information on migrating Databricks resources, please refer to the [Databricks Migration Tool documentation](https://github.com/databrickslabs/migrate).
+//If the FSDH team is assisting with migration, why would people need this link?
 
-## B. Offboard Databricks from POC
+## B. Offboarding from POC
 
-To offboard your Databricks work from the POC environment, the best approach is to export your Databricks resources (e.g., notebooks, repositories, etc) and import them into your local environment or another Databricks workspace.
+If you are not opening a workspace in the PROD environment, you may want to export your Databricks resources (e.g., notebooks, repositories, etc) from the POC environment and import them into your local environment or another Databricks workspace.
+
+//Is there a deadline for exporting?
+//Are there instructions on how to export?
