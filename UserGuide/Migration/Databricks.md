@@ -5,7 +5,7 @@ This document provides information about:
 * migrating your Databricks resources from the proof-of-concept (POC) environment to your new FSDH workspace in the production (PROD) environment
 * offboarding your Databricks resources from the POC environment should you not be shifting your research to the PROD environment
 
-Please note: to avoid data loss, you must migrate or offboard your Databricks resources by March 31, 2025
+Please note: to avoid data loss, you must migrate or offboard your Databricks resources by March 31, 2025.
 
 ## A. Migrating from POC to PROD
 
