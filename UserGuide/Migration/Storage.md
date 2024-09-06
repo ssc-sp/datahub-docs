@@ -1,4 +1,4 @@
-# Migrating of Offboarding Your Storage
+# Migrating or Offboarding Your Storage
 
 This document provides instructions about:
 
