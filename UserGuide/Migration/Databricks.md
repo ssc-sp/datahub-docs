@@ -26,4 +26,4 @@ If you have Databricks resources not listed above (e.g., clusters, including cus
 
 ## B. Offboarding from POC
 
-If you are not opening a workspace in the PROD environment, you may want to export your Databricks resources (e.g., notebooks, repositories, etc) from the POC environment and import them into your local environment or another Databricks workspace.
+If you are not opening a workspace in the PROD environment, you may want to export your Databricks resources (e.g., notebooks, repositories, etc.) from the POC environment and import them into your local environment or another Databricks workspace.
