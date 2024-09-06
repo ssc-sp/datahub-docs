@@ -1,16 +1,25 @@
-# PostgreSQL Migration Instructions
+# Migrating or Offboarding Your PostgreSQL Databases
 
-This document provides instructions on how to migrate your PostgreSQL databases from the proof-of-concept (POC) environment to the production (PROD) environment or to offboard your PostgreSQL databases from the POC environment.
+This document provides instructions about:
 
-## A. Migrate PostgreSQL from POC to PROD (Managed by the FSDH team)
+* migrating your PostgreSQL databases from the proof-of-concept (POC) environment to your new FSDH workspace in the production (PROD) environment
+* offboarding your PostgreSQL databases from the POC environment should you not be shifting your research to the PROD environment
 
-If you would like the Federal Science DataHub team to migrate your PostgreSQL database from the POC environment to the PROD environment, please contact the Federal Science DataHub support team by submitting a Support Request. Our team will assist you with migrating your storage to the PROD environment.
+Please note: to avoid data loss, you must complete migration or offboarding by March 31, 2025.
 
-## B. Migrate PostgreSQL from POC to PROD (Manually)
+## A. Migrating from POC to PROD
 
-### Part 1. Create a Dump of Your Database
+In order to migrate your PostgreSQL databases, you must have a new workspace in the PROD environment. For guidance on setting up your workspace please refer to [URL] or reach out to the Federal Science DataHub support team.
 
-Regardless of whether you are migrating your PostgreSQL databases to the PROD environment or offboarding them from the POC environment, you should start by creating a dump of your databases. This dump will be used to either import your databases into the PROD environment or to store them for future use.
+Once you have a workspace in the PROD environment, the Federal Science DataHub support team can assist you with migrating your PostgreSQL databases. Please submit a Support Request to get started.
+
+Alternatively, you can migrate your PostgreSQL databases yourself as follows:
+
+### Step 1. Create a Dump of Your Database
+
+Whether you are migrating your PostgreSQL databases to your new workspace in the PROD environment or offboarding them from the POC environment, you should start by creating a dump of your databases. This dump will be used to either import your databases into the PROD environment or to store them for future use.
+
+You can choose one of the following three ways to create a dump.
 
 #### Option 1: Create a Dump Using `pg_dump`
 
@@ -58,9 +67,9 @@ Replace `<username>` with your PostgreSQL username, `<database_name>` with the n
 
 6. Validate that the dump file has been created successfully by checking the file location.
 
-### Part 2. Migrate PostgreSQL from POC to PROD
+### Step 2. Import PostgreSQL to Your Workspace in the PROD Environment
 
-To migrate your PostgreSQL databases from the POC environment to the PROD environment, you can use the dump files created in the previous step to import your databases into the PROD environment.
+Once you've created the dump files (Step 1), you can import your databases into the PROD environment using one of the three options below.
 
 #### Option 1: Import Dump Using `psql`
 
@@ -106,10 +115,10 @@ Replace `<username>` with your PostgreSQL username, `<database_name>` with the n
 
 6. Validate that the import process was successful by checking the PROD database.
 
-## C. Offboard PostgreSQL from POC
+## C. Offboarding PostgreSQL from POC
 
-Use the dump files created in Part 1 above, then you can offboard your PostgreSQL databases from the POC environment by storing the dump files for future use or archiving them.
+If you are not moving to the PROD environment, you can simply store the dump files created in Step 1 above for future use or for archival purposes.
 
 ## D. Support
 
-If you encounter any issues during the migration process, please contact the Federal Science DataHub support team by submitting a Support Request. Our team is happy to assist with migration or offboarding your database.
+If you encounter any issues during the migration process, please contact the Federal Science DataHub support team by submitting a Support Request. Our team is happy to assist with migrating or offboarding your databases.
