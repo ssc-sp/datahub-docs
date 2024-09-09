@@ -9,7 +9,7 @@ Please note: to avoid data loss, you must complete migration or offboarding by M
 
 ## A. Migrating from POC to PROD
 
-In order to migrate your storage, you must have a new workspace in the PROD environment. For guidance on setting up your workspace please refer to [URL] or reach out to the Federal Science DataHub support team.
+In order to migrate your storage, you must have a new workspace in the PROD environment. The FSDH team will provide more information when it becomes available and will provide support as requested. 
 
 Once you have a workspace in the PROD environment, the Federal Science DataHub support team can assist you with migrating your storage. Please submit a Support Request to get started.
 
