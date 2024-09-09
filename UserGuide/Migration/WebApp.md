@@ -9,7 +9,7 @@ Please note: to avoid data loss, you must complete migration or offboarding by M
 
 ## A. Migrating from POC to PROD
 
-In order to migrate your web apps, you must have a new workspace in the PROD environment. For guidance on setting up your workspace please refer to [URL] or reach out to the Federal Science DataHub support team.
+In order to migrate your web apps, you must have a new workspace in the PROD environment. The FSDH team will provide more information when it becomes available and will provide support as requested. 
 
 To migrate your web apps from the POC environment to the PROD environment, you can simply redeploy your web app in PROD using your existing `docker-compose.yml` file stored in your Git repository. Please stop your web app in the POC environment once you have successfully deployed it in the PROD environment.
 
