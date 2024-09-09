@@ -9,7 +9,7 @@ Please note: to avoid data loss, you must migrate or offboard your Databricks re
 
 ## A. Migrating from POC to PROD
 
-In order to migrate your PostgreSQL databases, you must have a new workspace in the PROD environment. For guidance on setting up your workspace please refer to [URL] or reach out to the Federal Science DataHub support team.
+In order to migrate your Databricks resources, you must have a new workspace in the PROD environment. The FSDH team will provide more information when it becomes available and will provide support as requested.
 
 The Federal Science DataHub support team will assist you with migrating your Databricks resources to your new workspace in the PROD environment. Please submit a Support Request to get started.
 
