@@ -115,10 +115,10 @@ Replace `<username>` with your PostgreSQL username, `<database_name>` with the n
 
 6. Validate that the import process was successful by checking the PROD database.
 
-## C. Offboarding PostgreSQL from POC
+## B. Offboarding PostgreSQL from POC
 
 If you are not moving to the PROD environment, you can simply store the dump files created in Step 1 above for future use or for archival purposes.
 
-## D. Support
+## C. Support
 
 If you encounter any issues during the migration process, please contact the Federal Science DataHub support team by submitting a Support Request. Our team is happy to assist with migrating or offboarding your databases.
