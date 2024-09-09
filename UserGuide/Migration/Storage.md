@@ -15,7 +15,7 @@ Once you have a workspace in the PROD environment, the Federal Science DataHub s
 
 Alternatively, you can migrate your storage yourself using any of the options outlined below.
 
-#### Option 1: Use AzCopy to Migrate Storage Directly to the PROD Environment
+### Option 1: Use AzCopy to Migrate Storage Directly to the PROD Environment
 
 To migrate your storage from the POC environment to the PROD environment, you can use the AzCopy tool to copy your data from the POC storage account to the PROD storage account.
 
@@ -35,7 +35,7 @@ azcopy copy "<POC_SAS_URL>" "<PROD_SAS_URL>" --recursive
 
 4. Validate that the data has been copied successfully by checking the PROD storage account.
 
-#### Option 2: Use AzCopy to Download Data Locally
+### Option 2: Use AzCopy to Download Data Locally
 
 To download your data from the POC storage account to your local machine, you can use the AzCopy tool to copy your data from the POC storage account to your local machine.
 
@@ -51,7 +51,7 @@ azcopy copy "<POC_SAS_URL>" "<LOCAL_PATH>" --recursive
 
 3. Validate that the data has been copied successfully by checking the local path.
 
-#### Option 3: Manually Export Data
+### Option 3: Manually Export Data
 
 If you are unable to use AzCopy to migrate your data, you can manually export your data from the POC storage account and import it into the PROD storage account by simply downloading the data from the POC storage.
 
