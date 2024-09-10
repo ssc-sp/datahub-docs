@@ -9,7 +9,7 @@ Veuillez noter: pour éviter toute perte de données, vous devez terminer la mig
 
 ## A. Migration de POC à PROD
 
-Pour migrer vos espaces de travail Databricks, vous devez disposer d'un nouvel espace de travail dans l'environnement PROD. Pour obtenir des conseils sur la configuration de votre espace de travail, veuillez vous référer à [URL] ou contacter l'équipe de support du DataHub scientifique fédéral.
+Pour migrer vos espaces de travail Databricks, vous devez disposer d'un nouvel espace de travail dans l'environnement PROD. L'équipe de support du DataHub scientifique fédéral fournira de l'information lorsqu'il sera prêt et fournira de l'aide quand nécessaire.
 
 L'équipe de support du DataHub scientifique fédéral vous aidera à migrer vos espaces de travail Databricks. Veuillez soumettre une demande de support pour commencer.
 

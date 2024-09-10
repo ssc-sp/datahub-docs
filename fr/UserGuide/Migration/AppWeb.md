@@ -1,8 +1,12 @@
  # Instructions pour la migration des applications web
 
-Ce document fournit des instructions sur la façon de migrer vos applications Web de l'environnement de validation de concept (POC) vers l'environnement de production (PROD) ou de retirer vos applications Web de l'environnement POC.
+Ce document fournit des instructions sur:
+* la migration des applications web de l'environnement de validation de concept (POC) vers votre nouvel espace de travail DHSF dans l'environnement de production (PROD)
+* le retrait des applications web de l'environnement POC si vous ne transférez pas vos recherches vers l'environnement PROD
 
 ## A. Migrer les applications web de l'environnement POC vers l'environnement PROD
+
+Pour migrer vos applications web, il faut avoir un espace de travail dans l'environnement PROD. L'équipe de support du DataHub scientifique fédéral fournira de l'information lorsqu'il sera prêt et fournira de l'aide quand nécessaire.
 
 Pour migrer vos applications web de l'environnement POC vers l'environnement PROD, vous pouvez simplement redéployer votre application web dans PROD en utilisant votre fichier `docker-compose.yml` existant stocké dans votre repo Git. Veuillez arrêter votre application web dans l'environnement POC une fois que vous l'avez déployée avec succès dans l'environnement PROD.
 
