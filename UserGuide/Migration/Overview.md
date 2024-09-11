@@ -36,10 +36,10 @@ Migrating or offboarding your resources ensures that your data and applications 
 
 ### Who can migrate or offboard resources?
 
-* __Offboarding from the POC environment:__ All roles in a workspace in the POC environment, including guests, can offboard resources from that workspace.
 * __Migrating to the PROD environment:__
     * Uploading data: Collaborators, administrators and leads can upload data  to a workspace in the PROD environment to which they have been granted access.
     * Provisioning services: Administrators and leads can provision services within their workspace.
+* __Offboarding from the POC environment:__ All roles in a workspace in the POC environment, including guests, can offboard resources from that workspace.
 
 ### What resources can be migrated or offboarded?
 
