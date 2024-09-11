@@ -36,10 +36,10 @@ La migration de vos ressources de l'environnement POC vers l'environnement PROD 
 
 ### Qui peut migrer des ressources?
 
-* __Retrait des ressources:__ Tous les utilisateurs de l'environnement POC, y inclus les invités.
 * __Migration des ressources:__
     * Ajouter des données: Les collaborateurs, administrateurs, et responsables peuvent ajouter des données aux espaces de travail dans PROD.
     * Provisionner des ressources: Les responsables peuvent provisionner des ressources dans PROD.
+* __Retrait des ressources:__ Tous les utilisateurs de l'environnement POC, y inclus les invités.
 
 ### Quelles ressources peuvent être migrées?
 
