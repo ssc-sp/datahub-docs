@@ -3,9 +3,9 @@
 - Apprendre [](Icon:LibraryBooks)
   - Migration
     - [Survol](/fr/UserGuide/Migration/Survol.md)
-    - [Migration de stockage](/fr/UserGuide/Migration/Storage.md)
+    - [Migration de stockage](/fr/UserGuide/Migration/Stockage.md)
     - [Migration de PostgreSQL](/fr/UserGuide/Migration/PostgreSQL.md)
-    - [Migration des applications web](/fr/UserGuide/Migration/WebApp.md)
+    - [Migration des applications web](/fr/UserGuide/Migration/AppWeb.md)
     - [Migration de Databricks](/fr/UserGuide/Migration/Databricks.md)
 
   - Pour commencer
