@@ -1,6 +1,13 @@
 - [Guide de l'utilisateur du DataHub scientifique fédéral](/fr/UserGuide/Guide-de-l'utilisateur.md)
 
 - Apprendre [](Icon:LibraryBooks)
+  - Migration
+    - [Survol](/fr/UserGuide/Migration/Survol.md)
+    - [Migration de stockage](/fr/UserGuide/Migration/Storage.md)
+    - [Migration de PostgreSQL](/fr/UserGuide/Migration/PostgreSQL.md)
+    - [Migration des applications web](/fr/UserGuide/Migration/WebApp.md)
+    - [Migration de Databricks](/fr/UserGuide/Migration/Databricks.md)
+
   - Pour commencer
     - [Enregistrement du compte](/fr/UserGuide/Preregistration/Preregistration.md)
     - [Créer un espace de travail](/fr/UserGuide/GettingStarted/Creating-a-workspace.md)
