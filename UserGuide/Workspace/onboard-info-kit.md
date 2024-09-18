@@ -19,6 +19,10 @@ The workspace lead or delegated personnel need to review the workspace usage to 
 
 If FSDH identifies unauthorized or inappropriate usage of FSDH workspaces, FSDH is obliged to report IT Security for further corrective measures.
 
+## Source Code
+
+The workspace lead must ensure the use of open source meets licensing requirements and that the source code is protected from unauthorized modification. FSDH recommends workspaces to use external reputable Git repositories (such as Github) to save and safeguard the source code.
+
 
 
 
