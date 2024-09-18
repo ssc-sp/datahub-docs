@@ -13,7 +13,11 @@ FSDH recommends:
 - Keep another copy of your critical data in your departmental facilities;
 - Keep your Databricks configuration and settings in a note;
 
+## Usage Monitor
 
+The workspace lead or delegated personnel need to review the workspace usage to identify inappropriate usage and report to FSDH if unusual usage is noticed. FSDH team can provide help in doubt but will not regularly monior the workspaces.
+
+If FSDH identifies unauthorized or inappropriate usage of FSDH workspaces, FSDH is obliged to report IT Security for further corrective measures.
 
 
 
