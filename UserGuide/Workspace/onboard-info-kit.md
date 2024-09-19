@@ -24,6 +24,7 @@ If FSDH identifies unauthorized or inappropriate usage of FSDH workspaces, FSDH 
 The workspace lead must ensure the use of open source meets licensing requirements and that the source code is protected from unauthorized modification. FSDH recommends workspaces to use external reputable Git repositories (such as Github) to save and safeguard the source code.
 
 # Personnel
+It is the responsibility of the workspace leads to make sure all users must have valid Enhanced Reliability security clearance prior to adding them to FSDH workspaces.
 
 Upon termination of individual employment, the workspace lead must:
 - Disables FSDH workspace access within 7 days.
