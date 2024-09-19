@@ -23,6 +23,14 @@ If FSDH identifies unauthorized or inappropriate usage of FSDH workspaces, FSDH 
 
 The workspace lead must ensure the use of open source meets licensing requirements and that the source code is protected from unauthorized modification. FSDH recommends workspaces to use external reputable Git repositories (such as Github) to save and safeguard the source code.
 
+# Personnel
+
+Upon termination of individual employment, the workspace lead must:
+- Disables FSDH workspace access within 7 days.
+- Advise FSDH of the termination so that FSDH can terminate system wide access.
+- Retrieves all security-related organizational information system-related property. 
+- Notifies workspace owner within 7 days. 
+
 
 
 
