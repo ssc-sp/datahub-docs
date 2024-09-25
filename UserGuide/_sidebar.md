@@ -1,13 +1,6 @@
 - [Federal Science DataHub User Guide](/UserGuide/User-Guide.md)
 
 - Learn [](Icon:LibraryBooks)
-  - Migration
-    - [Overview](/UserGuide/Migration/Overview.md)
-    - [Storage Migration](/UserGuide/Migration/Storage.md)
-    - [PostgreSQL Migration](/UserGuide/Migration/PostgreSQL.md)
-    - [Web App Migration](/UserGuide/Migration/WebApp.md)
-    - [Databricks Migration](/UserGuide/Migration/Databricks.md)
-
   - Getting Started
     - [Account Registration](/UserGuide/Preregistration/Preregistration.md)
     - [Create a Workspace](/UserGuide/GettingStarted/Creating-a-workspace.md)
