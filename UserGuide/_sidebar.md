@@ -16,8 +16,6 @@
 
   - Load and Share Data
     - [How to access your storage account in Databricks](/UserGuide/Databricks/Access-your-storage-account-in-Databricks.md)
-    - [How to use AzCopy to transfer large files](/UserGuide/Databricks/AzCopy.md)      
-    - [Getting started with FSDH and File Sharing](/UserGuide/Tutorials/UseCase1.md)
     - [What is Azure Storage Explorer?](/UserGuide/Storage/Datahub-AzureStorage.md)
     - [Use AzCopy to Interact with Azure Storage Account](/UserGuide/Storage/Use-AzCopy.md)
     - [Import Storage](/UserGuide/Storage/Import-Storage.md)
@@ -57,8 +55,6 @@
 
   - Machine Learning
     - [How to use MLFlow and AutoML for Experiments](/UserGuide/Databricks/Experiments-Automl.md)
-    - [Temperature Forecasting with Databricks Example](/UserGuide/Tutorials/SST-Forecasting.md)
-    - [Torchvision for Dash Cam Video Analysis in Databricks](/UserGuide/Tutorials/Torchvision.md)
   
   - Geospatial
     - [Digital Elevation Models (DEM) Tools and Raster Calculator](https://www.statcan.gc.ca/en/wtc/online-lectures/qgis/2020020)
