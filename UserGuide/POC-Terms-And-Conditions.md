@@ -71,12 +71,9 @@ Users of FSDH are required to conform to the following criteria :
 
 6.  **Legal:** The data and information used within FSDH must comply with all other relevant legal, regulatory, contractual, and policy requirements (e.g., it is confirmed that there are no relevant legal, contractual, or third party policy restrictions or limitations to use the data or information). Participants are responsible for ensuring that data or information stored or used within their workspace is free of any litigation hold. If you have any questions, consult the Access to Information and Privacy (ATIP) team and the Legal team within your respective department. 
 
-7.  **Financial arrangements:** The FSDH is operated on a cost recovery
-    basis by the agreed-upon funding model described in Annex \#\#\#.
+7.  **Financial arrangements:** The FSDH is operated on a cost recovery basis by the agreed-upon funding model described in Annex XXX.
 
-8.  **Governance:**  {#governance .Section}
-    ---------------
-
+8. **Governance:**
     -   FSDH operations will be directed by the XXXX, a director-level committee responsible for providing leadership and guidance for the activities and decisions of the FSDH, approving funding, and establishing strategic directions.  
 
     -   The Data Solutions for Science Working Group will provide technical guidance and assist the XXXX in its activities by providing advice and recommendations regarding the FSDH platform and services, and for implementing approved operational policies, standards, and procedures. 
@@ -99,8 +96,7 @@ Users of FSDH are required to conform to the following criteria :
 
 17. **Support Hours:** Support services are available from 8:00 a.m. to
     4:00 p.m. Eastern Standard Time (EST). For more information on
-    guidance refer to [Support
-    model.](https://163gc.sharepoint.com/:w:/r/sites/ScienceProgram/Shared%20Documents/Data%20Solutions%20for%20Science/Federal%20Science%20DataHub%20(FSDH)/Project%20Planning%20%26%20Execution/Cyber%20Security/Gate%203/Support%20Model.docx?d=we57075a4d92a4f4a9ef0b3a232d1cb99&csf=1&web=1&e=HLeIRf)
+    guidance refer to [Support model.](https://163gc.sharepoint.com/:w:/r/sites/ScienceProgram/Shared%20Documents/Data%20Solutions%20for%20Science/Federal%20Science%20DataHub%20(FSDH)/Project%20Planning%20%26%20Execution/Cyber%20Security/Gate%203/Support%20Model.docx?d=we57075a4d92a4f4a9ef0b3a232d1cb99&csf=1&web=1&e=HLeIRf)
 
 18. **Official Language:** Participants are responsible for ensuring official content and content intended for broad dissemination are provided in both official languages and respect the Official Language Act.
 
@@ -116,15 +112,9 @@ Users of FSDH are required to conform to the following criteria :
 
 22. **Incident Management:** The workspace lead is responsible for reporting incidents concerning their workspaces through their departmental incident reporting process. In addition the workspace lead is responsible to consult the departmental IT security team for any incident that occurs in their workspace. Please consult Account Management & Access Control Guidance FSDH for additional information.  
 
-Your access and use of the FSDH are governed by these Terms and
-Conditions. You represent that you have full authority to accept, and
-agree to be bound by, these Terms and Conditions, either in your own
-name or if you are accepting on behalf of the department. By accepting
-these Terms and Conditions, we grant you access to FSDH.
+Your access and use of the FSDH are governed by these Terms and Conditions. You represent that you have full authority to accept, and agree to be bound by, these Terms and Conditions, either in your own name or if you are accepting on behalf of the department. By accepting these Terms and Conditions, we grant you access to FSDH.
 
-The SSC retains the right to disable or deactivate a workspace/account
-from FSDH that does not comply with the Terms and Conditions. SCC will
-notify the affiliated participant and work with them to find a
+The SSC retains the right to disable or deactivate a workspace/account from FSDH that does not comply with the Terms and Conditions. SCC will notify the affiliated participant and work with them to find a
 resolution.
 
 Applicable Policies
