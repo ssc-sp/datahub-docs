@@ -420,6 +420,11 @@
     "Fr": "/fr/InstallationGuide/09-M\u00E9tadonn\u00E9es-sur-les-semences.md"
   },
   {
+    "Id": "8f857102-0a79-7745-1fb4-1cd8ded2afe5",
+    "En": "/InstallationGuide/TeamsSetup/TeamsChannelSetup.md",
+    "Fr": "/fr/InstallationGuide/TeamsSetup/TeamsChannelSetup.md"
+  },
+  {
     "Id": "659e44e7-3a14-8e07-5af7-2a0622c4181a",
     "En": "/InstallationGuide/README.md",
     "Fr": "/fr/InstallationGuide/README.md"
@@ -783,5 +788,30 @@
     "Id": "9e3514c6-b565-a15c-47e5-9a762a57bc39",
     "En": "/_sidebar.md",
     "Fr": "/fr/_sidebar.md"
+  },
+  {
+    "Id": "jf8ew9mm-10ba-m1qo-n2e4-0mans938mdn5",
+    "En": "/UserGuide/Migration/Overview.md",
+    "Fr": "/fr/UserGuide/Migration/Survol.md"
+  },
+  {
+    "Id": "ma83nvpd-2pcm-mznx-apml-0oi1mla090m1",
+    "En": "/UserGuide/Migration/Storage.md",
+    "Fr": "/fr/UserGuide/Migration/Stockage.md"
+  },
+  {
+    "Id": "1maplm38-qmvl-4nvk-po1m-ut82ngjsk921",
+    "En": "/UserGuide/Migration/Databricks.md",
+    "Fr": "/fr/UserGuide/Migration/Databricks.md"
+  },
+  {
+    "Id": "8bhdm4l7-0l1p-bs4j-mt55-pq98nckdbejs",
+    "En": "/UserGuide/Migration/PostgreSQL.md",
+    "Fr": "/fr/UserGuide/Migration/PostgreSQL.md"
+  },
+  {
+    "Id": "98f283p1-1m90-dn67-er72-59bj1iw8vn59",
+    "En": "/UserGuide/Migration/WebApp.md",
+    "Fr": "/fr/UserGuide/Migration/AppWeb.md"
   }
 ]

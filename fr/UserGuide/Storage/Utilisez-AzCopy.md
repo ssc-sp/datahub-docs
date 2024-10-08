@@ -38,10 +38,12 @@ Pour plus d'informations sur les drapeaux qui peuvent être utilisés sur n'impo
 
 # Guide AzCopy
 
+<!---removed due to accessibility requirements
 <video width="600" height="350" controls>
     <source src="/api/media/azcopy.mp4" type="video/mp4">
     Votre navigateur ne prend pas en charge la balise vidéo.
 </video>
+-->
 
 ## Pré-requis
 

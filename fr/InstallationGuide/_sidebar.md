@@ -9,3 +9,4 @@
 - [08 Configuration des pipelines de projet](/fr/InstallationGuide/08-Configuration-des-pipelines-de-projet.md)
 - [09 Métadonnées sur les semences](/fr/InstallationGuide/09-Métadonnées-sur-les-semences.md)
 
+- [Mise en place d'un canal Teams et d'un Webhook pour les rapports de bogues](/fr/InstallationGuide/TeamsSetup/TeamsChannelSetup.md)
