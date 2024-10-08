@@ -1,13 +1,10 @@
-Terms and Conditions
---------------------
-
 **BETWEEN: SSC & Participating Science-Based Departments.**
 
 (referred to collectively as the "**Participants**")
 
 July 2024 \| Version 1.0
 
-+-------------------------------+----------------------+----------------------+
+<!-- +-------------------------------+----------------------+----------------------+
 | ###### Document Control Sheet |                      |                      |
 +===============================+======================+======================+
 | ###### Name                   | ###### Subject       | ###### Date          |
@@ -19,45 +16,31 @@ July 2024 \| Version 1.0
 | ###### Irum Maqsood           | ###### Addressed comments and added sections related to roles. | August 08, 2024 |
 +-------------------------------+----------------------+----------------------+
 | ######                        | ######               | ######               |
-+-------------------------------+----------------------+----------------------+
++-------------------------------+----------------------+----------------------+ -->
 
 ###### 
 
 Federal Science DataHub
 =======================
 
-The Federal Science DataHub (FSDH) is a secure, cloud-based platform
-that delivers world-class data infrastructure and tools empowered by a
-self-service model to the federal science community. The FSDH platform
-is **Unclassified.**
+The Federal Science DataHub (FSDH) is a secure, cloud-based platform that delivers world-class data infrastructure and tools empowered by a self-service model to the federal science community. The FSDH platform is **Unclassified.**
 
 Purpose
 -------
 
-The Terms and Conditions apply to the individual Participants use of of
-FSDH. The terms form an agreement between Shared Services Canada (SSC)
-and the Participant and include service terms, responsibilities,
-governance, and support model for the FDSH. The Terms and Conditions is
-a living document that may need to be adapted to reflect updated
-legislative requirements and policies, as well as changes in the
+The Terms and Conditions apply to the individual Participants use of of FSDH. The terms form an agreement between Shared Services Canada (SSC) and the Participant and include service terms, responsibilities, governance, and support model for the FDSH. The Terms and Conditions is a living document that may need to be adapted to reflect updated legislative requirements and policies, as well as changes in the
 business environment.
 
 Terms and Conditions
 --------------------
 
-The Federal Science Datahub is an initiative led by the Data Solutions
-Team in in SSC's Science Program. It provides rapid access to scalable
-data storage in the cloud, analytics toolset, management, storage,
-sharing, and collaboration capabilities to federal scientists. By using
-the FSDH service, you agree to the terms set out herein.
+The Federal Science Datahub is an initiative led by the Data Solutions Team in in SSC's Science Program. It provides rapid access to scalable data storage in the cloud, analytics toolset, management, storage, sharing, and collaboration capabilities to federal scientists. By using the FSDH service, you agree to the terms set out herein.
 
 Users of FSDH are required to conform to the following criteria :
 
 1.  **Security classification:** The FSDH environment workspaces are authorized for Unclassified use. “Unclassified” denotes non-sensitive data and information that carries no injury to personal, industry, or government interests if released to the public. It is each workspace owner's responsibility to ensure all data or information in their workspace is unclassified before uploading it to FSDH and while using it in FSDH. Please refer to the following important information security guidelines: 
 
-    -   [Directive on Security Management - Appendix J: Standard on
-        Security
-        Categorization](https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=32614)
+    -   [Directive on Security Management - Appendix J: Standard on Security Categorization](https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=32614)
 
     -   <https://www.canada.ca/content/dam/dnd-mdn/documents/ml-fd/2023/11-09-working-with-sensitive-information.pdf>
 
@@ -94,19 +77,13 @@ Users of FSDH are required to conform to the following criteria :
 
 16. **Resource Management:** The Workspace lead and administrator are responsible for resource management of the workspace associated with them. If processes need to be shut down at night, then that is the responsibility of the participant. 
 
-17. **Support Hours:** Support services are available from 8:00 a.m. to
-    4:00 p.m. Eastern Standard Time (EST). For more information on
-    guidance refer to [Support model.](https://163gc.sharepoint.com/:w:/r/sites/ScienceProgram/Shared%20Documents/Data%20Solutions%20for%20Science/Federal%20Science%20DataHub%20(FSDH)/Project%20Planning%20%26%20Execution/Cyber%20Security/Gate%203/Support%20Model.docx?d=we57075a4d92a4f4a9ef0b3a232d1cb99&csf=1&web=1&e=HLeIRf)
+17. **Support Hours:** Support services are available from 8:00 a.m. to 4:00 p.m. Eastern Standard Time (EST). For more information on guidance refer to [Support model.](https://163gc.sharepoint.com/:w:/r/sites/ScienceProgram/Shared%20Documents/Data%20Solutions%20for%20Science/Federal%20Science%20DataHub%20(FSDH)/Project%20Planning%20%26%20Execution/Cyber%20Security/Gate%203/Support%20Model.docx?d=we57075a4d92a4f4a9ef0b3a232d1cb99&csf=1&web=1&e=HLeIRf)
 
 18. **Official Language:** Participants are responsible for ensuring official content and content intended for broad dissemination are provided in both official languages and respect the Official Language Act.
 
-19. **Accessibility:** Participants are responsible for accessibility of
-    the applications/visualization developed within their workspace in
-    FSDH. They are responsible for compliance with the Accessibility Act.
+19. **Accessibility:** Participants are responsible for accessibility of the applications/visualization developed within their workspace in FSDH. They are responsible for compliance with the Accessibility Act.
 
-20. **Policies:** Participants are required to follow and comply with
-    relevant policies, directives, standards and guidance relevant to
-    the area of subject area they are working with.
+20. **Policies:** Participants are required to follow and comply with relevant policies, directives, standards and guidance relevant to the area of subject area they are working with.
 
 21. **Access Controls:** Workspace lead is responsible for granting permissions to its workspace and maintaining access controls to its workspace. The workspace lead is responsible for ensuring that they are following the guidance provided in Account Management & Access Control Guidance for Workspace to manage the access controls. In addition, the workspace lead is responsible for following the departmental access control procedures and developing additional procedures as needed, including those regarding the use of non-government managed devices. The workspace lead should consult the Departmental IT Security team to review all access control procedures. 
 
