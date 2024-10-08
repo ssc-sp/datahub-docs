@@ -28,8 +28,7 @@ The Federal Science DataHub (FSDH) is a secure, cloud-based platform that delive
 Purpose
 -------
 
-The Terms and Conditions apply to the individual Participants use of of FSDH. The terms form an agreement between Shared Services Canada (SSC) and the Participant and include service terms, responsibilities, governance, and support model for the FDSH. The Terms and Conditions is a living document that may need to be adapted to reflect updated legislative requirements and policies, as well as changes in the
-business environment.
+The Terms and Conditions apply to the individual Participants use of of FSDH. The terms form an agreement between Shared Services Canada (SSC) and the Participant and include service terms, responsibilities, governance, and support model for the FDSH. The Terms and Conditions is a living document that may need to be adapted to reflect updated legislative requirements and policies, as well as changes in the business environment.
 
 Terms and Conditions
 --------------------
@@ -44,7 +43,7 @@ Users of FSDH are required to conform to the following criteria :
 
     -   https://www.canada.ca/content/dam/dnd-mdn/documents/ml-fd/2023/11-09-working-with-sensitive-information.pdf
 
-2.  **Individual security classification**: To access the FSDH Portal, Participants must hold at least valid Government of Canada Reliability Status. It is the responsibility of the workspace lead to ensure that all individuals working in the workspace have a minimum valid Government of Canada Reliability Status. For more information on this, please see the: <https://www.tpsgc-pwgsc.gc.ca/esc-src/protection-safeguarding/niveaux-levels-eng.html>
+2.  **Individual security classification**: To access the FSDH Portal, Participants must hold at least valid Government of Canada Reliability Status. It is the responsibility of the workspace lead to ensure that all individuals working in the workspace have a minimum valid Government of Canada Reliability Status. For more information on this, please see the: https://www.tpsgc-pwgsc.gc.ca/esc-src/protection-safeguarding/niveaux-levels-eng.html
 
 3.  **Roles & Responsibilities**: SSC is the FSDH product owner, and Environment and Climate Change Canada (ECCC) is the FSDH business owner. SSC will develop and maintain the FSDH platform and associated infrastructure. Participating science departments are responsible for complying with all applicable statutes, regulations, and policies concerning the security and management of GC information, records, resources, and other relevant policies, such as the [Policy on Service and Digital](https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32603). Participating departments must also comply with the Roles & Responsibilities outlined in the Responsibility, Accountability, Consultation, and Information (RACI) Chart in Annex 1. 
 
@@ -97,13 +96,13 @@ resolution.
 Applicable Policies
 
 -   Policy on Service & Digital:
-    <https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32603>
+    https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32603
 
 -   Policy on Government Security:
-    <https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=16578>
+    https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=16578
 
 -   Policy on Official Languages:
-    <https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=26160>
+    https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=26160
 
 Annex 1 Roles within FSDH 
 --------------------
