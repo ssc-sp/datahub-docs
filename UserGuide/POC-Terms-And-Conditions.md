@@ -42,7 +42,7 @@ Users of FSDH are required to conform to the following criteria :
 
     -   [Directive on Security Management - Appendix J: Standard on Security Categorization](https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=32614)
 
-    -   <https://www.canada.ca/content/dam/dnd-mdn/documents/ml-fd/2023/11-09-working-with-sensitive-information.pdf>
+    -   https://www.canada.ca/content/dam/dnd-mdn/documents/ml-fd/2023/11-09-working-with-sensitive-information.pdf
 
 2.  **Individual security classification**: To access the FSDH Portal, Participants must hold at least valid Government of Canada Reliability Status. It is the responsibility of the workspace lead to ensure that all individuals working in the workspace have a minimum valid Government of Canada Reliability Status. For more information on this, please see the: <https://www.tpsgc-pwgsc.gc.ca/esc-src/protection-safeguarding/niveaux-levels-eng.html>
 
