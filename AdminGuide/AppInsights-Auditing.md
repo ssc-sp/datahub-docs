@@ -50,9 +50,9 @@ Note: We store event related properties in the customDimensions of the event. Fo
 	changeType: Delete
 	objectId: MetadataProfile {ProfileId: 4} Deleted
 	table: MetadataProfile
-	userId: 34a16480-1c78-4b65-933f-c6cce336346b
+	userId: xxxxx-xxxxx-xxxxx-xxxxx-xxxxx
 	userName: Iroel Perez-Garcia
-	userPrincipalName: iperez_apption.com#EXT#@163oxygen.onmicrosoft.com
+	userPrincipalName: <user>#EXT#@163oxygen.onmicrosoft.com
 ```    
 	
 ### Example 1: Project_User changes
