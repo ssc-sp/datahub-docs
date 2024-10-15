@@ -55,4 +55,13 @@ Note: We store event related properties in the customDimensions of the event. Fo
 	userPrincipalName: iperez_apption.com#EXT#@163oxygen.onmicrosoft.com
 ```    
 	
-	
+### Example 1: Project_User changes
+
+The following query lists all database changes that occured for table `Project_Users`.
+
+```kql
+// Query to list events where customDimensions "table" is "Project_Users"
+customEvents
+| where customDimensions.changeDetails startswith "Datahub_Project_User"
+| project timestamp, name, customDimensions
+```
