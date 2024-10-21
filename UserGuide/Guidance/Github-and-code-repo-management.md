@@ -1,0 +1,3 @@
+# Github and code repo management 
+
+Users are responsible for configuring and managing their source code and Git repositories.  FSDH allows users to connect to both private and public Github repositories.  It is the user's responsibility to manage the Github tokens, passwords and accessibility as appropriate and in accordance with their departmental policies.  In selecting their approach to developing, sharing, and managing code, users should follow the principles laid out in the Digital Standards Playbook - Canada.ca and Directive on Service and Digital- Canada.ca. 
