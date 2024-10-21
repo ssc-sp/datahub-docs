@@ -14,6 +14,18 @@
     - [Metadata Profile Details](/UserGuide/Workspace/Workspace-Profile-Metadata.md)
     - [Terms and Conditions](/UserGuide/POC-Terms-And-Conditions.md)
 
+  - User Guidance
+    - [Account Management and Access Control of Workspaces](/UserGuide/Guidance/Account-Management-and-Access-control-of-workspaces.md)
+    - [Backup and Recovery](/UserGuide/Guidance/Backup-and-Recovery.md)
+    - [Components Within a Workspace](/UserGuide/Guidance/Components-within-a-workspace.md)
+    - [GitHub and Code Repo Management](/UserGuide/Guidance/Github-and-code-repo-management.md)
+    - [Incident Detection and Response](/UserGuide/Guidance/Incident-Detection-and-Response.md)
+    - [Monitor Usage](/UserGuide/Guidance/Monitor-Usage.md)
+    - [Monitoring and Auditing a Workspace](/UserGuide/Guidance/Monitoring-and-Auditing-a-Workspace.md)
+    - [Personnel Security Clearance](/UserGuide/Guidance/Personnel-security-clearance.md)
+    - [Roles Within FSDH Workspace](/UserGuide/Guidance/Roles-within-FSDH-workspace.md)
+    - [Source Code](/UserGuide/Guidance/Source-code.md)
+
   - Load and Share Data
     - [How to access your storage account in Databricks](/UserGuide/Databricks/Access-your-storage-account-in-Databricks.md)
     - [What is Azure Storage Explorer?](/UserGuide/Storage/Datahub-AzureStorage.md)
