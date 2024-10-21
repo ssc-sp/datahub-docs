@@ -14464,16 +14464,16 @@
     "French": "\ttable : MetadataProfile"
   },
   {
-    "English": "\tuserId: 34a16480-1c78-4b65-933f-c6cce336346b",
-    "French": "\tuserId : 34a16480-1c78-4b65-933f-c6cce336346b"
+    "English": "\tuserId: xxxxxxxx-xxxx-xxxx-xxx-xxxxxxxx",
+    "French": "\tuserId : xxxxxxxx-xxxx-xxxx-xxx-xxxxxxxx"
   },
   {
     "English": "\tuserName: Iroel Perez-Garcia",
     "French": "\tNom d\u0027utilisateur : Iroel Perez-Garcia"
   },
   {
-    "English": "\tuserPrincipalName: iperez_apption.com#EXT#@163oxygen.onmicrosoft.com",
-    "French": "\tuserPrincipalName : iperez_apption.com#EXT#@163oxygen.onmicrosoft.com"
+    "English": "\tuserPrincipalName: <user>@163oxygen.onmicrosoft.com",
+    "French": "\tuserPrincipalName : <user>@163oxygen.onmicrosoft.com"
   },
   {
     "English": "Access your storage account in Docker cluster",

@@ -56,9 +56,9 @@ Remarque : nous stockons les propriétés liées à l'événement dans les custo
 	changeType : Supprimer
 	objectId : MetadataProfile {ProfileId : 4} Supprimé
 	table : MetadataProfile
-	userId : 34a16480-1c78-4b65-933f-c6cce336346b
+	userId : xxxxxxxx-xxxx-xxxx-xxx-xxxxxxxx
 	Nom d'utilisateur : Iroel Perez-Garcia
-	userPrincipalName : iperez_apption.com#EXT#@163oxygen.onmicrosoft.com
+	userPrincipalName : <user>@163oxygen.onmicrosoft.com
 ```
 
 

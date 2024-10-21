@@ -813,5 +813,55 @@
     "Id": "98f283p1-1m90-dn67-er72-59bj1iw8vn59",
     "En": "/UserGuide/Migration/WebApp.md",
     "Fr": "/fr/UserGuide/Migration/AppWeb.md"
+  },
+  {
+    "Id": "1nwtrgqv-lhnk-eeif-0pca-46janyhs2co9",
+    "En": "/UserGuide/Guidance/Account-Management-and-Access-control-of-workspaces.md",
+    "Fr": "/fr/UserGuide/Guidance/Gestion-des-comptes-et-controle-de-l'acces-aux-espaces-de-travail.md"
+  },
+  {
+    "Id": "9ich60nh-8kdb-jivs-o8kl-lcv734ksa7f9",
+    "En": "/UserGuide/Guidance/Backup-and-Recovery.md",
+    "Fr": "/fr/UserGuide/Guidance/Sauvegarde-et-recuperation.md"
+  },
+  {
+    "Id": "c4szqbvx-siu3-1ahz-bq1e-ma48a81g8qpe",
+    "En": "/UserGuide/Guidance/Components-within-a-workspace.md",
+    "Fr": "/fr/UserGuide/Guidance/Composants-dun-espace-de-travail.md"
+  },
+  {
+    "Id": "5ibz9d7d-ffsg-pnqg-ebv6-46vweilae90d",
+    "En": "/UserGuide/Guidance/Github-and-code-repo-management.md",
+    "Fr": "/fr/UserGuide/Guidance/Github-et-gestion-des-repos.md"
+  },
+  {
+    "Id": "osxdhuan-nndm-wkn1-gxur-ipddjpb4ydva",
+    "En": "/UserGuide/Guidance/Incident-Detection-and-Response.md",
+    "Fr": "/fr/UserGuide/Guidance/Detection-et-response-aux-incidents.md"
+  },
+  {
+    "Id": "h0hjwc5d-h4dw-ac4n-5zt0-fq1gf0uq78a1",
+    "En": "/UserGuide/Guidance/Monitor-Usage.md",
+    "Fr": "/fr/UserGuide/Guidance/Controle-dusage.md"
+  },
+  {
+    "Id": "5pxpaeql-0f5p-alk7-v0ec-umu5so6e6rh0",
+    "En": "/UserGuide/Guidance/Monitoring-and-Auditing-a-Workspace.md",
+    "Fr": "/fr/UserGuide/Guidance/Controle-et-audit-dun-espace-de-travail.md"
+  },
+  {
+    "Id": "tr8j610g-wgg4-7jy8-yy0l-37gd5mrlsobe",
+    "En": "/UserGuide/Guidance/Personnel-security-clearance.md",
+    "Fr": "/fr/UserGuide/Guidance/Attestation-de-securite-du-personnel.md"
+  },
+  {
+    "Id": "sop3ra44-iwki-djij-vb8x-beve5ti9evsf",
+    "En": "/UserGuide/Guidance/Roles-within-FSDH-workspace.md",
+    "Fr": "/fr/UserGuide/Guidance/Roles-dans-un-espace-de-travail.md"
+  },
+  {
+    "Id": "a7bc5o40-qhxn-exze-s20y-n07uztam444d",
+    "En": "/UserGuide/Guidance/Source-code.md",
+    "Fr": "/fr/UserGuide/Guidance/Code-source.md"
   }
 ]

@@ -13,6 +13,18 @@
     - [Demande de soutien](/fr/UserGuide/GettingStarted/Logging-a-ticket.md)
     - [Détails du profil de métadonnées](/fr/UserGuide/Workspace/Métadonnées-du-profil-de-l'espace-de-travail.md)
 
+  - Conseils aux utilisateurs
+    - [Gestion des comptes et contrôle d'accès aux espaces de travail](/fr/UserGuide/Guidance/Gestion-des-comptes-et-controle-de-l'acces-aux-espaces-de-travail.md)
+    - [Sauvegarde et récupération](/fr/UserGuide/Guidance/Sauvegarde-et-recuperation.md)
+    - [Composants dans un espace de travail](/fr/UserGuide/Guidance/Composants-dun-espace-de-travail.md)
+    - [GitHub et gestion de la repo de code](/fr/UserGuide/Guidance/Github-et-gestion-des-repos.md)
+    - [Détection et réponse aux incidents](/fr/UserGuide/Guidance/Detection-et-response-aux-incidents.md)
+    - [Controle d'usage](/fr/UserGuide/Guidance/Controle-dusage.md)
+    - [Controle et audit d'un espace de travail](/fr/UserGuide/Guidance/Controle-et-audit-dun-espace-de-travail.md)
+    - [Attestation de sécurité du personnel](/fr/UserGuide/Guidance/Attestation-de-securite-du-personnel.md)
+    - [Rôles au sein de l'espace de travail DHSF](/fr/UserGuide/Guidance/Roles-dans-un-espace-de-travail.md)
+    - [Code source](/fr/UserGuide/Guidance/Code-source.md)
+
   - Charger et partager des données
     - [Comment accéder à votre compte de stockage dans Databricks ?](/fr/UserGuide/Databricks/Accédez-à-votre-compte-de-stockage-dans-Databricks.md)
     - [Qu'est-ce que Azure Storage Explorer ?](/fr/UserGuide/Storage/Datahub-AzureStorage.md)

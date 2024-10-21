@@ -10,11 +10,17 @@ So, let us start with the onboarding process.
  
 ## Show registration page https://federal-science-datahub.canada.ca/register 
 
-We have an easy onboarding process:
+Current PoC registration is simple:
 - Click on the registration link and enter their email address.  
 - they will receive an email to confirm their email address
 - they can immediately access the portal.
  
+Production registration will leverage GC Cloud Hosting:
+- Final flow is still being discussed
+- workflow will leverage existing GC cloud process and usually takes about a week
+- Will be fully automated - once approved, they will have workspace provisioned in FSDH
+- Once in, users can deploy required services
+
 ## Show home page
 
 ![FSDH Home Page](image-1.png)
