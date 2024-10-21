@@ -1,0 +1,4 @@
+ # Sauvegarde et récupération 
+Par défaut, tous les services d'un espace de travail sont sauvegardés. Cependant, les politiques de sauvegarde diffèrent selon les services utilisés dans cet espace de travail. Si les politiques de sauvegarde existantes ne répondent pas aux exigences du département, il incombe au propriétaire de l'espace de travail de prendre les mesures nécessaires pour créer des sauvegardes externes de son code et de ses données afin de répondre à ces exigences. 
+
+Veuillez consulter le document FSDH Workspace Backup - User Guidance.docx (sharepoint.com) pour plus de détails sur les conseils aux utilisateurs et les responsabilités liées aux sauvegardes de l'espace de travail. 
