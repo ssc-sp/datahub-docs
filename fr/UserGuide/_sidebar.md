@@ -8,7 +8,7 @@
     - [Demande de stockage](/fr/UserGuide/GettingStarted/Demande-de-stockage.md)
     - [Demande de Databricks](/fr/UserGuide/GettingStarted/Demander-des-databricks.md)
     - [Inviter un utilisateur](/fr/UserGuide/GettingStarted/Invite-a-user.md)
-    - [Modifier le rôle d'un utilisateur](/fr/UserGuide/GettingStarted/Change-a-user-role.md.md)
+    - [Modifier le rôle d'un utilisateur](/fr/UserGuide/GettingStarted/Change-a-user-role.md)
     <!-- - [Contrôle des coûts](/fr/UserGuide/GettingStarted/Contrôler-les-coûts-de-l'espace-de-travail.md) -->
     - [Demande de soutien](/fr/UserGuide/GettingStarted/Logging-a-ticket.md)
     - [Détails du profil de métadonnées](/fr/UserGuide/Workspace/Métadonnées-du-profil-de-l'espace-de-travail.md)
