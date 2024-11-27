@@ -1,27 +1,30 @@
 # Migration and Offboarding Overview
 
-In fall 2024, the Federal Science DataHub will begin concluding the proof-of-concept (POC) phase and transitioning to the production (PROD) phase.
+In December 2024, the Federal Science DataHub will begin the two-part launch of the production (PROD) environment:
+* Dec. 6, 2024: soft launch begins, with a small number of FSDH users opening workspaces in the PROD environment and migrating content to their new workspace in PROD.
+* March 2025: The FSDH production environment is launched broadly to all science-based departments and agencies.
 
-To prepare you for this transition, we have created a series of guides to help you migrate your databases, storage, web apps, and Databricks resources from the POC environment to the PROD environment or to offboard them from the POC environment.
+To prepare you for this transition, we have created a series of guides to help you migrate your databases, storage, web apps, and Databricks resources from the proof-of-concept (POC) environment to the PROD environment, or to offboard them from the POC environment.
 
 This document provides general information about the process and timeline. You can find detailed instructions on specific resources in the sidebar.
 
 ## Process and Timeline
 
+__The FSDH team will establish a cutoff date for active analysis and experimentation in the POC environment as well as a final date by which all databases, storage, web apps, and Databricks resources must be migrated or offboarded. Once finalized, these dates will be communicated in this documentation, by general email and via in-platform announcements to ensure all workspace leads are aware of all important deadlines.__
+
 The process and timeline for migrating or offboarding all resources is:
 
-* Fall 2024:
+* December 2024-March 2025:
+    * Dec. 6, 2024: Soft launch kickoff session with workspace leads who have agreed to participate in the soft launch.
+    * Soft launch participants will open workspaces in the production environment and migrate content from existing workspaces in the POC environment to their new workspace in PROD. The FSDH support team will assist as needed.
+* February-March 2025:
     * The FSDH team will inform all POC users of the launch date for the PROD environment.
     * The FSDH team will communicate with all POC workspace leads about the process and requirements for opening a workspace in the PROD environment. 
-    * Workspace leads who are opening a workspace in the PROD environment may choose to begin the process prior to the launch date. The FSDH team will provide more information when it becomes available and will provide support as requested. 
-* Post PROD launch:
-    *  Workspace leads who are opening a workspace in the PROD environment but haven't yet started will begin the process. The FSDH team will provide support as requested.
+    <!--* Workspace leads who are opening a workspace in the PROD environment may choose to begin the process prior to the launch date. The FSDH team will provide more information when it becomes available and will provide support as requested.--> 
+* March 2025 onward:
+    *  Workspace leads who wish to migrate to the PROD environment will open a new workspace in PROD. The FSDH team will provide support as requested.
     *  Once you have a workspace in the PROD environment, you can migrate resources from POC to PROD using the instructions in the sidebar.
     *  If you are not opening a workspace in the PROD environment, you can offboard your databases, storage, web apps, and Databricks resources anytime.
-* __Feb. 28, 2025: The final day for active analysis and experimentation in the POC environment.__
-* Mar. 1, 2025: All user roles converted to 'Guest' to allow for migration and offboarding only.
-* __Mar. 31, 2025: All databases, storage, web apps, and Databricks resources must be migrated or offboarded.__
-* Apr. 1, 2025: POC decommissioned and all content therein deleted.
 
 ## Frequently Asked Questions
 
@@ -49,9 +52,9 @@ You can migrate all databases, storage and web apps provisioned in the POC envir
 
 If you do not migrate or offobard your resources by Mar. 31, 2025, they will be lost when the POC environment is decommissioned. Make sure to migrate or offboard your resources before the deadline to avoid data loss.
 
-### What if I do not have a workspace set up in the PROD environment by Mar. 31, 2025?
+<!--### What if I do not have a workspace set up in the PROD environment by Mar. 31, 2025?
 
-If you are planning on opening a workspace in the PROD environment, we recommend beginning the process as soon as possible so you can migrate before the deadline and ensure your work can continue uninterrupted. If provisioning of your new workspace is in progress but will not be completed before Mar. 31, 2025, please reach out to the Federal Science DataHub team to discuss options.
+If you are planning on opening a workspace in the PROD environment, we recommend beginning the process as soon as possible so you can migrate before the deadline and ensure your work can continue uninterrupted. If provisioning of your new workspace is in progress but will not be completed before Mar. 31, 2025, please reach out to the Federal Science DataHub team to discuss options.-->
 
 ### How can I get help with migration or offboarding?
 
