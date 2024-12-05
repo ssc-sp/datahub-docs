@@ -13,6 +13,13 @@
     - [Demande de soutien](/fr/UserGuide/GettingStarted/Logging-a-ticket.md)
     - [Détails du profil de métadonnées](/fr/UserGuide/Workspace/Métadonnées-du-profil-de-l'espace-de-travail.md)
 
+  - Migration
+    - [Survol](/fr/UserGuide/Migration/Survol.md)
+    - [Migration de stockage](/fr/UserGuide/Migration/Storage.md)
+    - [Migration de PostgreSQL](/fr/UserGuide/Migration/PostgreSQL.md)
+    - [Migration des applications web](/fr/UserGuide/Migration/WebApp.md)
+    - [Migration de Databricks](/fr/UserGuide/Migration/Databricks.md)
+
   - Conseils aux utilisateurs
     - [Gestion des comptes et contrôle d'accès aux espaces de travail](/fr/UserGuide/Guidance/Gestion-des-comptes-et-controle-de-l'acces-aux-espaces-de-travail.md)
     - [Sauvegarde et récupération](/fr/UserGuide/Guidance/Sauvegarde-et-recuperation.md)
