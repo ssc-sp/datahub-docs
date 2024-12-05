@@ -5,7 +5,7 @@ This document provides instructions about:
 * migrating your PostgreSQL databases from the proof-of-concept (POC) environment to your new FSDH workspace in the production (PROD) environment
 * offboarding your PostgreSQL databases from the POC environment should you not be shifting your research to the PROD environment
 
-Please note: to avoid data loss, you must complete migration or offboarding by March 31, 2025.
+__Please note: The FSDH team will establish a cutoff date for active analysis and experimentation in the POC environment as well as a final date by which all databases, storage, web apps, and Databricks resources must be migrated or offboarded. Once finalized, these dates will be communicated in this documentation, by general email and via in-platform announcements to ensure all workspace leads are aware of all important deadlines in order to avoid unintended data loss.__
 
 ## A. Migrating from POC to PROD
 
