@@ -1,12 +1,5 @@
 # Git/GitHub Integration with Databricks
 
-<!---removed due to accessibility requirements
-<video width="600" height="350" controls>
-    <source src="/api/media/git-integration.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-</video>
--->
-
 ## Pre-requisites
 
 - Familiarity with Git version control.
@@ -25,13 +18,15 @@
 
 ## Part 1: Setup Git/GitHub with Databricks
 
-Navigate to your User Settings from the top right drop down. Select the Git integration tab.
+Navigate to your Settings from the top right drop down.
 
-![image](https://user-images.githubusercontent.com/3179656/236484074-eb2b631a-b130-4eda-8554-26a79bf8bb9d.png)
+![image](/api/docs/UserGuide/Databricks/git-settings.png)
 
-- Select your Git provider
-- Configure username
-- Generate a Token to give Databricks access to your repository
+Select Linked Accounts in the left-hand sidebar.
+
+![image](/api/docs/UserGuide/Databricks/git-linked-accounts.png)
+
+Select your preferred Git provider and follow the prompts to link your account. Typically, you will need to provide your username and a token generated from your Git provider.
 
 For GitHub, the access tokens can be created in Settings / Personal Access Token / Tokens (classic). On this page, click "Generate new token" then "Generate new token (classic)".
 ![image](https://user-images.githubusercontent.com/3179656/236484380-d193ae59-1a9c-434e-a7ec-790d691c1a89.png)
@@ -42,23 +37,23 @@ The scopes required are `repo` and `workflow` (optional for GitHub Actions workf
 ![image](/api/docs/UserGuide/Databricks/TokenScopes.png)
 
 If the token and access permissions are correctly configured - you should see a green mark in the settings page
-
-![image](https://user-images.githubusercontent.com/3179656/236485049-c9a97fd0-3737-4c7d-9f3d-58242a32363c.png)
+![image](/api/docs/UserGuide/Databricks/git-status.png)
 
 ## Part 2: Accessing and Modifying Repositories
 
-To clone a repository, you will need its HTTPS access link, and its branch.
+To clone a repository, you will need its HTTPS access link, and its branch. In your workspace, click "Create" and then "Git folder" in the dropdown menu.
+![image](/api/docs/UserGuide/Databricks/git-clone-repo.png)
 
-![image](https://user-images.githubusercontent.com/3179656/236485166-3ed15a99-2ad6-4a97-9d17-8f46bbf1c111.png)
+Input the Git repository URL and then click Create Git folder.
+![image](/api/docs/UserGuide/Databricks/git-menu.png)
 
-Once this is configured, you can see the files inside the repository
-![image](/api/docs/UserGuide/Databricks/GitMenu.png)
+Once this is configured, you can see the folder in your workspace and navigate into it.
 
 Changes done from Databricks can be pushed to the repository using the built-in Git menu. Access it by right clicking in your repo files and clicking "Git...".
+![image](/api/docs/UserGuide/Databricks/git-menu-2.png)
 
 This screen will allow you to commit and push changes, as well as pull existing changes.
-
-![image](/api/docs/UserGuide/Databricks/GitMenu2.png)
+![image](/api/docs/UserGuide/Databricks/git-menu-3.png)
 
 ## Resolving Conflicts
 
