@@ -32,13 +32,6 @@ For more information on the flags that can be used on any command, run `azcopy <
 
 # AzCopy Guide
 
-<!---removed due to accessibility requirements
-<video width="600" height="350" controls>
-    <source src="/api/media/azcopy.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-</video>
--->
-
 ## Pre-requisites
 
 - Familarity with command line (e.g. PowerShell, Linux Shell scripting)
