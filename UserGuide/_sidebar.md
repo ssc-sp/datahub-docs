@@ -9,7 +9,6 @@
     - [Request Databricks](/UserGuide/GettingStarted/Request-databricks.md)
     - [Invite a User](/UserGuide/GettingStarted/Invite-a-user.md)
     - [Change a User's Role](/UserGuide/GettingStarted/Change-a-user-role.md)
-    <!-- - [Monitor Costs](/UserGuide/GettingStarted/Monitor-workspace-costs.md) -->
     - [Request Support](/UserGuide/GettingStarted/Logging-a-ticket.md)
     - [Metadata Profile Details](/UserGuide/Workspace/Workspace-Profile-Metadata.md)
     - [Terms and Conditions](/UserGuide/POC-Terms-And-Conditions.md)
@@ -44,7 +43,6 @@
 
   - Databricks 
     - [Intro to Databricks](/UserGuide/Databricks/Databricks-101.md)
-    <!-- - [What is Azure Databricks?](/UserGuide/Databricks/Databricks.md) -->
     - [How to access your storage account in Databricks](/UserGuide/Databricks/Access-your-storage-account-in-Databricks.md)
     - [How to integrate Git in Databricks](/UserGuide/Databricks/Git-Integration.md)
     - [How to use the VS Code Extension with Databricks](/UserGuide/Databricks/vscode_extension.md)
@@ -63,7 +61,6 @@
 
   - Web Applications
     - [Hosting Web Apps on DataHub](/UserGuide/WebApps/WebApps.md)
-    <!-- - [Technical Info - Develop, Build and deploy web applications in DataHub](/UserGuide/Tutorials/Build-deploy-webapp.md) -->
   
   - Geospatial
     - [Digital Elevation Models (DEM) Tools and Raster Calculator](https://www.statcan.gc.ca/en/wtc/online-lectures/qgis/2020020)
