@@ -13,7 +13,7 @@
     - [Metadata Profile Details](/UserGuide/Workspace/Workspace-Profile-Metadata.md)
     - [Terms and Conditions](/UserGuide/POC-Terms-And-Conditions.md)
 
-  - Migrating from PoC to Production
+  - Migrating to Production
     - [Overview](/UserGuide/Migration/Overview.md)
     - [Storage Migration](/UserGuide/Migration/Storage.md)
     - [PostgreSQL Migration](/UserGuide/Migration/PostgreSQL.md)

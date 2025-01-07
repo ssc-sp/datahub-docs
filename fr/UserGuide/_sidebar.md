@@ -13,7 +13,7 @@
     - [Détails du profil de métadonnées](/fr/UserGuide/Workspace/Métadonnées-du-profil-de-l'espace-de-travail.md)
     - [Conditions générales](/fr/UserGuide/POC-Terms-And-Conditions.md)
 
-  - Migration
+  - Migration à Production
     - [Survol](/fr/UserGuide/Migration/Survol.md)
     - [Migration de stockage](/fr/UserGuide/Migration/Storage.md)
     - [Migration de PostgreSQL](/fr/UserGuide/Migration/PostgreSQL.md)
