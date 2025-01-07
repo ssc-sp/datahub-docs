@@ -13,7 +13,7 @@
     - [Metadata Profile Details](/UserGuide/Workspace/Workspace-Profile-Metadata.md)
     - [Terms and Conditions](/UserGuide/POC-Terms-And-Conditions.md)
 
-  - Migration
+  - Migrating from PoC to Production
     - [Overview](/UserGuide/Migration/Overview.md)
     - [Storage Migration](/UserGuide/Migration/Storage.md)
     - [PostgreSQL Migration](/UserGuide/Migration/PostgreSQL.md)
@@ -61,6 +61,7 @@
 
   - Web Applications
     - [Hosting Web Apps on DataHub](/UserGuide/WebApps/WebApps.md)
+    - [Sample Python Web App](https://github.com/ssc-sp/sample-dashapp)
   
   - Geospatial
     - [Digital Elevation Models (DEM) Tools and Raster Calculator](https://www.statcan.gc.ca/en/wtc/online-lectures/qgis/2020020)
