@@ -12,3 +12,5 @@ En envoyant des fichiers vers Azure Storage Blob à l'aide d'un jeton fourni, vo
 - Les utilisateurs ne doivent pas envoyer de fichiers qui :  
   - Contiennent des virus, des vers, des chevaux de Troie, des rançongiciels ou toute autre forme de code malveillant  
   - Ont été intentionnellement conçus pour perturber ou compromettre l'intégrité de nos systèmes, des données des autres utilisateurs ou des systèmes de tiers. 
+
+Par défaut, les jetons expirent après 30 minutes. Si vous avez besoin d'une durée de validité plus longue, veuillez soumettre une demande de support.
