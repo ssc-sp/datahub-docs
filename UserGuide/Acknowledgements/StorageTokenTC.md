@@ -12,3 +12,5 @@ By uploading files to the Azure Storage Blob using a provided token, you (the "U
 - Users must not upload any files that: 
   - Contain viruses, worms, Trojan horses, ransomware, or any form of malicious code. 
   - Have been intentionally designed to disrupt or compromise the integrity of our systems, other users' data, or any third-party systems. 
+
+By default, tokens expire after 30 minutes. If you require a longer expiry time, please complete a support request.
