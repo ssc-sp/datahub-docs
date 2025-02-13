@@ -58,7 +58,3 @@ This cluster policy is designed for large production workloads. It is a good cho
 ## Creating a cluster
 
 For more information on how to create clusters, please refer to the [Databricks documentation](https://learn.microsoft.com/en-us/azure/databricks/clusters/configure).
-
-## In the future
-
-We are already looking at possible new cluster policies that will offer not only specific configurations but also specific toolings, such as Conda support. We will communicate with users upon the release of such new cluster policies.
