@@ -27,18 +27,19 @@
       //     '/fr/': '#/fr/',
       //     '/': '#/',
       //   },
-      plugins: [
-        EditOnGithubPlugin.create(
-          'https://github.com/ssc-sp/datahub-docs/blob/main/',
-          null,
-          function(file) {
-            if (file.indexOf('fr') === -1) {
-              return 'Edit on GitHub'
-            } else {
-              return 'Editer sur Github'
-            }
-          })
-      ]            
+      // [VB] hide EdiyOnGithubPlugin
+      // plugins: [
+      //   EditOnGithubPlugin.create(
+      //     'https://github.com/ssc-sp/datahub-docs/blob/main/',
+      //     null,
+      //     function(file) {
+      //       if (file.indexOf('fr') === -1) {
+      //         return 'Edit on GitHub'
+      //       } else {
+      //         return 'Editer sur Github'
+      //       }
+      //     })
+      // ]            
     }
   </script>
   <!-- Docsify v4 -->
