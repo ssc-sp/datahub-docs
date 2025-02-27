@@ -1,45 +1,78 @@
-trigger:
-  branches:
-    include:
-    - hide_github
- 
-pool:
-  vmImage: 'ubuntu-latest'
- 
-steps:
-- checkout: self
+name: Publish static files
 
-- task: AzureCLI@2
-  displayName: 'Copy files from static folder to static container'
-  inputs:
-    azureSubscription: 'fsdh-static-assets-service-credential'
-    scriptType: 'bash'
-    scriptLocation: 'inlineScript'
-    inlineScript: |
-      storageAccountName='fsdhstaticassetstorage'
-      containerName='static'
-      sourceFolder='$(Build.SourcesDirectory)/static'
+on:
+  push:
+    branches:
+      - "hide_github"
 
-      # Upload files to the 'static' container
-      az storage blob upload-batch --destination $containerName --source $sourceFolder --account-name $storageAccountName --account-key $(storageAccountKey) --overwrite
+jobs:
+  publish_docs:
+    runs-on: ubuntu-latest
+    name: 'Upload files to docs container'
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
 
-- task: AzureCLI@2
-  displayName: 'Post-upload Validation of Blobs'
-  inputs:
-    azureSubscription: 'fsdh-static-assets-service-credential'
-    scriptType: 'bash'
-    scriptLocation: 'inlineScript'
-    inlineScript: |
-      storageAccountName="fsdhstaticassetstorage"
-      containerName="static"
-      blobName="vs/ssl_cert.png"
-      
-      echo "Checking if the blob exists..."
-      exists=$(az storage blob exists --account-name $storageAccountName --container-name $containerName --name $blobName --output tsv)
-      
-      if [ "$exists" = "True" ]; then
-        echo "Validation successful: Blob exists in container."
-      else
-        echo "Validation failed: Blob does not exist in container."
-        exit 1
-      fi
+    - name: Upload files to docs container
+      uses: azure/CLI@v1
+      with:
+        azcliversion: '2.0.72'
+        inlineScript: |
+          storageAccountName='fsdhstaticassetstorage'
+          containerName='docs'
+          sourceFolder='${{ github.workspace }}'
+
+          az storage blob upload-batch --destination $containerName --source $sourceFolder --account-name $storageAccountName --account-key ${{ secrets.STORAGE_ACCOUNT_KEY }} --overwrite
+
+    - name: Post-upload Validation of Docs Blobs
+      uses: azure/CLI@v1
+      with:
+        azcliversion: '2.0.72'
+        inlineScript: |
+          storageAccountName="fsdhstaticassetstorage"
+          containerName="docs"
+          blobName="_sidebar.md"
+          
+          echo "Checking if the blob exists..."
+          exists=$(az storage blob exists --account-name $storageAccountName --container-name $containerName --name $blobName --output tsv)
+          
+          if [ "$exists" = "True" ]; then
+            echo "Validation successful: Blob exists in container."
+          else
+            echo "Validation failed: Blob does not exist in container."
+            exit 1
+          fi
+
+  publish_static:
+    runs-on: ubuntu-latest
+    name: 'Upload files to static container'
+    steps:
+    - name: Upload files to static container
+      uses: azure/CLI@v1
+      with:
+        azcliversion: '2.0.72'
+        inlineScript: |
+          storageAccountName='fsdhstaticassetstorage'
+          containerName='static'
+          sourceFolder='${{ github.workspace }}/static'
+
+          az storage blob upload-batch --destination $containerName --source $sourceFolder --account-name $storageAccountName --account-key ${{ secrets.STORAGE_ACCOUNT_KEY }} --overwrite
+
+    - name: Post-upload Validation of Static Blobs
+      uses: azure/CLI@v1
+      with:
+        azcliversion: '2.0.72'
+        inlineScript: |
+          storageAccountName="fsdhstaticassetstorage"
+          containerName="static"
+          blobName="vs/ssl_cert.png"
+          
+          echo "Checking if the blob exists..."
+          exists=$(az storage blob exists --account-name $storageAccountName --container-name $containerName --name $blobName --output tsv)
+          
+          if [ "$exists" = "True" ]; then
+            echo "Validation successful: Blob exists in container."
+          else
+            echo "Validation failed: Blob does not exist in container."
+            exit 1
+          fi
