@@ -4324,28 +4324,28 @@
     "French": "Initialiser un nouveau projet :"
   },
   {
-    "English": "![new project](https://raw.githubusercontent.com/wiki/ssc-sp/datahub-portal/static/rider/new.png)",
-    "French": "! [nouveau projet](https://raw.githubusercontent.com/wiki/ssc-sp/datahub-portal/static/rider/new.png)"
+    "English": "![new project](https://fsdhstaticassetstorage.blob.core.windows.net/static/rider/new.png)",
+    "French": "! [nouveau projet](https://fsdhstaticassetstorage.blob.core.windows.net/static/rider/new.png)"
   },
   {
     "English": "Populate \u0060URL\u0060 with the Datahub\u0027s repository link: \u0060https://github.com/ssc-sp/datahub-portal.git\u0060 and select a path to the parent directory which will contain the repository. If \u0060git\u0060 is not installed, click \u0060Download and Install\u0060; If the installation fails, acquire \u0060git\u0060 from [https://git-scm.com/downloads](https://git-scm.com/downloads).",
     "French": "Remplissez \u0060URL\u0060 avec le lien du r\u00E9f\u00E9rentiel de Datahub : \u0060https://github.com/ssc-sp/datahub-portal.git\u0060 et s\u00E9lectionnez un chemin vers le r\u00E9pertoire parent qui contiendra le d\u00E9p\u00F4t. Si \u0060git\u0060 n\u0027est pas install\u00E9, cliquez sur \u0060Download and Install\u0060 ; Si l\u0027installation \u00E9choue, acqu\u00E9rez \u0060git\u0060 depuis [https://git-scm.com/downloads](https://git-scm.com/downloads)."
   },
   {
-    "English": "![vc](https://raw.githubusercontent.com/wiki/ssc-sp/datahub-portal/static/rider/vc.png)",
-    "French": "![vc](https://raw.githubusercontent.com/wiki/ssc-sp/datahub-portal/static/rider/vc.png)"
+    "English": "![vc](https://fsdhstaticassetstorage.blob.core.windows.net/static/rider/vc.png)",
+    "French": "![vc](https://fsdhstaticassetstorage.blob.core.windows.net/static/rider/vc.png)"
   },
   {
     "English": "Once cloned, if prompted select \u0060Trust and Open\u0060.",
     "French": "Une fois clon\u00E9, si vous y \u00EAtes invit\u00E9, s\u00E9lectionnez \u0022Trust and Open\u0022."
   },
   {
-    "English": "![trust](https://raw.githubusercontent.com/wiki/ssc-sp/datahub-portal/static/rider/trust.png)",
-    "French": "![confiance](https://raw.githubusercontent.com/wiki/ssc-sp/datahub-portal/static/rider/trust.png)"
+    "English": "![trust](https://fsdhstaticassetstorage.blob.core.windows.net/static/rider/trust.png)",
+    "French": "![confiance](https://fsdhstaticassetstorage.blob.core.windows.net/static/rider/trust.png)"
   },
   {
-    "English": "![run](https://raw.githubusercontent.com/wiki/ssc-sp/datahub-portal/static/rider/run.png)",
-    "French": "![run](https://raw.githubusercontent.com/wiki/ssc-sp/datahub-portal/static/rider/run.png)"
+    "English": "![run](https://fsdhstaticassetstorage.blob.core.windows.net/static/rider/run.png)",
+    "French": "![run](https://fsdhstaticassetstorage.blob.core.windows.net/static/rider/run.png)"
   },
   {
     "English": "# Localization Overview",
