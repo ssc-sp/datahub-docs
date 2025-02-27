@@ -25,11 +25,11 @@ Un de :
 
 Clonez le référentiel :
 
-![clone](https://raw.githubusercontent.com/wiki/ssc-sp/datahub-portal/static/vs/clone.png)
+![clone](https://fsdhstaticassetstorage.blob.core.windows.net/docs/static/vs/clone.png)
 
 Remplissez `L'emplacement du référentiel` avec le lien du référentiel de Datahub : `https://github.com/ssc-sp/datahub-portal.git` et sélectionnez un chemin vers le répertoire parent qui contiendra le référentiel.
 
-![repo](https://raw.githubusercontent.com/wiki/ssc-sp/datahub-portal/static/vs/repo.png)
+![repo](https://fsdhstaticassetstorage.blob.core.windows.net/docs/static/vs/repo.png)
 
 TENTATIVE : Afin de configurer les paramètres de construction correctement, envoyez une demande au propriétaire du projet, ou alternativement **si vous êtes un stagiaire SPC**, envoyez une demande à `matteo.gisondi@ssc-spc.gc.ca` pour le schéma `appsettings` approprié.
 
@@ -37,15 +37,15 @@ Copiez le schéma dans le répertoire `Datahub.Portal`.
 
 Sélectionnez le schéma approprié dans la barre supérieure, et cliquez sur run/debug pour lancer l'application dans le navigateur.
 
-![schéma](https://raw.githubusercontent.com/wiki/ssc-sp/datahub-portal/static/vs/schema.png)
+![schéma](https://fsdhstaticassetstorage.blob.core.windows.net/docs/static/vs/schema.png)
 
 Si vous y êtes invité, faites confiance au certificat SSL :
 
-![certificat ssl](https://raw.githubusercontent.com/wiki/ssc-sp/datahub-portal/static/vs/ssl_cert.png)
+![certificat ssl](https://fsdhstaticassetstorage.blob.core.windows.net/docs/static/vs/ssl_cert.png)
 
 et sélectionnez oui sur l'avertissement de sécurité :
 
-! [alerte de sécurité](https://raw.githubusercontent.com/wiki/ssc-sp/datahub-portal/static/vs/security_warning.png)
+! [alerte de sécurité](https://fsdhstaticassetstorage.blob.core.windows.net/docs/static/vs/security_warning.png)
 
 ### JetBrains Rider
 

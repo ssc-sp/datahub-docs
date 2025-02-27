@@ -1,0 +1,45 @@
+trigger:
+  branches:
+    include:
+    - hide_github
+ 
+pool:
+  vmImage: 'ubuntu-latest'
+ 
+steps:
+- checkout: self
+
+- task: AzureCLI@2
+  displayName: 'Copy files from static folder to static container'
+  inputs:
+    azureSubscription: 'fsdh-static-assets-service-credential'
+    scriptType: 'bash'
+    scriptLocation: 'inlineScript'
+    inlineScript: |
+      storageAccountName='fsdhstaticassetstorage'
+      containerName='static'
+      sourceFolder='$(Build.SourcesDirectory)/static'
+
+      # Upload files to the 'static' container
+      az storage blob upload-batch --destination $containerName --source $sourceFolder --account-name $storageAccountName --account-key $(storageAccountKey) --overwrite
+
+- task: AzureCLI@2
+  displayName: 'Post-upload Validation of Blobs'
+  inputs:
+    azureSubscription: 'fsdh-static-assets-service-credential'
+    scriptType: 'bash'
+    scriptLocation: 'inlineScript'
+    inlineScript: |
+      storageAccountName="fsdhstaticassetstorage"
+      containerName="static"
+      blobName="vs/ssl_cert.png"
+      
+      echo "Checking if the blob exists..."
+      exists=$(az storage blob exists --account-name $storageAccountName --container-name $containerName --name $blobName --output tsv)
+      
+      if [ "$exists" = "True" ]; then
+        echo "Validation successful: Blob exists in container."
+      else
+        echo "Validation failed: Blob does not exist in container."
+        exit 1
+      fi
