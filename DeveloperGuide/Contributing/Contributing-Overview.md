@@ -19,11 +19,11 @@ One of:
 
 Clone the repository:
 
-![clone](https://fsdhstaticassetstorage.blob.core.windows.net/docs/static/vs/clone.png)
+![clone](https://fsdhstaticassetstorage.blob.core.windows.net/static/vs/clone.png)
 
 Populate `Repository location` with the Datahub's repository link: `https://github.com/ssc-sp/datahub-portal.git` and select a path to the parent directory which will contain the repository.
 
-![repo](https://fsdhstaticassetstorage.blob.core.windows.net/docs/static/vs/repo.png)
+![repo](https://fsdhstaticassetstorage.blob.core.windows.net/static/vs/repo.png)
 
 TENTATIVE: In order to configure the build parameters correctly, send a request to the project owner, or alternatively **if you're an SSC Intern**, send a request to `matteo.gisondi@ssc-spc.gc.ca` for the appropriate `appsettings` schema.
 
@@ -31,15 +31,15 @@ Copy the schema to the `Datahub.Portal` directory.
 
 Select the appropriate schema in the top bar, and hit run/debug to launch the application in the browser.
 
-![schema](https://fsdhstaticassetstorage.blob.core.windows.net/docs/static/vs/schema.png)
+![schema](https://fsdhstaticassetstorage.blob.core.windows.net/static/vs/schema.png)
 
 If prompted, trust SSL Certificate:
 
-![ssl cert](https://fsdhstaticassetstorage.blob.core.windows.net/docs/static/vs/ssl_cert.png)
+![ssl cert](https://fsdhstaticassetstorage.blob.core.windows.net/static/vs/ssl_cert.png)
 
 and select yes on the security warning:
 
-![security warning](https://fsdhstaticassetstorage.blob.core.windows.net/docs/static/vs/security_warning.png)
+![security warning](https://fsdhstaticassetstorage.blob.core.windows.net/static/vs/security_warning.png)
 
 ### JetBrains Rider
 
