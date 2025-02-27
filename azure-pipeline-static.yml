@@ -20,10 +20,10 @@ jobs:
         inlineScript: |
           storageAccountName='fsdhstaticassetstorage'
           containerName='docs'
-          sourceFolder='${{ github.workspace }}'
+          sourceFolder='$(Build.SourcesDirectory)'
 
-          az storage blob upload-batch --destination $containerName --source $sourceFolder --account-name $storageAccountName --account-key ${{ secrets.STORAGE_ACCOUNT_KEY }} --overwrite
-
+          az storage blob upload-batch --destination $containerName --source $sourceFolder --account-name $storageAccountName --account-key $(storageAccountKey) --overwrite 
+      
     - name: Post-upload Validation of Docs Blobs
       uses: azure/CLI@v1
       with:
@@ -53,10 +53,10 @@ jobs:
         azcliversion: '2.0.72'
         inlineScript: |
           storageAccountName='fsdhstaticassetstorage'
-          containerName='static'
-          sourceFolder='${{ github.workspace }}/static'
+          containerName='static' 
+          sourceFolder='$(Build.SourcesDirectory)/static'
 
-          az storage blob upload-batch --destination $containerName --source $sourceFolder --account-name $storageAccountName --account-key ${{ secrets.STORAGE_ACCOUNT_KEY }} --overwrite
+          az storage blob upload-batch --destination $containerName --source $sourceFolder --account-name $storageAccountName --account-key $(storageAccountKey) --overwrite 
 
     - name: Post-upload Validation of Static Blobs
       uses: azure/CLI@v1
