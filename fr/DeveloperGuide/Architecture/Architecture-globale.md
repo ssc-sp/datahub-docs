@@ -9,4 +9,4 @@ draft: true
 Ce document présente un aperçu rapide de l'architecture déployée de DataHub dans le SPC Cloud.
 
 ## Aperçu
-![image](https://fsdhstaticassetstorage.blob.core.windows.net/static/docs/210837113-72cf41d6-3189-4e8b-b6b9-aaa03adc26f0.png)
+![image](/Architecture.png)
