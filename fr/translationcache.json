@@ -3908,8 +3908,8 @@
     "French": "Ce document pr\u00E9sente un aper\u00E7u rapide de l\u0027architecture d\u00E9ploy\u00E9e de DataHub dans le SSC Cloud."
   },
   {
-    "English": "![image](https://user-images.githubusercontent.com/3179656/210837113-72cf41d6-3189-4e8b-b6b9-aaa03adc26f0.png)",
-    "French": "![image](https://user-images.githubusercontent.com/3179656/210837113-72cf41d6-3189-4e8b-b6b9-aaa03adc26f0.png)"
+    "English": "![image](https://fsdhstaticassetstorage.blob.core.windows.net/static/docs/210837113-72cf41d6-3189-4e8b-b6b9-aaa03adc26f0.png)",
+    "French": "![image](https://fsdhstaticassetstorage.blob.core.windows.net/static/docs/210837113-72cf41d6-3189-4e8b-b6b9-aaa03adc26f0.png)"
   },
   {
     "English": "# Overview of Project Costs and Notification",
@@ -4272,16 +4272,16 @@
     "French": "Clonez le r\u00E9f\u00E9rentiel :"
   },
   {
-    "English": "![clone](https://raw.githubusercontent.com/wiki/ssc-sp/datahub-portal/static/vs/clone.png)",
-    "French": "![clone](https://raw.githubusercontent.com/wiki/ssc-sp/datahub-portal/static/vs/clone.png)"
+    "English": "![clone](https://fsdhstaticassetstorage.blob.core.windows.net/static/vs/clone.png)",
+    "French": "![clone](https://fsdhstaticassetstorage.blob.core.windows.net/static/vs/clone.png)"
   },
   {
     "English": "Populate \u0060Repository location\u0060 with the Datahub\u0027s repository link: \u0060https://github.com/ssc-sp/datahub-portal.git\u0060 and select a path to the parent directory which will contain the repository.",
     "French": "Remplissez \u0060L\u0027emplacement du r\u00E9f\u00E9rentiel\u0060 avec le lien du r\u00E9f\u00E9rentiel de Datahub : \u0060https://github.com/ssc-sp/datahub-portal.git\u0060 et s\u00E9lectionnez un chemin vers le r\u00E9pertoire parent qui contiendra le r\u00E9f\u00E9rentiel."
   },
   {
-    "English": "![repo](https://raw.githubusercontent.com/wiki/ssc-sp/datahub-portal/static/vs/repo.png)",
-    "French": "![repo](https://raw.githubusercontent.com/wiki/ssc-sp/datahub-portal/static/vs/repo.png)"
+    "English": "![repo](https://fsdhstaticassetstorage.blob.core.windows.net/static/vs/repo.png)",
+    "French": "![repo](https://fsdhstaticassetstorage.blob.core.windows.net/static/vs/repo.png)"
   },
   {
     "English": "TENTATIVE: In order to configure the build parameters correctly, send a request to the project owner, or alternatively **if you\u0027re an SSC Intern**, send a request to \u0060matteo.gisondi@ssc-spc.gc.ca\u0060 for the appropriate \u0060appsettings\u0060 schema.",
@@ -4296,24 +4296,24 @@
     "French": "S\u00E9lectionnez le sch\u00E9ma appropri\u00E9 dans la barre sup\u00E9rieure, et cliquez sur run/debug pour lancer l\u0027application dans le navigateur."
   },
   {
-    "English": "![schema](https://raw.githubusercontent.com/wiki/ssc-sp/datahub-portal/static/vs/schema.png)",
-    "French": "![sch\u00E9ma](https://raw.githubusercontent.com/wiki/ssc-sp/datahub-portal/static/vs/schema.png)"
+    "English": "![schema](https://fsdhstaticassetstorage.blob.core.windows.net/static/vs/schema.png)",
+    "French": "![sch\u00E9ma](https://fsdhstaticassetstorage.blob.core.windows.net/static/vs/schema.png)"
   },
   {
     "English": "If prompted, trust SSL Certificate:",
     "French": "Si vous y \u00EAtes invit\u00E9, faites confiance au certificat SSL :"
   },
   {
-    "English": "![ssl cert](https://raw.githubusercontent.com/wiki/ssc-sp/datahub-portal/static/vs/ssl_cert.png)",
-    "French": "![certificat ssl](https://raw.githubusercontent.com/wiki/ssc-sp/datahub-portal/static/vs/ssl_cert.png)"
+    "English": "![ssl cert](https://fsdhstaticassetstorage.blob.core.windows.net/static/vs/ssl_cert.png)",
+    "French": "![certificat ssl](https://fsdhstaticassetstorage.blob.core.windows.net/static/vs/ssl_cert.png)"
   },
   {
     "English": "and select yes on the security warning:",
     "French": "et s\u00E9lectionnez oui sur l\u0027avertissement de s\u00E9curit\u00E9 :"
   },
   {
-    "English": "![security warning](https://raw.githubusercontent.com/wiki/ssc-sp/datahub-portal/static/vs/security_warning.png)",
-    "French": "! [alerte de s\u00E9curit\u00E9](https://raw.githubusercontent.com/wiki/ssc-sp/datahub-portal/static/vs/security_warning.png)"
+    "English": "![security warning](https://fsdhstaticassetstorage.blob.core.windows.net/static/vs/security_warning.png)",
+    "French": "! [alerte de s\u00E9curit\u00E9](https://fsdhstaticassetstorage.blob.core.windows.net/static/vs/security_warning.png)"
   },
   {
     "English": "### JetBrains Rider",
@@ -4324,28 +4324,28 @@
     "French": "Initialiser un nouveau projet :"
   },
   {
-    "English": "![new project](https://raw.githubusercontent.com/wiki/ssc-sp/datahub-portal/static/rider/new.png)",
-    "French": "! [nouveau projet](https://raw.githubusercontent.com/wiki/ssc-sp/datahub-portal/static/rider/new.png)"
+    "English": "![new project](https://fsdhstaticassetstorage.blob.core.windows.net/static/rider/new.png)",
+    "French": "! [nouveau projet](https://fsdhstaticassetstorage.blob.core.windows.net/static/rider/new.png)"
   },
   {
     "English": "Populate \u0060URL\u0060 with the Datahub\u0027s repository link: \u0060https://github.com/ssc-sp/datahub-portal.git\u0060 and select a path to the parent directory which will contain the repository. If \u0060git\u0060 is not installed, click \u0060Download and Install\u0060; If the installation fails, acquire \u0060git\u0060 from [https://git-scm.com/downloads](https://git-scm.com/downloads).",
     "French": "Remplissez \u0060URL\u0060 avec le lien du r\u00E9f\u00E9rentiel de Datahub : \u0060https://github.com/ssc-sp/datahub-portal.git\u0060 et s\u00E9lectionnez un chemin vers le r\u00E9pertoire parent qui contiendra le d\u00E9p\u00F4t. Si \u0060git\u0060 n\u0027est pas install\u00E9, cliquez sur \u0060Download and Install\u0060 ; Si l\u0027installation \u00E9choue, acqu\u00E9rez \u0060git\u0060 depuis [https://git-scm.com/downloads](https://git-scm.com/downloads)."
   },
   {
-    "English": "![vc](https://raw.githubusercontent.com/wiki/ssc-sp/datahub-portal/static/rider/vc.png)",
-    "French": "![vc](https://raw.githubusercontent.com/wiki/ssc-sp/datahub-portal/static/rider/vc.png)"
+    "English": "![vc](https://fsdhstaticassetstorage.blob.core.windows.net/static/rider/vc.png)",
+    "French": "![vc](https://fsdhstaticassetstorage.blob.core.windows.net/static/rider/vc.png)"
   },
   {
     "English": "Once cloned, if prompted select \u0060Trust and Open\u0060.",
     "French": "Une fois clon\u00E9, si vous y \u00EAtes invit\u00E9, s\u00E9lectionnez \u0022Trust and Open\u0022."
   },
   {
-    "English": "![trust](https://raw.githubusercontent.com/wiki/ssc-sp/datahub-portal/static/rider/trust.png)",
-    "French": "![confiance](https://raw.githubusercontent.com/wiki/ssc-sp/datahub-portal/static/rider/trust.png)"
+    "English": "![trust](https://fsdhstaticassetstorage.blob.core.windows.net/static/rider/trust.png)",
+    "French": "![confiance](https://fsdhstaticassetstorage.blob.core.windows.net/static/rider/trust.png)"
   },
   {
-    "English": "![run](https://raw.githubusercontent.com/wiki/ssc-sp/datahub-portal/static/rider/run.png)",
-    "French": "![run](https://raw.githubusercontent.com/wiki/ssc-sp/datahub-portal/static/rider/run.png)"
+    "English": "![run](https://fsdhstaticassetstorage.blob.core.windows.net/static/rider/run.png)",
+    "French": "![run](https://fsdhstaticassetstorage.blob.core.windows.net/static/rider/run.png)"
   },
   {
     "English": "# Localization Overview",

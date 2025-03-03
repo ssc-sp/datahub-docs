@@ -22,23 +22,33 @@
       // alias: {
       //   '/.*/_sidebar.md': '/_sidebar.md'
       // },    
-      loadNavbar: true,
+        loadNavbar: true,
+        plugins: [
+            function (hook, vm) {
+                hook.doneEach(function () {
+                    if (window.mermaid) {
+                        window.mermaid.init(undefined, document.querySelectorAll('.mermaid'));
+                    }
+                });
+            }
+        ]
       // nameLink: {
       //     '/fr/': '#/fr/',
       //     '/': '#/',
       //   },
-      plugins: [
-        EditOnGithubPlugin.create(
-          'https://github.com/ssc-sp/datahub-docs/blob/main/',
-          null,
-          function(file) {
-            if (file.indexOf('fr') === -1) {
-              return 'Edit on GitHub'
-            } else {
-              return 'Editer sur Github'
-            }
-          })
-      ]            
+      // [VB] hide EditOnGithubPlugin
+      // plugins: [
+      //   EditOnGithubPlugin.create(
+      //     'https://github.com/ssc-sp/datahub-docs/blob/main/',
+      //     null,
+      //     function(file) {
+      //       if (file.indexOf('fr') === -1) {
+      //         return 'Edit on GitHub'
+      //       } else {
+      //         return 'Editer sur Github'
+      //       }
+      //     })
+      // ]            
     }
   </script>
   <!-- Docsify v4 -->

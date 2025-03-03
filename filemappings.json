@@ -331,13 +331,13 @@
   },
   {
     "Id": "d6330f91-ffb4-efe1-99d8-7876c6712282",
-    "En": "/DeveloperGuide/Storage/BYO Storage (AWS).md",
-    "Fr": "/fr/DeveloperGuide/Storage/BYO Storage (AWS).md"
+    "En": "/DeveloperGuide/Storage/BYO_Storage_(AWS).md",
+    "Fr": "/fr/DeveloperGuide/Storage/BYO_Storage_(AWS).md"
   },
   {
     "Id": "4cfe8b3e-65b6-6d64-b2bd-3e0ab17f2c6f",
-    "En": "/DeveloperGuide/Storage/BYO Storage (Azure).md",
-    "Fr": "/fr/DeveloperGuide/Storage/BYO Storage (Azure).md"
+    "En": "/DeveloperGuide/Storage/BYO_Storage_(Azure).md",
+    "Fr": "/fr/DeveloperGuide/Storage/BYO_Storage_(Azure).md"
   },
   {
     "Id": "f02f295f-2d60-6ead-168c-a8ceb5c2ec62",

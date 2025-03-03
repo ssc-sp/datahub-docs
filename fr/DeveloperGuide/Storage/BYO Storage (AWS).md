@@ -1,6 +1,6 @@
 ---
 remarks: Automatically translated with DeepL
-source: /DeveloperGuide/Storage/BYO Storage (AWS).md
+source: /DeveloperGuide/Storage/BYO_Storage_(AWS).md
 draft: true
 ---
 
