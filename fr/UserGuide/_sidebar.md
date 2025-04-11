@@ -1,7 +1,7 @@
 - [Guide de l'utilisateur du DataHub scientifique fédéral](/fr/UserGuide/Guide-de-l'utilisateur.md)
 
 - Apprendre [](Icon:LibraryBooks)
-  - Pour commencer
+  - Gestion des espaces de travail et des utilisateurs
     - [Enregistrement du compte](/fr/UserGuide/Preregistration/Preregistration.md)
     - [Créer un espace de travail](/fr/UserGuide/GettingStarted/Creating-a-workspace.md)
     - [Métadonnées complètes](/fr/UserGuide/GettingStarted/Complete-metadata.md)
