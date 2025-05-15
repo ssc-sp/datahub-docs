@@ -1,6 +1,6 @@
 # Conditions générales
 
-**ENTRE: le CSD et les ministères et agences à vocation scientifique participants.
+**ENTRE: le CSD et les ministères et agences à vocation scientifique participants.**
 
 (Les "participants" sont désignés par les termes "responsable de l'espace de travail", "collaborateur de l'espace de travail", "administrateur de l'espace de travail" et "responsable des données de l'espace de travail").
 
@@ -112,15 +112,15 @@ Les rôles au sein de la PFDS sont les suivants, les responsabilités sont décr
 | Thème | Activité | CECC | CSE | Participants
 | --- | --- | --- | --- | --- |
 | Gestion de la gouvernance | Engagement des activités de gouvernance pour la PFDS. Établissement des politiques et normes opérationnelles de la PFDS | I,C | A, R | I,C |
-| Leadership stratégique | Assurer le leadership et l'orientation stratégique de la PFDS. | R, C | A, R | I, C | | GESTION FINANCIÈRE | DÉVELOPPER ET METTRE EN ŒUVRE LE FINANCEMENT DE LA FSDH.
-| Gestion financière | Élaboration et mise en œuvre du modèle de financement | R, I | A, R | I, C | Gestion des produits | Gestion des produits de la FSDH
+| Leadership stratégique | Assurer le leadership et l'orientation stratégique de la PFDS. | R, C | A, R | I, C |
+| Gestion financière | Élaboration et mise en œuvre du modèle de financement | R, I | A, R | I, C |
 | Gestion des produits | Gestion des produits de la PFDS tels que la gestion des incidents, le développement des produits, les politiques et les orientations, etc. | C,I | A,R | C,I |
 | Gestion de l'espace de travail | S'assurer que l'espace de travail est géré, ces activités peuvent inclure l'examen de la consommation du cloud, s'assurer qu'un responsable des données est affecté à l'espace de travail, suivre les politiques et les lignes directrices, etc. | I | I,C | A,R |
-| Communication/Engagement | Activités de communication et d'engagement associées aux PFDS. I | I,C | A,R | I |
+| Communication/Engagement | Activités de communication et d'engagement associées aux PFDS. | I,C | A,R | I |
 | Gestion de l'accueil des nouveaux arrivants | Accueil des nouveaux arrivants: planification et accueil, accueil technique, etc. | C | A,R | I |
-| Gestion de l'information | Activités de gestion de l'information. | I,C | I,C | A,R | I | GESTION DES DONNÉES
-| Gestion des données | Activités de gestion des données telles que le cycle de vie des données, la qualité des données, etc. | I,C | I,C | A,R | | GESTION DES DONNÉES
-Gestion de la sécurité du portail | La gestion de la sécurité du portail consiste à veiller à ce que le portail PFDS réponde à toutes les exigences en matière de sécurité, | I,C | A,R | I,C | I,C | I,C | A,R | A,R | A,R | A,R | A,R | A,R | A,R | A,R | A,R | A,R | A,R | A,R
+| Gestion de l'information | Activités de gestion de l'information. | I,C | I,C | A,R |
+| Gestion des données | Activités de gestion des données telles que le cycle de vie des données, la qualité des données, etc. | I,C | I,C | A,R |
+Gestion de la sécurité du portail | La gestion de la sécurité du portail consiste à veiller à ce que le portail PFDS réponde à toutes les exigences en matière de sécurité, | I,C | A,R | I,C |
 | Gestion de la sécurité de l'espace de travail | La gestion de la sécurité de l'espace de travail est la gestion des données ou des informations au sein de l'espace de travail. En outre, elle comprend toutes les activités liées à la sécurité en termes d'applications, d'API, etc. | I,C | I,C | A,R |
 | Gestion de l'espace de travail | Les responsables ou administrateurs de l'espace de travail sont chargés de..: <br /> Développer des procédures de gestion des accès pour contrôler l'accès à leur espace de travail. <br /> Fournir des conseils d'utilisation aux utilisateurs de l'espace de travail.  <Contrôler l'utilisation de l'espace de travail et la sensibilité des informations hébergées dans l'espace de travail (en veillant à ce que le niveau de sensibilité attribué à l'espace de travail soit respecté à tout moment du point de vue d'une seule personne ou d'un agrégat de données).  <Travailler avec l'équipe de cybersécurité du département à l'élaboration d'un rapport de catégorisation de la sécurité de l'espace de travail, ainsi que de processus de gestion de l'accès, de conseils, de jetons d'accès aux comptes de base de données et de stockage, de gestion du coffre-fort des clés et de processus de surveillance.  <Garantir l'intégrité et la disponibilité du code source de l'espace de travail sur la base des processus départementaux.  | I,C | I,C | A,R |
 | Gestion du stockage | La gestion du stockage ou la gestion de la base de données comprend toutes les activités liées au service d'application ou au service de base de données. Cela comprend également la gestion des informations d'identification de la base de données. Le responsable de l'espace de travail est chargé de la bonne gestion et du stockage des informations d'identification de la base de données et des jetons de stockage. <En outre, les services emballés dans le docker doivent respecter les politiques, les normes, les lignes directrices et les normes du GC. Les services déployés par l'entremise de Docker doivent respecter les politiques de sécurité et doivent être utilisés à des fins commerciales légitimes du gouvernement du Canada.  | I,C | I | A,R |
