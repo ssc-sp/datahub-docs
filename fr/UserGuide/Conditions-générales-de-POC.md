@@ -1,6 +1,4 @@
-# Conditions générales
-
-**ENTRE: le CSD et les ministères et agences à vocation scientifique participants.**
+**ENTRE: SPC et les MOVS participants.**
 
 (Les "participants" sont désignés par les termes "responsable de l'espace de travail", "collaborateur de l'espace de travail", "administrateur de l'espace de travail" et "responsable des données de l'espace de travail").
 

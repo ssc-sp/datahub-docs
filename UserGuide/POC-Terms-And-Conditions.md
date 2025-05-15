@@ -1,5 +1,3 @@
-# Terms and Conditions
-
 **BETWEEN: SSC and Participating Science-Based Departments and Agencies.**
 
 (“Participants” are referred to as workspace lead, workspace collaborator, workspace administrator, and workspace data steward.)
