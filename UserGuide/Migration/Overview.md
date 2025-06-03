@@ -6,20 +6,22 @@ To prepare you for the transition from PoC to prod, we have created a series of 
 
 ## Process and Timeline
 
-__The FSDH team will establish a cutoff date for active analysis and experimentation in the POC environment as well as a final date by which all databases, storage, web apps, and Databricks resources must be migrated or offboarded. Once finalized, these dates will be communicated in this documentation, by general email and via in-platform announcements to ensure all workspace leads are aware of all important deadlines in order to avoid unintended data loss.__
+__Active analysis and experimentation in PoC can continue until Oct. 31, 2025. All databases, storage, web apps, and Databricks resources must be migrated or offboarded from PoC by Nov. 30, 2025.__
 
 The process and timeline for migrating or offboarding all resources is:
 
 * June 2025:
-    * The FSDH team will inform all PoC users of the launch date for prod and communicate with all PoC workspace leads about the process and requirements for opening a workspace in prod. 
+   * The FSDH team will inform all PoC users of the launch date for prod and communicate with all PoC workspace leads about the process and requirements for opening a workspace in prod. 
 * End of June - Oct. 31 2025:
-    * Workspaces in PoC will continue to function normally to ensure users can keep working while they transition to prod.
-    * Workspace leads who wish to migrate to prod will proceed with the workspace intake process through the <a href="https://hosting-services-hebergement.canada.ca/s/gc-cloud-fa-catalogue?language=en_US" target="_blank">GC Hosting Services Portal</a>. Guidance is available on the  <a href="https://gcxgce.sharepoint.com/teams/10002160" target="_blank">FSDH GCXchange site</a> and [FSDH product guide](https://gcxgce.sharepoint.com/:p:/t/10002160/ERGOIa1qBxFListkKG_0vXkBbJdvvBAMvOnUATGmzd2uuQ?download=1).
-    *  Once your workspace has been provisioned in prod, you can migrate resources from PoC to prod using the instructions in the sidebar.
-    *  If you are not opening a workspace in prod, you can offboard your databases, storage, web apps, and Databricks resources anytime.
+   * Workspaces in PoC will continue to function normally to ensure users can keep working while they transition to prod.
+   * Workspace leads who wish to migrate to prod will proceed with the workspace intake process through the <a href="https://hosting-services-hebergement.canada.ca/s/gc-cloud-fa-catalogue?language=en_US" target="_blank">GC Hosting Services Portal</a>. Guidance is available on the  <a href="https://gcxgce.sharepoint.com/teams/10002160" target="_blank">FSDH GCXchange site</a> and [FSDH product guide](https://gcxgce.sharepoint.com/:p:/t/10002160/ERGOIa1qBxFListkKG_0vXkBbJdvvBAMvOnUATGmzd2uuQ?download=1).
+   *  Once your workspace has been provisioned in prod, you can migrate resources from PoC to prod using the instructions in the sidebar.
+   *  If you are not opening a workspace in prod, you can offboard your databases, storage, web apps, and Databricks resources anytime.
 * Nov. 1, 2025:
-    * All roles in PoC will be set to guest. As a guest, you can continue migrating or offboarding your data and content. All other functionality will be disabled.
+   * All roles in PoC will be set to guest. As a guest, you can continue migrating or offboarding your data and content. All other functionality will be disabled.
 * Nov. 30, 2025:
+   * Final day to offboard data and content from PoC.
+* Dec. 1, 2025:
     * The PoC environment will be disabled for all FSDH users.
 
 ## Frequently Asked Questions
