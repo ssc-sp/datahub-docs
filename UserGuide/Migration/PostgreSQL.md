@@ -2,22 +2,22 @@
 
 This document provides instructions about:
 
-* migrating your PostgreSQL databases from the proof-of-concept (POC) environment to your new FSDH workspace in the production (PROD) environment
-* offboarding your PostgreSQL databases from the POC environment should you not be shifting your research to the PROD environment
+* migrating your PostgreSQL databases from the proof-of-concept (PoC) environment to your new FSDH workspace in the production (prod) environment
+* offboarding your PostgreSQL databases from PoC should you not be shifting your research to prod
 
-__Please note: The FSDH team will establish a cutoff date for active analysis and experimentation in the POC environment as well as a final date by which all databases, storage, web apps, and Databricks resources must be migrated or offboarded. Once finalized, these dates will be communicated in this documentation, by general email and via in-platform announcements to ensure all workspace leads are aware of all important deadlines in order to avoid unintended data loss.__
+__Please note: Active analysis and experimentation in PoC can continue until Oct. 31, 2025. All databases, storage, web apps, and Databricks resources must be migrated or offboarded from PoC by Nov. 30, 2025.__
 
-## A. Migrating from POC to PROD
+## A. Migrating from PoC to prod
 
-In order to migrate your PostgreSQL databases, you must have a new workspace in the PROD environment. The FSDH team will provide more information when it becomes available and will provide support as requested.
+To migrate your PostgreSQL databases, you must have a new workspace in prod. Once we launch at the end of June, you can proceed with the workspace intake process through the <a href="https://hosting-services-hebergement.canada.ca/s/gc-cloud-fa-catalogue?language=en_US" target="_blank">GC Hosting Services Portal</a>. Guidance is available on the <a href="https://gcxgce.sharepoint.com/teams/10002160" target="_blank">FSDH GCXchange site</a> and [FSDH product guide](https://gcxgce.sharepoint.com/:p:/t/10002160/ERGOIa1qBxFListkKG_0vXkBbJdvvBAMvOnUATGmzd2uuQ?download=1).
 
-Once you have a workspace in the PROD environment, the Federal Science DataHub support team can assist you with migrating your PostgreSQL databases. Please submit a Support Request to get started.
+Once your workspace has been provisioned in prod, you can migrate resources from PoC to prod. The Federal Science DataHub support team will assist you with migrating your PostgreSQL databases. Please submit a Support Request to get started.
 
 Alternatively, you can migrate your PostgreSQL databases yourself as follows:
 
 ### Step 1. Create a Dump of Your Database
 
-Whether you are migrating your PostgreSQL databases to your new workspace in the PROD environment or offboarding them from the POC environment, you should start by creating a dump of your databases. This dump will be used to either import your databases into the PROD environment or to store them for future use.
+Whether you are migrating your PostgreSQL databases to your new workspace in prod or offboarding them from PoC, you should start by creating a dump of your databases. This dump will be used to either import your databases into prod or to store them for future use.
 
 You can choose one of the following three ways to create a dump.
 
@@ -67,15 +67,15 @@ Replace `<username>` with your PostgreSQL username, `<database_name>` with the n
 
 6. Validate that the dump file has been created successfully by checking the file location.
 
-### Step 2. Import PostgreSQL to Your Workspace in the PROD Environment
+### Step 2. Import PostgreSQL to Your Workspace in Prod  
 
-Once you've created the dump files (Step 1), you can import your databases into the PROD environment using one of the three options below.
+Once you've created the dump files (Step 1), you can import your databases into prod using one of the three options below.
 
 #### Option 1: Import Dump Using `psql`
 
-1. Connect to the PROD PostgreSQL database using `psql` or a similar tool.
+1. Connect to the prod PostgreSQL database using `psql` or a similar tool.
 
-2. Run the following command to import the dump file into the PROD database:
+2. Run the following command to import the dump file into the prod database:
 
 ```bash
 psql -U <username> -d <database_name> -f <dump_file_name>.sql
@@ -83,11 +83,11 @@ psql -U <username> -d <database_name> -f <dump_file_name>.sql
 
 Replace `<username>` with your PostgreSQL username, `<database_name>` with the name of the database you want to import into, and `<dump_file_name>` with the name of the dump file.
 
-3. Validate that the import process was successful by checking the PROD database.
+3. Validate that the import process was successful by checking the prod database.
 
 #### Option 2: Import Dump Using pgAdmin
 
-1. Open pgAdmin and connect to the PROD PostgreSQL database.
+1. Open pgAdmin and connect to the prod PostgreSQL database.
 
 2. Right-click on the database you want to import into and select `Restore...`.
 
@@ -95,15 +95,15 @@ Replace `<username>` with your PostgreSQL username, `<database_name>` with the n
 
 3. In the `Restore Options` tab, select the dump file you created in the previous step.
 
-4. Click `Restore` to import the dump file into the PROD database.
+4. Click `Restore` to import the dump file into the prod database.
 
 ![Preview 4](/api/docs/UserGuide/Migration/postgres-pgadmin-4.png)
 
-5. Validate that the import process was successful by checking the PROD database.
+5. Validate that the import process was successful by checking the prod database.
 
 #### Option 3: Import Dump Using DBeaver
 
-1. Open DBeaver and connect to the PROD PostgreSQL database.
+1. Open DBeaver and connect to the prod PostgreSQL database.
 
 2. Right-click on the database you want to import into and select `Tools` > `Import Database`.
 
@@ -111,13 +111,13 @@ Replace `<username>` with your PostgreSQL username, `<database_name>` with the n
 
 4. In the `Input File` field, select the dump file you created in the previous step.
 
-5. Click `Finish` to import the dump file into the PROD database.
+5. Click `Finish` to import the dump file into the prod database.
 
-6. Validate that the import process was successful by checking the PROD database.
+6. Validate that the import process was successful by checking the prod database.
 
-## B. Offboarding PostgreSQL from POC
+## B. Offboarding PostgreSQL from PoC
 
-If you are not moving to the PROD environment, you can simply store the dump files created in Step 1 above for future use or for archival purposes.
+If you are not moving to prod, you can simply store the dump files created in Step 1 above for future use or for archival purposes.
 
 ## C. Support
 
