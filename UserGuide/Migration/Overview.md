@@ -1,8 +1,8 @@
 # Migration and Offboarding Overview
 
-The production environment (prod) of the Federal Science DataHub is expected to launch at the end of June 2025. This means you will be able to transition from the proof-of-concept (PoC) environment to prod. When we have a firm launch date, we will share it here and email users.
+The production environment (prod) of the Federal Science DataHub is expected to launch at the end of June 2025. Once we have a firm date for launch, we will announce it on the platform and email users.
 
-To prepare you for the transition from PoC to prod, we have created a series of guides to help you migrate or offboard your databases, storage, web apps, and Databricks resources. This document provides general information about the process and timeline. You can find detailed instructions on specific resources in the sidebar.
+To help prepare you for the transition from PoC to prod, we have created documentation for migrating or offboarding your databases, storage, web apps, and Databricks resources. The content below provides general information about the process and timeline; detailed instructions on specific resources can be found in the sidebar.
 
 ## Process and Timeline
 
@@ -14,7 +14,7 @@ The process and timeline for migrating or offboarding all resources is:
    * The FSDH team will inform all PoC users of the launch date for prod and communicate with all PoC workspace leads about the process and requirements for opening a workspace in prod. 
 * End of June - Oct. 31 2025:
    * Workspaces in PoC will continue to function normally to ensure users can keep working while they transition to prod.
-   * Workspace leads who wish to migrate to prod will proceed with the workspace intake process through the <a href="https://hosting-services-hebergement.canada.ca/s/gc-cloud-fa-catalogue?language=en_US" target="_blank">GC Hosting Services Portal</a>. Guidance is available on the  <a href="https://gcxgce.sharepoint.com/teams/10002160" target="_blank">FSDH GCXchange site</a> and [FSDH product guide](https://gcxgce.sharepoint.com/:p:/t/10002160/ERGOIa1qBxFListkKG_0vXkBbJdvvBAMvOnUATGmzd2uuQ?download=1).
+   * Workspace leads who wish to migrate to prod will proceed with the workspace intake process through the <a href="https://hosting-services-hebergement.canada.ca/s/gc-cloud-fa-catalogue?language=en_US" target="_blank">GC Hosting Services Portal</a>. Guidance is available on the <a href="https://gcxgce.sharepoint.com/teams/10002160" target="_blank">FSDH GCXchange site</a> and [FSDH product guide](https://gcxgce.sharepoint.com/:p:/t/10002160/ERGOIa1qBxFListkKG_0vXkBbJdvvBAMvOnUATGmzd2uuQ?download=1).
    *  Once your workspace has been provisioned in prod, you can migrate resources from PoC to prod using the instructions in the sidebar.
    *  If you are not opening a workspace in prod, you can offboard your databases, storage, web apps, and Databricks resources anytime.
 * Nov. 1, 2025:
@@ -28,12 +28,12 @@ The process and timeline for migrating or offboarding all resources is:
 
 ### What is the difference between migration and offboarding?
 
-- **Migration:** Moving your resources from the POC environment to the PROD environment.
-- **Offboarding:** Removing your resources from the POC environment without migrating them to the PROD environment.
+- **Migration:** Moving your resources from the PoC to prod.
+- **Offboarding:** Removing your resources from the PoC environment without migrating them to prod.
 
 ### Why do I need to migrate or offboard my resources?
 
-Migrating or offboarding your resources ensures that your data and applications are preserved and accessible in the long term. Migrating also allows you to take advantage of the enhanced features and capabilities of the PROD environment.
+Migrating or offboarding your resources ensures that your data and applications are preserved and accessible in the long term. Migrating also allows you to take advantage of the enhanced features and capabilities of prod.
 
 ### Who can migrate or offboard resources?
 
