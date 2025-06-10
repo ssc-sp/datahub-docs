@@ -5,7 +5,7 @@
     - [Enregistrement du compte](/fr/UserGuide/Preregistration/Preregistration.md)
     - [Créer un espace de travail](/fr/UserGuide/GettingStarted/Creating-a-workspace.md)
     - [Métadonnées complètes](/fr/UserGuide/GettingStarted/Complete-metadata.md)
-    - [Demande de stockage](/fr/UserGuide/GettingStarted/Demande-de-stockage.md)
+    - [Demande des outils](/fr/UserGuide/GettingStarted/Demande-outils.md)
     - [Demande de Databricks](/fr/UserGuide/GettingStarted/Demander-des-databricks.md)
     - [Inviter un utilisateur](/fr/UserGuide/GettingStarted/Invite-a-user.md)
     - [Modifier le rôle d'un utilisateur](/fr/UserGuide/GettingStarted/Change-a-user-role.md)
