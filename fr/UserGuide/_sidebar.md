@@ -3,7 +3,7 @@
 - Apprendre [](Icon:LibraryBooks)
   - Gestion des espaces de travail et des utilisateurs
     - [Enregistrement du compte](/fr/UserGuide/Preregistration/Preregistration.md)
-    - [Créer un espace de travail](/fr/UserGuide/GettingStarted/Creating-a-workspace.md)
+    - [Créer un espace de travail](https://gcxgce.sharepoint.com/teams/10002160/SitePages/fr/Getting-a-workspace.aspx)
     - [Métadonnées complètes](/fr/UserGuide/GettingStarted/Complete-metadata.md)
     - [Demande des outils](/fr/UserGuide/GettingStarted/Demande-outils.md)
     - [Demande de Databricks](/fr/UserGuide/GettingStarted/Demander-des-databricks.md)

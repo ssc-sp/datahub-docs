@@ -3,7 +3,7 @@
 - Learn [](Icon:LibraryBooks)
   - Managing Workspaces and Users
     - [Account Registration](/UserGuide/Preregistration/Preregistration.md)
-    - [Create a Workspace](/UserGuide/GettingStarted/Creating-a-workspace.md)
+    - [Create a Workspace](https://gcxgce.sharepoint.com/teams/10002160/SitePages/Getting-a-workspace.aspx)
     - [Complete Metadata](/UserGuide/GettingStarted/Complete-metadata.md)
     - [Request Tools](/UserGuide/GettingStarted/Request-tools.md)
     - [Invite a User](/UserGuide/GettingStarted/Invite-a-user.md)
