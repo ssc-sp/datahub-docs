@@ -1,12 +1,8 @@
----
-remarks: Automatically translated with DeepL
-source: /UserGuide/Preregistration/Preregistration.md
-draft: true
----
+# Inscription (environnement de preuve de concept)
 
-# Inscription et mise en place
+Il vous guidera dans le processus d'enregistrement et de configuration de votre compte pour la Plateforme fédérale de données scientifiques (PFDS) dans l'environnement de preuve de concept (PdC).
 
-Il vous guidera dans le processus d'enregistrement et de configuration de votre compte pour le Federal Science Data Hub (DHSF).
+> **Remarque :** L'auto-inscription n'est disponible que dans l'environnement PdC. Dans l'environnement de production, vous devez utiliser le [Portail des services d'hébergement du GC](https://hosting-services-hebergement.canada.ca/s/gc-cloud-fa-catalogue) pour créer un espace de travail ou être ajouté à un espace de travail existant.
 
 ## Enregistrement du compte
 
@@ -31,7 +27,7 @@ Il vous guidera dans le processus d'enregistrement et de configuration de votre 
 
 
 
-1. Si vous avez un compte DHSF, cliquez sur le bouton **Login** pour être redirigé vers la page de connexion de votre département.
+1. Si vous avez un compte PFDS, cliquez sur le bouton **Login** pour être redirigé vers la page de connexion de votre département.
     > Note : Si vous n'êtes pas inscrit, vous pouvez cliquer sur le lien **Inscrire à la place** pour accéder à la page d'inscription.
 
 1. Sélectionnez votre compte du gouvernement du Canada pour vous connecter.
