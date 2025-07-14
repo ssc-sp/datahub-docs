@@ -1,27 +1,10 @@
-# Registration and Setup (POC Environment)
+# Account Setup
 
-This will guide you through the process of registering and setting up your account for the Federal Science DataHub (FSDH) in the proof-of-concept (POC) environment.
+This will guide you through the process of setting up your account for the Federal Science DataHub (FSDH).
 
-> **Note:** Self-registration is only available in the POC environment. In the production environment, you need to use the [GC Hosting Services Portal](https://hosting-services-hebergement.canada.ca/s/gc-cloud-fa-catalogue) to create a workspace or get added to an existing workspace.
+> **Note:** To create an account, you must either create a workspace using the [GC Hosting Services Portal](https://hosting-services-hebergement.canada.ca/s/gc-cloud-fa-catalogue) or be added to an existing workspace by a workspace administrator.
 
-## Account Registration
-
-1. Using a modern browser (Edge or Chrome) navigate to the FSDH registration page at [https://federal-science-datahub.canada.ca/register](https://federal-science-datahub.canada.ca/register). 
-    * Alternatively, you can click "Register instead" from the main page to register, as shown below.
-
-1. Enter your Government of Canada email address to register.
-
-1. Read the terms and conditions and click the checkbox to accept them.
-
-1. Click the **Register** button.
-
-> *Note: If you have already registered, you can click the **Login instead** link to navigate to the login page.*
-
-![Image showing how to navigate to Registration Page](/api/docs/UserGuide/Preregistration/register-instead.png)
-
-![Image showing the Registration Page](/api/docs/UserGuide/Preregistration/registration-page.png)
-
-## Account Setup
+## Departmental Login
 
 ![Login Page](/api/docs/UserGuide/Preregistration/login-page.png)
 
