@@ -1,31 +1,13 @@
-# Inscription (environnement de preuve de concept)
+# Configuration du compte
 
-Il vous guidera dans le processus d'enregistrement et de configuration de votre compte pour la Plateforme fédérale de données scientifiques (PFDS) dans l'environnement de preuve de concept (PdC).
+Ces instructions vous guidera dans le de configuration de votre compte pour la Plateforme fédérale de données scientifiques (PFDS).
 
-> **Remarque :** L'auto-inscription n'est disponible que dans l'environnement PdC. Dans l'environnement de production, vous devez utiliser le [Portail des services d'hébergement du GC](https://hosting-services-hebergement.canada.ca/s/gc-cloud-fa-catalogue) pour créer un espace de travail ou être ajouté à un espace de travail existant.
+> **Remarque :** Pour créer un compte, vous devez soit créer un espace de travail en utilisant le [Portail des services d'hébergement du GC](https://hosting-services-hebergement.canada.ca/s/gc-cloud-fa-catalogue), soit être ajouté à un espace de travail existant par un administrateur d'espace de travail.
 
-## Enregistrement du compte
-
-![Page d'inscription](https://github.com/ssc-sp/datahub-docs/blob/next/UserGuide/Preregistration/registration-page.png?raw=true)
-*Vue de la page d'enregistrement
-
-1. En utilisant un navigateur moderne (Edge ou Chrome), accédez à la page d'inscription de la DHSF à l'adresse [https://federal-science-datahub.canada.ca/register](https://federal-science-datahub.canada.ca/register).
-
-1. Saisissez votre adresse électronique du gouvernement du Canada pour vous inscrire.
-
-1. Lisez les conditions générales et cochez la case pour les accepter.
-
-1. Cliquez sur le bouton **Enregistrer**.
-
-> Note : Si vous êtes déjà enregistré, vous pouvez cliquer sur le lien **Login instead** pour naviguer vers la page de connexion.
-
-
-## Configuration du compte
+## Connexion au département
 
 ![Page de connexion](https://github.com/ssc-sp/datahub-docs/blob/next/UserGuide/Preregistration/login-page.png?raw=true)
 *Vue de la page de connexion
-
-
 
 1. Si vous avez un compte PFDS, cliquez sur le bouton **Login** pour être redirigé vers la page de connexion de votre département.
     > Note : Si vous n'êtes pas inscrit, vous pouvez cliquer sur le lien **Inscrire à la place** pour accéder à la page d'inscription.
