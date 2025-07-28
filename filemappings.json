@@ -586,8 +586,8 @@
   },
   {
     "Id": "d4cd3187-b8e9-50b6-28ad-5f0e34e5b559",
-    "En": "/UserGuide/GettingStarted/Request-storage.md",
-    "Fr": "/fr/UserGuide/GettingStarted/Demande-de-stockage.md"
+    "En": "/UserGuide/GettingStarted/Request-tools.md",
+    "Fr": "/fr/UserGuide/GettingStarted/Demande-outils.md"
   },
   {
     "Id": "189c6115-9187-9175-5bb5-46abd8705286",
@@ -790,6 +790,16 @@
     "Fr": "/fr/_sidebar.md"
   },
   {
+    "Id": "a0e7cf8a-06af-487e-93da-ee34e8b9c060",
+    "En": "/UserGuide/Acknowledgements/WebAppTC.md",
+    "Fr": "/fr/UserGuide/Acknowledgements/WebAppTC-fr.md"
+  },
+  {
+    "Id": "50f105be-7c82-4b66-8e1b-528781c7bd46",
+    "En": "/UserGuide/Acknowledgements/StorageTokenTC.md",
+    "Fr": "/fr/UserGuide/Acknowledgements/StorageTokenTC-fr.md"
+  },
+  {
     "Id": "jf8ew9mm-10ba-m1qo-n2e4-0mans938mdn5",
     "En": "/UserGuide/Migration/Overview.md",
     "Fr": "/fr/UserGuide/Migration/Survol.md"
@@ -813,5 +823,55 @@
     "Id": "98f283p1-1m90-dn67-er72-59bj1iw8vn59",
     "En": "/UserGuide/Migration/WebApp.md",
     "Fr": "/fr/UserGuide/Migration/AppWeb.md"
+  },
+  {
+    "Id": "1nwtrgqv-lhnk-eeif-0pca-46janyhs2co9",
+    "En": "/UserGuide/Guidance/Account-Management-and-Access-control-of-workspaces.md",
+    "Fr": "/fr/UserGuide/Guidance/Gestion-des-comptes-et-controle-de-l'acces-aux-espaces-de-travail.md"
+  },
+  {
+    "Id": "9ich60nh-8kdb-jivs-o8kl-lcv734ksa7f9",
+    "En": "/UserGuide/Guidance/Backup-and-Recovery.md",
+    "Fr": "/fr/UserGuide/Guidance/Sauvegarde-et-recuperation.md"
+  },
+  {
+    "Id": "c4szqbvx-siu3-1ahz-bq1e-ma48a81g8qpe",
+    "En": "/UserGuide/Guidance/Components-within-a-workspace.md",
+    "Fr": "/fr/UserGuide/Guidance/Composants-dun-espace-de-travail.md"
+  },
+  {
+    "Id": "5ibz9d7d-ffsg-pnqg-ebv6-46vweilae90d",
+    "En": "/UserGuide/Guidance/Github-and-code-repo-management.md",
+    "Fr": "/fr/UserGuide/Guidance/Github-et-gestion-des-repos.md"
+  },
+  {
+    "Id": "osxdhuan-nndm-wkn1-gxur-ipddjpb4ydva",
+    "En": "/UserGuide/Guidance/Incident-Detection-and-Response.md",
+    "Fr": "/fr/UserGuide/Guidance/Detection-et-response-aux-incidents.md"
+  },
+  {
+    "Id": "h0hjwc5d-h4dw-ac4n-5zt0-fq1gf0uq78a1",
+    "En": "/UserGuide/Guidance/Monitor-Usage.md",
+    "Fr": "/fr/UserGuide/Guidance/Controle-dusage.md"
+  },
+  {
+    "Id": "5pxpaeql-0f5p-alk7-v0ec-umu5so6e6rh0",
+    "En": "/UserGuide/Guidance/Monitoring-and-Auditing-a-Workspace.md",
+    "Fr": "/fr/UserGuide/Guidance/Controle-et-audit-dun-espace-de-travail.md"
+  },
+  {
+    "Id": "tr8j610g-wgg4-7jy8-yy0l-37gd5mrlsobe",
+    "En": "/UserGuide/Guidance/Personnel-security-clearance.md",
+    "Fr": "/fr/UserGuide/Guidance/Attestation-de-securite-du-personnel.md"
+  },
+  {
+    "Id": "sop3ra44-iwki-djij-vb8x-beve5ti9evsf",
+    "En": "/UserGuide/Guidance/Roles-within-FSDH-workspace.md",
+    "Fr": "/fr/UserGuide/Guidance/Roles-dans-un-espace-de-travail.md"
+  },
+  {
+    "Id": "a7bc5o40-qhxn-exze-s20y-n07uztam444d",
+    "En": "/UserGuide/Guidance/Source-code.md",
+    "Fr": "/fr/UserGuide/Guidance/Code-source.md"
   }
 ]
