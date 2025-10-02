@@ -1,0 +1,40 @@
+name: Auto Release on Terms and Conditions Change
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - UserGuide/POC-Terms-And-Conditions.md
+      - fr/UserGuide/Conditions-générales-de-POC.md
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+
+      - name: Make tag name
+        id: mk
+        run: |
+          TAG="v. $(date -u +%Y.%m.%d)"
+          echo "tag=$TAG" >> "$GITHUB_OUTPUT"
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.mk.outputs.tag }}
+          name: Release ${{ steps.mk.outputs.tag }}
+          body: |
+            Automated release triggered by file changes in commit ${{ github.sha }}.
+
+            **Commit message:** ${{ github.event.head_commit.message }}
+          files: |
+            UserGuide/POC-Terms-And-Conditions.md
+            fr/UserGuide/Conditions-générales-de-POC.md
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+ 
