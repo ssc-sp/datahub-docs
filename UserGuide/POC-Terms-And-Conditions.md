@@ -2,7 +2,7 @@
 
 (“Participants” are referred to as workspace lead, workspace collaborator, workspace administrator, and workspace data steward.)
 
-November 2024 | Version 0.3
+October 2025 | Version 0.4
 
 ## Federal Science DataHub
 
@@ -54,9 +54,9 @@ Users of FSDH are required to conform to the following criteria:
 
 16.	Resource Management: The workspace lead and workspace administrator(s) are responsible for resource management of their workspace(s). If processes need to be shut down at night, that is the participant's responsibility. 
 
-17.	Support Hours: Support services are available from 8:00 a.m. to 4:00 p.m. Eastern Time (ET). For more information on guidance, refer to the [FSDH Operational Service Levels](https://163gc.sharepoint.com/:w:/r/sites/ScienceProgram/_layouts/15/Doc.aspx?sourcedoc=%7BEFA1336A-B25C-4B82-811E-1FC34F36AEF6%7D&file=FSDH%20Operational%20Service%20Levels.docx&action=default&mobileredirect=true&wdLOR=cDF819886-6C07-408D-ABD0-DDA8546BED13).  
+17.	Support Hours: Support services are available from 8:00 a.m. to 4:00 p.m. Eastern Time (ET). For more information on guidance, refer to the [FSDH Operational Service Levels](https://fsdhstaticassetstorage.blob.core.windows.net/public/terms-and-conditions-supporting-files/FSDH%20Operational%20Service%20Levels.pdf).  
 
-18.	Service Level: The Science Program at SSC aims to maintain maximum availability during service hours (Monday to Friday 08:00-16:00 ET). Outside of these times, some server environments may be available for use, although without the levels of support and target response and resolutions as shown. For more information, refer to the [FSDH Operational Service Levels](https://163gc.sharepoint.com/:w:/r/sites/ScienceProgram/_layouts/15/Doc.aspx?sourcedoc=%7BEFA1336A-B25C-4B82-811E-1FC34F36AEF6%7D&file=FSDH%20Operational%20Service%20Levels.docx&action=default&mobileredirect=true&wdLOR=cDF819886-6C07-408D-ABD0-DDA8546BED13). 
+18.	Service Level: The Science Program at SSC aims to maintain maximum availability during service hours (Monday to Friday 08:00-16:00 ET). Outside of these times, some server environments may be available for use, although without the levels of support and target response and resolutions as shown. For more information, refer to the [FSDH Operational Service Levels](https://fsdhstaticassetstorage.blob.core.windows.net/public/terms-and-conditions-supporting-files/FSDH%20Operational%20Service%20Levels.pdf). 
 
 19.	Official Language: Participants are responsible for ensuring official content and content intended for broad dissemination are provided in both official languages and respect the Official Language Act.
 

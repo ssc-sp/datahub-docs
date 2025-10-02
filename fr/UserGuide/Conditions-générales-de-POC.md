@@ -2,7 +2,7 @@
 
 (Les "participants" sont désignés par les termes "responsable de l'espace de travail", "collaborateur de l'espace de travail", "administrateur de l'espace de travail" et "responsable des données de l'espace de travail").
 
-Novembre 2024 | Version 0.3
+Octobre 2025 | Version 0.4
 
 ## Plateforme fédérale de données scientifiques
 
@@ -54,9 +54,9 @@ Les utilisateurs de la PFDS sont tenus de se conformer aux critères suivants:
 
 16. Gestion des ressources: Le responsable de l'espace de travail et le(s) administrateur(s) de l'espace de travail sont responsables de la gestion des ressources de leur(s) espace(s) de travail. Si des processus doivent être arrêtés la nuit, c'est la responsabilité du participant.
 
-17. Heures d'assistance: Les services d'assistance sont disponibles de 8h00 à 16h00, heure de l'Est (ET). Pour plus d'informations sur l'assistance, consultez les [Niveaux de service opérationnels de la PFDS](https://163gc.sharepoint.com/:w:/r/sites/ScienceProgram/_layouts/15/Doc.aspx?sourcedoc=%7BEFA1336A-B25C-4B82-811E-1FC34F36AEF6%7D&file=PFDS%20Operational%20Service%20Levels.docx&action=default&mobileredirect=true&wdLOR=cDF819886-6C07-408D-ABD0-DDA8546BED13).  
+17. Heures d'assistance: Les services d'assistance sont disponibles de 8h00 à 16h00, heure de l'Est (ET). Pour plus d'informations sur l'assistance, consultez les [Niveaux de service opérationnels de la PFDS](https://fsdhstaticassetstorage.blob.core.windows.net/public/terms-and-conditions-supporting-files/FSDH%20Operational%20Service%20Levels.pdf).  
 
-18. Niveau de service: Le programme scientifique de la SSC vise à maintenir une disponibilité maximale pendant les heures de service (du lundi au vendredi, de 8 h à 16 h, heure de l'Est). En dehors de ces heures, certains environnements de serveurs peuvent être disponibles, mais sans les niveaux de support et les objectifs de réponse et de résolution indiqués. Pour plus d'informations, veuillez consulter les [Niveaux de service opérationnels de la PFDS](https://163gc.sharepoint.com/:w:/r/sites/ScienceProgram/_layouts/15/Doc.aspx?sourcedoc=%7BEFA1336A-B25C-4B82-811E-1FC34F36AEF6%7D&file=PFDS%20Operational%20Service%20Levels.docx&action=default&mobileredirect=true&wdLOR=cDF819886-6C07-408D-ABD0-DDA8546BED13).
+18. Niveau de service: Le programme scientifique de la SSC vise à maintenir une disponibilité maximale pendant les heures de service (du lundi au vendredi, de 8 h à 16 h, heure de l'Est). En dehors de ces heures, certains environnements de serveurs peuvent être disponibles, mais sans les niveaux de support et les objectifs de réponse et de résolution indiqués. Pour plus d'informations, veuillez consulter les [Niveaux de service opérationnels de la PFDS](https://fsdhstaticassetstorage.blob.core.windows.net/public/terms-and-conditions-supporting-files/FSDH%20Operational%20Service%20Levels.pdf).
 
 19. Les langues officielles: Les participants doivent veiller à ce que les contenus officiels et les contenus destinés à une large diffusion soient fournis dans les deux langues officielles et respectent la loi sur les langues officielles.
 
