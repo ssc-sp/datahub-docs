@@ -2,7 +2,7 @@
 
 (Les "participants" sont désignés par les termes "responsable de l'espace de travail", "collaborateur de l'espace de travail", "administrateur de l'espace de travail" et "responsable des données de l'espace de travail").
 
-Octobre 2025 | Version 0.6
+Octobre 2025 | Version 0.7
 
 ## Plateforme fédérale de données scientifiques
 
