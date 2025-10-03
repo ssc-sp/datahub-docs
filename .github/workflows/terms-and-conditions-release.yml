@@ -27,7 +27,7 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ steps.mk.outputs.tag }}
-          name: Release ${{ steps.mk.outputs.tag }}
+          name: FSDH Terms & Conditions - Updated ${{ steps.mk.outputs.tag }}
           body: |
             Automated release triggered by file changes in commit ${{ github.sha }}.
 
