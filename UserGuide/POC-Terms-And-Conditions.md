@@ -2,7 +2,7 @@
 
 (“Participants” are referred to as workspace lead, workspace collaborator, workspace administrator, and workspace data steward.)
 
-October 2025 | Version 0.7 66666666666
+October 2025 | Version 0.7 6666666
 
 ## Federal Science DataHub
 
