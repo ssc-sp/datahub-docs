@@ -2,7 +2,7 @@ name: Update LAST_UPDATED on Terms and Conditions Change
 
 on:
   push:
-    branches: [ main ]
+    branches: [ sg/last-updated-workflow ]
     paths:
       - UserGuide/POC-Terms-And-Conditions.md
       - fr/UserGuide/Conditions-générales-de-POC.md
