@@ -2,7 +2,7 @@
 
 (“Participants” are referred to as workspace lead, workspace collaborator, workspace administrator, and workspace data steward.)
 
-October 2025 | Version 0.6
+October 2025 | Version 1.0
 
 ## Federal Science DataHub
 
@@ -125,4 +125,21 @@ The following are roles within FSDH, the responsibilities are outlined in Annex 
 
 ### Annex 3 Funding Model 
 
-To be provided when ready. 
+FSDH costs can be grouped into two categories, operations and usage. 
+
+Operations ​refers to the salary and O&M costs to maintain, support, grow, and evolve the platform including:​ 
+
+* Business operations such as stakeholder management and outreach​ 
+* Technical operations such as client onboarding and support, bug fixes, infrastructure maintenance and updating, and release management​ 
+* Cloud hosting infrastructure​ 
+* Product evolution​ 
+* Advisory services​ 
+
+Usage​ refers to costs strictly for the consumption of cloud services and  the tools within the FSDH: structured and unstructured data storage, data analytics, web app service. ​ 
+
+* Estimated annual cost: Variable and will differ in each FSDH workspace​ 
+* Funding: Workspace leads pay for usage within their workspace quarterly as authorized by their Cloud Business Requirement (CBR) submitted through the GC Hosting Services Portal​ 
+
+Operations are currently being subsidized by three departments: Shared Services Canada (SSC), Laboratories Canada, and Environment and Climate Change Canada (ECCC). The FSDH team is evaluating alternative funding options to be implemented as of fiscal year 2026/27. 
+
+Users are responsible for paying for their Cloud consumption as per the terms laid out in their recovery agreement with GC Hosting. 
