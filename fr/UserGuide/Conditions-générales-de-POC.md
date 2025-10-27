@@ -125,4 +125,21 @@ Gestion de la sécurité du portail | La gestion de la sécurité du portail con
 
 ### Annexe 3 Modèle de financement
 
-A fournir dès qu'il est prêt.
+Les coûts liés à la PFDS peuvent être regroupés en deux catégories: les coûts opérationnels et les coûts d'utilisation.
+
+Les coûts opérationnels désignent les salaires et les coûts d'exploitation et de maintenance nécessaires pour entretenir, soutenir, développer et faire évoluer la plateforme, notamment:
+ 
+* Les opérations commerciales telles que la gestion des parties prenantes et la sensibilisation
+* Les opérations techniques telles que l'intégration et le soutenir des clients, la correction des bogues, la maintenance et la mise à jour de l'infrastructure, et la gestion des versions
+* L'infrastructure d'hébergement infonuagique
+* L'évolution des produits
+* Les services de conseil
+
+L'utilisation désigne les coûts strictement liés à la consommation des services infonuagique et  des outils au sein de la PFDS : stockage de données structurées et non structurées, analyse de données, service d'application web.
+ 
+* Coût annuel estimé : variable et différent pour chaque espace de travail PFDS​ 
+* Financement : les responsables des espaces de travail paient trimestriellement l'utilisation au sein de leur espace de travail, conformément à leur besoin opérationnel infonuagique (BOI) soumis via le portail des services d'hébergement du gouvernement canadien​
+ 
+Les opérations sont actuellement subventionnées par trois ministères : Services partagés Canada (SPC), Laboratoires Canada et Environnement et Changement climatique Canada (ECCC). L'équipe de la PFDS évalue d'autres options de financement qui seront mises en œuvre à partir de l'exercice 2026-2027.
+
+Les utilisateurs sont responsables du paiement de leur consommation d'infonuagique conformément aux conditions énoncées dans leur accord de reprise avec GC Hosting.
