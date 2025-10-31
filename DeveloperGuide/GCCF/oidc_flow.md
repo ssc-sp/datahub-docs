@@ -4,7 +4,7 @@ This document illustrates the authentication flows where a user can select betwe
 
 ## GCCF Authentication Flow
 
-This diagram shows the flow when FSDH Portal uses GCCF as a consolidator, which in turn federates with other identity providers (e.g., a departmental Azure AD).
+This diagram shows the flow when an external user uses GCCF to log in into FSDH after the invitation and onboarding processes have been completed.
 
 ```mermaid
 sequenceDiagram
@@ -14,22 +14,23 @@ sequenceDiagram
     User->>FSDH: Visits login page
     FSDH-->>User: Shows login page with provider choice
     User->>FSDH: Selects GCCF
-    FSDH->>GCCF: Redirects user for authentication (OIDC Auth Request)
-
-    GCCF-->>FSDH: Returns authorization code
+    FSDH-->>User: User is redirected to GCCF
+    User->>GCCF: User authenticates with GCCF
+    GCCF-->>User: Redirect user to FSDH with authorization code and state
+    User->>FSDH: Send authorization code and state
+    FSDH-->>FSDH: Process State
     FSDH->>GCCF: Exchanges authorization code for tokens
     GCCF-->>FSDH: Returns Access Token and ID Token (JWT)
     FSDH-->>FSDH: Validates JWT signature and claims
-    FSDH-->>FSDH: Logs in user 
+    FSDH-->>FSDH: Logs in user and load profile using sub claim
     FSDH-->>User: Display FSDH landing and list of invited workspaces
 ```
 
 - Steps 1-3: The user starts at the FSDH Portal, sees provider choices, and selects GCCF.
-- Step 4: The portal redirects the user to GCCF to handle authentication.
-- Steps 4-5: GCCF, acting as a consolidator, federates with the user's departmental identity provider (such as a departmental Azure AD) where the user authenticates.
-- Steps 6-7: The FSDH Portal exchanges the authorization code for an Access Token and an ID Token.
-- Step 8: The .NET OIDC layer validates JWT signature and claims received from GCCF
-- Steps 9-11: The portal displays the landing page with invited workspaces.
+- Steps 4-5: The portal redirects the user to GCCF to handle authentication.
+- Steps 6-11: Standard OIDC workflow between GCCF and FSDH portal
+- Step 12: Portal logs the user using the `sub` claim from GCCF
+- Step 13: The portal displays the landing page with invited workspaces.
 
 ## Azure Entra Authentication Flow
 
@@ -66,25 +67,26 @@ This diagram shows the front channel sign out flow with the relying party and GC
 ```mermaid
 sequenceDiagram
     actor User as External User
-    participant FSDH as FSDH .Net Portal (Relying Party)
+    participant FSDH as FSDH Portal (Relying Party)
 
     autonumber
     User->>FSDH: Initiates logout
-    FSDH->>FSDH: Clears local application session
-    FSDH->>GCCF: Redirects user to end_session_endpoint with id_token_hint and post_logout_redirect_uri
+    FSDH-->>User: Redirects user to end_session_endpoint with id_token_hint and post_logout_redirect_uri
+    User->>GCCF: Open end_session_endpoint with a logout request with id_token_hint
     GCCF->>GCCF: Validate the Token
     GCCF->>FSDH: GCCF sends logout request
-    GCCF->>User: Redirects user back to the post_logout_redirect_uri
+    FSDH->>FSDH: Process logout request
+    GCCF-->>User: Redirects user back to the post_logout_redirect_uri
     User->>FSDH: User opens post_logout_redirect_uri
-    FSDH-->>User: Displays a "You are logged out" page    
+    FSDH-->>User: Displays a "You are logged out" page
 ```
 
 - Step 1: The user clicks the logout button in the FSDH Portal.
-- Step 2: The FSDH Portal clears its own local session cookies and data.
-- Step 3: The portal redirects the user to the `end_session_endpoint` at GCCF, including an `id_token_hint` to identify the user's session.
+- Steps 2-3: The portal redirects the user to the `end_session_endpoint` at GCCF, including an `id_token_hint` to identify the user's session.
 - Steps 4-5: GCCF validates the token, requests logout, and sends a logout request to the relying party.
-- Step 6-7: GCCF redirects the user back to the `post_logout_redirect_uri` specified by the FSDH Portal.
-- Step 8: The user sees a page confirming they have been successfully logged out.
+- Step 6: The portal initiates local session cookies and data cleanup.
+- Step 7-8: GCCF redirects the user back to the `post_logout_redirect_uri` specified by the FSDH Portal.
+- Step : The user sees a page confirming they have been successfully logged out.
 
 ## User Invitation Flow
 
