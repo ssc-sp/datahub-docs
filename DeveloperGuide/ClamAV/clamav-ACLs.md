@@ -28,7 +28,7 @@ This page describes the antivirus workflow variant that relies on ADLS Gen2 ACLs
 ```mermaid
 sequenceDiagram
 autonumber
-participant U as Web Portal User
+participant U as External User
 participant UC as Web Portal Upload
 participant FS as ADLS Gen2 Filesystem (external-uploads/)
 participant AV as ClamAV Scanner (Container App trigger)
@@ -36,7 +36,7 @@ participant AS as Storage Service (Function)
 participant L as Log Analytics / App Insights
 
 U->>UC: Upload one or multiple files
-UC-->>FS: Write blob to external-uploads/ (uploader has write-only)
+UC-->>FS: Write blob to external-uploads/ (no read access)
 UC-->>U: Show "Scanning started" notification
 FS-->>AV: Trigger on blob created/updated
 activate AV
@@ -48,10 +48,9 @@ AV-->>L: Log scan event (status, signature, engine, timings)
 deactivate AV
 activate AS
 AS->>FS: Set ACL on blob to grant readers r--
-AS-->>AS: enqueue/trigger notification
 AS-->>L: Log access-enabled event (blob, ACL, correlation)
 deactivate AS
-AS-->>U: Notify success (portal/email)
+AS-->>U: Notify success (portal banner)
 ```
 
 ## Sequence (Infected or Error — keep blocked)
@@ -59,7 +58,7 @@ AS-->>U: Notify success (portal/email)
 ```mermaid
 sequenceDiagram
 autonumber
-participant U as Web Portal User
+participant U as External User
 participant UC as Web Portal Upload
 participant FS as ADLS Gen2 Filesystem (external-uploads/)
 participant AV as ClamAV Scanner (Container App trigger)
@@ -88,6 +87,12 @@ AS-->>L: Log access-blocked event (status)
 AS-->>U: Notify failure (portal/email)
 ```
 
+### Notifications
+
+- Workspace owners receive an email with details (user email, date, virus)
+- User receives an email to indicate that one or multiple files were flagged with a virus
+- Portal shows badges or alerts (TBD)
+
 ## Data Elements
 
 The following tables define a compact, canonical schema for storage-queue messages and blob metadata used across the workflow. Names are suggestions and can be adapted to your environment.
@@ -96,7 +101,6 @@ The following tables define a compact, canonical schema for storage-queue messag
 
 | Key             | Type                             | Description                                                                 |
 | --------------- | -------------------------------- | --------------------------------------------------------------------------- |
-| correlationId   | string                           | Optional correlation assigned by the portal; useful for end-to-end tracing. |
 | status          | enum("Clean","Infected","Error") | Result of scanning.                                                         |
 | signature       | string                           | Virus signature when status=Infected.                                       |
 | engineVersion   | string                           | ClamAV engine/definitions version used.                                     |
@@ -108,7 +112,6 @@ The following tables define a compact, canonical schema for storage-queue messag
 
 | Key                | Example                              | Description                                                          |
 | ------------------ | ------------------------------------ | -------------------------------------------------------------------- |
-| dh:correlationId   | 2c75b4c1-3ee3-4a62-9f2a-a3b5f8b1a0e5 | Correlation identifier stamped on both source and destination blobs. |
 | dh:scanStatus      | Clean                                | Clean, Infected, or Error.                                           |
 | dh:scanSignature   | Win.Test.EICAR_HDB-1                 | Virus signature when infected.                                       |
 | dh:scanEngine      | ClamAV 1.3.0 (defs: 2025‑11‑03)      | Scanner and definitions version.                                     |
