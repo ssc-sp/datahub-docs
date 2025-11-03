@@ -183,16 +183,17 @@ The following data elements are required for inviting, authenticating, onboardin
 
 ### External user profile (stored by FSDH)
 
-| Element                  | Purpose / Usage                | Notes                           |
-| ------------------------ | ------------------------------ | ------------------------------- |
-| GCCF Identity (Subject)  | Link to GCCF identity          | Persist `sub`                   |
-| First Name               | Identity of the user           |                                 |
-| Last Name                | Identity of the user           |                                 |
-| Primary Email            | Email associated with the user |                                 |
-| Status                   | Access state                   | active / disabled (with reason) |
-| Preferred Language       | UX localization                | en / fr                         |
-| Organization             | Context / affiliation          | Collected if available          |
-| Terms of Use Version     | Track Terms of Use consent     | Enforce before access           |
-| Terms of Use Accepted At | Timestamp of consent           |                                 |
-| Last Login               | Last successful authentication |                                 |
-| Account Expiry           | Expiration date                | 1 year + renewal option?        |
+| Element                  | Purpose / Usage                                                 | Notes                           |
+| ------------------------ | --------------------------------------------------------------- | ------------------------------- |
+| GCCF Identity (Subject)  | Link to GCCF identity                                           | Persist `sub`                   |
+| First Name               | Identity of the user                                            |                                 |
+| Last Name                | Identity of the user                                            |                                 |
+| Affiliation              | Notes on the relation between workspace owner and external user |                                 |
+| Primary Email            | Email associated with the user                                  |                                 |
+| Status                   | Access state                                                    | active / disabled (with reason) |
+| Preferred Language       | UX localization                                                 | en / fr                         |
+| Organization             | Context / affiliation                                           | Collected if available          |
+| Terms of Use Version     | Track Terms of Use consent                                      | Enforce before access           |
+| Terms of Use Accepted At | Timestamp of consent                                            |                                 |
+| Last Login               | Last successful authentication                                  |                                 |
+| Account Expiry           | Expiration date                                                 | 1 year + renewal option?        |
