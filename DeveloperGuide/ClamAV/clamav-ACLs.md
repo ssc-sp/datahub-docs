@@ -28,6 +28,7 @@ This page describes the antivirus workflow variant that relies on ADLS Gen2 ACLs
 ```mermaid
 sequenceDiagram
 autonumber
+participant WL as Workspace Lead
 participant U as External User
 participant UC as Web Portal Upload
 participant FS as ADLS Gen2 Filesystem (external-uploads/)
@@ -37,6 +38,7 @@ participant L as Log Analytics / App Insights
 
 U->>UC: Upload one or multiple files
 UC-->>FS: Write blob to external-uploads/ (no read access)
+UC-->>WL: Notify upload (external activity logs)
 UC-->>U: Show "Scanning started" notification
 FS-->>AV: Trigger on blob created/updated
 activate AV
@@ -51,6 +53,7 @@ AS->>FS: Set ACL on blob to grant readers r--
 AS-->>L: Log access-enabled event (blob, ACL, correlation)
 deactivate AS
 AS-->>U: Notify success (portal banner)
+AS-->>WL: Notify success (external activity logs)
 ```
 
 ## Sequence (Infected or Error — keep blocked)
@@ -58,6 +61,7 @@ AS-->>U: Notify success (portal banner)
 ```mermaid
 sequenceDiagram
 autonumber
+participant WL as Workspace Lead
 participant U as External User
 participant UC as Web Portal Upload
 participant FS as ADLS Gen2 Filesystem (external-uploads/)
@@ -67,6 +71,7 @@ participant L as Log Analytics / App Insights
 
 U->>UC: Upload one or multiple files
 UC-->>FS: Write blob to external-uploads/ (write-only)
+UC-->>WL: Notify upload (external activity logs)
 UC-->>U: Show "Scanning started" notification
 FS-->>AV: Trigger on blob created/updated
 activate AV
@@ -85,6 +90,7 @@ end
 deactivate AV
 AS-->>L: Log access-blocked event (status)
 AS-->>U: Notify failure (portal/email)
+AS-->>WL: Notify failure (external activity logs + email)
 ```
 
 ### Notifications
