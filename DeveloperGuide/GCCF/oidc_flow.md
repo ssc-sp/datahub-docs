@@ -100,7 +100,7 @@ sequenceDiagram
 
     autonumber
     User->>FSDH: Navigates to 'Invite External User' page
-    User->>FSDH: Enters external user's email and selects 'Invite'
+    User->>FSDH: Enters external user information (see section Data Elements for details) and selects 'Invite'
     FSDH->>FSDH: Generates a unique invitation token
     FSDH->>FSDH: Generates an invitation code
     FSDH->>FSDH: Stores invitation token and code with user's email
@@ -132,6 +132,7 @@ sequenceDiagram
     GCCF-->>FSDH: Returns authorization code
     FSDH->>GCCF: Exchanges authorization code for tokens
     GCCF-->>FSDH: Returns Access Token and ID Token (with anonymous user ID)
+    FSDH-->FSDH: Load user profile is loaded using invitation token URL
     FSDH->>FSDH: Associates anonymous GCCF user ID (sub claim) with the invitation token and user email
     FSDH-->>User: Logs in user and show invitation processed page    
 ```
@@ -143,9 +144,39 @@ sequenceDiagram
 - Step 9: The portal associates the anonymous GCCF user ID (`sub`) with the invitation token and user email; the backend creates a linked user profile.
 - Step 10: The user is logged in and sees the invitation processed page.
 
-## Expired Invitation Flow
+## Invitation Code Entry Flow (after onboarding)
 
-This diagram shows what happens when a user tries to use an expired or invalid invitation link.
+This diagram shows how the external user, now authenticated and viewing the "Invitation processed" page, enters the invitation code to complete access to the target workspace. Note: the invitation code shares the same expiry as the invitation; no separate code expiry check is required. The invitation context is already present (looked up using the token in the invitation URL) before the page is shown, so the code is validated against that context.
+
+```mermaid
+sequenceDiagram
+    actor User as External User
+    participant FSDH as FSDH Portal
+
+    autonumber
+    User->>FSDH: On "Invitation processed" page
+    FSDH-->>User: Shows input to enter invitation code
+    User->>FSDH: Enters invitation code and submits
+    FSDH->>FSDH: Validate code format (length/pattern)
+    alt Invitation code matches
+        FSDH->>FSDH: Mark invitation as accepted
+        FSDH->>FSDH: Grant workspace role to user
+        FSDH-->>User: Show success and workspace access (redirect or list update)
+    else Invitation code does not match
+        FSDH-->>User: Show error "Invalid code" with guidance
+    end
+```
+
+- Steps 1-3: The user, already authenticated, lands on the invitation processed page and submits the invitation code.
+- Steps 4-5: The portal performs basic validation; the invitation context was already fetched before rendering this page (no lookup by code at submit time).
+- Steps 6-9: If the submitted code matches the invitation’s stored code, the system uses the preloaded invitation context tied to the user’s profile; if not yet accepted, the invite is marked accepted and workspace access is granted.
+- Step 10: The user sees a confirmation and either gets redirected into the workspace or sees their workspace list updated.
+- Already accepted: The portal shows the same 'Invitation Expired' page as the expired invitation flow.
+- Error path: If the code is invalid (does not match), the portal displays an actionable error and asks the user to contact the workspace owner for a new invitation.
+
+## Expired & Accepted Invitation Flow
+
+This diagram shows what happens when a user tries to use an expired, invalid or already accepted invitation link.
 
 ```mermaid
 sequenceDiagram
@@ -155,7 +186,7 @@ sequenceDiagram
     autonumber
     User->>FSDH: Clicks invitation link from email
     FSDH->>FSDH: Verifies invitation token
-    FSDH-->>FSDH: Token is invalid/expired
+    FSDH-->>FSDH: Token is invalid/expired/previously accepted
     FSDH-->>User: Displays 'Invitation Expired' page
 ```
 
