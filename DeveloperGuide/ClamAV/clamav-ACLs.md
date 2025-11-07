@@ -30,14 +30,14 @@ sequenceDiagram
 autonumber
 participant WL as Workspace Lead
 participant U as External User
-participant UC as Web Portal Upload
+participant UC as FSDH Web Storage Explorer
 participant FS as ADLS Gen2 Filesystem (external-uploads/)
-participant AV as ClamAV Scanner (Container App trigger)
+participant AV as ClamAV Scanner (Container App)
 participant AS as Storage Service (Function)
 participant L as Log Analytics / App Insights
 
-U->>UC: Upload one or multiple files
-UC-->>FS: Write blob to external-uploads/ (no read access)
+U-->>UC: Upload one or multiple files (HTTPS)
+UC-->>FS: Write blob to external-uploads/ (no read access) (HTTPS)
 UC-->>WL: Notify upload (external activity logs)
 UC-->>U: Show "Scanning started" notification
 FS-->>AV: Trigger on blob created/updated
@@ -46,7 +46,7 @@ AV-->>L: Log ScanQueued event (correlation, blobUrl)
 AV->>FS: Open blob from external-uploads/ for scanning
 AV-->>AV: Scan file with ClamAV
 AV-->>AS: Emit result: status=Clean, correlation
-AV-->>L: Log scan event (status, signature, engine, timings)
+AV-->>L: Log scan event (status, engine, timings)
 deactivate AV
 activate AS
 AS->>FS: Set ACL on blob to grant readers r--
@@ -63,7 +63,7 @@ sequenceDiagram
 autonumber
 participant WL as Workspace Lead
 participant U as External User
-participant UC as Web Portal Upload
+participant UC as FSDH Web Storage Explorer
 participant FS as ADLS Gen2 Filesystem (external-uploads/)
 participant AV as ClamAV Scanner (Container App trigger)
 participant AS as Storage Service (Function)
@@ -79,9 +79,9 @@ AV->>FS: Open blob from external-uploads/ for scanning
 AV-->>L: Log ScanQueued event (correlation, blobUrl)
 AV-->>AV: Scan file with ClamAV
 alt Virus found
-  AV-->>AS: result: status=Infected, signature
+  AV-->>AS: result: status=Infected
   AV-->>AV: Delete file
-  AV-->>L: Log scan event (status=Infected, signature)
+  AV-->>L: Log scan event (status=Infected)
 else Scan error
   AV-->>AS: result: status=Error, reason
   AV-->>L: Log scan event (status=Error, reason)
@@ -132,6 +132,6 @@ Both the ClamAV scanner (Container App) and the Notification Service emit struct
 
 - Telemetry is sent to Application Insights connected to a Log Analytics workspace.
 - Events are tracked as customEvents with the following names and dimensions:
-  - name: "ClamAVScan" with customDimensions: correlationId, status, signature, engineVersion, scanStartedAt, scanCompletedAt, durationMs, blobUrl, workspaceId, container, path
-  - name: "AccessEnabled" or "AccessBlocked" from the Storage Service with customDimensions: correlationId, status, blobUrl
-  - name: "ScanQueued" emitted by the upload flow with customDimensions: correlationId, blobUrl, fileName, sizeBytes, uploader
+  - **name:** "ClamAVScan" with customDimensions: correlationId, status, engineVersion, scanStartedAt, scanCompletedAt, durationMs, blobUrl, workspaceId, container, path
+  - **name:** "AccessEnabled" or "AccessBlocked" from the Storage Service with customDimensions: correlationId, status, blobUrl
+  - **name:** "ScanQueued" emitted by the upload flow with customDimensions: correlationId, blobUrl, fileName, sizeBytes, uploader

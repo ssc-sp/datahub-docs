@@ -220,6 +220,7 @@ The following data elements are required for inviting, authenticating, onboardin
 | First Name               | Identity of the user                                            |                                 |
 | Last Name                | Identity of the user                                            |                                 |
 | Affiliation              | Notes on the relation between workspace owner and external user |                                 |
+| Collaboration Objective  | Type of collaboration expected with the user                    |                                 |
 | Primary Email            | Email associated with the user                                  |                                 |
 | Status                   | Access state                                                    | active / disabled (with reason) |
 | Preferred Language       | UX localization                                                 | en / fr                         |
