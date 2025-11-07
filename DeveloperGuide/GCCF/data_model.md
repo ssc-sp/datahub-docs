@@ -26,7 +26,7 @@ Represents the profile of an external user (identity and lifecycle independent o
 | Property             | C# Type         | Constraints / Notes                                        |
 | -------------------- | --------------- | ---------------------------------------------------------- |
 | `Id`                 | int             | PK                                                         |
-| `ExternalSubject`    | string          | GCCF `sub` claim (unique index when populated)             |
+| `ExternalSubject`    | string?         | GCCF `sub` claim (unique index when populated)             |
 | `PrimaryEmail`       | string          | Primary contact/login email                                |
 | `FirstName`          | string          | Mandatory                                                  |
 | `LastName`           | string          | Mandatory                                                  |
@@ -131,6 +131,71 @@ public class PortalUser
 | Last Login               | `LastLoginDateTime`      | PortalUser           | Last login timestamp                         |
 | Account Expiry           | `AccountExpiry`          | ExternalUser         | Lifecycle governance                         |
 
+## Sequence diagrams
+
+The FSDH Portal is a single monolithic layer (no separate UI/API services exposed). Diagrams reflect a unified `Portal` participant orchestrating persistence and notification.
+
+### Invitation creation (entities created)
+
+```mermaid
+sequenceDiagram
+    actor Inviter as PortalUser (Inviter)
+    participant Portal as FSDH Portal
+    participant SVC as External User Service
+
+    Inviter->>Portal: Initiate workspace invite { email, role, notes }
+    Portal->>SVC: Ask for user email for invitation    
+    SVC->>SVC: Generate token + code, set Status=pending, compute ExpiresAt
+    SVC->>SVC: Create WorkspaceInvitation row
+    SVC->>SVC: Check for existing entry in ExternalUser table with email
+    alt Email Not found
+        Portal-->>Inviter: External user tombstone page
+        Inviter->>Portal: Enter user details
+        Portal->>SVC: Invite New User
+        SVC->>SVC: Create PortalUser row
+        SVC->>SVC: Create ExternalUser row
+        SVC->>SVC: Create UserRoleLink row
+    end
+    Portal->>Inviter: Ask for workspace collaboration details
+    SVC-->>GCNotify: Dispatch invite email (link + code)
+    Portal-->>Inviter: Invitation created { invitationId }
+```
+
+Key entity created:
+
+- WorkspaceInvitation (Status=pending)
+
+### Onboarding acceptance with code validation (entities created & linked)
+
+```mermaid
+sequenceDiagram
+    actor Invitee as External User (Invitee)
+    participant Portal as FSDH Portal
+    participant SVC as External User Service
+
+    Invitee->>Portal: Follow invitation link (token)
+    GCCF->>Portal: Provide sub ID
+    Portal->>SVC: Validate invitation token
+    alt Invalid / Expired / Revoked
+        SVC-->>Portal: Invalid or not found
+        Portal-->>Invitee: Error (cannot proceed)
+    else Pending and valid
+        Invitee->>GCCF: Authentication with GCCF
+        SVC-->>Portal: Invitation details
+        Invitee->>Portal: Submit verification code
+        Portal->>SVC: Validate code & expiry
+        alt Code invalid
+            SVC-->>Portal: Code mismatch
+            Portal-->>Invitee: Invalid code
+        else Code valid
+            SVC-->>Portal: Code OK
+            SVC->>SVC: Update ExternalUser (IsActive=true, subject=sub from claims)
+            SVC->>SVC: Update WorkspaceInvitation to accepted (AcceptedAt)
+            Portal-->>Invitee: Onboarding complete (redirect to workspace)
+        end
+    end
+```
+
 ## Edge Cases & Considerations
 
 | Scenario                                            | Handling                                                                                                                                           |
@@ -143,5 +208,4 @@ public class PortalUser
 1. Schema Creation: Add `ExternalUsers` and `EntraUsers` tables; add nullable `ExternalUserId` / `EntraUserId` FKs to `PortalUser`.
 2. Backfill Entra: Create `EntraUser` rows from existing `PortalUser.GraphGuid` + emails; set `PortalUser.EntraUserId`. Verify counts.
 3. Introduce external invitation workflow (create ExternalUser on invite; link on onboarding).
-4. Drop `PortalUser.GraphGuid` (make nullable, then remove) once all rows are linked to `EntraUser`.
-5. Remove `PortalUser.Email` after consumers migrated to provider-specific sources.
+4. Drop `PortalUser.GraphGuid` and `PortalUser.Email` (make nullable, then remove) once all rows are linked to `EntraUser`.
