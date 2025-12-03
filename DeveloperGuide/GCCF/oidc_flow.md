@@ -311,33 +311,59 @@ sequenceDiagram
 
 This approach avoids creating a separate reassociation token mechanism and leverages the security and validation already built into the invitation flow.
 
-## External User Deactivation Flow
+## External User Workspace Deactivation Flow
 
-This diagram shows how an admin or workspace owner can deactivate an external user, preventing further access to the FSDH Portal.
+This diagram shows how a workspace owner can remove an external user's access to a specific workspace without affecting their access to other workspaces.
 
 ```mermaid
 sequenceDiagram
-    actor Admin as FSDH Admin / Workspace Owner
+    actor Owner as FSDH Workspace Owner
     participant FSDH as FSDH Portal
     participant DB as Database
 
     autonumber
-    Admin->>FSDH: Navigates to user management
-    Admin->>FSDH: Selects external user to deactivate
-    Admin->>FSDH: Confirms deactivation
-    FSDH->>DB: Clear GCCF subject (OID) from ExternalUser
-    FSDH->>DB: Update all UserRoleLinks to Disabled
-    FSDH->>DB: Updated DeacticatedAt and DeactivatedBy in database
-    FSDH-->>Admin: Displays confirmation of deactivation
+    Owner->>FSDH: Navigates to workspace members
+    Owner->>FSDH: Selects external user to remove
+    Owner->>FSDH: Confirms removal from workspace
+    FSDH->>DB: Update UserRoleLink for this workspace to Disabled
+    FSDH->>DB: Record DeactivatedAt and DeactivatedBy
+    FSDH-->>Owner: Displays confirmation of removal
 ```
 
-- Steps 1-3: The admin navigates to user management, selects the external user, and confirms deactivation.
-- Step 4: The portal clears the GCCF subject (OID) from the user's profile, breaking the identity link.
-- Step 5: All `UserRoleLink` records for this user are updated to `Disabled`, revoking workspace access.
-- Step 6: The user's status is set to `Disabled` in the external user profile.
-- Step 7: The admin sees a confirmation that the user has been deactivated.
+- Steps 1-3: The workspace owner navigates to workspace members, selects the external user, and confirms removal.
+- Step 4: The `UserRoleLink` for this specific workspace is updated to `Disabled`.
+- Step 5: The deactivation timestamp and actor are recorded for audit purposes.
+- Step 6: The owner sees a confirmation that the user has been removed from the workspace.
 
-Once deactivated, the user cannot log in or access any workspaces. To reactivate, the admin must send a new invitation to reassociate a GCCF identity and restore workspace roles.
+The user's GCCF identity and access to other workspaces remain intact. If the user has no remaining active workspace access, they will see the "No Active Access" error page on login.
+
+## External User Global Deactivation Flow
+
+This diagram shows how an FSDH admin can globally deactivate an external user, preventing access to all workspaces and removing the GCCF identity link.
+
+```mermaid
+sequenceDiagram
+    actor Admin as FSDH Admin
+    participant FSDH as FSDH Portal
+    participant DB as Database
+
+    autonumber
+    Admin->>FSDH: Navigates to admin user management
+    Admin->>FSDH: Selects external user to deactivate globally
+    Admin->>FSDH: Confirms global deactivation
+    FSDH->>DB: Clear GCCF subject (OID) from ExternalUser
+    FSDH->>DB: Update all UserRoleLinks to Disabled
+    FSDH->>DB: Record DeactivatedAt and DeactivatedBy
+    FSDH-->>Admin: Displays confirmation of global deactivation
+```
+
+- Steps 1-3: The admin navigates to user management, selects the external user, and confirms global deactivation.
+- Step 4: The portal clears the GCCF subject (OID) from the user's profile, breaking the identity link.
+- Step 5: All `UserRoleLink` records for this user across all workspaces are updated to `Disabled`.
+- Step 6: The deactivation timestamp and actor are recorded for audit purposes.
+- Step 7: The admin sees a confirmation that the user has been globally deactivated.
+
+Once globally deactivated, the user cannot log in or access any workspaces. To reactivate, an admin must send a new invitation to reassociate a GCCF identity and a workspace owner must restore workspace roles.
 
 ## New Data elements for external users
 
