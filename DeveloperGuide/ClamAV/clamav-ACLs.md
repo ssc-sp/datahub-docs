@@ -18,8 +18,8 @@ This page describes the antivirus workflow variant that relies on ADLS Gen2 ACLs
 ## Assumptions
 
 - A single ADLS Gen2 filesystem (container) is used
-- A folder called `external-uploads/` is used by the web portal to let external users upload files
-- Read access in `external-uploads/` is granted only after the scan returns Clean by updating the blob ACL to include a readers group with `r--`.
+- A folder called `external-uploads/<user name>` is used by the web portal to let external users upload files
+- Read access in `external-uploads/<user name>` is granted only after the scan returns Clean by updating the blob ACL to include a readers group with `r--`.
 - Files are not accessible or downloadable until the scan is complete and status is Clean.
 - `Storage Service` features will be added to existing Function project in `Datahub.Functions`
 - A folder called `azcopy-data` is used to restrict the folders where the GoC users can upload and download data via `azcopy`
@@ -135,10 +135,12 @@ AS-->>U: Notify failure (portal/email)
 AS-->>WL: Notify failure (external activity logs + email)
 ```
 
-### Notifications
+### Actions
 
 - Workspace owners receive an email with details (user email, date, virus)
 - User receives an email to indicate that one or multiple files were flagged with a virus
+- User expiry date is updated to lock the external account out of FSDH
+   - External user needs to confirm machine is virus free
 - Portal shows badges or alerts (TBD)
 
 ## Data Elements
