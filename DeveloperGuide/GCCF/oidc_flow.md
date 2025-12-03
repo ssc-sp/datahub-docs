@@ -47,7 +47,7 @@ sequenceDiagram
     FSDH-->>User: Redirects to GCCF
     User->>GCCF: Authenticates with GCCF
     GCCF-->>FSDH: Returns tokens (with sub claim)
-    FSDH->>FSDH: Lookup user by GCCF subject (sub)
+    FSDH->>FSDH: Lookup user by GCCF subject (sub) in ExternalUser
     alt User found with matching sub
         FSDH->>FSDH: Check UserRoleLinks for active workspace access
         alt Has active workspace access
