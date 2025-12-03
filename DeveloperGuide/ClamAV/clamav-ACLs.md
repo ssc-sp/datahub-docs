@@ -22,6 +22,48 @@ This page describes the antivirus workflow variant that relies on ADLS Gen2 ACLs
 - Read access in `external-uploads/` is granted only after the scan returns Clean by updating the blob ACL to include a readers group with `r--`.
 - Files are not accessible or downloadable until the scan is complete and status is Clean.
 - `Storage Service` features will be added to existing Function project in `Datahub.Functions`
+- A folder called `azcopy-data` is used to restrict the folders where the GoC users can upload and download data via `azcopy`
+- SAS Tokens for `azcopy` (GoC users) will use `azcopy-data` prefix
+
+## Security: ACL-based Access Control
+
+This workflow prevents users from accessing unscanned files through ACL-based permissions:
+
+- Files uploaded to `external-uploads/` are created with **write-only** permissions—no immediate read access
+- Users cannot download files until ClamAV scan completes with Clean status
+- Storage Service grants read (`r--`) permissions only after successful scan
+- Infected files are deleted; error files remain blocked (no read ACL granted)
+- `azcopy-data/` folder is separate—used by trusted internal GoC users with full access
+
+## Directory Structure
+
+The ADLS Gen2 filesystem is organized into two main folders with different security models:
+
+```mermaid
+graph TD
+    A[ADLS Gen2 Filesystem] --> B[external-uploads/]
+    B --> D[external-uploads/user_name]
+    A --> C[azcopy-data/]
+    
+    D --> D1[User can use azcopy]
+
+    B --> B1[Files uploaded by external users]
+    B --> B2[Write-only until scanned]
+    B --> B3[Read access granted after Clean scan]
+    
+    C --> C1[Files from GoC users via azcopy]
+    C --> C2[Full read/write access]
+    C --> C3[No scanning required - trusted]
+    
+    style B fill:#ff9999
+    style C fill:#99ff99
+    style B1 fill:#ffcccc
+    style B2 fill:#ffcccc
+    style B3 fill:#ffcccc
+    style C1 fill:#ccffcc
+    style C2 fill:#ccffcc
+    style C3 fill:#ccffcc
+```
 
 ## Sequence (Clean result — enable access)
 
