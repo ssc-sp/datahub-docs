@@ -32,6 +32,46 @@ sequenceDiagram
 - Step 12: Portal logs the user using the `sub` claim from GCCF
 - Step 13: The portal displays the landing page with invited workspaces.
 
+## External User Login Validation
+
+This diagram shows the validation performed when an external user attempts to log in to FSDH using GCCF. If the GCCF subject is not associated with an existing user profile, or the user has no active workspace access, access is denied.
+
+```mermaid
+sequenceDiagram
+    actor User as External User
+    participant FSDH as FSDH Portal
+    participant GCCF as GCCF
+
+    autonumber
+    User->>FSDH: Attempts to log in via GCCF
+    FSDH-->>User: Redirects to GCCF
+    User->>GCCF: Authenticates with GCCF
+    GCCF-->>FSDH: Returns tokens (with sub claim)
+    FSDH->>FSDH: Lookup user by GCCF subject (sub)
+    alt User found with matching sub
+        FSDH->>FSDH: Check UserRoleLinks for active workspace access
+        alt Has active workspace access
+            FSDH->>FSDH: Load user profile and workspaces
+            FSDH-->>User: Display landing page with workspaces
+        else No active access (all disabled or no entries)
+            FSDH-->>User: Display "No Active Access" error page
+            Note over User,FSDH: "Your access has been revoked.<br/>Contact a workspace owner for assistance."
+        end
+    else User not found
+        FSDH-->>User: Display "Access Denied" error page
+        Note over User,FSDH: "Access Denied – This site is monitored.<br/>Further attempts may result in reporting."
+    end
+```
+
+- Steps 1-4: The user authenticates via GCCF and the portal receives tokens with the `sub` claim.
+- Step 5: The portal looks up the user by the GCCF subject in the ExternalUser table.
+- Step 6: If the user is found, the portal checks for active UserRoleLinks entries.
+- Steps 7-8: If the user has at least one active workspace access, the profile and workspaces are loaded and the landing page is displayed.
+- Step 9: If the user exists but has no active access (all UserRoleLinks are disabled or no entries exist), a "No Active Access" error page is shown.
+- Step 10: If no matching user is found, an "Access Denied" error page is shown with a warning message.
+
+This validation ensures that only users who have completed the invitation and onboarding process and have active workspace access can use FSDH via GCCF.
+
 ## Azure Entra Authentication Flow
 
 This diagram shows the direct authentication flow for guest users via Azure Entra.
@@ -88,9 +128,9 @@ sequenceDiagram
 - Step 7-8: GCCF redirects the user back to the `post_logout_redirect_uri` specified by the FSDH Portal.
 - Step : The user sees a page confirming they have been successfully logged out.
 
-## User Invitation Flow
+## User Invitation Flow (New External Users)
 
-This diagram illustrates how an existing user can invite an external user to the FSDH Portal.
+This diagram illustrates how a workspace owner can invite a new external user to the FSDH Portal. This flow is used when the external user has not yet been validated (i.e., has no GCCF subject associated with their profile).
 
 ```mermaid
 sequenceDiagram
@@ -100,7 +140,9 @@ sequenceDiagram
 
     autonumber
     User->>FSDH: Navigates to 'Invite External User' page
-    User->>FSDH: Enters external user information (see section Data Elements for details) and selects 'Invite'
+    User->>FSDH: Enters external user information, permissions and selects 'Invite'.
+    FSDH->>FSDH: Create new PortalUser and ExternalUser
+    FSDH->>FSDH: Create new row for user access in workspace in UserRoleLinks
     FSDH->>FSDH: Generates a unique invitation token
     FSDH->>FSDH: Generates an invitation code
     FSDH->>FSDH: Stores invitation token and code with user's email
@@ -110,8 +152,41 @@ sequenceDiagram
 
 - Step 1: A new page in the portal lets workspace owners invite external users
 - Step 2: The workspace owner enters the external user's email and selects Invite;
-- Steps 3-4: The portal generates a unique, single-use invitation token and is stored with the invitee's details
-- Steps 5-6: The system sends an invitation email through GC Notify; the external user receives it with the link.
+- Step 3: The portal checks if an external user with the same email already exists in FSDH.
+- Steps 4-5: If the user does not exist, a new PortalUser and ExternalUser are created; otherwise, the existing records are reused.
+- Step 6: A new UserRoleLink is created for the workspace access.
+- Steps 7-9: The portal generates a unique, single-use invitation token and code, stored with the invitee's details.
+- Steps 10-11: The system sends an invitation email through GC Notify; the external user receives it with the link.
+
+## User Invitation Flow (Validated External Users)
+
+This diagram illustrates how a workspace owner can invite an existing validated external user (one who already has a GCCF subject associated with their profile) to a new workspace. Since the user is already validated, no GCCF authentication is required—the workspace access is granted directly.
+
+```mermaid
+sequenceDiagram
+    actor Owner as FSDH Workspace Owner
+    actor User as External User
+    participant FSDH as FSDH Portal
+    participant Email as GC Notify
+
+    autonumber
+    Owner->>FSDH: Navigates to 'Invite External User' page
+    Owner->>FSDH: Enters external user email and permissions
+    FSDH->>FSDH: Check if external user with email exists
+    FSDH->>FSDH: Create new UserRoleLink for workspace access
+    FSDH->>Email: Sends notification email to user
+    Email-->>User: Receives email with workspace access notification
+    User->>FSDH: Logs in with existing GCCF credentials
+    FSDH-->>User: Workspace appears in user's workspace list
+```
+
+- Steps 1-2: The workspace owner navigates to the invite page and enters the external user's email.
+- Steps 3-4: The portal finds an existing external user with a validated GCCF subject.
+- Steps 5-6: A new UserRoleLink is created and immediately set to Active (no invitation token/code needed).
+- Steps 7-8: A notification email is sent to inform the user of their new workspace access.
+- Steps 9-10: The user logs in with their existing GCCF credentials and sees the new workspace in their list.
+
+This streamlined flow skips the invitation token/code mechanism since the user's identity has already been verified through a previous onboarding process.
 
 ## External User Onboarding Flow
 
@@ -195,6 +270,75 @@ sequenceDiagram
 - Step 4: The user is shown a page indicating that the invitation has expired.
 - Follow-up: The user needs to contact the workspace owner to request a new invitation
 
+## GCCF Identity Reassociation Flow
+
+When an external user loses access to their original GCCF credentials or needs to use a different GCCF account, the identity reassociation process reuses the existing invitation flow:
+
+```mermaid
+sequenceDiagram
+    actor User as External User
+    actor Admin as FSDH Admin / Workspace Owner
+    participant FSDH as FSDH Portal
+    participant Email as GC Notify
+    participant GCCF as GCCF
+
+    autonumber
+    User->>Admin: Requests identity reassociation (email/support ticket)
+    Admin->>FSDH: Navigates to user management
+    Admin->>FSDH: Clears existing GCCF subject from user profile
+    Admin->>FSDH: Sends new invitation to user's email
+    Note over FSDH: Reuses standard invitation flow
+    FSDH->>FSDH: Generates invitation token and code
+    FSDH->>Email: Sends invitation email
+    Email-->>User: Receives email with invitation link
+    User->>FSDH: Clicks invitation link
+    FSDH->>FSDH: Verifies invitation token
+    FSDH-->>User: Redirects to GCCF login
+    User->>GCCF: Authenticates with new GCCF credentials
+    GCCF-->>FSDH: Returns tokens (with new subject)
+    FSDH->>FSDH: Associates new subject with existing profile
+    FSDH-->>User: Shows invitation processed page
+    User->>FSDH: Enters invitation code
+    FSDH-->>User: Success - workspaces intact
+```
+
+- Step 1: The external user contacts an admin or workspace owner to request identity reassociation.
+- Steps 2-3: The admin navigates to user management and clears the existing GCCF subject from the user's profile.
+- Steps 4-7: The admin sends a new invitation using the standard invitation flow; the user receives the email.
+- Steps 8-12: The user clicks the link, authenticates with their new GCCF credentials via standard OIDC flow.
+- Steps 13-14: The portal associates the new GCCF subject with the existing user profile.
+- Steps 15-17: The user completes the invitation code entry; workspace access and user data remain intact.
+
+This approach avoids creating a separate reassociation token mechanism and leverages the security and validation already built into the invitation flow.
+
+## External User Deactivation Flow
+
+This diagram shows how an admin or workspace owner can deactivate an external user, preventing further access to the FSDH Portal.
+
+```mermaid
+sequenceDiagram
+    actor Admin as FSDH Admin / Workspace Owner
+    participant FSDH as FSDH Portal
+    participant DB as Database
+
+    autonumber
+    Admin->>FSDH: Navigates to user management
+    Admin->>FSDH: Selects external user to deactivate
+    Admin->>FSDH: Confirms deactivation
+    FSDH->>DB: Clear GCCF subject (OID) from ExternalUser
+    FSDH->>DB: Update all UserRoleLinks to Disabled
+    FSDH->>DB: Updated DeacticatedAt and DeactivatedBy in database
+    FSDH-->>Admin: Displays confirmation of deactivation
+```
+
+- Steps 1-3: The admin navigates to user management, selects the external user, and confirms deactivation.
+- Step 4: The portal clears the GCCF subject (OID) from the user's profile, breaking the identity link.
+- Step 5: All `UserRoleLink` records for this user are updated to `Disabled`, revoking workspace access.
+- Step 6: The user's status is set to `Disabled` in the external user profile.
+- Step 7: The admin sees a confirmation that the user has been deactivated.
+
+Once deactivated, the user cannot log in or access any workspaces. To reactivate, the admin must send a new invitation to reassociate a GCCF identity and restore workspace roles.
+
 ## New Data elements for external users
 
 The following data elements are required for inviting, authenticating, onboarding, and managing access for external users in the FSDH Portal when using GCCF.
@@ -209,7 +353,6 @@ The following data elements are required for inviting, authenticating, onboardin
 | Expires At       | Invitation expiry timestamp          |                                               |
 | Invited By       | Inviter (workspace owner)            | Internal identifier                           |
 | Workspace        | Target workspace                     |                                               |
-| Initial Role     | Role granted on acceptance           |                                               |
 | Invite Status    | Invite lifecycle state               | invited / accepted / expired / revoked        |
 
 ### External user profile (stored by FSDH)
