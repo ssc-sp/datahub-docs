@@ -93,10 +93,12 @@ AS-->>U: Notify failure (portal/email)
 AS-->>WL: Notify failure (external activity logs + email)
 ```
 
-### Notifications
+### Actions
 
 - Workspace owners receive an email with details (user email, date, virus)
 - User receives an email to indicate that one or multiple files were flagged with a virus
+- User expiry date is updated to lock the external account out of FSDH
+   - External user needs to confirm machine is virus free
 - Portal shows badges or alerts (TBD)
 
 ## Data Elements
