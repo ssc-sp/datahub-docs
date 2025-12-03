@@ -18,8 +18,8 @@ This page describes the antivirus workflow variant that relies on ADLS Gen2 ACLs
 ## Assumptions
 
 - A single ADLS Gen2 filesystem (container) is used
-- A folder called `external-uploads/` is used by the web portal to let external users upload files
-- Read access in `external-uploads/` is granted only after the scan returns Clean by updating the blob ACL to include a readers group with `r--`.
+- A folder called `external-uploads/<user name>` is used by the web portal to let external users upload files
+- Read access in `external-uploads/<user name>` is granted only after the scan returns Clean by updating the blob ACL to include a readers group with `r--`.
 - Files are not accessible or downloadable until the scan is complete and status is Clean.
 - `Storage Service` features will be added to existing Function project in `Datahub.Functions`
 
