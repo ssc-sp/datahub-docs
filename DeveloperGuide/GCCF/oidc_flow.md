@@ -285,7 +285,7 @@ sequenceDiagram
     autonumber
     User->>Admin: Requests identity reassociation (email/support ticket)
     Admin->>FSDH: Navigates to user management
-    Admin->>FSDH: Clears existing GCCF subject from user profile
+    Admin->>FSDH: Marks existing account as inactive
     Admin->>FSDH: Sends new invitation to user's email
     Note over FSDH: Reuses standard invitation flow
     FSDH->>FSDH: Generates invitation token and code
@@ -303,7 +303,7 @@ sequenceDiagram
 ```
 
 - Step 1: The external user contacts an admin or workspace owner to request identity reassociation.
-- Steps 2-3: The admin navigates to user management and clears the existing GCCF subject from the user's profile.
+- Steps 2-3: The admin navigates to user management and marks the existing account as inactive (GCCF subject is retained for audit purposes).
 - Steps 4-7: The admin sends a new invitation using the standard invitation flow; the user receives the email.
 - Steps 8-12: The user clicks the link, authenticates with their new GCCF credentials via standard OIDC flow.
 - Steps 13-14: The portal associates the new GCCF subject with the existing user profile.
@@ -337,6 +337,58 @@ sequenceDiagram
 
 The user's GCCF identity and access to other workspaces remain intact. If the user has no remaining active workspace access, they will see the "No Active Access" error page on login.
 
+## External User Email Change Flow
+
+This diagram shows how a workspace owner can change the email address of an external user. This process disables the previous account and creates a new invitation for the new email address.
+
+```mermaid
+sequenceDiagram
+    actor Owner as FSDH Workspace Owner
+    participant FSDH as FSDH Portal
+    participant DB as Database
+    participant Email as GC Notify
+
+    autonumber
+    Owner->>FSDH: Navigates to workspace members
+    Owner->>FSDH: Selects external user to update email
+    Owner->>FSDH: Enters new email address and confirms
+    FSDH->>DB: Update old ExternalUser status to Inactive
+    FSDH->>DB: Update UserRoleLink for this workspace to Disabled
+    FSDH->>DB: Record EmailChangedAt, EmailChangedBy, and previous email
+    FSDH->>FSDH: Create new PortalUser and ExternalUser with new email
+    FSDH->>FSDH: Create new UserRoleLink for workspace (same role)
+    FSDH->>FSDH: Generate invitation token and code
+    FSDH->>Email: Send invitation email to new address
+    Email-->>Owner: New email receives invitation link
+    FSDH-->>Owner: Displays confirmation of email change
+```
+
+- Steps 1-3: The workspace owner navigates to workspace members, selects the user, and enters the new email address.
+- Steps 4-5: The old account is deactivated: ExternalUser status set to Inactive (GCCF subject retained for audit), and UserRoleLink disabled.
+- Step 6: The change is recorded for audit purposes, including the previous email address.
+- Steps 8-9: A new PortalUser and ExternalUser are created with the new email; a new UserRoleLink is created with the same workspace role.
+- Steps 10-11: An invitation token and code are generated; an invitation email is sent to the new address.
+- Step 12: The owner sees a confirmation that the email has been changed and the invitation sent.
+
+The user must complete the standard onboarding flow with the new email to regain access. The old email account cannot be used to log in.
+
+### Alternative Approaches to Email Changes
+
+The following approaches were considered:
+
+| Initiator             | Approach                      | Description                                                                     | Issues                                                                                                                                                 |
+| --------------------- | ----------------------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| FSDH Admin            | **In-place email update**     | Update the email field directly on the existing PortalUser/ExternalUser records | If user has access to multiple workspaces, all workspace owners would need to agree to the change; GCCF subject remains linked to a different identity |
+| Workspace Owner       | **Soft migration with alias** | Keep old record active and add new email as an alias                            | Complexity in identity resolution; potential for duplicate logins; unclear which email receives notifications                                          |
+| External Collaborator | **Self-service email change** | Let users change their own email after verification                             | Requires recovery system with encrypted answers and cryptographic keys. Creates security risk if user's original email is compromised                  |
+
+The chosen approach (disable old account + new invitation) ensures:
+
+- Clear audit trail with distinct records for each email
+- Each workspace owner controls their own user list
+- GCCF identity is properly re-associated with the new email
+- No ambiguity about which account is active
+
 ## External User Global Deactivation Flow
 
 This diagram shows how an FSDH admin can globally deactivate an external user, preventing access to all workspaces and removing the GCCF identity link.
@@ -351,35 +403,35 @@ sequenceDiagram
     Admin->>FSDH: Navigates to admin user management
     Admin->>FSDH: Selects external user to deactivate globally
     Admin->>FSDH: Confirms global deactivation
-    FSDH->>DB: Clear GCCF subject (OID) from ExternalUser
+    FSDH->>DB: Update ExternalUser status to Inactive
     FSDH->>DB: Update all UserRoleLinks to Disabled
     FSDH->>DB: Record DeactivatedAt and DeactivatedBy
     FSDH-->>Admin: Displays confirmation of global deactivation
 ```
 
 - Steps 1-3: The admin navigates to user management, selects the external user, and confirms global deactivation.
-- Step 4: The portal clears the GCCF subject (OID) from the user's profile, breaking the identity link.
+- Step 4: The portal sets the ExternalUser status to Inactive (GCCF subject is retained for audit purposes).
 - Step 5: All `UserRoleLink` records for this user across all workspaces are updated to `Disabled`.
 - Step 6: The deactivation timestamp and actor are recorded for audit purposes.
 - Step 7: The admin sees a confirmation that the user has been globally deactivated.
 
-Once globally deactivated, the user cannot log in or access any workspaces. To reactivate, an admin must send a new invitation to reassociate a GCCF identity and a workspace owner must restore workspace roles.
+Once globally deactivated, the user cannot log in or access any workspaces. The GCCF subject is retained for audit trail purposes. To reactivate, an admin must send a new invitation and a workspace owner must restore workspace roles.
 
-## New Data elements for external users
+## Data elements for external users
 
 The following data elements are required for inviting, authenticating, onboarding, and managing access for external users in the FSDH Portal when using GCCF.
 
 ### Invitation and linking (FSDH-managed)
 
-| Element          | Purpose / Usage                      | Notes                                         |
-| ---------------- | ------------------------------------ | --------------------------------------------- |
-| Invitation Token | Unique, single-use link token        | Embedded in invite URL                        |
-| Invitation Code  | Short code entered in portal         | Separate from link token                      |
-| Invited Email    | Email address the invitation targets | Linked to authenticated user |
-| Expires At       | Invitation expiry timestamp          |                                               |
-| Invited By       | Inviter (workspace owner)            | Internal identifier                           |
-| Workspace        | Target workspace                     |                                               |
-| Invite Status    | Invite lifecycle state               | invited / accepted / expired / revoked        |
+| Element          | Purpose / Usage                      | Notes                                  |
+| ---------------- | ------------------------------------ | -------------------------------------- |
+| Invitation Token | Unique, single-use link token        | Embedded in invite URL                 |
+| Invitation Code  | Short code entered in portal         | Separate from link token               |
+| Invited Email    | Email address the invitation targets | Linked to authenticated user           |
+| Expires At       | Invitation expiry timestamp          |                                        |
+| Invited By       | Inviter (workspace owner)            | Internal identifier                    |
+| Workspace        | Target workspace                     |                                        |
+| Invite Status    | Invite lifecycle state               | invited / accepted / expired / revoked |
 
 ### External user profile (stored by FSDH)
 
@@ -398,3 +450,31 @@ The following data elements are required for inviting, authenticating, onboardin
 | Terms of Use Accepted At | Timestamp of consent                                            |                                 |
 | Last Login               | Last successful authentication                                  |                                 |
 | Account Expiry           | Expiration date                                                 | 1 year + renewal option?        |
+
+## Duplicate entries for the same user
+
+In some cases, duplicate entries for the same user may exist in the `PortalUser` table (e.g. email changes or re-invitation).
+
+To query all events related to a specific user (by email address), use the following query to trace the complete history of actions:
+
+```kusto
+let userEmail = "user@example.com";
+AppTraces
+| where TimeGenerated > ago(90d)
+| where Message has userEmail
+| project TimeGenerated, OperationId, SeverityLevel, Message
+| order by TimeGenerated desc
+```
+
+To get the full request context for a specific operation, use the `OperationId` from the results above:
+
+```kusto
+let operationId = "<OperationId from previous query>";
+AppTraces
+| where TimeGenerated > ago(90d)
+| where OperationId == operationId
+| project TimeGenerated, SeverityLevel, Message
+| order by TimeGenerated asc
+```
+
+This query helps identify when duplicate user records were created, the operation context, and the email addresses involved. Cross-reference the `OperationId` with other application logs to trace the full request flow and determine the root cause.
