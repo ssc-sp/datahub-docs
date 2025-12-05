@@ -1,0 +1,30 @@
+name: Update LAST_UPDATED on Terms and Conditions Change
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - UserGuide/POC-Terms-And-Conditions.md
+      - fr/UserGuide/Conditions-générales-de-POC.md
+
+permissions:
+  contents: write
+
+jobs:
+  update-last-updated:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+
+      - name: Update LAST_UPDATED.md
+        run: |
+          echo "$(date -u +'%Y-%m-%d')" > LAST_UPDATED.md
+
+      - name: Commit and push LAST_UPDATED.md
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add LAST_UPDATED.md
+          git commit -m "Update LAST_UPDATED.md to date of release"
+          git push

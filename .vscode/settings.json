@@ -1,5 +1,6 @@
 {
     "files.associations": {
         "*.yaml": "home-assistant"
-    }
+    },
+    "markdown.preview.fontFamily": "'Aptos Display', -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif"
 }

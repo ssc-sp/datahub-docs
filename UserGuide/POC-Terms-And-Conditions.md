@@ -2,7 +2,7 @@
 
 (“Participants” are referred to as workspace lead, workspace collaborator, workspace administrator, and workspace data steward.)
 
-November 2024 | Version 0.3
+October 2025 | Version 1.0
 
 ## Federal Science DataHub
 
@@ -24,7 +24,7 @@ Users of FSDH are required to conform to the following criteria:
 
     The workspace lead should develop a security categorization report to ensure data or information stored in the workspace falls within the approved security classification. For guidance, please refer to https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32614. The workspace lead is responsible for consulting departmental security, ATIP and privacy teams for all information or data posted.
 
-2. Individual security classification: To access the FSDH platform, participants (government and non-government) must hold a valid Government of Canada (GC) security classification of at least Enhanced Reliability. The workspace lead is responsible for ensuring all individuals working in the workspace have a minimum valid GC Enhanced Reliability status. For more information on this, please see: https://www.tpsgc-pwgsc.gc.ca/esc-src/protection-safeguarding/niveaux-levels-eng.html
+2. Individual security classification: To access the FSDH platform, participants (government and non-government) must hold a valid Government of Canada (GC) security classification of at least Reliability. The workspace lead is responsible for ensuring all individuals working in the workspace have a minimum valid GC Reliability status. For more information on this, please see: https://www.tpsgc-pwgsc.gc.ca/esc-src/protection-safeguarding/niveaux-levels-eng.html
 
 3. Roles and Responsibilities: Shared Services Canada (SSC) is the FSDH product owner, and Environment and Climate Change Canada (ECCC) is the FSDH business owner. SSC will develop and maintain the FSDH platform and associated infrastructure. Participating science-based departments and agencies (SBDAs) are responsible for complying with all applicable statutes, regulations, and policies concerning the security and management of GC information, records, resources, and other relevant policies, such as the [Policy on Service and Digital](https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32603). Participating departments must also comply with the roles and responsibilities outlined in the Responsibility, Accountability, Consultation, and Information (RACI) Chart in Annex 1. 
 
@@ -54,9 +54,9 @@ Users of FSDH are required to conform to the following criteria:
 
 16.	Resource Management: The workspace lead and workspace administrator(s) are responsible for resource management of their workspace(s). If processes need to be shut down at night, that is the participant's responsibility. 
 
-17.	Support Hours: Support services are available from 8:00 a.m. to 4:00 p.m. Eastern Time (ET). For more information on guidance, refer to the [FSDH Operational Service Levels](https://163gc.sharepoint.com/:w:/r/sites/ScienceProgram/_layouts/15/Doc.aspx?sourcedoc=%7BEFA1336A-B25C-4B82-811E-1FC34F36AEF6%7D&file=FSDH%20Operational%20Service%20Levels.docx&action=default&mobileredirect=true&wdLOR=cDF819886-6C07-408D-ABD0-DDA8546BED13).  
+17.	Support Hours: Support services are available from 8:00 a.m. to 4:00 p.m. Eastern Time (ET). For more information on guidance, refer to the [FSDH Operational Service Levels](https://fsdhstaticassetstorage.blob.core.windows.net/public/terms-and-conditions-supporting-files/FSDH%20Operational%20Service%20Levels.pdf).  
 
-18.	Service Level: The Science Program at SSC aims to maintain maximum availability during service hours (Monday to Friday 08:00-16:00 ET). Outside of these times, some server environments may be available for use, although without the levels of support and target response and resolutions as shown. For more information, refer to the [FSDH Operational Service Levels](https://163gc.sharepoint.com/:w:/r/sites/ScienceProgram/_layouts/15/Doc.aspx?sourcedoc=%7BEFA1336A-B25C-4B82-811E-1FC34F36AEF6%7D&file=FSDH%20Operational%20Service%20Levels.docx&action=default&mobileredirect=true&wdLOR=cDF819886-6C07-408D-ABD0-DDA8546BED13). 
+18.	Service Level: The Science Program at SSC aims to maintain maximum availability during service hours (Monday to Friday 08:00-16:00 ET). Outside of these times, some server environments may be available for use, although without the levels of support and target response and resolutions as shown. For more information, refer to the [FSDH Operational Service Levels](https://fsdhstaticassetstorage.blob.core.windows.net/public/terms-and-conditions-supporting-files/FSDH%20Operational%20Service%20Levels.pdf). 
 
 19.	Official Language: Participants are responsible for ensuring official content and content intended for broad dissemination are provided in both official languages and respect the Official Language Act.
 
@@ -125,4 +125,21 @@ The following are roles within FSDH, the responsibilities are outlined in Annex 
 
 ### Annex 3 Funding Model 
 
-To be provided when ready. 
+FSDH costs can be grouped into two categories, operations and usage. 
+
+Operations ​refers to the salary and O&M costs to maintain, support, grow, and evolve the platform including:​ 
+
+* Business operations such as stakeholder management and outreach​ 
+* Technical operations such as client onboarding and support, bug fixes, infrastructure maintenance and updating, and release management​ 
+* Cloud hosting infrastructure​ 
+* Product evolution​ 
+* Advisory services​ 
+
+Usage​ refers to costs strictly for the consumption of cloud services and  the tools within the FSDH: structured and unstructured data storage, data analytics, web app service. ​ 
+
+* Estimated annual cost: Variable and will differ in each FSDH workspace​ 
+* Funding: Workspace leads pay for usage within their workspace quarterly as authorized by their Cloud Business Requirement (CBR) submitted through the GC Hosting Services Portal​ 
+
+Operations are currently being subsidized by three departments: Shared Services Canada (SSC), Laboratories Canada, and Environment and Climate Change Canada (ECCC). The FSDH team is evaluating alternative funding options to be implemented as of fiscal year 2026/27. 
+
+Users are responsible for paying for their Cloud consumption as per the terms laid out in their recovery agreement with GC Hosting. 

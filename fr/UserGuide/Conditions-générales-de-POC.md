@@ -2,7 +2,7 @@
 
 (Les "participants" sont désignés par les termes "responsable de l'espace de travail", "collaborateur de l'espace de travail", "administrateur de l'espace de travail" et "responsable des données de l'espace de travail").
 
-Novembre 2024 | Version 0.3
+Octobre 2025 | Version 1.0
 
 ## Plateforme fédérale de données scientifiques
 
@@ -24,7 +24,7 @@ Les utilisateurs de la PFDS sont tenus de se conformer aux critères suivants:
 
     Le responsable de l'espace de travail doit élaborer un rapport de catégorisation de la sécurité afin de s'assurer que les données ou les informations stockées dans l'espace de travail relèvent de la classification de sécurité approuvée. Pour obtenir des conseils, veuillez consulter le site https://www.tbs-sct.canada.ca/pol/doc-fra.aspx?id=32614. Le responsable de l'espace de travail est chargé de consulter les équipes départementales chargées de la sécurité, de l'AIPRP et de la protection de la vie privée pour toutes les informations ou données publiées.
 
-2. Classification de sécurité individuelle: Pour accéder à la plateforme PFDS, les participants (gouvernementaux et non gouvernementaux) doivent détenir une classification de sécurité valide du gouvernement du Canada (GC) d'au moins fiabilité approfondie. Le responsable de l'espace de travail est chargé de veiller à ce que toutes les personnes travaillant dans l'espace de travail soient au moins titulaires d'une classification de sécurité du gouvernement du Canada (GC) valide de niveau de fiabilité élevé. Pour plus d'informations à ce sujet, veuillez consulter: https://www.tpsgc-pwgsc.gc.ca/esc-src/protection-safeguarding/niveaux-levels-eng.html
+2. Classification de sécurité individuelle: Pour accéder à la plateforme PFDS, les participants (gouvernementaux et non gouvernementaux) doivent détenir une classification de sécurité valide du gouvernement du Canada (GC) d'au moins fiabilité. Le responsable de l'espace de travail est chargé de veiller à ce que toutes les personnes travaillant dans l'espace de travail soient au moins titulaires d'une classification de sécurité du gouvernement du Canada (GC) valide de niveau de fiabilité. Pour plus d'informations à ce sujet, veuillez consulter: https://www.tpsgc-pwgsc.gc.ca/esc-src/protection-safeguarding/niveaux-levels-eng.html
 
 3. Rôles et responsabilités: Services partagés Canada (SSC) est le propriétaire du produit PFDS, et Environnement et Changement climatique Canada (ECCC) est le propriétaire de l'activité PFDS. SSC développera et maintiendra la plateforme PFDS et l'infrastructure associée. Les ministères et organismes à vocation scientifique (MOVS) participants doivent se conformer à toutes les lois, à tous les règlements et à toutes les politiques applicables concernant la sécurité et la gestion de l'information, des dossiers et des ressources du GC, ainsi qu'à d'autres politiques pertinentes, telles que la [Politique sur les services et le numérique](https://www.tbs-sct.canada.ca/pol/doc-fra.aspx?id=32603). Les ministères participants doivent également se conformer aux rôles et responsabilités décrits dans le tableau des responsabilités, de l'obligation de rendre compte, de la consultation et de l'information (RACI) de l'annexe 1.
 
@@ -54,9 +54,9 @@ Les utilisateurs de la PFDS sont tenus de se conformer aux critères suivants:
 
 16. Gestion des ressources: Le responsable de l'espace de travail et le(s) administrateur(s) de l'espace de travail sont responsables de la gestion des ressources de leur(s) espace(s) de travail. Si des processus doivent être arrêtés la nuit, c'est la responsabilité du participant.
 
-17. Heures d'assistance: Les services d'assistance sont disponibles de 8h00 à 16h00, heure de l'Est (ET). Pour plus d'informations sur l'assistance, consultez les [Niveaux de service opérationnels de la PFDS](https://163gc.sharepoint.com/:w:/r/sites/ScienceProgram/_layouts/15/Doc.aspx?sourcedoc=%7BEFA1336A-B25C-4B82-811E-1FC34F36AEF6%7D&file=PFDS%20Operational%20Service%20Levels.docx&action=default&mobileredirect=true&wdLOR=cDF819886-6C07-408D-ABD0-DDA8546BED13).  
+17. Heures d'assistance: Les services d'assistance sont disponibles de 8h00 à 16h00, heure de l'Est (ET). Pour plus d'informations sur l'assistance, consultez les [Niveaux de service opérationnels de la PFDS](https://fsdhstaticassetstorage.blob.core.windows.net/public/terms-and-conditions-supporting-files/FSDH%20Operational%20Service%20Levels.pdf).  
 
-18. Niveau de service: Le programme scientifique de la SSC vise à maintenir une disponibilité maximale pendant les heures de service (du lundi au vendredi, de 8 h à 16 h, heure de l'Est). En dehors de ces heures, certains environnements de serveurs peuvent être disponibles, mais sans les niveaux de support et les objectifs de réponse et de résolution indiqués. Pour plus d'informations, veuillez consulter les [Niveaux de service opérationnels de la PFDS](https://163gc.sharepoint.com/:w:/r/sites/ScienceProgram/_layouts/15/Doc.aspx?sourcedoc=%7BEFA1336A-B25C-4B82-811E-1FC34F36AEF6%7D&file=PFDS%20Operational%20Service%20Levels.docx&action=default&mobileredirect=true&wdLOR=cDF819886-6C07-408D-ABD0-DDA8546BED13).
+18. Niveau de service: Le programme scientifique de la SSC vise à maintenir une disponibilité maximale pendant les heures de service (du lundi au vendredi, de 8 h à 16 h, heure de l'Est). En dehors de ces heures, certains environnements de serveurs peuvent être disponibles, mais sans les niveaux de support et les objectifs de réponse et de résolution indiqués. Pour plus d'informations, veuillez consulter les [Niveaux de service opérationnels de la PFDS](https://fsdhstaticassetstorage.blob.core.windows.net/public/terms-and-conditions-supporting-files/FSDH%20Operational%20Service%20Levels.pdf).
 
 19. Les langues officielles: Les participants doivent veiller à ce que les contenus officiels et les contenus destinés à une large diffusion soient fournis dans les deux langues officielles et respectent la loi sur les langues officielles.
 
@@ -125,4 +125,21 @@ Gestion de la sécurité du portail | La gestion de la sécurité du portail con
 
 ### Annexe 3 Modèle de financement
 
-A fournir dès qu'il est prêt.
+Les coûts liés à la PFDS peuvent être regroupés en deux catégories: les coûts opérationnels et les coûts d'utilisation.
+
+Les coûts opérationnels désignent les salaires et les coûts d'exploitation et de maintenance nécessaires pour entretenir, soutenir, développer et faire évoluer la plateforme, notamment:
+ 
+* Les opérations commerciales telles que la gestion des parties prenantes et la sensibilisation
+* Les opérations techniques telles que l'intégration et le soutenir des clients, la correction des bogues, la maintenance et la mise à jour de l'infrastructure, et la gestion des versions
+* L'infrastructure d'hébergement infonuagique
+* L'évolution des produits
+* Les services de conseil
+
+L'utilisation désigne les coûts strictement liés à la consommation des services infonuagique et  des outils au sein de la PFDS : stockage de données structurées et non structurées, analyse de données, service d'application web.
+ 
+* Coût annuel estimé : variable et différent pour chaque espace de travail PFDS​ 
+* Financement : les responsables des espaces de travail paient trimestriellement l'utilisation au sein de leur espace de travail, conformément à leur besoin opérationnel infonuagique (BOI) soumis via le portail des services d'hébergement du gouvernement canadien​
+ 
+Les opérations sont actuellement subventionnées par trois ministères : Services partagés Canada (SPC), Laboratoires Canada et Environnement et Changement climatique Canada (ECCC). L'équipe de la PFDS évalue d'autres options de financement qui seront mises en œuvre à partir de l'exercice 2026-2027.
+
+Les utilisateurs sont responsables du paiement de leur consommation d'infonuagique conformément aux conditions énoncées dans leur accord de reprise avec GC Hosting.
