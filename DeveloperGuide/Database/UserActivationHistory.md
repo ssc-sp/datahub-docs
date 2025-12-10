@@ -33,16 +33,11 @@ The `UserActivationHistory` entity provides an immutable audit log of all activa
 - **Complete history**: Every activation and deactivation event is preserved indefinitely
 - **Point-in-time reconstruction**: Query history to determine user status at any past moment
 
-### Event Sourcing Approach
+### Events
 
-- **State derivation**: Current user status can be derived from the most recent history entry
 - **Temporal queries**: Supports queries like "who was active on date X" without relying on snapshot data
 - **Change attribution**: Every state change is attributed to an actor and timestamp
-
-### Nullable Actor Pattern
-
-- **Manual actions**: `PerformedBy` populated when a workspace owner or admin initiates the action
-- **System actions**: `PerformedBy` null for automated events (e.g., scheduled expiry, policy enforcement)
+- **Manual actions**: `PerformedBy` populated when a workspace owner or admin initiates the action or null for automated events (e.g., scheduled expiry, policy enforcement)
 - **Self-service actions**: Track when users complete their own onboarding via invitation flow
 
 ### Workspace Scoping
@@ -78,57 +73,6 @@ erDiagram
 | `Activated`    | User gained access for the first time via invitation               | System (onboarding)  |
 | `Deactivated`  | User access was revoked                                            | Workspace Owner/Admin|
 | `Reactivated`  | Previously deactivated user regained access                        | System (re-invitation)|
-
-## Troubleshooting Queries
-
-### Query User Activation History
-
-To retrieve the complete activation history for a specific user:
-
-```sql
-SELECT 
-    h.ActionDate_DT,
-    h.ActionType,
-    h.PreviousStatus,
-    h.NewStatus,
-    h.Reason,
-    p.Email AS PerformedByEmail,
-    w.Name AS WorkspaceName
-FROM UserActivationHistory h
-LEFT JOIN PortalUser p ON h.PerformedById = p.Id
-LEFT JOIN Project w ON h.WorkspaceId = w.Id
-WHERE h.ExternalUserId = @userId
-ORDER BY h.ActionDate_DT DESC;
-```
-
-### Correlate with Application Insights
-
-Use the `CorrelationId` to trace the full request context in Application Insights:
-
-```kusto
-let correlationId = "<CorrelationId from UserActivationHistory>";
-AppTraces
-| where TimeGenerated > ago(90d)
-| where OperationId == correlationId
-| project TimeGenerated, SeverityLevel, Message
-| order by TimeGenerated asc
-```
-
-### Find All Deactivations in Time Range
-
-```sql
-SELECT 
-    e.Signup_Email,
-    h.ActionDate_DT,
-    h.Reason,
-    p.Email AS DeactivatedByEmail
-FROM UserActivationHistory h
-JOIN ExternalUser e ON h.ExternalUserId = e.Id
-LEFT JOIN PortalUser p ON h.PerformedById = p.Id
-WHERE h.ActionType = 'Deactivated'
-  AND h.ActionDate_DT BETWEEN @startDate AND @endDate
-ORDER BY h.ActionDate_DT DESC;
-```
 
 ## Related Documentation
 

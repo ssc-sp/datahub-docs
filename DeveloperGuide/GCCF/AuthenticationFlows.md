@@ -92,7 +92,7 @@ sequenceDiagram
 ```
 
 - Steps 1-4: The user authenticates via GCCF and the portal receives tokens with the `sub` claim.
-- Step 5: The portal looks up the user by the GCCF subject in the ExternalUser table.
+- Step 5: The portal looks up the user by the GCCF subject in the [ExternalUser](../Database/ExternalUser.md) table.
 - Step 6: If the user is found, the portal checks for active UserRoleLinks entries.
 - Steps 7-8: If the user has at least one active workspace access, the profile and workspaces are loaded and the landing page is displayed.
 - Step 9: If the user exists but has no active access (all UserRoleLinks are disabled or no entries exist), a "No Active Access" error page is shown.
@@ -157,9 +157,9 @@ sequenceDiagram
 - Step 1: A new page in the portal lets workspace owners invite external users
 - Step 2: The workspace owner enters the external user's email and selects Invite;
 - Step 3: The portal checks if an external user with the same email already exists in FSDH.
-- Steps 4-5: If the user does not exist, a new PortalUser and ExternalUser are created; otherwise, the existing records are reused.
+- Steps 4-5: If the user does not exist, a new [PortalUser](../Database/PortalUser.md) and [ExternalUser](../Database/ExternalUser.md) are created; otherwise, the existing records are reused.
 - Step 6: A new UserRoleLink is created for the workspace access.
-- Steps 7-9: The portal generates a unique, single-use invitation token and code, stored with the invitee's details.
+- Steps 7-9: The portal generates a unique, single-use invitation token and code, stored with the invitee's details in [ExternalUserInvitation](../Database/ExternalUserInvitation.md).
 - Steps 10-11: The system sends an invitation email through GC Notify; the external user receives it with the link.
 
 ## User Onboarding
@@ -198,12 +198,12 @@ sequenceDiagram
 ```
 
 - Step 1: The external user clicks the invitation link from their email.
-- Steps 2-3: The FSDH Portal verifies the invitation token; if valid, processing continues.
+- Steps 2-3: The FSDH Portal verifies the invitation token in [ExternalUserInvitation](../Database/ExternalUserInvitation.md); if valid, processing continues.
 - Steps 4-5: The portal shows GCCF login and the user authenticates (anonymous GCCF identity).
 - Steps 6-8: GCCF returns an authorization code; the portal exchanges it and receives tokens including the anonymous user ID.
 - Step 9: The portal loads the user profile using the invitation token URL.
-- Step 10: The portal checks if an ExternalUser entry already exists with the same GCCF user ID (sub claim).
-- Steps 11-15 (Disabled entry exists): If a disabled ExternalUser entry is found with the matching GCCF ID, the system reactivates it by updating its status from Inactive to Active, clearing the DeactivatedDate_DT and DeactivatedByUser fields, and restoring workspace access via UserRoleLinks.
+- Step 10: The portal checks if an [ExternalUser](../Database/ExternalUser.md) entry already exists with the same GCCF user ID (sub claim).
+- Steps 11-15 (Disabled entry exists): If a disabled [ExternalUser](../Database/ExternalUser.md) entry is found with the matching GCCF ID, the system reactivates it by updating its status from Inactive to Active, clearing the DeactivatedDate_DT and DeactivatedByUser fields, and restoring workspace access via UserRoleLinks.
 - Step 15 (No existing entry): If no existing entry is found with the same GCCF ID, the system creates a new association between the GCCF user ID and the invitation token and user email.
 - Step 16: The user is logged in and sees the invitation processed page.
 
@@ -285,16 +285,16 @@ sequenceDiagram
 - Step 1: The external user contacts a workspace owner to request re-enrollment.
 - Step 2: The workspace owner navigates to user management.
 - Step 3: The workspace owner marks the existing account as inactive.
-- Step 4: The user is marked as inactive (GCCF subject is retained, DeactivatedDate_DT and DeactivatedByUser field are populated to mark the row as inactive)
+- Step 4: The user is marked as inactive in [ExternalUser](../Database/ExternalUser.md) (GCCF subject is retained, DeactivatedDate_DT and DeactivatedByUser field are populated to mark the row as inactive). A deactivation event is recorded in [UserActivationHistory](../Database/UserActivationHistory.md) with `ActionType` set to "Deactivated", capturing the timestamp and the workspace owner who initiated the action.
 - Step 5: The workspace owner re-invites the user.
 - Step 6: A new user account is created with the same email.
 - Step 7: The workspace owner sends a new invitation to the user's email.
 
-After receiving the invitation, the user follows the standard [External User Onboarding Flow](#external-user-onboarding-flow) and [Invitation Code Entry Flow](#invitation-code-entry-flow-after-onboarding) to complete the re-enrollment process with their new GCCF credentials. The new GCCF subject will be associated with the new user account, while the old account retains the original GCCF subject for audit purposes.
+After receiving the invitation, the user follows the standard [External User Onboarding Flow](#external-user-onboarding-flow) and [Invitation Code Entry Flow](#invitation-code-entry-flow-after-onboarding) to complete the re-enrollment process with their new GCCF credentials. During onboarding, a "Reactivated" event is recorded in [UserActivationHistory](../Database/UserActivationHistory.md) when the user's account status transitions back to Active. The new GCCF subject will be associated with the new user account, while the old account retains the original GCCF subject for audit purposes.
 
-This approach avoids creating a separate reassociation token mechanism and leverages the security and validation already built into the invitation flow.
+This approach avoids creating a separate reassociation token mechanism and leverages the security and validation already built into the invitation flow. The [UserActivationHistory](../Database/UserActivationHistory.md) table maintains a complete audit trail of all activation state changes for compliance and troubleshooting purposes.
 
-The data model uses a 1 to n link from `ExternalUserInvitation` to `PortalUser`.
+The data model uses a 1 to n link from [ExternalUserInvitation](../Database/ExternalUserInvitation.md) to [PortalUser](../Database/PortalUser.md).
 
 **Expected cases per year:** 5% of all external users
 
@@ -322,13 +322,13 @@ sequenceDiagram
 ```
 
 - Steps 1-3: The workspace owner navigates to workspace members, selects the user, and enters the new email address.
-- Steps 4-5: The old account is deactivated: ExternalUser status set to Inactive (GCCF subject retained for audit), and UserRoleLink disabled.
+- Steps 4-5: The old account is deactivated: [ExternalUser](../Database/ExternalUser.md) status set to Inactive (GCCF subject retained for audit), and UserRoleLink disabled. A deactivation event is recorded in [UserActivationHistory](../Database/UserActivationHistory.md) with `ActionType` set to "Deactivated", capturing the timestamp, the workspace owner who initiated the action, and the reason (email change).
 - Step 6: The change is recorded for audit purposes, including the previous email address.
-- Steps 8-9: A new PortalUser and ExternalUser are created with the new email; a new UserRoleLink is created with the same workspace role.
+- Steps 8-9: A new [PortalUser](../Database/PortalUser.md) and [ExternalUser](../Database/ExternalUser.md) are created with the new email; a new UserRoleLink is created with the same workspace role. During the onboarding flow, an "Activated" event is recorded in [UserActivationHistory](../Database/UserActivationHistory.md) when the new account is first used.
 - Steps 10-11: An invitation token and code are generated; an invitation email is sent to the new address.
 - Step 12: The owner sees a confirmation that the email has been changed and the invitation sent.
 
-The user must complete the standard onboarding flow with the new email to regain access. The old email account cannot be used to log in. Previous email is kept in `UserInvitation` history.
+The user must complete the standard onboarding flow with the new email to regain access. The old email account cannot be used to log in. Previous email is kept in [ExternalUserInvitation](../Database/ExternalUserInvitation.md) history. The [UserActivationHistory](../Database/UserActivationHistory.md) table provides a complete audit trail showing when the old account was deactivated and when the new account is activated.
 
 **Expected cases per year:** 10% of all external users
 
@@ -398,12 +398,12 @@ sequenceDiagram
 ```
 
 - Steps 1-3: The admin navigates to user management, selects the external user, and confirms global deactivation.
-- Step 4: The portal sets the ExternalUser status to Inactive (GCCF subject is retained for audit purposes).
+- Step 4: The portal sets the [ExternalUser](../Database/ExternalUser.md) status to Inactive (GCCF subject is retained for audit purposes).
 - Step 5: All `UserRoleLink` records for this user across all workspaces are updated to `Disabled`.
-- Step 6: The deactivation timestamp and actor are recorded for audit purposes.
+- Step 6: The deactivation timestamp and actor are recorded in [UserActivationHistory](../Database/UserActivationHistory.md) for audit purposes.
 - Step 7: The admin sees a confirmation that the user has been globally deactivated.
 
-Once globally deactivated, the user cannot log in or access any workspaces. The GCCF subject is retained for audit trail purposes. To reactivate, an admin must send a new invitation and a workspace owner must restore workspace roles.
+Once globally deactivated, the user cannot log in or access any workspaces. The GCCF subject is retained in [ExternalUser](../Database/ExternalUser.md) for audit trail purposes. To reactivate, an admin must send a new invitation and a workspace owner must restore workspace roles.
 
 ## Data Models & Troubleshooting
 
