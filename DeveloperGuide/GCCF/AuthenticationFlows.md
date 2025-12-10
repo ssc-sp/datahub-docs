@@ -188,6 +188,7 @@ sequenceDiagram
     alt Disabled entry exists with same GCCF ID
         FSDH->>FSDH: Reactivate existing disabled ExternalUser entry
         FSDH->>FSDH: Update status from Inactive to Active
+        FSDH->>FSDH: Add line in UserActivationHistory
         FSDH->>FSDH: Clear DeactivatedDate_DT and DeactivatedByUser fields
         FSDH->>FSDH: Grant workspace access via UserRoleLinks
     else No existing entry with same GCCF ID
@@ -202,7 +203,7 @@ sequenceDiagram
 - Steps 6-8: GCCF returns an authorization code; the portal exchanges it and receives tokens including the anonymous user ID.
 - Step 9: The portal loads the user profile using the invitation token URL.
 - Step 10: The portal checks if an ExternalUser entry already exists with the same GCCF user ID (sub claim).
-- Steps 11-14 (Disabled entry exists): If a disabled ExternalUser entry is found with the matching GCCF ID, the system reactivates it by updating its status from Inactive to Active, clearing the DeactivatedDate_DT and DeactivatedByUser fields, and restoring workspace access via UserRoleLinks.
+- Steps 11-15 (Disabled entry exists): If a disabled ExternalUser entry is found with the matching GCCF ID, the system reactivates it by updating its status from Inactive to Active, clearing the DeactivatedDate_DT and DeactivatedByUser fields, and restoring workspace access via UserRoleLinks.
 - Step 15 (No existing entry): If no existing entry is found with the same GCCF ID, the system creates a new association between the GCCF user ID and the invitation token and user email.
 - Step 16: The user is logged in and sees the invitation processed page.
 
@@ -270,8 +271,6 @@ sequenceDiagram
     actor User as External User
     actor Owner as Workspace Owner
     participant FSDH as FSDH Portal
-    participant Email as GC Notify
-    participant GCCF as GCCF
 
     autonumber
     User->>Owner: Requests re-enrollment by contacting workspace owner
@@ -279,7 +278,7 @@ sequenceDiagram
     Owner->>FSDH: Marks existing account as inactive
     FSDH->>FSDH: User is marked as inactive
     Owner->>FSDH: Re-invite user
-    FSDH->>FSDH: New user account is created with same email
+    FSDH->>FSDH: New user account is created with new GCCF ID
     Owner->>FSDH: Sends new invitation to user's email
 ```
 
