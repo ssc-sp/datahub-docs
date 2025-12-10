@@ -407,64 +407,20 @@ Once globally deactivated, the user cannot log in or access any workspaces. The 
 
 ## Data Models & Troubleshooting
 
-### Data elements for external users
+### Data Model Overview
 
-The following data elements are required for inviting, authenticating, onboarding, and managing access for external users in the FSDH Portal when using GCCF.
+The external user management system relies on several key database tables. For comprehensive schema details, column specifications, and design rationale, refer to the following database documentation:
 
-### Invitation and linking (FSDH-managed)
+- **[ExternalUser](../Database/ExternalUser.md)** - Represents external users linked to the portal. Stores GCCF object identifier (OID), login timestamps, deactivation status, and relationships to portal users and invitations.
 
-| Element          | Purpose / Usage                      | Notes                                  |
-| ---------------- | ------------------------------------ | -------------------------------------- |
-| Invitation Token | Unique, single-use link token        | Embedded in invite URL                 |
-| Invitation Code  | Short code entered in portal         | Separate from link token               |
-| Invited Email    | Email address the invitation targets | Linked to authenticated user           |
-| Expires At       | Invitation expiry timestamp          |                                        |
-| Invited By       | Inviter (workspace owner)            | Internal identifier                    |
-| Workspace        | Target workspace                     |                                        |
-| Invite Status    | Invite lifecycle state               | invited / accepted / expired / revoked |
+- **[ExternalUserInvitation](../Database/ExternalUserInvitation.md)** - Tracks the complete invitation lifecycle for external users. Stores invitation tokens, codes, expiry dates, and dual-verification timestamps (token and code acceptance).
 
-### External user profile (stored by FSDH)
+- **[PortalUser](../Database/PortalUser.md)** - Central identity hub within the Datahub portal. Aggregates user profile information, activity tracking, and relationships to external identities.
 
-| Element                  | Purpose / Usage                                                 | Notes                           |
-| ------------------------ | --------------------------------------------------------------- | ------------------------------- |
-| GCCF Identity (Subject)  | Link to GCCF identity                                           | Persist `sub`                   |
-| First Name               | Identity of the user                                            |                                 |
-| Last Name                | Identity of the user                                            |                                 |
-| Affiliation              | Notes on the relation between workspace owner and external user |                                 |
-| Collaboration Objective  | Type of collaboration expected with the user                    |                                 |
-| Primary Email            | Email associated with the user                                  |                                 |
-| Status                   | Access state                                                    | active / disabled (with reason) |
-| Preferred Language       | UX localization                                                 | en / fr                         |
-| Organization             | Context / affiliation                                           | Collected if available          |
-| Terms of Use Version     | Track Terms of Use consent                                      | Enforce before access           |
-| Terms of Use Accepted At | Timestamp of consent                                            |                                 |
-| Last Login               | Last successful authentication                                  |                                 |
-| Account Expiry           | Expiration date                                                 | 1 year + renewal option?        |
+- **[UserActivationHistory](../Database/UserActivationHistory.md)** - Immutable audit log of all activation and deactivation events. Provides complete reconstruction of a user's access lifecycle for compliance and troubleshooting.
 
-### Duplicate entries for the same user
+### Key Design Principles
 
-In some cases, duplicate entries for the same user may exist in the `PortalUser` table (e.g. email changes or re-invitation).
-
-To query all events related to a specific user (by email address), use the following query to trace the complete history of actions:
-
-```kusto
-let userEmail = "user@example.com";
-AppTraces
-| where TimeGenerated > ago(90d)
-| where Message has userEmail
-| project TimeGenerated, OperationId, SeverityLevel, Message
-| order by TimeGenerated desc
-```
-
-To get the full request context for a specific operation, use the `OperationId` from the results above:
-
-```kusto
-let operationId = "<OperationId from previous query>";
-AppTraces
-| where TimeGenerated > ago(90d)
-| where OperationId == operationId
-| project TimeGenerated, SeverityLevel, Message
-| order by TimeGenerated asc
-```
-
-This query helps identify when duplicate user records were created, the operation context, and the email addresses involved. Cross-reference the `OperationId` with other application logs to trace the full request flow and determine the root cause.
+- **GCCF-keyed external users**: The external user data model is keyed on the GCCF ID (`OID`), with only one active record per user at any given time. `PortalUser` will be associated with a single `ExternalPortalUser` which represents the active entity.
+- **Email history tracking**: Email addresses are recorded in [ExternalUserInvitation](../Database/ExternalUserInvitation.md) for each invitation. When email changes occur, multiple invitations exist for the same user; the most recent email in [PortalUser](../Database/PortalUser.md) represents the current address.
+- **Activation history**: Since users can be activated and deactivated multiple times, the [UserActivationHistory](../Database/UserActivationHistory.md) table maintains an immutable audit trail of all state changes.
