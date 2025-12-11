@@ -271,6 +271,7 @@ sequenceDiagram
     actor User as External User
     actor Owner as Workspace Owner
     participant FSDH as FSDH Portal
+    participant GCNotify as GC Notify
 
     autonumber
     User->>Owner: Requests re-enrollment by contacting workspace owner
@@ -279,7 +280,8 @@ sequenceDiagram
     FSDH->>FSDH: User is marked as inactive
     Owner->>FSDH: Re-invite user
     FSDH->>FSDH: New user account is created with new GCCF ID
-    Owner->>FSDH: Sends new invitation to user's email
+    Owner->>FSDH: Request new invitation
+    FSDH->>GCNotify: Sends new invitation to user's email
 ```
 
 - Step 1: The external user contacts a workspace owner to request re-enrollment.
