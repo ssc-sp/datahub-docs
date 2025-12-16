@@ -23,22 +23,21 @@ This document proposes the data model changes required to incorporate the new ex
 
 Represents the profile of an external user (identity and lifecycle independent of any single workspace invitation). Invitation mechanics are now modeled separately in `WorkspaceInvitation`.
 
-| Property             | C# Type         | Constraints / Notes                                        |
-| -------------------- | --------------- | ---------------------------------------------------------- |
-| `Id`                 | int             | PK                                                         |
-| `ExternalSubject`    | string?         | GCCF `sub` claim (unique index when populated)             |
-| `PrimaryEmail`       | string          | Primary contact/login email                                |
-| `FirstName`          | string          | Mandatory                                                  |
-| `LastName`           | string          | Mandatory                                                  |
-| `Affiliation`        | string          | Relationship notes                                         |
-| `Organization`       | string          | Optional org context                                       |
-| `IsActive`           | bool            | true if active                                             |
-| `AccountExpiry`      | DateTimeOffset  | Future expiry/renewal                                      |
-| `CreatedAt`          | DateTimeOffset  | Creation timestamp                                         |
-| `UpdatedAt`          | DateTimeOffset  | Update timestamp                                           |
-| `UserRevokedAt`      | DateTimeOffset? | Timestamp when revoked                                     |
-| `DeactivationReason` | string?         | Audit trail on disable                                     |
-| `PortalUserId`       | int             | Portal User ID relation (1:1 after linkage)                |
+| Property             | C# Type         | Constraints / Notes                            | Example                 |
+| -------------------- | --------------- | ---------------------------------------------- | ----------------------- |
+| `Id`                 | int             | PK                                             | 101                     |
+| `ExternalSubject`    | string?         | GCCF `sub` claim (unique index when populated) | urn:gov:gccf:sub:abc123 |
+| `PrimaryEmail`       | string          | Primary contact/login email                    | analyst@example.org     |
+| `FirstName`          | string          | Mandatory                                      | Alex                    |
+| `LastName`           | string          | Mandatory                                      | Singh                   |
+| `Affiliation`        | string          | Role of the user within their organization     | Contractor              |
+| `Organization`       | string          | Optional org context                           | Acme Research           |
+| `AccountExpiry`      | DateTimeOffset  | Future expiry/renewal                          | 2025-12-31T23:59:59Z    |
+| `CreatedAt`          | DateTimeOffset  | Creation timestamp                             | 2024-05-10T14:32:00Z    |
+| `UpdatedAt`          | DateTimeOffset  | Update timestamp                               | 2024-06-01T09:15:00Z    |
+| `UserRevokedAt`      | DateTimeOffset? | Timestamp when revoked                         | 2024-06-15T08:00:00Z    |
+| `DeactivationReason` | string?         | Audit trail on disable                         | Revoked by security     |
+| `PortalUserId`       | int             | Portal User ID relation (1:1 after linkage)    | 2001                    |
 
 Existing fields from `UserSettings` used for external users remain:
 
