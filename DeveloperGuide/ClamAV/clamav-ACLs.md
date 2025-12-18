@@ -135,6 +135,32 @@ AS-->>U: Notify failure (portal/email)
 AS-->>WL: Notify failure (external activity logs + email)
 ```
 
+### ACL state on scan errors
+
+If the scanner reports an error (or infection), ACLs stay unchanged and the blob remains unreadable until a clean re-scan succeeds.
+
+```mermaid
+sequenceDiagram
+participant U as User
+participant FS as ADLS Gen2 Filesystem
+participant AV as ClamAV Scanner
+participant AS as Storage Service
+
+U->>FS: Upload blob (write-only ACL)
+FS->>AV: Trigger scan
+AV->>AV: Scan file with ClamAV
+alt Clean result
+  AV->>AS: Status: Clean
+  AS->>FS: Grant readers r-- ACL on blob
+  FS-->>U: File accessible for download
+else Infected or Error
+  AV->>AS: Status: Infected/Error
+  AS->>FS: No ACL change
+  Note over FS,U: Blob remains blocked
+  FS--xU: File remains inaccessible
+end
+```
+
 ### Actions
 
 - Workspace owners receive an email with details (user email, date, virus)
