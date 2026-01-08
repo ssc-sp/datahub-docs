@@ -70,7 +70,7 @@ The [`Project_Role`](https://github.com/ssc-sp/datahub-portal/blob/develop/Porta
 | `Id` | int | Unique identifier for the role |
 | `Name` | string | Display name of the role |
 | `Description` | string | Detailed description of the role's purpose and permissions |
-| `IsExternalRole` | bool | Indicates if this role is designed for external users (GCCF) |
+| `IsExternalRole` | bool | Indicates if this role can be assigned to external users (GCCF) |
 
 #### Internal User Roles (IsExternalRole = false)
 
