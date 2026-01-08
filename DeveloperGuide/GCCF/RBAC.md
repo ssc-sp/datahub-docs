@@ -78,7 +78,6 @@ These roles are assigned to Entra users within the organization:
 
 | Role ID | Name | Description | Access Level |
 |---------|------|-------------|--------------|
-| 1 | Disabled | Revoke user's access to the workspace | None (removal marker for auditing) |
 | 2 | Workspace Lead | Head of the workspace with business responsibility | Full administrative |
 | 3 | Admin | Management authority with direct supervision over cloud resourcing and users | Administrative |
 | 4 | Collaborator | Contributor to workspace objectives and deliverables | Read/Write |
@@ -91,6 +90,7 @@ These roles are specifically designed for external users (vendors, partners, con
 
 | Role ID | Name | Description | Access Scope |
 |---------|------|-------------|--------------|
+| 1 | Disabled | Revoke user's access to the workspace | None (removal marker for auditing) |
 | 7 | Web Application Access | Limited access to the web application interface only | Web UI only |
 | 8 | Storage | Limited access to storage upload and download | Storage resources only |
 | 9 | Web Application and Storage | Access to both web application interface and storage resources | Web UI + Storage |

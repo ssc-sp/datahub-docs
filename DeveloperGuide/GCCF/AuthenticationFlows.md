@@ -299,10 +299,9 @@ sequenceDiagram
     Owner->>FSDH: Navigates to user management
     Owner->>FSDH: Marks existing account as inactive
     FSDH->>DB: Set UserDeactivatedAt and DeactivatedByUserId in ExternalUser
+    FSDH->>DB: Remove access to all workspaces
     FSDH->>GCNotify: Send notification to all workspace owners the user is part of
     Owner->>FSDH: Select existing user - Re-invite
-    FSDH->>DB: New user account is created with new GCCF ID
-    Owner->>FSDH: Request new invitation
     FSDH->>GCNotify: Sends new invitation to user's email
 ```
 
