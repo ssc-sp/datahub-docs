@@ -443,14 +443,16 @@ The external user management system relies on several key database tables. For c
 
 - **[ExternalUser](../Database/ExternalUser.md)** - Represents external users linked to the portal. Stores GCCF object identifier (OID), login timestamps, deactivation status, and relationships to portal users and invitations.
 
-- **[ExternalUserInvitation](../Database/ExternalUserInvitation.md)** - Tracks the complete invitation lifecycle for external users. Stores invitation tokens, codes, expiry dates, and dual-verification timestamps (token and code acceptance).
+- **[ExternalUserInvitation](../Database/ExternalUserInvitation.md)** - Tracks the complete invitation lifecycle for external users. Stores invitation tokens, GCCF OIDC used for accepting the invitation, codes, expiry dates, and dual-verification timestamps (token and code acceptance).
 
 - **[PortalUser](../Database/PortalUser.md)** - Central identity hub within the Datahub portal. Aggregates user profile information, activity tracking, and relationships to external identities.
-
-- **[UserActivationHistory](../Database/UserActivationHistory.md)** - Immutable audit log of all activation and deactivation events. Provides complete reconstruction of a user's access lifecycle for compliance and troubleshooting.
 
 ### Key Design Principles
 
 - **GCCF-keyed external users**: The external user data model is keyed on the GCCF OIDC (`OID` and subject claim received from GCCF), with only one active record per user at any given time. `PortalUser` will be associated with a single `ExternalPortalUser` which represents the active entity.
 - **Email history tracking**: Email addresses are recorded in [ExternalUserInvitation](../Database/ExternalUserInvitation.md) for each invitation. When email changes occur, multiple invitations exist for the same user; the most recent email in [PortalUser](../Database/PortalUser.md) represents the current address.
-- **Activation history**: Since users can be activated and deactivated multiple times, the [UserActivationHistory](../Database/UserActivationHistory.md) table maintains an immutable audit trail of all state changes.
+- **GCCF OIDC history tracking**: GCCF OIDC used after an invitation are recorded in [ExternalUserInvitation](../Database/ExternalUserInvitation.md) for each invitation. When re-enrollment occurs, multiple invitations exist for the same user and track the changes; the most recent GCCF OIDC in [PortalUser](../Database/PortalUser.md) represents the current address.
+
+### Log Analytics Tracking
+
+The FSDH Portal emits telemetry to Application Insights and Log Analytics to provide detailed tracking across all pages, user activities, and exceptions. Each request and significant action includes correlation identifiers to enable end-to-end tracing across authentication flows and workspace operations. Exceptions are captured with stack traces and custom dimensions (for example: workspace, invitation token, and GCCF OIDC) to accelerate troubleshooting while minimizing sensitive data. For configuration details and query examples, see [AppInsights Auditing](../../AdminGuide/AppInsights-Auditing.md).
