@@ -160,7 +160,7 @@ The following matrix illustrates valid role assignments based on user type:
 
 | User Type | Internal Roles (1-6) | External Roles (7-9) |
 |-----------|---------------------|----------------------|
-| **Entra User** | ✅ Allowed | ❌ Not Allowed |
+| **Entra User** | ✅ Allowed | ✅ Not Allowed |
 | **External User** | ❌ Not Allowed | ✅ Allowed |
 
 **Enforcement**: The `IsExternalRole` property on `Project_Role` combined with the user type (EntraUser vs ExternalUser) ensures that:
