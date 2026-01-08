@@ -1,22 +1,27 @@
 ---
-title: FSDH Antivirus (ClamAV) — ACL‑gated Access
+title: FSDH Antivirus (ClamAV) — ACL‑gated Access for External Users
 description: Alternate workflow that uses ADLS Gen2 ACLs (Azure Storage v2 with hierarchical namespace enabled) to block user access to files until they are scanned clean.
 ---
 
-## FSDH AV Staging Workflow with ACLs
+## FSDH AV Staging Workflow with ACLs for External Users
 
 This page describes the antivirus workflow variant that relies on ADLS Gen2 ACLs (Azure Storage v2 with hierarchical namespace enabled) to gate access. Users can upload files, but cannot read or download them until a scan marks them Clean. No copy to a separate data container is required; access is enabled by updating ACLs on the uploaded blob within a single folder. Azure Container Apps listens for blob created/updated events and kicks off the scan automatically.
 
 ## Goals
 
 - Ensure all uploaded files are scanned before becoming accessible or downloadable.
+  - Files are uploaded and accessed via the storage explorer in the workspaces, web apps connected to storage accounts as well as in Databricks.
 - Gate read access using ACLs instead of copying files between containers.
 - Container Apps is triggered directly by new/updated blobs
+- While files are being scanned, they need to be inaccessible by databricks/web app mounted drives
 - Provide clear events for scan result and user notification.
 - Notify the user immediately for scan events
+- Disable external user account if scan finds a virus
+- Notify workspace lead if user disabled
 
 ## Assumptions
 
+- Unless specified, the term 'users' in this document refers to external non GoC users
 - A single ADLS Gen2 filesystem (container) is used
 - A folder called `external-uploads/<user name>` is used by the web portal to let external users upload files
 - Read access in `external-uploads/<user name>` is granted only after the scan returns Clean by updating the blob ACL to include a readers group with `r--`.
@@ -124,14 +129,16 @@ alt Virus found
   AV-->>AS: result: status=Infected
   AV-->>AV: Delete file
   AV-->>L: Log scan event (status=Infected)
+  AS-->>U: Notify user that the file was infected, they have lost access and to contact their workspace lead (portal/email)
+  AS-->>AS: Disable user account
 else Scan error
   AV-->>AS: result: status=Error, reason
-  AV-->>L: Log scan event (status=Error, reason)
-  AS--x U: Do not grant read ACL remains blocked
+  AV-->>AV: Delete file
+  AV-->>L: Log scan event (status=Error, reason)    
+  AS-->>U: Notify user that there was an error with the scan and to try again later (portal)
 end
 deactivate AV
 AS-->>L: Log access-blocked event (status)
-AS-->>U: Notify failure (portal/email)
 AS-->>WL: Notify failure (external activity logs + email)
 ```
 
