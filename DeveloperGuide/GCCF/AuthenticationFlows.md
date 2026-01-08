@@ -179,7 +179,7 @@ sequenceDiagram
 
 ### External User Onboarding Flow
 
-This diagram shows how an external user signs in for the first time using the invitation link and associates their email with the anonymous GCCF identity. It also accounts for the case where a disabled entry already exists in the ExternalUser table with the same GCCF user ID (e.g., from a previous deactivation or re-enrollment scenario).
+This diagram shows how an external user signs in for the first time using the invitation link and associates their email with the anonymous GCCF identity. It also accounts for the case where a disabled entry already exists in the ExternalUser table with the same GCCF OIDC (e.g., from a previous deactivation or re-enrollment scenario).
 
 ```mermaid
 sequenceDiagram
@@ -232,12 +232,12 @@ sequenceDiagram
     User->>FSDH: Enters invitation code and submits
     FSDH->>FSDH: Validate code format (length/pattern)
     alt Invitation code matches
-        FSDH->>FSDH: Check if ExternalUser entry exists with same GCCF user ID
-        alt ExternalUser entry exists with GCCF ID
+        FSDH->>FSDH: Check if ExternalUser entry exists with same GCCF OIDC
+        alt ExternalUser entry exists with GCCF OIDC
             FSDH->>FSDH: Grant workspace access via UserRoleLinks
             FSDH->>DB: Clear UserDeactivatedAt and DeactivatedByUserId in ExternalUser
             FSDH->>GCNotify: Send notification to all workspace owners the user is part of
-        else No existing entry with same GCCF ID
+        else No existing entry with same GCCF OIDC
             FSDH->>FSDH: Create new ExternalUser entry
         end    
         FSDH->>DB: Mark invitation as accepted
@@ -254,7 +254,7 @@ sequenceDiagram
 - Step 2: The portal shows the input field to enter the invitation code.
 - Step 3: The user enters the invitation code and submits.
 - Step 4: The portal validates the code format (length and pattern).
-- Steps 5-13 (Code matches): If the code matches, the portal checks if an ExternalUser entry exists with the same GCCF user ID. If it exists, workspace access is granted and deactivation fields are cleared (Steps 6-8). The invitation is then marked as accepted, the GCCF OIDC is saved, the PortalUser email is updated, and workspace role is granted (Steps 9-12). A notification is sent to all workspace owners (Step 13).
+- Steps 5-13 (Code matches): If the code matches, the portal checks if an ExternalUser entry exists with the same GCCF OIDC. If it exists, workspace access is granted and deactivation fields are cleared (Steps 6-8). The invitation is then marked as accepted, the GCCF OIDC is saved, the PortalUser email is updated, and workspace role is granted (Steps 9-12). A notification is sent to all workspace owners (Step 13).
 - Step 14: The user sees a success message and either gets redirected into the workspace or sees their workspace list updated.
 - Error path: If the code does not match, the portal displays an error message asking the user to contact the workspace owner for a new invitation.
 
@@ -311,7 +311,7 @@ sequenceDiagram
 - Step 4: The [ExternalUser](../Database/ExternalUser.md) status is set to Inactive (GCCF subject is retained, DeactivatedAt and DeactivatedByUserId are populated).
 - Step 5: A notification is sent to all workspace owners the user is part of.
 - Step 6: The workspace owner selects the existing user and initiates re-invite.
-- Step 7: A new user account is created with a new GCCF ID.
+- Step 7: A new user account is created with a new GCCF OIDC.
 - Step 8: The workspace owner requests a new invitation.
 - Step 9: The system sends a new invitation email to the user's email address via GC Notify.
 
@@ -340,7 +340,7 @@ sequenceDiagram
     FSDH->>DB: Set UserDeactivatedAt and DeactivatedByUserId in ExternalUser
     FSDH->>GCNotify: Send notification to all workspace owners the user is part of
     Owner->>FSDH: Select existing user - Re-invite
-    FSDH->>DB: New user account is created with new GCCF ID
+    FSDH->>DB: New user account is created with new GCCF OIDC
     Owner->>FSDH: Request new invitation
     FSDH->>GCNotify: Sends new invitation to user's email
 
@@ -352,7 +352,7 @@ sequenceDiagram
 - Step 4: The [ExternalUser](../Database/ExternalUser.md) status is set to Inactive (GCCF subject retained for audit).
 - Step 5: A notification is sent to all workspace owners the user is part of.
 - Step 6: The workspace owner selects the existing user and initiates re-invite.
-- Step 7: A new user account is created with a new GCCF ID.
+- Step 7: A new user account is created with a new GCCF OIDC.
 - Step 8: The workspace owner requests a new invitation.
 - Step 9: The system sends a new invitation email to the user's email address via GC Notify.
 
@@ -451,6 +451,6 @@ The external user management system relies on several key database tables. For c
 
 ### Key Design Principles
 
-- **GCCF-keyed external users**: The external user data model is keyed on the GCCF ID (`OID`), with only one active record per user at any given time. `PortalUser` will be associated with a single `ExternalPortalUser` which represents the active entity.
+- **GCCF-keyed external users**: The external user data model is keyed on the GCCF OIDC (`OID` and subject claim received from GCCF), with only one active record per user at any given time. `PortalUser` will be associated with a single `ExternalPortalUser` which represents the active entity.
 - **Email history tracking**: Email addresses are recorded in [ExternalUserInvitation](../Database/ExternalUserInvitation.md) for each invitation. When email changes occur, multiple invitations exist for the same user; the most recent email in [PortalUser](../Database/PortalUser.md) represents the current address.
 - **Activation history**: Since users can be activated and deactivated multiple times, the [UserActivationHistory](../Database/UserActivationHistory.md) table maintains an immutable audit trail of all state changes.
