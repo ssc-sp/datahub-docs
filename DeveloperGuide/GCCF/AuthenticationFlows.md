@@ -42,6 +42,8 @@ sequenceDiagram
 
 ### Azure Entra Authentication Flow
 
+- Note: Add something something
+
 This diagram shows the direct authentication flow for guest users via Azure Entra.
 
 ```mermaid
