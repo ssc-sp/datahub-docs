@@ -6,16 +6,16 @@ This diagram illustrates the file upload and scanning flow between Core and Clie
 sequenceDiagram
     participant Portal as FSDH Web Portal
     participant ScanStorage as Shared<br/> Storage Account Container
+    participant EventGrid as Shared Storage Account Event Grid
+    participant Queue as Shared<br/>Storage Account Queue
     participant ClientTable as Workspace<br/> Storage Account Table
     participant WorkspaceStorage as Workspace<br/>Storage Account Container
-    participant EventGrid as Event Grid
-    participant Queue as Shared<br/>Storage Account Queue
     participant ClamAV as ClamAV App
     participant ScanFunc as Scan Service<br/>Azure Function
     participant Database as FSDH Database
 
     Note over Portal: Core Web Environment
-    Note over ScanStorage,Queue: Client Environment
+    Note over ScanStorage,WorkspaceStorage: Client Environment
     Note over ClamAV,Database: Core Environment
     
     Portal->>ScanStorage: Upload file to client environment
