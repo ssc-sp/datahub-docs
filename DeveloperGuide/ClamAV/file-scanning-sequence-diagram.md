@@ -6,7 +6,7 @@ This diagram illustrates the file upload and scanning flow between Core and Clie
 sequenceDiagram
     participant Portal as FSDH Web Portal
     participant ScanStorage as Shared<br/> Storage Account Container
-    participant EventGrid as Shared Storage Account Event Grid
+    participant EventGrid as Shared<br/>Storage Account Event Grid
     participant Queue as Shared<br/>Storage Account Queue
     participant ClientTable as Workspace<br/> Storage Account Table
     participant WorkspaceStorage as Workspace<br/>Storage Account Container
