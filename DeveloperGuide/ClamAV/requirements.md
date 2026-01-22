@@ -1,8 +1,11 @@
-# ClamAV Integration for External User Access Control
+---
+title: FSDH Antivirus (ClamAV) — External User Access Control and File Scanning
+description: Technical requirements for the end-to-end ClamAV workflow within the FSDH portal, covering virus scanning of uploaded files, copying to data storage, and user notification.
+---
 
 ## FSDH ClamAV Staging Workflow 
 
-This document specifies the technical architecture and implementation requirements for the end-to-end ClamAV virus scanning workflow within the Federal Science DataHub (FSDH) portal, covering virus scanning of uploaded files, copying to data storage, and user notification. It defines the system goals, security constraints, required Azure resources, operational sequence, event-driven triggers, and blob metadata schema used across the malware detection pipeline. Throughout this document, "users" refers to external (non-GC) users authenticated to the FSDH portal, while Government of Canada personnel are referred to as "GC users". 
+This document specifies the technical architecture and implementation requirements for the virus scanning workflow within the Federal Science DataHub (FSDH). It defines the system goals, security constraints, required Azure resources, operational sequence, event-driven triggers, and blob metadata schema used across the malware detection pipeline. Throughout this document, "users" refers to external (non-GC) users authenticated to the FSDH portal, while Government of Canada personnel are referred to as "GC users".
 
 ## Assumptions
 
