@@ -40,27 +40,17 @@ The `ClamAV` containerized antivirus engine is pre-configured with up-to-date ma
 
 ## New Resources Required
 
-### Workspace External Storage Account Container
-
-A dedicated Azure Blob Storage container for external uploads is required to isolate external user files from internal workspace data containers and enforce security boundaries.
-
 ### Workspace Storage Account Table
 
 An Azure Table Storage instance within the workspace storage account is required to maintain file upload metadata and track scan status lifecycle (`unscanned` → `scanning` → `ok`/`infected`/`error`).
 
-### Triaging Storage Account
+### Triaging Storage Account Container
 
-To prevent direct uploads into workspace folders that could potentially compromise existing data, a dedicated triage storage container is required for initial file ingestion. Files undergo a quarantine-scan-promote workflow: uploaded to the staging container, scanned by `ClamAV`, and only promoted to the destination external-user folder after successful malware scanning. Three architectural options are available:
+A dedicated container will be created in the workspace storage account to hold files uploaded by users for scanning. The storage account must be configured with Azure Event Grid integration to emit Storage Queue messages whenever there are blob metadata changes for scanned files.
 
-1. **Per-workspace container** — A dedicated blob container within each workspace storage account monitored by `ClamAV` via blob triggers. This approach maintains resource isolation within individual resource groups but requires dynamic container provisioning and `ClamAV` configuration updates on workspace creation/deletion events.
+### External Uploads Storage Account Container
 
-2. **Subscription-level storage account** — A centralized shared storage account in a dedicated resource group at the subscription scope. All workspaces upload to the same triage container with blob metadata specifying the target resource group and destination container. Post-scan, files are copied to their destination containers based on metadata routing.
-
-3. **Dedicated subscription for shared storage** — A separate Azure subscription exclusively for hosting the shared triage storage account serving all other subscriptions. While this requires only a single shared account, cross-subscription blob copy operations violate the solution's security requirements and network isolation policies.
-
-The flow diagram below is based on the **Subscription-level storage account** architecture.
-
-The storage account must be configured with Azure Event Grid integration to emit Storage Queue messages triggered by blob metadata change events from scanned files.
+A separate container will be provisioned to store all successfully scanned files. These files will be accessible to external users via the application UI.
 
 ### Azure Function
 
@@ -71,23 +61,23 @@ A new Azure Function (queue-triggered) is required to process scan result messag
 
 ### Successful Scan
 
-- User uploads a file to the triage storage account via HTTPS PUT operation
+- User uploads a file to the triage container 
     - A new record is inserted into the workspace storage account table with status `"scanning"`
 - The `ClamAV` container is triggered by the blob creation event and initiates malware scanning
 - `ClamAV` updates the blob metadata property with `Result = "Ok"`
-- Azure Event Grid detects the metadata mutation and publishes an event to the storage queue
-- The Azure Function is invoked by the queue trigger and processes the message
-    - Performs a server-side blob copy to the target workspace container
+- Azure Event Grid detects the metadata mutation and publishes an event message to the service bus queue
+- The Azure Function is invoked by the service bus queue and processes the message
+    - Performs blob copy to the target workspace external-uploads container
     - Updates the workspace storage account table record with status `"ok"` 
 
 ### Virus Detected
 
-- User uploads a file to the triage storage account via HTTPS PUT operation
+- User uploads a file to the triage container
     - A new record is inserted into the workspace storage account table with status `"scanning"`
 - The `ClamAV` container is triggered by the blob creation event and initiates malware scanning
 - `ClamAV` detects malware and updates the blob metadata property with `Result = "Virus"`
-- Azure Event Grid detects the metadata mutation and publishes an event to the storage queue
-- The Azure Function is invoked by the queue trigger and processes the message
+- Azure Event Grid detects the metadata mutation and publishes an event message to the service bus queue
+- The Azure Function is invoked by the service bus queue and processes the message
     - Deletes the infected blob from the triage storage account
     - Sets user account lockout flag in the FSDH database
     - Dispatches automated email notifications to the affected user and workspace owner with remediation instructions
@@ -99,8 +89,8 @@ A new Azure Function (queue-triggered) is required to process scan result messag
     - A new record is inserted into the workspace storage account table with status `"scanning"`
 - The `ClamAV` container is triggered by the blob creation event and initiates malware scanning
 - `ClamAV` encounters a scan error (e.g., corrupted file, timeout, resource exhaustion) and updates the blob metadata property with `Result = "Error"`
-- Azure Event Grid detects the metadata mutation and publishes an event to the storage queue
-- The Azure Function is invoked by the queue trigger and processes the message
+- Azure Event Grid detects the metadata mutation and publishes an event message to the service bus queue
+- The Azure Function is invoked by the service bus queue and processes the message
     - Deletes the file from the triage storage account (fail-secure approach)
     - Updates the workspace storage account table record with status `"error"` 
  
@@ -112,44 +102,44 @@ This diagram illustrates the file upload and scanning flow between Core and Clie
 ```mermaid
 sequenceDiagram
     participant Portal as FSDH Web Portal
-    participant ScanStorage as Shared<br/> Storage Account Container
-    participant EventGrid as Shared<br/>Storage Account Event Grid
-    participant Queue as Shared<br/>Storage Account Queue
+    participant TriageStorage as Workspace<br/>Triage Container
+    participant EventGrid as Workspace<br/>Storage Account Event Grid
     participant ClientTable as Workspace<br/> Storage Account Table
     participant WorkspaceStorage as Workspace<br/>Storage Account Container
     participant ClamAV as ClamAV App
+    participant ServiceBus as Service Bus
     participant ScanFunc as Scan Service<br/>Azure Function
     participant Database as FSDH Database
 
     Note over Portal: Core Environment
-    Note over ScanStorage,WorkspaceStorage: Client Environment
+    Note over TriageStorage,WorkspaceStorage: Client Environment
     Note over ClamAV,Database: Core Environment
     
-    Portal->>ScanStorage: Upload file to client environment
+    Portal->>TriageStorage: Upload file to client environment
     Portal->>ClientTable: Add record (status: 'unscanned')
     
-    ScanStorage->>ScanStorage: File written to dedicated<br/>scanning storage account
+    TriageStorage->>TriageStorage: File written to workspace<br/>triage container
     
-    ScanStorage->>ClamAV: New file detected
+    TriageStorage->>ClamAV: New file detected
     ClamAV->>ClamAV: Scan file
-    ClamAV->>ScanStorage: Update blob metadata<br/>with scan result
+    ClamAV->>TriageStorage: Update blob metadata<br/>with scan result
     
-    ScanStorage->>EventGrid: Emit metadata update event
-    EventGrid->>Queue: Push event to queue
+    TriageStorage->>EventGrid: Emit metadata update event
+    EventGrid->>ServiceBus: Push event to service bus
     
-    Queue->>ScanFunc: Trigger function<br/>(queue trigger)
+    ServiceBus->>ScanFunc: Trigger function<br/>(service bus trigger)
     
     alt Scan result: Clean
         ScanFunc->>WorkspaceStorage: Copy blob to workspace storage
         WorkspaceStorage-->>ScanFunc: Copy successful
-        ScanFunc->>ScanStorage: Delete blob from scanning storage
+        ScanFunc->>TriageStorage: Delete blob from triage container
         ScanFunc->>ClientTable: Update status to 'ok'
     else Scan result: Infected
-        ScanFunc->>ScanStorage: Delete blob from scanning storage
+        ScanFunc->>TriageStorage: Delete blob from triage container
         ScanFunc->>ClientTable: Update status to 'infected'
         ScanFunc->>Database: Set external user status to 'locked out'
     else Scan result: Error
-        ScanFunc->>ScanStorage: Delete blob from scanning storage
+        ScanFunc->>TriageStorage: Delete blob from triage container
         ScanFunc->>ClientTable: Update status to 'error'
     end
 ```

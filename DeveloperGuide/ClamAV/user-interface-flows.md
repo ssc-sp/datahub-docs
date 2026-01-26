@@ -2,7 +2,7 @@
 
 ## Overview
 
-This document outlines the user interface changes and flows introduced to support ClamAV virus scanning for files uploaded by external users into workspace storage accounts. The integration of virus scanning capabilities has necessitated several UI modifications to ensure users receive appropriate feedback during the upload process and understand the status of their files. Throughout this document, "users" refers to external (non-GC) users authenticated to the FSDH portal, while Government of Canada personnel are referred to as "GC users".
+This document outlines the user interface changes and flows introduced to support ClamAV virus scanning for files uploaded by external users into workspace storage accounts. The integration of virus scanning capabilities has necessitated several UI modifications to ensure users receive appropriate feedback during the upload process and understand the status of their files. Throughout this document, "users" refers to external (non-GC) users authenticated to the FSDH portal, while Government of Canada personnel are referred to as "GoC users".
 
 ## Purpose
 
@@ -20,7 +20,7 @@ The primary goals of these UI changes are to:
 
 ### Workspace Storage Account
 
-Currently, the page displays a dropdown at the top with a list of storage accounts and then containers. For GC users, this logic will be moved into a Windows Explorer-style model instead of a dropdown navigation. When external users access the page, they will only see their designated folder, preventing them from viewing other workspace contents. If GC users want to share data with external users, they can do so via the external-user folder. In the image at the top of the page, the current container selection needs to be represented as a higher level in the folder hierarchy shown. Additionally, external users will not be able to see the AZCopy, Databricks Access, or DataHub Uploader tabs, limiting them to the File Explorer interface only.
+Currently, the page displays a dropdown at the top with a list of storage accounts and then containers. For GoC users, this logic will be moved into a Windows Explorer-style model instead of a dropdown navigation. When external users access the page, they will only see their designated folder, preventing them from viewing other workspace contents. If GoC users want to share data with external users, they can do so via the external-user folder. In the image at the top of the page, the current container selection needs to be represented as a higher level in the folder hierarchy shown. Additionally, external users will not be able to see the AZCopy, Databricks Access, or DataHub Uploader tabs, limiting them to the File Explorer interface only.
 
 ### Implementation Breakdown
 
