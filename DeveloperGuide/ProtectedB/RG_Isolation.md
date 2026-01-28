@@ -34,7 +34,7 @@ The RG is the unit of ownership and control, and subscription-level governance i
 
 ## Azure Policies
 
-[Azure Policy](https://learn.microsoft.com/en-us/azure/governance/policy/overview) is a **governance control** that helps enforce and continuously assess configuration rules across Azure resources. In an RG-as-workspace-boundary model, Azure Policy is one of the primary mechanisms that makes RG isolation credible, because it reduces configuration drift and prevents high-risk deployments.
+[Azure Policy](https://learn.microsoft.com/en-us/azure/governance/policy/overview) is a **governance control** that helps enforce and continuously assess configuration rules across Azure resources. In an RG-as-workspace-boundary model, Azure Policy is one of the primary mechanisms that makes RG isolation possible, because it reduces configuration drift and prevents high-risk deployments.
 
 Quick overview:
 
@@ -47,7 +47,6 @@ Quick overview:
 How this supports workspace isolation:
 
 - **Platform baseline (subscription-level)**: Enforces common guardrails consistently (e.g., allowed regions, required tags, disallow public exposure patterns) so one workspace cannot weaken enterprise requirements.
-- **Workspace-specific guardrails (RG-level)**: Tightens controls for a given workspace (e.g., stricter allowed SKUs, additional deny rules, workload-specific diagnostics).
 - **Evidence for audits**: Compliance reports, assignment history, and exemption records provide concrete evidence that required controls are enforced and monitored.
 
 ## Mitigations for RG isolation
