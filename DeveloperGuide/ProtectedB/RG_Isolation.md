@@ -24,13 +24,30 @@ In this context (workspace boundary = **Resource Group**), the following isolati
 
 The RG is the unit of ownership and control, and subscription-level governance is designed to control the boundary.
 
-- **Policy guardrails**: Azure Policy assignments that prevent prohibited configurations (public endpoints, weak TLS, non-approved regions/SKUs), with clear inheritance and exception handling.
+- **Policy guardrails**: Azure Policy assignments prevent prohibited configurations (public endpoints, weak TLS, non-approved regions/SKUs).
 - **Least-privilege RBAC**: Role assignments scoped to RG (or below), minimal subscription-level role grants, and separation of duties for admin vs deploy vs read-only.
 - **Privileged access management**: Use PIM/JIT for elevated roles; keep standing access small and reviewed.
 - **Network isolation patterns**: Separate VNets/subnets per workload where appropriate, private endpoints, and controlled egress; avoid “flat” shared networks that couple unrelated workloads.
 - **Centralized logging and monitoring**: Activity logs + resource logs routed to a controlled, tamper-resistant central workspace with alerting and retention.
 - **Standardized change control**: Infrastructure-as-code and CI/CD with approvals; prevent ad-hoc portal changes where possible.
 - **Operational ownership clarity**: Tags/metadata, budgets, and runbooks aligned to RG boundaries.
+
+## Azure Policies
+
+Azure Policy is a **governance control** that helps enforce and continuously assess configuration rules across Azure resources. In an RG-as-workspace-boundary model, Azure Policy is one of the primary mechanisms that makes RG isolation credible, because it reduces configuration drift and prevents high-risk deployments.
+
+Quick overview:
+
+- **What it is**: Policy definitions (rules) grouped into **initiatives** (policy sets) and applied via **assignments**.
+- **Where it applies**: Policy assignments can target **management groups**, **subscriptions**, **resource groups**, or **individual resources**. Policies assigned at higher scope are inherited by lower scopes.
+- **What it does**: Depending on the effect, policies can **deny** non-compliant deployments, **audit**/report compliance, **append/modify** settings, or **deployIfNotExists** required configurations.
+- **How exceptions work**: Use **policy exemptions** with clear justification, owner, and expiry/renewal process.
+
+How this supports workspace isolation:
+
+- **Platform baseline (subscription-level)**: Enforces common guardrails consistently (e.g., allowed regions, required tags, disallow public exposure patterns) so one workspace cannot weaken enterprise requirements.
+- **Workspace-specific guardrails (RG-level)**: Tightens controls for a given workspace (e.g., stricter allowed SKUs, additional deny rules, workload-specific diagnostics).
+- **Evidence for audits**: Compliance reports, assignment history, and exemption records provide concrete evidence that required controls are enforced and monitored.
 
 ## Mitigations for RG isolation
 
