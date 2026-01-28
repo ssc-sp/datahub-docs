@@ -14,8 +14,8 @@ Subscriptions are used as **platform-level boundary** for separating environment
 In this context (workspace boundary = **Resource Group**), the following isolation principles need to be applied:
 
 - **Defined system boundary**: what is “in scope” for the workspace (RG resources and any explicit shared services/dependencies).
-- **Least privilege and separation of duties**: access is scoped to the RG where possible; privileged subscription-wide access is minimized, controlled, and reviewed.
-- **Controlled change**: changes to in-scope resources are authorized, reviewed, and traceable (prefer IaC and approved pipelines).
+- **Least privilege and separation of duties**: access is scoped to the RG where possible; privileged subscription-wide access is minimized, controlled, and reviewed (see [Azure RBAC overview](https://learn.microsoft.com/en-us/azure/role-based-access-control/overview)).
+- **Controlled change**: changes to in-scope resources are authorized, reviewed, and traceable.
 - **Monitoring and auditability**: activity and security-relevant telemetry is collected, retained, and reviewed so that cross-workspace impact can be detected.
 - **Incident containment**: responders can isolate/contain issues within the workspace boundary, and escalation paths exist for shared/platform components.
 - **Risk-based zoning (ITSG-33 emphasis)**: if multiple security zones/classifications exist, the platform must prevent lower-trust workloads from impacting higher-trust workloads (typically a subscription/platform concern rather than per-workspace).
@@ -34,11 +34,12 @@ The RG is the unit of ownership and control, and subscription-level governance i
 
 ## Azure Policies
 
-Azure Policy is a **governance control** that helps enforce and continuously assess configuration rules across Azure resources. In an RG-as-workspace-boundary model, Azure Policy is one of the primary mechanisms that makes RG isolation credible, because it reduces configuration drift and prevents high-risk deployments.
+[Azure Policy](https://learn.microsoft.com/en-us/azure/governance/policy/overview) is a **governance control** that helps enforce and continuously assess configuration rules across Azure resources. In an RG-as-workspace-boundary model, Azure Policy is one of the primary mechanisms that makes RG isolation credible, because it reduces configuration drift and prevents high-risk deployments.
 
 Quick overview:
 
 - **What it is**: Policy definitions (rules) grouped into **initiatives** (policy sets) and applied via **assignments**.
+- **Key objects**: Definitions, initiatives, assignments, and exemptions are described in [Azure Policy definition structure](https://learn.microsoft.com/en-us/azure/governance/policy/concepts/definition-structure).
 - **Where it applies**: Policy assignments can target **management groups**, **subscriptions**, **resource groups**, or **individual resources**. Policies assigned at higher scope are inherited by lower scopes.
 - **What it does**: Depending on the effect, policies can **deny** non-compliant deployments, **audit**/report compliance, **append/modify** settings, or **deployIfNotExists** required configurations.
 - **How exceptions work**: Use **policy exemptions** with clear justification, owner, and expiry/renewal process.
@@ -64,16 +65,15 @@ The mitigations below are set up to make the RG boundary defensible and to keep 
   - Resource locks for critical resources where appropriate.
 
 - **Policy and configuration governance**
-  - Manage Azure Policy as code, with controlled exemption workflows and regular review.
-  - Ensure subscription-level policy does not unintentionally weaken RG boundaries (or document and account for inheritance explicitly).
-  - Monitor policy compliance continuously.
+  - Cloud team responsibility
+    - Manage Azure Policy as code, with controlled exemption workflows and regular review.
+    - Ensure subscription-level policy does not unintentionally weaken RG boundaries (or document and account for inheritance explicitly).
+    - Monitor policy compliance continuously.
 
 - **Network isolation and shared service controls**
   - No “flat” shared networks across unrelated workloads; VNets/subnets segmented and egress controlled.
   - Only cloud team can modify shared network components (VNet, DNS, firewall, private endpoints) and cross-boundary dependencies are documented.
   - Private connectivity patterns are used (private endpoints, controlled peering).
-
-Subscription-level admin access and shared services are part of the design.
 
 Common risk drivers that can make RG-only isolation weaker:
 
@@ -85,3 +85,18 @@ Common risk drivers that can make RG-only isolation weaker:
   - **Mitigation:** shared dependencies are explicitly documented (contracts/ownership) and access is tightly controlled
 - Subscription-level quotas/limits that can be exhausted by one workload
   - **Mitigation:** quotas/limits are monitored and workloads are separated when one could impact others
+
+## References
+
+- [Azure Policy overview](https://learn.microsoft.com/en-us/azure/governance/policy/overview)
+- [Azure Policy assignments and scope](https://learn.microsoft.com/en-us/azure/governance/policy/concepts/scope)
+- [Azure Policy effects](https://learn.microsoft.com/en-us/azure/governance/policy/concepts/effects)
+- [Azure Policy exemptions](https://learn.microsoft.com/en-us/azure/governance/policy/concepts/exemption-structure)
+- [Azure RBAC overview](https://learn.microsoft.com/en-us/azure/role-based-access-control/overview)
+- [Microsoft Entra Privileged Identity Management (PIM)](https://learn.microsoft.com/en-us/entra/id-governance/privileged-identity-management/pim-configure)
+- [Azure Activity Log](https://learn.microsoft.com/en-us/azure/azure-monitor/essentials/activity-log)
+- [Azure Monitor diagnostic settings](https://learn.microsoft.com/en-us/azure/azure-monitor/essentials/diagnostic-settings)
+- [Microsoft incident response guidance](https://learn.microsoft.com/en-us/security/operations/incident-response)
+- [ITSG-33 (Government of Canada)](https://www.cyber.gc.ca/en/guidance/it-security-risk-management-lifecycle-approach-itsg-33)
+- [ISO/IEC 27001 overview (ISO)](https://www.iso.org/standard/27001)
+- [SOC suite of services (AICPA)](https://www.aicpa-cima.com/resources/landing/system-and-organization-controls-soc-suite-of-services)
