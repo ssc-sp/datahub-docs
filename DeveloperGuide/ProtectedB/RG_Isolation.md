@@ -1,5 +1,5 @@
 
-# Isolation (Resource Group vs Subscription)
+# Workspace Isolation in Protected B
 
 This page summarizes how common assurance frameworks (ISO 27001, SOC 2, and ITSG-33) typically treat **environment isolation** when implemented on Azure.
 
@@ -83,7 +83,7 @@ Common risk drivers that can make RG-only isolation weaker:
 - Shared operational dependencies without explicit contracts (central Key Vault, logging workspace, shared identities)
   - **Mitigation:** shared dependencies are explicitly documented (contracts/ownership) and access is tightly controlled
 - Subscription-level quotas/limits that can be exhausted by one workload
-  - **Mitigation:** quotas/limits are monitored and workloads are separated when one could impact others
+  - **Mitigation:** Not applicable in FSDH. Quotas and limits are configured on a workspace basis.
 
 ## References
 
