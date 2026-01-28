@@ -1,7 +1,7 @@
 
 # Isolation (Resource Group vs Subscription)
 
-This page summarizes how common assurance frameworks (ISO 27001, SOC 2, and ITSG-33) typically treat **environment isolation** when implemented on Azure, specifically comparing **Resource Group (RG)** isolation versus **Subscription** isolation.
+This page summarizes how common assurance frameworks (ISO 27001, SOC 2, and ITSG-33) typically treat **environment isolation** when implemented on Azure.
 
 ## FSDH workspace boundary
 
