@@ -65,8 +65,8 @@ The mitigations below are set up to make the RG boundary defensible and to keep 
 
 - **Policy and configuration governance**
   - Cloud team responsibility
+    - Set of policies at the subscription level
     - Manage Azure Policy as code, with controlled exemption workflows and regular review.
-    - Ensure subscription-level policy does not unintentionally weaken RG boundaries (or document and account for inheritance explicitly).
     - Monitor policy compliance continuously.
 
 - **Network isolation and shared service controls**
