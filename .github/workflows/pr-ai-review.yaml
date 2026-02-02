@@ -12,9 +12,18 @@ on:
     types: [created]
 
 jobs:
-  review:
+  scan:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      actions: read
     steps:
+    - name: Start Sysdig System Capture
+      uses: gccloudone-aurora-collab/falco-actions/start@4c04957eccbc877d14cf257c1e414f4907554ff4
+      with:
+        mode: analyze
+        sysdig-version: "sha256:c63ec30ce5db5b0d934343028031bba32b81cb7cb3f82e82d87b72c9b1694922"
+
       - name: Check required secrets
         run: |
           if [ -z "${{ secrets.LLM_API_KEY }}" ]; then
@@ -34,3 +43,21 @@ jobs:
             - Avoid deeply nested code (more than 3 levels)
             - Follow PEP8 for Python (or equivalent in other languages)
             - Ensure unit tests are present for all new functionality
+
+      - name: Stop Sysdig System Capture
+        uses: gccloudone-aurora-collab/falco-actions/stop@4c04957eccbc877d14cf257c1e414f4907554ff4
+        with:
+          mode: analyze
+
+  audit:
+    needs: start 
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      actions: read
+    steps:
+    - name: Analyze
+      uses: gccloudone-aurora-collab/falco-actions/analyze@4c04957eccbc877d14cf257c1e414f4907554ff4
+      with:
+        #falco-version: 'sha256:ba05dfb209cc1c2e912ce116d230b5f59c4542e7286f05b663c499066d5d6a42'
+        falco-version: 0.39.2
