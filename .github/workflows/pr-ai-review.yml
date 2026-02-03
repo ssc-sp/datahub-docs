@@ -63,4 +63,5 @@ jobs:
       uses: gccloudone-aurora-collab/falco-actions/analyze@54d299d4c40de1ad6bf680fefbbfed1bc5b8f057
       with:
         falco-version: 'sha256:ba05dfb209cc1c2e912ce116d230b5f59c4542e7286f05b663c499066d5d6a42'
+        custom-rule-file: '.github/falco/rules/custom_rules.yaml'
 
