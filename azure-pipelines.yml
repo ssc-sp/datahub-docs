@@ -32,6 +32,9 @@ steps:
       echo $(mySecretVal)
       # rm $fileList
 
+
+
+
 - task: AzureCLI@2
   displayName: 'Post-upload Validation of Blobs'
   inputs:
@@ -53,3 +56,4 @@ steps:
         exit 1
 
       fi
+
