@@ -7,6 +7,6 @@
 - [06 Datahub Functions](/InstallationGuide/06-Datahub-Functions.md)
 - [07 Resource Provisioner Functions](/InstallationGuide/07-Resource-Provisioner-Functions.md)
 - [08 Project Pipelines Setup](/InstallationGuide/08-Project-Pipelines-Setup.md)
-- [09 Seed Metadata](/InstallationGuide/09-Seed-Metadata.md)
+
 
 - [Setup Teams channel and Webhook for bug reports](/InstallationGuide/TeamsSetup/TeamsChannelSetup.md)
