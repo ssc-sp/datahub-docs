@@ -33,7 +33,7 @@ jobs:
           echo "Error: LLM_API_KEY secret is not configured"
           exit 1
         fi
-    - uses: gccloudone-aurora-collab/ai-pr-reviewer@c8604503f68ef36ac0fcfec558140a149ab1b225
+    - uses: gccloudone-aurora-collab/ai-pr-reviewer@v2.0.0
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
