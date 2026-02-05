@@ -33,19 +33,11 @@ jobs:
           echo "Error: LLM_API_KEY secret is not configured"
           exit 1
         fi
-    - uses: gccloudone-aurora-collab/ai-pr-reviewer@v2.0.1
+    - uses: gccloudone-aurora-collab/ai-pr-reviewer@main
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
-        LLM_MODEL: "gpt-5-nano"
-      with:
-        style_guide_rules: |
-          # Style Guide Rules
-          - Prefer descriptive variable and function names
-          - Write clear docstrings for all public functions
-          - Avoid deeply nested code (more than 3 levels)
-          - Follow PEP8 for Python (or equivalent in other languages)
-          - Ensure unit tests are present for all new functionality
+        LLM_MODEL: "gpt-5-mini"
 
     - name: Stop Sysdig System Capture
       uses: gccloudone-aurora-collab/falco-actions/stop@54d299d4c40de1ad6bf680fefbbfed1bc5b8f057
