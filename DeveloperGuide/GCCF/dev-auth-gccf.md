@@ -6,7 +6,7 @@ The goal is:
 - To log in locally without GCCF
 - While exercising the **same** authorization path as real GCCF users:
  - ASP.NET Core authentication
- - `RoleClaimTransformer`
+ - [`RoleClaimTransformer`](https://github.com/ssc-sp/datahub-portal/blob/develop/Portal/src/Datahub.Application/RoleManagement/RoleClaimTransformer.cs)
  - Workspace role resolution from the DB
 
 ## How to use dev auth locally
@@ -32,7 +32,7 @@ When enabled, all local requests authenticate as a fixed GCCF-like external user
 
 ## Configure `appsettings.json`
 
-In `Portal/src/Datahub.Portal/appsettings.json`, add a `GccfOidc:DevAuth` section:
+In [`Portal/src/Datahub.Portal/appsettings.json`](https://github.com/ssc-sp/datahub-portal/blob/develop/Portal/src/Datahub.Portal/appsettings.json), add a `GccfOidc:DevAuth` section:
 
 ```json
 {
@@ -55,7 +55,7 @@ In `Portal/src/Datahub.Portal/appsettings.json`, add a `GccfOidc:DevAuth` sectio
 
 ## How `DevAuthHandler` works
 
-File: `Portal/src/Datahub.Application/Authentication/DevAuthHandler.cs`
+File: [`Portal/src/Datahub.Application/Authentication/DevAuthHandler.cs`](https://github.com/ssc-sp/datahub-portal/blob/develop/Portal/src/Datahub.Application/Authentication/DevAuthHandler.cs)
 
 - Implemented as an ASP.NET Core authentication scheme `"DevAuth"`.
 - Reads `GccfOidc:DevAuth:UserEmail` and `UserName` from configuration.
@@ -71,7 +71,7 @@ This principal is then passed through `RoleClaimTransformer` like a normal GCCF 
 
 ### Server-side wiring (authentication)
 
-File: `Portal/src/Datahub.Portal/Services/Auth/ConfigureAuthenticationServices.cs`
+File: [`Portal/src/Datahub.Portal/Services/Auth/ConfigureAuthenticationServices.cs`](https://github.com/ssc-sp/datahub-portal/blob/develop/Portal/src/Datahub.Portal/Services/Auth/ConfigureAuthenticationServices.cs)
 
 Method: `ConfigureAuthenticationServices.AddAuthenticationServices`
 
@@ -97,7 +97,7 @@ services.AddAuthentication()
 
 ### Database bootstrap for the dev user
 
-File: `Portal/src/Datahub.Application/Authentication/DevAuthDBEntities.cs`
+File: [`Portal/src/Datahub.Application/Authentication/DevAuthDBEntities.cs`](https://github.com/ssc-sp/datahub-portal/blob/develop/Portal/src/Datahub.Application/Authentication/DevAuthDBEntities.cs)
 
 Method: `DevAuthDBEntities.EnsureDevUserAsync`
 
@@ -121,7 +121,7 @@ This ensures the dev GCCF user exists in the portal DB and has workspace roles t
 
 ### Startup wiring (Blazor & bootstrap)
 
-File: `Portal/src/Datahub.Portal/Startup.cs`
+File: [`Portal/src/Datahub.Portal/Startup.cs`](https://github.com/ssc-sp/datahub-portal/blob/develop/Portal/src/Datahub.Portal/Startup.cs)
 
 In `ConfigureServices`:
 
