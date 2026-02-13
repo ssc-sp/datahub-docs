@@ -6,10 +6,10 @@ This page documents how the Resource Provisioner Python function app applies use
 
 Roles in the workspace definition are mapped to Databricks groups:
 
-- Owner -> project_lead
-- Admin -> admins
-- User -> project_users
-- Guest -> project_users
+- `Owner` -> `project_lead`
+- `Admin` -> `admins`
+- `User` -> `project_users`
+- `Guest` -> `project_users`
 
 ## Behavior
 

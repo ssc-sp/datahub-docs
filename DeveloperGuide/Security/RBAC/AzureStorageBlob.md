@@ -4,11 +4,11 @@ This page documents how the Resource Provisioner Python function app assigns Azu
 
 ## Role mapping
 
-The function app assigns a role definition at the storage account scope based on Role:
+The function app assigns a role definition at the storage account scope based on requested `Role` in the queue:
 
-- Guest: READER role definition id acdd72a7-3385-48ef-bd42-f606fba81ae7
-- Owner, Admin, User: CONTRIBUTOR role definition id ba92f5b4-2d11-453d-a403-e96b0029c9fe
-- Removed: existing role assignment is removed
+- `Guest`: READER role definition id acdd72a7-3385-48ef-bd42-f606fba81ae7
+- `Owner`, `Admin`, `User`: CONTRIBUTOR role definition id ba92f5b4-2d11-453d-a403-e96b0029c9fe
+- `Removed`: existing role assignment is removed
 
 ## Target resource
 

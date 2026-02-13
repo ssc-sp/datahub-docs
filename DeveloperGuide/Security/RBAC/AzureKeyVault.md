@@ -4,11 +4,11 @@ This page documents how the Resource Provisioner Python function app applies acc
 
 ## Role mapping
 
-The function app applies access policies on the project key vault based on Role:
+The function app applies access policies on the project key vault based on requested `Role` in the queue:
 
-- Owner or Admin: secrets permissions list, get, delete, set
-- User or Guest: secrets permissions list, get
-- Removed: access policy is removed
+- `Owner` or `Admin`: secrets permissions list, get, delete, set
+- `User` or `Guest`: secrets permissions list, get
+- `Removed`: access policy is removed
 
 ## Target resource
 
