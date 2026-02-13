@@ -10,6 +10,8 @@ The function app applies access policies on the project key vault based on reque
 - `User` or `Guest`: secrets permissions list, get
 - `Removed`: access policy is removed
 
+**Important note:** `Guest` refers to GoC guest users. GCCF users cannot join the databricks workspace.
+
 ## Target resource
 
 The key vault name is derived from the workspace definition and environment name:

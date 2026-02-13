@@ -6,9 +6,11 @@ This page documents how the Resource Provisioner Python function app assigns Azu
 
 The function app assigns a role definition at the storage account scope based on requested `Role` in the queue:
 
-- `Guest`: READER role definition id acdd72a7-3385-48ef-bd42-f606fba81ae7
-- `Owner`, `Admin`, `User`: CONTRIBUTOR role definition id ba92f5b4-2d11-453d-a403-e96b0029c9fe
+- `Guest`: READER role
+- `Owner`, `Admin`, `User`: CONTRIBUTOR role
 - `Removed`: existing role assignment is removed
+
+**Important note:** `Guest` refers to GoC guest users. GCCF users cannot join the databricks workspace.
 
 ## Target resource
 
