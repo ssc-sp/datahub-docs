@@ -3,15 +3,8 @@ name: Pullrequest AI Review
 permissions: read-all
 
 on:
-  #pull_request_target:
-  #  types: [opened, synchronize]
-  pull_request_review_comment:
-    types: [created]
-
   pull_request: 
     types: [opened, synchronize, reopened, review_requested]
-  #issue_comment: 
-  #  types: [created]
 
 jobs:
   scan:
@@ -19,7 +12,7 @@ jobs:
     permissions:
       contents: read
       pull-requests: write
-      issues: write
+      
     steps:
     - name: Start Sysdig System Capture
       uses: gccloudone-aurora-collab/falco-actions/start@54d299d4c40de1ad6bf680fefbbfed1bc5b8f057
@@ -33,11 +26,25 @@ jobs:
           echo "Error: LLM_API_KEY secret is not configured"
           exit 1
         fi
-    - uses: gccloudone-aurora-collab/ai-pr-reviewer@main
+
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+
+    - uses: oven-sh/setup-bun@v2
+      with:
+        bun-version: latest
+
+    - name: Install shippie
+      run: bun i shippie
+
+    - name: Run shippie review
+      run: bun shippie review --platform=github
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
-        LLM_MODEL: "gpt-5-mini"
+        BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        GITHUB_SHA: ${{ github.sha }}
+        OPENAI_API_KEY: ${{ secrets.LLM_API_KEY }}
 
     - name: Stop Sysdig System Capture
       uses: gccloudone-aurora-collab/falco-actions/stop@54d299d4c40de1ad6bf680fefbbfed1bc5b8f057
