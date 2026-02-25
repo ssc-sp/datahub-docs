@@ -39,7 +39,7 @@ jobs:
       run: bun i shippie
 
     - name: Run shippie review
-      run: bun shippie review --platform=github
+      run: bun shippie review --platform=github --telemetry=false
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         BASE_SHA: ${{ github.event.pull_request.base.sha }}
