@@ -27,6 +27,7 @@ sequenceDiagram
     FSDH-->>FSDH: Logs in user and load profile using sub claim
     FSDH-->>FSDH: Check UserExpiryDate
     alt UserExpiryDate is in the future
+        FSDH-->>User: Display T&C page
         FSDH-->>User: Display FSDH landing and list of invited workspaces
     else UserExpiryDate is in the past
         FSDH-->>User: Display "Account expired" error page
