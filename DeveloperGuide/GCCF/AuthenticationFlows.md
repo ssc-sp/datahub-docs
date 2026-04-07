@@ -39,7 +39,7 @@ sequenceDiagram
 - Steps 4-5: The portal redirects the user to GCCF to handle authentication.
 - Steps 6-11: Standard OIDC workflow between GCCF and FSDH portal.
 - Step 12: Portal logs the user using the `sub` claim from GCCF.
-- Steps 13-15: The portal checks `UserExpiryDate`; if it is in the future or unset, the landing page is shown. If it is in the past, an "Account expired" message is shown with guidance to contact a workspace owner for renewal.
+- Steps 13-16: The portal checks `UserExpiryDate`; if it is in the future or unset, the T&C page is shown and once T&C is accepted, the landing page is shown. If it is in the past, an "Account expired" message is shown with guidance to contact a workspace owner for renewal.
 
 ### Azure Entra Authentication Flow
 
