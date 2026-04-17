@@ -1,4 +1,4 @@
-# Role-Based Access Control (RBAC) for Entra and External Users
+# Blazor Portal Role-Based Access Control (RBAC) for Entra and External Users
 
 ## Overview
 
@@ -61,39 +61,39 @@ graph LR
 
 ### Project_Role Class
 
-The [`Project_Role`](https://github.com/ssc-sp/datahub-portal/blob/develop/Portal/src/Datahub.Core/Model/Workspaces/Project_Role.cs) class is fundamental to DataHub's RBAC system, defining different permission levels and distinguishing between roles for internal (Entra) users and external users.
+The [`Project_Role`](https://github.com/ssc-sp/datahub-portal/blob/develop/Portal/src/Datahub.Core/Model/Workspaces/Project_Role.cs) class and associated table are fundamental to FSDH RBAC system, defining different permission levels and distinguishing between roles for internal (Entra) users and external users.
 
 #### Role Properties
 
-| Property | Type | Description |
-|----------|------|-------------|
-| `Id` | int | Unique identifier for the role |
-| `Name` | string | Display name of the role |
-| `Description` | string | Detailed description of the role's purpose and permissions |
-| `IsExternalRole` | bool | Indicates if this role can be assigned to external users (GCCF) |
+| Property         | Type   | Description                                                     |
+| ---------------- | ------ | --------------------------------------------------------------- |
+| `Id`             | int    | Unique identifier for the role                                  |
+| `Name`           | string | Display name of the role                                        |
+| `Description`    | string | Detailed description of the role's purpose and permissions      |
+| `IsExternalRole` | bool   | Indicates if this role can be assigned to external users (GCCF) |
 
 #### Internal User Roles (IsExternalRole = false)
 
 These roles are assigned to Entra users within the organization:
 
-| Role ID | Name | Description | Access Level |
-|---------|------|-------------|--------------|
-| 2 | Workspace Lead | Head of the workspace with business responsibility | Full administrative |
-| 3 | Admin | Management authority with direct supervision over cloud resourcing and users | Administrative |
-| 4 | Collaborator | Contributor to workspace objectives and deliverables | Read/Write |
-| 5 | Guest | View-only access to workspace contents | Read-only |
-| 6 | Disabled User | No privileges within the workspace | None |
+| Role ID | Name           | Description                                                                  | Access Level        |
+| ------- | -------------- | ---------------------------------------------------------------------------- | ------------------- |
+| 2       | Workspace Lead | Head of the workspace with business responsibility                           | Full administrative |
+| 3       | Admin          | Management authority with direct supervision over cloud resourcing and users | Administrative      |
+| 4       | Collaborator   | Contributor to workspace objectives and deliverables                         | Read/Write          |
+| 5       | Guest          | View-only access to workspace contents                                       | Read-only           |
+| 6       | Disabled User  | No privileges within the workspace                                           | None                |
 
 #### External User Roles (IsExternalRole = true)
 
 These roles are specifically designed for external users (vendors, partners, contractors) authenticated through GCCF:
 
-| Role ID | Name | Description | Access Scope |
-|---------|------|-------------|--------------|
-| 1 | Disabled | Revoke user's access to the workspace | None (removal marker for auditing) |
-| 7 | Web Application Access | Limited access to the web application interface only | Web UI only |
-| 8 | Storage | Limited access to storage upload and download | Storage resources only |
-| 9 | Web Application and Storage | Access to both web application interface and storage resources | Web UI + Storage |
+| Role ID | Name                        | Description                                                    | Access Scope                       |
+| ------- | --------------------------- | -------------------------------------------------------------- | ---------------------------------- |
+| 1       | Disabled                    | Revoke user's access to the workspace                          | None (removal marker for auditing) |
+| 7       | Web Application Access      | Limited access to the web application interface only           | Web UI only                        |
+| 8       | Storage                     | Limited access to storage upload and download                  | Storage resources only             |
+| 9       | Web Application and Storage | Access to both web application interface and storage resources | Web UI + Storage                   |
 
 #### Role-Based Access Differentiation
 
@@ -104,22 +104,22 @@ The `IsExternalRole` property enables the system to:
 3. **Permission Scoping**: Apply different permission sets based on user type and role
 4. **Audit Compliance**: Track which roles are assigned to external collaborators
 
-### UserRoleLinks Class
+### UserRoleLinks table
 
 The [`UserRoleLinks`](https://github.com/ssc-sp/datahub-portal/blob/develop/Portal/src/Datahub.Core/Model/Workspaces/UserRoleLinks.cs) class establishes the mapping between users, roles, and workspaces. It is the core entity for RBAC.
 
 #### Key Properties
 
-| Property | Type | Description |
-|----------|------|-------------|
-| `ProjectUser_ID` | int | Unique identifier for the workspace user record |
-| `PortalUserId` | int? | Reference to the user |
-| `RoleId` | int? | Reference to the assigned role |
-| `Project_ID` | int | Reference to the workspace (project) |
-| `ApprovedPortalUserId` | int? | Reference to the admin who approved this assignment |
-| `Approved_DT` | DateTime? | Timestamp of approval |
-| `IsDataSteward` | bool | Flag indicating if the user is a data steward for the workspace |
-| `ExternalUserNotes` | string? | Optional notes or comments about collaboration objectives with external user |
+| Property               | Type      | Description                                                                  |
+| ---------------------- | --------- | ---------------------------------------------------------------------------- |
+| `ProjectUser_ID`       | int       | Unique identifier for the workspace user record                              |
+| `PortalUserId`         | int?      | Reference to the user                                                        |
+| `RoleId`               | int?      | Reference to the assigned role                                               |
+| `Project_ID`           | int       | Reference to the workspace (project)                                         |
+| `ApprovedPortalUserId` | int?      | Reference to the admin who approved this assignment                          |
+| `Approved_DT`          | DateTime? | Timestamp of approval                                                        |
+| `IsDataSteward`        | bool      | Flag indicating if the user is a data steward for the workspace              |
+| `ExternalUserNotes`    | string?   | Optional notes or comments about collaboration objectives with external user |
 
 #### Navigation Properties
 
@@ -141,7 +141,7 @@ The [`UserRoleLinks`](https://github.com/ssc-sp/datahub-portal/blob/develop/Port
 
 ### External Users
 
-- **Authentication**: Handled by GCCF (Government Cloud Collaboration Framework)
+- **Authentication**: Handled by GCCF 
 - **Identification**: GCCF Object ID (OID) maintained in `ExternalUser.ExternalSubject`
 - **Available Roles**: Limited to external roles only (Web Application Access, Storage, Web Application and Storage)
 - **Role Restrictions**: Cannot be assigned internal administrative roles for security and compliance
@@ -158,10 +158,10 @@ The [`UserRoleLinks`](https://github.com/ssc-sp/datahub-portal/blob/develop/Port
 
 The following matrix illustrates valid role assignments based on user type:
 
-| User Type | Internal Roles (1-6) | External Roles (7-9) |
-|-----------|---------------------|----------------------|
-| **Entra User** | ✅ Allowed | ✅ Not Allowed |
-| **External User** | ❌ Not Allowed | ✅ Allowed |
+| User Type         | Internal Roles (1-6) | External Roles (7-9) |
+| ----------------- | -------------------- | -------------------- |
+| **Entra User**    | ✅ Allowed            | ✅ Not Allowed        |
+| **External User** | ❌ Not Allowed        | ✅ Allowed            |
 
 **Enforcement**: The `IsExternalRole` property on `Project_Role` combined with the user type (EntraUser vs ExternalUser) ensures that:
 
@@ -169,7 +169,7 @@ The following matrix illustrates valid role assignments based on user type:
 - Internal users maintain full flexibility with organizational roles
 - The system maintains clear separation of concerns between internal and external collaboration
 
-## UI Authorization with DatahubAuthView
+## Fine grained UI Authorization with DatahubAuthView
 
 The [`DatahubAuthView`](https://github.com/ssc-sp/datahub-portal/blob/develop/Portal/src/Datahub.Core/Components/AuthViews/DatahubAuthView.razor) component is the primary mechanism for enforcing RBAC in the DataHub web application UI. It wraps UI elements and conditionally renders content based on the user's role and permissions.
 
@@ -186,16 +186,16 @@ The [`DatahubAuthView`](https://github.com/ssc-sp/datahub-portal/blob/develop/Po
 
 The component defines several `AuthLevels` that map to the `Project_Role` hierarchy:
 
-| Auth Level | Description | Required Roles | Typical Use Case |
-|------------|-------------|---------------|------------------|
-| `Authenticated` | Any authenticated user | Default role | Public workspace content |
-| `Personal` | User's own content | User's unique ID | Personal settings, profile |
-| `WorkspaceGuest` | Read-only workspace access | Guest, Collaborator, Admin, Workspace Lead | View workspace resources |
-| `WorkspaceCollaborator` | Read/write workspace access | Collaborator, Admin, Workspace Lead | Edit workspace content |
-| `WorkspaceAdmin` | Administrative workspace access | Admin, Workspace Lead | Manage users, configure settings |
-| `WorkspaceLead` | Full workspace control | Workspace Lead only | Business decisions, budget |
-| `DatahubSupport` | System administrator | DataHub Admin role | System-wide operations |
-| `DatahubApprover` | Workspace approver | DataHub Approver role | Approve workspace creation |
+| Auth Level              | Description                     | Required Roles                             | Typical Use Case                 |
+| ----------------------- | ------------------------------- | ------------------------------------------ | -------------------------------- |
+| `Authenticated`         | Any authenticated user          | Default role                               | Public workspace content         |
+| `Personal`              | User's own content              | User's unique ID                           | Personal settings, profile       |
+| `WorkspaceGuest`        | Read-only workspace access      | Guest, Collaborator, Admin, Workspace Lead | View workspace resources         |
+| `WorkspaceCollaborator` | Read/write workspace access     | Collaborator, Admin, Workspace Lead        | Edit workspace content           |
+| `WorkspaceAdmin`        | Administrative workspace access | Admin, Workspace Lead                      | Manage users, configure settings |
+| `WorkspaceLead`         | Full workspace control          | Workspace Lead only                        | Business decisions, budget       |
+| `DatahubSupport`        | System administrator            | DataHub Admin role                         | System-wide operations           |
+| `DatahubApprover`       | Workspace approver              | DataHub Approver role                      | Approve workspace creation       |
 
 ### User Type Filtering
 
@@ -255,7 +255,7 @@ When enabled, users with the `DatahubSupport` role can access workspace-level co
 
 The component translates `Project_Role` IDs into claims-based roles using the `RoleConstants` class. This translation happens during the authentication process and creates role claims that are attached to the user's `ClaimsPrincipal`.
 
-#### Claims-Based Authorization Flow
+## Claims-Based Authorization Flow
 
 The role-to-claim translation follows this process:
 
@@ -279,7 +279,7 @@ sequenceDiagram
     UI-->>User: Show/Hide content
 ```
 
-#### RoleClaimTransformer Implementation
+### RoleClaimTransformer Implementation
 
 The [`RoleClaimTransformer`](https://github.com/ssc-sp/datahub-portal/blob/develop/Portal/src/Datahub.Application/RoleManagement/RoleClaimTransformer.cs) class is the core component responsible for mapping database role assignments to authentication claims. This class implements ASP.NET Core's `IClaimsTransformation` interface, which automatically runs during the authentication pipeline for every request.
 
@@ -294,7 +294,7 @@ The [`RoleClaimTransformer`](https://github.com/ssc-sp/datahub-portal/blob/devel
 
 This transformation happens transparently on every authenticated request, ensuring the user's `ClaimsPrincipal` always reflects their current role assignments from the database.
 
-#### Claim Format Construction
+### Claim Format Construction
 
 The claim format is constructed by combining three elements:
 
@@ -311,45 +311,26 @@ Claim = {ProjectAcronym} + {RoleSuffix}
 - Entra users receive: `trusted-entra-login` (from `RoleConstants.TRUSTED_ENTRA_LOGIN`)
 - External users receive: `external-login` (from `RoleConstants.EXTERNAL_LOGIN`)
 
-#### Internal User Roles
+### Internal User Roles
 
-| Project_Role ID | Role Name | Claim Suffix | Full Claim Format | RoleConstants Reference |
-|-----------------|-----------|--------------|-------------------|------------------------|
-| 2 | Workspace Lead | `-workspace-lead` | `{ProjectAcronym}-workspace-lead` | `WORKSPACE_LEAD_SUFFIX` |
-| 3 | Admin | `-admin` | `{ProjectAcronym}-admin` | `ADMIN_SUFFIX` |
-| 4 | Collaborator | `-collaborator` | `{ProjectAcronym}-collaborator` | `COLLABORATOR_SUFFIX` |
-| 5 | Guest | `-guest` | `{ProjectAcronym}-guest` | `GUEST_SUFFIX` |
+| Project_Role ID | Role Name      | Claim Suffix      | Full Claim Format                 | RoleConstants Reference |
+| --------------- | -------------- | ----------------- | --------------------------------- | ----------------------- |
+| 2               | Workspace Lead | `-workspace-lead` | `{ProjectAcronym}-workspace-lead` | `WORKSPACE_LEAD_SUFFIX` |
+| 3               | Admin          | `-admin`          | `{ProjectAcronym}-admin`          | `ADMIN_SUFFIX`          |
+| 4               | Collaborator   | `-collaborator`   | `{ProjectAcronym}-collaborator`   | `COLLABORATOR_SUFFIX`   |
+| 5               | Guest          | `-guest`          | `{ProjectAcronym}-guest`          | `GUEST_SUFFIX`          |
 
-#### External User Roles
+### External User Roles
 
-External roles are also translated into claims-based roles and are fully integrated into the `DatahubAuthView` authorization system:
+External roles are also translated into claims-based roles:
 
-| Project_Role ID | Role Name | Claim Suffix | Full Claim Format | RoleConstants Reference |
-|-----------------|-----------|--------------|-------------------|------------------------|
-| 7 | Web Application Access | `-webapp` | `{ProjectAcronym}-webapp` | `WEBAPP_SUFFIX` |
-| 8 | Storage | `-storage` | `{ProjectAcronym}-storage` | (Custom) |
-| 9 | Web Application and Storage | `-webapp-storage` | `{ProjectAcronym}-webapp-storage` | (Custom) |
+| Project_Role ID | Role Name                   | Claim Suffix      | Full Claim Format                 | RoleConstants Reference |
+| --------------- | --------------------------- | ----------------- | --------------------------------- | ----------------------- |
+| 7               | Web Application Access      | `-webapp`         | `{ProjectAcronym}-webapp`         | `WEBAPP_SUFFIX`         |
+| 8               | Storage                     | `-storage`        | `{ProjectAcronym}-storage`        | (Custom)                |
+| 9               | Web Application and Storage | `-webapp-storage` | `{ProjectAcronym}-webapp-storage` | (Custom)                |
 
 The component then passes this comma-separated list to ASP.NET Core's `AuthorizeView` component, which checks if the user's `ClaimsPrincipal` contains **any** of the specified role claims.
-
-### External User Authorization
-
-External users with their respective roles can use `DatahubAuthView` just like internal users. The component supports external roles through the same authorization levels:
-
-- **Web Application Access** (Role 7): Grants access to UI components within `DatahubAuthView` with workspace viewer permissions
-- **Storage** (Role 8): Provides access to storage-related UI components and operations
-- **Web Application and Storage** (Role 9): Combined access to both web application and storage features
-
-External users can be authorized using the same `AuthLevel` parameters, with the authorization system automatically resolving their external role claims.
-
-**Authorization Mapping**: External roles map to equivalent internal authorization levels based on their intended access scope, allowing seamless integration with the existing authorization hierarchy.
-
-### Guidelines
-
-1. **Use Specific Auth Levels**: Choose the most restrictive auth level needed for the UI element
-2. **Combine with User Type Filtering**: `AllowedUsers` to separate internal and external user experiences
-3. **Avoid Overusing Elevation**: `ElevatedWorkspaceAccessEnabled` for support/administrative scenarios
-4. **Handle NotAuthorized Gracefully**: Provide feedback when users don't have sufficient permissions
 
 ## Related Classes
 
