@@ -4,6 +4,40 @@ DataHub uses [YARP](https://microsoft.github.io/reverse-proxy/) (Yet Another Rev
 
 Instead of exposing each workspace app directly, the portal maps workspace-specific proxy paths (for example `/app/<acronym>/...`) to each workspace App Service host.
 
+## Request flow
+
+```mermaid
+sequenceDiagram
+    actor User
+    participant Portal as DataHub Portal<br/>(ASP.NET Core)
+    participant Auth as Authentication &<br/>Authorization Middleware
+    participant YARP as YARP Reverse Proxy<br/>(MapReverseProxy)
+    participant ACL as ContextRequestHeaderTransform<br/>(WorkspaceACLTransformFactory)
+    participant App as Workspace App Service<br/>(Azure App Service)
+
+    User->>Portal: GET /app/<acronym>/...
+
+    Portal->>Auth: UseAuthentication() / UseAuthorization()
+    alt User is not authenticated
+        Auth-->>User: 401 Unauthorized (redirect to login)
+    else User is authenticated
+        Auth->>YARP: Request passes WorkspaceAppPolicy<br/>(RequireAuthenticatedUser)
+    end
+
+    YARP->>ACL: Apply ACLTransformProvider transform<br/>(acronym = workspace)
+    ACL->>ACL: GetWorkspaceRole(acronym)<br/>from user role claims
+    alt No workspace role AND not DataHub admin
+        ACL-->>User: 403 Forbidden
+    else User has workspace role OR is DataHub admin
+        ACL->>YARP: Request allowed — continue forwarding
+    end
+
+    YARP->>YARP: Strip .AspNetCore cookies<br/>Add X-Forwarded-* headers<br/>Add dh-user: <identity name>
+    YARP->>App: Proxied request to workspace App Service
+    App-->>YARP: Response
+    YARP-->>User: Response (X-Frame-Options: SAMEORIGIN)
+```
+
 ## Quick architecture summary
 
 - Reverse proxy support is enabled from `ReverseProxy:Enabled` configuration.
