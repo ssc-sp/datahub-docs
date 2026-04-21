@@ -1,4 +1,4 @@
-# GCCF (Government of Canada Cloud Framework) Integration
+# GCCF (Government of Canada Credential Federation) Integration
 
 This section covers the integration of FSDH with GCCF as an external identity provider, including authentication flows, workspace isolation, and local development setup.
 
