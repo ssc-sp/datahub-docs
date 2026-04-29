@@ -16,11 +16,9 @@ The primary goals of these UI changes are to:
 - **Update FSDH admin portal**: FSDH admins should be able to review and log scan evidence, unlock users, and allow them back into the FSDH portal
 - **Disable AZCopy for External Users**: All features that allow for bulk uploads should be hidden from external users
 
-## UI Changes
+## UI Requirements
 
-### Workspace Storage Account
-
-Currently, the page displays a dropdown at the top with a list of storage accounts and then containers. For GoC users, this logic will be moved into a Windows Explorer-style model instead of a dropdown navigation. When external users access the page, they will only see their designated folder, preventing them from viewing other workspace contents. If GoC users want to share data with external users, they can do so via the external-user folder. In the image at the top of the page, the current container selection needs to be represented as a higher level in the folder hierarchy shown. Additionally, external users will not be able to see the AZCopy, Databricks Access, or DataHub Uploader tabs, limiting them to the File Explorer interface only.
+Currently, the page displays a dropdown at the top with a list of storage accounts and then containers. For GoC users, this logic will be moved into a Windows Explorer-style model instead of a dropdown navigation. When external users access the page, they will only see their designated folder, preventing them from viewing other workspace contents. If GoC users want to share data with external users, they can do so via the `shared` folder in `datahub`. In the image at the top of the page, the current container selection needs to be represented as a higher level in the folder hierarchy shown. Additionally, external users will not be able to see the AZCopy, Databricks Access, or DataHub Uploader tabs, limiting them to the File Explorer interface only.
 
 ### Implementation Breakdown
 
@@ -33,7 +31,7 @@ To ensure security and proper workflow for external users, several restrictions 
 - **Hide Container Selection**: The container dropdown menu at the top of the page will be hidden to prevent navigation outside authorized areas.
 - **Hide Advanced Tabs**: Tabs for AZCopy, Databricks Access, and Datahub Uploader will be removed from the view for external users.
 - **Restricted Container View**: The view of containers will be strictly limited for external users.
-- **Scan Results Column**: A new column displaying 'scan result' will be added to the file list view within the external-users container.
+- **Scan Results Column**: A new column displaying 'scan result' will be added to the file list view within `datahub/shared/<user name>`.
 
 #### 2. FSDH Admin View for Locked Out Users
 

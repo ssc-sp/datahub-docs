@@ -22,9 +22,9 @@ This page describes the antivirus workflow variant that relies on ADLS Gen2 ACLs
 ## Assumptions
 
 - Unless specified, the term 'users' in this document refers to external non GoC users
-- A single ADLS Gen2 filesystem (container) is used
-- A folder called `external-uploads/<user name>` is used by the web portal to let external users upload files
-- Read access in `external-uploads/<user name>` is granted only after the scan returns Clean by updating the blob ACL to include a readers group with `r--`.
+- A single ADLS Gen2 filesystem (container), `datahub-staging`, is used
+- A folder called `shared/<user name>` is used by the web portal to let external users upload files
+- Read access in `shared/<user name>` is granted only after the scan returns Clean by updating the blob ACL to include a readers group with `r--`.
 - Files are not accessible or downloadable until the scan is complete and status is Clean.
 - `Storage Service` features will be added to existing Function project in `Datahub.Functions`
 - A folder called `azcopy-data` is used to restrict the folders where the GoC users can upload and download data via `azcopy`
@@ -34,7 +34,7 @@ This page describes the antivirus workflow variant that relies on ADLS Gen2 ACLs
 
 This workflow prevents users from accessing unscanned files through ACL-based permissions:
 
-- Files uploaded to `external-uploads/` are created with **write-only** permissions—no immediate read access
+- Files uploaded to `shared/` are created with **write-only** permissions—no immediate read access
 - Users cannot download files until ClamAV scan completes with Clean status
 - Storage Service grants read (`r--`) permissions only after successful scan
 - Infected files are deleted; error files remain blocked (no read ACL granted)
@@ -46,8 +46,8 @@ The ADLS Gen2 filesystem is organized into two main folders with different secur
 
 ```mermaid
 graph TD
-    A[ADLS Gen2 Filesystem] --> B[external-uploads/]
-    B --> D[external-uploads/user_name]
+    A[ADLS Gen2 Filesystem: datahub-staging] --> B[shared/]
+    B --> D[shared/user_name]
     A --> C[azcopy-data/]
     
     D --> D1[User can use azcopy]
@@ -78,19 +78,19 @@ autonumber
 participant WL as Workspace Lead
 participant U as External User
 participant UC as FSDH Web Storage Explorer
-participant FS as ADLS Gen2 Filesystem (external-uploads/)
+participant FS as ADLS Gen2 Filesystem (datahub-staging/shared/)
 participant AV as ClamAV Scanner (Container App)
 participant AS as Storage Service (Function)
 participant L as Log Analytics / App Insights
 
 U-->>UC: Upload one or multiple files (HTTPS)
-UC-->>FS: Write blob to external-uploads/ (no read access) (HTTPS)
+UC-->>FS: Write blob to shared/ (no read access) (HTTPS)
 UC-->>WL: Notify upload (external activity logs)
 UC-->>U: Show "Scanning started" notification
 FS-->>AV: Trigger on blob created/updated
 activate AV
 AV-->>L: Log ScanQueued event (correlation, blobUrl)
-AV->>FS: Open blob from external-uploads/ for scanning
+AV->>FS: Open blob from shared/ for scanning
 AV-->>AV: Scan file with ClamAV
 AV-->>AS: Emit result: status=Clean, correlation
 AV-->>L: Log scan event (status, engine, timings)
@@ -111,18 +111,18 @@ autonumber
 participant WL as Workspace Lead
 participant U as External User
 participant UC as FSDH Web Storage Explorer
-participant FS as ADLS Gen2 Filesystem (external-uploads/)
+participant FS as ADLS Gen2 Filesystem (datahub-staging/shared/)
 participant AV as ClamAV Scanner (Container App trigger)
 participant AS as Storage Service (Function)
 participant L as Log Analytics / App Insights
 
 U->>UC: Upload one or multiple files
-UC-->>FS: Write blob to external-uploads/ (write-only)
+UC-->>FS: Write blob to shared/ (write-only)
 UC-->>WL: Notify upload (external activity logs)
 UC-->>U: Show "Scanning started" notification
 FS-->>AV: Trigger on blob created/updated
 activate AV
-AV->>FS: Open blob from external-uploads/ for scanning
+AV->>FS: Open blob from shared/ for scanning
 AV-->>L: Log ScanQueued event (correlation, blobUrl)
 AV-->>AV: Scan file with ClamAV
 alt Virus found
@@ -189,7 +189,7 @@ The following tables define a compact, canonical schema for storage-queue messag
 | engineVersion   | string                           | ClamAV engine/definitions version used.                                     |
 | scanStartedAt   | datetime                         | When scanning began.                                                        |
 | scanCompletedAt | datetime                         | When scanning finished.                                                     |
-| blobUrl         | string                           | Original blob URL under `external-uploads/`.                                |
+| blobUrl         | string                           | Original blob URL under `datahub-staging/shared/`.                          |
 
 ### Blob metadata
 
@@ -200,7 +200,7 @@ The following tables define a compact, canonical schema for storage-queue messag
 | dh:scanEngine      | ClamAV 1.3.0 (defs: 2025‑11‑03)      | Scanner and definitions version.                                     |
 | dh:scanStartedAt   | 2025-11-03T15:04:59Z                 | UTC timestamps for auditing.                                         |
 | dh:scanCompletedAt | 2025-11-03T15:05:01Z                 |                                                                      |
-| dh:sourceContainer | uploads                              | Name of the original container.                                      |
+| dh:sourceContainer | datahub-staging                      | Name of the original container.                                      |
 | dh:accessEnabledAt | 2025-11-03T15:05:01Z                 | Timestamp when read access was granted.                              |
 
 ## Observability: Log Analytics / Application Insights

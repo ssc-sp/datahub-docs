@@ -3,7 +3,7 @@ title: FSDH Antivirus (ClamAV) — External User Access Control and File Scannin
 description: Technical requirements for the end-to-end ClamAV workflow within the FSDH portal, covering virus scanning of uploaded files, copying to data storage, and user notification.
 ---
 
-## FSDH ClamAV Staging Workflow 
+## FSDH ClamAV Staging Workflow
 
 This document specifies the technical architecture and implementation requirements for the virus scanning workflow within the Federal Science DataHub (FSDH). It defines the system goals, security constraints, required Azure resources, operational sequence, event-driven triggers, and blob metadata schema used across the malware detection pipeline. Throughout this document, "users" refers to external (non-GC) users authenticated to the FSDH portal, while Government of Canada personnel are referred to as "GC users".
 
@@ -11,135 +11,78 @@ This document specifies the technical architecture and implementation requiremen
 
 The `ClamAV` containerized antivirus engine is pre-configured with up-to-date malware signatures and deployed within the infrastructure.
 
+- Dedicated upload storage containers are created during workspace deployment.
+  - Legacy workspaces will not allow for external uploads
+- Upload tools (for example, `azcopy`) target the upload container only
+- No tokens are issued for the data storage container; files appear there only after a clean scan and copy.
+- Files are not accessible or downloadable until the scan is complete and status is Clean.
+- Azure Container Apps listens for blob created/updated events and kicks off the scan automatically
+- `datahub-staging` (see [containers](https://github.com/ssc-sp/datahub-resource-modules/blob/sw/v6.2-databricks-uc/modules/azure-storage-blob/data.tf)) is created in TF during workspace provisioning
+
+
 ## Goals
 
 - **Enforce mandatory malware scanning** for all uploaded files prior to accessibility or download availability.
-    - Infected files must be immediately quarantined and deleted from the storage layer
-    - Files triggering scan errors must be treated as potentially malicious and deleted (fail-secure approach)
+  - Infected files must be immediately quarantined and deleted from the storage layer
+  - Files triggering scan errors must be treated as potentially malicious and deleted (fail-secure approach)
+  - Ensure all uploaded files are scanned before becoming accessible or downloadable.
 - Execute `ClamAV` within an isolated container runtime environment
 - **Implement automatic account lockout** for users uploading infected files
-    - Deliver automated email notifications to affected users and workspace owners with scan results and remediation procedures
-    - Expose lockout status via portal UI dashboard for workspace administrators
+  - Deliver automated email notifications to affected users and workspace owners with scan results and remediation procedures
+  - Expose lockout status via portal UI dashboard for workspace administrators
 - Provide DataHub administrators with a centralized lockout management interface
-    - Require upload of verified system scan evidence from the affected user before access reinstatement
-    - Enable administrative override capabilities for access restoration
+  - Require upload of verified system scan evidence from the affected user before access reinstatement
+  - Enable administrative override capabilities for access restoration
 - **Restrict AZCopy access** for external users
-    - Disable SAS token generation for external users while maintaining this capability for GC users
+  - Disable SAS token generation for external users while maintaining this capability for GC users
 - Update Terms & Conditions to explicitly communicate device security requirements and scanning policies to external users
 - Maintain comprehensive audit logs of all file upload events, scan results, and scanning activities for compliance and forensic analysis
 - **Implement defenses against AV evasion techniques**:
-    - Enforce decompression depth limits and maximum file size constraints to mitigate archive bomb (zip bomb) attacks
-    - Detect obfuscation techniques, polyglot files, and dual/misleading file extensions
-    - Ensure scanning engine supports deep content inspection within embedded objects (e.g., PDF attachments, OLE objects)
+  - Enforce decompression depth limits and maximum file size constraints to mitigate archive bomb (zip bomb) attacks
+  - Detect obfuscation techniques, polyglot files, and dual/misleading file extensions
+  - Ensure scanning engine supports deep content inspection within embedded objects (e.g., PDF attachments, OLE objects)
+  - Isolate upload from data storage using separate containers and event-driven triggers.
 - Establish documented procedures for investigating and resolving false positive detections
+- Provide clear events for downstream copy and user notification.
+- Notify the user immediately after upload that scanning is in progress.
 
 ## Restrictions
+
 - Implement strict MIME type validation to enforce allowlist-based file format restrictions
-- Enforce maximum file size limits 
+- Enforce maximum file size limits
 - Network segmentation policy: workspace-scoped resources cannot initiate direct connections to core infrastructure resources
 
-## New Resources Required
+## Notifications
 
-### Workspace Storage Account Table
+Throughout the ClamAV virus scan flow, different parts of the app send notifications to different actors depending on where users are in the process. This document outlines those communications.
 
-An Azure Table Storage instance within the workspace storage account is required to maintain file upload metadata and track scan status lifecycle (`unscanned` → `scanning` → `ok`/`infected`/`error`).
+### Successful scan notifications
 
-### Triaging Storage Account Container
+Send an email to the user confirming their file completed the virus scan successfully. No additional action is required by the user.
 
-A dedicated container will be created in the workspace storage account to hold files uploaded by users for scanning. The storage account must be configured with Azure Event Grid integration to emit Storage Queue messages whenever there are blob metadata changes for scanned files.
+### Scan error notifications
 
-### External Uploads Storage Account Container
+Notify the user that their file failed to scan and instruct them to try uploading again. If the error persists, the user should contact support through standard channels.
 
-A separate container will be provisioned to store all successfully scanned files. These files will be accessible to external users via the application UI.
+### Virus found notifications
 
-### Azure Function
+Email the user and workspace admin that the user has been locked out due to a virus found on an uploaded file. The user must run a clean scan of their machine and provide evidence to the workspace admin, who will then work on unlocking the user.
 
-A new Azure Function (queue-triggered) is required to process scan result messages. The function subscribes to the subscription-level triage storage account queues and processes incoming scan completion events. 
+### Workspace admin evidence upload notifications
+
+Notify the FSDH admin that the workspace admin has uploaded evidence of a clean scan so the user can be unlocked.
+
+### User reinstatement notifications
+
+Email the user and workspace admin that the user has been reinstated after the account is unlocked.
+
+## UI Requirements
+
+Currently, the page displays a dropdown at the top with a list of storage accounts and then containers. 
+
+- For GoC users, this logic will be moved into a Windows Explorer-style model instead of a dropdown navigation. 
+- When external users access the page, they will only see their designated folder, preventing them from viewing other workspace contents. 
+- If GoC users want to share data with external users, they can do so via the `shared` folder. In the image at the top of the page, the current container selection needs to be represented as a higher level in the folder hierarchy shown. Additionally, external users will not be able to see the AZCopy, Databricks Access, or DataHub Uploader tabs, limiting them to the File Explorer interface only.
 
 
-## Logical Flow
-
-### Successful Scan
-
-- User uploads a file to the triage container 
-    - A new record is inserted into the workspace storage account table with status `"scanning"`
-- The `ClamAV` container is triggered by the blob creation event and initiates malware scanning
-- `ClamAV` updates the blob metadata property with `Result = "Ok"`
-- Azure Event Grid detects the metadata mutation and publishes an event message to the service bus queue
-- The Azure Function is invoked by the service bus queue and processes the message
-    - Performs blob copy to the target workspace external-uploads container
-    - Updates the workspace storage account table record with status `"ok"` 
-
-### Virus Detected
-
-- User uploads a file to the triage container
-    - A new record is inserted into the workspace storage account table with status `"scanning"`
-- The `ClamAV` container is triggered by the blob creation event and initiates malware scanning
-- `ClamAV` detects malware and updates the blob metadata property with `Result = "Virus"`
-- Azure Event Grid detects the metadata mutation and publishes an event message to the service bus queue
-- The Azure Function is invoked by the service bus queue and processes the message
-    - Deletes the infected blob from the triage storage account
-    - Sets user account lockout flag in the FSDH database
-    - Dispatches automated email notifications to the affected user and workspace owner with remediation instructions
-    - Updates the workspace storage account table record with status `"infected"` 
-
-### ClamAV Scan Error
-
-- User uploads a file to the triage storage account via HTTPS PUT operation
-    - A new record is inserted into the workspace storage account table with status `"scanning"`
-- The `ClamAV` container is triggered by the blob creation event and initiates malware scanning
-- `ClamAV` encounters a scan error (e.g., corrupted file, timeout, resource exhaustion) and updates the blob metadata property with `Result = "Error"`
-- Azure Event Grid detects the metadata mutation and publishes an event message to the service bus queue
-- The Azure Function is invoked by the service bus queue and processes the message
-    - Deletes the file from the triage storage account (fail-secure approach)
-    - Updates the workspace storage account table record with status `"error"` 
- 
-
-# File Scanning Sequence Diagram
-
-This diagram illustrates the file upload and scanning flow between Core and Client environments.
-
-```mermaid
-sequenceDiagram
-    participant Portal as FSDH Web Portal
-    participant TriageStorage as Workspace<br/>Triage Container
-    participant EventGrid as Workspace<br/>Storage Account Event Grid
-    participant ClientTable as Workspace<br/> Storage Account Table
-    participant WorkspaceStorage as Workspace<br/>Storage Account Container
-    participant ClamAV as ClamAV App
-    participant ServiceBus as Service Bus
-    participant ScanFunc as Scan Service<br/>Azure Function
-    participant Database as FSDH Database
-
-    Note over Portal: Core Environment
-    Note over TriageStorage,WorkspaceStorage: Client Environment
-    Note over ClamAV,Database: Core Environment
-    
-    Portal->>TriageStorage: Upload file to client environment
-    Portal->>ClientTable: Add record (status: 'unscanned')
-    
-    TriageStorage->>TriageStorage: File written to workspace<br/>triage container
-    
-    TriageStorage->>ClamAV: New file detected
-    ClamAV->>ClamAV: Scan file
-    ClamAV->>TriageStorage: Update blob metadata<br/>with scan result
-    
-    TriageStorage->>EventGrid: Emit metadata update event
-    EventGrid->>ServiceBus: Push event to service bus
-    
-    ServiceBus->>ScanFunc: Trigger function<br/>(service bus trigger)
-    
-    alt Scan result: Clean
-        ScanFunc->>WorkspaceStorage: Copy blob to workspace storage
-        WorkspaceStorage-->>ScanFunc: Copy successful
-        ScanFunc->>TriageStorage: Delete blob from triage container
-        ScanFunc->>ClientTable: Update status to 'ok'
-    else Scan result: Infected
-        ScanFunc->>TriageStorage: Delete blob from triage container
-        ScanFunc->>ClientTable: Update status to 'infected'
-        ScanFunc->>Database: Set external user status to 'locked out'
-    else Scan result: Error
-        ScanFunc->>TriageStorage: Delete blob from triage container
-        ScanFunc->>ClientTable: Update status to 'error'
-    end
-```
+> This document was developed with the assistance of generative AI tools to support drafting, diagram generation and structuring activities. No Protected B or sensitive Government of Canada information was entered into these tools. All content has been reviewed, validated, and approved by the author to ensure accuracy, completeness, and compliance with Government of Canada security policies, standards, and applicable Treasury Board guidance.
