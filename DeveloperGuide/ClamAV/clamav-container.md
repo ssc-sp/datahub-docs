@@ -1,6 +1,6 @@
 ---
 title: FSDH Antivirus (ClamAV) Workflow
-description: End‑to‑end flow for virus scanning uploaded files with ClamAV in datahub-staging/shared and user notification.
+description: End‑to‑end flow for virus scanning uploaded files with ClamAV, then copying clean files from datahub-staging to datahub/shared with user notification.
 ---
 
 # FSDH AV Staging Workflow with Container
@@ -13,9 +13,12 @@ This page documents the virus scanning workflow for FSDH. It explains the actors
 
 Containers are described in Terraform in [data.tf](https://github.com/ssc-sp/datahub-resource-modules/blob/sw/v6.2-databricks-uc/modules/azure-storage-blob/data.tf)
 
-- `datahub-staging` is the container visible in storage explorer and used for external user uploads and sharing
+- `datahub-staging` is the upload staging container where files are scanned
+- `datahub` is the shared container used for external file exchange
 
 ## Folder structure
+
+This section is the naming reference for other documents in this folder.
 
 ### Pre-scanning
 
@@ -29,7 +32,7 @@ Containers are described in Terraform in [data.tf](https://github.com/ssc-sp/dat
 
 In `datahub`, the `shared` folder is used for files shared with external users.
 
-- `datahub-`
+- `datahub`
   - `shared`
     - `<user name>`
       - dataset1.csv
@@ -84,12 +87,12 @@ participant UP as FSDH Portal
 participant UC as datahub-staging container (Blob)
 participant AV as ClamAV Scanner (Container App trigger)
 participant CF as AV Function (scan_blob.py)
-participant DC as datahub-staging/shared folder (Blob)
+participant DC as datahub/shared folder (Blob)
 participant N as FSDH Portal
 participant L as Log Analytics / App Insights
 
 U->>UP: Upload one or multiple files
-UP-->>UC: Write blob to datahub-staging/shared/<user name>
+UP-->>UC: Write blob to datahub-staging/<user name>
 UP-->>U: Show "Scanning started" notification
 UP-->>L: Log ScanQueued event (correlation, sourceUrl)
 UC-->>AV: Trigger on blob created/updated
@@ -118,7 +121,7 @@ participant U as Uploader (Client)
 participant UC as datahub-staging container (Blob)
 participant AV as ClamAV Scanner (Container App trigger)
 participant CF as AV Function (scan_blob.py)
-participant DC as datahub-staging/shared folder (Blob)
+participant DC as datahub/shared folder (Blob)
 participant N as FSDH Portal
 participant L as Log Analytics / App Insights
 
@@ -147,6 +150,8 @@ N-->>L: Log notification result (failure)
 ## Notifications
 
 - Notifications will be processed through the FSDH portal to simplify ACLs on the storage account
+  - _Service bus is not accessible from the AV scanning function_
+  - _Connecting the service bus to the scanning function would require significant networking and permission changes_
 - The portal already has a service principal with read/write access to the workspace storage container
 - Required notifications are detailed in [requirements document](./requirements.md#notifications)
   

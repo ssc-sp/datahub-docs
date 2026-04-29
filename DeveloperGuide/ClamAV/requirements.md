@@ -17,7 +17,7 @@ The `ClamAV` containerized antivirus engine is pre-configured with up-to-date ma
 - No tokens are issued for the data storage container; files appear there only after a clean scan and copy.
 - Files are not accessible or downloadable until the scan is complete and status is Clean.
 - Azure Container Apps listens for blob created/updated events and kicks off the scan automatically
-- `datahub-staging` (see [containers](https://github.com/ssc-sp/datahub-resource-modules/blob/sw/v6.2-databricks-uc/modules/azure-storage-blob/data.tf)) is created in TF during workspace provisioning
+- `datahub-staging` (upload staging) and `datahub` (shared data exchange) containers are created in TF during workspace provisioning; external sharing uses `datahub/shared/<user name>`
 
 
 ## Goals
@@ -82,7 +82,32 @@ Currently, the page displays a dropdown at the top with a list of storage accoun
 
 - For GoC users, this logic will be moved into a Windows Explorer-style model instead of a dropdown navigation. 
 - When external users access the page, they will only see their designated folder, preventing them from viewing other workspace contents. 
-- If GoC users want to share data with external users, they can do so via the `shared` folder. In the image at the top of the page, the current container selection needs to be represented as a higher level in the folder hierarchy shown. Additionally, external users will not be able to see the AZCopy, Databricks Access, or DataHub Uploader tabs, limiting them to the File Explorer interface only.
+- If GoC users want to share data with external users, they can do so via `datahub/shared/<user name>`. In the image at the top of the page, the current container selection needs to be represented as a higher level in the folder hierarchy shown. Additionally, external users will not be able to see the AZCopy, Databricks Access, or DataHub Uploader tabs, limiting them to the File Explorer interface only. Naming should follow the [Folder structure](./clamav-container.md#folder-structure) section.
+
+### Limit Access for External Users in Storage Explorer
+
+To ensure security and proper workflow for external users, several restrictions will be applied to the Storage Explorer interface:
+
+- **Hide Container Selection**: The container dropdown menu at the top of the page will be hidden to prevent navigation outside authorized areas.
+- **Hide Advanced Tabs**: Tabs for AZCopy, Databricks Access, and Datahub Uploader will be removed from the view for external users.
+- **Restricted Container View**: The view of containers will be strictly limited for external users.
+- **Scan Results Column**: A new column displaying 'scan result' will be added to the file list view within `datahub/shared/<user name>`.
+
+### FSDH Admin View for Locked Out Users
+
+A new administrative interface will be created to allow FSDH admins to manage users who have been locked out:
+
+- **Locked User Dashboard**: A dedicated admin page featuring a table of all currently locked-out users.
+- **Unlock Capability**: Functionality for admins to verify submitted evidence and unlock user accounts.
+- **Notification System**: Automated notifications will be sent to both the user and the workspace admin once access has been re-granted.
+
+### Workspace Admin Management
+
+Workspace administrators will be empowered to assist in the resolution process:
+
+- **Management View**: A dedicated view will be provided for workspace admins to manage external users.
+- **Evidence Submission**: Admins will be able to submit evidence to facilitate the unlocking of locked-out users.
+
 
 
 > This document was developed with the assistance of generative AI tools to support drafting, diagram generation and structuring activities. No Protected B or sensitive Government of Canada information was entered into these tools. All content has been reviewed, validated, and approved by the author to ensure accuracy, completeness, and compliance with Government of Canada security policies, standards, and applicable Treasury Board guidance.
