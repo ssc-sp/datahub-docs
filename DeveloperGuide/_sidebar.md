@@ -41,6 +41,7 @@
 - Databricks
 
   - [Databricks Guest](/DeveloperGuide/Databricks/Databricks-Guest.md)
+  - [Databricks RBAC Role Mapping](/DeveloperGuide/Databricks/Databricks-RBAC-Role-Mapping.md)
 
 - Documentation
 
