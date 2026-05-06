@@ -23,8 +23,6 @@ Portal app settings (with environment fallbacks depending on hosting):
     - Used to create Graph users
     - Used to query billing API
 
-- Catalog ingest utility (Graph)
-  - `Portal/utils/CatalogIngestTool/Program.cs` — [`ClientSecretCredential` → `GraphServiceClient`](https://github.com/ssc-sp/datahub-portal/tree/develop/Portal/utils/CatalogIngestTool/Program.cs#L149-L184)
 
 ## Related
 

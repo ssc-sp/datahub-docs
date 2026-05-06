@@ -13,25 +13,25 @@ This document describes the optimal mapping of DataHub Portal RBAC roles (define
 
 Two distinct permission systems govern user access when Databricks is connected to the workspace storage:
 
-| Plane | What it controls | Governed by |
-| ----- | ---------------- | ----------- |
-| **Databricks workspace entitlements** | Sign in to the workspace UI, use notebooks, create clusters, access SQL warehouses | Databricks groups and ACLs (data plane) |
-| **Unity Catalog grants** | Read, write, create, and manage tables, schemas, and catalogs within the metastore | Unity Catalog `GRANT` statements scoped to the per-workspace catalog |
-| **Azure RBAC on storage** | Read/write blobs directly on the Azure Storage account resource | Azure role assignments on `fsdhproj<WorkspaceAcronym><Environment>` |
+| Plane                                 | What it controls                                                                   | Governed by                                                          |
+| ------------------------------------- | ---------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| **Databricks workspace entitlements** | Sign in to the workspace UI, use notebooks, create clusters, access SQL warehouses | Databricks groups and ACLs (data plane)                              |
+| **Unity Catalog grants**              | Read, write, create, and manage tables, schemas, and catalogs within the metastore | Unity Catalog `GRANT` statements scoped to the per-workspace catalog |
+| **Azure RBAC on storage**             | Read/write blobs directly on the Azure Storage account resource                    | Azure role assignments on `fsdhproj<WorkspaceAcronym><Environment>`  |
 
 > **Key distinction**: User access to Azure Storage from inside Databricks flows through the **Access Connector managed identity**, not through individual user Azure RBAC assignments. Individual user Azure RBAC on the storage account (assigned by the Resource Provisioner) governs access from outside Databricks (e.g., Azure Storage Explorer, AzCopy).
 
-## Databricks Group Structure
+## Databricks Unity Group Structure (Account Groups)
 
-Each workspace uses Databricks groups corresponding to Portal role levels. The Resource Provisioner creates and manages group membership when workspace roles change.
+Each workspace uses Databricks groups corresponding to Portal role levels. The following groups needs to be provisioned in the TF:
 
-| Databricks Group | Group Type | Maps from Portal Role(s) | Used In | Notes |
-| ---------------- | ---------- | ------------------------ | ------- | ----- |
-| `project_lead` | **Account group** | Workspace Lead (ID 2) | Workspace entitlements, Unity Catalog grants, External Location grants | Full workspace and data governance control |
-| `admins` | **Workspace-local system group** | Admin (ID 3) | Workspace administration and workspace entitlements | Built-in Databricks workspace admin group; not used as a Unity Catalog principal |
-| `project_admins` | **Account group** | Admin (ID 3) | Unity Catalog grants, External Location grants | Recommended account-level data principal for Admin users |
-| `project_users` | **Account group** | Collaborator (ID 4) | Workspace entitlements, Unity Catalog grants, External Location grants | Standard read/write data access |
-| *(removed)* | N/A | Disabled User (ID 6) | N/A | User is removed from all Databricks groups |
+| Databricks Group | Group Type                       | Maps from Portal Role(s) | Used In                                                                | Notes                                                                            |
+| ---------------- | -------------------------------- | ------------------------ | ---------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| `project_lead`   | **Account group**                | Workspace Lead (ID 2)    | Workspace entitlements, Unity Catalog grants, External Location grants | Full workspace and data governance control                                       |
+| `admins`         | **Workspace-local system group** | Admin (ID 3)             | Workspace administration and workspace entitlements                    | Built-in Databricks workspace admin group; not used as a Unity Catalog principal |
+| `project_admins` | **Account group**                | Admin (ID 3)             | Unity Catalog grants, External Location grants                         | Recommended account-level data principal for Admin users                         |
+| `project_users`  | **Account group**                | Collaborator (ID 4)      | Workspace entitlements, Unity Catalog grants, External Location grants | Standard read/write data access                                                  |
+| *(removed)*      | N/A                              | Disabled User (ID 6)     | N/A                                                                    | User is removed from all Databricks groups                                       |
 
 > **Note on current implementation**: The existing Resource Provisioner maps both `User` and `Guest` Portal roles to the `project_users` Databricks group. See [Databricks Workspace RBAC Grants](/DeveloperGuide/Security/WorkspaceUsersRBAC.md) for the current implementation.
 
@@ -54,10 +54,10 @@ For this role-mapping model, create **account groups** (not workspace-local grou
 
 Databricks documents the exact roles that can create account groups in identity-federated workspaces:
 
-| Creation path | Exact required role/permission |
-| ------------- | ------------------------------ |
-| Account console / workspace admin settings | **Account admin** or **Workspace admin** |
-| Account Groups API (automation) | Caller authenticated as **Account admin**, **Workspace admin**, or a delegated **Group manager** |
+| Creation path                              | Exact required role/permission                                                                   |
+| ------------------------------------------ | ------------------------------------------------------------------------------------------------ |
+| Account console / workspace admin settings | **Account admin** or **Workspace admin**                                                         |
+| Account Groups API (automation)            | Caller authenticated as **Account admin**, **Workspace admin**, or a delegated **Group manager** |
 
 References:
 - [Principal: Workspace-local and account groups](https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-principal#workspace-local-and-account-groups)
@@ -70,13 +70,13 @@ References:
 
 ### Internal (Entra) Roles
 
-| Role ID | Portal Role Name | Databricks Group | Workspace Entitlements | Unity Catalog Access | Azure Storage (direct) |
-| ------- | ---------------- | ---------------- | ---------------------- | -------------------- | ---------------------- |
-| 2 | Workspace Lead | `project_lead` | Workspace access, Databricks SQL, Cluster creation | Full (owner-level grants on workspace catalog) | `Storage Blob Data Contributor` |
-| 3 | Admin | `admins` (workspace-local) + `project_admins` (account group) | Workspace access, Databricks SQL, Cluster creation | Full (owner-level grants on workspace catalog) via `project_admins` | `Storage Blob Data Contributor` |
-| 4 | Collaborator | `project_users` | Workspace access, Databricks SQL | Read/Write on workspace catalog schemas and tables | `Storage Blob Data Contributor` |
-| 5 | Guest | `project_guests` | Workspace access, Databricks SQL | Read-only (`SELECT`) on workspace catalog | `Storage Blob Data Reader` |
-| 6 | Disabled User | *(removed from all groups)* | None | None | Role assignment removed |
+| Role ID | Portal Role Name | Databricks Group                                              | Workspace Entitlements                             | Unity Catalog Access                                                | Azure Storage (direct)          |
+| ------- | ---------------- | ------------------------------------------------------------- | -------------------------------------------------- | ------------------------------------------------------------------- | ------------------------------- |
+| 2       | Workspace Lead   | `project_lead`                                                | Workspace access, Databricks SQL, Cluster creation | Full (owner-level grants on workspace catalog)                      | `Storage Blob Data Contributor` |
+| 3       | Admin            | `admins` (workspace-local) + `project_admins` (account group) | Workspace access, Databricks SQL, Cluster creation | Full (owner-level grants on workspace catalog) via `project_admins` | `Storage Blob Data Contributor` |
+| 4       | Collaborator     | `project_users`                                               | Workspace access, Databricks SQL                   | Read/Write on workspace catalog schemas and tables                  | `Storage Blob Data Contributor` |
+| 5       | Guest            | `project_guests`                                              | Workspace access, Databricks SQL                   | Read-only (`SELECT`) on workspace catalog                           | `Storage Blob Data Reader`      |
+| 6       | Disabled User    | *(removed from all groups)*                                   | None                                               | None                                                                | Role assignment removed         |
 
 
 ## Workspace Entitlements by Group
@@ -85,10 +85,10 @@ Databricks workspace entitlements define what capabilities are available to each
 
 | Entitlement                  | `project_lead` | `admins` | `project_users` |
 | ---------------------------- | :------------: | :------: | :-------------: |
-| Workspace access             |       ✅       |    ✅    |       ✅        |
-| Databricks SQL access        |       ✅       |    ✅    |       ✅        |
-| Cluster creation             |       ✅       |    ✅    |       ❌        |
-| Allow instance pool creation |       ✅       |    ✅    |       ❌        |
+| Workspace access             |       ✅        |    ✅     |        ✅        |
+| Databricks SQL access        |       ✅        |    ✅     |        ✅        |
+| Cluster creation             |       ✅        |    ✅     |        ❌        |
+| Allow instance pool creation |       ✅        |    ✅     |        ❌        |
 
 > `project_users` and `project_guests` use SQL warehouses (shared compute) rather than personal clusters. This reduces cost and simplifies permission enforcement.
 
@@ -120,15 +120,15 @@ GRANT USE CATALOG, USE SCHEMA, SELECT
 ### Privilege Summary Table
 
 | Unity Catalog Privilege | `project_lead` | `project_admins` | `project_users` | `project_guests` |
-| ----------------------- | :------------: | :------: | :-------------: | :--------------: |
-| `USE CATALOG` | ✅ | ✅ | ✅ | ✅ |
-| `USE SCHEMA` | ✅ | ✅ | ✅ | ✅ |
-| `SELECT` | ✅ | ✅ | ✅ | ✅ |
-| `MODIFY` | ✅ | ✅ | ✅ | ❌ |
-| `CREATE TABLE` | ✅ | ✅ | ✅ | ❌ |
-| `CREATE SCHEMA` | ✅ | ✅ | ❌ | ❌ |
-| `CREATE FUNCTION` | ✅ | ✅ | ❌ | ❌ |
-| `EXECUTE` | ✅ | ✅ | ❌ | ❌ |
+| ----------------------- | :------------: | :--------------: | :-------------: | :--------------: |
+| `USE CATALOG`           |       ✅        |        ✅         |        ✅        |        ✅         |
+| `USE SCHEMA`            |       ✅        |        ✅         |        ✅        |        ✅         |
+| `SELECT`                |       ✅        |        ✅         |        ✅        |        ✅         |
+| `MODIFY`                |       ✅        |        ✅         |        ✅        |        ❌         |
+| `CREATE TABLE`          |       ✅        |        ✅         |        ✅        |        ❌         |
+| `CREATE SCHEMA`         |       ✅        |        ✅         |        ❌        |        ❌         |
+| `CREATE FUNCTION`       |       ✅        |        ✅         |        ❌        |        ❌         |
+| `EXECUTE`               |       ✅        |        ✅         |        ❌        |        ❌         |
 
 > Unity Catalog privileges cascade: granting at the catalog level propagates to all schemas and tables within it. More restrictive schema-level overrides can be applied where needed. See [Unity Catalog privilege model and inheritance](https://docs.databricks.com/en/data-governance/unity-catalog/manage-privileges/privilege-model.html) for details on how privileges cascade from catalog → schema → table. For a full list of available privileges at each securable object level, see [Unity Catalog privileges and securable objects](https://docs.databricks.com/en/data-governance/unity-catalog/manage-privileges/privileges.html).
 
