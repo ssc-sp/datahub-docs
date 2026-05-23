@@ -92,7 +92,9 @@ participant U as Web Portal User
 participant UP as FSDH Portal
 participant UC as datahub-stage container (Blob)
 participant AV as ClamAV Scanner (Container App trigger)
+participant F as Datahub.Functions
 participant DC as datahub/shared folder (Blob)
+participant SB as Service Bus
 participant N as FSDH Portal
 participant L as Log Analytics / App Insights
 
@@ -107,12 +109,15 @@ AV-->>AV: Scan file with ClamAV
 AV->>UC: Set metadata avscan=ok
 AV-->>L: Log scan event (status=Clean)
 deactivate AV
-UC-->>N: Trigger on metadata changed (avscan=ok)
+UC-->>F: Trigger on metadata changed (avscan=ok)
+activate F
+F->>UC: Read source blob and scan metadata
+F->>DC: Copy blob to shared folder for external access
+F-->>L: Log copy result (destinationUrl)
+F->>SB: Publish FileProcessed message
+deactivate F
+SB-->>N: Deliver processed notification
 activate N
-N->>UC: Read source blob and scan metadata
-N->>DC: Copy blob to shared folder for external access
-DC-->>N: Trigger notification
-N-->>L: Log copy result (destinationUrl)
 N-->>U: Notify success (portal/email)
 N-->>L: Log notification result (success)
 deactivate N
@@ -126,7 +131,9 @@ autonumber
 participant U as Uploader (Client)
 participant UC as datahub-stage container (Blob)
 participant AV as ClamAV Scanner (Container App trigger)
+participant F as Datahub.Functions
 participant DC as datahub/shared folder (Blob)
+participant SB as Service Bus
 participant N as FSDH Portal
 participant L as Log Analytics / App Insights
 
@@ -139,13 +146,20 @@ AV-->>AV: Scan file with ClamAV
 alt Virus found
   AV->>UC: Set metadata avscan=fail, avscan_reason=signature
   AV-->>L: Log scan event (status=Infected, signature)
-  UC-->>N: Trigger on metadata changed (avscan=fail)
-  N--x DC: Do not copy to data storage
-  N-->>U: Trigger failure notification
+  UC-->>F: Trigger on metadata changed (avscan=fail)
+  F->>UC: Read source blob and scan metadata
+  F--x DC: Do not copy to data storage
+  F-->>F: Lock account of user
+  F->>SB: Publish FileFailed message
+  SB-->>N: Deliver failure notification
+  N-->>U: Logout user
   N-->>L: Log blocked copy (infected)
 else Scan error
   AV->>UC: Set metadata avscan=fail, avscan_reason=scan_error
-  UC-->>N: Trigger on metadata changed (avscan=fail)
+  UC-->>F: Trigger on metadata changed (avscan=fail)
+  F->>UC: Read source blob and scan metadata
+  F->>SB: Publish FileFailed message
+  SB-->>N: Deliver failure notification
   N-->>U: Trigger error notification
   AV-->>L: Log scan event (status=Error, reason)
   N-->>L: Log blocked copy (error)
@@ -156,22 +170,13 @@ N-->>L: Log notification result (failure)
 ## Notifications
 
 - Notifications are coordinated by a new function in `Datahub.Functions` that monitors blob metadata updates after scanning completes
-- The function uses the existing service bus integration to notify the FSDH portal when a file has been processed successfully or has failed scanning
-- The portal already has a service principal with read/write access to the workspace storage container
+- The function calls `EmailNotificationHandler` directly when a file has been processed successfully or when the scan result is not `ok`
+- For non-`ok` scan results, the function locks the external user and sends an alert to the workspace owner before sending the failure notification
 - Required notifications are detailed in [requirements document](./requirements.md#notifications)
-  
-```mermaid
-sequenceDiagram
-autonumber
-participant S as datahub-stage container (Blob metadata)
-participant P as FSDH Portal
-participant E as EmailNotificationHandler
 
-S-->>P: Metadata changed (avscan, avscan_reason)
-P->>S: Read metadata and blob context
-P->>E: Send notification payload (status, file, user)
-E-->>P: Acknowledge delivery request
-```
+### Service Bus Queues
+
+The virus scanning workflow uses service bus queues to separate scan result handling from user status updates and email delivery. `virus-scan-notification` carries the processed or failed scan result for notification handling, `virus-scan-user-status` carries external-user lock or status changes, and `email-notification` is consumed by `EmailNotificationHandler` for the email delivery step. See [Message Bus Overview](../ServiceBus/README.md) for the queue reference.
 
 ### Notification workflow through Datahub.Functions
 
@@ -180,22 +185,19 @@ sequenceDiagram
 autonumber
 participant S as datahub-stage container (Blob metadata)
 participant F as Datahub.Functions
-participant SB as Existing Service Bus
-participant P as FSDH Portal
 participant E as EmailNotificationHandler
 
 S-->>F: Metadata changed (avscan, avscan_reason)
 F->>S: Read blob metadata and context
 alt Scan completed successfully
-  F->>SB: Publish FileProcessed message
-  SB-->>P: Deliver processed notification
-  P->>E: Send success email notification
-  E-->>P: Acknowledge delivery
-else Scan failed or infected
-  F->>SB: Publish FileFailed message
-  SB-->>P: Deliver failure notification
-  P->>E: Send failure email notification
-  E-->>P: Acknowledge delivery
+  F->>E: Send success email notification
+  E-->>F: Acknowledge delivery
+else Scan result is not ok
+  F-->>F: Lock external user
+  F->>E: Send workspace owner alert
+  E-->>F: Acknowledge delivery
+  F->>E: Send failure email notification to external user
+  E-->>F: Acknowledge delivery
 end
 ```
 
