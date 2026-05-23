@@ -16,9 +16,9 @@ The `ClamAV` containerized antivirus engine is pre-configured with up-to-date ma
 - Upload tools (for example, `azcopy`) target the upload container only
 - No tokens are issued for the data storage container; files appear there only after a clean scan and copy.
 - Files are not accessible or downloadable until the scan is complete and status is Clean.
-- Azure Container Apps listens for blob created/updated events and kicks off the scan automatically
-- `datahub-staging` (upload staging) and `datahub` (shared data exchange) containers are created in TF during workspace provisioning; external sharing uses `datahub/shared/<user name>`
-
+- Azure Container Apps scans blobs in `datahub-stage` and writes scan metadata (`avscan`, `avscan_reason`) to the blob
+- Metadata changes in `datahub-stage` trigger downstream copy and notification flows
+- `datahub-stage` (upload staging) and `datahub` (shared data exchange) containers are created in TF during workspace provisioning; external sharing uses `datahub/shared/<user name>`
 
 ## Goals
 
@@ -43,7 +43,7 @@ The `ClamAV` containerized antivirus engine is pre-configured with up-to-date ma
   - Ensure scanning engine supports deep content inspection within embedded objects (e.g., PDF attachments, OLE objects)
   - Isolate upload from data storage using separate containers and event-driven triggers.
 - Establish documented procedures for investigating and resolving false positive detections
-- Provide clear events for downstream copy and user notification.
+- Provide clear metadata-based events for downstream copy and user notification.
 - Notify the user immediately after upload that scanning is in progress.
 
 ## Restrictions
