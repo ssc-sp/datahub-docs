@@ -35,6 +35,7 @@ Message contract:
 | `ScanStartTime` | `string` (ISO 8601 UTC) | Yes | Timestamp when ClamAV scan started. |
 | `ScanEndTime` | `string` (ISO 8601 UTC) | Yes | Timestamp when ClamAV scan completed. |
 | `ScanError` | `string` | Yes | Empty string when scan execution is successful; populated with error details when scan execution fails. |
+| `ScannedFile` | `string` | Yes | Blob path of the file that was scanned |
 
 ## Folder structure
 
