@@ -4,7 +4,7 @@ Uploading from non-managed computers is a common malware entry point. To protect
 
 See [requirements](./requirements.md) for overview.
 
-This page documents the virus scanning workflow for FSDH. It explains the actors, the sequence of operations, the key events and blob metadata used across the process, and important operational notes.
+This page documents the virus scanning workflow for FSDH. It explains the actors, the sequence of operations, the key events (including queue messages) and blob metadata used across the process, and important operational notes.
 
 ## Containers
 
@@ -21,6 +21,20 @@ Containers are described in Terraform in [data.tf](https://github.com/ssc-sp/dat
   - Issue has been found by ClamAV
   - `avscan_reason`: `<details of the threat>`
     - Details of the issue. This should be recorded for FSDH team to understand and identify false positives
+
+## ClamAV Completion Queue (Azure Storage Queue)
+
+Because function triggers cannot rely on blob metadata changes, scan completion events are sent to an Azure Storage Queue. `Datahub.Functions` consumes this queue as the trigger and then reads blob metadata/context to determine clean, infected, or error handling.
+
+Queue name: `clamav-scan-completion`
+
+Message contract:
+
+| Field | Type | Required | Description |
+| --- | --- | --- | --- |
+| `ScanStartTime` | `string` (ISO 8601 UTC) | Yes | Timestamp when ClamAV scan started. |
+| `ScanEndTime` | `string` (ISO 8601 UTC) | Yes | Timestamp when ClamAV scan completed. |
+| `ScanError` | `string` | Yes | Empty string when scan execution is successful; populated with error details when scan execution fails. |
 
 ## Folder structure
 
@@ -55,9 +69,9 @@ The copy function is in the `datahub-images` repository:
 
 `scan_blob.py` performs scanning and post-scan actions on blobs in the staging container.
 
-**Trigger — metadata changes in `datahub-stage`**
+**Trigger — Azure Storage Queue message on scan completion**
 
-Flows are triggered when blob metadata changes in `datahub-stage`, specifically when the scanner writes `avscan` metadata (for example `avscan=ok` or `avscan=fail`). The portal/workflow reads the updated metadata and executes clean, infected, or error handling.
+After each scan completes, the scanner sends a message to the ClamAV completion Azure Storage Queue with `ScanStartTime`, `ScanEndTime`, and `ScanError`. `Datahub.Functions` is triggered by this queue message and then reads blob metadata (`avscan`, `avscan_reason`) to execute clean, infected, or error handling.
 
 **Chunk-based scanning**
 
@@ -92,6 +106,7 @@ participant U as Web Portal User
 participant UP as FSDH Portal
 participant UC as datahub-stage container (Blob)
 participant AV as ClamAV Scanner (Container App trigger)
+participant Q as ClamAV completion queue (Azure Storage Queue)
 participant F as Datahub.Functions
 participant DC as datahub/shared folder (Blob)
 participant SB as Service Bus
@@ -107,9 +122,10 @@ activate AV
 AV->>UC: Open blob for scanning
 AV-->>AV: Scan file with ClamAV
 AV->>UC: Set metadata avscan=ok
+AV->>Q: Enqueue completion message\n(ScanStartTime, ScanEndTime, ScanError="")
 AV-->>L: Log scan event (status=Clean)
 deactivate AV
-UC-->>F: Trigger on metadata changed (avscan=ok)
+Q-->>F: Trigger on queue message
 activate F
 F->>UC: Read source blob and scan metadata
 F->>DC: Copy blob to shared folder for external access
@@ -131,6 +147,7 @@ autonumber
 participant U as Uploader (Client)
 participant UC as datahub-stage container (Blob)
 participant AV as ClamAV Scanner (Container App trigger)
+participant Q as ClamAV completion queue (Azure Storage Queue)
 participant F as Datahub.Functions
 participant DC as datahub/shared folder (Blob)
 participant SB as Service Bus
@@ -145,8 +162,9 @@ AV->>UC: Download blob for scanning
 AV-->>AV: Scan file with ClamAV
 alt Virus found
   AV->>UC: Set metadata avscan=fail, avscan_reason=signature
+  AV->>Q: Enqueue completion message\n(ScanStartTime, ScanEndTime, ScanError="")
   AV-->>L: Log scan event (status=Infected, signature)
-  UC-->>F: Trigger on metadata changed (avscan=fail)
+  Q-->>F: Trigger on queue message
   F->>UC: Read source blob and scan metadata
   F--x DC: Do not copy to data storage
   F-->>F: Lock account of user
@@ -156,7 +174,8 @@ alt Virus found
   N-->>L: Log blocked copy (infected)
 else Scan error
   AV->>UC: Set metadata avscan=fail, avscan_reason=scan_error
-  UC-->>F: Trigger on metadata changed (avscan=fail)
+  AV->>Q: Enqueue completion message\n(ScanStartTime, ScanEndTime, ScanError=error_details)
+  Q-->>F: Trigger on queue message
   F->>UC: Read source blob and scan metadata
   F->>SB: Publish FileFailed message
   SB-->>N: Deliver failure notification
@@ -169,7 +188,7 @@ N-->>L: Log notification result (failure)
 
 ## Notifications
 
-- Notifications are coordinated by a new function in `Datahub.Functions` that monitors blob metadata updates after scanning completes
+- Notifications are coordinated by a new function in `Datahub.Functions` that monitors ClamAV completion queue messages after scanning completes
 - The function calls `EmailNotificationHandler` directly when a file has been processed successfully or when the scan result is not `ok`
 - For non-`ok` scan results, the function locks the external user and sends an alert to the workspace owner before sending the failure notification
 - Required notifications are detailed in [requirements document](./requirements.md#notifications)
@@ -183,12 +202,13 @@ The virus scanning workflow uses service bus queues to separate scan result hand
 ```mermaid
 sequenceDiagram
 autonumber
-participant S as datahub-stage container (Blob metadata)
+participant Q as ClamAV completion queue (Azure Storage Queue)
+participant S as datahub-stage container (Blob)
 participant F as Datahub.Functions
 participant E as EmailNotificationHandler
 
-S-->>F: Metadata changed (avscan, avscan_reason)
-F->>S: Read blob metadata and context
+Q-->>F: Queue message received (ScanStartTime, ScanEndTime, ScanError)
+F->>S: Read blob metadata and context (avscan, avscan_reason)
 alt Scan completed successfully
   F->>E: Send success email notification
   E-->>F: Acknowledge delivery
