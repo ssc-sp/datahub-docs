@@ -26,7 +26,7 @@ Containers are described in Terraform in [data.tf](https://github.com/ssc-sp/dat
 
 Because function triggers cannot rely on blob metadata changes, scan completion events are sent to an Azure Storage Queue. `Datahub.Functions` consumes this queue as the trigger and then reads blob metadata/context to determine clean, infected, or error handling.
 
-Queue name: `clamav-scan-completion`
+Queue name: `clamav-scan-result`
 
 Message contract:
 
@@ -72,7 +72,7 @@ The copy function is in the `datahub-images` repository:
 
 **Trigger — Azure Storage Queue message on scan completion**
 
-After each scan completes, the scanner sends a message to the ClamAV completion Azure Storage Queue with `ScanStartTime`, `ScanEndTime`, and `ScanError`. `Datahub.Functions` is triggered by this queue message and then reads blob metadata (`avscan`, `avscan_reason`) to execute clean, infected, or error handling.
+After each scan completes, the scanner sends a message to the `clamav-scan-result` Azure Storage Queue with `ScanStartTime`, `ScanEndTime`, and `ScanError`. `Datahub.Functions` is triggered by this queue message and then reads blob metadata (`avscan`, `avscan_reason`) to execute clean, infected, or error handling.
 
 **Chunk-based scanning**
 
