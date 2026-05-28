@@ -27,3 +27,7 @@ This section covers security documentation for workspace access, application per
 ## Web Application Proxy and authentication
 
 - [WebAppProxy](./WebAppProxy/)
+
+## Azure Permissions
+
+- [Azure Permissions](./Azure/README.md)
