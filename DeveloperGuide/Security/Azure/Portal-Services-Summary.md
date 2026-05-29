@@ -198,6 +198,12 @@ Also imports shared code via `Datahub.Shared.projitems` and `Desktop.SharedCode.
   - Required for: Azure Cost Management queries, budget reads
 - **Storage Blob Data Contributor** on workspace storage accounts
   - Required for: Blob/Data Lake file operations, SAS token generation
+- **Azure Storage Queue permissions for AV flow (clamav-scan-result)**
+  - Required: Managed identity authentication for all AV queue access.
+  - Required: Storage Queue Data Message Processor role on the target storage queue for the AV consumer identity.
+  - Required: Storage Queue Data Message Sender role on the target storage queue for the publisher identity.
+  - Not allowed for runtime authentication: DatahubStorageQueue connection string and account-key based queue access.
+  - NB: Storage Queue Data Contributor may be used instead of separate Sender and Processor roles. 
 - **Storage Account Key Operator Service Role** on workspace storage accounts
   - Required for: Reading storage account keys for legacy access patterns
 - **Key Vault Secrets Officer** on core and workspace key vaults
