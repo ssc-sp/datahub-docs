@@ -219,10 +219,21 @@ Also imports shared code via `Datahub.Shared.projitems` and `Desktop.SharedCode.
 
 ### Microsoft Graph API Permissions (Application)
 
-- `User.Read.All` — read user profiles, check account status
-- `User.ReadWrite.All` — user management operations
-- `GroupMember.Read.All` — read group membership
-- `Directory.Read.All` — directory object lookups
+- `Directory.Read.All` — Delegated, Admin consent required:Yes, read user profiles, check account status 
+- `Directory.Read.All` — Application, Admin consent required:Yes, read user profiles, check account status 
+- `email` - Delegated, Admin consent required:No
+- `offline_access` - Delegated, Admin consent required:No
+- `openid` - Delegated, Admin consent required:No
+- `profile` - Delegated, Admin consent required:No
+- `User.Invite.All` — Application, Admin consent required:Yes
+- `User.Read` — Delegated, Admin consent required:No, read user profiles, check account status
+- `User.Read.All` — Delegated, Admin consent required:Yes, read user profiles, check account status
+- `User.Read.All` — Application, Admin consent required:Yes, read user profiles, check account status
+- `User.ReadBasic.All` — Delegated, Admin consent required:No, read user profiles, check account status
+
+### Azure Key Vault API Permissions (Application)
+
+- `user_impersonation` - Delegated, Admin consent required:No, Have full access to the Azure Key Vault service
 
 ### Azure DevOps Permissions
 
