@@ -231,9 +231,9 @@ Also imports shared code via `Datahub.Shared.projitems` and `Desktop.SharedCode.
 - `User.Read.All` — Application, Admin consent required:Yes, read user profiles, check account status
 - `User.ReadBasic.All` — Delegated, Admin consent required:No, read user profiles, check account status
 
-### Azure Key Vault API Permissions (Application)
+### Azure Storage Account API Permissions (Application)
 
-- `user_impersonation` - Delegated, Admin consent required:No, Have full access to the Azure Key Vault service
+- `user_impersonation` - Delegated, Admin consent required:No, Azure Storage Account
 
 ### Azure DevOps Permissions
 
