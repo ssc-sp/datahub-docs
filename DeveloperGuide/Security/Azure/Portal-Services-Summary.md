@@ -184,8 +184,6 @@ Also imports shared code via `Datahub.Shared.projitems` and `Desktop.SharedCode.
   - `Portal/src/Datahub.Infrastructure/Services/UserManagement/MSGraphService.cs`
   - `Portal/src/Datahub.Infrastructure/Services/UserManagement/UserInformationService.cs`
 
----
-
 ## Required Azure Roles and API Permissions
 
 ### Azure RBAC Roles (for the service principal / managed identity)

@@ -52,6 +52,18 @@
   - `Portal/src/Datahub.Infrastructure/Services/Subscriptions/DatahubAzureSubscriptionService.cs`
   - `Portal/src/Datahub.Infrastructure/Services/Helpers/HealthCheckHelper.cs`
 
+### Microsoft Graph (User Management)
+
+- Build authenticated `GraphServiceClient` instances with `systemTokenCredentialService.GetTokenCredential()`
+- Resolve current Entra user profile (display name, email, tenant presence)
+- Query user account state (`accountEnabled`) when selecting matching portal users by email
+- Create and register portal users from Microsoft Graph user data
+- Enforce external-user behavior: external logins do not call Graph user endpoints in this service path
+- Credential used: default (`ISystemTokenCredentialService`)
+- Source files:
+  - `Portal/src/Datahub.Infrastructure/Services/UserManagement/UserInformationService.cs`
+  - `Portal/src/Datahub.Infrastructure/Services/UserManagement/MSGraphService.cs`
+
 ### DI Registration
 
 - Source files:
