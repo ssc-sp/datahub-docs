@@ -5,9 +5,69 @@ In order to create workspaces you need admin privileges. To start with, you need
 Run the following SQL script initialize the admin project:
 
 ```sql
-INSERT [dbo].[Projects] ([Project_ID], [SectorId], [BranchId], [DivisionId], [Sector_Name], [Branch_Name], [Division_Name], [Contact_List], [Project_Name], [Project_Name_Fr], [Project_Acronym_CD], [Project_Budget], [Project_Admin], [Project_Summary_Desc], [Project_Summary_Desc_Fr], [Project_Goal], [Project_Category], [Initial_Meeting_DT], [Number_Of_Users_Involved], [Is_Private], [Is_Featured], [Data_Sensitivity], [Stage_Desc], [Project_Status_Desc], [Project_Status], [Project_Phase], [GC_Docs_URL], [Project_Icon], [Comments_NT], [Last_Contact_DT], [Next_Meeting_DT], [Last_Updated_DT], [Last_Updated_UserId], [Deleted_DT], [DatahubAzureSubscriptionId], [Databricks_URL], [PowerBI_URL], [WebForms_URL], [DB_Name], [DB_Server], [DB_Type], [OnboardingApplicationId], [MetadataAdded], [WebAppEnabled], [WebAppUrlRewritingEnabled], [OperationalWindow], [HasCostRecovery], [WebApp_URL], [Version], [GitRepo_URL], [HashedAPIToken], [ExpiryDate], [PreventAutoDelete]) VALUES (3, NULL, NULL, NULL, N'DHPGLIST', NULL, NULL, N'<user_email>', N'Datahub Admins', NULL, N'DHPGLIST', CAST(400.00 AS Decimal(18, 2)), N'<user_email>', NULL, NULL, NULL, NULL, CAST(N'0001-01-01T00:00:00.0000000' AS DateTime2), NULL, 0, 0, N'Unclassified', NULL, N'Ongoing', 1, N'Pending Approval', NULL, NULL, NULL, NULL, NULL, CAST(N'2024-10-10T18:01:25.9262677' AS DateTime2), N'1', NULL, 1, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, NULL, 0, NULL, 0, NULL, NULL, NULL, NULL, CAST(N'0001-01-01T00:00:00.0000000' AS DateTime2), 0)
+INSERT INTO Projects (
+    Contact_List, Project_Name, Project_Name_Fr, Project_Acronym_CD, 
+    Project_Budget, Project_Admin, Project_Summary_Desc, Project_Summary_Desc_Fr, 
+    Is_Private, Is_Featured, Data_Sensitivity, Project_Status_Desc, Project_Status, 
+    Project_Phase, Project_Icon, Last_Updated_DT, Last_Updated_UserId, Deleted_DT, 
+    DatahubAzureSubscriptionId, DB_Type, MetadataAdded, WebAppEnabled, 
+    WebAppUrlRewritingEnabled, OperationalWindow, WebApp_URL, Version, 
+    GitRepo_URL, HashedAPIToken, ExpiryDate, PreventAutoDelete, 
+    AllowDatahubSupport, ParentGCHostingBudgetId, Created_DT, IsVersionUpdateRequested
+)
+VALUES (
+    N'contact@canada.ca',                       -- Contact_List (nvarchar)
+    N'Data Platform Migration',                 -- Project_Name (nvarchar)
+    N'Migration de la plateforme de données',   -- Project_Name_Fr (nvarchar)
+    N'DHPGLIST',                                -- Project_Acronym_CD (nvarchar)
+    450000.00,                                  -- Project_Budget (decimal)
+    N'Alex Tremblay',                           -- Project_Admin (nvarchar)
+    N'Migrating core analytics infrastructure', -- Project_Summary_Desc (nvarchar)
+    N'Migration de l''infrastructure',          -- Project_Summary_Desc_Fr (nvarchar)
+    0,                                          -- Is_Private (bit: 0 = False)
+    1,                                          -- Is_Featured (bit: 1 = True)
+    N'High',                                    -- Data_Sensitivity (nvarchar)
+    N'In Progress',                             -- Project_Status_Desc (nvarchar)
+    2,                                          -- Project_Status (int)
+    N'Phase 2',                                 -- Project_Phase (nvarchar)
+    N'cloud-icon.png',                          -- Project_Icon (nvarchar)
+    SYSUTCDATETIME(),                           -- Last_Updated_DT (datetime2 - current UTC system time)
+    N'user_admin_01',                           -- Last_Updated_UserId (nvarchar)
+    NULL,                                       -- Deleted_DT (datetime2 - null because it is active)
+    1,                                          -- DatahubAzureSubscriptionId (int)
+    N'SQL Server',                              -- DB_Type (nvarchar)
+    1,                                          -- MetadataAdded (bit)
+    1,                                          -- WebAppEnabled (bit)
+    0,                                          -- WebAppUrlRewritingEnabled (bit)
+    '2026-12-31 23:59:59.0000000',              -- OperationalWindow (datetime2)
+    N'https://datahub.gc.ca',                   -- WebApp_URL (nvarchar)
+    N'v2.4.1',                                  -- Version (nvarchar)
+    N'https://github.com',                      -- GitRepo_URL (nvarchar)
+    N'e3b0c44298fc1c149afbf4c8996fb92427ae41e', -- HashedAPIToken (nvarchar)
+    '2028-08-10 14:30:00.0000000',              -- ExpiryDate (datetime2)
+    0,                                          -- PreventAutoDelete (bit)
+    '2026-09-01 00:00:00.0000000',              -- AllowDatahubSupport (datetime2)
+    NULL,                                       -- ParentGCHostingBudgetId (int)
+    '2026-08-10 14:30:00.0000000',              -- Created_DT (datetime2)
+    0                                           -- IsVersionUpdateRequested (bit)
+);
+
 ```
 
 ```sql
-INSERT [dbo].[Project_Users] ([ProjectUser_ID], [PortalUserId], [ApprovedPortalUserId], [RoleId], [Project_ID], [Approved_DT], [User_Name], [IsDataApprover], [IsAdmin], [User_ID], [ApprovedUser], [IsDataSteward]) VALUES (1, 1, 1, 1, 1, CAST(N'2023-01-01T20:11:47.8260678' AS DateTime2), N'<your.user@ssc-spc.gc.ca>', 1, 1, N'<user-aad-oid>', N'<user-aad-oid>', 0)
+INSERT INTO Projects (
+    [PortalUserId],
+    [ApprovedPortalUserId],
+    [RoleId],
+    [Project_ID],
+    [Approved_DT],
+    [IsDataSteward])
+VALUES (
+    1,
+    1,
+    1,
+    5,
+    CAST (N'2023-01-01T20:11:47.8260678' AS DATETIME2),
+    0
+);
 ```
