@@ -4,6 +4,13 @@ In order to create workspaces you need admin privileges. To start with, you need
 
 Run the following SQL script initialize the admin project:
 
+```
+insert into azureSubscriptions(
+TenantId,
+SubscriptionId,
+SubscriptionName) 
+values('','','');
+```
 ```sql
 INSERT INTO Projects (
     Contact_List, Project_Name, Project_Name_Fr, Project_Acronym_CD, 
