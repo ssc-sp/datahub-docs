@@ -118,3 +118,11 @@ VALUES (
     0
 );
 ```
+```
+insert into versiontags (Tag ,
+IsActive ,
+CreatedDate ,
+VersionDescription ,
+VersionDescriptionFr,
+AnnouncementCreated ) values('v6.2.13','True', getdate(), 'new','new','False');
+```
