@@ -8,18 +8,19 @@ Run the following SQL script initialize the admin project:
 insert into azureSubscriptions(
 TenantId,
 SubscriptionId,
-SubscriptionName) 
+SubscriptionName)
 values('','','');
 ```
+
 ```sql
 INSERT INTO Projects (
-    Contact_List, Project_Name, Project_Name_Fr, Project_Acronym_CD, 
-    Project_Budget, Project_Admin, Project_Summary_Desc, Project_Summary_Desc_Fr, 
-    Is_Private, Is_Featured, Data_Sensitivity, Project_Status_Desc, Project_Status, 
-    Project_Phase, Project_Icon, Last_Updated_DT, Last_Updated_UserId, Deleted_DT, 
-    DatahubAzureSubscriptionId, DB_Type, MetadataAdded, WebAppEnabled, 
-    WebAppUrlRewritingEnabled, OperationalWindow, WebApp_URL, Version, 
-    GitRepo_URL, HashedAPIToken, ExpiryDate, PreventAutoDelete, 
+    Contact_List, Project_Name, Project_Name_Fr, Project_Acronym_CD,
+    Project_Budget, Project_Admin, Project_Summary_Desc, Project_Summary_Desc_Fr,
+    Is_Private, Is_Featured, Data_Sensitivity, Project_Status_Desc, Project_Status,
+    Project_Phase, Project_Icon, Last_Updated_DT, Last_Updated_UserId, Deleted_DT,
+    DatahubAzureSubscriptionId, DB_Type, MetadataAdded, WebAppEnabled,
+    WebAppUrlRewritingEnabled, OperationalWindow, WebApp_URL, Version,
+    GitRepo_URL, HashedAPIToken, ExpiryDate, PreventAutoDelete,
     AllowDatahubSupport, ParentGCHostingBudgetId, Created_DT, IsVersionUpdateRequested
 )
 VALUES (
@@ -60,13 +61,13 @@ VALUES (
 );
 
 INSERT INTO Projects (
-    Contact_List, Project_Name, Project_Name_Fr, Project_Acronym_CD, 
-    Project_Budget, Project_Admin, Project_Summary_Desc, Project_Summary_Desc_Fr, 
-    Is_Private, Is_Featured, Data_Sensitivity, Project_Status_Desc, Project_Status, 
-    Project_Phase, Project_Icon, Last_Updated_DT, Last_Updated_UserId, Deleted_DT, 
-    DatahubAzureSubscriptionId, DB_Type, MetadataAdded, WebAppEnabled, 
-    WebAppUrlRewritingEnabled, OperationalWindow, WebApp_URL, Version, 
-    GitRepo_URL, HashedAPIToken, ExpiryDate, PreventAutoDelete, 
+    Contact_List, Project_Name, Project_Name_Fr, Project_Acronym_CD,
+    Project_Budget, Project_Admin, Project_Summary_Desc, Project_Summary_Desc_Fr,
+    Is_Private, Is_Featured, Data_Sensitivity, Project_Status_Desc, Project_Status,
+    Project_Phase, Project_Icon, Last_Updated_DT, Last_Updated_UserId, Deleted_DT,
+    DatahubAzureSubscriptionId, DB_Type, MetadataAdded, WebAppEnabled,
+    WebAppUrlRewritingEnabled, OperationalWindow, WebApp_URL, Version,
+    GitRepo_URL, HashedAPIToken, ExpiryDate, PreventAutoDelete,
     AllowDatahubSupport, ParentGCHostingBudgetId, Created_DT, IsVersionUpdateRequested
 )
 VALUES (
@@ -109,7 +110,7 @@ VALUES (
 ```
 
 ```sql
-INSERT INTO Projects (
+INSERT INTO Project_Users (
     [PortalUserId],
     [ApprovedPortalUserId],
     [RoleId],
@@ -125,6 +126,7 @@ VALUES (
     0
 );
 ```
+
 ```
 insert into versiontags (Tag ,
 IsActive ,
@@ -132,4 +134,52 @@ CreatedDate ,
 VersionDescription ,
 VersionDescriptionFr,
 AnnouncementCreated ) values('v6.2.13','True', getdate(), 'new','new','False');
+```
+
+```
+insert into GCHostingWorkspaceDetails
+(GcHostingId,DepartmentName,
+LeadEmail,
+LeadFirstName,
+LeadLastName,
+FinancialAuthorityFirstName ,
+FinancialAuthorityLastName,
+FinancialAuthorityCommitmentIsRef,
+FinancialAuthorityCommitmentIsOrg ,
+FinancialAuthorityEmail ,
+WorkspaceBudget,
+WorkspaceName ,
+WorkspaceDescription,
+Subject ,
+Keywords ,
+RetentionPeriodYears ,
+RetentionPeriodStartDate,
+RetentionValue,
+GeneratesInfoBusinessValue,
+SecurityClassification ,
+CBRName ,
+CBRID)
+values(
+'228M',
+'SSC',
+'test@ssc-spc.gc.ca',
+'TEST',
+'TEST',
+'FSDH',
+'FSDH Team',
+'TEST',
+'TEST',
+'TEST@ssc-spc.gc.ca',
+1000,
+'TEST',
+'Seed',
+'SSC',
+'SSC',
+10,
+getdate(),
+'High',
+'True',
+'Unclassified',
+'FSDH',
+'228M')
 ```
