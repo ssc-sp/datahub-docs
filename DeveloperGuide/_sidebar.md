@@ -60,10 +60,6 @@
   - [README](/DeveloperGuide/GCCF/README.md)
   - [Dev auth gccf](/DeveloperGuide/GCCF/dev-auth-gccf.md)
 
-- Keycloak
-
-  - [Multi cloud security](/DeveloperGuide/Keycloak/Multi-cloud security.md)
-
 - Localization
 
   - [Localization](/DeveloperGuide/Localization/Localization.md)
@@ -146,8 +142,6 @@
 
 - Storage
 
-  - [BYO Storage (AWS)](/DeveloperGuide/Storage/BYO Storage (AWS).md)
-  - [BYO Storage (Azure)](/DeveloperGuide/Storage/BYO Storage (Azure).md)
   - [Static Media](/DeveloperGuide/Storage/Static_Media.md)
   - [Storage Limits](/DeveloperGuide/Storage/Storage_Limits.md)
 
